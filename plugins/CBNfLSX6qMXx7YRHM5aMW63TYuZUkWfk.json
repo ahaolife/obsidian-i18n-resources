@@ -1,0 +1,181 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "translate-inline",
+        "version": "1.0.0",
+        "title": "Translate Inline",
+        "description": "Translate Inline Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.1.18",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Select your translation provider",
+                    "target": "选择你的翻译服务提供商"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Select a default source language",
+                    "target": "选择默认源语言"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Select a default target language",
+                    "target": "选择默认目标语言"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Translation provider",
+                    "target": "翻译服务提供商"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "API Key",
+                    "target": "API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default source language",
+                    "target": "默认源语言"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default target language",
+                    "target": "默认目标语言"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter your API Key",
+                    "target": "输入你的 API 密钥"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The formality of the translation",
+                    "target": "翻译的正式程度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Use the DeepL Pro API for translations",
+                    "target": "使用 DeepL Pro API 进行翻译"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "More formal",
+                    "target": "更正式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Less formal",
+                    "target": "不太正式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Prefer more formal",
+                    "target": "偏好更正式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Prefer less formal",
+                    "target": "偏好较不正式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Use DeepL Pro API",
+                    "target": "使用 DeepL Pro API"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Chinese (Simplified)",
+                    "target": "中文（简体）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Chinese (Traditional)",
+                    "target": "中文（繁体）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Haitian Creole",
+                    "target": "海地克里奥尔语"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Irish Gaelic",
+                    "target": "爱尔兰盖尔语"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Kurdish (Kurmanji)",
+                    "target": "库尔德语（库尔曼吉）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Kurdish (Sorani)",
+                    "target": "库尔德语（索拉尼）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Meiteilon (Manipuri)",
+                    "target": "梅泰隆语（曼尼普尔语）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Myanmar (Burmese)",
+                    "target": "缅甸语（缅甸）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Northern Sotho",
+                    "target": "北索托语"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Odia (Oriya)",
+                    "target": "奥里亚语（奥迪亚语）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Scots Gaelic",
+                    "target": "苏格兰盖尔语"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Detect language",
+                    "target": "检测语言"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
