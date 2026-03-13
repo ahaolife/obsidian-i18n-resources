@@ -1,0 +1,295 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "workbooks",
+        "version": "1.0.0",
+        "title": "Workbooks",
+        "description": "Workbooks Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Input not Buffer",
+                    "target": "输入不是 Buffer"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "non-byte EncoderBuffer value",
+                    "target": "非字节 EncoderBuffer 值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Choice not matched",
+                    "target": "选项不匹配"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Child should have a key",
+                    "target": "子项应有一个键"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Child expected, but input is not object",
+                    "target": "需要子项，但输入不是对象"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "seqof/setof, but data is not Array",
+                    "target": "seqof/setof，但数据不是数组"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Tag could be omitted only for .use()",
+                    "target": "仅对 .use() 可省略 Tag"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "length octect is too long",
+                    "target": "length octect 过长"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Decoding of string type: bmpstr length mismatch",
+                    "target": "字符串类型解码：bmpstr 长度不匹配"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Decoding of string type: numstr unsupported characters",
+                    "target": "字符串类型解码：numstr 不支持的字符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Decoding of string type: printstr unsupported characters",
+                    "target": "字符串类型解码：printstr 不支持的字符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Multi-octet tag encoding unsupported",
+                    "target": "不支持多八位组标签编码"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Encoding of string type: numstr supports only digits and space",
+                    "target": "字符串类型编码：numstr 仅支持数字和空格"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Encoding of string type: printstr supports only latin upper and lower case letters, digits, space, apostrophe, left and rigth parenthesis, plus sign, comma, hyphen, dot, slash, colon, equal sign, question mark",
+                    "target": "字符串类型编码：printstr 仅支持拉丁大写和小写字母、数字、空格、撇号、左括号和右括号、加号、逗号、连字符、点、斜杠、冒号、等号、问号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "string objid given, but no values map found",
+                    "target": "给定了字符串 objid，但未找到值映射"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "objid not found in values map",
+                    "target": "值映射中未找到 objid"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Second objid identifier OOB",
+                    "target": "第二个 objid 标识符越界"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "String int or enum given, but no values map",
+                    "target": "给定了字符串 int 或 enum，但没有值映射"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "This browser lacks typed array (Uint8Array) support which is required by `buffer` v5.x. Use `buffer` v4.x if you require old browser support.",
+                    "target": "此浏览器缺少 `buffer` v5.x 所需的类型化数组（Uint8Array）支持。如需旧版浏览器支持，请使用 `buffer` v4.x。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "%s %d: %s",
+                    "target": "%s %d: %s"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Cannot hydrate range",
+                    "target": "无法重新构建范围"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "ODS has no equivalent of format |mmmmm|",
+                    "target": "ODS 没有与格式 |mmmmm| 等效的格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Codepage tables are not loaded.  Non-ASCII characters may not give expected results",
+                    "target": "代码页表未加载。非 ASCII 字符可能无法得到预期结果"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Data saved on code block",
+                    "target": "数据已在代码块中保存"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "%s - %s",
+                    "target": "%s - %s"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "%s: %s",
+                    "target": "%s: %s"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Sheet not saved while in reading mode",
+                    "target": "阅读模式下未保存工作表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Sort Z -> A",
+                    "target": "按 Z -> A 排序"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "EC cryptography",
+                    "target": "EC 加密"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "#REF!",
+                    "target": "#REF!"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "#NAME?",
+                    "target": "#NAME?"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "#DIV/0!",
+                    "target": "#DIV/0!"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "#NULL!",
+                    "target": "#NULL!"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "#VALUE!",
+                    "target": "#VALUE!"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "#NUM!",
+                    "target": "#NUM!"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "￥10.00",
+                    "target": "￥10.00"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "€10.00",
+                    "target": "€10.00"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Friday, Dec. 31, 1971",
+                    "target": "1971年12月31日，星期五"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "link",
+                    "source": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" version=\"1.1\">\n    <g>\n        <path fill-rule=\"evenodd\"\n            d=\"M1.9,4 C1.9,2.84 2.84,1.9 4,1.9 L8,1.9 L8,0 L4,0 C1.79,0 0,1.79 0,4 C0,6.21 1.79,8 4,8 L8,8 L8,6.1 L4,6.1 C2.84,6.1 1.9,5.16 1.9,4 L1.9,4 Z M14,0 L10,0 L10,1.9 L14,1.9 C15.16,1.9 16.1,2.84 16.1,4 C16.1,5.16 15.16,6.1 14,6.1 L10,6.1 L10,8 L14,8 C16.21,8 18,6.21 18,4 C18,1.79 16.21,0 14,0 L14,0 Z M6,5 L12,5 L12,3 L6,3 L6,5 L6,5 Z\"\n            transform=\"translate(-1 5)\" />\n    </g>\n</svg>",
+                    "target": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" version=\"1.1\">\n    <g>\n        <path fill-rule=\"evenodd\"\n            d=\"M1.9,4 C1.9,2.84 2.84,1.9 4,1.9 L8,1.9 L8,0 L4,0 C1.79,0 0,1.79 0,4 C0,6.21 1.79,8 4,8 L8,8 L8,6.1 L4,6.1 C2.84,6.1 1.9,5.16 1.9,4 L1.9,4 Z M14,0 L10,0 L10,1.9 L14,1.9 C15.16,1.9 16.1,2.84 16.1,4 C16.1,5.16 15.16,6.1 14,6.1 L10,6.1 L10,8 L14,8 C16.21,8 18,6.21 18,4 C18,1.79 16.21,0 14,0 L14,0 Z M6,5 L12,5 L12,3 L6,3 L6,5 L6,5 Z\"\n            transform=\"translate(-1 5)\" />\n    </g>\n</svg>"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Fedor Indutny",
+                    "target": "Fedor Indutny"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Plain Text",
+                    "target": "纯文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Source Sans Pro",
+                    "target": "Source Sans Pro"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Comic Sans MS",
+                    "target": "Comic Sans MS"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Courier New",
+                    "target": "Courier New"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Short Date",
+                    "target": "短日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Long Date",
+                    "target": "长日期"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
