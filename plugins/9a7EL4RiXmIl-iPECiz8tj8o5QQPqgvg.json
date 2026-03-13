@@ -1,0 +1,199 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "simple-todo",
+        "version": "1.0.0",
+        "title": "Simple Todo",
+        "description": "Simple Todo Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.2.7",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "This browser doesn't support requestAnimationFrame. Make sure that you load a polyfill in older browsers. https://fb.me/react-polyfills",
+                    "target": "此浏览器不支持 requestAnimationFrame。请确保在旧版浏览器中加载 polyfill。https://fb.me/react-polyfills"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "This browser doesn't support cancelAnimationFrame. Make sure that you load a polyfill in older browsers. https://fb.me/react-polyfills",
+                    "target": "此浏览器不支持 cancelAnimationFrame。请确保在旧版浏览器中加载 polyfill。https://fb.me/react-polyfills"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "forceFrameRate takes a positive int between 0 and 125, forcing framerates higher than 125 fps is not unsupported",
+                    "target": "forceFrameRate 接受 0 到 125 之间的正整数，将帧率强制到高于 125 fps 并非不被支持"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "No active file found",
+                    "target": "未找到活动文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to create archive directory",
+                    "target": "创建归档目录失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to create archive directory:",
+                    "target": "创建归档目录失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to update archive file:",
+                    "target": "更新归档文件失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to update file:",
+                    "target": "更新文件失败："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "The folder path where completed tasks will be archived",
+                    "target": "已完成任务将被归档的文件夹路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Show preview dialog before applying changes when rescheduling tasks",
+                    "target": "在重新安排任务时，应用更改前显示预览对话框"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "已完成任务的归档文件夹路径",
+                    "target": "已完成任务的归档文件夹路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "重新规划任务时显示变更预览对话框",
+                    "target": "重新规划任务时显示变更预览对话框"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Anno Domini",
+                    "target": "公元"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Before Christ",
+                    "target": "公元前"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle todo status",
+                    "target": "切换待办状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Reschedule previous todos",
+                    "target": "重新安排之前的待办"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Archive completed todos",
+                    "target": "归档已完成的待办"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Archive folder path",
+                    "target": "归档文件夹路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show changes preview",
+                    "target": "显示变更预览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "切换任务状态",
+                    "target": "切换任务状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "重新规划未完成任务",
+                    "target": "重新规划未完成任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "归档已完成任务",
+                    "target": "归档已完成任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "归档文件夹路径",
+                    "target": "归档文件夹路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "显示变更预览",
+                    "target": "显示变更预览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "notice",
+                    "source": "Task status changed: {from} -> {to}",
+                    "target": "任务状态已更改：{from} -> {to}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "notice",
+                    "source": "任务状态已更改: {from} -> {to}",
+                    "target": "任务状态已更改: {from} -> {to}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "Tasks have been rescheduled",
+                    "target": "任务已重新规划"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "任务已重新规划",
+                    "target": "任务已重新规划"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Preview changes",
+                    "target": "预览变更"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "变更前后对比",
+                    "target": "变更前后对比"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
