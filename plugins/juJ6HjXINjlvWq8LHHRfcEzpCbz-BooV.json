@@ -1,0 +1,103 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "subdivider",
+        "version": "1.0.0",
+        "title": "Subdivider",
+        "description": "Subdivider Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.1.7",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Turn all subheadings to folders recursively.",
+                    "target": "递归地将所有子标题转换为文件夹。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The maximum depth of recursion.",
+                    "target": "递归的最大深度。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Delete original file or selection after subdivision.",
+                    "target": "分割后删除原始文件或选中内容。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Create index file for folders after subdivision.",
+                    "target": "分割后为文件夹创建索引文件。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If enabled, no new line breaks will be added between blocks.",
+                    "target": "启用后，区块之间不会新增换行。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Recursion Depth",
+                    "target": "递归深度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Delete original file or selection",
+                    "target": "删除原始文件或选中内容"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Create index file for folders",
+                    "target": "为文件夹创建索引文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Maintain original line breaks",
+                    "target": "保留原始换行"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Pick a name:",
+                    "target": "选择一个名称："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Override folder",
+                    "target": "覆盖文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Override file",
+                    "target": "覆盖文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Subdivide the selection",
+                    "target": "细分所选内容"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Subdivide the file",
+                    "target": "细分文件"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
