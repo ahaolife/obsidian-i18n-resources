@@ -1,0 +1,199 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "reading-view-enhancer",
+        "version": "1.0.0",
+        "title": "Reading View Enhancer",
+        "description": "Reading View Enhancer Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.2.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Loaded 'Reading View Enhancer'",
+                    "target": "已加载“阅读视图增强器”"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Unloaded 'Reading View Enhancer'",
+                    "target": "已卸载“阅读视图增强器”"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Use current accent color",
+                    "target": "使用当前强调色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set background color of the block in reading view. Transparency will be set automatically",
+                    "target": "设置阅读视图中块的背景颜色。透明度将自动设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set transparency of the above color.",
+                    "target": "设置上述颜色的透明度。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Restart is needed to apply changes.",
+                    "target": "需要重启以应用更改。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Keys to select next block.",
+                    "target": "用于选择下一个块的快捷键。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Keys to select previous block.",
+                    "target": "用于选择上一个块的快捷键。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Keys to toggle collapse.",
+                    "target": "用于切换折叠的快捷键。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Keys to deselect current block.",
+                    "target": "用于取消选择当前块的快捷键。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set collapse indicators always visible in reading view.",
+                    "target": "在阅读视图中始终显示折叠指示器。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Auto-select the top block in the view when switching into the reading view.",
+                    "target": "切换到阅读视图时自动选中视图中的顶部块。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Make code blocks scrollable instead of line break.",
+                    "target": "使代码块可滚动而不是换行。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Block color",
+                    "target": "块颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Block color transparency",
+                    "target": "块颜色透明度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable block selector",
+                    "target": "启用块选择器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Disable block selector on mobile",
+                    "target": "在移动端禁用块选择器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Next block",
+                    "target": "下一个块"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Previous block",
+                    "target": "上一个块"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Toggle collapse",
+                    "target": "切换折叠"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Deselect block",
+                    "target": "取消选择块"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Always on collapse indicator",
+                    "target": "折叠指示器始终显示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Auto-select top block",
+                    "target": "自动选择顶部块"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "[Experimental] Collapse indicator on the right side",
+                    "target": "[实验性] 右侧折叠指示器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Align checkbox to indentation guide",
+                    "target": "将复选框对齐到缩进参考线"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Scrollable code",
+                    "target": "可滚动代码"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Rerender all reading views",
+                    "target": "重新渲染所有阅读视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Select Top Block in the View",
+                    "target": "在视图中选择顶部块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle Block Highlight",
+                    "target": "切换块高亮"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Block selector",
+                    "target": "块选择器"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
