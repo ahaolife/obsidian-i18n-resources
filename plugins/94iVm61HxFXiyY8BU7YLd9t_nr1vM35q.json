@@ -1,0 +1,67 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "metadata-hider",
+        "version": "1.0.0",
+        "title": "Metadata Hider",
+        "description": "Metadata Hider Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "entry name",
+                    "target": "条目名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Add new icon",
+                    "target": "添加新图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Delete Entry",
+                    "target": "删除条目"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "There is still unnamed entry!",
+                    "target": "仍有未命名的条目！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Auto fold when opening a note.",
+                    "target": "打开笔记时自动折叠。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在打开笔记时自动折叠。",
+                    "target": "在打开笔记时自动折叠。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Auto fold metadata properties table",
+                    "target": "自动折叠元数据属性表格"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "自动折叠元数据属性表格",
+                    "target": "自动折叠元数据属性表格"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
