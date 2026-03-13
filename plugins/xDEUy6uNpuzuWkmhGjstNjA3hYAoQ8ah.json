@@ -1,0 +1,139 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "ling-gloss",
+        "version": "1.0.0",
+        "title": "Interlinear Glossing",
+        "description": "Interlinear Glossing Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.1.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "The default markers are: ",
+                    "target": "默认标记为："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " (hyphen), ",
+                    "target": "（连字符），"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " (equals sign), ",
+                    "target": "（等号），"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " (tilde).",
+                    "target": "（波浪号）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Default feature switch settings for all glosses.",
+                    "target": "所有注释的默认功能开关设置。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "To unset the enabled ones, the ",
+                    "target": "要取消启用的项，可以使用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " command can be used.",
+                    "target": "命令。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Default style classes for all glosses. The ",
+                    "target": "所有注释的默认样式类。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " command will append to these.",
+                    "target": "命令将追加到这些内容。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " command can be used instead.",
+                    "target": "也可以改用命令。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Default style classes for the ",
+                    "target": "默认样式类用于 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " option.",
+                    "target": " 选项。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Default switch setting for the ",
+                    "target": "默认开关设置用于 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default center alignment",
+                    "target": "默认居中对齐"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Gloss line for alignment",
+                    "target": "对齐的光泽线"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Custom alignment markers",
+                    "target": "自定义对齐标记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Feature switches",
+                    "target": "功能开关"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Style classes",
+                    "target": "样式类"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "class1 class2 ...",
+                    "target": "class1 class2 ..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " \\set*",
+                    "target": " \\set*"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
