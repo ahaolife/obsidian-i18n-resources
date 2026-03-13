@@ -1,0 +1,1615 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "livecodes-playground",
+        "version": "1.0.0",
+        "title": "Livecodes Playground",
+        "description": "Livecodes Playground Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.12.3",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"svg-icon lucide-x\"><path d=\"M18 6 6 18\"></path><path d=\"m6 6 12 12\"></path></svg>",
+                    "target": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"svg-icon lucide-x\"><path d=\"M18 6 6 18\"></path><path d=\"m6 6 12 12\"></path></svg>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-search\"><circle cx=\"11\" cy=\"11\" r=\"8\"></circle><path d=\"m21 21-4.3-4.3\"></path></svg>",
+                    "target": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-search\"><circle cx=\"11\" cy=\"11\" r=\"8\"></circle><path d=\"m21 21-4.3-4.3\"></path></svg>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<a href=\"obsidian://show-plugin?id=omnisearch\">Install Omnisearch plugin</a>",
+                    "target": "<a href=\"obsidian://show-plugin?id=omnisearch\">安装 Omnisearch 插件</a>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "At least one option above must be enabled. If you enable the playground link, you must also enable the JSON file.",
+                    "target": "以上至少启用一个选项。如果启用了 playground 链接，还必须启用 JSON 文件。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Updating these settings will reset the playground editor and clipboard history.",
+                    "target": "更新这些设置将重置 playground 编辑器和剪贴板历史。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Playground search",
+                    "target": "Playground 搜索"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "No playgrounds found",
+                    "target": "未找到 playground"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "The Omnisearch plugin is required for searching playgrounds.",
+                    "target": "搜索 playground 需要 Omnisearch 插件。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to copy to clipboard: ",
+                    "target": "复制到剪贴板失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Include link to open playground in Livecodes",
+                    "target": "包含在 Livecodes 中打开 playground 的链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Include HTML results file",
+                    "target": "包含 HTML 结果文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Include markdown file with frontmatter and fenced codeblocks",
+                    "target": "包含带 frontmatter 和围栏代码块的 Markdown 文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "One URL per line",
+                    "target": "每行一个 URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "URL for serving livecodes static codebase",
+                    "target": "用于提供 livecodes 静态代码库的 URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Vault folder for saving playground JSON files",
+                    "target": "用于保存 playground JSON 文件的 Vault 文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable to watch for playground changes and save JSON file",
+                    "target": "启用以监听 playground 更改并保存 JSON 文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Vault folder for saving playground notes",
+                    "target": "用于保存 playground 笔记的 Vault 文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable short URL service for sharing a playground URL. Click the help icon for privacy implications.",
+                    "target": "启用短链接服务以分享 playground URL。点击帮助图标了解隐私影响。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "For creating Github gists. Click the help icon for further details.",
+                    "target": "用于创建 GitHub gists。点击帮助图标查看更多详情。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Gists are secret by default. Enable this setting to create public gists.",
+                    "target": "Gists 默认是私密的。启用此设置可创建公开 gists。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable Codeium AI",
+                    "target": "启用 Codeium AI"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "CSS height for livecodes playground. e.g. 600 or 100% (default: 600)",
+                    "target": "livecodes playground 的 CSS 高度。例如 600 或 100%（默认：600）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Sets the playground layout to horizontal or vertical. If set to \"responsive\", the layout is vertical in small screens when the playground height is larger than its width, otherwise horizontal. (default: responsive)",
+                    "target": "将 playground 布局设置为横向或纵向。如果设置为“responsive”，当 playground 高度大于宽度时在小屏幕上为纵向，否则为横向。（默认：responsive）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable word wrapping in editor pane",
+                    "target": "在编辑器窗格中启用自动换行"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable line numbers in editor pane",
+                    "target": "在编辑器窗格中启用行号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable tabs instead of spaces",
+                    "target": "启用制表符代替空格"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Use auto-complete to close brackets and quotes",
+                    "target": "使用自动补全关闭括号和引号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable auto updates of results pane after editor code changes",
+                    "target": "在编辑器代码更改后自动更新结果窗格"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Time delay (in milliseconds) follwing code change, after which the result is updated.",
+                    "target": "代码更改后到结果更新的时间延迟（毫秒）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable code formatter to use single quotes instead of double quotes",
+                    "target": "启用代码格式化器使用单引号代替双引号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable code formatter to use trailing commas",
+                    "target": "启用代码格式化以使用尾随逗号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Default markup language when using the \"Quick playground\" command",
+                    "target": "使用“快速演练场”命令时的默认标记语言"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Default style language when using the \"Quick playground\" command",
+                    "target": "使用“快速演练场”命令时的默认样式语言"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Default script language when using the \"Quick playground\" command",
+                    "target": "使用“快速演练场”命令时的默认脚本语言"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Playground link",
+                    "target": "演练场链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "HTML file",
+                    "target": "HTML 文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "JSON file",
+                    "target": "JSON 文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Markdown file",
+                    "target": "Markdown 文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "External stylesheets",
+                    "target": "外部样式表"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "External scripts",
+                    "target": "外部脚本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "CSS preset",
+                    "target": "CSS 预设"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "<html> Attrs",
+                    "target": "<html> 属性"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "App URL",
+                    "target": "应用 URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Playground folder",
+                    "target": "演练场文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Auto watch",
+                    "target": "自动监视"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Notes folder",
+                    "target": "笔记文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Short share URL",
+                    "target": "短分享链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Github API token",
+                    "target": "Github API令牌"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Github gist privacy",
+                    "target": "Github gist隐私"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "AI code assistant",
+                    "target": "AI代码助手"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Code editor",
+                    "target": "代码编辑器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Playground height",
+                    "target": "演练区高度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Editor font",
+                    "target": "编辑器字体"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Editor font-size",
+                    "target": "编辑器字体大小"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Word wrap",
+                    "target": "自动换行"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Line numbers",
+                    "target": "行号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use tabs",
+                    "target": "使用制表符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Tab size",
+                    "target": "制表符大小"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Auto close brackets",
+                    "target": "自动闭合括号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Auto update",
+                    "target": "自动更新"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Single quotes",
+                    "target": "单引号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Trailing commas",
+                    "target": "尾随逗号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Quick playground",
+                    "target": "快速演练场"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Support the developers",
+                    "target": "支持开发者"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "CSS processing",
+                    "target": "CSS 处理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Tailwind CSS",
+                    "target": "Tailwind CSS"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Windy CSS",
+                    "target": "Windy CSS"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Uno CSS",
+                    "target": "Uno CSS"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Lightning CSS",
+                    "target": "Lightning CSS"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "e.g. playgrounds",
+                    "target": "例如 playgrounds"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "e.g. playgrounds/notes",
+                    "target": "例如 playgrounds/notes"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Github API token",
+                    "target": "Github API 令牌"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "e.g. 600 or 100%",
+                    "target": "例如 600 或 100%"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Select a playground or type to search",
+                    "target": "选择一个演练场或输入以搜索"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Select a starter or type to search",
+                    "target": "选择一个入门模板或输入以搜索"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "New Playground",
+                    "target": "新建 Playground"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Open playground",
+                    "target": "打开 Playground"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Copy markdown link to playground",
+                    "target": "复制指向 Playground 的 Markdown 链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Copy Obsidian URL to playground",
+                    "target": "复制指向 Playground 的 Obsidian URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Open in Livecodes",
+                    "target": "在 Livecodes 中打开"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Show processors",
+                    "target": "显示处理器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Hide processors",
+                    "target": "隐藏处理器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[before-after-hook]: \"Hook()\" repurposing warning, use \"Hook.Collection()\". Read more: https://git.io/upgrade-before-after-hook-to-1.4",
+                    "target": "[before-after-hook]: “Hook()” 重用警告，请使用 “Hook.Collection()”。了解更多：https://git.io/upgrade-before-after-hook-to-1.4"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Click to copy",
+                    "target": "点击复制"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "#include <iostream>\nusing namespace std;\n\nint main() {\n    char title[] = \"C++\";\n    cout << title << endl;\n\n    int count;\n    cin >> count;\n    count += 1;\n    cout << count << endl;\n\n    return 0;\n}\n",
+                    "target": "#include <iostream>\nusing namespace std;\n\nint main() {\n    char title[] = \"C++\";\n    cout << title << endl;\n\n    int count;\n    cin >> count;\n    count += 1;\n    cout << count << endl;\n\n    return 0;\n}\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "<h1 id=\"title\">Hello, World!</h1>\n<div id=\"plot\">Loading...</div>\n",
+                    "target": "<h1 id=\"title\">Hello, World!</h1>\n<div id=\"plot\">Loading...</div>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "h1 {\n  text-align: center;\n}\n",
+                    "target": "h1 {\n  text-align: center;\n}\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "@import \"github-markdown-css\";\n\nbody {\n  border: 1px solid #e1e4e8;\n  border-radius: 6px;\n  padding: 20px;\n  margin: 20px !important;\n}\n",
+                    "target": "@import \"github-markdown-css\";\n\nbody {\n  border: 1px solid #e1e4e8;\n  border-radius: 6px;\n  padding: 20px;\n  margin: 20px !important;\n}\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "document.body.classList.add('markdown-body');\n",
+                    "target": "document.body.classList.add('markdown-body');\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "@tailwind base;\n@tailwind components;\n@tailwind utilities;\n\n.back-card {\n  @apply absolute inset-0 bg-gradient-to-r from-cyan-400 to-sky-500 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl;\n}\n",
+                    "target": "@tailwind base;\n@tailwind components;\n@tailwind utilities;\n\n.back-card {\n  @apply absolute inset-0 bg-gradient-to-r from-cyan-400 to-sky-500 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl;\n}\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "import $ from \"jquery\";\n\n$(\"#title\").text('jQuery');\n\nlet count = 0;\n$(\"#counter-button\").click(() => {\n  count += 1;\n  $(\"#counter\").text(count);\n});\n",
+                    "target": "import $ from \"jquery\";\n\n$(\"#title\").text('jQuery');\n\nlet count = 0;\n$(\"#counter-button\").click(() => {\n  count += 1;\n  $(\"#counter\").text(count);\n});\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "import { useState } from \"https://esm.sh/react\";\n\nexport const Greeting = (props) => <h1>Hello, {props.name || \"World\"}!</h1>;\n\nexport function Counter() {\n  const [count, setCount] = useState(0);\n  return (\n    <div>\n      <p>You clicked {count} times.</p>\n      <button onClick={() => setCount(count + 1)}>\n        Click me\n      </button>\n    </div>\n  );\n}\n",
+                    "target": "import { useState } from \"https://esm.sh/react\";\n\nexport const Greeting = (props) => <h1>你好，{props.name || \"世界\"}！</h1>;\n\nexport function Counter() {\n  const [count, setCount] = useState(0);\n  return (\n    <div>\n      <p>你点击了 {count} 次。</p>\n      <button onClick={() => setCount(count + 1)}>\n        点击我\n      </button>\n    </div>\n  );\n}\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "<my-app title=\"Stencil\"></my-app>\n",
+                    "target": "<my-app title=\"Stencil\"></my-app>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "<!-- src: -->\n\n<div class=\"container\">\n  <h1>Hello, <span id=\"title\">World</span>!</h1>\n  <img class=\"logo\" alt=\"logo\" src=\"https://lit.dev/images/logo.svg\" />\n  <custom-counter></custom-counter>\n</div>\n\n",
+                    "target": "<!-- src: -->\n\n<div class=\"container\">\n  <h1>你好，<span id=\"title\">世界</span>！</h1>\n  <img class=\"logo\" alt=\"logo\" src=\"https://lit.dev/images/logo.svg\" />\n  <custom-counter></custom-counter>\n</div>\n\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "<app>Loading...</app>\n",
+                    "target": "<app>加载中...</app>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "const title = document.querySelector(\"#title\");\nconst counter = document.querySelector(\"#counter\");\nconst button = document.querySelector(\"#counter-button\");\n\ntitle.innerText = \"JavaScript\";\nlet count = 0;\n\nbutton.addEventListener(\"click\", () => {\n  count++;\n  counter.innerText = count;\n});\n",
+                    "target": "const title = document.querySelector(\"#title\");\nconst counter = document.querySelector(\"#counter\");\nconst button = document.querySelector(\"#counter-button\");\n\ntitle.innerText = \"JavaScript\";\nlet count = 0;\n\nbutton.addEventListener(\"click\", () => {\n  count++;\n  counter.innerText = count;\n});\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "<div class=\"container\">\n  <h1>Hello, <span id=\"title\">World</span>!</h1>\n  <img class=\"logo\" alt=\"logo\" src=\"https://vanjs.org/logo.svg\" />\n  <p>You clicked <span id=\"counter\">0</span> times.</p>\n</div>\n",
+                    "target": "<div class=\"container\">\n  <h1>你好，<span id=\"title\">世界</span>！</h1>\n  <img class=\"logo\" alt=\"logo\" src=\"https://vanjs.org/logo.svg\" />\n  <p>你点击了 <span id=\"counter\">0</span> 次。</p>\n</div>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "<div class=\"container\">\n  <h1>Hello, <span id=\"title\">World</span>!</h1>\n  <img class=\"logo\" alt=\"logo\" src=\"https://www.arrow-js.com/assets/logo-1f03ba90.png\" />\n  <div id=\"arrow-app\"></div>\n</div>\n",
+                    "target": "<div class=\"container\">\n  <h1>你好，<span id=\"title\">世界</span>！</h1>\n  <img class=\"logo\" alt=\"logo\" src=\"https://www.arrow-js.com/assets/logo-1f03ba90.png\" />\n  <div id=\"arrow-app\"></div>\n</div>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "<!-- https://dev.to/mohsenkamrani/alpinejs-simple-counter-28li -->\n<script src=\"https://unpkg.com/alpinejs\" defer></script>\n\n<div class=\"container\" x-data=\"{ count: 0 }\">\n  <h1>Hello, <span id=\"title\">World</span>!</h1>\n  <img class=\"logo\" alt=\"logo\" src=\"https://alpinejs.dev/alpine_long.svg\" />\n  <p>You clicked <span id=\"result\" x-text=\"count\"></span> times.</p>\n  <button x-on:click=\"count++\">Click me</button>\n</div>\n",
+                    "target": "<!-- https://dev.to/mohsenkamrani/alpinejs-simple-counter-28li -->\n<script src=\"https://unpkg.com/alpinejs\" defer></script>\n\n<div class=\"container\" x-data=\"{ count: 0 }\">\n  <h1>你好，<span id=\"title\">世界</span>！</h1>\n  <img class=\"logo\" alt=\"logo\" src=\"https://alpinejs.dev/alpine_long.svg\" />\n  <p>你点击了 <span id=\"result\" x-text=\"count\"></span> 次。</p>\n  <button x-on:click=\"count++\">点击我</button>\n</div>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "<section class=\"section\">\n  <div class=\"container\">\n    <img src=\"https://bulma.io/images/bulma-logo.png\" class=\"logo\" />\n    <h1 class=\"title\">Hello World</h1>\n    <p class=\"subtitle\">My first website with <strong>Bulma</strong>!</p>\n  </div>\n</section>\n",
+                    "target": "<section class=\"section\">\n  <div class=\"container\">\n    <img src=\"https://bulma.io/images/bulma-logo.png\" class=\"logo\" />\n    <h1 class=\"title\">你好，世界</h1>\n    <p class=\"subtitle\">我用 <strong>Bulma</strong> 搭建的第一个网站！</p>\n  </div>\n</section>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "<div id=\"app\"></div>",
+                    "target": "<div id=\"app\"></div>"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "All Hallows Eve",
+                    "target": "万圣夜"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Birds of Paradise",
+                    "target": "天堂鸟"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Brilliance Black",
+                    "target": "亮泽黑"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Brilliance Dull",
+                    "target": "暗淡亮泽"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Chrome DevTools",
+                    "target": "Chrome 开发者工具"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Clouds Midnight",
+                    "target": "午夜云"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Espresso Libre",
+                    "target": "浓缩咖啡"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "GitHub Dark",
+                    "target": "GitHub 深色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "GitHub Light",
+                    "target": "GitHub 浅色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "High Contrast (Black)",
+                    "target": "高对比度（黑）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "High Contrast (Light)",
+                    "target": "高对比度（浅色）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Idle Fingers",
+                    "target": "闲置手指"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "MagicWB (Amiga)",
+                    "target": "MagicWB（Amiga）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Merbivore Soft",
+                    "target": "Merbivore 柔和"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Monochrome Dark",
+                    "target": "单色深色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Monokai Bright",
+                    "target": "Monokai 明亮"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Night Owl",
+                    "target": "夜猫子"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Oceanic Next",
+                    "target": "海洋下一代"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Pastels on Dark",
+                    "target": "深色上的粉彩"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Slush and Poppies",
+                    "target": "Slush and Poppies"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Solarized Dark",
+                    "target": "Solarized 暗色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Solarized Light",
+                    "target": "Solarized 亮色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Textmate (Mac Classic)",
+                    "target": "Textmate（Mac 经典）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Tomorrow Night",
+                    "target": "明日之夜"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Tomorrow Night Blue",
+                    "target": "明日之夜 蓝"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Tomorrow Night Bright",
+                    "target": "明日之夜 明亮"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Tomorrow Night Eighties",
+                    "target": "明日之夜 八十年代"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Upstream Sunburst",
+                    "target": "Upstream Sunburst"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Vibrant Ink",
+                    "target": "活力墨水"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "VS Dark",
+                    "target": "VS 暗色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Xcode Default",
+                    "target": "Xcode 默认"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Ayu Light",
+                    "target": "Ayu 亮色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Basic Light",
+                    "target": "基础 亮色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Basic Dark",
+                    "target": "基础 暗色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Boys and Girls",
+                    "target": "男孩与女孩"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Cool Glow",
+                    "target": "酷炫光芒"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Gruvbox Dark",
+                    "target": "Gruvbox 深色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Gruvbox Light",
+                    "target": "Gruvbox 浅色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Material Dark",
+                    "target": "Material 深色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Material Light",
+                    "target": "Material 浅色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Noctis Lilac",
+                    "target": "Noctis 丁香紫"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "One Dark",
+                    "target": "One 深色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Rosé Pine Dawn",
+                    "target": "Rosé Pine 破晓"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Tokyo Night",
+                    "target": "东京之夜"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Tokyo Night Day",
+                    "target": "东京之夜（日间）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Tokyo Night Storm",
+                    "target": "东京之夜（风暴）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "A11y Dark",
+                    "target": "A11y 深色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Atom Dark",
+                    "target": "Atom 深色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Base16 Ateliersulphurpool Light",
+                    "target": "Base16 Ateliersulphurpool 浅色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Coldark Cold",
+                    "target": "Coldark 冷色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Coldark Dark",
+                    "target": "Coldark 暗色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Coy Without Shadows",
+                    "target": "Coy 无阴影"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Duotone Dark",
+                    "target": "双色调 暗色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Duotone Earth",
+                    "target": "双色调 大地"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Duotone Forest",
+                    "target": "双色调 森林"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Duotone Light",
+                    "target": "双色调 亮色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Duotone Sea",
+                    "target": "双色调 海洋"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Duotone Space",
+                    "target": "双色调 太空"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "GH Colors",
+                    "target": "GH 颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Material Oceanic",
+                    "target": "Material 海洋"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "One Light",
+                    "target": "One 亮色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Shades of Purple",
+                    "target": "紫色的色调"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Solarized Dark Atom",
+                    "target": "Solarized 暗色 Atom"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Synthwave 84",
+                    "target": "合成波 84"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "VSC Dark Plus",
+                    "target": "VSC Dark Plus"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Print (to stderr) where a cursor at the given position would move to after formatting.",
+                    "target": "打印（到 stderr）格式化后光标在给定位置会移动到哪里。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Which end of line characters to apply.",
+                    "target": "应用哪种行尾字符。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Line Feed only (\\n), common on Linux and macOS as well as inside git repos",
+                    "target": "仅换行符（\\n），常见于 Linux 和 macOS 以及 git 仓库内"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Carriage Return + Line Feed characters (\\r\\n), common on Windows",
+                    "target": "回车 + 换行符（\\r\\n），常见于 Windows"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Carriage Return character only (\\r), used very rarely",
+                    "target": "仅回车符（\\r），极少使用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Maintain existing\n(mixed values within one file are normalised by looking at what's used after the first line)",
+                    "target": "保持现有\n（同一文件中的混合值会通过查看第一行之后所用的内容进行规范化）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Specify the input filepath. This will be used to do parser inference.",
+                    "target": "指定输入文件路径。将用于解析器推断。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Insert @format pragma into file's first docblock comment.",
+                    "target": "在文件的第一个 docblock 注释中插入 @format 指示。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Which parser to use.",
+                    "target": "使用哪种解析器。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "JSON with Comments",
+                    "target": "带注释的 JSON"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Lightning Web Components",
+                    "target": "Lightning Web 组件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Add a plugin. Multiple plugins can be passed as separate `--plugin`s.",
+                    "target": "添加插件。可以通过单独的 `--plugin` 传入多个插件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The line length where Prettier will try wrap.",
+                    "target": "Prettier 尝试换行的行长度。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Require either '@prettier' or '@format' to be present in the file's first docblock comment\nin order for it to be formatted.",
+                    "target": "要求文件的第一个 docblock 注释中包含 '@prettier' 或 '@format'\n才会进行格式化。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Number of spaces per indentation level.",
+                    "target": "每个缩进级别的空格数。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Indent with tabs instead of spaces.",
+                    "target": "使用制表符缩进而非空格。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Print spaces between brackets.",
+                    "target": "在括号之间输出空格。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Use single quotes instead of double quotes.",
+                    "target": "使用单引号代替双引号。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "How to wrap prose.",
+                    "target": "如何换行文案。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wrap prose if it exceeds the print width.",
+                    "target": "文案超出打印宽度时换行。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Do not wrap prose.",
+                    "target": "不对文案换行。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wrap prose as-is.",
+                    "target": "按原样对文案换行。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Put > of opening tags on the last line instead of on a new line.",
+                    "target": "将起始标签的 > 放在最后一行，而不是新起一行。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Enforce single attribute per line in HTML, Vue and JSX.",
+                    "target": "在 HTML、Vue 和 JSX 中强制每行仅一个属性。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "How to handle whitespaces in HTML.",
+                    "target": "如何处理 HTML 中的空白。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Respect the default value of CSS display property.",
+                    "target": "遵循 CSS display 属性的默认值。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Whitespaces are considered sensitive.",
+                    "target": "空白被视为敏感。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Whitespaces are considered insensitive.",
+                    "target": "空白被视为不敏感。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Indent script and style tags in Vue files.",
+                    "target": "在 Vue 文件中缩进 script 和 style 标签。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p>Load the playground from a custom URL (e.g. <a href=\"https://livecodes.io/docs/features/self-hosting\" data-tooltip-position=\"top\" aria-label=\"https://livecodes.io/docs/features/self-hosting\" target=\"_blank\" rel=\"noopener\" class=\"external-link\">self-hosted app</a>, <a href=\"https://livecodes.io/docs/features/permanent-url\" data-tooltip-position=\"top\" aria-label=\"https://livecodes.io/docs/features/permanent-url\" target=\"_blank\" rel=\"noopener\" class=\"external-link\">permanent URL</a>). Trailing slash <strong>/</strong> is required.</p><p>Default: <strong class=\"appurl-copy\" aria-label=\"Click to copy\" data-tooltip-position=\"top\">https://v45.livecodes.io/</strong>",
+                    "target": "<p>从自定义 URL 加载 playground（例如 <a href=\"https://livecodes.io/docs/features/self-hosting\" data-tooltip-position=\"top\" aria-label=\"https://livecodes.io/docs/features/self-hosting\" target=\"_blank\" rel=\"noopener\" class=\"external-link\">自托管应用</a>、<a href=\"https://livecodes.io/docs/features/permanent-url\" data-tooltip-position=\"top\" aria-label=\"https://livecodes.io/docs/features/permanent-url\" target=\"_blank\" rel=\"noopener\" class=\"external-link\">永久 URL</a>）。需要末尾斜杠 <strong>/</strong>。</p><p>默认值：<strong class=\"appurl-copy\" aria-label=\"Click to copy\" data-tooltip-position=\"top\">https://v45.livecodes.io/</strong>"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p><span class=\"alert-icon\" aria-label=\"Info\"></span><span>This requires sending the playground configuration (<strong>including source code</strong>) to a server that saves the code and provides a short Id which can be used to retrieve the playground. <strong>It cannot then be deleted</strong>.</span></p><p>The app hosted on <a href=\"https://livecodes.io\" target=\"_blank\" rel=\"noopener\" class=\"external-link\">https://livecodes.io</a> uses an API endpoint specifically provided to generate short URLs for LiveCodes share service. We will make every effort to keep that online and available for free use, so long as it is not abused.</p><p>Short URLs generated by LiveCodes share service are <strong>private</strong> by default and are not listed or indexed.</p><p>See <a href=\"https://livecodes.io/docs/features/share\" data-tooltip-position=\"top\" aria-label=\"https://livecodes.io/docs/features/share\" target=\"_blank\" rel=\"noopener\" class=\"external-link\">Livecodes documentation</a> page on sharing for further up-to-date details.</p>",
+                    "target": "<p><span class=\"alert-icon\" aria-label=\"Info\"></span><span>这需要将 playground 配置（<strong>包括源代码</strong>）发送到服务器，服务器会保存代码并提供一个可用于检索 playground 的短 ID。<strong>之后无法删除</strong>。</span></p><p>托管在 <a href=\"https://livecodes.io\" target=\"_blank\" rel=\"noopener\" class=\"external-link\">https://livecodes.io</a> 的应用使用专门提供的 API 端点来为 LiveCodes 分享服务生成短 URL。我们将尽最大努力保持其在线并免费提供，只要不被滥用。</p><p>由 LiveCodes 分享服务生成的短 URL 默认是<strong>私有</strong>的，不会被列出或索引。</p><p>有关更多最新详情，请参阅 <a href=\"https://livecodes.io/docs/features/share\" data-tooltip-position=\"top\" aria-label=\"https://livecodes.io/docs/features/share\" target=\"_blank\" rel=\"noopener\" class=\"external-link\">Livecodes 文档</a>中的分享页面。</p>"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Add a Github API token to enable creating gists from a playground. Create a token at <a href=\"https://github.com/settings/tokens/new\" target=\"_blank\" rel=\"noopener\" class=\"external-link\">https://github.com/settings/tokens/new</a> (only gist permission required)",
+                    "target": "添加 Github API token 以启用从 playground 创建 gist。可在 <a href=\"https://github.com/settings/tokens/new\" target=\"_blank\" rel=\"noopener\" class=\"external-link\">https://github.com/settings/tokens/new</a> 创建 token（仅需 gist 权限）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p>Select a vault folder to save & persist playground configuration files (JSON).</p><p>Default: <strong>playgrounds</strong></p>",
+                    "target": "<p>选择一个保险库文件夹，用于保存并持久化 playground 配置文件（JSON）。</p><p>默认值：<strong>playgrounds</strong></p>"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p>Select a vault folder to save playground notes (Markdown).</p><p>Default: <strong>playgrounds/notes</strong></p>",
+                    "target": "<p>选择一个保险库文件夹，用于保存 playground 笔记（Markdown）。</p><p>默认值：<strong>playgrounds/notes</strong></p>"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p>Automatically watch for playground changes, then update the corresponding configuration file (JSON).</p><p>Default: <strong>enabled</strong></p>",
+                    "target": "<p>自动监视 playground 变更，然后更新对应的配置文件（JSON）。</p><p>默认值：<strong>启用</strong></p>"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p>LiveCodes supports AI-powered code completion, completely for <strong>free</strong> with <strong>no account or API token required</strong>, powered by <a href=\"https://codeium.com/\" data-tooltip-position=\"top\" aria-label=\"https://codeium.com/\" target=\"_blank\" rel=\"noopener\" class=\"external-link\">Codeium</a>, the ultrafast Copilot alternative.</p><p>The large generative machine learning model is capable of understanding the context of your code and comments in order to generate suggestions on what you might want to type next.</p><p>It has a wide range of language support.</p><p>Currently, only Monaco editor is supported. Wider editor support is planned.</p><p class=\"admonitionContent_S0QG\"><p><span class=\"alert-icon\" aria-label=\"Info\"></span><span>Please note that when using Codeium AI assistant, your code is sent to their servers for code completion. However, your code is not used for training their model. Check Codeium <a href=\"https://codeium.com/faq#Will-Codeium-regurgitate-private-code%3F\" data-tooltip-position=\"top\" aria-label=\"https://codeium.com/faq#Will-Codeium-regurgitate-private-code%3F\" target=\"_blank\" rel=\"noopener\" class=\"external-link\">FAQ</a> and <a href=\"https://codeium.com/privacy-policy\" data-tooltip-position=\"top\" aria-label=\"https://codeium.com/privacy-policy\" target=\"_blank\" rel=\"noopener\" class=\"external-link\">privacy policy</a> for more details.</span></p>",
+                    "target": "<p>LiveCodes 支持 AI 驱动的代码补全，完全<strong>免费</strong>且<strong>无需账号或 API token</strong>，由超高速的 Copilot 替代方案 <a href=\"https://codeium.com/\" data-tooltip-position=\"top\" aria-label=\"https://codeium.com/\" target=\"_blank\" rel=\"noopener\" class=\"external-link\">Codeium</a> 提供支持。</p><p>该大型生成式机器学习模型能够理解你的代码和注释的上下文，从而生成你可能想要接着输入的建议。</p><p>它支持多种语言。</p><p>目前仅支持 Monaco 编辑器，后续计划支持更多编辑器。</p><p class=\"admonitionContent_S0QG\"><p><span class=\"alert-icon\" aria-label=\"Info\"></span><span>请注意，使用 Codeium AI 助手时，你的代码会发送到其服务器以进行代码补全。不过，你的代码不会被用于训练其模型。更多详情请查看 Codeium 的 <a href=\"https://codeium.com/faq#Will-Codeium-regurgitate-private-code%3F\" data-tooltip-position=\"top\" aria-label=\"https://codeium.com/faq#Will-Codeium-regurgitate-private-code%3F\" target=\"_blank\" rel=\"noopener\" class=\"external-link\">FAQ</a> 和 <a href=\"https://codeium.com/privacy-policy\" data-tooltip-position=\"top\" aria-label=\"https://codeium.com/privacy-policy\" target=\"_blank\" rel=\"noopener\" class=\"external-link\">隐私政策</a>。</span></p>"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "If this plugin adds value for you and you would like to help support continued development, please consider sponsoring the developers.",
+                    "target": "如果该插件对你有价值并且你愿意帮助支持持续开发，请考虑赞助开发者。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p>Automatically watch for playground changes, then update the corresponding playground configuration file (JSON).</p><p>Default: <strong>enabled</strong></p><div><button data-prev=\"0\" disabled=\"disabled\">←</button><span class=\"paging\">(1 of 10)</span><button data-tooltip-position=\"top\" aria-label=\"Next\" data-step=\"1\">→</button></div>",
+                    "target": "<p>自动监视 playground 变更，然后更新对应的 playground 配置文件（JSON）。</p><p>默认值：<strong>启用</strong></p><div><button data-prev=\"0\" disabled=\"disabled\">←</button><span class=\"paging\">（1/10）</span><button data-tooltip-position=\"top\" aria-label=\"Next\" data-step=\"1\">→</button></div>"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p><span class=\"default-icon\"></span><span>The new playground will be opened in a new playground view.</span></p><div><button data-tooltip-position=\"top\" aria-label=\"Previous\" data-prev=\"2\">←</button><span class=\"paging\">(3 of 10)</span><button data-tooltip-position=\"top\" aria-label=\"Next\" data-step=\"3\">→</button></div>",
+                    "target": "<p><span class=\"default-icon\"></span><span>新的 playground 将在新的 playground 视图中打开。</span></p><div><button data-tooltip-position=\"top\" aria-label=\"Previous\" data-prev=\"2\">←</button><span class=\"paging\">（3/10）</span><button data-tooltip-position=\"top\" aria-label=\"Next\" data-step=\"3\">→</button></div>"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p>Save playground results to HTML. A prompt will ask where to save the HTML file on your device.</p><div><button data-tooltip-position=\"top\" aria-label=\"Previous\" data-prev=\"3\">←</button><span class=\"paging\">(4 of 10)</span><button data-tooltip-position=\"top\" aria-label=\"Next\" data-step=\"4\">→</button>",
+                    "target": "<p>将 playground 结果保存为 HTML。将提示你在设备上保存 HTML 文件的位置。</p><div><button data-tooltip-position=\"top\" aria-label=\"Previous\" data-prev=\"3\">←</button><span class=\"paging\">（4/10）</span><button data-tooltip-position=\"top\" aria-label=\"Next\" data-step=\"4\">→</button>"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p>Copy playground results HTML to the clipboard.</p><div><button data-tooltip-position=\"top\" aria-label=\"Previous\" data-prev=\"4\">←</button><span class=\"paging\">(5 of 10)</span><button data-tooltip-position=\"top\" aria-label=\"Next\" data-step=\"5\">→</button>",
+                    "target": "<p>将 playground 结果 HTML 复制到剪贴板。</p><div><button data-tooltip-position=\"top\" aria-label=\"Previous\" data-prev=\"4\">←</button><span class=\"paging\">（5/10）</span><button data-tooltip-position=\"top\" aria-label=\"Next\" data-step=\"5\">→</button>"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p>The generated URL encodes the playground configuration in a base-64-encoded compressed query string. This step is generated locally without sending the code to any server. However, depending on the size of the playground, the URL can be very long.</p><p>If <strong>Short share URL</strong> is enabled in settings, a short share URL will be generated.</p><p><span class=\"alert-icon\" aria-label=\"Info\"></span><span>This requires sending the playground configuration (<strong>including source code</strong>) to a server that saves the code and provides a short Id which can be used to retrieve the playground.</span></p><p>See <a href=\"https://livecodes.io/docs/features/share\" data-tooltip-position=\"top\" aria-label=\"https://livecodes.io/docs/features/share\" target=\"_blank\" rel=\"noopener\" class=\"external-link\">Livecodes documentation</a> page on sharing for further up-to-date details.</p><div><button data-tooltip-position=\"top\" aria-label=\"Previous\" data-prev=\"5\">←</button><span class=\"paging\">(6 of 10)</span><button data-tooltip-position=\"top\" aria-label=\"Next\" data-step=\"6\">→</button>",
+                    "target": "<p>生成的 URL 将 playground 配置编码为 base-64 编码的压缩查询字符串。此步骤在本地生成，不会将代码发送到任何服务器。不过，根据 playground 的大小，URL 可能会非常长。</p><p>如果在设置中启用了 <strong>短分享 URL</strong>，将生成短分享 URL。</p><p><span class=\"alert-icon\" aria-label=\"Info\"></span><span>这需要将 playground 配置（<strong>包括源代码</strong>）发送到服务器，服务器会保存代码并提供一个可用于检索 playground 的短 ID。</span></p><p>有关更多最新详情，请参阅 <a href=\"https://livecodes.io/docs/features/share\" data-tooltip-position=\"top\" aria-label=\"https://livecodes.io/docs/features/share\" target=\"_blank\" rel=\"noopener\" class=\"external-link\">Livecodes 文档</a>中的分享页面。</p><div><button data-tooltip-position=\"top\" aria-label=\"Previous\" data-prev=\"5\">←</button><span class=\"paging\">（6/10）</span><button data-tooltip-position=\"top\" aria-label=\"Next\" data-step=\"6\">→</button>"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p>URLs to external CSS <strong>stylesheets</strong> and JS <strong>scripts</strong> can be added to the playground. URLs to stylesheets/scripts should be added each in a separate line. Stylesheets and scripts are loaded in the result page before editor codes. Thus, CSS properties defined in external stylesheets can be overriden in the style editor. Global javascript variables defined in external scripts are available to code in the script editor.</p><p>Choice of <strong>CSS presets</strong>, currently <a href=\"https://necolas.github.io/normalize.css/\" data-tooltip-position=\"top\" aria-label=\"https://necolas.github.io/normalize.css/\" target=\"_blank\" rel=\"noopener\" class=\"external-link\">Normalize.css</a> and <a href=\"https://meyerweb.com/eric/tools/css/reset/\" data-tooltip-position=\"top\" aria-label=\"https://meyerweb.com/eric/tools/css/reset/\" target=\"_blank\" rel=\"noopener\" class=\"external-link\">Reset CSS</a>.</p><div><button data-tooltip-position=\"top\" aria-label=\"Previous\" data-prev=\"8\">←</button><span class=\"paging\">(9 of 10)</span><button data-tooltip-position=\"top\" aria-label=\"Next\" data-step=\"9\">→</button>",
+                    "target": "<p>可将外部 CSS <strong>样式表</strong> 和 JS <strong>脚本</strong> 的 URL 添加到 playground。样式表/脚本的 URL 应分别单独一行添加。样式表和脚本会在结果页面中先于编辑器代码加载。因此，外部样式表中定义的 CSS 属性可在样式编辑器中被覆盖。外部脚本中定义的全局 JavaScript 变量可在脚本编辑器中使用。</p><p>可选择 <strong>CSS 预设</strong>，目前有 <a href=\"https://necolas.github.io/normalize.css/\" data-tooltip-position=\"top\" aria-label=\"https://necolas.github.io/normalize.css/\" target=\"_blank\" rel=\"noopener\" class=\"external-link\">Normalize.css</a> 和 <a href=\"https://meyerweb.com/eric/tools/css/reset/\" data-tooltip-position=\"top\" aria-label=\"https://meyerweb.com/eric/tools/css/reset/\" target=\"_blank\" rel=\"noopener\" class=\"external-link\">Reset CSS</a>。</p><div><button data-tooltip-position=\"top\" aria-label=\"Previous\" data-prev=\"8\">←</button><span class=\"paging\">（9/10）</span><button data-tooltip-position=\"top\" aria-label=\"Next\" data-step=\"9\">→</button>"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "header",
+                    "source": ":is(h1, h2, h3, h4, h5, h6)",
+                    "target": ":is(h1, h2, h3, h4, h5, h6)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Lightning Web Components",
+                    "target": "Lightning Web Components"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Lua (wasm)",
+                    "target": "Lua (wasm)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "PHP (wasm)",
+                    "target": "PHP (wasm)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Python (wasm)",
+                    "target": "Python (wasm)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Tailwind CSS",
+                    "target": "Tailwind CSS"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Bootstrap 5",
+                    "target": "Bootstrap 5"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Vue 2",
+                    "target": "Vue 2"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Vue 3 SFC",
+                    "target": "Vue 3 SFC"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "React Native",
+                    "target": "React Native"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open-props (CSS)",
+                    "target": "Open-props (CSS)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Bulma (CSS)",
+                    "target": "Bulma (CSS)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Search playgrounds",
+                    "target": "搜索 Playground"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open playground",
+                    "target": "打开 Playground"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open starter playground",
+                    "target": "打开入门 Playground"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "New playground",
+                    "target": "新建 Playground"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Quick playground",
+                    "target": "快速游乐场"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open codeblocks in Livecodes",
+                    "target": "在 Livecodes 中打开代码块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "New playground from CodePen",
+                    "target": "从 CodePen 新建游乐场"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Support the developers",
+                    "target": "支持开发者"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "input:is(:not([type!='']), [type=text])",
+                    "target": "input:is(:not([type!='']), [type=text])"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "an array of the following values",
+                    "target": "以下值的数组"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "one of the following values",
+                    "target": "以下值之一"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "App URL",
+                    "target": "应用 URL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Short share URL",
+                    "target": "短分享 URL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Github API token",
+                    "target": "Github API 令牌"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Github gist privacy",
+                    "target": "Github gist 隐私设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Playground folder",
+                    "target": "游乐场文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Notes folder",
+                    "target": "笔记文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Auto watch",
+                    "target": "自动监视"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Code editor",
+                    "target": "代码编辑器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Enable AI",
+                    "target": "启用 AI"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "A message from the developers",
+                    "target": "来自开发者的消息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Watch for changes",
+                    "target": "监控更改"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Create note",
+                    "target": "创建注释"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Save as new playground",
+                    "target": "另存为新的游乐场"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Save as HTML",
+                    "target": "保存为 HTML"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Copy HTML to clipboard",
+                    "target": "复制 HTML 到剪贴板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Copy share URL to clipboard",
+                    "target": "复制分享 URL 到剪贴板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Create Github gist",
+                    "target": "创建 Github gist"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "External resources",
+                    "target": "外部资源"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Playground settings",
+                    "target": "游乐场设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Rich Text",
+                    "target": "富文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Tailwind CSS",
+                    "target": "Tailwind CSS"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Windi CSS",
+                    "target": "Windi CSS"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Lightning CSS",
+                    "target": "Lightning CSS"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "C++ (Wasm)",
+                    "target": "C++ (Wasm)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Lua (Wasm)",
+                    "target": "Lua (Wasm)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "PHP (Wasm)",
+                    "target": "PHP (Wasm)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Python (Wasm)",
+                    "target": "Python (Wasm)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "React Native",
+                    "target": "React Native"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "React Native (TSX)",
+                    "target": "React Native (TSX)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Ruby (Wasm)",
+                    "target": "Ruby (Wasm)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Solid (TS)",
+                    "target": "Solid (TS)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Vue 3",
+                    "target": "Vue 3"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Vue 2",
+                    "target": "Vue 2"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "New Playground",
+                    "target": "新建演练场"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
