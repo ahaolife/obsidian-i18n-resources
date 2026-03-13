@@ -1,0 +1,235 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "hi-words",
+        "version": "1.0.0",
+        "title": "HiWords",
+        "description": "HiWords Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.5.4",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "点击发音",
+                    "target": "点击发音"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "阅读模式高亮处理失败:",
+                    "target": "阅读模式高亮处理失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "刷新阅读模式高亮失败:",
+                    "target": "刷新阅读模式高亮失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "PDF 文本层高亮处理失败:",
+                    "target": "PDF 文本层高亮处理失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "刷新 PDF 高亮失败:",
+                    "target": "刷新 PDF 高亮失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "解析文件节点失败:",
+                    "target": "解析文件节点失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to add word to canvas:",
+                    "target": "添加单词到画布失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "设置节点颜色失败:",
+                    "target": "设置节点颜色失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to update word in canvas:",
+                    "target": "更新画布中的单词失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to sync words to canvas:",
+                    "target": "同步单词到画布失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to delete word from canvas:",
+                    "target": "从画布删除单词失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "保存单词定义到 Canvas 失败:",
+                    "target": "保存单词定义到 Canvas 失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "保存 Canvas 文件失败:",
+                    "target": "保存 Canvas 文件失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "标记已掌握失败:",
+                    "target": "标记已掌握失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "取消已掌握标记失败:",
+                    "target": "取消已掌握标记失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "检查单词掌握状态失败:",
+                    "target": "检查单词掌握状态失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "获取已掌握单词列表失败:",
+                    "target": "获取已掌握单词列表失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "获取已掌握统计信息失败:",
+                    "target": "获取已掌握统计信息失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "更新单词掌握状态失败:",
+                    "target": "更新单词掌握状态失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "同步已掌握状态失败:",
+                    "target": "同步已掌握状态失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "刷新高亮器失败:",
+                    "target": "刷新高亮器失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "在 findWordMatches 中发生错误:",
+                    "target": "在 findWordMatches 中发生错误:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to scan document:",
+                    "target": "扫描文档失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Markdown 渲染失败:",
+                    "target": "Markdown 渲染失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "切换已掌握状态失败:",
+                    "target": "切换已掌握状态失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "PDF 文本提取失败:",
+                    "target": "PDF 文本提取失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "打开搜索失败:",
+                    "target": "打开搜索失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "导航到源文件失败:",
+                    "target": "导航到源文件失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "AI Dictionary Error:",
+                    "target": "AI 词典错误:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to fetch definition:",
+                    "target": "获取释义失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "删除词汇时发生错误:",
+                    "target": "删除词汇时发生错误:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to add/update word:",
+                    "target": "添加/更新词汇失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to extract sentence from editor (multiline):",
+                    "target": "从编辑器中提取句子失败（多行）:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to extract sentence from selection:",
+                    "target": "从所选内容中提取句子失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "HiWords TTS play failed:",
+                    "target": "HiWords TTS 播放失败:"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请重新加载插件以应用新的文件节点解析模式",
+                    "target": "请重新加载插件以应用新的文件节点解析模式"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
