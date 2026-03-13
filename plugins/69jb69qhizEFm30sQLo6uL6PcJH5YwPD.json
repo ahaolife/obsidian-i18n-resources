@@ -1,0 +1,319 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-cursor-location-plugin",
+        "version": "1.0.0",
+        "title": "Cursor Location",
+        "description": "Cursor Location Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Full Selection",
+                    "target": "完全选择"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "ln ch ct",
+                    "target": "ln ch ct"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "ch ln ct",
+                    "target": "ch ln ct"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "ch ln-ct",
+                    "target": "ch ln-ct"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "ampersand `&`",
+                    "target": "与号 `&`"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "tilde `~`",
+                    "target": "波浪号 `~`"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "pipe `|`",
+                    "target": "竖线 `|`"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "slash `/`",
+                    "target": "斜杠 `/`"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "dash `-`",
+                    "target": "短横线 `-`"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "arrow '→'",
+                    "target": "箭头 '→'"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "high `24px`",
+                    "target": "高 `24px`"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "medium `12px`",
+                    "target": "中 `12px`"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "low `6px`",
+                    "target": "低 `6px`"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Barely Wordy",
+                    "target": "几乎不冗长"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Very Wordy",
+                    "target": "非常冗长"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Only Percentages",
+                    "target": "仅百分比"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "High Fuzzy Percentages",
+                    "target": "高模糊百分比"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Low Fuzzy Percentages",
+                    "target": "低模糊百分比"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Strict Percentages",
+                    "target": "严格百分比"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "resetting all values to their defaults",
+                    "target": "正在将所有值重置为默认值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "loading Cursor Location plugin",
+                    "target": "正在加载 Cursor Location 插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "unloading Cursor Location plugin",
+                    "target": "正在卸载 Cursor Location 插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "`ch` is the column the cursor is at in the current line,         `ln` is the current line number,         `ct` is the total line numbers in the file (count).",
+                    "target": "`ch` 是光标在当前行所在的列，         `ln` 是当前行号，         `ct` 是文件中的总行数（计数）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "For example, with the default value of '12' the status bar         could be set to a width of 60 if the contents width is 55.",
+                    "target": "例如，默认值为 '12' 时，如果内容宽度为 55，状态栏         可以设置为宽度 60。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "A cursor with just the head is around 70px.         A single selection with head and anchor plus totals is around 250px.         3 selections like the above with individual line counts is around 500px.",
+                    "target": "只有光标头部的光标约为 70px。         一个包含头部和锚点并带总计的单个选择约为 250px。         3 个如上所述并带单独行数统计的选择约为 500px。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "        'Strict Percentages' will say at the top and bottom, and then percentages from 1% to 99%.         'Low Fuzzy Percentages' will say at the top and bottom for the first and last 10%, percentages for the rest of the document.         'High Fuzzy Percentages' will say at the top and bottom for the first and last 20%, percentages for the rest of the document.         'Only Percentages' shows percentages throughout the document, no words are used.         'Very Wordy' only uses words, splits the document into 5ths.         'Barely Wordy' only uses words, splits the document into 3rds.         ",
+                    "target": "        'Strict Percentages' 会在顶部和底部显示文字，然后显示 1% 到 99% 的百分比。         'Low Fuzzy Percentages' 会在首尾 10% 显示顶部和底部文字，其余文档显示百分比。         'High Fuzzy Percentages' 会在首尾 20% 显示顶部和底部文字，其余文档显示百分比。         'Only Percentages' 在整个文档中只显示百分比，不使用文字。         'Very Wordy' 只使用文字，将文档分成五等份。         'Barely Wordy' 只使用文字，将文档分成三等份。         "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Number of cursor positions that will display           in the status bar before switching to \"N cursors\".",
+                    "target": "在切换为“ N cursors ”之前，           状态栏中显示的光标位置数量。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Display just the beginning,         just the end, or the full range of a selection.",
+                    "target": "只显示选择的开头、         只显示结尾，或显示完整范围。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Display the total number of characters selected.",
+                    "target": "显示所选字符的总数。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Display the total number of lines selected.",
+                    "target": "显示所选行的总数。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Pattern to display location information for each cursor.",
+                    "target": "用于显示每个光标位置信息的模式。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Custom pattern for display",
+                    "target": "用于显示的自定义模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "String to seperate multiple curor locations when         `# of Cursors` is greater than 1. Selecting `custom`         will let you type out your own",
+                    "target": "当 `# of Cursors` 大于 1 时用于分隔多个光标位置的字符串。选择 `custom`         可让你输入自己的内容"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "String will be padded by a space on each side.         Consecutive whitespace is squashed to 1 space (per HTML rules).         For example: '/' will be displayed as ' / '",
+                    "target": "字符串两侧会各加一个空格。         连续空白将按 HTML 规则压缩为 1 个空格。         例如：'/' 将显示为 ' / '"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "String to seperate the beginning and end of a selection           when `Selection Mode` is set to `Full Selection`.           Selecting `custom` will let you type out your own",
+                    "target": "当 `Selection Mode` 设为 `Full Selection` 时用于分隔选择开始与结束的字符串。           选择 `custom` 可让你输入自己的内容"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "String will NOT be padded by a space on each side.           Consecutive whitespace is squashed to 1 space (per HTML rules)           For example: '->' will be displayed as '2->3' and ' -> ' will           be displayed as '2 -> 3'",
+                    "target": "字符串两侧不会加空格。           连续空白将按 HTML 规则压缩为 1 个空格。           例如：'->' 将显示为 '2->3'，而 ' -> ' 将           显示为 '2 -> 3'"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Display the number of lines selected by each cursor.",
+                    "target": "显示每个光标所选的行数。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Pattern to display number of highlighted lines for each cursor.",
+                    "target": "用于显示每个光标高亮行数的模式。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "`lc` is the line count and will not be displayed if only one line           is selected or 'Display Cursor Line Count' setting is `false`.           Leading and trailing whitespace is trimmed.",
+                    "target": "`lc` 表示行数，若仅选择一行或“Display Cursor Line Count”设置为 `false`，           则不会显示。           首尾空白会被裁剪。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Add padding to lessen the amount the status bar shifts",
+                    "target": "添加内边距以减少状态栏的偏移量"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Amount the status bar will round to when padding.",
+                    "target": "状态栏在填充时取整到的量。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Multiples of 3 work best, though any positive value will do.",
+                    "target": "3 的倍数效果最佳，但任何正值都可以。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Display percent thru the document instead of line number",
+                    "target": "显示文档进度百分比而非行号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "How many words vs percent numbers to display.",
+                    "target": "显示多少单词还是百分比数字。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Exclude the frontmatter as part of the document percentage",
+                    "target": "将前置元数据排除在文档百分比之外"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "What to call the frontmatter when cursor is inside it",
+                    "target": "当光标在其中时前置元数据的称呼"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "If you don't like the options provided,         you can set the frontmatter to whaterver         you want with this.",
+                    "target": "如果你不喜欢提供的选项，         你可以用此将前置元数据设置为         你想要的任何内容。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Reset all settings to default values.",
+                    "target": "将所有设置重置为默认值。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Cursor Information",
+                    "target": "光标信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Reset All Settings",
+                    "target": "重置所有设置"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
