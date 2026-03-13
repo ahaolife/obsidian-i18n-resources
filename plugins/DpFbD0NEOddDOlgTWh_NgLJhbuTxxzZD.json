@@ -1,0 +1,79 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "text-autocomplete",
+        "version": "1.0.0",
+        "title": "Text Autocomplete",
+        "description": "Text Autocomplete Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable/disable the autocomplete feature.",
+                    "target": "启用/禁用自动补全功能。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Specify text language support (only English is supported at the moment).",
+                    "target": "指定文本语言支持（目前仅支持英语）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Maximum number of suggestions shown at once (3-10).",
+                    "target": "一次显示的最大建议数量（3-10）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable/disable adding space terminator to autocompleted words.",
+                    "target": "启用/禁用为自动补全的单词添加空格终止符。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Add words to a your custom dictionary.",
+                    "target": "将单词添加到你的自定义词典。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Maximum suggestions",
+                    "target": "最大建议数量"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Space terminator after autocomplete",
+                    "target": "自动补全后空格终止符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Custom dictionary",
+                    "target": "自定义词典"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Clear custom dictionary",
+                    "target": "清除自定义词典"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "e.g. tiktok",
+                    "target": "例如 tiktok"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
