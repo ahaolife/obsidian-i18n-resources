@@ -1,0 +1,133 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "daily-task-auto-generator",
+        "version": "1.0.0",
+        "title": "Daily Task Auto Generator",
+        "description": "Daily Task Auto Generator Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[DEBUG] \\u5DE5\\u4F5C\\u65E5\\u8BA1\\u7B97 - \\u5F02\\u5E38\\uFF1A\\u56DE\\u9000\\u8D85\\u8FC77\\u5929",
+                    "target": "[DEBUG] \\u5DE5\\u4F5C\\u65E5\\u8BA1\\u7B97 - \\u5F02\\u5E38\\uFF1A\\u56DE\\u9000\\u8D85\\u8FC77\\u5929"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error ensuring daily folder structure:",
+                    "target": "确保每日文件夹结构时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error generating daily task:",
+                    "target": "生成每日任务时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[统计] 生成昨日统计时发生错误:",
+                    "target": "[统计] 生成昨日统计时发生错误:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[统计] 错误详情:",
+                    "target": "[统计] 错误详情:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "手动添加任务失败:",
+                    "target": "手动添加任务失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "添加任务出错:",
+                    "target": "添加任务出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[DEBUG] \\u4F7F\\u7528\\u7684\\u6B63\\u5219\\u8868\\u8FBE\\u5F0F:",
+                    "target": "[DEBUG] \\u4F7F\\u7528\\u7684\\u6B63\\u5219\\u8868\\u8FBE\\u5F0F:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[DEBUG] \\u672A\\u627E\\u5230\\u4E0B\\u4E00\\u4E2A\\u65E5\\u671F\\u6807\\u9898\\uFF0C\\u63D0\\u53D6\\u5230\\u6587\\u4EF6\\u672B\\u5C3E",
+                    "target": "[DEBUG] \\u672A\\u627E\\u5230\\u4E0B\\u4E00\\u4E2A\\u65E5\\u671F\\u6807\\u9898\\uFF0C\\u63D0\\u53D6\\u5230\\u6587\\u4EF6\\u672B\\u5C3E"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[DEBUG] \\u4EFB\\u52A1\\u5206\\u6790 - \\u5185\\u5BB9\\u4E3A\\u7A7A",
+                    "target": "[DEBUG] \\u4EFB\\u52A1\\u5206\\u6790 - \\u5185\\u5BB9\\u4E3A\\u7A7A"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[DEBUG] \\u4EFB\\u52A1\\u5206\\u6790\\u7ED3\\u679C:",
+                    "target": "[DEBUG] \\u4EFB\\u52A1\\u5206\\u6790\\u7ED3\\u679C:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[DEBUG] \\u672A\\u627E\\u5230\\u4EFB\\u52A1\\u884C\\uFF0C\\u8F93\\u51FA\\u6240\\u6709\\u5185\\u5BB9\\u884C:",
+                    "target": "[DEBUG] \\u672A\\u627E\\u5230\\u4EFB\\u52A1\\u884C\\uFF0C\\u8F93\\u51FA\\u6240\\u6709\\u5185\\u5BB9\\u884C:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[DEBUG] \\u6708\\u5EA6\\u6A21\\u5F0F\\u4EFB\\u52A1\\u91CD\\u590D\\u68C0\\u67E5:",
+                    "target": "[DEBUG] \\u6708\\u5EA6\\u6A21\\u5F0F\\u4EFB\\u52A1\\u91CD\\u590D\\u68C0\\u67E5:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "  - \\u68C0\\u67E5\\u7684\\u6B63\\u5219\\u8868\\u8FBE\\u5F0F:",
+                    "target": "  - \\u68C0\\u67E5\\u7684\\u6B63\\u5219\\u8868\\u8FBE\\u5F0F:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[\\u7EDF\\u8BA1] \\u5F00\\u59CB\\u751F\\u6210\\u6628\\u65E5\\u4EFB\\u52A1\\u7EDF\\u8BA1:",
+                    "target": "[\\u7EDF\\u8BA1] \\u5F00\\u59CB\\u751F\\u6210\\u6628\\u65E5\\u4EFB\\u52A1\\u7EDF\\u8BA1:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[\\u7EDF\\u8BA1] \\u524D\\u4E00\\u5929\\u4EFB\\u52A1\\u5206\\u6790\\u7ED3\\u679C:",
+                    "target": "[\\u7EDF\\u8BA1] \\u524D\\u4E00\\u5929\\u4EFB\\u52A1\\u5206\\u6790\\u7ED3\\u679C:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[\\u7EDF\\u8BA1] \\u524D\\u4E00\\u5929\\u6CA1\\u6709\\u4EFB\\u52A1\\uFF0C\\u8DF3\\u8FC7\\u7EDF\\u8BA1\\u751F\\u6210",
+                    "target": "[\\u7EDF\\u8BA1] \\u524D\\u4E00\\u5929\\u6CA1\\u6709\\u4EFB\\u52A1\\uFF0C\\u8DF3\\u8FC7\\u7EDF\\u8BA1\\u751F\\u6210"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[\\u7EDF\\u8BA1] \\u5C06\\u5728\\u4ECA\\u65E5\\u4EFB\\u52A1\\u524D\\u6DFB\\u52A0\\u7EDF\\u8BA1\\u4FE1\\u606F",
+                    "target": "[\\u7EDF\\u8BA1] \\u5C06\\u5728\\u4ECA\\u65E5\\u4EFB\\u52A1\\u524D\\u6DFB\\u52A0\\u7EDF\\u8BA1\\u4FE1\\u606F"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "手动添加今日任务",
+                    "target": "手动添加今日任务"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
