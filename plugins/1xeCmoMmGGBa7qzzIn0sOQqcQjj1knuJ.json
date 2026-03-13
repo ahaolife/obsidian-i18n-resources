@@ -1,0 +1,241 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "pomodoro-timer",
+        "version": "1.0.0",
+        "title": "Pomodoro Timer",
+        "description": "Pomodoro Timer Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.2.3",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-x svelte-1ipipwe\"><path d=\"M18 6 6 18\"></path><path d=\"m6 6 12 12\"></path></svg>",
+                    "target": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-x svelte-1ipipwe\"><path d=\"M18 6 6 18\"></path><path d=\"m6 6 12 12\"></path></svg>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-pause svelte-1bkzjfd\"><rect width=\"4\" height=\"16\" x=\"6\" y=\"4\"></rect><rect width=\"4\" height=\"16\" x=\"14\" y=\"4\"></rect></svg>",
+                    "target": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-pause svelte-1bkzjfd\"><rect width=\"4\" height=\"16\" x=\"6\" y=\"4\"></rect><rect width=\"4\" height=\"16\" x=\"14\" y=\"4\"></rect></svg>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-play svelte-1bkzjfd\"><polygon points=\"5 3 19 12 5 21 5 3\"></polygon></svg>",
+                    "target": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-play svelte-1bkzjfd\"><polygon points=\"5 3 19 12 5 21 5 3\"></polygon></svg>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-list-todo svelte-1bkzjfd\"><rect x=\"3\" y=\"5\" width=\"6\" height=\"6\" rx=\"1\"></rect><path d=\"m3 17 2 2 4-4\"></path><path d=\"M13 6h8\"></path><path d=\"M13 12h8\"></path><path d=\"M13 18h8\"></path></svg>",
+                    "target": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-list-todo svelte-1bkzjfd\"><rect x=\"3\" y=\"5\" width=\"6\" height=\"6\" rx=\"1\"></rect><path d=\"m3 17 2 2 4-4\"></path><path d=\"M13 6h8\"></path><path d=\"M13 12h8\"></path><path d=\"M13 18h8\"></path></svg>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-rotate-ccw svelte-1bkzjfd\"><path d=\"M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8\"></path><path d=\"M3 3v5h5\"></path></svg>",
+                    "target": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-rotate-ccw svelte-1bkzjfd\"><path d=\"M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8\"></path><path d=\"M3 3v5h5\"></path></svg>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-settings-2 svelte-1bkzjfd\"><path d=\"M20 7h-9\"></path><path d=\"M14 17H5\"></path><circle cx=\"17\" cy=\"17\" r=\"3\"></circle><circle cx=\"7\" cy=\"7\" r=\"3\"></circle></svg>",
+                    "target": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-settings-2 svelte-1bkzjfd\"><path d=\"M20 7h-9\"></path><path d=\"M14 17H5\"></path><circle cx=\"17\" cy=\"17\" r=\"3\"></circle><circle cx=\"7\" cy=\"7\" r=\"3\"></circle></svg>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Notification Sound",
+                    "target": "通知声音"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Prefer Saving to Task File",
+                    "target": "优先保存到任务文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom daily note settings found!",
+                    "target": "未找到自定义的每日笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom weekly note settings found!",
+                    "target": "未找到自定义的每周笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom monthly note settings found!",
+                    "target": "未找到自定义月度笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom quarterly note settings found!",
+                    "target": "未找到自定义季度笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom yearly note settings found!",
+                    "target": "未找到自定义年度笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Restore Settings",
+                    "target": "恢复设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If you encounter high CPU usage, you can enable this option to lower the animation FPS to save CPU resources",
+                    "target": "如果遇到 CPU 占用过高，可以启用此选项降低动画 FPS 以节省 CPU 资源"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Important: Enabling this feature will automatically add a block ID when activating a task, unless a block ID is already present.",
+                    "target": "重要提示：启用此功能后，在激活任务时将自动添加块 ID，除非已存在块 ID。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The file to log pomodoro sessions to",
+                    "target": "用于记录番茄钟会话的文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable Status Bar Timer",
+                    "target": "启用状态栏计时器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Low Animation FPS",
+                    "target": "低动画 FPS"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Sound Notification",
+                    "target": "声音通知"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Custom Notification Audio",
+                    "target": "自定义通知音频"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable Task Tracking",
+                    "target": "启用任务跟踪"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show Task Progress Background",
+                    "target": "显示任务进度背景"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Task Format",
+                    "target": "任务格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Log File",
+                    "target": "日志文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Log file path",
+                    "target": "日志文件路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Log Level",
+                    "target": "日志级别"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Log Format",
+                    "target": "日志格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Requires ",
+                    "target": "需要启用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": " plugin to be enabled, then click the refresh button",
+                    "target": "插件，然后点击刷新按钮"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Unable to create new file.",
+                    "target": "无法创建新文件。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Timer reset",
+                    "target": "计时器已重置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle timer",
+                    "target": "切换计时器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle timer panel",
+                    "target": "切换计时器面板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Reset timer",
+                    "target": "重置计时器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle timer mode",
+                    "target": "切换计时器模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Pomodoro Timer",
+                    "target": "番茄钟"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
