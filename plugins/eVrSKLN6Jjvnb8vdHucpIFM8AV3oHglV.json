@@ -1,0 +1,85 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "pdf-printer",
+        "version": "1.0.0",
+        "title": "PDF Printer",
+        "description": "PDF Printer Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "pdf-printer: could not generate canvas or context",
+                    "target": "pdf-printer：无法生成画布或上下文"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Quality of the printed images. Higher values result in better quality but larger file sizes.",
+                    "target": "打印图像的质量。数值越高质量越好，但文件大小越大。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Place printed images from PDFs in this folder.",
+                    "target": "将从 PDF 打印的图像放置在此文件夹中。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Keep a link to the original PDF above the printed images as a reference.",
+                    "target": "在打印图像上方保留原始 PDF 的链接作为参考。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Image quality",
+                    "target": "图像质量"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Printed image folder path",
+                    "target": "打印图像文件夹路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show link to original PDF above printed images",
+                    "target": "在打印图像上方显示原始 PDF 链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Example: folder1/folder2",
+                    "target": "示例：folder1/folder2"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No images could be generated from the document.",
+                    "target": "无法从该文档生成图像。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please select a valid PDF file link.",
+                    "target": "请选择有效的 PDF 文件链接。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Convert PDF to images",
+                    "target": "将 PDF 转换为图像"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
