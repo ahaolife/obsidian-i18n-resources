@@ -1,0 +1,18 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "wonderbox",
+        "version": "1.0.0",
+        "title": "WonderBox",
+        "description": "WonderBox Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [],
+            "regex": []
+        }
+    }
+}
