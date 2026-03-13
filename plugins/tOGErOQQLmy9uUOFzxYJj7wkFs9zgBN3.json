@@ -1,0 +1,91 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "callout-suggestions",
+        "version": "1.0.0",
+        "title": "Callout Suggestions",
+        "description": "Callout Suggestions Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Obsidian Syntax   > [!name]",
+                    "target": "Obsidian 语法   > [!name]"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Admonition Syntax   ```name",
+                    "target": "Admonition 语法   ```name"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Callout Suggestions depends on Callout Manager. Install and enable it from community plugins before enabling this.",
+                    "target": "Callout Suggestions 依赖 Callout Manager。请先从社区插件中安装并启用它，再启用此项。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Unloading Callout Helper plugin.",
+                    "target": "正在卸载 Callout Helper 插件。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Which callout syntax do you use?",
+                    "target": "你使用哪种 callout 语法？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Which character should trigger the in-line suggestions?",
+                    "target": "哪个字符应触发行内建议？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Select the case for the inserted callout",
+                    "target": "选择插入的 callout 的大小写"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Callout syntax",
+                    "target": "Callout 语法"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Completion trigger character",
+                    "target": "补全触发字符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Case for inserted callout",
+                    "target": "插入的 callout 的大小写"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Callout Suggestions depends on Callout Manager. Install and enable it from community plugins before enablng this.",
+                    "target": "Callout Suggestions 依赖 Callout Manager。在启用此功能之前，请从社区插件中安装并启用它。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "No matches",
+                    "target": "无匹配项"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
