@@ -1,0 +1,289 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "mathematica-plot",
+        "version": "1.0.0",
+        "title": "Mathematica Plot",
+        "description": "Mathematica Plot Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "+ add",
+                    "target": "+ 添加"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "You can also provide a list of functions {f1, f2, ...}",
+                    "target": "你也可以提供函数列表 {f1, f2, ...}"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "You can also provide a list of expressions {e1, e2, ...}",
+                    "target": "你也可以提供表达式列表 {e1, e2, ...}"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Whether to pass --cloud option. If you don't have the wolfram engine installed set it to true.",
+                    "target": "是否传递 --cloud 选项。如果你没有安装 wolfram engine，请将其设为 true。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "f(x) = ",
+                    "target": "f(x) = "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "g1(u) = ",
+                    "target": "g1(u) = "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "g2(u) = ",
+                    "target": "g2(u) = "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "expression (x,y)",
+                    "target": "表达式 (x,y)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Vx(x,y) = ",
+                    "target": "Vx(x,y) = "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Vy(x,y) = ",
+                    "target": "Vy(x,y) = "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "f(x, y) = ",
+                    "target": "f(x, y) = "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "g1(u) =",
+                    "target": "g1(u) ="
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "g2(u) =",
+                    "target": "g2(u) ="
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "g3(u) =",
+                    "target": "g3(u) ="
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "g1(u, v) =",
+                    "target": "g1(u, v) ="
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "g2(u, v) =",
+                    "target": "g2(u, v) ="
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "g3(u, v) =",
+                    "target": "g3(u, v) ="
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "expression (x,y,z)",
+                    "target": "表达式 (x,y,z)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Vz(x,y) = ",
+                    "target": "Vz(x,y) = "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use cloud",
+                    "target": "使用云"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "WolframScript path",
+                    "target": "WolframScript 路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Edit plot settings",
+                    "target": "编辑绘图设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Whether to draw axes",
+                    "target": "是否绘制坐标轴"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Overall label for the plot",
+                    "target": "绘图的总体标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Whether to put a frame around the plot",
+                    "target": "是否在绘图周围添加边框"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Whether to draw the bounding box for 3d graphics",
+                    "target": "是否绘制 3D 图形的边界框"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Labels to use for fields",
+                    "target": "用于字段的标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Legends for fields",
+                    "target": "字段的图例"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Graphics directives to specify the style for each field",
+                    "target": "用于指定每个字段样式的图形指令"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Filling to insert under each field",
+                    "target": "在每个字段下方插入的填充"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Style to use for filling ",
+                    "target": "用于填充的样式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "How to draw boundary lines for surfaces",
+                    "target": "如何绘制曲面的边界线"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Axes Label",
+                    "target": "坐标轴标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Frame Label",
+                    "target": "框架标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Plot Labels",
+                    "target": "绘图标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Plot Legends",
+                    "target": "绘图图例"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Plot Style",
+                    "target": "绘图样式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Filling Style",
+                    "target": "填充样式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Boundary Style",
+                    "target": "边界样式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Plot Graph",
+                    "target": "绘制图形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "General settings",
+                    "target": "常规设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Graph preview",
+                    "target": "图表预览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "A preview of what your graph looks like",
+                    "target": "预览您的图表外观"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Render preview",
+                    "target": "渲染预览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Raster settings",
+                    "target": "栅格设置"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
