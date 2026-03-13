@@ -1,0 +1,85 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "blueprint",
+        "version": "1.0.0",
+        "title": "Blueprint",
+        "description": "Blueprint Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.5.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "New blueprint",
+                    "target": "新蓝图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "New note from blueprint",
+                    "target": "从蓝图新建笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Update all notes with blueprints",
+                    "target": "使用蓝图更新所有笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Apply blueprint",
+                    "target": "应用蓝图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Update notes using this blueprint",
+                    "target": "使用此蓝图更新笔记"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No notes are using this blueprint",
+                    "target": "没有笔记在使用此蓝图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Apply blueprint",
+                    "target": "应用蓝图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Apply blueprints in all notes in vault",
+                    "target": "在库中所有笔记中应用蓝图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Create new blueprint",
+                    "target": "新建蓝图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Create new note from blueprint",
+                    "target": "从蓝图新建笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Update notes using this blueprint",
+                    "target": "使用此蓝图更新注释"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
