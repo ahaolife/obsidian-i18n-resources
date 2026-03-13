@@ -1,0 +1,43 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "open-editors",
+        "version": "1.0.0",
+        "title": "Open Editors",
+        "description": "Open Editors Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.2.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Parent of leaf not found!",
+                    "target": "未找到叶节点的父节点！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "No id of new leaf!",
+                    "target": "新叶节点没有 id！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Leaf not found with the id ",
+                    "target": "未找到 id 为 的叶节点"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Unknown layout component",
+                    "target": "未知的布局组件"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
