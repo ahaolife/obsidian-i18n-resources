@@ -1,0 +1,145 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "snippets-manager",
+        "version": "1.0.0",
+        "title": "Snippets Manager",
+        "description": "Snippets Manager Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.4",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "If enabled, snippets will be saved in ",
+                    "target": "如果启用，片段将以"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " JSON format.",
+                    "target": " JSON 格式保存。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Add the following file in the Alfred workflow configuration. (Just double click and copy the path)",
+                    "target": "在 Alfred 工作流配置中添加以下文件。（只需双击并复制路径）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error fetching ChatGPT prompts:",
+                    "target": "获取 ChatGPT 提示时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error saving snippets as Alfred JSON:",
+                    "target": "将片段保存为 Alfred JSON 时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Path to the markdown file where snippets are stored. or Path to Folder which contains multiple Snippets file",
+                    "target": "存放片段的 Markdown 文件路径，或包含多个片段文件的文件夹路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Snippets file path or Snippets folder path",
+                    "target": "片段文件路径或片段文件夹路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable Alfred Support",
+                    "target": "启用 Alfred 支持"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use ↵ to Insert Snippet?",
+                    "target": "使用 ↵ 插入片段？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Strip Code Block Formatting",
+                    "target": "移除代码块格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Search snippets...",
+                    "target": "搜索片段..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Active view is not a markdown editor. Snippet was copied to clipboard.",
+                    "target": "当前视图不是 Markdown 编辑器。片段已复制到剪贴板。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Awesome ChatGPT Prompts file has been successfully saved to your snippets folder!",
+                    "target": "Awesome ChatGPT Prompts 文件已成功保存到你的片段文件夹！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to fetch and save the latest Awesome ChatGPT Prompts.",
+                    "target": "获取并保存最新的 Awesome ChatGPT Prompts 失败。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error: Snippet path should be an folder.",
+                    "target": "错误：片段路径应为一个文件夹。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please follow the same heading level throughout the file",
+                    "target": "请在整个文件中保持相同的标题级别"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to save snippets as Alfred JSON",
+                    "target": "无法将片段保存为 Alfred JSON"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Quoted field unterminated",
+                    "target": "带引号的字段未终止"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Trailing quote on quoted field is malformed",
+                    "target": "带引号字段的尾随引号格式错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Search Snippets",
+                    "target": "搜索片段"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sync Awesome ChatGPT Prompts",
+                    "target": "同步出色的 ChatGPT 提示词"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
