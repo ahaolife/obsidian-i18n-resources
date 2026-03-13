@@ -1,0 +1,379 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "typing-assistant",
+        "version": "1.0.0",
+        "title": "Typing Assistant",
+        "description": "Typing Assistant Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.3.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "replaceRange",
+                    "source": "- [ ] ",
+                    "target": "- [ ] "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The shortcut key `/` is only recognized at the first character of a blank line, ignoring lines of text in the input.",
+                    "target": "快捷键“/”仅在空白行的第一个字符处被识别，输入中的文本行会被忽略。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show \"💡Please input ‘ / ’ for more commands...\" prompt when typing on a blank line",
+                    "target": "在空白行输入时显示“💡请输入‘ / ’查看更多命令...”提示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Display shortcut options after selecting text",
+                    "target": "选中文本后显示快捷选项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Supports custom command combinations and drag-and-drop sorting; please ensure that at least 5 commands are open",
+                    "target": "支持自定义命令组合和拖拽排序；请确保至少开启 5 个命令"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Link URL",
+                    "target": "链接 URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Typing Placeholder",
+                    "target": "输入占位符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Selection Options",
+                    "target": "选择选项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Commands Menu",
+                    "target": "命令菜单"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "request link error:",
+                    "target": "请求链接错误："
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please input a valid url",
+                    "target": "请输入有效的URL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "link",
+                    "source": "<svg  viewBox=\"0 0 1024 1024\"  xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M725.333333 42.666667q50.346667 0 97.152 18.986667t83.84 55.978667 56.021333 83.84 18.986667 97.152q0 50.005333-19.157333 97.152t-55.850667 83.84l-128 128q-3.669333 3.669333-11.008 10.325333-35.669333 31.658667-79.658667 48.170667t-90.325333 16.512q-58.325333 0-110.336-25.002667-38.997333-18.346667-70.656-50.005333t-50.005333-70.656q25.002667-25.002667 60.330667-25.002667 12.330667 0 25.002667 3.669333 21.674667 34.986667 56.661333 56.661333 41.002667 25.002667 89.002667 25.002667 33.322667 0 64.682667-12.672t56.021333-37.333333l128-128q24.661333-24.661333 37.333333-56.021333t12.672-64.682667-12.672-64.682667-37.333333-56.021333-56.021333-37.333333-64.682667-12.672-64.682667 12.672-56.021333 37.333333l-89.685333 89.685333q-42.666667-11.648-88.32-11.648-7.338667 0-20.650667 0.682667 6.656-7.338667 10.325333-11.008l128-128q36.650667-36.650667 83.84-55.850667t97.152-19.157333zM426.666667 341.333333q58.325333 0 110.336 25.002667 38.997333 18.346667 70.656 50.005333t50.005333 70.656q-25.002667 25.002667-60.330667 25.002667-12.330667 0-25.002667-3.669333-21.674667-34.986667-56.661333-56.661333-41.002667-25.002667-89.002667-25.002667-33.322667 0-64.682667 12.672t-56.021333 37.333333l-128 128q-24.661333 24.661333-37.333333 56.021333t-12.672 64.682667 12.672 64.682667 37.333333 56.021333 56.021333 37.333333 64.682667 12.672 64.682667-12.672 56.021333-37.333333l89.685333-89.685333q42.666667 11.648 88.32 11.648 7.338667 0 20.650667-0.682667-6.656 7.338667-10.325333 11.008l-128 128q-36.992 36.992-83.84 56.021333t-97.152 18.986667q-50.005333 0-97.152-19.157333t-83.84-55.850667q-36.992-36.992-56.021333-83.84t-18.986667-97.152 18.986667-97.152 56.021333-83.84l128-128q3.669333-3.669333 11.008-10.325333 35.669333-31.658667 79.658667-48.170667t90.325333-16.512z\"  fill=\"#14181F\"></path></svg>",
+                    "target": "<svg  viewBox=\"0 0 1024 1024\"  xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M725.333333 42.666667q50.346667 0 97.152 18.986667t83.84 55.978667 56.021333 83.84 18.986667 97.152q0 50.005333-19.157333 97.152t-55.850667 83.84l-128 128q-3.669333 3.669333-11.008 10.325333-35.669333 31.658667-79.658667 48.170667t-90.325333 16.512q-58.325333 0-110.336-25.002667-38.997333-18.346667-70.656-50.005333t-50.005333-70.656q25.002667-25.002667 60.330667-25.002667 12.330667 0 25.002667 3.669333 21.674667 34.986667 56.661333 56.661333 41.002667 25.002667 89.002667 25.002667 33.322667 0 64.682667-12.672t56.021333-37.333333l128-128q24.661333-24.661333 37.333333-56.021333t12.672-64.682667-12.672-64.682667-37.333333-56.021333-56.021333-37.333333-64.682667-12.672-64.682667 12.672-56.021333 37.333333l-89.685333 89.685333q-42.666667-11.648-88.32-11.648-7.338667 0-20.650667 0.682667 6.656-7.338667 10.325333-11.008l128-128q36.650667-36.650667 83.84-55.850667t97.152-19.157333zM426.666667 341.333333q58.325333 0 110.336 25.002667 38.997333 18.346667 70.656 50.005333t50.005333 70.656q-25.002667 25.002667-60.330667 25.002667-12.330667 0-25.002667-3.669333-21.674667-34.986667-56.661333-56.661333-41.002667-25.002667-89.002667-25.002667-33.322667 0-64.682667 12.672t-56.021333 37.333333l-128 128q-24.661333-24.661333-37.333333 56.021333t-12.672 64.682667 12.672 64.682667 37.333333 56.021333 56.021333 37.333333 64.682667 12.672 64.682667-12.672 56.021333-37.333333l89.685333-89.685333q42.666667 11.648 88.32 11.648 7.338667 0 20.650667-0.682667-6.656 7.338667-10.325333 11.008l-128 128q-36.992 36.992-83.84 56.021333t-97.152 18.986667q-50.005333 0-97.152-19.157333t-83.84-55.850667q-36.992-36.992-56.021333-83.84t-18.986667-97.152 18.986667-97.152 56.021333-83.84l128-128q3.669333-3.669333 11.008-10.325333 35.669333-31.658667 79.658667-48.170667t90.325333-16.512z\"  fill=\"#14181F\"></path></svg>"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert normal text",
+                    "target": "插入正文"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert Heading-1",
+                    "target": "插入标题-1"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert Heading-2",
+                    "target": "插入标题-2"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert Heading-3",
+                    "target": "插入标题-3"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert Heading-4",
+                    "target": "插入标题-4"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert Heading-5",
+                    "target": "插入标题-5"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert Heading-6",
+                    "target": "插入标题-6"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert TodoList",
+                    "target": "插入待办列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert BulletList",
+                    "target": "插入项目符号列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert NumberList",
+                    "target": "插入编号列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert Table",
+                    "target": "插入表格"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert BookMark",
+                    "target": "插入书签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert Divide",
+                    "target": "插入分隔线"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert Quote",
+                    "target": "插入引用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert Callout",
+                    "target": "插入标注"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Success Callout",
+                    "target": "成功标注"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Question Callout",
+                    "target": "问题标注"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Warning Callout",
+                    "target": "警告标注"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Failure Callout",
+                    "target": "失败提示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Danger Callout",
+                    "target": "危险提示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Bug Callout",
+                    "target": "漏洞提示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Example Callout",
+                    "target": "示例提示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Quote Callout",
+                    "target": "引用提示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert Math Block",
+                    "target": "插入数学块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert Tag",
+                    "target": "插入标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Underline/Cancel underline",
+                    "target": "下划线/取消下划线"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add TodoList",
+                    "target": "添加待办列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "<svg  viewBox=\"0 0 1024 1024\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\"  ><path d=\"M484.053333 789.333333l-55.018666-159.573333H199.893333L144.448 789.333333H48.64L265.706667 188.074667h100.416L583.210667 789.333333h-99.178667z m-172.928-492.074666l-87.509333 254.165333h181.674667l-87.082667-254.165333h-7.082667z m466.922667 424.149333c67.498667 0 117.504-42.901333 117.504-99.157333v-37.909334l-110.848 7.082667c-62.506667 4.16-90.837333 25.408-90.837333 65.408 0 40.832 35.413333 64.576 84.181333 64.576z m-22.933333 75.434667c-87.488 0-151.253333-52.906667-151.253334-135.850667 0-81.664 60.842667-128.746667 168.746667-135.402667l122.944-7.082666v-39.168c0-47.914667-31.68-75.008-92.928-75.008-50.005333 0-84.586667 18.346667-94.592 50.410666h-86.656c9.173333-77.909333 82.496-127.914667 185.408-127.914666 113.749333 0 177.92 56.682667 177.92 152.512V789.333333h-86.250667v-63.744h-7.082666c-27.093333 45.418667-76.672 71.253333-136.256 71.253334z\" fill=\"#14181F\" ></path></svg>",
+                    "target": "<svg  viewBox=\"0 0 1024 1024\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\"  ><path d=\"M484.053333 789.333333l-55.018666-159.573333H199.893333L144.448 789.333333H48.64L265.706667 188.074667h100.416L583.210667 789.333333h-99.178667z m-172.928-492.074666l-87.509333 254.165333h181.674667l-87.082667-254.165333h-7.082667z m466.922667 424.149333c67.498667 0 117.504-42.901333 117.504-99.157333v-37.909334l-110.848 7.082667c-62.506667 4.16-90.837333 25.408-90.837333 65.408 0 40.832 35.413333 64.576 84.181333 64.576z m-22.933333 75.434667c-87.488 0-151.253333-52.906667-151.253334-135.850667 0-81.664 60.842667-128.746667 168.746667-135.402667l122.944-7.082666v-39.168c0-47.914667-31.68-75.008-92.928-75.008-50.005333 0-84.586667 18.346667-94.592 50.410666h-86.656c9.173333-77.909333 82.496-127.914667 185.408-127.914666 113.749333 0 177.92 56.682667 177.92 152.512V789.333333h-86.250667v-63.744h-7.082666c-27.093333 45.418667-76.672 71.253333-136.256 71.253334z\" fill=\"#14181F\" ></path></svg>"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Insert a link bookmark",
+                    "target": "插入链接书签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Typing Assistant",
+                    "target": "输入助手"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "For any questions or suggestions during use, please feel free to ",
+                    "target": "使用过程中如有任何问题或建议，欢迎随时"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "contact me",
+                    "target": "联系我"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Note Callout",
+                    "target": "备注标注"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Abstract Callout",
+                    "target": "摘要标注"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Info Callout",
+                    "target": "信息标注"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Todo Callout",
+                    "target": "待办标注"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Tip Callout",
+                    "target": "提示标注"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Success Callout",
+                    "target": "成功标注"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Question Callout",
+                    "target": "问题提示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Warning Callout",
+                    "target": "警告提示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Failure Callout",
+                    "target": "失败提示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Danger Callout",
+                    "target": "危险提示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Bug Callout",
+                    "target": "错误提示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Example Callout",
+                    "target": "示例提示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Quote Callout",
+                    "target": "引用提示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Math Block",
+                    "target": "数学块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "To-do List",
+                    "target": "待办清单"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Link BookMark",
+                    "target": "链接书签"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
