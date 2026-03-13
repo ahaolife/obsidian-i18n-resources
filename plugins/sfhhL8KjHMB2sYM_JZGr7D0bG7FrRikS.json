@@ -1,0 +1,193 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "arena-manager",
+        "version": "1.0.0",
+        "title": "Are.na Manager",
+        "description": "Are.na Manager Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.5",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Don't download attachments",
+                    "target": "不要下载附件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Download inside the channel folder",
+                    "target": "下载到频道文件夹内"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Download to a custom folder",
+                    "target": "下载到自定义文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error fetching channels:",
+                    "target": "获取频道时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to update block:",
+                    "target": "更新区块失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error downloading attachment",
+                    "target": "下载附件时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The folder where the blocks will be saved.",
+                    "target": "区块将被保存的文件夹。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Your are.na slug (e.g. 'username' in are.na/username).",
+                    "target": "你的 are.na 标识（例如 are.na/username 中的“username”）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose where to download the attachments.",
+                    "target": "选择下载附件的位置。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Access token",
+                    "target": "访问令牌"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Download attachments",
+                    "target": "下载附件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter a name",
+                    "target": "输入名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter your username",
+                    "target": "输入你的用户名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter your token",
+                    "target": "输入你的令牌"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Folder name",
+                    "target": "文件夹名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Enter Are.na block id or URL",
+                    "target": "输入 Are.na 区块 ID 或 URL"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No active file open",
+                    "target": "没有打开的活动文件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Block not updated",
+                    "target": "区块未更新"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Block updated",
+                    "target": "区块已更新"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error creating file",
+                    "target": "创建文件时出错"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No block id found in frontmatter",
+                    "target": "在 frontmatter 中未找到块 ID"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Note created",
+                    "target": "已创建笔记"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error getting block",
+                    "target": "获取块时出错"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Get blocks from channel",
+                    "target": "从频道获取块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Pull block from Are.na",
+                    "target": "从 Are.na 拉取块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Push note to Are.na",
+                    "target": "将笔记推送到 Are.na"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Get a block from Are.na",
+                    "target": "从 Are.na 获取一个块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Go to block in Are.na",
+                    "target": "前往 Are.na 中的块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Get a block by its ID or URL",
+                    "target": "通过其 ID 或 URL 获取块"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
