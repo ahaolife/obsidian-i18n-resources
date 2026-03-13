@@ -1,0 +1,1003 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "next-toc",
+        "version": "1.0.0",
+        "title": "Next TOC",
+        "description": "Next TOC Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.0.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Successfully copied toc",
+                    "target": "已成功复制 toc"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to copy code",
+                    "target": "复制代码失败"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Enable or disable the table of contents feature",
+                    "target": "启用或禁用目录功能"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Enable or disable always expanding the table of contents， you can use the document property `cssclasses` to control show and hide: ",
+                    "target": "启用或禁用始终展开目录，你可以使用文档属性 `cssclasses` 来控制显示与隐藏："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Set the width of the table of contents",
+                    "target": "设置目录宽度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Set the position of the table of contents",
+                    "target": "设置目录位置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Set the offset of the table of contents",
+                    "target": "设置目录偏移量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Set the display mode for TOC indicators when collapsed",
+                    "target": "设置折叠时目录指示器的显示模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Enable or disable using heading numbers in the table of contents. You can use the document property `cssclasses` to control show and hide (Priority higher than blacklist): ",
+                    "target": "启用或禁用在目录中使用标题编号。你可以使用文档属性 `cssclasses` 来控制显示与隐藏（优先级高于黑名单）："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Choose whether to start numbering from 0 or 1.",
+                    "target": "选择编号从 0 或 1 开始。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Enable or disable skipping level 1 headings in the table of contents",
+                    "target": "在目录中启用或禁用跳过一级标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Enable or disable rendering Markdown syntax in the table of contents",
+                    "target": "在目录中启用或禁用渲染 Markdown 语法"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Enable or disable showing the table of contents when the document has only a single heading",
+                    "target": "当文档只有一个标题时启用或禁用显示目录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Show the toolbar with navigation buttons",
+                    "target": "显示带有导航按钮的工具栏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Show the reading progress bar above the table of contents",
+                    "target": "在目录上方显示阅读进度条"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Show the circular reading progress indicator above the toggle button, when the toc is collapsed",
+                    "target": "当目录折叠时，在切换按钮上方显示圆形阅读进度指示器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Button to return to the last cursor position (available only in edit mode)",
+                    "target": "返回上次光标位置的按钮（仅在编辑模式可用）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Button to return to the top of the document",
+                    "target": "返回文档顶部的按钮"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Button to return to the bottom of the document",
+                    "target": "返回文档底部的按钮"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Button to jump to the next heading",
+                    "target": "跳转到下一个标题的按钮"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Button to jump to the previous heading",
+                    "target": "跳转到上一个标题的按钮"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Activer ou désactiver la fonctionnalité de table des matières",
+                    "target": "启用或禁用目录功能"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Définir la largeur de la table des matières",
+                    "target": "设置目录的宽度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Définir la position de la table des matières",
+                    "target": "设置目录的位置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Définir le décalage de la table des matières",
+                    "target": "设置目录的偏移量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Définir le mode d'affichage des indicateurs de la table des matières lorsqu'elle est réduite",
+                    "target": "设置目录折叠时指示器的显示模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Activer ou désactiver l'utilisation des numéros de titres dans la table des matières. Vous pouvez utiliser la propriété de document `cssclasses` pour contrôler l'affichage et le masquage (Priorité supérieure à la liste noire) : ",
+                    "target": "启用或禁用在目录中使用标题编号。您可以使用文档属性 `cssclasses` 来控制显示与隐藏（优先级高于黑名单）： "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Activer ou désactiver le fait d'ignorer les titres de niveau 1 dans la table des matières",
+                    "target": "启用或禁用在目录中忽略一级标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Activer ou désactiver le rendu de la syntaxe Markdown dans la table des matières",
+                    "target": "启用或禁用在目录中渲染 Markdown 语法"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Activer ou désactiver l'affichage de la table des matières lorsque le document n'a qu'un seul titre",
+                    "target": "启用或禁用在文档只有一个标题时显示目录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Afficher la barre d'outils avec les boutons de navigation",
+                    "target": "显示带有导航按钮的工具栏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Afficher la barre de progression de lecture au-dessus de la table des matières",
+                    "target": "在目录上方显示阅读进度条"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Bouton pour retourner en haut du document",
+                    "target": "返回文档顶部的按钮"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Bouton pour retourner en bas du document",
+                    "target": "返回文档底部的按钮"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Bouton pour aller au titre suivant",
+                    "target": "转到下一个标题的按钮"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Bouton pour aller au titre précédent",
+                    "target": "转到上一个标题的按钮"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "启用或禁用目录功能",
+                    "target": "启用或禁用目录功能"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "启用或禁用始终展开目录，可使用文档属性 `cssclasses` 来控制显示与隐藏：",
+                    "target": "启用或禁用始终展开目录，可使用文档属性 `cssclasses` 来控制显示与隐藏："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "设置目录的宽度",
+                    "target": "设置目录的宽度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "设置目录的位置",
+                    "target": "设置目录的位置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "设置目录的偏移量",
+                    "target": "设置目录的偏移量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "设置目录收起时指示器的显示模式",
+                    "target": "设置目录收起时指示器的显示模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "启用或禁用在目录中使用标题编号，可使用文档属性 `cssclasses` 来控制显示与隐藏（优先级高于黑名单）：",
+                    "target": "启用或禁用在目录中使用标题编号，可使用文档属性 `cssclasses` 来控制显示与隐藏（优先级高于黑名单）："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "选择标题编号是从 0 开始还是从 1 开始。",
+                    "target": "选择标题编号是从 0 开始还是从 1 开始。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "启用或禁用在目录中跳过一级标题",
+                    "target": "启用或禁用在目录中跳过一级标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "启用或禁用在目录中渲染 Markdown",
+                    "target": "启用或禁用在目录中渲染 Markdown"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "启用或禁用在文档仅有单一标题时显示目录",
+                    "target": "启用或禁用在文档仅有单一标题时显示目录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "显示带有导航按钮的工具栏",
+                    "target": "显示带有导航按钮的工具栏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在目录上方显示阅读进度",
+                    "target": "在目录上方显示阅读进度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在指示器上方显示阅读进度，即收缩目录后",
+                    "target": "在指示器上方显示阅读进度，即收缩目录后"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "返回到上次光标位置的按钮（仅在编辑模式下可用）",
+                    "target": "返回到上次光标位置的按钮（仅在编辑模式下可用）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "返回到文档顶部的按钮",
+                    "target": "返回到文档顶部的按钮"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "返回到文档底部的按钮",
+                    "target": "返回到文档底部的按钮"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "跳转到下一个标题的按钮",
+                    "target": "跳转到下一个标题的按钮"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "跳转到上一个标题的按钮",
+                    "target": "跳转到上一个标题的按钮"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "啟用或停用目錄功能",
+                    "target": "启用或停用目录功能"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "啟用或停用目錄永遠展開，可使用文件屬性 `cssclasses` 來控制顯示與隱藏：",
+                    "target": "启用或停用目录始终展开，可使用文件属性 `cssclasses` 来控制显示与隐藏："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "設定目錄的寬度",
+                    "target": "设置目录的宽度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "設定目錄的位置",
+                    "target": "设置目录的位置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "設定目錄的偏移量",
+                    "target": "设置目录的偏移量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "設定目錄收起時指示器的顯示模式",
+                    "target": "设置目录收起时指示器的显示模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "啟用或停用在目錄中使用標題編號，可使用文件屬性 `cssclasses` 來控制顯示與隱藏（優先級高於黑名單）：",
+                    "target": "启用或停用在目录中使用标题编号，可使用文件属性 `cssclasses` 来控制显示与隐藏（优先级高于黑名单）："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "選擇標題編號是從 0 開始還是從 1 開始。",
+                    "target": "选择标题编号是从 0 开始还是从 1 开始。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "啟用或停用在目錄中跳過一級標題",
+                    "target": "启用或停用在目录中跳过一级标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "啟用或停用在目錄中渲染 Markdown",
+                    "target": "启用或停用在目录中渲染 Markdown"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "啟用或停用在文件僅有單一標題時顯示目錄",
+                    "target": "启用或停用在文件仅有单一标题时显示目录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "顯示帶有導覽按鈕的工具列",
+                    "target": "显示带有导航按钮的工具栏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在目錄上方顯示閱讀進度",
+                    "target": "在目录上方显示阅读进度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在指示器上方顯示閱讀進度，即收縮目錄後",
+                    "target": "在指示器上方显示阅读进度，即收缩目录后"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "返回到上次游標位置的按鈕（僅在編輯模式下可用）",
+                    "target": "返回到上次光标位置的按钮（仅在编辑模式下可用）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "返回到文件頂部的按鈕",
+                    "target": "返回到文件顶部的按钮"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "返回到文件底部的按鈕",
+                    "target": "返回到文件底部的按钮"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "跳至下一個標題的按鈕",
+                    "target": "跳至下一个标题的按钮"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "跳至上一個標題的按鈕",
+                    "target": "跳至上一个标题的按钮"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Reading time card settings",
+                    "target": "阅读时间卡片设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Table of contents card settings",
+                    "target": "目录卡片设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Paramètres de la carte de table des matières",
+                    "target": "目录卡片设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "阅读时间卡片设置",
+                    "target": "阅读时间卡片设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "目录卡片设置",
+                    "target": "目录卡片设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "閱讀時間卡片設定",
+                    "target": "阅读时间卡片设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "目錄卡片設定",
+                    "target": "目录卡片设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toc show",
+                    "target": "显示目录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toc always expand",
+                    "target": "目录始终展开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toc width",
+                    "target": "目录宽度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toc position",
+                    "target": "目录位置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toc offset",
+                    "target": "目录偏移"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Indicator mode",
+                    "target": "指示器模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Use heading number",
+                    "target": "使用标题编号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Heading number start index",
+                    "target": "标题编号起始索引"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Skip heading 1",
+                    "target": "跳过标题 1"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Render Markdown syntax",
+                    "target": "渲染 Markdown 语法"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show when single heading",
+                    "target": "仅在单个标题时显示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Heading number blacklist",
+                    "target": "标题编号黑名单"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Use toolbar",
+                    "target": "使用工具栏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Use progress bar",
+                    "target": "使用进度条"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Use progress circle",
+                    "target": "使用进度圆环"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Return to cursor",
+                    "target": "返回到光标位置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Return to top",
+                    "target": "返回顶部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Return to bottom",
+                    "target": "返回底部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Jump to next heading",
+                    "target": "跳转到下一个标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Jump to previous heading",
+                    "target": "跳转到上一个标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Table des matières",
+                    "target": "目录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Afficher la table des matières",
+                    "target": "显示目录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toujours développer la table des matières",
+                    "target": "始终展开目录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Largeur de la table des matières",
+                    "target": "目录宽度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Position de la table des matières",
+                    "target": "目录位置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Décalage de la table des matières",
+                    "target": "目录偏移"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Mode d'indicateur",
+                    "target": "指示器模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Utiliser les numéros de titres",
+                    "target": "使用标题编号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ignorer les titres de niveau 1",
+                    "target": "忽略一级标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Rendre la syntaxe Markdown",
+                    "target": "渲染 Markdown 语法"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Afficher avec un seul titre",
+                    "target": "仅显示一个标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Liste noire des numéros de titres",
+                    "target": "标题编号黑名单"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Utiliser la barre d'outils",
+                    "target": "使用工具栏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Utiliser la barre de progression",
+                    "target": "使用进度条"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Utiliser le cercle de progression",
+                    "target": "使用进度环"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Retourner au curseur",
+                    "target": "返回到光标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Retourner en haut",
+                    "target": "返回顶部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Retourner en bas",
+                    "target": "返回底部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Aller au titre suivant",
+                    "target": "转到下一个标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Aller au titre précédent",
+                    "target": "转到上一个标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "目录",
+                    "target": "目录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "显示目录",
+                    "target": "显示目录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "始终展开目录",
+                    "target": "始终展开目录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "目录宽度",
+                    "target": "目录宽度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "目录位置",
+                    "target": "目录位置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "目录偏移",
+                    "target": "目录偏移"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "指示器模式",
+                    "target": "指示器模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "渲染",
+                    "target": "渲染"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "使用标题编号",
+                    "target": "使用标题编号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "标题编号起始序号",
+                    "target": "标题编号起始序号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "跳过一级标题",
+                    "target": "跳过一级标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "渲染 Markdown",
+                    "target": "渲染 Markdown"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "单一标题时显示目录",
+                    "target": "单一标题时显示目录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "标题编号黑名单",
+                    "target": "标题编号黑名单"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "工具",
+                    "target": "工具"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "使用工具栏",
+                    "target": "使用工具栏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "显示进度条",
+                    "target": "显示进度条"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "显示进度圆环",
+                    "target": "显示进度圆环"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "返回光标",
+                    "target": "返回光标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "返回顶部",
+                    "target": "返回顶部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "返回底部",
+                    "target": "返回底部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "跳转到下一个标题",
+                    "target": "跳转到下一个标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "跳转到上一个标题",
+                    "target": "跳转到上一个标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "目錄",
+                    "target": "目录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "顯示目錄",
+                    "target": "显示目录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "目錄永遠展開",
+                    "target": "目录始终展开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "目錄寬度",
+                    "target": "目录宽度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "目錄位置",
+                    "target": "目录位置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "目錄偏移",
+                    "target": "目录偏移"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "使用標題編號",
+                    "target": "使用标题编号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "標題編號起始序號",
+                    "target": "标题编号起始序号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "跳過一級標題",
+                    "target": "跳过一级标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "單一標題時顯示目錄",
+                    "target": "单一标题时显示目录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "標題編號黑名單",
+                    "target": "标题编号黑名单"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "使用工具列",
+                    "target": "使用工具栏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "顯示進度條",
+                    "target": "显示进度条"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "顯示進度圓環",
+                    "target": "显示进度圆环"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "返回游標",
+                    "target": "返回光标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "返回頂部",
+                    "target": "返回顶部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "跳至下一個標題",
+                    "target": "跳至下一个标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "跳至上一個標題",
+                    "target": "跳至上一个标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "标题",
+                    "target": "标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "標題",
+                    "target": "标题"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
