@@ -1,0 +1,271 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "wardley-maps",
+        "version": "1.0.0",
+        "title": "Wardley Maps",
+        "description": "Wardley Maps Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.10",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "forceFrameRate takes a positive int between 0 and 125, forcing frame rates higher than 125 fps is not supported",
+                    "target": "forceFrameRate 需要一个 0 到 125 之间的正整数，不支持强制设置高于 125 fps 的帧率"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unable to locate the active file or file is not a TFile",
+                    "target": "无法定位活动文件或该文件不是 TFile"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Enter key pressed!",
+                    "target": "已按下 Enter 键！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "pagination navigation",
+                    "target": "分页导航"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "button group",
+                    "target": "按钮组"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Zoom In",
+                    "target": "放大"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Zoom Out",
+                    "target": "缩小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Component Inertia",
+                    "target": "组件惯性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "summary",
+                    "source": "component Name [Visibility (Y Axis), Maturity (X Axis)]",
+                    "target": "组件名称 [可见性（Y 轴），成熟度（X 轴）]"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "summary",
+                    "source": "component Name [Visibility (Y Axis), Maturity (X Axis)] inertia",
+                    "target": "组件名称 [可见性（Y 轴），成熟度（X 轴）] 惯性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "summary",
+                    "source": "evole Name (X Axis)",
+                    "target": "evole 名称（X 轴）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "summary",
+                    "source": "evole Name->NewName (X Axis)",
+                    "target": "evole 名称->新名称（X 轴）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "summary",
+                    "source": "market Name [Visibility (Y Axis), Maturity (X Axis)]",
+                    "target": "市场名称 [可见性（Y 轴），成熟度（X 轴）]"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "summary",
+                    "source": "pipeline Component Name [X Axis (start), X Axis (end)]",
+                    "target": "管道组件名称 [X 轴（起点），X 轴（终点）]"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "summary",
+                    "source": "Add areas indicating which type of working approach supports component development",
+                    "target": "添加区域，指明哪种工作方式支持组件开发"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "summary",
+                    "source": "Highlight a component with a build, buy, or outsource method of execution",
+                    "target": "突出显示采用自建、购买或外包执行方式的组件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "summary",
+                    "source": "Add a reference link to a submap. A component becomes a link to another Wardley Map",
+                    "target": "为子地图添加引用链接。组件将成为指向另一个 Wardley Map 的链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "summary",
+                    "source": "Change the stages of evolution labels on the map",
+                    "target": "更改地图上的演进阶段标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "summary",
+                    "source": "Add text to any part of the map",
+                    "target": "在地图的任意部分添加文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "summary",
+                    "source": "Change the look and feel of a map",
+                    "target": "更改地图的外观和体验"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Zoom in",
+                    "target": "放大"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Zoom out",
+                    "target": "缩小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Fit to viewer",
+                    "target": "适合视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "To set the title",
+                    "target": "用于设置标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "To create a component",
+                    "target": "用于创建组件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Inertia - component likely to face resistance to change.",
+                    "target": "惯性 - 组件可能会面临变更阻力。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "To evolve a component",
+                    "target": "用于演进组件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "To evolve a component with new name",
+                    "target": "用于以新名称演进组件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "To link components",
+                    "target": "用于链接组件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "To indicate flow",
+                    "target": "用于指示流程"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "To create a market",
+                    "target": "用于创建市场"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "To set component as pipeline:",
+                    "target": "将组件设为流水线："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "To indicate flow - past components only",
+                    "target": "表示流程 - 仅过去组件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "To indicate flow - future components only",
+                    "target": "表示流程 - 仅未来组件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "To indicate flow - with label",
+                    "target": "表示流程 - 带标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Pioneers, Settlers, Townplanners area",
+                    "target": "开拓者、移民、城镇规划者区域"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Build, buy, outsource components",
+                    "target": "构建、购买、外包组件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Link submap to a component",
+                    "target": "将子地图链接到组件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Stages of Evolution",
+                    "target": "演进阶段"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Add notes",
+                    "target": "添加备注"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Available styles",
+                    "target": "可用样式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Untitled Map",
+                    "target": "未命名地图"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
