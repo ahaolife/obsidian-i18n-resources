@@ -1,0 +1,18 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-contextual-typography",
+        "version": "1.0.0",
+        "title": "Contextual Typography",
+        "description": "Contextual Typography Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.2.5",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [],
+            "regex": []
+        }
+    }
+}
