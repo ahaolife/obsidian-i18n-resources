@@ -1,0 +1,43 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "draw-steel-retainer",
+        "version": "1.0.0",
+        "title": "Draw Steel Retainer",
+        "description": "Draw Steel Retainer Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.19",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Minion count",
+                    "target": "仆从数量"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Add player character",
+                    "target": "添加玩家角色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set the PC's name and stamina",
+                    "target": "设置PC的名称和体力"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Player character",
+                    "target": "玩家角色"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
