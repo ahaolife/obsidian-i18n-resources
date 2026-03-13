@@ -1,0 +1,367 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-word-sprint",
+        "version": "1.0.0",
+        "title": "Word Sprint",
+        "description": "Word Sprint Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.3.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "forceFrameRate takes a positive int between 0 and 125, forcing frame rates higher than 125 fps is not supported",
+                    "target": "forceFrameRate 需要一个介于 0 到 125 的正整数，不支持强制设置高于 125 fps 的帧率"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Export Stats",
+                    "target": "导出统计数据"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Reset Daily Stats",
+                    "target": "重置每日统计"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Reset All Stats",
+                    "target": "重置所有统计"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "(in minutes)",
+                    "target": "（以分钟为单位）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "default is on, provide helpful notices when you are not writing",
+                    "target": "默认开启，在你未写作时提供有用提示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "default is on, provide status updates in leaf when you are not writing",
+                    "target": "默认开启，在你未写作时在 Leaf 中提供状态更新"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "(in seconds)",
+                    "target": "（以秒为单位）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose which tab you would like to see by default",
+                    "target": "选择你希望默认显示的标签页"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Word Count for your daily goal",
+                    "target": "每日目标字数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Word Count for your overall goal",
+                    "target": "整体目标的字数统计"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose which project you would like to update word count for",
+                    "target": "选择要更新字数统计的项目"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose the project challenge you would like to update word count for",
+                    "target": "选择要更新字数统计的项目挑战"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Default is off, but we think you are doing a great job either way",
+                    "target": "默认关闭，但无论如何我们都认为你做得很棒"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "(each time)",
+                    "target": "（每次）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Ensure this change for all future sprints",
+                    "target": "将此更改应用于所有未来的冲刺"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Sprint Date",
+                    "target": "冲刺日期"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Sprint Length",
+                    "target": "冲刺时长"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Total Words Written",
+                    "target": "累计已写字数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Average Words Per Minute",
+                    "target": "每分钟平均字数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Yellow Notices",
+                    "target": "黄色通知"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Red Notices",
+                    "target": "红色通知"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Longest Stretch Not Writing",
+                    "target": "最长未撰写时段"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Total Time Not Writing",
+                    "target": "未撰写总时长"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Notices when not writing",
+                    "target": "未撰写时的通知"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Status update in leaf when not writing",
+                    "target": "未撰写时在叶子中的状态更新"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "First notice when not writing",
+                    "target": "未撰写时的首次通知"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Receive first notice after",
+                    "target": "首次通知接收时间"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Second notice when not writing",
+                    "target": "未撰写时的第二次通知"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Receive second notice after",
+                    "target": "第二次通知接收时间"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default tab",
+                    "target": "默认标签页"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Daily Goal",
+                    "target": "每日目标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Overall Goal",
+                    "target": "总体目标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Project Challenge",
+                    "target": "项目挑战"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Reset daily stat",
+                    "target": "重置每日统计"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Reset all stats",
+                    "target": "重置全部统计"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "New Sprint Length",
+                    "target": "新的冲刺时长"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Make sprint length default",
+                    "target": "将冲刺时长设为默认"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "e.g. 1700",
+                    "target": "例如 1700"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "e.g. 50000",
+                    "target": "例如 50000"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Numeral.js: Value is not string. It has been co-erced to: ",
+                    "target": "Numeral.js：值不是字符串。已被强制转换为："
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Sprint still going, but here's the stats as of this moment",
+                    "target": "Sprint 仍在进行中，但这是截至目前的统计数据"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "A new Sprint has started",
+                    "target": "新的 Sprint 已开始"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No Word Sprint running",
+                    "target": "没有正在运行的 Word Sprint"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error occurred updating NaNoWriMo project with sprint count",
+                    "target": "使用 sprint 计数更新 NaNoWriMo 项目时发生错误"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Sprint already started! Please stop current sprint if you'd like to reset",
+                    "target": "Sprint 已开始！若要重置，请停止当前 sprint"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Cannot change sprint time during a sprint!",
+                    "target": "Sprint 进行中无法更改时间！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No stats found to show!",
+                    "target": "未找到可显示的统计数据！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show Word Sprint Leaf",
+                    "target": "显示 Word Sprint 叶子"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert Last Word Sprint Stats",
+                    "target": "插入上次 Word Sprint 统计"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert Average Word Sprint Stats",
+                    "target": "插入平均冲刺字数统计"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert All Word Sprint Stats Table",
+                    "target": "插入全部冲刺字数统计表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Start Word Sprint",
+                    "target": "开始冲刺写作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle Start/Stop Word Sprint",
+                    "target": "切换开始/停止冲刺写作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Change Word Sprint Length",
+                    "target": "更改冲刺时长"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Stop Word Sprint",
+                    "target": "停止冲刺写作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Word Sprint Settings",
+                    "target": "冲刺写作设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Change Sprint Time",
+                    "target": "更改冲刺时间"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
