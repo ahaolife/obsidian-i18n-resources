@@ -1,0 +1,277 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "update-time-on-edit",
+        "version": "1.0.0",
+        "title": "Update time on edit",
+        "description": "Update time on edit Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.4.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "NAN DATE",
+                    "target": "日期为 NaN"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "loading plugin IN DEV",
+                    "target": "在开发环境加载插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Ignoring file because, sha same",
+                    "target": "忽略文件，因为 sha 相同"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "current metadata: ",
+                    "target": "当前元数据："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "current stat: ",
+                    "target": "当前状态："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Something wrong happen, skipping",
+                    "target": "发生错误，跳过"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Update updatedKey",
+                    "target": "更新 updatedKey"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Skipping updateKey",
+                    "target": "跳过 updateKey"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Setup handler",
+                    "target": "设置处理程序"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "TRIGGER FROM MODIFY",
+                    "target": "由修改触发"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "unloading Update time on edit plugin",
+                    "target": "正在卸载编辑时更新时间插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[UTOE]:",
+                    "target": "[UTOE]:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Update all files",
+                    "target": "更新所有文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Fill initial cache",
+                    "target": "填充初始缓存"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "This plugin will only work on new files, but if you want to update all files in your vault at once, you can do it here.",
+                    "target": "此插件只会对新文件生效，但如果你想一次性更新保险库中的所有文件，可以在这里进行。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If your files are updating too often, increase this.",
+                    "target": "如果你的文件更新过于频繁，请增大此值。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Currently, it is set to now if not present",
+                    "target": "当前如果未设置，则默认为现在。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The key in the front matter yaml for the update time.",
+                    "target": "用于更新时间的 front matter yaml 键名。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The key in the front matter yaml for the creation time",
+                    "target": "用于创建时间的 front matter yaml 键名。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Update all files",
+                    "target": "更新所有文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable hash matcher",
+                    "target": "启用哈希匹配器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Minimum number of minutes between update",
+                    "target": "更新之间的最小分钟数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable the created front matter key update",
+                    "target": "启用创建的前言键更新"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Front matter updated name",
+                    "target": "前言更新名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Front matter created name",
+                    "target": "前言创建名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Example: folder1/folder2",
+                    "target": "示例：folder1/folder2"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Add folder",
+                    "target": "添加文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Starting with v2.0.0-beta.1 date-fns doesn't accept strings as date arguments. Please use `parseISO` to parse strings. See: https://git.io/fjule",
+                    "target": "从 v2.0.0-beta.1 开始，date-fns 不再接受字符串作为日期参数。请使用 `parseISO` 来解析字符串。参见：https://git.io/fjule"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Bulk update for header stopped.",
+                    "target": "标题的批量更新已停止。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The date format for read and write",
+                    "target": "读写的日期格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Any file updated in this folder will not trigger a created update.",
+                    "target": "此文件夹中更新的任何文件都不会触发创建时间更新。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Any file updated in this folder will not trigger an updated and created update.",
+                    "target": "此文件夹中更新的任何文件都不会触发更新时间和创建时间更新。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Date format",
+                    "target": "日期格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Folder(s) to exclude for updating the created property",
+                    "target": "排除更新创建时间属性的文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Folder to exclude of all updates",
+                    "target": "排除所有更新的文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Finding eligible files in the vault...",
+                    "target": "正在在库中查找符合条件的文件…"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "This will update all created and updated time on files affected by this plugin",
+                    "target": "这将更新受此插件影响的文件的创建时间和更新时间"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "This will update all cache data on files affected by this plugin",
+                    "target": "这将更新受此插件影响的文件的所有缓存数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Global settings",
+                    "target": "全局设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Updated at",
+                    "target": "更新时间"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Created at",
+                    "target": "创建时间"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Experimental settings",
+                    "target": "实验性设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "date-fns documentation",
+                    "target": "date-fns 文档"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
