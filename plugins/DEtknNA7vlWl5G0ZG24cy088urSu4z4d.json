@@ -1,0 +1,289 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "goboard",
+        "version": "1.0.0",
+        "title": "GoBoard",
+        "description": "GoBoard Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to load GoBoard settings, using defaults:",
+                    "target": "无法加载 GoBoard 设置，使用默认值："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Go Board parse errors:",
+                    "target": "Go Board 解析错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Go Board rendering error:",
+                    "target": "Go Board 渲染错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "accessing an object - but returnObjects options is not enabled!",
+                    "target": "正在访问一个对象——但未启用 returnObjects 选项！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "This means something IS WRONG in your setup. You access the t function before i18next.init / i18next.loadNamespace / i18next.changeLanguage was done. Wait for the callback or Promise to resolve before accessing it!!!",
+                    "target": "这意味着你的设置有问题。你在 i18next.init / i18next.loadNamespace / i18next.changeLanguage 完成之前就访问了 t 函数。请在回调或 Promise 解析后再访问它！！！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "No backend was added via i18next.use. Will not load resources.",
+                    "target": "未通过 i18next.use 添加后端。将不会加载资源。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "init: no languageDetector is used and no lng is defined",
+                    "target": "init：未使用 languageDetector 且未定义 lng"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "init: i18next is already initialized. You should call init just once!",
+                    "target": "init：i18next 已经初始化。你只应调用 init 一次！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "hasLoadedNamespace: i18next was not initialized",
+                    "target": "hasLoadedNamespace：i18next 未初始化"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Select the default board size for new boards.",
+                    "target": "选择新棋盘的默认尺寸。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Show hoshi points on the board by default.",
+                    "target": "默认在棋盘上显示星位点。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Show coordinates on the top edge of the board.",
+                    "target": "在棋盘上边显示坐标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Show coordinates on the right edge of the board.",
+                    "target": "在棋盘右边显示坐标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Show coordinates on the bottom edge of the board.",
+                    "target": "在棋盘下边显示坐标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Show coordinates on the left edge of the board.",
+                    "target": "在棋盘左边显示坐标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Выберите размер доски по умолчанию для новых досок.",
+                    "target": "为新棋盘选择默认棋盘大小。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Показывать точки хоси на доске по умолчанию.",
+                    "target": "默认显示棋盘上的星位点。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Показывать координаты на верхнем краю доски.",
+                    "target": "在棋盘上边显示坐标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Показывать координаты на правом краю доски.",
+                    "target": "在棋盘右边显示坐标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Показывать координаты на нижнем краю доски.",
+                    "target": "在棋盘下边显示坐标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Показывать координаты на левом краю доски.",
+                    "target": "在棋盘左边缘显示坐标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "为新棋盘选择默认大小。",
+                    "target": "为新棋盘选择默认大小。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "默认在棋盘上显示星位点。",
+                    "target": "默认在棋盘上显示星位点。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在棋盘的上边缘显示坐标。",
+                    "target": "在棋盘的上边缘显示坐标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在棋盘的右边缘显示坐标。",
+                    "target": "在棋盘的右边缘显示坐标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在棋盘的下边缘显示坐标。",
+                    "target": "在棋盘的下边缘显示坐标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在棋盘的左边缘显示坐标。",
+                    "target": "在棋盘的左边缘显示坐标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Default board size",
+                    "target": "默认棋盘大小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Display hoshi",
+                    "target": "显示星位"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Top edge",
+                    "target": "上边缘"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Right edge",
+                    "target": "右边缘"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Bottom edge",
+                    "target": "下边缘"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Left edge",
+                    "target": "左边缘"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Размер доски по умолчанию",
+                    "target": "默认棋盘大小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Отображать хоси",
+                    "target": "显示星位"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Верхний край",
+                    "target": "上边缘"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Правый край",
+                    "target": "右边缘"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Нижний край",
+                    "target": "下边缘"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Левый край",
+                    "target": "左边缘"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "默认棋盘大小",
+                    "target": "默认棋盘大小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "显示星位",
+                    "target": "显示星位"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "上边缘",
+                    "target": "上边缘"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "右边缘",
+                    "target": "右边缘"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "下边缘",
+                    "target": "下边缘"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "左边缘",
+                    "target": "左边缘"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
