@@ -1,0 +1,109 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "limitless-lifelogs",
+        "version": "1.0.0",
+        "title": "Limitless Lifelogs",
+        "description": "Limitless Lifelogs Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.6",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error syncing lifelogs:",
+                    "target": "同步生活日志时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error fetching lifelogs:",
+                    "target": "获取生活日志时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error making request:",
+                    "target": "发起请求时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Your Limitless AI API key",
+                    "target": "你的 Limitless AI API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Where to store the lifelog entries",
+                    "target": "存储生活日志条目的位置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Default start date for initial sync (YYYY-MM-DD)",
+                    "target": "初次同步的默认开始日期（YYYY-MM-DD）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "API key",
+                    "target": "API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Folder path",
+                    "target": "文件夹路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Start date",
+                    "target": "开始日期"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter your API key",
+                    "target": "请输入你的 API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Folder path",
+                    "target": "文件夹路径"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please set your Limitless API key in settings",
+                    "target": "请在设置中设置你的 Limitless API 密钥"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Starting Limitless lifelog sync...",
+                    "target": "正在开始同步 Limitless lifelog..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Limitless lifelog sync complete!",
+                    "target": "Limitless lifelog 同步完成！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error syncing Limitless lifelogs. Check console for details.",
+                    "target": "同步 Limitless lifelog 时出错。请查看控制台了解详情。"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
