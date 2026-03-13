@@ -1,0 +1,235 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-dynamic-highlights",
+        "version": "1.0.0",
+        "title": "Dynamic Highlights",
+        "description": "Dynamic Highlights Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.3.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "ariaLabel",
+                    "source": "Highlighter name",
+                    "target": "高亮器名称"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "ariaLabel",
+                    "source": "Background color picker",
+                    "target": "背景颜色选择器"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "ariaLabel",
+                    "source": "Enable Regex",
+                    "target": "启用正则表达式"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "ariaLabel",
+                    "source": "Drag to rearrange",
+                    "target": "拖动以重新排序"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Import an entire or partial configuration. Warning: this may override existing highlighters",
+                    "target": "导入完整或部分配置。警告：这可能会覆盖现有高亮器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "In this section you define a unique highlighter name along with a background color and a search term/expression. Enable the regex toggle when entering a regex query. Make sure to click the save button once you're done defining the highlighter.",
+                    "target": "在此部分，您需要定义一个唯一的高亮器名称，以及背景颜色和搜索词/表达式。输入正则查询时请启用正则开关。定义完成后请务必点击保存按钮。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The delay, in milliseconds, before selection highlights will appear. Must be greater than 200ms.",
+                    "target": "选择高亮出现前的延迟（毫秒）。必须大于 200 毫秒。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "A comma delimted list of words that will not be highlighted",
+                    "target": "不会被高亮的词列表（以逗号分隔）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Import highlighters",
+                    "target": "导入高亮器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Define persistent highlighters",
+                    "target": "定义持久高亮器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Highlight all occurrences of the word under the cursor",
+                    "target": "高亮显示光标下单词的所有出现位置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Highlight all occurrences of the actively selected text",
+                    "target": "高亮显示当前选中文本的所有出现位置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Highlight delay",
+                    "target": "高亮延迟"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Ignored words",
+                    "target": "忽略的词"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Paste config here...",
+                    "target": "在此粘贴配置..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Highlighter name",
+                    "target": "高亮器名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Search term",
+                    "target": "搜索词"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Search expression",
+                    "target": "搜索表达式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Custom CSS",
+                    "target": "自定义 CSS"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "these parameters are deprecated, see docs for addKeyword",
+                    "target": "这些参数已弃用，请查看 addKeyword 的文档"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "keywords option as map is deprecated, pass array",
+                    "target": "keywords 选项作为映射已弃用，请传递数组"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Highlighter hex code missing",
+                    "target": "高亮器十六进制代码缺失"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Highlighter name missing",
+                    "target": "高亮器名称缺失"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Highlighter values missing",
+                    "target": "高亮器值缺失"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "capture groups",
+                    "target": "捕获组"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "parent line",
+                    "target": "父行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "must be equal to constant",
+                    "target": "必须等于常量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "must be equal to one of the allowed values",
+                    "target": "必须等于允许的值之一"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "property name must be valid",
+                    "target": "属性名称必须有效"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "must NOT have additional properties",
+                    "target": "不得有额外属性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "must NOT be valid",
+                    "target": "不得为有效值"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Copy to clipboard",
+                    "target": "复制到剪贴板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Error importing config",
+                    "target": "导入配置时出错"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Import from file",
+                    "target": "从文件导入"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Persistent Highlights",
+                    "target": "永久高亮"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Selection Highlights",
+                    "target": "选区高亮"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
