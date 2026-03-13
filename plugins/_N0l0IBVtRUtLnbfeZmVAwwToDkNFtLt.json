@@ -1,0 +1,85 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "notice-logger",
+        "version": "1.0.0",
+        "title": "Notice logger",
+        "description": "Notice logger Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.1.4",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Notice logger plugin loaded",
+                    "target": "Notice 日志插件已加载"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Notice logger plugin unloaded",
+                    "target": "Notice 日志插件已卸载"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Prepend console log lines with this string. Leave blank to disable. (e.g. ✅)",
+                    "target": "在控制台日志行前加上此字符串。留空以禁用。（例如：✅）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable logging",
+                    "target": "启用日志记录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter your prefix",
+                    "target": "输入你的前缀"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "YYYY-MM-DD HH:mm:ss",
+                    "target": "YYYY-MM-DD HH:mm:ss"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Notice logging enabled",
+                    "target": "Notice 日志记录已启用"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Notice logging disabled",
+                    "target": "Notice 日志记录已禁用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Enable notice logging",
+                    "target": "启用 Notice 日志记录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Disable notice logging",
+                    "target": "禁用 Notice 日志记录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "moment.js documentation",
+                    "target": "moment.js 文档"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
