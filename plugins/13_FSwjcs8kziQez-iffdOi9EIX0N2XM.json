@@ -1,0 +1,241 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "visual-crossing-weather",
+        "version": "1.0.0",
+        "title": "Visual Crossing Weather",
+        "description": "Visual Crossing Weather Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.5",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "United States",
+                    "target": "美国"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "United Kingdom",
+                    "target": "英国"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Greek Modern",
+                    "target": "现代希腊语"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Every 10 Minutes",
+                    "target": "每 10 分钟"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Every 15 Minutes",
+                    "target": "每 15 分钟"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Every 20 Minutes",
+                    "target": "每 20 分钟"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Every 30 Minutes",
+                    "target": "每 30 分钟"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Every Hour",
+                    "target": "每小时"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "View info",
+                    "target": "查看信息"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enter your Visual Crossing API key (required)",
+                    "target": "输入您的 Visual Crossing API 密钥（必填）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Address location for which to retrieve weather data (Eg. London,UK), partial address (London) or latitude,longitude (Eg.38.9697,-77.385)",
+                    "target": "用于获取天气数据的地址位置（例如 London,UK）、部分地址（London）或经纬度（例如 38.9697,-77.385）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Additional city to get weather data for (Optional) Leave blank if not required",
+                    "target": "用于获取天气数据的额外城市（可选），如不需要请留空"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Supported languages available Note: This only affects text returned from the Visual Crossing API",
+                    "target": "可用的支持语言 注意：这仅影响 Visual Crossing API 返回的文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "You may want to exclude your scripts folder as well if any files in it contain macro strings",
+                    "target": "如果脚本文件夹中的任何文件包含宏字符串，你可能也需要将该文件夹排除在外"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Update frequency for getting weather information",
+                    "target": "获取天气信息的更新频率"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable weather display in statusbar",
+                    "target": "在状态栏中启用天气显示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable weather alerts display in statusbar",
+                    "target": "在状态栏中启用天气警报显示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "API key",
+                    "target": "API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Locations - Primary location is required, the others are optional",
+                    "target": "位置 - 主位置为必填，其他为可选"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Primary location",
+                    "target": "主位置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Additional location",
+                    "target": "附加位置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Update frequency",
+                    "target": "更新频率"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show weather in statusbar",
+                    "target": "在状态栏显示天气"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Cycle statusbar display",
+                    "target": "循环显示状态栏信息"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show weather alerts in statusbar",
+                    "target": "在状态栏显示天气警报"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter your API key",
+                    "target": "输入你的 API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter location Eg. Edmonton,AB,CA",
+                    "target": "输入位置 例如：Edmonton,AB,CA"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter location Eg. South Bend,WA,US",
+                    "target": "输入位置 例如：South Bend,WA,US"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter location Eg. Chicago,US",
+                    "target": "输入位置 例如：Chicago,US"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter location Eg. Calgary,CA",
+                    "target": "输入位置 例如：Calgary,CA"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter city Eg. South Bend,WA,US",
+                    "target": "输入城市，例如 South Bend,WA,US"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Weather query builder",
+                    "target": "天气查询构建器"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Visual Crossing Weather plugin is missing required settings. Please configure the plugins settings.",
+                    "target": "Visual Crossing Weather 插件缺少必需的设置。请配置插件设置。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Open a Markdown file first.",
+                    "target": "请先打开一个 Markdown 文件。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "A valid link was not returned with this weather alert",
+                    "target": "此天气警报未返回有效链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "View current weather information",
+                    "target": "查看当前天气信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "If you would like to make a small donation to help support my work, please use one of the buttons below.",
+                    "target": "如果您想捐助一点以支持我的工作，请使用下面的任一按钮。"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
