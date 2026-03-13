@@ -1,0 +1,235 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "csv-lite",
+        "version": "1.0.0",
+        "title": "CSV Lite",
+        "description": "CSV Lite Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.7.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-file-code\"><path d=\"M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z\"/><polyline points=\"14 2 14 8 20 8\"/><polyline points=\"10 13 8 15 10 17\"/><polyline points=\"14 13 16 15 14 17\"/></svg>",
+                    "target": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-file-code\"><path d=\"M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z\"/><polyline points=\"14 2 14 8 20 8\"/><polyline points=\"10 13 8 15 10 17\"/><polyline points=\"14 13 16 15 14 17\"/></svg>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-table\"><rect width=\"18\" height=\"18\" x=\"3\" y=\"3\" rx=\"2\"/><path d=\"M3 9h18\"/><path d=\"M3 15h18\"/><path d=\"M9 21V3\"/><path d=\"M15 21V3\"/></svg>",
+                    "target": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-table\"><rect width=\"18\" height=\"18\" x=\"3\" y=\"3\" rx=\"2\"/><path d=\"M3 9h18\"/><path d=\"M3 15h18\"/><path d=\"M9 21V3\"/><path d=\"M15 21V3\"/></svg>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Click to edit",
+                    "target": "点击编辑"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "CSV parse error:",
+                    "target": "CSV 解析错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to save CSV file after retries:",
+                    "target": "多次重试后仍无法保存 CSV 文件："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "CSV处理错误:",
+                    "target": "CSV处理错误:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error in onOpen:",
+                    "target": "onOpen 中出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "CreateCsv: failed to create file",
+                    "target": "CreateCsv：创建文件失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[HighlightManager] selectRow called with index:",
+                    "target": "[HighlightManager] 调用 selectRow，索引："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[HighlightManager] selectColumn called with index:",
+                    "target": "[HighlightManager] 调用 selectColumn，索引："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[HighlightManager] clearSelection called",
+                    "target": "[HighlightManager] clearSelection 已调用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[HighlightManager] highlightRow called with index:",
+                    "target": "[HighlightManager] highlightRow 调用，索引:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[HighlightManager] 找到的tbody行数:",
+                    "target": "[HighlightManager] 找到的tbody行数:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[HighlightManager] 高亮目标行:",
+                    "target": "[HighlightManager] 高亮目标行:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[HighlightManager] 未找到目标行，rowIndex:",
+                    "target": "[HighlightManager] 未找到目标行，rowIndex:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "targetRowIndex:",
+                    "target": "targetRowIndex:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[HighlightManager] highlightColumn called with index:",
+                    "target": "[HighlightManager] highlightColumn 调用，索引:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[HighlightManager] 找到的列单元格数:",
+                    "target": "[HighlightManager] 找到的列单元格数:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[HighlightManager] 列单元格:",
+                    "target": "[HighlightManager] 列单元格:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[HighlightManager] clearHighlight called",
+                    "target": "[HighlightManager] clearHighlight 已调用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[HighlightManager] 清除高亮元素数:",
+                    "target": "[HighlightManager] 清除高亮元素数:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[DEBUG] Header context menu closed",
+                    "target": "[DEBUG] 表头上下文菜单已关闭"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Applied sticky styles:",
+                    "target": "已应用粘性样式:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "默认为双引号 \"",
+                    "target": "默认为双引号 \""
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Duplicate headers found and renamed.",
+                    "target": "发现重复表头并已重命名。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "CSV parse warnings:",
+                    "target": "CSV 解析警告:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to detect original delimiter:",
+                    "target": "未能检测到原始分隔符:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Table data not properly initialized, setting default",
+                    "target": "表格数据未正确初始化，设置默认值"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "错误",
+                    "target": "错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Quoted field unterminated",
+                    "target": "引号字段未闭合"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Trailing quote on quoted field is malformed",
+                    "target": "带引号字段的结尾引号格式错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "编辑选中单元格...",
+                    "target": "编辑选中单元格..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "搜索表格内容...",
+                    "target": "搜索表格内容..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Edit selected cell...",
+                    "target": "编辑选中单元格..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Search table content...",
+                    "target": "搜索表格内容..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Error opening CSV file",
+                    "target": "打开 CSV 文件时出错"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
