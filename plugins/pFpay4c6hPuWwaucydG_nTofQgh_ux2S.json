@@ -1,0 +1,18 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "reveal-active-file-button",
+        "version": "1.0.0",
+        "title": "Reveal Active File Button",
+        "description": "Reveal Active File Button Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.0.3",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [],
+            "regex": []
+        }
+    }
+}
