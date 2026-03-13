@@ -1,0 +1,409 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "vault-size-history",
+        "version": "1.0.0",
+        "title": "Vault Size History",
+        "description": "Vault Size History Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.4.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "param should be highDownDispatcher",
+                    "target": "param 应该是 highDownDispatcher"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Illegal media option. Must be like { media: [ { query: {}, option: {} } ] }",
+                    "target": "非法的 media 选项。必须类似 { media: [ { query: {}, option: {} } ] }"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Illegal media option. Must be an array. Like { media: [ {...}, {...} ] }",
+                    "target": "非法的 media 选项。必须是数组。类似 { media: [ {...}, {...} ] }"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "`setOption` should not be called during main process.",
+                    "target": "`setOption` 不应在主进程期间被调用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "`resize` should not be called during main process.",
+                    "target": "`resize` 不应在主进程期间被调用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Danger: only stack dimension can be modified",
+                    "target": "危险：只能修改 stack 维度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "For some unknown reason. drawIndex is -1",
+                    "target": "由于某些未知原因，drawIndex 为 -1"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Invalid boundingCoords",
+                    "target": "无效的 boundingCoords"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Graph nodes have duplicate name or id",
+                    "target": "图节点的 name 或 id 重复"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Invalid morphing: unmatched splitted path",
+                    "target": "无效的 morphing：splitted path 不匹配"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "MUI: `fontSize` is required to be a number.",
+                    "target": "MUI: `fontSize` 必须是数字。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "MUI: `htmlFontSize` is required to be a number.",
+                    "target": "MUI: `htmlFontSize` 必须是数字。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "MUI: Argument \"props\" must be a string or Array.",
+                    "target": "MUI: 参数 \"props\" 必须是字符串或数组。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "MUI: Argument \"easing\" must be a string.",
+                    "target": "MUI: 参数 \"easing\" 必须是字符串。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "MUI: Argument \"delay\" must be a number or a string.",
+                    "target": "MUI: 参数 \"delay\" 必须是数字或字符串。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "MUI: You need to provide a `anchorPosition` prop when using <Popover anchorReference=\"anchorPosition\" />.",
+                    "target": "MUI: 使用 <Popover anchorReference=\"anchorPosition\" /> 时，需要提供 `anchorPosition` 属性。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "MUI: `children` must be passed when using the `TextField` component with `select`.",
+                    "target": "MUI: 使用带 `select` 的 `TextField` 组件时，必须传入 `children`。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Vault Size History] Error while processing creation date property of the file ",
+                    "target": "[Vault Size History] 处理文件创建日期属性时出错 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Accounting for deleted files",
+                    "target": "正在统计已删除的文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Duplicate headers found and renamed.",
+                    "target": "发现重复的标题并已重命名。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "z / z2 / zlevel of displayable is invalid, which may cause unexpected errors",
+                    "target": "displayable 的 z / z2 / zlevel 无效，可能导致意外错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Currently only one tooltip component is allowed.",
+                    "target": "当前只允许一个 tooltip 组件。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "There is no specified series model",
+                    "target": "未指定 series model"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "model or view can not be found by params",
+                    "target": "无法通过 params 找到 model 或 view"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "There is a chart instance already initialized on the dom.",
+                    "target": "dom 上已初始化一个 chart 实例。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Can't get DOM width or height. Please check dom.clientWidth and dom.clientHeight. They should not be 0.For example, you may need to call this in the callback of window.onload.",
+                    "target": "无法获取 DOM 的宽度或高度。请检查 dom.clientWidth 和 dom.clientHeight。它们不应为 0。例如，你可能需要在 window.onload 的回调中调用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Exceed safe limit.",
+                    "target": "超出安全限制。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Boolean type for boundaryGap is only allowed for ordinal axis. Please use string in percentage instead, e.g., \"20%\". Currently, boundaryGap is set to be 0.",
+                    "target": "boundaryGap 仅允许在 ordinal axis 上使用布尔类型。请改用百分比字符串，例如 \"20%\"。当前 boundaryGap 被设置为 0。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Visual map on line style is only supported on cartesian2d.",
+                    "target": "line style 上的 visual map 仅支持 cartesian2d。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Visual map on line style only support x or y dimension.",
+                    "target": "line style 上的 visual map 仅支持 x 或 y 维度。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Only cartesian2d and polar supported for bar.",
+                    "target": "柱状图仅支持 cartesian2d 和 polar。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "`realtimeSort` will not work because this bar series is not based on a category axis.",
+                    "target": "`realtimeSort` 将无法工作，因为此柱状图系列不是基于类目轴。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "`realtimeSort` will not work because this bar series is not on cartesian2d.",
+                    "target": "`realtimeSort` 将无法工作，因为此柱状图系列不在 cartesian2d 上。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "project and unproject must be both provided in the projeciton.",
+                    "target": "project 和 unproject 必须同时在 projeciton 中提供。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Given layoutCenter or layoutSize data are invalid. Use left/top/width/height instead.",
+                    "target": "给定的 layoutCenter 或 layoutSize 数据无效。请使用 left/top/width/height。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Position error: Funnel chart on vertical orient dose not support top and bottom.",
+                    "target": "位置错误：垂直方向的漏斗图不支持 top 和 bottom。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Position error: Funnel chart on horizontal orient dose not support left and right.",
+                    "target": "位置错误：水平方向的漏斗图不支持 left 和 right。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "SVG render mode doesn't support lines with trail effect",
+                    "target": "SVG 渲染模式不支持带尾迹效果的线条。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Large lines not support effect",
+                    "target": "大数据量线条不支持效果。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Lines data configuration has been changed to { coords:[[1,2],[2,3]] }",
+                    "target": "Lines 数据配置已更改为 { coords:[[1,2],[2,3]] }"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "End frame with percent: 1 is missing in the keyframeAnimation.",
+                    "target": "关键帧动画中缺少百分比为 1 的结束帧。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Universal transition is disabled on large data > 10k.",
+                    "target": "大数据量 > 10k 时通用过渡被禁用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "MUI: You can not use the `minRows` or `maxRows` props when the input `rows` prop is set.",
+                    "target": "MUI：当设置了输入的 `rows` 属性时，不能使用 `minRows` 或 `maxRows` 属性。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "It looks like you've imported 'styled-components' on React Native.\nPerhaps you're looking to import 'styled-components/native'?\nRead more about this at https://www.styled-components.com/docs/basics#react-native",
+                    "target": "看起来你在 React Native 中导入了 'styled-components'。\n也许你想导入 'styled-components/native'？\n了解更多：https://www.styled-components.com/docs/basics#react-native"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "[Vault size history] Generating CSV report",
+                    "target": "[Vault size history] 正在生成 CSV 报告"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "[Vault size history] CSV report has been generated successfully",
+                    "target": "[Vault size history] CSV 报告已成功生成"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "[Vault size history] File index path not configured, cannot rebuild the index",
+                    "target": "[Vault size history] 未配置文件索引路径，无法重建索引"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "[Vault size history] Updating file index",
+                    "target": "[Vault size history] 正在更新文件索引"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "[Vault size history] Index file updated successfully",
+                    "target": "[Vault size history] 索引文件已成功更新"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "header",
+                    "source": "Color Picker",
+                    "target": "颜色选择器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "header",
+                    "source": "Color picker",
+                    "target": "颜色选择器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Quoted field unterminated",
+                    "target": "引号字段未结束"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Trailing quote on quoted field is malformed",
+                    "target": "引号字段末尾的引号格式错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "All Files",
+                    "target": "所有文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Other Files",
+                    "target": "其他文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open graph",
+                    "target": "开放图谱"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Category Name",
+                    "target": "类别名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Category Pattern",
+                    "target": "类别模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "MM/DD/YYYY or M/D/YY",
+                    "target": "MM/DD/YYYY 或 M/D/YY"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "path to file a csv file",
+                    "target": "CSV 文件路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Data View",
+                    "target": "数据视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Save as Image",
+                    "target": "保存为图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "数据视图",
+                    "target": "数据视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "还原",
+                    "target": "还原"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "保存为图片",
+                    "target": "保存为图片"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
