@@ -1,0 +1,187 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "google-drive-sync",
+        "version": "1.0.0",
+        "title": "Google Drive Sync",
+        "description": "Google Drive Sync Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.2.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "A refresh token is required to access your Google Drive for syncing. We suggest cloning your Google Drive vault to the current vault BEFORE syncing.",
+                    "target": "同步需要刷新令牌才能访问你的 Google Drive。我们建议在同步之前将你的 Google Drive vault 克隆到当前 vault。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Refresh token",
+                    "target": "刷新令牌"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter your refresh token",
+                    "target": "输入你的刷新令牌"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Do you want to push the following changes to Google Drive:",
+                    "target": "你想将以下更改推送到 Google Drive 吗："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Push confirmation",
+                    "target": "推送确认"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Undo confirmation",
+                    "target": "撤销确认"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Something is wrong with your internet connection, so we could not fetch a new access token! Once you're back online, please restart Obsidian.",
+                    "target": "你的网络连接出了问题，因此无法获取新的访问令牌！恢复联网后，请重启 Obsidian。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Something is wrong with your refresh token, please restart Obsidian and then reset it.",
+                    "target": "你的刷新令牌出了问题，请重启 Obsidian 然后重置它。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "An error occurred fetching Google Drive files.",
+                    "target": "获取 Google Drive 文件时发生错误。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "An error occurred fetching Google Drive changes.",
+                    "target": "获取 Google Drive 更改时发生错误。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "You're up to date!",
+                    "target": "已是最新！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Files have been synced from Google Drive!",
+                    "target": "已从 Google Drive 同步文件！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "An error occurred deleting Google Drive files.",
+                    "target": "删除 Google Drive 文件时发生错误。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "An error occurred creating Google Drive folders.",
+                    "target": "创建 Google Drive 文件夹时发生错误。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "An error occurred creating Google Drive files.",
+                    "target": "创建 Google Drive 文件时发生错误。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "An error occurred modifying Google Drive files.",
+                    "target": "修改 Google Drive 文件时发生错误。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "An error occurred creating Google Drive config files.",
+                    "target": "创建 Google Drive 配置文件时发生错误。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Sync complete!",
+                    "target": "同步完成！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Reset complete.",
+                    "target": "重置完成。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please add your refresh token to Google Drive Sync through our website or our readme/this plugin's settings. If you haven't already, PLEASE read through this plugin's readme or website CAREFULLY for instructions on how to use this plugin. If you don't know what you're doing, your data could get DELETED.",
+                    "target": "请通过我们的网站或 readme/本插件设置将您的刷新令牌添加到 Google Drive Sync。如果您尚未阅读，请务必仔细阅读本插件的 readme 或网站中的使用说明。如果您不知道自己在做什么，您的数据可能会被删除。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "You are not connected to the internet, so you cannot sync right now. Please try syncing once you have connection again.",
+                    "target": "你未连接到互联网，因此现在无法同步。请在重新联网后再尝试同步。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Syncing (0%)",
+                    "target": "正在同步（0%）"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "An error occurred fetching Google Drive changes token.",
+                    "target": "获取 Google Drive 更改令牌时发生错误。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Refresh token saved! Reload Obsidian to activate sync.",
+                    "target": "刷新令牌已保存！重新加载 Obsidian 以启用同步。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Push to Google Drive",
+                    "target": "推送到 Google Drive"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Pull from Google Drive",
+                    "target": "从 Google Drive 拉取"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Reset local vault to Google Drive",
+                    "target": "将本地库重置为 Google Drive 中的内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Get refresh token",
+                    "target": "获取刷新令牌"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
