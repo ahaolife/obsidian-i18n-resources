@@ -1,0 +1,18 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-file-cleaner",
+        "version": "1.0.0",
+        "title": "File Cleaner",
+        "description": "File Cleaner Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.1.5",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [],
+            "regex": []
+        }
+    }
+}
