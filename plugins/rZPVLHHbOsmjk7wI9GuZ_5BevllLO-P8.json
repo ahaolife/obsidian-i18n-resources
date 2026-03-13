@@ -1,0 +1,127 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-emotion-picker",
+        "version": "1.0.0",
+        "title": "Emotion Picker",
+        "description": "Emotion Picker Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.2.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "delete group",
+                    "target": "删除组"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Add group",
+                    "target": "添加组"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Customize modal header text",
+                    "target": "自定义模态框标题文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Modal header text",
+                    "target": "模态框标题文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Add comma after",
+                    "target": "在后面添加逗号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Insert as link",
+                    "target": "作为链接插入"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Insert as tag",
+                    "target": "作为标签插入"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Override locale:",
+                    "target": "覆盖区域设置："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "group name",
+                    "target": "组名称"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error getting cursor position.",
+                    "target": "获取光标位置时出错。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Glädje",
+                    "target": "喜悦"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Kärleksfull",
+                    "target": "充满爱意"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Överraskad",
+                    "target": "惊讶"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Rädsla",
+                    "target": "恐惧"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Alegría",
+                    "target": "喜悦"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "New section",
+                    "target": "新建分区"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Name: ",
+                    "target": "名称："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Color: ",
+                    "target": "颜色："
+                }
+            ],
+            "regex": []
+        }
+    }
+}
