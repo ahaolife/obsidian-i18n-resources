@@ -1,0 +1,91 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "boost-link-suggestions",
+        "version": "1.0.0",
+        "title": "Boost Link Suggestions",
+        "description": "Boost Link Suggestions Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The string to trigger suggestions. Changing this setting requires reloading Obsidian. Triggering may not work if this string conflicts with an existing trigger (e.g., \"[[\").",
+                    "target": "用于触发建议的字符串。更改此设置需要重新加载 Obsidian。如果该字符串与现有触发器冲突，可能无法触发（例如，\"[[\"）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The YAML front-matter tag used to indicate link boost values.",
+                    "target": "用于指示链接增益值的 YAML front-matter 标签。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show scores when displaying suggestions.",
+                    "target": "显示建议时显示评分。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When searching for suggestions, use Obsidian's built-in fuzzy matching. (If turned off, searching is less fuzzy.)",
+                    "target": "搜索建议时使用 Obsidian 内置的模糊匹配。（关闭后搜索会更不模糊。）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When enabled, display the ten most recent selections first by default.",
+                    "target": "启用后，默认优先显示最近的十次选择。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Trigger string",
+                    "target": "触发字符串"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "YAML front-matter boost tag",
+                    "target": "YAML front-matter 增益标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show scores",
+                    "target": "显示评分"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use Obsidian fuzzy matching",
+                    "target": "使用 Obsidian 模糊匹配"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Save most recent selections",
+                    "target": "保存最近选择"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Trigger link",
+                    "target": "触发链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Boost Link Suggestions",
+                    "target": "提升链接建议"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
