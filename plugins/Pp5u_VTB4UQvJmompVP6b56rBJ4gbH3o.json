@@ -1,0 +1,325 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-link-embed",
+        "version": "1.0.0",
+        "title": "Link Embed",
+        "description": "Link Embed Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.10.5",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Create Markdown Link",
+                    "target": "创建 Markdown 链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "After Link Text",
+                    "target": "链接文本之后"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Before Link Text",
+                    "target": "链接文本之前"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Select a secondary parser. It will be used if the primary parser fails.",
+                    "target": "选择一个备用解析器。当主解析器失败时将使用它。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When enabled, the plugin will cache favicon images and aspect ratios to improve performance.",
+                    "target": "启用后，插件将缓存 favicon 图像及其宽高比以提升性能。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When enabled, images from links will be saved to your vault.",
+                    "target": "启用后，链接中的图片将保存到你的库中。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Folder in your vault where images will be saved. The folder will be created if it doesn't exist.",
+                    "target": "用于保存图片的库内文件夹。如果不存在将自动创建。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When enabled, favicons will be displayed next to markdown links in reading mode and live preview mode.",
+                    "target": "启用后，在阅读模式和实时预览模式下，favicon 将显示在 Markdown 链接旁。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose where to display the favicon relative to the link text.",
+                    "target": "选择 favicon 相对于链接文本的显示位置。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show favicon when link has an alias (e.g., [Obsidian](https://obsidian.md/))",
+                    "target": "当链接有别名时显示 favicon（例如：[Obsidian](https://obsidian.md/)）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show favicon when link has no alias (e.g., https://obsidian.md/)",
+                    "target": "当链接没有别名时显示站点图标（例如：https://obsidian.md/）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Display favicons in reading mode",
+                    "target": "在阅读模式中显示站点图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Display favicons in source mode",
+                    "target": "在源代码模式中显示站点图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Display favicons in live preview mode",
+                    "target": "在实时预览模式中显示站点图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enter your API key for the LinkPreview provider.",
+                    "target": "输入 LinkPreview 提供商的 API 密钥。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enter your API key for the JSONLink provider.",
+                    "target": "输入 JSONLink 提供商的 API 密钥。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enter your API key for the Iframely provider.",
+                    "target": "输入 Iframely 提供商的 API 密钥。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable debug mode.",
+                    "target": "启用调试模式。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Add delay before replacing preview.(ms)",
+                    "target": "在替换预览前添加延迟（毫秒）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Popup Menu",
+                    "target": "弹出菜单"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default Paste Action",
+                    "target": "默认粘贴操作"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Primary Parser",
+                    "target": "主解析器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Secondary Parser",
+                    "target": "次要解析器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "In Place",
+                    "target": "原地"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use Cache",
+                    "target": "使用缓存"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable Favicon",
+                    "target": "启用网站图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Respect Image Aspect Ratio",
+                    "target": "保持图像宽高比"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Save Images to Vault",
+                    "target": "将图像保存到存储库"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Image Folder Path",
+                    "target": "图像文件夹路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable Markdown Link Favicon",
+                    "target": "启用 Markdown 链接网站图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Markdown Link Favicon Position",
+                    "target": "Markdown 链接网站图标位置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show Favicon on Aliased Links",
+                    "target": "在别名链接上显示网站图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show Favicon on Plain Links",
+                    "target": "在普通链接上显示网站图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show in Reading Mode",
+                    "target": "在阅读模式中显示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show in Source Mode",
+                    "target": "在源代码模式中显示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show in Live Preview",
+                    "target": "在实时预览中显示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "LinkPreview API Key",
+                    "target": "LinkPreview API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "JSONLink API Key",
+                    "target": "JSONLink API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Iframely API Key",
+                    "target": "Iframely API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Max Concurrent Local Parsers",
+                    "target": "本地解析器最大并发数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Use with caution",
+                    "target": "请谨慎使用"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Dummy preview has been deleted or modified. Replacing is cancelled.",
+                    "target": "虚拟预览已被删除或修改。替换已取消。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Start Conversion",
+                    "target": "开始转换"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Conversion End",
+                    "target": "转换结束"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Create Markdown Link",
+                    "target": "创建 Markdown 链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "User Option",
+                    "target": "用户选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Image Settings",
+                    "target": "图片设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Markdown Link Favicon",
+                    "target": "Markdown 链接图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Provider Settings",
+                    "target": "提供商设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Performance Settings",
+                    "target": "性能设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Dev Option",
+                    "target": "开发选项"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
