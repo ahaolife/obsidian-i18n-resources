@@ -1,0 +1,349 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "clippermaster",
+        "version": "1.0.0",
+        "title": "ClipperMaster",
+        "description": "ClipperMaster Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.1.10",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Promise errored, but reply.sent = true was set",
+                    "target": "Promise 出错，但已设置 reply.sent = true"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "The serializer for the given status code failed",
+                    "target": "给定状态码的序列化器失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "request errored",
+                    "target": "请求出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error compiling serializer, function code:",
+                    "target": "编译序列化器出错，函数代码："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error compiling parser, function code:",
+                    "target": "编译解析器出错，函数代码："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error on Stream found for HEAD route",
+                    "target": "在 HEAD 路由上发现 Stream 错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "onRequestAborted hook failed",
+                    "target": "onRequestAborted 钩子失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "request completed",
+                    "target": "请求完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "request aborted - invalid HTTP version",
+                    "target": "请求中止 - 无效的 HTTP 版本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "request aborted - refusing to accept new requests as server is closing",
+                    "target": "request aborted - refusing to accept new requests as server is closing"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "incoming request",
+                    "target": "传入请求"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "unhandled rejection on reply.then",
+                    "target": "reply.then 上的未处理拒绝"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "response terminated with an error with headers already sent",
+                    "target": "响应因错误终止，且头信息已发送"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "stream payload does not end properly",
+                    "target": "流负载未正确结束"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "response will send, but you shouldn't use res.writeHead in stream mode",
+                    "target": "响应将发送，但在流模式下不应使用 res.writeHead"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Trying to send a NotFound error inside a 404 handler. Sending basic 404 response.",
+                    "target": "尝试在 404 处理器中发送 NotFound 错误。正在发送基础 404 响应。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "these parameters are deprecated, see docs for addKeyword",
+                    "target": "这些参数已弃用，请参阅 addKeyword 的文档"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "keywords option as map is deprecated, pass array",
+                    "target": "将 keywords 选项作为 map 已弃用，请传入数组"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "the default handler for 404 did not catch this, this is likely a fastify bug, please report it",
+                    "target": "404 的默认处理器未捕获此情况，这可能是 fastify 的 bug，请报告"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Warning: set-cookie-parser appears to have been called on a request object. It is designed to parse Set-Cookie headers from responses, not Cookie headers from requests. Set the option {silent: true} to suppress this warning.",
+                    "target": "警告：set-cookie-parser 似乎在请求对象上被调用。它用于解析响应中的 Set-Cookie 头，而不是请求中的 Cookie 头。设置选项 {silent: true} 以抑制此警告。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "ops, save file failed",
+                    "target": "糟糕，保存文件失败"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "HTTP请求的端口号",
+                    "target": "HTTP请求的端口号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Port to listen for HTTP requests",
+                    "target": "用于监听 HTTP 请求的端口"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "A streaming way to send data to a Node.js Worker Thread",
+                    "target": "以流式方式向 Node.js 工作线程发送数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Not Found",
+                    "target": "未找到"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "必须是一个有效的端口号 (1 - 65535)",
+                    "target": "必须是一个有效的端口号 (1 - 65535)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Must be a valid port number (1 - 65535)",
+                    "target": "必须是一个有效的端口号 (1 - 65535)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "You are accessing the deprecated \"request.connection\" property. Use \"request.socket\" instead.",
+                    "target": "你正在访问已弃用的 \"request.connection\" 属性。请改用 \"request.socket\"。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "You are decorating Request/Reply with a reference type. This reference is shared amongst all requests. Use onRequest hook instead. Property: %s",
+                    "target": "你正在使用引用类型装饰 Request/Reply。该引用会在所有请求之间共享。请改用 onRequest 钩子。属性：%s"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "You are trying to set a HEAD route using \"exposeHeadRoute\" route flag when a sibling route is already set. See documentation for more info.",
+                    "target": "当已设置同级路由时，你正尝试使用 \"exposeHeadRoute\" 路由标志设置 HEAD 路由。更多信息请参见文档。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "You are using route constraints via the route { version: \"...\" } option, use { constraints: { version: \"...\" } } option instead.",
+                    "target": "你正在通过路由 { version: \"...\" } 选项使用路由约束，请改用 { constraints: { version: \"...\" } } 选项。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "You are using a custom route versioning strategy via the server { versioning: \"...\" } option, use { constraints: { version: \"...\" } } option instead.",
+                    "target": "你正在通过服务器 { versioning: \"...\" } 选项使用自定义路由版本策略，请改用 { constraints: { version: \"...\" } } 选项。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Modifying the \"reply.sent\" property is deprecated. Use the \"reply.hijack()\" method instead.",
+                    "target": "修改 \"reply.sent\" 属性已弃用。请改用 \"reply.hijack()\" 方法。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "You are trying to set/access the default route. This property is deprecated. Please, use setNotFoundHandler if you want to custom a 404 handler or the wildcard (*) to match all routes.",
+                    "target": "你正在尝试设置/访问默认路由。该属性已弃用。如需自定义 404 处理器，请使用 setNotFoundHandler，或使用通配符 (*) 匹配所有路由。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "The `reply.redirect()` method has a new signature: `reply.redirect(url: string, code?: number)`. It will be enforced in `fastify@v5`",
+                    "target": "`reply.redirect()` 方法有了新签名：`reply.redirect(url: string, code?: number)`。该签名将在 `fastify@v5` 中强制执行。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "The %s plugin being registered mixes async and callback styles, which will result in an error in `fastify@5`",
+                    "target": "正在注册的 %s 插件混用了 async 与回调风格，这将在 `fastify@5` 中导致错误。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "must be equal to constant",
+                    "target": "必须等于常量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "must be equal to one of the allowed values",
+                    "target": "必须等于允许的值之一"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "property name must be valid",
+                    "target": "属性名必须有效"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "must NOT have additional properties",
+                    "target": "不得包含额外的属性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "must NOT be valid",
+                    "target": "必须无效"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "must be integer",
+                    "target": "必须为整数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "must be >= 0",
+                    "target": "必须 >= 0"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "must be array",
+                    "target": "必须为数组"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "must be object,boolean",
+                    "target": "必须为 object,boolean"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "must match format \"uri-reference\"",
+                    "target": "必须匹配格式 \"uri-reference\""
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "must be string",
+                    "target": "必须为字符串"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "must match format \"uri\"",
+                    "target": "必须匹配格式 \"uri\""
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "must be boolean",
+                    "target": "必须为布尔值"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "must be > 0",
+                    "target": "必须 > 0"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "must be number",
+                    "target": "必须是数字"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "must match format \"regex\"",
+                    "target": "必须匹配格式 \"regex\""
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "must be object",
+                    "target": "必须是对象"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "must match pattern \"idle\"",
+                    "target": "必须匹配模式 \"idle\""
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "You are accessing \"request.connection\", use \"request.socket\" instead.",
+                    "target": "你正在访问 \"request.connection\"，请改用 \"request.socket\"。"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
