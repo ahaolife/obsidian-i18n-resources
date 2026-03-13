@@ -1,0 +1,187 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "image-share",
+        "version": "1.0.0",
+        "title": "Image Share",
+        "description": "Image Share Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.1.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "下载图片",
+                    "target": "下载图片"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "复制到剪贴板",
+                    "target": "复制到剪贴板"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unable to access cssRules property",
+                    "target": "无法访问 cssRules 属性"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Cannot detach cloned iframe as it is not in the DOM anymore",
+                    "target": "无法分离克隆的 iframe，因为它已不在 DOM 中"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error rendering markdown:",
+                    "target": "渲染 Markdown 出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "复制到剪贴板失败:",
+                    "target": "复制到剪贴板失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Unable to inline canvas contents, canvas is tainted",
+                    "target": "无法内联 canvas 内容，canvas 已被污染"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Unable to clone canvas as it is tainted",
+                    "target": "无法克隆 canvas，因为它已被污染"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Unable to clone video as it is tainted",
+                    "target": "无法克隆视频，因为它已被污染"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Share as Image",
+                    "target": "以图片分享"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Unable to restore scroll position for cloned document",
+                    "target": "无法恢复克隆文档的滚动位置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Unable to clone WebGL context as it has preserveDrawingBuffer=false",
+                    "target": "无法克隆 WebGL 上下文，因为其 preserveDrawingBuffer=false"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "下载分享图片",
+                    "target": "下载分享图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "复制图片到剪贴板",
+                    "target": "复制图片到剪贴板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "默认的高对比度样式，有彩色强调",
+                    "target": "默认的高对比度样式，有彩色强调"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "现代设计风格，蓝色和粉色强调",
+                    "target": "现代设计风格，蓝色和粉色强调"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "简约而优雅的黑白设计",
+                    "target": "简约而优雅的黑白设计"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "默认模板",
+                    "target": "默认模板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "深色模板",
+                    "target": "深色模板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "默认样式",
+                    "target": "默认样式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "现代样式",
+                    "target": "现代样式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "极简样式",
+                    "target": "极简样式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Share selected text as image",
+                    "target": "将所选文本分享为图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "图片设置",
+                    "target": "图片设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "选择主题",
+                    "target": "选择主题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "导出图片",
+                    "target": "导出图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "图片预览",
+                    "target": "图片预览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "选择样式",
+                    "target": "选择样式"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
