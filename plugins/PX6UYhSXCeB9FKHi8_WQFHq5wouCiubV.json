@@ -1,0 +1,43 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "ons",
+        "version": "1.0.0",
+        "title": "BetaX NAS Sync",
+        "description": "BetaX NAS Sync Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "数据通道错误:",
+                    "target": "数据通道错误:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Invalid chunk data format:",
+                    "target": "无效的数据块格式:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "添加 ICE 候选失败:",
+                    "target": "添加 ICE 候选失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "WebSocket is not open. Ready state: ",
+                    "target": "WebSocket 未打开。就绪状态："
+                }
+            ],
+            "regex": []
+        }
+    }
+}
