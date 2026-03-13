@@ -1,0 +1,193 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "print",
+        "version": "1.0.0",
+        "title": "Print",
+        "description": "Print Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.3.9",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Print note",
+                    "target": "打印笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Preview generation error:",
+                    "target": "预览生成错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Print plugin loaded",
+                    "target": "打印插件已加载"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Include the note title in the printout.",
+                    "target": "在打印内容中包含笔记标题。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set the font size for the printed note.",
+                    "target": "设置打印笔记的字体大小。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When printing a folder, combine all notes into a single document. If disabled, each note will start on a new page.",
+                    "target": "打印文件夹时，将所有笔记合并为单个文档。若禁用，则每条笔记从新页开始。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable this option to interpret horizontal lines (---) as page breaks ",
+                    "target": "启用此选项将水平线（---）解释为分页符 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable debug mode. This will open the print window for inspection.",
+                    "target": "启用调试模式。这将打开打印窗口以供检查。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "You can add a custom \"print.css\" to \"Appearance > CSS snippets\", then this toggle will be enabled and synced with CSS snippets. The easier way is to add your styles using @media print {body {...}}.",
+                    "target": "你可以在“外观 > CSS 代码片段”中添加自定义“print.css”，然后此开关将启用并与 CSS 代码片段同步。更简单的方法是使用 @media print {body {...}} 添加样式。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Print note title",
+                    "target": "打印笔记标题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Font size",
+                    "target": "字体大小"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Combine folder notes",
+                    "target": "合并文件夹笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Treat horizontal lines as page breaks",
+                    "target": "将水平线视为分页符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Debug mode",
+                    "target": "调试模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Custom CSS",
+                    "target": "自定义 CSS"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Print note",
+                    "target": "打印笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Print all notes in folder",
+                    "target": "打印文件夹中的所有笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Print selection",
+                    "target": "打印所选内容"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Default styling could not be located.",
+                    "target": "无法找到默认样式。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Could not find the plugin path. No default print styles will be added.",
+                    "target": "无法找到插件路径。将不会添加默认打印样式。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to generate preview content.",
+                    "target": "无法生成预览内容。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No note to print.",
+                    "target": "没有可打印的笔记。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No active note.",
+                    "target": "没有活动笔记。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No text selected.",
+                    "target": "未选择文本。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Could not resolve folder.",
+                    "target": "无法解析文件夹。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No markdown files found in the folder.",
+                    "target": "文件夹中未找到 Markdown 文件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Current note",
+                    "target": "当前笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Print selection",
+                    "target": "打印所选内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "All notes in current folder",
+                    "target": "当前文件夹中的所有笔记"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
