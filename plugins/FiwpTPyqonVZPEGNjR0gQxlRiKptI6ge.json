@@ -1,0 +1,235 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "fantasy-content-generator",
+        "version": "1.0.0",
+        "title": "Fantasy Content Generator",
+        "description": "Fantasy Content Generator Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.2.4",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to copy: ",
+                    "target": "复制失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "loaded Fantasy Content Generator",
+                    "target": "已加载奇幻内容生成器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Choose Import File",
+                    "target": "选择导入文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Export Section To File",
+                    "target": "将部分导出到文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "How Many Records to Generate",
+                    "target": "生成多少条记录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Click if you would like to use the default settings again",
+                    "target": "如需再次使用默认设置请点击"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set callout character to activate the inline Generator.",
+                    "target": "设置提示字符以激活内联生成器。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If you have Currency in your World or game consider Activating this",
+                    "target": "如果你的世界或游戏中有货币，请考虑启用此项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set How Frequently Loot generates currency as a percentage of 100",
+                    "target": "设置战利品生成货币的频率，占100的百分比"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Import A Json File With Supported information",
+                    "target": "导入包含受支持信息的 Json 文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Family Name?",
+                    "target": "家族名称？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Amount to Generate",
+                    "target": "生成数量"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "New Addition:",
+                    "target": "新增："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Reset To Defaults",
+                    "target": "恢复默认设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Inline Generator Callout",
+                    "target": "内联生成器提示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Currency Settings",
+                    "target": "货币设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable Currency for Loot Generation.",
+                    "target": "为战利品生成启用货币。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Occurance Rate:",
+                    "target": "出现率："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Import | Export",
+                    "target": "导入 | 导出"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Currency Name:",
+                    "target": "货币名称："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Added currency",
+                    "target": "已添加货币"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Inn Settings",
+                    "target": "旅馆设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Drink Settings",
+                    "target": "饮品设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Loot Settings",
+                    "target": "战利品设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Group Settings",
+                    "target": "队伍设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Dungeon Settings",
+                    "target": "地下城设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Import Json File for the Generator",
+                    "target": "为生成器导入 JSON 文件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Data Successfully Imported!",
+                    "target": "数据导入成功！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Data Exporting!",
+                    "target": "正在导出数据！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to copy, Check error in console.",
+                    "target": "复制失败，请在控制台查看错误。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open Fantasy Generator",
+                    "target": "开放幻想生成器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Lets Generate!",
+                    "target": "开始生成！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Welcome to the Fantasy Content Generator! Select the Generator for the name you would like to generate below and then fill out the form.",
+                    "target": "欢迎使用幻想内容生成器！在下方选择你要生成名称的生成器，然后填写表单。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Select the Generator.",
+                    "target": "选择生成器。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Customise The Generation",
+                    "target": "自定义生成"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Fantasy Content Generator",
+                    "target": "幻想内容生成器"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
