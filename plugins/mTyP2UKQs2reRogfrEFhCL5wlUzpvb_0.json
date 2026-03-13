@@ -1,0 +1,73 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "search-on-internet",
+        "version": "1.0.0",
+        "title": "Search on Internet",
+        "description": "Search on Internet Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.5.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "loading search-on-internet",
+                    "target": "正在加载 search-on-internet"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "unloading search-on-internet",
+                    "target": "正在卸载 search-on-internet"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Add Search",
+                    "target": "添加搜索"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Name of the search. Click the cross to delete the search.",
+                    "target": "搜索名称。点击叉号删除搜索。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Open in iframe",
+                    "target": "在 iframe 中打开"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Search name",
+                    "target": "搜索名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Search query",
+                    "target": "搜索查询"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Open in IFrame",
+                    "target": "在 IFrame 中打开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Perform search",
+                    "target": "执行搜索"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
