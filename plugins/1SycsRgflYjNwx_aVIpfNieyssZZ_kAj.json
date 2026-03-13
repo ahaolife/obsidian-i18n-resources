@@ -1,0 +1,1279 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "yearly-glance",
+        "version": "1.0.0",
+        "title": "Yearly Glance",
+        "description": "Yearly Glance Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "3.2.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "[yearly-glance] Reloaded 插件已重载",
+                    "target": "[yearly-glance] 插件已重载"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "View <a href='https://docs.ravenhogwarts.top/obsidian-yearly-glance/' target='_blank'>wiki documentation</a> to learn more features",
+                    "target": "查看 <a href='https://docs.ravenhogwarts.top/obsidian-yearly-glance/' target='_blank'>wiki 文档</a> 以了解更多功能"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Basic of the calendar",
+                    "target": "日历基础"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Use {{year}} placeholder when customizing, otherwise use the default title",
+                    "target": "自定义时使用 {{year}} 占位符，否则使用默认标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Grid layout (rows × columns)",
+                    "target": "网格布局（行 × 列）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Select the view type",
+                    "target": "选择视图类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Show weekdays in view",
+                    "target": "在视图中显示工作日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Highlight today in view",
+                    "target": "在视图中高亮今天"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Highlight weekends in view",
+                    "target": "在视图中高亮周末"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Show event type legend",
+                    "target": "显示事件类型图例"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Limit the height of the list view",
+                    "target": "限制列表视图的高度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Set the font size of the event text",
+                    "target": "设置事件文本的字体大小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Show holidays in view",
+                    "target": "在视图中显示节假日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Show birthdays in view",
+                    "target": "在视图中显示生日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Show custom events in view",
+                    "target": "在视图中显示自定义事件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Use Monday as the first day of the week",
+                    "target": "将周一设为一周的第一天"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Display details when hovering events",
+                    "target": "悬停事件时显示详情"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Use different colors for each month",
+                    "target": "为每个月使用不同颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Show lunar date in view",
+                    "target": "在视图中显示农历日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Show debug information for development",
+                    "target": "显示用于开发的调试信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Color presets for different events",
+                    "target": "不同事件的颜色预设"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Global display format for gregorian dates",
+                    "target": "公历日期的全局显示格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Configure the basic information of the calendar.",
+                    "target": "配置日历的基本信息。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Overall layout and view type of the calendar.",
+                    "target": "日历的整体布局和视图类型。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Appearance-related options for the calendar.",
+                    "target": "日历的外观相关选项。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Settings for events, holidays, birthdays, etc.",
+                    "target": "事件、节假日、生日等设置。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Color configuration related content",
+                    "target": "颜色配置相关内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "查看<a href='https://docs.ravenhogwarts.top/obsidian-yearly-glance/' target='_blank'>wiki文档</a>了解更多功能",
+                    "target": "查看<a href='https://docs.ravenhogwarts.top/obsidian-yearly-glance/' target='_blank'>wiki文档</a>了解更多功能"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "视图配置",
+                    "target": "视图配置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "自定义时使用{{year}}占位符才会显示当前年份，留空则使用默认标题",
+                    "target": "自定义时使用{{year}}占位符才会显示当前年份，留空则使用默认标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "布局方式，行x列",
+                    "target": "布局方式，行x列"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "选择年历的显示方式",
+                    "target": "选择年历的显示方式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在视图中显示周几",
+                    "target": "在视图中显示周几"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在视图中高亮今天",
+                    "target": "在视图中高亮今天"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在视图中高亮周末",
+                    "target": "在视图中高亮周末"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "显示事件类型图例",
+                    "target": "显示事件类型图例"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在列表视图中限制每个月的高度",
+                    "target": "在列表视图中限制每个月的高度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "设置事件文本的字体大小",
+                    "target": "设置事件文本的字体大小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在视图中显示节假日",
+                    "target": "在视图中显示节假日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在视图中显示生日",
+                    "target": "在视图中显示生日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在视图中显示自定义事件",
+                    "target": "在视图中显示自定义事件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "设置周一（而不是周日）作为一周的第一天",
+                    "target": "设置周一（而不是周日）作为一周的第一天"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "鼠标悬停在事件上时显示完整内容",
+                    "target": "鼠标悬停在事件上时显示完整内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "为每个月使用不同的主题色",
+                    "target": "为每个月使用不同的主题色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在日期下方显示农历日期",
+                    "target": "在日期下方显示农历日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在控制台中显示调试信息",
+                    "target": "在控制台中显示调试信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "各事件的配色预设选项",
+                    "target": "各事件的配色预设选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "公历日期的全局显示格式",
+                    "target": "公历日期的全局显示格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "各事件的管理",
+                    "target": "各事件的管理"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "年历的基础信息配置",
+                    "target": "年历的基础信息配置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "年历的整体布局与视图类型",
+                    "target": "年历的整体布局与视图类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "年历外观相关的内容",
+                    "target": "年历外观相关的内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "事件、节假日、生日等相关显示设置",
+                    "target": "事件、节假日、生日等相关显示设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "颜色配置相关内容",
+                    "target": "颜色配置相关内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "降序",
+                    "target": "降序"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "查看<a href='https://docs.ravenhogwarts.top/obsidian-yearly-glance/' target='_blank'>wiki文件</a>了解更多功能",
+                    "target": "查看<a href='https://docs.ravenhogwarts.top/obsidian-yearly-glance/' target='_blank'>wiki文件</a>了解更多功能"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "視圖配置",
+                    "target": "视图配置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "自訂時使用{{year}}占位符才會顯示當前年份，留空則使用預設標題",
+                    "target": "自定义时使用{{year}}占位符才会显示当前年份，留空则使用默认标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "佈局方式，行x列",
+                    "target": "布局方式，行x列"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "選擇年曆的顯示方式",
+                    "target": "选择年历的显示方式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在視圖中顯示星期",
+                    "target": "在视图中显示星期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在視圖中強調今天",
+                    "target": "在视图中强调今天"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在視圖中強調週末",
+                    "target": "在视图中强调周末"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "顯示事件類型圖例",
+                    "target": "显示事件类型图例"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在清單視圖中限制每個月的清單高度",
+                    "target": "在列表视图中限制每个月的列表高度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "設定事件文字的字型大小",
+                    "target": "设置事件文字的字体大小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在視圖中顯示節假日",
+                    "target": "在视图中显示节假日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在視圖中顯示生日",
+                    "target": "在视图中显示生日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在視圖中顯示自訂事件",
+                    "target": "在视图中显示自定义事件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "設定週一（而不是週日）作為一週的第一天",
+                    "target": "设置周一（而不是周日）作为一周的第一天"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "滑鼠懸浮事件時顯示完整內容",
+                    "target": "鼠标悬浮事件时显示完整内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "為每個月使用不同的主題色",
+                    "target": "为每个月使用不同的主题色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在視圖中顯示農曆日",
+                    "target": "在视图中显示农历日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在主控台中顯示偵錯資訊",
+                    "target": "在控制台中显示调试信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "各事件的配色預設選項",
+                    "target": "各事件的配色预设选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "公曆日期的全域顯示格式",
+                    "target": "公历日期的全局显示格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "年曆的基礎資訊配置",
+                    "target": "年历的基础信息配置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "年曆的整體佈局與視圖類型",
+                    "target": "年历的整体布局与视图类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "年曆外觀相關的內容",
+                    "target": "年历外观相关的内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "事件、節假日、生日等相關顯示設定",
+                    "target": "事件、节假日、生日等相关显示设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "<ul><li>File must be in JSON format</li><li>Events must contain <code>text</code> and <code>userInput</code> fields</li><li>Supports three event types: <code>holidays</code>, <code>birthdays</code>, <code>customEvents</code></li><ul>",
+                    "target": "<ul><li>文件必须为 JSON 格式</li><li>事件必须包含 <code>text</code> 和 <code>userInput</code> 字段</li><li>支持 <code>holidays</code>、<code>birthdays</code>、<code>customEvents</code> 三种事件类型</li><ul>"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "<ul><li>文件必须为 JSON 格式</li><li>事件必须包含 <code>text</code> 和 <code>userInput</code> 字段</li><li>支持 <code>holidays</code>、<code>birthdays</code>、<code>customEvents</code> 三种事件类型</li><ul>",
+                    "target": "<ul><li>文件必须为 JSON 格式</li><li>事件必须包含 <code>text</code> 和 <code>userInput</code> 字段</li><li>支持 <code>holidays</code>、<code>birthdays</code>、<code>customEvents</code> 三种事件类型</li><ul>"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "<ul><li>檔案必須為 JSON 格式</li><li>事件必須包含 <code>text</code> 和 <code>userInput</code> 欄位</li><li>支援 <code>holidays</code>、<code>birthdays</code>、<code>customEvents</code> 三種事件類型</li></ul>",
+                    "target": "<ul><li>文件必须为 JSON 格式</li><li>事件必须包含 <code>text</code> 和 <code>userInput</code> 字段</li><li>支持 <code>holidays</code>、<code>birthdays</code>、<code>customEvents</code> 三种事件类型</li></ul>"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "View type",
+                    "target": "视图类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show weekdays",
+                    "target": "显示工作日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Highlight today",
+                    "target": "高亮今天"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Highlight weekends",
+                    "target": "高亮周末"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show legend",
+                    "target": "显示图例"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Limit list height",
+                    "target": "限制列表高度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Event font size",
+                    "target": "事件字体大小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show holidays",
+                    "target": "显示节假日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show birthdays",
+                    "target": "显示生日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show custom events",
+                    "target": "显示自定义事件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Start week on Monday",
+                    "target": "一周从周一开始"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Event tooltips",
+                    "target": "事件提示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show lunar day",
+                    "target": "显示农历日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Debug information",
+                    "target": "调试信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Preset colors",
+                    "target": "预设颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Gregorian display format",
+                    "target": "公历显示格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Event Display",
+                    "target": "事件显示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Glance manager",
+                    "target": "概览管理"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Yearly glance",
+                    "target": "年度概览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Event name",
+                    "target": "事件名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Custom event",
+                    "target": "自定义事件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "常规",
+                    "target": "常规"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "标题",
+                    "target": "标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "布局",
+                    "target": "布局"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "视图类型",
+                    "target": "视图类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "显示周几",
+                    "target": "显示周几"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "高亮今天",
+                    "target": "高亮今天"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "高亮周末",
+                    "target": "高亮周末"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "显示图例",
+                    "target": "显示图例"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "限制列表高度",
+                    "target": "限制列表高度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "事件文本大小",
+                    "target": "事件文本大小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "显示节假日",
+                    "target": "显示节假日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "显示生日",
+                    "target": "显示生日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "显示自定义事件",
+                    "target": "显示自定义事件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "周一作为一周的第一天",
+                    "target": "周一作为一周的第一天"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "显示事件悬浮提示",
+                    "target": "显示事件悬浮提示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "彩色主题",
+                    "target": "彩色主题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "显示农历日",
+                    "target": "显示农历日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "显示调试信息",
+                    "target": "显示调试信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "预设颜色",
+                    "target": "预设颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "公历显示格式",
+                    "target": "公历显示格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "事件",
+                    "target": "事件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "基本设置",
+                    "target": "基本设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "布局相关",
+                    "target": "布局相关"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "样式设置",
+                    "target": "样式设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "事件显示",
+                    "target": "事件显示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "颜色设置",
+                    "target": "颜色设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "概览管理",
+                    "target": "概览管理"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "年度概览",
+                    "target": "年度概览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "事件名称",
+                    "target": "事件名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "节日",
+                    "target": "节日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "生日",
+                    "target": "生日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "自定义事件",
+                    "target": "自定义事件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "数据导出",
+                    "target": "数据导出"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "数据导入",
+                    "target": "数据导入"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "常規",
+                    "target": "常规"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "標題",
+                    "target": "标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "佈局",
+                    "target": "布局"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "視圖類型",
+                    "target": "视图类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "顯示星期",
+                    "target": "显示星期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "強調今天",
+                    "target": "强调今天"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "強調週末",
+                    "target": "强调周末"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "顯示圖例",
+                    "target": "显示图例"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "限制清單高度",
+                    "target": "限制清单高度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "事件文字大小",
+                    "target": "事件文字大小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "顯示節假日",
+                    "target": "显示节假日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "顯示生日",
+                    "target": "显示生日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "顯示自訂事件",
+                    "target": "显示自订事件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "週一作為一週的第一天",
+                    "target": "周一作为一周的第一天"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "顯示事件懸浮提示",
+                    "target": "显示事件悬浮提示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "彩色主題",
+                    "target": "彩色主题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "顯示農曆日",
+                    "target": "显示农历日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "顯示偵錯資訊",
+                    "target": "显示侦错信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "預設顏色",
+                    "target": "默认颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "公曆顯示格式",
+                    "target": "公历显示格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "基本設定",
+                    "target": "基本设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "佈局相關",
+                    "target": "布局相关"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "樣式設定",
+                    "target": "样式设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "事件顯示",
+                    "target": "事件显示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "顏色設定",
+                    "target": "颜色设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "概覽管理",
+                    "target": "概览管理"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "年度概覽",
+                    "target": "年度概览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "事件名稱",
+                    "target": "事件名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "節日",
+                    "target": "节日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "自訂事件",
+                    "target": "自定义事件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "資料匯出",
+                    "target": "数据导出"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "資料匯入",
+                    "target": "数据导入"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "白羊",
+                    "target": "白羊"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "金牛",
+                    "target": "金牛"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "双子",
+                    "target": "双子"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "巨蟹",
+                    "target": "巨蟹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "狮子",
+                    "target": "狮子"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "处女",
+                    "target": "处女"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "天秤",
+                    "target": "天秤"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "天蝎",
+                    "target": "天蝎"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "射手",
+                    "target": "射手"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "摩羯",
+                    "target": "摩羯"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "水瓶",
+                    "target": "水瓶"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "双鱼",
+                    "target": "双鱼"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "ISO 8601 date (YYYY-MM-DD)",
+                    "target": "ISO 8601 日期 (YYYY-MM-DD)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "search",
+                    "source": "Search events...",
+                    "target": "搜索事件..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "search",
+                    "source": "搜索事件...",
+                    "target": "搜索事件..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "search",
+                    "source": "搜尋事件...",
+                    "target": "搜索事件..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "Successfully exported {{count}} events to markdown files",
+                    "target": "已成功将 {{count}} 个事件导出到 markdown 文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "Successfully imported {{count}} events",
+                    "target": "已成功导入 {{count}} 个事件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "成功导出 {{count}} 个事件到 markdown 文件",
+                    "target": "成功导出 {{count}} 个事件到 markdown 文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "成功导入 {{count}} 个事件",
+                    "target": "成功导入 {{count}} 个事件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "成功導出 {{count}} 個事件到 markdown 文件",
+                    "target": "成功导出 {{count}} 个事件到 markdown 文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "成功匯入 {{count}} 個事件",
+                    "target": "成功导入 {{count}} 个事件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No events found",
+                    "target": "未找到事件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No data to export",
+                    "target": "没有可导出的数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No importable events found",
+                    "target": "未找到可导入的事件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Install YG plugin",
+                    "target": "安装 YG 插件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "暂无事件",
+                    "target": "暂无事件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "暂无事件数据",
+                    "target": "暂无事件数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "未找到可导入的事件",
+                    "target": "未找到可导入的事件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "安装 YG 插件",
+                    "target": "安装 YG 插件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "暫無事件",
+                    "target": "暂无事件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "暫無事件資料",
+                    "target": "暂无事件资料"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "未找到可匯入的事件",
+                    "target": "未找到可导入的事件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "安裝 YG 外掛程式",
+                    "target": "安装 YG 插件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Yearly glance",
+                    "target": "年度一览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "JSON File Import",
+                    "target": "JSON 文件导入"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "年度一览",
+                    "target": "年度一览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "JSON 文件导入",
+                    "target": "JSON 文件导入"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "年度一覽",
+                    "target": "年度一览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "JSON 檔案匯入",
+                    "target": "JSON 文件导入"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
