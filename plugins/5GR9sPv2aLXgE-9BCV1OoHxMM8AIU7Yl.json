@@ -1,0 +1,115 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "todoistprojectsync",
+        "version": "1.0.0",
+        "title": "Todoist Project sync",
+        "description": "Todoist Project sync Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.1.13",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Not Primary sync device - skipping Todoist sync",
+                    "target": "不是主同步设备 - 跳过 Todoist 同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "It's a secret",
+                    "target": "这是秘密"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "folder for projects",
+                    "target": "项目文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Sync frequency in seconds",
+                    "target": "同步频率（秒）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Todoist API Key",
+                    "target": "Todoist API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Todoist project Folder",
+                    "target": "Todoist 项目文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Primary sync device",
+                    "target": "主同步设备"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Todoist sync frequency in seconds",
+                    "target": "Todoist 同步频率（秒）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter your secret",
+                    "target": "输入你的秘密"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "enter path",
+                    "target": "输入路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Berry Red",
+                    "target": "浆果红"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Olive Green",
+                    "target": "橄榄绿"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Lime Green",
+                    "target": "青柠绿"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Mint Green",
+                    "target": "薄荷绿"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sky Blue",
+                    "target": "天蓝"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Light Blue",
+                    "target": "浅蓝"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
