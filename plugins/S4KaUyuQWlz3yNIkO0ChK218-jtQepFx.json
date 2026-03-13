@@ -1,0 +1,31 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "insert-heading-link",
+        "version": "1.0.0",
+        "title": "Insert Heading Link",
+        "description": "Insert Heading Link Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "loading insert-heading-link",
+                    "target": "正在加载 insert-heading-link"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add Heading Link",
+                    "target": "添加标题链接"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
