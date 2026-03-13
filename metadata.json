@@ -26,6 +26,19 @@
     "updated_at": "2026-03-13T17:45:09.687Z"
   },
   {
+    "id": "_Do7YWgcBkiKrXqVdCdoqgTGYzsawNHY",
+    "plugin": "discord-timestamps",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "1.0.19",
+    "title": "Discord Timestamps",
+    "description": "Discord Timestamps Localization & Tweaks",
+    "hash": "3be450c33be450c33be450c33be450c3",
+    "created_at": "2026-03-13T17:47:42.562Z",
+    "updated_at": "2026-03-13T17:47:42.562Z"
+  },
+  {
     "id": "_e53ZYNa7D9PVEU2UfpEEkSBJTLOtix1",
     "plugin": "canvas-presentation",
     "type": "plugin",
@@ -117,6 +130,19 @@
     "updated_at": "2026-03-13T17:41:31.689Z"
   },
   {
+    "id": "_Wfio6Ve6D3OciVWpeazsHCDYgSIwvPT",
+    "plugin": "discrete",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "0.2.0",
+    "title": "Discrete",
+    "description": "Discrete Localization & Tweaks",
+    "hash": "03e13fbb03e13fbb03e13fbb03e13fbb",
+    "created_at": "2026-03-13T17:47:43.441Z",
+    "updated_at": "2026-03-13T17:47:43.441Z"
+  },
+  {
     "id": "-bIIyI2NXCsUdu-fmO6f1_QwUSQjZ0LC",
     "plugin": "ai-image-ocr",
     "type": "plugin",
@@ -141,6 +167,19 @@
     "hash": "19ed30b519ed30b519ed30b519ed30b5",
     "created_at": "2026-03-13T17:39:29.336Z",
     "updated_at": "2026-03-13T17:39:29.336Z"
+  },
+  {
+    "id": "-JN-ffimLrXWvXapD0-RdST3VfjGxWNO",
+    "plugin": "due-when",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "1.0.8",
+    "title": "Due When",
+    "description": "Due When Localization & Tweaks",
+    "hash": "09e622f409e622f409e622f409e622f4",
+    "created_at": "2026-03-13T17:48:01.522Z",
+    "updated_at": "2026-03-13T17:48:01.522Z"
   },
   {
     "id": "-oKn9B2uM-yx0jyrtE22R8-ysxMezLSK",
@@ -206,6 +245,19 @@
     "hash": "1c75b9ea1c75b9ea1c75b9ea1c75b9ea",
     "created_at": "2026-03-13T17:41:43.048Z",
     "updated_at": "2026-03-13T17:41:43.048Z"
+  },
+  {
+    "id": "0Ngfzg9761qR4sOus9gnrrAp8UzhnWDO",
+    "plugin": "deep-sit",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "0.2.3",
+    "title": "Deep Sit",
+    "description": "Deep Sit Localization & Tweaks",
+    "hash": "6fda7f0e6fda7f0e6fda7f0e6fda7f0e",
+    "created_at": "2026-03-13T17:47:17.989Z",
+    "updated_at": "2026-03-13T17:47:17.989Z"
   },
   {
     "id": "0oqyn9EGdyjjolppPNdvX1TejQCQ5cd7",
@@ -325,6 +377,19 @@
     "updated_at": "2026-03-13T17:38:58.199Z"
   },
   {
+    "id": "1ut6CEUqpW4zp3OHAAj_1COITeMt_OSy",
+    "plugin": "easy-typing-obsidian",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "6.0.1",
+    "title": "Easy Typing",
+    "description": "Easy Typing Localization & Tweaks",
+    "hash": "7877725e7877725e7877725e7877725e",
+    "created_at": "2026-03-13T17:48:22.365Z",
+    "updated_at": "2026-03-13T17:48:22.365Z"
+  },
+  {
     "id": "1yUfMdKD1ZWRTgkQs5PE-ZE_n_zOsVZ-",
     "plugin": "convert-katex-to-mathjax",
     "type": "plugin",
@@ -416,6 +481,19 @@
     "updated_at": "2026-03-13T17:39:52.157Z"
   },
   {
+    "id": "2pELzgWv2y1hTSVmRtR-AGwKB03e3Bx9",
+    "plugin": "dialogue-mode",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "1.1.0",
+    "title": "Dialogue Mode",
+    "description": "Dialogue Mode Localization & Tweaks",
+    "hash": "44c76bbb44c76bbb44c76bbb44c76bbb",
+    "created_at": "2026-03-13T17:47:27.216Z",
+    "updated_at": "2026-03-13T17:47:27.216Z"
+  },
+  {
     "id": "2qfV6XnM_m346mwOy1zw376ekRzgUt34",
     "plugin": "contentful-publisher",
     "type": "plugin",
@@ -481,6 +559,19 @@
     "updated_at": "2026-03-13T17:41:52.766Z"
   },
   {
+    "id": "30-ZO7srtNawR60OxWI0V58-SQqLZAuj",
+    "plugin": "drawio-obsidian",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "1.5.4",
+    "title": "Diagrams",
+    "description": "Diagrams Localization & Tweaks",
+    "hash": "24dca6d324dca6d324dca6d324dca6d3",
+    "created_at": "2026-03-13T17:48:34.135Z",
+    "updated_at": "2026-03-13T17:48:34.135Z"
+  },
+  {
     "id": "32BX7lIVW2wBJUanBO0KZEvzlO0631GX",
     "plugin": "about-blank",
     "type": "plugin",
@@ -544,6 +635,32 @@
     "hash": "1d30156a1d30156a1d30156a1d30156a",
     "created_at": "2026-03-13T17:37:47.741Z",
     "updated_at": "2026-03-13T17:37:47.741Z"
+  },
+  {
+    "id": "3ij6RdtG-V375zbfenrug_IzDDu3acaf",
+    "plugin": "dmn-plugin",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "0.5.1",
+    "title": "DMN",
+    "description": "DMN Localization & Tweaks",
+    "hash": "7e4a6d957e4a6d957e4a6d957e4a6d95",
+    "created_at": "2026-03-13T17:47:51.821Z",
+    "updated_at": "2026-03-13T17:47:51.821Z"
+  },
+  {
+    "id": "3M_LBoUu-TBggoLA4VpJl877dQQ1IOuV",
+    "plugin": "e-upload",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "1.0.2",
+    "title": "EUpload",
+    "description": "EUpload Localization & Tweaks",
+    "hash": "6483cb926483cb926483cb926483cb92",
+    "created_at": "2026-03-13T17:48:10.914Z",
+    "updated_at": "2026-03-13T17:48:10.914Z"
   },
   {
     "id": "3Z6263dxyNdmFuNL35Oi7TdFFl1K8Kt7",
@@ -858,6 +975,19 @@
     "updated_at": "2026-03-13T17:44:21.082Z"
   },
   {
+    "id": "6cizYqdf2uwQrSQ0S186VJFdhRznzCZH",
+    "plugin": "downloadpdf",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "1.2.6",
+    "title": "downloadPDF",
+    "description": "downloadPDF Localization & Tweaks",
+    "hash": "1b6626a11b6626a11b6626a11b6626a1",
+    "created_at": "2026-03-13T17:47:56.895Z",
+    "updated_at": "2026-03-13T17:47:56.895Z"
+  },
+  {
     "id": "6JjQ1C17hASDULfM8We30erEchukN_12",
     "plugin": "azure-linker",
     "type": "plugin",
@@ -897,6 +1027,19 @@
     "updated_at": "2026-03-13T17:39:24.627Z"
   },
   {
+    "id": "6WmfWeYSBbpwtf4aRVrsqke-97cnLZOh",
+    "plugin": "disk-usage",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "1.0.0",
+    "title": "Disk Usage",
+    "description": "Disk Usage Localization & Tweaks",
+    "hash": "653e7c96653e7c96653e7c96653e7c96",
+    "created_at": "2026-03-13T17:47:45.362Z",
+    "updated_at": "2026-03-13T17:47:45.362Z"
+  },
+  {
     "id": "7-4VSbmCBq94jxQby3a4OIK3cTTvbSIQ",
     "plugin": "confluence-integration",
     "type": "plugin",
@@ -910,6 +1053,19 @@
     "updated_at": "2026-03-13T17:44:41.423Z"
   },
   {
+    "id": "7-mgdI03hFOcxAjTBJsyd4Em5gjTNeWL",
+    "plugin": "email-block-plugin",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "1.1.1",
+    "title": "Email code block",
+    "description": "Email code block Localization & Tweaks",
+    "hash": "7e4fb3127e4fb3127e4fb3127e4fb312",
+    "created_at": "2026-03-13T17:48:42.093Z",
+    "updated_at": "2026-03-13T17:48:42.093Z"
+  },
+  {
     "id": "73s6C96Ydz_EchenayoZiger5xkXHrDJ",
     "plugin": "another-name",
     "type": "plugin",
@@ -921,6 +1077,19 @@
     "hash": "4b4ad7564b4ad7564b4ad7564b4ad756",
     "created_at": "2026-03-13T17:38:53.774Z",
     "updated_at": "2026-03-13T17:38:53.774Z"
+  },
+  {
+    "id": "78xTkXeCThbztuEwWQrpg6DPIBfUv5Oi",
+    "plugin": "desci",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "1.0.0",
+    "title": "Desci",
+    "description": "Desci Localization & Tweaks",
+    "hash": "74bae88074bae88074bae88074bae880",
+    "created_at": "2026-03-13T17:47:32.404Z",
+    "updated_at": "2026-03-13T17:47:32.404Z"
   },
   {
     "id": "7bWC1sPviXSk0C_IO-nKpHGTLdPbfQrW",
@@ -975,6 +1144,19 @@
     "updated_at": "2026-03-13T17:45:10.639Z"
   },
   {
+    "id": "7KY5UQh7TPtH8n3JaXe08-3y_6OEFkzP",
+    "plugin": "dataview",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "0.5.68",
+    "title": "Dataview",
+    "description": "Dataview Localization & Tweaks",
+    "hash": "5b57e8e25b57e8e25b57e8e25b57e8e2",
+    "created_at": "2026-03-13T17:47:09.692Z",
+    "updated_at": "2026-03-13T17:47:09.692Z"
+  },
+  {
     "id": "7PUc8hRsTQtgfbETUUFoIGXwVnu2tn7R",
     "plugin": "bookshelf",
     "type": "plugin",
@@ -1027,6 +1209,32 @@
     "updated_at": "2026-03-13T17:39:14.954Z"
   },
   {
+    "id": "7TZKAFjsKfgECFauLOIS7bjk9MuoXOP7",
+    "plugin": "easylink",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "1.2.0",
+    "title": "EasyLink",
+    "description": "EasyLink Localization & Tweaks",
+    "hash": "265d3265265d3265265d3265265d3265",
+    "created_at": "2026-03-13T17:48:23.389Z",
+    "updated_at": "2026-03-13T17:48:23.389Z"
+  },
+  {
+    "id": "7vQdnaPYf7QFg3mbr6bJb64cGQSdYCzf",
+    "plugin": "docxer",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "2.3.0",
+    "title": "Docxer",
+    "description": "Docxer Localization & Tweaks",
+    "hash": "1406ab281406ab281406ab281406ab28",
+    "created_at": "2026-03-13T17:47:54.704Z",
+    "updated_at": "2026-03-13T17:47:54.704Z"
+  },
+  {
     "id": "7wEKJV--ElbulLxT0EJiVrpmQMuRR8Cl",
     "plugin": "bin-theme-controller",
     "type": "plugin",
@@ -1053,6 +1261,19 @@
     "updated_at": "2026-03-13T17:38:00.972Z"
   },
   {
+    "id": "7ZHdllVFtUzn2nn3tYKFWce6ZF9hDNdF",
+    "plugin": "efficient-word-count",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "1.0.0",
+    "title": "Efficient Word Count",
+    "description": "Efficient Word Count Localization & Tweaks",
+    "hash": "62076355620763556207635562076355",
+    "created_at": "2026-03-13T17:48:36.925Z",
+    "updated_at": "2026-03-13T17:48:36.925Z"
+  },
+  {
     "id": "7zTjdAgiiURCXwxih9BVDZW49eclBPcm",
     "plugin": "aqu-blur-mode",
     "type": "plugin",
@@ -1077,6 +1298,19 @@
     "hash": "50f5d1db50f5d1db50f5d1db50f5d1db",
     "created_at": "2026-03-13T17:42:38.797Z",
     "updated_at": "2026-03-13T17:42:38.797Z"
+  },
+  {
+    "id": "8bSS3CfbLthGdfDk8knemXWrzrpr71WM",
+    "plugin": "double-colon-conceal",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "1.3.1",
+    "title": "Double Colon Conceal",
+    "description": "Double Colon Conceal Localization & Tweaks",
+    "hash": "1f35811e1f35811e1f35811e1f35811e",
+    "created_at": "2026-03-13T17:47:52.700Z",
+    "updated_at": "2026-03-13T17:47:52.700Z"
   },
   {
     "id": "8BXzgzLCZS8Zw8y40RnZzRARl3c26jOM",
@@ -1142,6 +1376,19 @@
     "hash": "0441ff190441ff190441ff190441ff19",
     "created_at": "2026-03-13T17:38:13.955Z",
     "updated_at": "2026-03-13T17:38:13.955Z"
+  },
+  {
+    "id": "8V4FxifSu1Czjd2kIqYvtHRetXLN3kkG",
+    "plugin": "enhance-youtube-links",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "1.0.10",
+    "title": "Enhance YouTube Links",
+    "description": "Enhance YouTube Links Localization & Tweaks",
+    "hash": "645ba4dc645ba4dc645ba4dc645ba4dc",
+    "created_at": "2026-03-13T17:48:49.372Z",
+    "updated_at": "2026-03-13T17:48:49.372Z"
   },
   {
     "id": "9-vsCrXR93x4LjAzmF7dxBFu9UG4ilf8",
@@ -1272,6 +1519,19 @@
     "hash": "1c3dedd41c3dedd41c3dedd41c3dedd4",
     "created_at": "2026-03-13T17:38:21.101Z",
     "updated_at": "2026-03-13T17:38:21.101Z"
+  },
+  {
+    "id": "9nYdXl8hw0XZYFUrr6vdj8MnQQYKROiI",
+    "plugin": "easy-tracker",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "1.0.6",
+    "title": "Easy Tracker",
+    "description": "Easy Tracker Localization & Tweaks",
+    "hash": "05ae13b705ae13b705ae13b705ae13b7",
+    "created_at": "2026-03-13T17:48:20.946Z",
+    "updated_at": "2026-03-13T17:48:20.946Z"
   },
   {
     "id": "9U9ABKoX_3hLDQsx0SGjsnjh847Morvj",
@@ -1430,6 +1690,19 @@
     "updated_at": "2026-03-13T17:46:30.384Z"
   },
   {
+    "id": "agqyp5jbbTqVev4zvyGtedcLr5V3Dd_o",
+    "plugin": "duplicate-line",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "1.0.0",
+    "title": "Duplicate line",
+    "description": "Duplicate line Localization & Tweaks",
+    "hash": "4037820c4037820c4037820c4037820c",
+    "created_at": "2026-03-13T17:48:05.794Z",
+    "updated_at": "2026-03-13T17:48:05.794Z"
+  },
+  {
     "id": "aHX4PopTM1aT5hHvOMMjM_I3XSkJuiUH",
     "plugin": "dataview-properties",
     "type": "plugin",
@@ -1482,6 +1755,19 @@
     "updated_at": "2026-03-13T17:41:51.756Z"
   },
   {
+    "id": "asOPgZ8GAdNIc_nmwerGVdn2SkTY60eM",
+    "plugin": "days-since",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "2.0.3",
+    "title": "Days Since",
+    "description": "Days Since Localization & Tweaks",
+    "hash": "49053c7f49053c7f49053c7f49053c7f",
+    "created_at": "2026-03-13T17:47:17.077Z",
+    "updated_at": "2026-03-13T17:47:17.077Z"
+  },
+  {
     "id": "ATWwHJC0asf558aCDryy2Sin_Nh_p3iw",
     "plugin": "change-case",
     "type": "plugin",
@@ -1508,6 +1794,19 @@
     "updated_at": "2026-03-13T17:40:35.928Z"
   },
   {
+    "id": "B1ireTlK3tJNJEmQ3vRSfBZUqMlNIiV9",
+    "plugin": "datepicker",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "0.3.25",
+    "title": "Datepicker",
+    "description": "Datepicker Localization & Tweaks",
+    "hash": "7d2423037d2423037d2423037d242303",
+    "created_at": "2026-03-13T17:47:13.965Z",
+    "updated_at": "2026-03-13T17:47:13.965Z"
+  },
+  {
     "id": "b2m5CZs0gNYnH2gqErFIv5X_uYrRiyBQ",
     "plugin": "auto-hyperlink",
     "type": "plugin",
@@ -1532,6 +1831,19 @@
     "hash": "3beccf543beccf543beccf543beccf54",
     "created_at": "2026-03-13T17:39:45.105Z",
     "updated_at": "2026-03-13T17:39:45.105Z"
+  },
+  {
+    "id": "b4T9J9ApsApPU7ZQnFRgCZqkPcmJXBOY",
+    "plugin": "docx-exporter",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "1.0.2",
+    "title": "DOCX Exporter",
+    "description": "DOCX Exporter Localization & Tweaks",
+    "hash": "3c0223cd3c0223cd3c0223cd3c0223cd",
+    "created_at": "2026-03-13T17:47:48.233Z",
+    "updated_at": "2026-03-13T17:47:48.233Z"
   },
   {
     "id": "B76tqyQ48HnoDOuxuYsiiqkV3nPZ0o0P",
@@ -1612,6 +1924,32 @@
     "updated_at": "2026-03-13T17:43:21.756Z"
   },
   {
+    "id": "BGscxPX_wvoeDfR8uEggeWhFLgpgKPZV",
+    "plugin": "draft-indicator",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "1.0.0",
+    "title": "Draft Indicator",
+    "description": "Draft Indicator Localization & Tweaks",
+    "hash": "65f3756265f3756265f3756265f37562",
+    "created_at": "2026-03-13T17:47:57.793Z",
+    "updated_at": "2026-03-13T17:47:57.793Z"
+  },
+  {
+    "id": "Bhde2MNKgOblvaK1Y7a-hs4T8mbPeGzd",
+    "plugin": "embed-code-file",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "1.2.0",
+    "title": "Embed Code File",
+    "description": "Embed Code File Localization & Tweaks",
+    "hash": "3f91a8663f91a8663f91a8663f91a866",
+    "created_at": "2026-03-13T17:48:41.115Z",
+    "updated_at": "2026-03-13T17:48:41.115Z"
+  },
+  {
     "id": "BLqoFJTKDmbGE1kf_OKl9PeQQYieoSL4",
     "plugin": "auto-folder-collapse",
     "type": "plugin",
@@ -1623,6 +1961,32 @@
     "hash": "5aca56355aca56355aca56355aca5635",
     "created_at": "2026-03-13T17:39:48.118Z",
     "updated_at": "2026-03-13T17:39:48.118Z"
+  },
+  {
+    "id": "bMbb5JO9jHcsxzDxBdga0A9p4023oqXg",
+    "plugin": "edit-in-neovim",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "1.8.0",
+    "title": "Edit in Neovim",
+    "description": "Edit in Neovim Localization & Tweaks",
+    "hash": "12b50aed12b50aed12b50aed12b50aed",
+    "created_at": "2026-03-13T17:48:31.044Z",
+    "updated_at": "2026-03-13T17:48:31.044Z"
+  },
+  {
+    "id": "bnzXOgDuQVQ7JdC8OL2qyOLg_ByZXxNA",
+    "plugin": "datacore",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "0.1.28",
+    "title": "Datacore",
+    "description": "Datacore Localization & Tweaks",
+    "hash": "2b6ac5222b6ac5222b6ac5222b6ac522",
+    "created_at": "2026-03-13T17:47:10.904Z",
+    "updated_at": "2026-03-13T17:47:10.904Z"
   },
   {
     "id": "BRGgKPW95QG3TWaKSjX0k6F3XamBgouU",
@@ -1677,6 +2041,19 @@
     "updated_at": "2026-03-13T17:42:48.322Z"
   },
   {
+    "id": "c4yQc3iFaXWs6sq5wfrEIqB2pJUnZUgN",
+    "plugin": "eccirian",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "1.0.9",
+    "title": "Eccirian Encrypt",
+    "description": "Eccirian Encrypt Localization & Tweaks",
+    "hash": "428f10f4428f10f4428f10f4428f10f4",
+    "created_at": "2026-03-13T17:48:25.705Z",
+    "updated_at": "2026-03-13T17:48:25.705Z"
+  },
+  {
     "id": "C5S2h9gwvRaNFn76eRBYJkOEeDpp4bLh",
     "plugin": "colored-tags",
     "type": "plugin",
@@ -1701,6 +2078,19 @@
     "hash": "21e6687521e6687521e6687521e66875",
     "created_at": "2026-03-13T17:42:28.313Z",
     "updated_at": "2026-03-13T17:42:28.313Z"
+  },
+  {
+    "id": "ca74wunqzBpbQLdXgMYUtkSOelKok3t3",
+    "plugin": "docbase-unofficial",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "1.0.0",
+    "title": "DocBase (Unofficial)",
+    "description": "DocBase (Unofficial) Localization & Tweaks",
+    "hash": "5c74c7e65c74c7e65c74c7e65c74c7e6",
+    "created_at": "2026-03-13T17:47:46.294Z",
+    "updated_at": "2026-03-13T17:47:46.294Z"
   },
   {
     "id": "CajqM44ZVkLN00gJqpVG-xolBUEskomH",
@@ -1898,6 +2288,19 @@
     "updated_at": "2026-03-13T17:44:26.095Z"
   },
   {
+    "id": "d2L3bJ9T2Q4qqH2a5bTJG_cZBpHl1DbI",
+    "plugin": "eleven-labs",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "1.1.0",
+    "title": "Eleven Labs",
+    "description": "Eleven Labs Localization & Tweaks",
+    "hash": "486d135f486d135f486d135f486d135f",
+    "created_at": "2026-03-13T17:48:38.867Z",
+    "updated_at": "2026-03-13T17:48:38.867Z"
+  },
+  {
     "id": "D6L-vQ9n5BDzPJsDzarCNwwKl1n93n-A",
     "plugin": "chat-clips",
     "type": "plugin",
@@ -1976,6 +2379,19 @@
     "updated_at": "2026-03-13T17:38:38.177Z"
   },
   {
+    "id": "dfncggoOLBNfpOsIlu5QnL-OkCtZM8mg",
+    "plugin": "discord-message-sender",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "0.2.8",
+    "title": "Discord Message Sender",
+    "description": "Discord Message Sender Localization & Tweaks",
+    "hash": "39f1d58439f1d58439f1d58439f1d584",
+    "created_at": "2026-03-13T17:47:40.464Z",
+    "updated_at": "2026-03-13T17:47:40.464Z"
+  },
+  {
     "id": "DHfEqDTSHGsuWCmN-qGDO0SBaPUMvx44",
     "plugin": "chat-stream",
     "type": "plugin",
@@ -2013,6 +2429,19 @@
     "hash": "0cc4939c0cc4939c0cc4939c0cc4939c",
     "created_at": "2026-03-13T17:43:12.189Z",
     "updated_at": "2026-03-13T17:43:12.189Z"
+  },
+  {
+    "id": "Do7S8bcN1MTOmpG4esnpAG9fA1cdc8Gu",
+    "plugin": "enhanced-annotations",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "0.1.9",
+    "title": "Enhanced Annotations",
+    "description": "Enhanced Annotations Localization & Tweaks",
+    "hash": "48ad7d4048ad7d4048ad7d4048ad7d40",
+    "created_at": "2026-03-13T17:48:51.254Z",
+    "updated_at": "2026-03-13T17:48:51.254Z"
   },
   {
     "id": "dOEdET-xtF3lR2H-Ag1palpFmGh4H428",
@@ -2065,6 +2494,32 @@
     "hash": "5e4f1afc5e4f1afc5e4f1afc5e4f1afc",
     "created_at": "2026-03-13T17:41:28.417Z",
     "updated_at": "2026-03-13T17:41:28.417Z"
+  },
+  {
+    "id": "DXS4p-bBznXxLTRXeoR-m0uk--ypJe9C",
+    "plugin": "emoji-titler",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "1.0.4",
+    "title": "Emoji Titler",
+    "description": "Emoji Titler Localization & Tweaks",
+    "hash": "16147b0b16147b0b16147b0b16147b0b",
+    "created_at": "2026-03-13T17:48:48.396Z",
+    "updated_at": "2026-03-13T17:48:48.396Z"
+  },
+  {
+    "id": "DyeEjVi4g9q9uqCLVLfsSCu3UeQgzuDR",
+    "plugin": "dynamic-text-concealer",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "1.1.1",
+    "title": "Dynamic Text Concealer",
+    "description": "Dynamic Text Concealer Localization & Tweaks",
+    "hash": "38427d3838427d3838427d3838427d38",
+    "created_at": "2026-03-13T17:48:08.690Z",
+    "updated_at": "2026-03-13T17:48:08.690Z"
   },
   {
     "id": "dzNfhDdIIF30651tvBychgTf6e7SdM4R",
@@ -2130,6 +2585,45 @@
     "hash": "030b1199030b1199030b1199030b1199",
     "created_at": "2026-03-13T17:46:31.317Z",
     "updated_at": "2026-03-13T17:46:31.317Z"
+  },
+  {
+    "id": "EdGebVddQVzO2NqSv1l8RzySIVJSytNE",
+    "plugin": "double-switch",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "0.7.0",
+    "title": "Auto switch themes between dark/light mode",
+    "description": "Auto switch themes between dark/light mode Localization & Tweaks",
+    "hash": "47e0864847e0864847e0864847e08648",
+    "created_at": "2026-03-13T17:47:55.741Z",
+    "updated_at": "2026-03-13T17:47:55.741Z"
+  },
+  {
+    "id": "EFAuVANCD2nXORNCZxKI34tnaIy5X-vc",
+    "plugin": "edit-history",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "0.3.0",
+    "title": "Edit History",
+    "description": "Edit History Localization & Tweaks",
+    "hash": "6b58be816b58be816b58be816b58be81",
+    "created_at": "2026-03-13T17:48:27.669Z",
+    "updated_at": "2026-03-13T17:48:27.669Z"
+  },
+  {
+    "id": "eFpIlCaRbSkY9UhBVFpPHlJh2txl1Rgc",
+    "plugin": "discordian-plugin",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "0.7.1",
+    "title": "Discordian Theme",
+    "description": "Discordian Theme Localization & Tweaks",
+    "hash": "4d9d5e344d9d5e344d9d5e344d9d5e34",
+    "created_at": "2026-03-13T17:47:41.586Z",
+    "updated_at": "2026-03-13T17:47:41.586Z"
   },
   {
     "id": "EgUCYC12ao-TUQ_g2w6LKf7QZWPx2lop",
@@ -2249,6 +2743,19 @@
     "updated_at": "2026-03-13T17:44:15.148Z"
   },
   {
+    "id": "eQj2U5o0NPiO84tUYfqt9i4iGUNfCv8-",
+    "plugin": "draw-steel-retainer",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "1.0.19",
+    "title": "Draw Steel Retainer",
+    "description": "Draw Steel Retainer Localization & Tweaks",
+    "hash": "10f3717710f3717710f3717710f37177",
+    "created_at": "2026-03-13T17:48:00.613Z",
+    "updated_at": "2026-03-13T17:48:00.613Z"
+  },
+  {
     "id": "ErmQDNyd49NGYRuP3z7x8l5cmg-hQLZ8",
     "plugin": "custom-font-loader",
     "type": "plugin",
@@ -2260,6 +2767,32 @@
     "hash": "2a6938182a6938182a6938182a693818",
     "created_at": "2026-03-13T17:45:47.971Z",
     "updated_at": "2026-03-13T17:45:47.971Z"
+  },
+  {
+    "id": "Esc7TqAyXF6DmBAoVDHWDfRP-KOzUTY9",
+    "plugin": "diffzip",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "0.0.20",
+    "title": "Differential ZIP Backup",
+    "description": "Differential ZIP Backup Localization & Tweaks",
+    "hash": "46f5078f46f5078f46f5078f46f5078f",
+    "created_at": "2026-03-13T17:47:37.211Z",
+    "updated_at": "2026-03-13T17:47:37.211Z"
+  },
+  {
+    "id": "EsE-3tNBYAcS0RZdEBf2Qv2fEJQNezxY",
+    "plugin": "edit-link-alias",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "1.0.4",
+    "title": "Edit Link Alias",
+    "description": "Edit Link Alias Localization & Tweaks",
+    "hash": "45ff82f645ff82f645ff82f645ff82f6",
+    "created_at": "2026-03-13T17:48:29.587Z",
+    "updated_at": "2026-03-13T17:48:29.587Z"
   },
   {
     "id": "ETFWM88pkRQRl0DzfVWArEVVgXkxl8_z",
@@ -2275,6 +2808,19 @@
     "updated_at": "2026-03-13T17:38:41.218Z"
   },
   {
+    "id": "EU28DyOmuu99l1cdldNcnpbDk6iqBxc_",
+    "plugin": "enhanced-canvas",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "1.0.21",
+    "title": "Enhanced Canvas",
+    "description": "Enhanced Canvas Localization & Tweaks",
+    "hash": "7c79a4587c79a4587c79a4587c79a458",
+    "created_at": "2026-03-13T17:48:50.285Z",
+    "updated_at": "2026-03-13T17:48:50.285Z"
+  },
+  {
     "id": "euAL5tvouy2rQsRNrspfolmwkgOc4DlH",
     "plugin": "auto-keyword-linker",
     "type": "plugin",
@@ -2286,6 +2832,19 @@
     "hash": "01d20bfe01d20bfe01d20bfe01d20bfe",
     "created_at": "2026-03-13T17:39:54.418Z",
     "updated_at": "2026-03-13T17:39:54.418Z"
+  },
+  {
+    "id": "euPmvhYtxyESKzZwdgWROuxvBbpwWYg5",
+    "plugin": "display-relative-path-img",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "0.0.4",
+    "title": "Display Relative Path Img",
+    "description": "Display Relative Path Img Localization & Tweaks",
+    "hash": "30440958304409583044095830440958",
+    "created_at": "2026-03-13T17:47:44.411Z",
+    "updated_at": "2026-03-13T17:47:44.411Z"
   },
   {
     "id": "EVk7a2GzCuR1XccXSEmHdc6-RnlA5Uuc",
@@ -2442,6 +3001,19 @@
     "hash": "1ad4778b1ad4778b1ad4778b1ad4778b",
     "created_at": "2026-03-13T17:43:42.308Z",
     "updated_at": "2026-03-13T17:43:42.308Z"
+  },
+  {
+    "id": "fLPAbuqPw6W8XirbF8n1dQc68PH_Ngd8",
+    "plugin": "editor-autofocus",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "1.0.0",
+    "title": "Editor Autofocus",
+    "description": "Editor Autofocus Localization & Tweaks",
+    "hash": "21162ae821162ae821162ae821162ae8",
+    "created_at": "2026-03-13T17:48:33.252Z",
+    "updated_at": "2026-03-13T17:48:33.252Z"
   },
   {
     "id": "fM3um1qO592qczfd22qG14Xk48bBKUFd",
@@ -2626,6 +3198,19 @@
     "updated_at": "2026-03-13T17:44:35.123Z"
   },
   {
+    "id": "gFiuPFo1nmGLEwIWS-qdqZOlMxu8uU82",
+    "plugin": "default-query-in-backlink",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "0.1.0",
+    "title": "Default query in backlinks",
+    "description": "Default query in backlinks Localization & Tweaks",
+    "hash": "707d1fb2707d1fb2707d1fb2707d1fb2",
+    "created_at": "2026-03-13T17:47:19.887Z",
+    "updated_at": "2026-03-13T17:47:19.887Z"
+  },
+  {
     "id": "GhAgkpsqcfeP-E-6OXu0QzrJfqVi-nZY",
     "plugin": "aprils-automatic-timelines",
     "type": "plugin",
@@ -2689,6 +3274,32 @@
     "hash": "6332373d6332373d6332373d6332373d",
     "created_at": "2026-03-13T17:41:46.016Z",
     "updated_at": "2026-03-13T17:41:46.016Z"
+  },
+  {
+    "id": "GRVX0GKj5xCuNhPEuBuNkt_NmfKu2wRr",
+    "plugin": "diagram-zoom-drag",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "6.1.3",
+    "title": "Image Zoom & Drag",
+    "description": "Image Zoom & Drag Localization & Tweaks",
+    "hash": "31948a9131948a9131948a9131948a91",
+    "created_at": "2026-03-13T17:47:29.456Z",
+    "updated_at": "2026-03-13T17:47:29.456Z"
+  },
+  {
+    "id": "GtvNojHUpw86yFoVGD4SAceamHnwxveT",
+    "plugin": "datetime-language-changer",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "1.0.2",
+    "title": "Datetime Language Changer",
+    "description": "Datetime Language Changer Localization & Tweaks",
+    "hash": "60cb938260cb938260cb938260cb9382",
+    "created_at": "2026-03-13T17:47:12.804Z",
+    "updated_at": "2026-03-13T17:47:12.804Z"
   },
   {
     "id": "gujhIIA-5TyDtzcfHNBuoUpVSBojsF2U",
@@ -2767,6 +3378,19 @@
     "hash": "70bd8ee470bd8ee470bd8ee470bd8ee4",
     "created_at": "2026-03-13T17:38:32.634Z",
     "updated_at": "2026-03-13T17:38:32.634Z"
+  },
+  {
+    "id": "HBV-pV8MtHTH0rYF-4tnJTEMnmSpAWTU",
+    "plugin": "discord-message-formatter",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "1.5",
+    "title": "Discord Message Formatter",
+    "description": "Discord Message Formatter Localization & Tweaks",
+    "hash": "27c4d4a027c4d4a027c4d4a027c4d4a0",
+    "created_at": "2026-03-13T17:47:38.169Z",
+    "updated_at": "2026-03-13T17:47:38.169Z"
   },
   {
     "id": "He1kO5iPpUAQTQVSlr8iZmib-QjMfsBF",
@@ -3068,6 +3692,19 @@
     "updated_at": "2026-03-13T17:41:16.304Z"
   },
   {
+    "id": "IgDiiOkfJN4cxmwcK-Pauq76nP7p4kqz",
+    "plugin": "easy-bake",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "1.1.0",
+    "title": "Easy Bake",
+    "description": "Easy Bake Localization & Tweaks",
+    "hash": "111a5827111a5827111a5827111a5827",
+    "created_at": "2026-03-13T17:48:13.150Z",
+    "updated_at": "2026-03-13T17:48:13.150Z"
+  },
+  {
     "id": "iiVTLvi-XcUGQZW0Po8utJk7ldFCGDsU",
     "plugin": "auto-template-trigger",
     "type": "plugin",
@@ -3354,6 +3991,19 @@
     "updated_at": "2026-03-13T17:41:00.303Z"
   },
   {
+    "id": "jRWp-N6oTzxRJljXfB6zlkefKFLcj3fS",
+    "plugin": "ear-training",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "0.0.4",
+    "title": "Ear Training",
+    "description": "Ear Training Localization & Tweaks",
+    "hash": "5effee835effee835effee835effee83",
+    "created_at": "2026-03-13T17:48:17.507Z",
+    "updated_at": "2026-03-13T17:48:17.507Z"
+  },
+  {
     "id": "JS22SUoEObxmHekzxgp4rPf9xKenz-27",
     "plugin": "barcode-generator",
     "type": "plugin",
@@ -3378,6 +4028,19 @@
     "hash": "1a14177d1a14177d1a14177d1a14177d",
     "created_at": "2026-03-13T17:37:51.206Z",
     "updated_at": "2026-03-13T17:37:51.206Z"
+  },
+  {
+    "id": "jshHaQ1kn9AtqcdfsjvdbLcfi61A76DU",
+    "plugin": "day-one-importer",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "1.3.0",
+    "title": "Day One Importer",
+    "description": "Day One Importer Localization & Tweaks",
+    "hash": "13fdc7a213fdc7a213fdc7a213fdc7a2",
+    "created_at": "2026-03-13T17:47:16.158Z",
+    "updated_at": "2026-03-13T17:47:16.158Z"
   },
   {
     "id": "JueJO-hyFnqBMu3TiQJCI6lIW1qT2oPU",
@@ -3445,6 +4108,19 @@
     "updated_at": "2026-03-13T17:39:35.490Z"
   },
   {
+    "id": "KdJf_txSg4_-iHdDwuo8LZU16v8vX8ti",
+    "plugin": "drag-to-scroll",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "1.0.1",
+    "title": "Drag To Scroll",
+    "description": "Drag To Scroll Localization & Tweaks",
+    "hash": "32d7f58232d7f58232d7f58232d7f582",
+    "created_at": "2026-03-13T17:47:58.740Z",
+    "updated_at": "2026-03-13T17:47:58.740Z"
+  },
+  {
     "id": "KdLVfDYbuWdtcR6RVLkaY2xyWe86unNr",
     "plugin": "dangerous-mode",
     "type": "plugin",
@@ -3456,6 +4132,19 @@
     "hash": "49797049497970494979704949797049",
     "created_at": "2026-03-13T17:46:28.744Z",
     "updated_at": "2026-03-13T17:46:28.744Z"
+  },
+  {
+    "id": "KELeKHhxbmJxq-XoqNIWrn1MWjPpJGR_",
+    "plugin": "devops-companion",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "0.12.3",
+    "title": "DevOps Companion",
+    "description": "DevOps Companion Localization & Tweaks",
+    "hash": "5c1fd0f75c1fd0f75c1fd0f75c1fd0f7",
+    "created_at": "2026-03-13T17:47:28.372Z",
+    "updated_at": "2026-03-13T17:47:28.372Z"
   },
   {
     "id": "Kf6moPU41LmlXPVOlBDYCOh7gO4NPxTL",
@@ -3482,6 +4171,19 @@
     "hash": "55d507f255d507f255d507f255d507f2",
     "created_at": "2026-03-13T17:41:56.810Z",
     "updated_at": "2026-03-13T17:41:56.810Z"
+  },
+  {
+    "id": "KhcQ2LNJXXFDcWm0Udgl7mtx2T-VVJkf",
+    "plugin": "digital-paper",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "1.0.4",
+    "title": "digital paper",
+    "description": "digital paper Localization & Tweaks",
+    "hash": "6216bde76216bde76216bde76216bde7",
+    "created_at": "2026-03-13T17:47:31.416Z",
+    "updated_at": "2026-03-13T17:47:31.416Z"
   },
   {
     "id": "kHuApnq7BjdQvcXdKNRYDi828mXLzPZL",
@@ -3547,6 +4249,32 @@
     "hash": "74decd8274decd8274decd8274decd82",
     "created_at": "2026-03-13T17:41:38.663Z",
     "updated_at": "2026-03-13T17:41:38.663Z"
+  },
+  {
+    "id": "kMoCdQaUQG5nJ5Mir-pigqjgNuJ0r4So",
+    "plugin": "dropbox-photo-grid",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "1.0.8",
+    "title": "Dropbox Photo Grid",
+    "description": "Dropbox Photo Grid Localization & Tweaks",
+    "hash": "13812721138127211381272113812721",
+    "created_at": "2026-03-13T17:48:02.786Z",
+    "updated_at": "2026-03-13T17:48:02.786Z"
+  },
+  {
+    "id": "koEcGDlTgIUsNErHpcJprvVTrvFkvM8H",
+    "plugin": "e-daiary",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "1.0.2",
+    "title": "e-Daiary",
+    "description": "e-Daiary Localization & Tweaks",
+    "hash": "5b7ad8385b7ad8385b7ad8385b7ad838",
+    "created_at": "2026-03-13T17:48:09.635Z",
+    "updated_at": "2026-03-13T17:48:09.635Z"
   },
   {
     "id": "kPeTAiIr05hCkwEzWRia18bGRrSHSSPM",
@@ -3638,6 +4366,19 @@
     "hash": "350621cf350621cf350621cf350621cf",
     "created_at": "2026-03-13T17:42:25.314Z",
     "updated_at": "2026-03-13T17:42:25.314Z"
+  },
+  {
+    "id": "L6NVJm4tJUJ0faloOYJfFgRHsZHxxp9w",
+    "plugin": "easy-timeline",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "1.1.0",
+    "title": "Easy Timeline",
+    "description": "Easy Timeline Localization & Tweaks",
+    "hash": "75ddd93e75ddd93e75ddd93e75ddd93e",
+    "created_at": "2026-03-13T17:48:19.608Z",
+    "updated_at": "2026-03-13T17:48:19.608Z"
   },
   {
     "id": "lahTCLV_PHzOJc8sWagNmqtmLoHhgcNi",
@@ -3757,6 +4498,19 @@
     "updated_at": "2026-03-13T17:43:31.861Z"
   },
   {
+    "id": "lZksekJ7CZq2EQTLIw2Lo5py7cwSioFd",
+    "plugin": "draw-steel-elements",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "5.1.1",
+    "title": "Draw Steel Elements",
+    "description": "Draw Steel Elements Localization & Tweaks",
+    "hash": "654b8245654b8245654b8245654b8245",
+    "created_at": "2026-03-13T17:48:03.845Z",
+    "updated_at": "2026-03-13T17:48:03.845Z"
+  },
+  {
     "id": "m6NqNpjaYlMJpGksJ3j9Q2rMKIIxHELt",
     "plugin": "clojure-plugin-host",
     "type": "plugin",
@@ -3781,6 +4535,45 @@
     "hash": "3b62a26a3b62a26a3b62a26a3b62a26a",
     "created_at": "2026-03-13T17:43:44.285Z",
     "updated_at": "2026-03-13T17:43:44.285Z"
+  },
+  {
+    "id": "mAIDjp6R6jmy9hFFMYEMc-gI-c4KAans",
+    "plugin": "disciples-journal",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "0.8.1",
+    "title": "Disciples Journal",
+    "description": "Disciples Journal Localization & Tweaks",
+    "hash": "6151025f6151025f6151025f6151025f",
+    "created_at": "2026-03-13T17:47:34.500Z",
+    "updated_at": "2026-03-13T17:47:34.500Z"
+  },
+  {
+    "id": "mdCIUR-QoSKMR0QjSl9F8Wy2sGIDazrl",
+    "plugin": "day-planner-og",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "0.7.1",
+    "title": "Day Planner (OG)",
+    "description": "Day Planner (OG) Localization & Tweaks",
+    "hash": "348cf539348cf539348cf539348cf539",
+    "created_at": "2026-03-13T17:47:15.204Z",
+    "updated_at": "2026-03-13T17:47:15.204Z"
+  },
+  {
+    "id": "MeHA9Bop_NTvItdO9hPzLqBnKe2BCwzY",
+    "plugin": "definition-list",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "0.2.5",
+    "title": "Definition List",
+    "description": "Definition List Localization & Tweaks",
+    "hash": "07525fe507525fe507525fe507525fe5",
+    "created_at": "2026-03-13T17:47:23.113Z",
+    "updated_at": "2026-03-13T17:47:23.113Z"
   },
   {
     "id": "mFADP1d-RtMwkdm6WTogbJNso-tChXmT",
@@ -3885,6 +4678,19 @@
     "hash": "5c69c4a95c69c4a95c69c4a95c69c4a9",
     "created_at": "2026-03-13T17:44:02.174Z",
     "updated_at": "2026-03-13T17:44:02.174Z"
+  },
+  {
+    "id": "Mql0RDH9uf76avdFHuovYdjcZ1_BenmT",
+    "plugin": "easy-test",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "1.2.0",
+    "title": "Easy Test",
+    "description": "Easy Test Localization & Tweaks",
+    "hash": "27553283275532832755328327553283",
+    "created_at": "2026-03-13T17:48:18.444Z",
+    "updated_at": "2026-03-13T17:48:18.444Z"
   },
   {
     "id": "ms6HMhDaTypzf2ZUwV5xeeuKWgktV3s_",
@@ -4017,6 +4823,19 @@
     "updated_at": "2026-03-13T17:39:07.839Z"
   },
   {
+    "id": "nCgsXiqFxkDvi135J4n9JFlxMOwIbSUa",
+    "plugin": "date-range-expander",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "1.0.2",
+    "title": "Date Range Expander",
+    "description": "Date Range Expander Localization & Tweaks",
+    "hash": "1ca8d6b71ca8d6b71ca8d6b71ca8d6b7",
+    "created_at": "2026-03-13T17:47:08.599Z",
+    "updated_at": "2026-03-13T17:47:08.599Z"
+  },
+  {
     "id": "NH1M6rYCpFY3n_TTujGDQuyYCrKJvcYR",
     "plugin": "backgroundset",
     "type": "plugin",
@@ -4121,6 +4940,19 @@
     "updated_at": "2026-03-13T17:40:06.270Z"
   },
   {
+    "id": "nPipVU0pZ2nZDNLhTbMQkvLEIgw-A7XX",
+    "plugin": "emoji-selector",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "1.3.7",
+    "title": "Emoji selector",
+    "description": "Emoji selector Localization & Tweaks",
+    "hash": "2c4980972c4980972c4980972c498097",
+    "created_at": "2026-03-13T17:48:44.475Z",
+    "updated_at": "2026-03-13T17:48:44.475Z"
+  },
+  {
     "id": "nQkGOlcjuUpthmKATugVBL2c6d7FujDo",
     "plugin": "anki-helper",
     "type": "plugin",
@@ -4145,6 +4977,19 @@
     "hash": "21b729b921b729b921b729b921b729b9",
     "created_at": "2026-03-13T17:45:39.475Z",
     "updated_at": "2026-03-13T17:45:39.475Z"
+  },
+  {
+    "id": "NTJShjwwySgOncyRnDc9O-OgmKwFuE3m",
+    "plugin": "easy-copy",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "1.5.1",
+    "title": "Easy Copy",
+    "description": "Easy Copy Localization & Tweaks",
+    "hash": "059426bb059426bb059426bb059426bb",
+    "created_at": "2026-03-13T17:48:11.891Z",
+    "updated_at": "2026-03-13T17:48:11.891Z"
   },
   {
     "id": "ntUFYSEmcFPYDX_kG5tjT8XFOfTtd_zj",
@@ -4210,6 +5055,32 @@
     "hash": "7d80d5a37d80d5a37d80d5a37d80d5a3",
     "created_at": "2026-03-13T17:43:02.841Z",
     "updated_at": "2026-03-13T17:43:02.841Z"
+  },
+  {
+    "id": "o8s_gQhRgUJ6Ygu3jY42yfzWJ1pTEg29",
+    "plugin": "dendron-tree",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "1.3.0",
+    "title": "Dendron Tree",
+    "description": "Dendron Tree Localization & Tweaks",
+    "hash": "2fa29c242fa29c242fa29c242fa29c24",
+    "created_at": "2026-03-13T17:47:25.240Z",
+    "updated_at": "2026-03-13T17:47:25.240Z"
+  },
+  {
+    "id": "OaSsZW38FcdlNMIIhV-q9WPy2O_PrQBl",
+    "plugin": "date-inserter",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "0.6.7",
+    "title": "Date Inserter",
+    "description": "Date Inserter Localization & Tweaks",
+    "hash": "777a58b5777a58b5777a58b5777a58b5",
+    "created_at": "2026-03-13T17:47:11.874Z",
+    "updated_at": "2026-03-13T17:47:11.874Z"
   },
   {
     "id": "ObBKb-orR1e38RyEYv02XJxHVDnXfW2V",
@@ -4314,6 +5185,19 @@
     "hash": "0d6960990d6960990d6960990d696099",
     "created_at": "2026-03-13T17:43:10.968Z",
     "updated_at": "2026-03-13T17:43:10.968Z"
+  },
+  {
+    "id": "OUcsrW6bIEGBUni1xHo4YjlB53NEo3wJ",
+    "plugin": "emoji-tags-titler",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "1.0.0",
+    "title": "EmoTagsTitler",
+    "description": "EmoTagsTitler Localization & Tweaks",
+    "hash": "2a6312962a6312962a6312962a631296",
+    "created_at": "2026-03-13T17:48:47.468Z",
+    "updated_at": "2026-03-13T17:48:47.468Z"
   },
   {
     "id": "OxLsZL6i6XBZ-AtZxfoRQ-fZ_mqe6HRS",
@@ -4457,6 +5341,19 @@
     "hash": "45d0b6c745d0b6c745d0b6c745d0b6c7",
     "created_at": "2026-03-13T17:46:01.917Z",
     "updated_at": "2026-03-13T17:46:01.917Z"
+  },
+  {
+    "id": "pg4pE8iRPytAZNz0gqPrAlZJ9Yopqslq",
+    "plugin": "editor-commands-remap",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "1.0.2",
+    "title": "Editor Commands Remap",
+    "description": "Editor Commands Remap Localization & Tweaks",
+    "hash": "3e4ddb813e4ddb813e4ddb813e4ddb81",
+    "created_at": "2026-03-13T17:48:31.973Z",
+    "updated_at": "2026-03-13T17:48:31.973Z"
   },
   {
     "id": "pgTSAmpd1Hu9zdtRomzaUFt2BT4MAXAZ",
@@ -4613,6 +5510,19 @@
     "hash": "01682419016824190168241901682419",
     "created_at": "2026-03-13T17:41:05.534Z",
     "updated_at": "2026-03-13T17:41:05.534Z"
+  },
+  {
+    "id": "q9ZEjqAN6sC0XhlwPAub4ZvEdbZmjG7a",
+    "plugin": "editing-mode-hotkey",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "1.0.0",
+    "title": "Editing Mode Hotkey",
+    "description": "Editing Mode Hotkey Localization & Tweaks",
+    "hash": "02902c9402902c9402902c9402902c94",
+    "created_at": "2026-03-13T17:48:35.023Z",
+    "updated_at": "2026-03-13T17:48:35.023Z"
   },
   {
     "id": "qaTwz8YSc9YqBGCcypEBT7k799-aSNMn",
@@ -4901,6 +5811,19 @@
     "updated_at": "2026-03-13T17:38:39.291Z"
   },
   {
+    "id": "rczJwGLOR4lBqPNlP2Y5t0TGtbK58x2y",
+    "plugin": "emacs-text-editor",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "0.8.1",
+    "title": "Emacs text editor",
+    "description": "Emacs text editor Localization & Tweaks",
+    "hash": "0bcd3ae60bcd3ae60bcd3ae60bcd3ae6",
+    "created_at": "2026-03-13T17:48:39.853Z",
+    "updated_at": "2026-03-13T17:48:39.853Z"
+  },
+  {
     "id": "RfE8ovB2oMNlNWBa2-6C6B5b2kus6lf8",
     "plugin": "anchor-display-text",
     "type": "plugin",
@@ -4912,6 +5835,19 @@
     "hash": "2a626dd02a626dd02a626dd02a626dd0",
     "created_at": "2026-03-13T17:38:48.151Z",
     "updated_at": "2026-03-13T17:38:48.151Z"
+  },
+  {
+    "id": "rh0aprTSmNsSqo3snFA4e7WyCi3J6njM",
+    "plugin": "easy-keep-view",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "1.0.1",
+    "title": "Easy Keep View",
+    "description": "Easy Keep View Localization & Tweaks",
+    "hash": "458c0942458c0942458c0942458c0942",
+    "created_at": "2026-03-13T17:48:15.012Z",
+    "updated_at": "2026-03-13T17:48:15.012Z"
   },
   {
     "id": "rie08d1KqoJ87kXjtInIHK-h5cqqeYKu",
@@ -4966,6 +5902,19 @@
     "updated_at": "2026-03-13T17:41:43.967Z"
   },
   {
+    "id": "rKtqiNAcx29h0bq8keuKqKMYNtvV-zwz",
+    "plugin": "deepseek-ai-assistant",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "2.1.0",
+    "title": "deepseek-ai-assistant",
+    "description": "deepseek-ai-assistant Localization & Tweaks",
+    "hash": "167f2bed167f2bed167f2bed167f2bed",
+    "created_at": "2026-03-13T17:47:24.256Z",
+    "updated_at": "2026-03-13T17:47:24.256Z"
+  },
+  {
     "id": "rLbEgBW4m-dYZ9bpWmNjzUAaCDAGe_9Z",
     "plugin": "banyan",
     "type": "plugin",
@@ -5018,6 +5967,19 @@
     "updated_at": "2026-03-13T17:43:53.044Z"
   },
   {
+    "id": "rNujPNyd3NmK_EARZZmB6kwBaoLd0_U1",
+    "plugin": "disable-tabs",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "1.0.10",
+    "title": "Disable Tabs",
+    "description": "Disable Tabs Localization & Tweaks",
+    "hash": "6b5b03ea6b5b03ea6b5b03ea6b5b03ea",
+    "created_at": "2026-03-13T17:47:33.358Z",
+    "updated_at": "2026-03-13T17:47:33.358Z"
+  },
+  {
     "id": "rOhKzBgBxU-3sjk-pNQoCGcu7_vnHxYe",
     "plugin": "daily-note-pinner",
     "type": "plugin",
@@ -5029,6 +5991,32 @@
     "hash": "6872d3e16872d3e16872d3e16872d3e1",
     "created_at": "2026-03-13T17:46:18.235Z",
     "updated_at": "2026-03-13T17:46:18.235Z"
+  },
+  {
+    "id": "rORGh_IiCIQvvbReZj2fiDaKKPv-iQZP",
+    "plugin": "desk",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "1.0.6",
+    "title": "Desk",
+    "description": "Desk Localization & Tweaks",
+    "hash": "50959628509596285095962850959628",
+    "created_at": "2026-03-13T17:47:35.973Z",
+    "updated_at": "2026-03-13T17:47:35.973Z"
+  },
+  {
+    "id": "RqyjHUFBt41v3y18nft38h08-Nq6UCxj",
+    "plugin": "edit-gemini",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "1.0.2",
+    "title": "Edit Gemini",
+    "description": "Edit Gemini Localization & Tweaks",
+    "hash": "458f5a19458f5a19458f5a19458f5a19",
+    "created_at": "2026-03-13T17:48:26.655Z",
+    "updated_at": "2026-03-13T17:48:26.655Z"
   },
   {
     "id": "RrtJoOjS7-LQfC2vvJs9bIrAUld0xiwV",
@@ -5081,6 +6069,19 @@
     "hash": "6e652f746e652f746e652f746e652f74",
     "created_at": "2026-03-13T17:40:51.053Z",
     "updated_at": "2026-03-13T17:40:51.053Z"
+  },
+  {
+    "id": "RZzs9WXpIxid23U44W_sOa-tUdK9AeJQ",
+    "plugin": "draw-harada-method",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "1.0.14",
+    "title": "Draw Harada Method",
+    "description": "Draw Harada Method Localization & Tweaks",
+    "hash": "45f81c0845f81c0845f81c0845f81c08",
+    "created_at": "2026-03-13T17:47:59.724Z",
+    "updated_at": "2026-03-13T17:47:59.724Z"
   },
   {
     "id": "s-NhtcVoNUS-Ao-z_FQupMXfsvIAGh8t",
@@ -5239,6 +6240,19 @@
     "updated_at": "2026-03-13T17:38:56.116Z"
   },
   {
+    "id": "SSY4rffCD3sucbs66yz6HKN-MuRudiFm",
+    "plugin": "docusaurus-style-admonitions",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "0.1.2",
+    "title": "Docusaurus Style Admonitions",
+    "description": "Docusaurus Style Admonitions Localization & Tweaks",
+    "hash": "62f270a762f270a762f270a762f270a7",
+    "created_at": "2026-03-13T17:47:47.253Z",
+    "updated_at": "2026-03-13T17:47:47.253Z"
+  },
+  {
     "id": "Svf5O6HInP5sRO-KQsrXFfUsNZU3En__",
     "plugin": "custom-sidebar-icons",
     "type": "plugin",
@@ -5250,6 +6264,19 @@
     "hash": "329f3c2f329f3c2f329f3c2f329f3c2f",
     "created_at": "2026-03-13T17:46:03.931Z",
     "updated_at": "2026-03-13T17:46:03.931Z"
+  },
+  {
+    "id": "sW9tNL-FL5NpJ0arAH8_Q_o_GMnEHeHx",
+    "plugin": "default-template",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "1.2.4",
+    "title": "Default Template",
+    "description": "Default Template Localization & Tweaks",
+    "hash": "574664bf574664bf574664bf574664bf",
+    "created_at": "2026-03-13T17:47:20.841Z",
+    "updated_at": "2026-03-13T17:47:20.841Z"
   },
   {
     "id": "sWokQID7mw4TjkZ5k3iDKXubgVBkpT14",
@@ -5382,6 +6409,19 @@
     "updated_at": "2026-03-13T17:38:51.820Z"
   },
   {
+    "id": "TlbvzWq3RuZ0TjB30SdE5zAMDidsiG5u",
+    "plugin": "decks",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "1.4.2",
+    "title": "Decks",
+    "description": "Decks Localization & Tweaks",
+    "hash": "2b31ff662b31ff662b31ff662b31ff66",
+    "created_at": "2026-03-13T17:47:22.112Z",
+    "updated_at": "2026-03-13T17:47:22.112Z"
+  },
+  {
     "id": "TMLmb_BFjhw8bH5AL1j32yNis8DQg_50",
     "plugin": "code-language-completer",
     "type": "plugin",
@@ -5408,6 +6448,19 @@
     "updated_at": "2026-03-13T17:41:01.322Z"
   },
   {
+    "id": "TNHrikdowGr3ZN89Pu0UmYAdDf78VFhw",
+    "plugin": "DEVONlink-obsidian",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "2.2.1",
+    "title": "DEVONlink",
+    "description": "DEVONlink Localization & Tweaks",
+    "hash": "627a2eec627a2eec627a2eec627a2eec",
+    "created_at": "2026-03-13T17:47:26.322Z",
+    "updated_at": "2026-03-13T17:47:26.322Z"
+  },
+  {
     "id": "Tof1dYW6B7pUFi0QLNiNM4HkmdiM47lA",
     "plugin": "canvas-filter",
     "type": "plugin",
@@ -5432,6 +6485,19 @@
     "hash": "47bd9d7947bd9d7947bd9d7947bd9d79",
     "created_at": "2026-03-13T17:42:03.935Z",
     "updated_at": "2026-03-13T17:42:03.935Z"
+  },
+  {
+    "id": "ToiPW-NeCWolfTrkGldk7JUF7kkF1ejv",
+    "plugin": "dynamic-outline",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "1.19.0",
+    "title": "Dynamic Outline",
+    "description": "Dynamic Outline Localization & Tweaks",
+    "hash": "00afa9e000afa9e000afa9e000afa9e0",
+    "created_at": "2026-03-13T17:48:07.746Z",
+    "updated_at": "2026-03-13T17:48:07.746Z"
   },
   {
     "id": "TPVJpiuNZiYlBbkb-juNuR_Sfj-1EzCh",
@@ -5497,6 +6563,19 @@
     "hash": "369d5fcf369d5fcf369d5fcf369d5fcf",
     "created_at": "2026-03-13T17:38:44.242Z",
     "updated_at": "2026-03-13T17:38:44.242Z"
+  },
+  {
+    "id": "tUfjOrEDCh5B-qsVxgfQnDbz8hllQzD3",
+    "plugin": "edit-mdx",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "1.0.1",
+    "title": "Edit MDX",
+    "description": "Edit MDX Localization & Tweaks",
+    "hash": "7fa30dcc7fa30dcc7fa30dcc7fa30dcc",
+    "created_at": "2026-03-13T17:48:28.667Z",
+    "updated_at": "2026-03-13T17:48:28.667Z"
   },
   {
     "id": "tVnk89X76imjdPppRDJ-FndncuO8Vecm",
@@ -5601,6 +6680,19 @@
     "hash": "408c9595408c9595408c9595408c9595",
     "created_at": "2026-03-13T17:40:12.589Z",
     "updated_at": "2026-03-13T17:40:12.589Z"
+  },
+  {
+    "id": "UiSL0mlFcVVSLQmQhJ0JoJ4LgaaPYOfH",
+    "plugin": "doing",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "1.0.3",
+    "title": "doing",
+    "description": "doing Localization & Tweaks",
+    "hash": "054ebe9a054ebe9a054ebe9a054ebe9a",
+    "created_at": "2026-03-13T17:47:49.197Z",
+    "updated_at": "2026-03-13T17:47:49.197Z"
   },
   {
     "id": "uiv1sWxnLWJXpYzRISZNU5trAXVrJjzf",
@@ -5720,6 +6812,19 @@
     "updated_at": "2026-03-13T17:45:33.380Z"
   },
   {
+    "id": "v4AyBgcsUbJebYyfpxKdOP0yGvP1t98e",
+    "plugin": "ego-rock",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "2.1.0",
+    "title": "Ego Rock",
+    "description": "Ego Rock Localization & Tweaks",
+    "hash": "01afd59201afd59201afd59201afd592",
+    "created_at": "2026-03-13T17:48:37.871Z",
+    "updated_at": "2026-03-13T17:48:37.871Z"
+  },
+  {
     "id": "V5modU29-TtFUBT2BDifUzWwh8uKtVfk",
     "plugin": "api-request",
     "type": "plugin",
@@ -5770,6 +6875,32 @@
     "hash": "2a4de0592a4de0592a4de0592a4de059",
     "created_at": "2026-03-13T17:39:17.004Z",
     "updated_at": "2026-03-13T17:39:17.004Z"
+  },
+  {
+    "id": "vDRRfZ4-Uxmb2QXYD25hyMlrzkXIVz8n",
+    "plugin": "duplicate-detector",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "0.0.3",
+    "title": "Duplicate Detector",
+    "description": "Duplicate Detector Localization & Tweaks",
+    "hash": "0fc6e00c0fc6e00c0fc6e00c0fc6e00c",
+    "created_at": "2026-03-13T17:48:04.836Z",
+    "updated_at": "2026-03-13T17:48:04.836Z"
+  },
+  {
+    "id": "VIUPKv2Ct_tcTSRFAzHGZOJIuzDvhtr7",
+    "plugin": "diary-ics",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "1.0.11",
+    "title": "Diary ICS",
+    "description": "Diary ICS Localization & Tweaks",
+    "hash": "383bf897383bf897383bf897383bf897",
+    "created_at": "2026-03-13T17:47:30.394Z",
+    "updated_at": "2026-03-13T17:47:30.394Z"
   },
   {
     "id": "vJ5KCetwTwF54W3Xf0tDiRDAFvCX43bc",
@@ -5889,6 +7020,32 @@
     "updated_at": "2026-03-13T17:41:50.613Z"
   },
   {
+    "id": "w5iSD-deoaRJPnJLq1ijoMjhqggyozJd",
+    "plugin": "emo-uploader",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "2.19",
+    "title": "Emo",
+    "description": "Emo Localization & Tweaks",
+    "hash": "721ecdcd721ecdcd721ecdcd721ecdcd",
+    "created_at": "2026-03-13T17:48:45.572Z",
+    "updated_at": "2026-03-13T17:48:45.572Z"
+  },
+  {
+    "id": "wAKvRBfwVg7GLmemIsniNJG10pEGuicP",
+    "plugin": "dynamic-line-height-cjk",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "0.2.8",
+    "title": "Dynamic Line Height for CJK",
+    "description": "Dynamic Line Height for CJK Localization & Tweaks",
+    "hash": "5fa192d95fa192d95fa192d95fa192d9",
+    "created_at": "2026-03-13T17:48:06.673Z",
+    "updated_at": "2026-03-13T17:48:06.673Z"
+  },
+  {
     "id": "wFBNm-RsttSXRPld1HF-DRtiQh_ZIWvn",
     "plugin": "alignment-tracker",
     "type": "plugin",
@@ -5952,6 +7109,19 @@
     "hash": "0bd4418e0bd4418e0bd4418e0bd4418e",
     "created_at": "2026-03-13T17:40:17.861Z",
     "updated_at": "2026-03-13T17:40:17.861Z"
+  },
+  {
+    "id": "wyrECMu-Pu5mMwmqQN8sAPQt-S-T3n0G",
+    "plugin": "double-row-toolbar",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "1.0.0",
+    "title": "Double row toolbar",
+    "description": "Double row toolbar Localization & Tweaks",
+    "hash": "1776088f1776088f1776088f1776088f",
+    "created_at": "2026-03-13T17:47:53.590Z",
+    "updated_at": "2026-03-13T17:47:53.590Z"
   },
   {
     "id": "wZFjXJHlhXzlBCDE4-FsRRLTRNBHZ8WJ",
@@ -6019,6 +7189,19 @@
     "updated_at": "2026-03-13T17:44:31.128Z"
   },
   {
+    "id": "xEO3113ZNUKECNWeTZJk2obP6uPzP2ZV",
+    "plugin": "eml-reader",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "1.1.2",
+    "title": "Email Reader",
+    "description": "Email Reader Localization & Tweaks",
+    "hash": "67aa88cf67aa88cf67aa88cf67aa88cf",
+    "created_at": "2026-03-13T17:48:43.173Z",
+    "updated_at": "2026-03-13T17:48:43.173Z"
+  },
+  {
     "id": "XGC8vQaS0H-SKvL1RTZd8pw0IpBn14I8",
     "plugin": "blue-star",
     "type": "plugin",
@@ -6043,6 +7226,19 @@
     "hash": "2f796f0e2f796f0e2f796f0e2f796f0e",
     "created_at": "2026-03-13T17:42:05.367Z",
     "updated_at": "2026-03-13T17:42:05.367Z"
+  },
+  {
+    "id": "xh8EY1HdKgTN30GXi4v69ZvpHla4Oajx",
+    "plugin": "editor-width-slider",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "1.0.5",
+    "title": "Editor Width Slider",
+    "description": "Editor Width Slider Localization & Tweaks",
+    "hash": "692859fb692859fb692859fb692859fb",
+    "created_at": "2026-03-13T17:48:36.056Z",
+    "updated_at": "2026-03-13T17:48:36.056Z"
   },
   {
     "id": "xhBWRjpPL_pE59kL_k14a4anXFScpd4Q",
@@ -6095,6 +7291,19 @@
     "hash": "280e2b89280e2b89280e2b89280e2b89",
     "created_at": "2026-03-13T17:44:30.242Z",
     "updated_at": "2026-03-13T17:44:30.242Z"
+  },
+  {
+    "id": "xqZp2ccFsod7VEzwUlsX_-IYpv7poJBA",
+    "plugin": "digitalgarden",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "2.72.0",
+    "title": "Digital Garden",
+    "description": "Digital Garden Localization & Tweaks",
+    "hash": "63e3e67163e3e67163e3e67163e3e671",
+    "created_at": "2026-03-13T17:47:39.461Z",
+    "updated_at": "2026-03-13T17:47:39.461Z"
   },
   {
     "id": "xrapYOrdeFv1hw2JO657Kpe3UHnxga6b",
@@ -6173,6 +7382,19 @@
     "hash": "775cc10b775cc10b775cc10b775cc10b",
     "created_at": "2026-03-13T17:43:38.176Z",
     "updated_at": "2026-03-13T17:43:38.176Z"
+  },
+  {
+    "id": "y0JacVzb9eS1BeLRqpX9SUgXS_mvY1eA",
+    "plugin": "deepl",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "1.0.7",
+    "title": "DeepL",
+    "description": "DeepL Localization & Tweaks",
+    "hash": "614c62e6614c62e6614c62e6614c62e6",
+    "created_at": "2026-03-13T17:47:18.933Z",
+    "updated_at": "2026-03-13T17:47:18.933Z"
   },
   {
     "id": "Y0vG053tKLZKKsPRFnnZKF2AJSIwbK62",
@@ -6279,6 +7501,19 @@
     "updated_at": "2026-03-13T17:40:30.985Z"
   },
   {
+    "id": "YJIwhHMq8bxBE-INR_0s3SRKFS6yC2Pa",
+    "plugin": "dynamic-timetable",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "4.6.1",
+    "title": "Dynamic Timetable",
+    "description": "Dynamic Timetable Localization & Tweaks",
+    "hash": "67bc2e0567bc2e0567bc2e0567bc2e05",
+    "created_at": "2026-03-13T17:48:16.450Z",
+    "updated_at": "2026-03-13T17:48:16.450Z"
+  },
+  {
     "id": "yjmPq-_LcS-rbifgx8kgymkcCrRTU3RP",
     "plugin": "ai-hub",
     "type": "plugin",
@@ -6292,6 +7527,19 @@
     "updated_at": "2026-03-13T17:38:15.939Z"
   },
   {
+    "id": "YMvxWM8nagLQjtOcj2aitSvLGOLZpOcq",
+    "plugin": "easy-fonts",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "1.0.0",
+    "title": "Easy Fonts",
+    "description": "Easy Fonts Localization & Tweaks",
+    "hash": "79240c2b79240c2b79240c2b79240c2b",
+    "created_at": "2026-03-13T17:48:14.041Z",
+    "updated_at": "2026-03-13T17:48:14.041Z"
+  },
+  {
     "id": "YQHlMiWoU4_yTXDJsJOMh68MfTjM-jUX",
     "plugin": "auto-tag",
     "type": "plugin",
@@ -6303,6 +7551,19 @@
     "hash": "7118185b7118185b7118185b7118185b",
     "created_at": "2026-03-13T17:40:26.750Z",
     "updated_at": "2026-03-13T17:40:26.750Z"
+  },
+  {
+    "id": "Yr1Fm4f5pAFqYBAJ7QIGao6yP4jt5uLK",
+    "plugin": "edge-tts",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "3.4.3",
+    "title": "Edge TTS",
+    "description": "Edge TTS Localization & Tweaks",
+    "hash": "7f7e05e27f7e05e27f7e05e27f7e05e2",
+    "created_at": "2026-03-13T17:48:24.611Z",
+    "updated_at": "2026-03-13T17:48:24.611Z"
   },
   {
     "id": "yslh8LDYkfOpzwdicd1fcHJgXS-EaJ-m",
@@ -6368,6 +7629,32 @@
     "hash": "1c3a08ce1c3a08ce1c3a08ce1c3a08ce",
     "created_at": "2026-03-13T17:39:40.853Z",
     "updated_at": "2026-03-13T17:39:40.853Z"
+  },
+  {
+    "id": "Z8uqoXZbQlExRW5sm68JPto0feIG3tr_",
+    "plugin": "double-click-image-opener",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "1.0.1",
+    "title": "Double-Click Image Opener",
+    "description": "Double-Click Image Opener Localization & Tweaks",
+    "hash": "24993e3e24993e3e24993e3e24993e3e",
+    "created_at": "2026-03-13T17:47:50.116Z",
+    "updated_at": "2026-03-13T17:47:50.116Z"
+  },
+  {
+    "id": "z93VuhmJMXoAR7Z4-9lMGWMpVwtIcgwB",
+    "plugin": "emoji-shortcodes",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "2.2.0",
+    "title": "Emoji Shortcodes",
+    "description": "Emoji Shortcodes Localization & Tweaks",
+    "hash": "0cb393b70cb393b70cb393b70cb393b7",
+    "created_at": "2026-03-13T17:48:46.521Z",
+    "updated_at": "2026-03-13T17:48:46.521Z"
   },
   {
     "id": "z9cXu1yIfmCwHj9KFXjF2XAtxmI1pUsi",
@@ -6498,6 +7785,19 @@
     "hash": "5630ab615630ab615630ab615630ab61",
     "created_at": "2026-03-13T17:43:17.700Z",
     "updated_at": "2026-03-13T17:43:17.700Z"
+  },
+  {
+    "id": "zQSmbgIre3MyioaYmjZ51_oti9xksUJU",
+    "plugin": "enhanced-image",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "0.0.1",
+    "title": "Enhanced Image",
+    "description": "Enhanced Image Localization & Tweaks",
+    "hash": "60a1df1960a1df1960a1df1960a1df19",
+    "created_at": "2026-03-13T17:48:52.311Z",
+    "updated_at": "2026-03-13T17:48:52.311Z"
   },
   {
     "id": "zr_UjEqwZUc9VMPrpOGgQNEBmho_pTtA",
