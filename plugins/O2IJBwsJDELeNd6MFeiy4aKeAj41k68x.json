@@ -1,0 +1,121 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "chesser-obsidian",
+        "version": "1.0.0",
+        "title": "Chesser",
+        "description": "Chesser Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.2.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "ariaLabel",
+                    "source": "Flip board",
+                    "target": "翻转棋盘"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "ariaLabel",
+                    "source": "Copy FEN",
+                    "target": "复制 FEN"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Chesser: Failed to retrieve view when writing config",
+                    "target": "Chesser：写入配置时无法检索视图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "failed to write config",
+                    "target": "写入配置失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Sets the piece style.",
+                    "target": "设置棋子样式。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Sets the board style.",
+                    "target": "设置棋盘样式。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Sets the default board orientation.",
+                    "target": "设置默认棋盘方向。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Controls the ability to draw annotations (arrows, circles) on the board.",
+                    "target": "控制在棋盘上绘制注释（箭头、圆圈）的能力。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If enabled, displays a static chess board (no moves, annotations, ...).",
+                    "target": "启用后，显示静态棋盘（无走子、注释等）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If enabled, disables the chess logic, all moves are valid.",
+                    "target": "启用后，禁用棋类逻辑，所有走子均有效。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable Free Move?",
+                    "target": "启用自由走子？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Piece Style",
+                    "target": "棋子样式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Board Style",
+                    "target": "棋盘样式"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Chesser error: Invalid config",
+                    "target": "Chesser 错误：无效配置"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Chesser: Failed to retrieve active view",
+                    "target": "Chesser：无法获取活动视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Starting Position",
+                    "target": "起始位置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Obsidian Chess Settings",
+                    "target": "Obsidian Chess 设置"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
