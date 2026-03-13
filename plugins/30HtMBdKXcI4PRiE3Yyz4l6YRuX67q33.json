@@ -1,0 +1,79 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "smooth-cursor",
+        "version": "1.0.0",
+        "title": "Smooth Cursor",
+        "description": "Smooth Cursor Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.0.6",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "未打开文档",
+                    "target": "未打开文档"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Smooth Cursor loaded",
+                    "target": "Smooth Cursor 已加载"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Smooth Cursor unloaded",
+                    "target": "Smooth Cursor 已卸载"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "是否启用拖尾",
+                    "target": "是否启用拖尾"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "设置拖尾颜色",
+                    "target": "设置拖尾颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "设置拖尾更新次数，越大越慢 More bigger,more slower",
+                    "target": "设置拖尾更新次数，越大越慢 越大越慢"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "拖尾开关 Trail enable",
+                    "target": "拖尾开关 拖尾启用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "拖尾颜色 Trail color",
+                    "target": "拖尾颜色 轨迹颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "拖尾速度 Trail speed",
+                    "target": "拖尾速度 轨迹速度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "颜色字符串或颜色代码",
+                    "target": "颜色字符串或颜色代码"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
