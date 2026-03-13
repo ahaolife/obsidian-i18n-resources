@@ -1,0 +1,133 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "d2-obsidian",
+        "version": "1.0.0",
+        "title": "D2",
+        "description": "D2 Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.4",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "To use TALA, copy your API token here or in ~/.local/state/tstruct/auth.json under the field \"api_token\"",
+                    "target": "要使用 TALA，请将你的 API 令牌复制到此处，或放在 ~/.local/state/tstruct/auth.json 的字段 \"api_token\" 下"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Available layout engines include \"dagre\", \"ELK\", and \"TALA\" (TALA must be installed separately from D2)",
+                    "target": "可用的布局引擎包括 \"dagre\"、\"ELK\" 和 \"TALA\"（TALA 必须与 D2 分开安装）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Pixels padded around the rendered diagram",
+                    "target": "渲染图表周围的像素内边距"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Render the diagram to look like it was sketched by hand",
+                    "target": "将图表渲染为手绘风格"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Diagram max render height in pixels (Requires d2 v0.2.2 and up)",
+                    "target": "图表最大渲染高度（像素）（需要 d2 v0.2.2 及以上）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "How often should the diagram refresh in milliseconds (min 100)",
+                    "target": "图表刷新频率（毫秒）（最小 100）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Customize the local path to the directory `d2` is installed in (ex. if d2 is located at `/usr/local/bin/d2`, then the path is `/usr/local/bin`). This is only necessary if `d2` is not found automatically by the plugin (but is installed).",
+                    "target": "自定义 `d2` 安装目录的本地路径（例如：如果 d2 位于 `/usr/local/bin/d2`，则路径为 `/usr/local/bin`）。仅当插件未能自动找到 `d2`（但已安装）时才需要。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "API token",
+                    "target": "API 令牌"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Layout engine",
+                    "target": "布局引擎"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Sketch mode",
+                    "target": "手绘模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Container height",
+                    "target": "容器高度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Path (optional)",
+                    "target": "路径（可选）"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Invalid API token",
+                    "target": "无效的 API 令牌"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please specify a valid number",
+                    "target": "请指定有效的数字"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "The value must be greater than 100",
+                    "target": "该值必须大于 100"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "TALA settings",
+                    "target": "TALA 设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "D2 plugin settings",
+                    "target": "D2 插件设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Generating D2 diagram...",
+                    "target": "正在生成 D2 图表..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "D2 Compilation Error:",
+                    "target": "D2 编译错误："
+                }
+            ],
+            "regex": []
+        }
+    }
+}
