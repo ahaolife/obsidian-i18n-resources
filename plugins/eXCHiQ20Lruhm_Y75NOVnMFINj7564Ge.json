@@ -1,0 +1,67 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "safe-filename-linter",
+        "version": "1.0.0",
+        "title": "Safe Filename Linter",
+        "description": "Safe Filename Linter Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.4",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "hyphen surrounded by spaces",
+                    "target": "两侧有空格的连字符"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Linting all filenames...",
+                    "target": "正在检查所有文件名..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Linted all filenames",
+                    "target": "已检查所有文件名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Lint the current filename",
+                    "target": "检查当前文件名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Lint all filenames in the vault",
+                    "target": "检查库中的所有文件名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Note that Obsidian will automatically truncate multiple spaces in filenames and [[links]] into one space.",
+                    "target": "注意：Obsidian 会自动将文件名和 [[links]] 中的多个空格压缩为一个空格。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Obsidian troublesome characters",
+                    "target": "Obsidian 易出问题的字符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Android invalid characters",
+                    "target": "Android 无效字符"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
