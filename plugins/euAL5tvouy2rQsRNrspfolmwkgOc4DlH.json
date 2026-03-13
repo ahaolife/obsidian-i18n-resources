@@ -1,0 +1,943 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "auto-keyword-linker",
+        "version": "1.0.0",
+        "title": "Auto Keyword Linker",
+        "description": "Auto Keyword Linker Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "3.1.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "(No group)",
+                    "target": "(无分组)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Target in specific folder",
+                    "target": "特定文件夹中的目标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Source in specific folder",
+                    "target": "特定文件夹中的来源"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Same folder only",
+                    "target": "仅限同一文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Vault-wide (everywhere)",
+                    "target": "整个库（所有位置）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " [Tags enabled]",
+                    "target": " [标签已启用]"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " → ",
+                    "target": " → "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error getting aliases for note:",
+                    "target": "获取笔记别名时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error checking tag for note:",
+                    "target": "检查笔记标签时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error checking links in note:",
+                    "target": "检查笔记链接时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error analyzing notes:",
+                    "target": "分析笔记时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "CSV Import Errors:",
+                    "target": "CSV 导入错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "CSV Import Error:",
+                    "target": "CSV 导入错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Export to CSV",
+                    "target": "导出为 CSV"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Import from CSV",
+                    "target": "从 CSV 导入"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "View statistics",
+                    "target": "查看统计"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Define keywords and their variations. All variations will link to the target note.",
+                    "target": "定义关键词及其变体。所有变体都会链接到目标笔记。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Organize keywords into groups with shared settings. Keywords in a group use the group's settings.",
+                    "target": "将关键词组织到共享设置的分组中。组内关键词使用该组的设置。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Configure how keywords are linked in your notes.",
+                    "target": "配置关键词在笔记中的链接方式。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Link only the first mention of each keyword per note",
+                    "target": "每篇笔记仅链接每个关键词的首次出现"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Match keywords with exact case",
+                    "target": "区分大小写匹配关键词"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Prevent keywords from linking on their own target note (applies to all keywords unless overridden per-keyword)",
+                    "target": "防止关键词在其自身的目标笔记中自动链接（适用于所有关键词，除非为单个关键词覆盖）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Automatically link keywords when you save a note (requires reload)",
+                    "target": "保存笔记时自动链接关键词（需要重新加载）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Configure how new notes are created when target notes don't exist.",
+                    "target": "配置当目标笔记不存在时如何创建新笔记。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Automatically create target notes if they don't exist",
+                    "target": "目标笔记不存在时自动创建"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Type to search and select folder where new notes will be created",
+                    "target": "输入以搜索并选择将创建新笔记的文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Configure how the keyword suggestion feature works.",
+                    "target": "配置关键词建议功能的工作方式。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Additional words to exclude from keyword suggestions (comma-separated). These are added to the default stop word list.",
+                    "target": "从关键词建议中排除的附加词语（用逗号分隔）。这些将添加到默认停用词列表中。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Clear all custom stop words",
+                    "target": "清除所有自定义停用词"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Export your keywords to CSV or import keywords from a CSV file.",
+                    "target": "将关键词导出为CSV或从CSV文件导入关键词。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Export all keywords and their settings to a CSV file",
+                    "target": "将所有关键词及其设置导出为 CSV 文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Import keywords from a CSV file (opens file picker)",
+                    "target": "从 CSV 文件导入关键词（打开文件选择器）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "View usage statistics for the plugin.",
+                    "target": "查看插件的使用统计。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "See how many links have been created and which notes have been processed",
+                    "target": "查看已创建的链接数量以及已处理的笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The text to search for in your notes",
+                    "target": "在笔记中要搜索的文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Click to search and select the note to create links to",
+                    "target": "点击搜索并选择要创建链接的笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Optional: Link to a specific block (e.g., ^block-id for abbreviation definitions)",
+                    "target": "可选：链接到特定区块（例如，用于缩写定义的 ^block-id）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Optional: Only link to target note if it has this tag (e.g., #reviewed or reviewed)",
+                    "target": "可选：仅在目标笔记包含此标签时才创建链接（例如，#reviewed 或 reviewed）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Only create keyword links in notes that already have at least one link to the target note",
+                    "target": "仅在已至少包含一个指向目标笔记链接的笔记中创建关键词链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Assign to a group to inherit group settings. Group settings will be locked and cannot be overridden per-keyword.",
+                    "target": "分配到一个组以继承组设置。组设置将被锁定，无法针对单个关键词覆盖。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Type to search and select a folder",
+                    "target": "输入以搜索并选择文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Name for this group of keywords",
+                    "target": "此关键词组的名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Control where keywords in this group will be linked",
+                    "target": "控制此组关键词将链接到的位置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Add #tag to target notes when linking",
+                    "target": "链接时为目标笔记添加 #tag"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Use [text](link.md) format instead of [[wikilinks]]",
+                    "target": "使用 [text](link.md) 格式而非 [[wikilinks]]"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Don't link keywords on their own target note",
+                    "target": "不要在它们自身的目标笔记中链接关键词"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The text that will be linked",
+                    "target": "将被链接的文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The note to link to (type to search, or enter a new note name to create it)",
+                    "target": "要链接到的笔记（输入以搜索，或输入新笔记名以创建）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Keywords & variations",
+                    "target": "关键词与变体"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Keyword groups",
+                    "target": "关键词组"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Linking behavior",
+                    "target": "链接行为"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "First occurrence only",
+                    "target": "仅首次出现"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Case sensitive",
+                    "target": "区分大小写"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Prevent self-links (global)",
+                    "target": "防止自链接（全局）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Auto-link on save",
+                    "target": "保存时自动链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Note creation",
+                    "target": "笔记创建"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Auto-create notes",
+                    "target": "自动创建笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "New note folder",
+                    "target": "新建笔记文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Keyword suggestions",
+                    "target": "关键词建议"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Custom stop words",
+                    "target": "自定义停用词"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Reset custom stop words",
+                    "target": "重置自定义停用词"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Import & export keywords",
+                    "target": "导入和导出关键词"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Export keywords to CSV",
+                    "target": "将关键词导出为 CSV"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Import keywords from CSV",
+                    "target": "从 CSV 导入关键词"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "View statistics",
+                    "target": "查看统计信息"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Target note",
+                    "target": "目标笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Block reference",
+                    "target": "块引用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Require tag",
+                    "target": "必需标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Only link in notes already linking to target",
+                    "target": "仅在已链接到目标的笔记中创建链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable tags",
+                    "target": "启用标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use relative Markdown links",
+                    "target": "使用相对 Markdown 链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Suggest instead of auto-link",
+                    "target": "建议替代自动链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Keyword group",
+                    "target": "关键词组"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Prevent self-link",
+                    "target": "防止自链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Link scope",
+                    "target": "链接范围"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Group name",
+                    "target": "组名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Suggest mode",
+                    "target": "建议模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use Markdown links",
+                    "target": "使用 Markdown 链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Prevent self-links",
+                    "target": "防止自链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Type to search folders...",
+                    "target": "输入以搜索文件夹..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "# {{keyword}}\n\nCreated: {{date}}",
+                    "target": "# {{keyword}}\n\n创建：{{date}}"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter keyword...",
+                    "target": "输入关键词..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Type to search notes...",
+                    "target": "输入以搜索笔记..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "#tag or tag",
+                    "target": "#标签 或 标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter group name...",
+                    "target": "输入分组名称..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Search or create note...",
+                    "target": "搜索或创建笔记..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Tip: If the note doesn't exist, it will be created automatically.",
+                    "target": "提示：如果笔记不存在，将自动创建。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "📋 Review link suggestions (opens in edit mode)",
+                    "target": "📋 查看链接建议（在编辑模式中打开）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Accept link suggestion",
+                    "target": "接受链接建议"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Quick add keyword",
+                    "target": "快速添加关键词"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Add keyword...",
+                    "target": "添加关键词..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Review all link suggestions...",
+                    "target": "查看所有链接建议..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Accept all suggestions on this line",
+                    "target": "接受此行的所有建议"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Most Common First",
+                    "target": "最常见优先"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Least Common First",
+                    "target": "最不常见优先"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "A to Z",
+                    "target": "从 A 到 Z"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Z to A",
+                    "target": "从 Z 到 A"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Shortest First",
+                    "target": "最短优先"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Longest First",
+                    "target": "最长优先"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "New group",
+                    "target": "新建组"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Link keywords in current note",
+                    "target": "链接当前笔记中的关键词"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Preview keyword linking in current note",
+                    "target": "预览当前笔记中的关键词链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Link keywords in all notes",
+                    "target": "链接所有笔记中的关键词"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Preview keyword linking in all notes",
+                    "target": "预览所有笔记中的关键词链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Suggest keywords from notes",
+                    "target": "从笔记中建议关键词"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Suggest keywords from current note only",
+                    "target": "仅从当前笔记建议关键词"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Accept all suggestions on current line",
+                    "target": "接受当前行的所有建议"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Accept all link suggestions in current note",
+                    "target": "接受当前笔记中的所有链接建议"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Review link suggestions",
+                    "target": "审查链接建议"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Export keywords to JSON",
+                    "target": "将关键词导出为 JSON"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Import keywords from JSON",
+                    "target": "从 JSON 导入关键词"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Export keywords to CSV",
+                    "target": "导出关键词到 CSV"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Import keywords from CSV",
+                    "target": "从 CSV 导入关键词"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "View statistics",
+                    "target": "查看统计"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Search suggestions...",
+                    "target": "搜索建议..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Search keywords...",
+                    "target": "搜索关键词..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Type and press Enter to add...",
+                    "target": "输入并按 Enter 添加..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Auto Keyword Linker Statistics",
+                    "target": "自动关键词链接统计"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Configured Keywords",
+                    "target": "已配置的关键词"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Sort by: ",
+                    "target": "排序依据："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Select All",
+                    "target": "全选"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Deselect All",
+                    "target": "取消全选"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Add Selected Keywords",
+                    "target": "添加所选关键词"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No suggestions match your search.",
+                    "target": "没有符合您搜索的建议。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "In: ",
+                    "target": "在："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Or add as variation to: ",
+                    "target": "或作为变体添加到："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "(None - add as new keyword)",
+                    "target": "（无 - 添加为新关键词）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Import Keywords from JSON",
+                    "target": "从 JSON 导入关键词"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Select a JSON file from your vault to import keywords. This will ADD to your existing keywords.",
+                    "target": "从您的 vault 中选择一个 JSON 文件以导入关键词。这将添加到您现有的关键词中。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No JSON files found in vault. Please create an export first.",
+                    "target": "在 vault 中未找到 JSON 文件。请先创建导出。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Import Keywords from CSV",
+                    "target": "从 CSV 导入关键词"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Select a CSV file from your vault to import keywords. This will ADD to your existing keywords.",
+                    "target": "从你的库中选择一个 CSV 文件以导入关键词。这将添加到你现有的关键词中。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Review Link Suggestions",
+                    "target": "查看链接建议"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " → ",
+                    "target": " → "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Preview: Select Links to Create",
+                    "target": "预览：选择要创建的链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Select All Links",
+                    "target": "选择所有链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Deselect All Links",
+                    "target": "取消选择所有链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "+ Add keyword",
+                    "target": "+ 添加关键词"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "+ Create group",
+                    "target": "+ 创建分组"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "MD Links",
+                    "target": "MD 链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Alternative spellings that also link to the target note",
+                    "target": "也链接到目标笔记的其他拼写"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No variations added yet",
+                    "target": "尚未添加变体"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Delete keyword",
+                    "target": "删除关键词"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No keywords found",
+                    "target": "未找到关键词"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No groups yet",
+                    "target": "暂无分组"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Create a group to organize your keywords with shared settings",
+                    "target": "创建分组以使用共享设置整理关键词"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "🗑️ Delete",
+                    "target": "🗑️ 删除"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Keywords in this group",
+                    "target": "此分组中的关键词"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "+ Add keywords to group",
+                    "target": "+ 添加关键词到分组"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Group settings",
+                    "target": "分组设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "These settings apply to all keywords in this group.",
+                    "target": "这些设置适用于该组中的所有关键词。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "🔗",
+                    "target": "🔗"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Quick Add Keyword",
+                    "target": "快速添加关键词"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Add Keyword",
+                    "target": "添加关键词"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
