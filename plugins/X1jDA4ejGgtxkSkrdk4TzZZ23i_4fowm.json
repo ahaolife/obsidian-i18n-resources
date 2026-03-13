@@ -1,0 +1,127 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "vertical-timeline-list",
+        "version": "1.0.0",
+        "title": "Vertical Timeline List",
+        "description": "Vertical Timeline List Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.1.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Gap between dots on line",
+                    "target": "线上的点间距"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Line left and right padding",
+                    "target": "线条左右内边距"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Details top, bottom, left, and right padding",
+                    "target": "详情上下左右内边距"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Dots without details",
+                    "target": "无详情的点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Dots with details",
+                    "target": "带详情的点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Only visible when collapsible option is on",
+                    "target": "仅在可折叠选项开启时可见"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Dots with details can be collapsed",
+                    "target": "带详情的点可折叠"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Dot separation",
+                    "target": "点间距"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Line padding",
+                    "target": "线条内边距"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Dot details padding",
+                    "target": "点详情内边距"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Dot details top separation",
+                    "target": "圆点详情顶部间距"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Dot details bottom separation",
+                    "target": "圆点详情底部间距"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Dot color",
+                    "target": "圆点颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Dot collapsible color",
+                    "target": "可折叠圆点颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Dot collapsible hover color",
+                    "target": "可折叠圆点悬停颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Line color",
+                    "target": "线条颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Dot details background color",
+                    "target": "圆点详情背景颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Dot collapsible",
+                    "target": "可折叠圆点"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
