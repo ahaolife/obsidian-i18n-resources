@@ -1,0 +1,127 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "quoth",
+        "version": "1.0.0",
+        "title": "Quoth",
+        "description": "Quoth Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.7.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Could not copy reference, please file a bug report",
+                    "target": "无法复制引用，请提交错误报告"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Rebuild Index",
+                    "target": "重建索引"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Rebuilding Index...",
+                    "target": "正在重建索引..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "This will load all quoths in your vault into the index. This may need to be called after a major update, or after updating markdown files outside of obsidian.",
+                    "target": "这会将你库中的所有 quoth 加载到索引中。重大更新后，或在 Obsidian 外部更新 Markdown 文件后，可能需要执行此操作。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Mobile only. When a selection is made in preview mode, a button to copy will appear in the bottom right.",
+                    "target": "仅限移动端。在预览模式下进行选择时，右下角会出现一个复制按钮。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Rebuild Quoth Index",
+                    "target": "重建 Quoth 索引"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show Copy Button",
+                    "target": "显示复制按钮"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Display Style:",
+                    "target": "显示样式："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show Author:",
+                    "target": "显示作者："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show Title:",
+                    "target": "显示标题："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Type source filename...",
+                    "target": "输入源文件名..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Reference copied!",
+                    "target": "引用已复制！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Open Link",
+                    "target": "打开链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Copy Quoth",
+                    "target": "复制 Quoth"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Copy Reference",
+                    "target": "复制引用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Quoth Settings",
+                    "target": "Quoth 设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Default copy reference options",
+                    "target": "默认复制引用选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Note: this changes only references copied going forward, not previous references.",
+                    "target": "注意：这只会更改今后复制的引用，不影响之前的引用。"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
