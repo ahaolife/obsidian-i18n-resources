@@ -1,0 +1,97 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "global-proxy",
+        "version": "1.0.0",
+        "title": "Global Proxy",
+        "description": "Global Proxy Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.4",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Change your proxy status",
+                    "target": "更改你的代理状态"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set up your socks proxy",
+                    "target": "设置你的 SOCKS 代理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set up your http proxy",
+                    "target": "设置你的 HTTP 代理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set up your https proxy",
+                    "target": "设置你的 HTTPS 代理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "For proxy specified plugins",
+                    "target": "用于指定代理的插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Proxy blacklist",
+                    "target": "代理黑名单"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable proxy",
+                    "target": "启用代理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Socks Proxy",
+                    "target": "SOCKS 代理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Http Proxy",
+                    "target": "HTTP 代理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Https Proxy",
+                    "target": "HTTPS 代理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Plugin Tokens",
+                    "target": "插件令牌"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Enable proxy!",
+                    "target": "启用代理！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Disable proxy!",
+                    "target": "禁用代理！"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
