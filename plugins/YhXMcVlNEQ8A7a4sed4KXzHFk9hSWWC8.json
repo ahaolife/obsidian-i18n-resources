@@ -1,0 +1,97 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "mediaviewer",
+        "version": "1.0.0",
+        "title": "Media Viewer",
+        "description": "Media Viewer Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.0.9",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<svg viewBox=\"0 0 24 24\"><path fill=\"currentColor\" d=\"M15.41,16.58L10.83,12L15.41,7.41L14,6L8,12L14,18L15.41,16.58Z\" /></svg>",
+                    "target": "<svg viewBox=\"0 0 24 24\"><path fill=\"currentColor\" d=\"M15.41,16.58L10.83,12L15.41,7.41L14,6L8,12L14,18L15.41,16.58Z\" /></svg>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<svg viewBox=\"0 0 24 24\"><path fill=\"currentColor\" d=\"M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z\" /></svg>",
+                    "target": "<svg viewBox=\"0 0 24 24\"><path fill=\"currentColor\" d=\"M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z\" /></svg>"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "mv-media-nav-area mv-prev-area",
+                    "target": "mv-media-nav-area mv-prev-area"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "mv-media-nav-area mv-next-area",
+                    "target": "mv-media-nav-area mv-next-area"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error processing internal link:",
+                    "target": "处理内部链接时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error scanning media:",
+                    "target": "扫描媒体时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error deleting media:",
+                    "target": "删除媒体时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "剪貼簿讀取錯誤:",
+                    "target": "剪贴板读取错误:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error handling files:",
+                    "target": "处理文件时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error handling links:",
+                    "target": "处理链接时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error processing gallery block:",
+                    "target": "处理画廊块时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error reading note content:",
+                    "target": "读取笔记内容时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error renaming file:",
+                    "target": "重命名文件时出错："
+                }
+            ],
+            "regex": []
+        }
+    }
+}
