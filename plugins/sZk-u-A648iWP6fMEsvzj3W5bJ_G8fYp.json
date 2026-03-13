@@ -1,0 +1,1123 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "wordflow-tracker",
+        "version": "1.0.0",
+        "title": "Wordflow Tracker",
+        "description": "Wordflow Tracker Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.0.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "yearly note",
+                    "target": "年度备注"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "quarterly note",
+                    "target": "季度备注"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "monthly note",
+                    "target": "月度备注"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "weekly note",
+                    "target": "每周备注"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "daily note",
+                    "target": "每日备注"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "custom position",
+                    "target": "自定义位置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "wordflow-tab-bar tab-labels-container",
+                    "target": "wordflow-tab-bar tab-labels-container"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "tab-label wordflow-tab",
+                    "target": "tab-label wordflow-tab"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "The captured value: ",
+                    "target": "捕获的值："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": " could not match the regex:",
+                    "target": " 无法匹配正则表达式："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "❌This pattern is not recognized:",
+                    "target": "❌无法识别此模式："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "⚠️ Failed to get or create record note",
+                    "target": "⚠️ 无法获取或创建记录笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "❌ Failed to create record note:",
+                    "target": "❌ 创建记录笔记失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Could not reset settings:",
+                    "target": "无法重置设置："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to generate previews:",
+                    "target": "生成预览失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to update periodic note:",
+                    "target": "更新周期性笔记失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error in getAllOpenedFilesWithMode",
+                    "target": "getAllOpenedFilesWithMode 中出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "The following data is not recorded due to errors in the console. You can manually update these data to periodic notes.",
+                    "target": "由于控制台错误，以下数据未被记录。你可以手动将这些数据更新到周期性笔记中。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "DocTracker.activate: No active editor!",
+                    "target": "DocTracker.activate: 没有活动的编辑器！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "DocTracker.deactivate: Set ",
+                    "target": "DocTracker.deactivate: 设置 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": " inactive!",
+                    "target": " 未激活!"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "prevChA: ",
+                    "target": "prevChA: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "subseqChA: ",
+                    "target": "subseqChA: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Editing file:",
+                    "target": "正在编辑文件："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "YYYY-MM-DD | hh:mm",
+                    "target": "YYYY-MM-DD | hh:mm"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "65 80",
+                    "target": "65 80"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "📖 ${readTime}",
+                    "target": "📖 ${readTime}"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "⌨️ ${editTime} · ${editedTimes} edits · ${editedWords} words",
+                    "target": "⌨️ ${editTime} · ${editedTimes} 次编辑 · ${editedWords} 个字"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Enable dynamic folder in moment.js format",
+                    "target": "以 moment.js 格式启用动态文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "EditTimer: Try get focused time before starting the timer, returned focused time may be inaccurate.",
+                    "target": "EditTimer：请在启动计时器前尝试获取专注时间，返回的专注时间可能不准确。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Invalid table syntax",
+                    "target": "无效的表格语法"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "UniqueColorGenerator: no available colors that have not been used. ",
+                    "target": "UniqueColorGenerator：没有可用的未使用颜色。 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Wordflow Tracker] getFileTags called with null file",
+                    "target": "[Wordflow Tracker] 调用 getFileTags 时传入了 null 文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "#### 日期格式验证\n\n自从插件 2.0.0 版本起，需要严格避免日期优先级冲突带来的崩溃。常见验证错误及示例：\n\n- **混用周系统**：不能同时使用本地周（w, ww, W, WW）和 ISO 周（gggg, gg）标记。\n  - ❌ 无效：`YYYY-[W]WW-E` 或 `gggg-[W]ww-E`\n  - ✅ 有效：`gggg-[W]WW-E` 或 `YYYY-MM-DD`\n\n- **日历与周标记冲突**：不能混用日历日期（YYYY, MM, DD）和周日期（gggg, WW, E）。\n  - ❌ 无效：`YYYY-[W]WW` 或 `gggg-MM-DD`\n  - ✅ 有效：`YYYY-MM-DD` 或 `gggg-[W]WW-E`\n\n- **日历与年内天数冲突**：不能同时使用月/日（MM, DD）和年内天数（DDD）。\n  - ❌ 无效：`YYYY-MM-DDD`\n  - ✅ 有效：`YYYY-MM-DD` 或 `YYYY-DDD`\n\n- **日期与星期几冲突**：不能同时指定绝对日期（MM-DD 或 DDD）和星期几（E, ddd）。\n  - ❌ 无效：`YYYY-MM-DD-ddd`\n  - ✅ 有效：`YYYY-MM-DD` 或 `YYYY-[W]WW-E`\n\n- **ISO 周年与日历月冲突**：ISO 周年（gggg, gg）不能与日历月（MM, M）一起使用。\n  - ❌ 无效：`gggg-MM`\n  - ✅ 有效：`YYYY-MM` 或 `gggg-[W]WW`\n\n- **周数与具体日期冲突**：周数（WW, ww）和具体日期（DD, D）不能同时使用。\n  - ❌ 无效：`YYYY-[W]WW-DD`\n  - ✅ 有效：`YYYY-[W]WW-E` 或 `YYYY-MM-DD`\n\n---\n\n#### 支持插值的变量\n\n| 字符串插值 | 描述 | 支持的记录类型 | 示例 | 备注 |\n| ------------------- | ------------------------------------------------------ | ------- | --------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |\n| ${modifiedNote} | 修改后的笔记的笔记路径 | 表格、无序列表 | Daily Notes/2025-03-23.md | 表格中始终应放在第一列，无序列表中应放在父元素中。 |\n| ${noteTitle}        | 笔记的标题，不带如'.md'的文件类型后缀                                  | 表格、无序列表 | 2025-03-23, 未命名笔记, 新空白笔记0323                                                                       | 可以单独使用，也可以放在笔记链接中从而不显示笔记路径，而是笔记标题。<br>放在**表格中**当链接使用时，仅支持如下格式： <br>“\\[\\[\\${modifiedNote}\\\\\\|\\${noteTitle}\\]\\]” （*注意分隔符'\\|'之前有一个反斜杠*）;<br>放在**列表中**当链接使用时，仅支持如下格式： <br>“\\[\\[\\${modifiedNote}\\|\\${noteTitle}\\]\\]” （*注意分隔符'\\|'之前没有反斜杠*） |\n| ${editedTimes} | 笔记在一段时间内的编辑次数 | 表格、无序列表 | 100 | 根据 Obsidian 规则，间隔小于0.5秒的输入内容被视为一次编辑。每次编辑都可以通过按 `ctrl` + `z` 撤销或者按 `ctrl` + `shift` + `z` 重做操作。 |\n| ${editedWords} | 笔记在一段时间内的编辑字数 | 表格、无序列表 | 550 | 等于 addedWords + deletedWords |\n| ${changedWords} | 笔记中字数的净变化 | 表格、无序列表 | 150 | 等于 addedWords - deletedWords |\n| ${deletedWords} | 笔记在一段时间内删除的字数 | 表格、无序列表 | 200 | |\n| ${addedWords} | 笔记在一段时间内添加的字数 | 表格、无序列表 | 350 | |\n| ${docWords} | 文档的总字数(截止上次记录) | 表格、无序列表 | 1000 | 包括 YAML（Frontmatter）中的字数，而 Obsidian 的字数统计核心插件不包括这部分。 |\n| ${editedPercentage} | （beta）一段时间内编辑字数占总字数（编辑字数+原始字数）的比率，用于判断编辑是微调还是较大更改 | 表格、无序列表 | 55% | 内容是 HTML 格式，并且会被格式化为字符串。（直接使用字符串因记录器更新字符串而导致准确性逐步降低而被弃用。） |\n| ${statBar} | （beta）以 HTML 格式展示原始字数、删除字数和添加字数的比例。用于判断编辑是否为微调还是还是较大更改 | 仅表格 | ![image](https://github.com/user-attachments/assets/c0d929a7-5ea8-4172-9d85-5de5f46e02bd) | 内容会被格式化为 SVG 柱状图，颜色可以在 styles.css 中自定义。示例中的比例为 450:200:150。 |\n| ${lastModifiedTime} | 笔记的最后修改时间，你可以在插件设置中指定此项目的格式 | 表格、无序列表 | 2025-03-23 16:00 | |\n| ${totalEdits} | 所有笔记在一段时间内的总编辑次数 | 元数据 | 200 | 可供其他插件使用，例如生成热力图。 |\n| ${totalWords} | 所有笔记在一段时间内的总编辑字数 | 元数据 | 2000 | 可供其他插件使用，例如生成热力图。 |\n| ${totalEditTime}    | 所有笔记的总编辑时间.                                            | 元数据     | 1 h 13 min  | 可供其他插件使用，例如生成热力图 |\n| ${totalReadTime}  | 所有笔记的总阅读时间. | 元数据     | 1 h 20 min | 阅读时间仅在专注模式下累积；可供其他插件使用，例如生成热力图 |\n| ${totalTime} | 所有笔记的阅读时间与编辑时间之和. | 元数据     | 2 h 33 min  | 其中阅读时间部分仅在专注模式下累积；可供其他插件使用，例如生成热力图 |\n\n#### 支持文档\n更多信息请访问 [GitHub 仓库](https://github.com/LeCheenaX/WordFlow-Tracker) 或查看 [文档](https://github.com/LeCheenaX/WordFlow-Tracker/blob/main/README.md)。",
+                    "target": "#### 日期格式验证\n\n自从插件 2.0.0 版本起，需要严格避免日期优先级冲突带来的崩溃。常见验证错误及示例：\n\n- **混用周系统**：不能同时使用本地周（w, ww, W, WW）和 ISO 周（gggg, gg）标记。\n  - ❌ 无效：`YYYY-[W]WW-E` 或 `gggg-[W]ww-E`\n  - ✅ 有效：`gggg-[W]WW-E` 或 `YYYY-MM-DD`\n\n- **日历与周标记冲突**：不能混用日历日期（YYYY, MM, DD）和周日期（gggg, WW, E）。\n  - ❌ 无效：`YYYY-[W]WW` 或 `gggg-MM-DD`\n  - ✅ 有效：`YYYY-MM-DD` 或 `gggg-[W]WW-E`\n\n- **日历与年内天数冲突**：不能同时使用月/日（MM, DD）和年内天数（DDD）。\n  - ❌ 无效：`YYYY-MM-DDD`\n  - ✅ 有效：`YYYY-MM-DD` 或 `YYYY-DDD`\n\n- **日期与星期几冲突**：不能同时指定绝对日期（MM-DD 或 DDD）和星期几（E, ddd）。\n  - ❌ 无效：`YYYY-MM-DD-ddd`\n  - ✅ 有效：`YYYY-MM-DD` 或 `YYYY-[W]WW-E`\n\n- **ISO 周年与日历月冲突**：ISO 周年（gggg, gg）不能与日历月（MM, M）一起使用。\n  - ❌ 无效：`gggg-MM`\n  - ✅ 有效：`YYYY-MM` 或 `gggg-[W]WW`\n\n- **周数与具体日期冲突**：周数（WW, ww）和具体日期（DD, D）不能同时使用。\n  - ❌ 无效：`YYYY-[W]WW-DD`\n  - ✅ 有效：`YYYY-[W]WW-E` 或 `YYYY-MM-DD`\n\n---\n\n#### 支持插值的变量\n\n| 字符串插值 | 描述 | 支持的记录类型 | 示例 | 备注 |\n| ------------------- | ------------------------------------------------------ | ------- | --------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |\n| ${modifiedNote} | 修改后的笔记的笔记路径 | 表格、无序列表 | Daily Notes/2025-03-23.md | 表格中始终应放在第一列，无序列表中应放在父元素中。 |\n| ${noteTitle}        | 笔记的标题，不带如'.md'的文件类型后缀                                  | 表格、无序列表 | 2025-03-23, 未命名笔记, 新空白笔记0323                                                                       | 可以单独使用，也可以放在笔记链接中从而不显示笔记路径，而是笔记标题。<br>放在**表格中**当链接使用时，仅支持如下格式： <br>“\\[\\[\\${modifiedNote}\\\\\\|\\${noteTitle}\\]\\]” （*注意分隔符'\\|'之前有一个反斜杠*）;<br>放在**列表中**当链接使用时，仅支持如下格式： <br>“\\[\\[\\${modifiedNote}\\|\\${noteTitle}\\]\\]” （*注意分隔符'\\|'之前没有反斜杠*） |\n| ${editedTimes} | 笔记在一段时间内的编辑次数 | 表格、无序列表 | 100 | 根据 Obsidian 规则，间隔小于0.5秒的输入内容被视为一次编辑。每次编辑都可以通过按 `ctrl` + `z` 撤销或者按 `ctrl` + `shift` + `z` 重做操作。 |\n| ${editedWords} | 笔记在一段时间内的编辑字数 | 表格、无序列表 | 550 | 等于 addedWords + deletedWords |\n| ${changedWords} | 笔记中字数的净变化 | 表格、无序列表 | 150 | 等于 addedWords - deletedWords |\n| ${deletedWords} | 笔记在一段时间内删除的字数 | 表格、无序列表 | 200 | |\n| ${addedWords} | 笔记在一段时间内添加的字数 | 表格、无序列表 | 350 | |\n| ${docWords} | 文档的总字数(截止上次记录) | 表格、无序列表 | 1000 | 包括 YAML（Frontmatter）中的字数，而 Obsidian 的字数统计核心插件不包括这部分。 |\n| ${editedPercentage} | （beta）一段时间内编辑字数占总字数（编辑字数+原始字数）的比率，用于判断编辑是微调还是较大更改 | 表格、无序列表 | 55% | 内容是 HTML 格式，并且会被格式化为字符串。（直接使用字符串因记录器更新字符串而导致准确性逐步降低而被弃用。） |\n| ${statBar} | （beta）以 HTML 格式展示原始字数、删除字数和添加字数的比例。用于判断编辑是否为微调还是还是较大更改 | 仅表格 | ![image](https://github.com/user-attachments/assets/c0d929a7-5ea8-4172-9d85-5de5f46e02bd) | 内容会被格式化为 SVG 柱状图，颜色可以在 styles.css 中自定义。示例中的比例为 450:200:150。 |\n| ${lastModifiedTime} | 笔记的最后修改时间，你可以在插件设置中指定此项目的格式 | 表格、无序列表 | 2025-03-23 16:00 | |\n| ${totalEdits} | 所有笔记在一段时间内的总编辑次数 | 元数据 | 200 | 可供其他插件使用，例如生成热力图。 |\n| ${totalWords} | 所有笔记在一段时间内的总编辑字数 | 元数据 | 2000 | 可供其他插件使用，例如生成热力图。 |\n| ${totalEditTime}    | 所有笔记的总编辑时间.                                            | 元数据     | 1 h 13 min  | 可供其他插件使用，例如生成热力图 |\n| ${totalReadTime}  | 所有笔记的总阅读时间. | 元数据     | 1 h 20 min | 阅读时间仅在专注模式下累积；可供其他插件使用，例如生成热力图 |\n| ${totalTime} | 所有笔记的阅读时间与编辑时间之和. | 元数据     | 2 h 33 min  | 其中阅读时间部分仅在专注模式下累积；可供其他插件使用，例如生成热力图 |\n\n#### 支持文档\n更多信息请访问 [GitHub 仓库](https://github.com/LeCheenaX/WordFlow-Tracker) 或查看 [文档](https://github.com/LeCheenaX/WordFlow-Tracker/blob/main/README.md)。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Select the language for the plugin interface.",
+                    "target": "选择插件界面语言。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Add a ribbon icon to record wordflows to periodic notes. Reload plugin to take effect.",
+                    "target": "添加功能区图标以将字数流记录到周期性笔记中。重新加载插件后生效。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Reset all settings to the default value.",
+                    "target": "将所有设置重置为默认值。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Select the type of periodic note to determine how the widget is controlled.",
+                    "target": "选择周期性笔记类型以确定小组件的控制方式。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Select a type of content to record on specified notes.",
+                    "target": "选择要在指定笔记中记录的内容类型。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "The records should be inserted after this content. Content between start position and end position would be replaced during recording.",
+                    "target": "记录应插入在此内容之后。开始位置与结束位置之间的内容将在记录时被替换。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "The records should be inserted before this content. Content between start position and end position would be replaced during recording.",
+                    "target": "记录应插入到此内容之前。记录时，起始位置与结束位置之间的内容将被替换。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Set the format of '${lastModifiedTime}' to be recorded on notes.",
+                    "target": "设置记录到笔记中的“${lastModifiedTime}”格式。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Enable the side pane widget when plugin loads.",
+                    "target": "插件加载时启用侧边栏小组件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Add a ribbon icon to reveal widget and refresh the widget content.",
+                    "target": "添加功能区图标以显示小组件并刷新其内容。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Define aliases for the field.",
+                    "target": "为该字段定义别名。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Specify the lightness from 0-100 in hsl to generate random colors for file entries.",
+                    "target": "指定 HSL 中 0-100 的亮度，用于为文件条目生成随机颜色。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Select the base color for the heatmap. The heatmap will generate gradients based on the hue (H) of this color.",
+                    "target": "选择热图的基础颜色。热图将基于该颜色的色相（H）生成渐变。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Set the number of gradient levels for the heatmap (4-10 levels). More levels provide finer color distinctions.",
+                    "target": "设置热图的渐变级数（4-10 级）。级数越多，颜色区分越细。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Set the number of weeks to display in the heatmap (5-13 weeks). More weeks show more history but smaller cells.",
+                    "target": "设置热图显示的周数（5-13 周）。周数越多显示历史越多，但单元格更小。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Set which day the week starts on in the heatmap.",
+                    "target": "设置热图中一周的起始日。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "选择插件界面的语言。",
+                    "target": "选择插件界面的语言。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "添加一个功能区图标，用于将更改数据记录到周期笔记中。重新加载插件后生效。",
+                    "target": "添加一个功能区图标，用于将更改数据记录到周期笔记中。重新加载插件后生效。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "将所有设置重置为默认值。",
+                    "target": "将所有设置重置为默认值。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "选择周期笔记的类型，这将决定侧栏组件的控制方式。",
+                    "target": "选择周期笔记的类型，这将决定侧栏组件的控制方式。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "模板文件中的 {{date}} 将被替换为此值。",
+                    "target": "模板文件中的 {{date}} 将被替换为此值。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "模板文件中的 {{time}} 将被替换为此值。",
+                    "target": "模板文件中的 {{time}} 将被替换为此值。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "选择要在指定笔记上记录的内容类型。",
+                    "target": "选择要在指定笔记上记录的内容类型。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "记录应在此内容之后插入。起始位置和结束位置之间的内容将在触发记录时被替换。",
+                    "target": "记录应在此内容之后插入。起始位置和结束位置之间的内容将在触发记录时被替换。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "记录应在此内容之前插入。起始位置和结束位置之间的内容将在触发记录时被替换。",
+                    "target": "记录应在此内容之前插入。起始位置和结束位置之间的内容将在触发记录时被替换。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "按选定的顺序展示被记录的笔记。",
+                    "target": "按选定的顺序展示被记录的笔记。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "设置要在笔记上记录的 '${lastModifiedTime}' 的格式。",
+                    "target": "设置要在笔记上记录的 '${lastModifiedTime}' 的格式。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "插件加载时启用侧边栏组件。",
+                    "target": "插件加载时启用侧边栏组件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "添加一个功能区按钮来启用侧边栏组件或刷新组件内容。",
+                    "target": "添加一个功能区按钮来启用侧边栏组件或刷新组件内容。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "为属性设置侧栏组件中的显示名称。",
+                    "target": "为属性设置侧栏组件中的显示名称。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "指定 hsl 中的亮度（0-100）以为文件条目生成随机颜色。",
+                    "target": "指定 hsl 中的亮度（0-100）以为文件条目生成随机颜色。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "选择热力图的基础颜色。热力图将根据此颜色的色相(H)生成渐变。",
+                    "target": "选择热力图的基础颜色。热力图将根据此颜色的色相(H)生成渐变。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "设置热力图的渐变级别数量（4-10级）。级别越多，颜色区分越细致。",
+                    "target": "设置热力图的渐变级别数量（4-10级）。级别越多，颜色区分越细致。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "设置热力图显示的周数（5-13周）。周数越多显示的历史越长，但单元格越小。",
+                    "target": "设置热力图显示的周数（5-13周）。周数越多显示的历史越长，但单元格越小。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "设置热力图中一周从哪一天开始。",
+                    "target": "设置热力图中一周从哪一天开始。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Periodic note to record",
+                    "target": "要记录的周期笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Recording contents",
+                    "target": "记录内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "记录到的周期笔记",
+                    "target": "记录到的周期笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "记录内容",
+                    "target": "记录内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "The recording syntax has changed. Do you want to apply this change to your existing periodic note?",
+                    "target": "记录语法已更改。是否要将此更改应用到您现有的周期笔记？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "记录语法已更改。是否要将此更改应用到新的记录？",
+                    "target": "记录语法已更改。是否要将此更改应用到新的记录？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show record button in ribbon",
+                    "target": "在功能区显示记录按钮"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ignored folders",
+                    "target": "忽略的文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ignored tags",
+                    "target": "忽略的标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Preserve records for deleted files",
+                    "target": "保留已删除文件的记录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Threshold for notes to record in edit mode",
+                    "target": "编辑模式下记录笔记的阈值"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Notes to record while quiting editing mode",
+                    "target": "退出编辑模式时记录的笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Automatic recording interval",
+                    "target": "自动记录间隔"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Reset all settings",
+                    "target": "重置所有设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Current recorder",
+                    "target": "当前记录器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Periodic note folder",
+                    "target": "周期性笔记文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Periodic note format",
+                    "target": "周期性笔记格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Periodic note type",
+                    "target": "周期性笔记类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Record content type",
+                    "target": "记录内容类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Wordflow recording syntax",
+                    "target": "Wordflow 记录语法"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert to position",
+                    "target": "插入到位置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Start position",
+                    "target": "起始位置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "End position",
+                    "target": "结束位置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sort by",
+                    "target": "排序方式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Last modified time format",
+                    "target": "上次修改时间格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Idle interval",
+                    "target": "空闲间隔"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Auto resume focus mode after idle pause",
+                    "target": "空闲暂停后自动恢复专注模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show second in widget pane",
+                    "target": "在小组件窗格中显示秒"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Enable Widget on loading",
+                    "target": "加载时启用小组件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show widget reveal button in ribbon",
+                    "target": "在功能区显示小组件显示按钮"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Default view to open",
+                    "target": "默认打开视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Switch to this field on focus mode",
+                    "target": "在专注模式下切换到此字段"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Field alias",
+                    "target": "字段别名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Random color group lightness",
+                    "target": "随机颜色组明度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Random color group saturation",
+                    "target": "随机颜色组饱和度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Configure colors for tags",
+                    "target": "配置标签颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Heatmap base color",
+                    "target": "热力图基色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Heatmap gradient levels",
+                    "target": "热力图渐变级别"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Heatmap weeks to display",
+                    "target": "热力图显示周数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Week starts on",
+                    "target": "每周起始日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Enforce status bar display in mobile",
+                    "target": "在移动端强制显示状态栏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Custom status bar content",
+                    "target": "自定义状态栏内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Content in reading mode",
+                    "target": "阅读模式中的内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Content in editing mode",
+                    "target": "编辑模式中的内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Record wordflows from edited notes to periodic note",
+                    "target": "将编辑笔记的字数流记录到周期性笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Reveal and refresh wordflow tracker widget",
+                    "target": "显示并刷新字数流跟踪器小组件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Refresh widget with random colors",
+                    "target": "用随机颜色刷新小组件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "语言",
+                    "target": "语言"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "在功能区显示记录按钮",
+                    "target": "在功能区显示记录按钮"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "忽略的文件夹",
+                    "target": "忽略的文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "忽略的标签",
+                    "target": "忽略的标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "保留已删除文件的记录",
+                    "target": "保留已删除文件的记录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "编辑模式下记录笔记的门槛",
+                    "target": "编辑模式下记录笔记的门槛"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "退出编辑模式时记录以下笔记",
+                    "target": "退出编辑模式时记录以下笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "自动记录间隔",
+                    "target": "自动记录间隔"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "重置所有设置",
+                    "target": "重置所有设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "当前记录器",
+                    "target": "当前记录器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "周期笔记文件夹",
+                    "target": "周期笔记文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "周期笔记名格式",
+                    "target": "周期笔记名格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "周期笔记类型",
+                    "target": "周期笔记类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "模板插件",
+                    "target": "模板插件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "模板文件路径",
+                    "target": "模板文件路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "模板文件日期格式",
+                    "target": "模板文件日期格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "模板文件时间格式",
+                    "target": "模板文件时间格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "记录内容类型",
+                    "target": "记录内容类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Wordflow 记录语法",
+                    "target": "Wordflow 记录语法"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "插入位置",
+                    "target": "插入位置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "起始位置",
+                    "target": "起始位置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "结束位置",
+                    "target": "结束位置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "排序方式",
+                    "target": "排序方式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "最后修改时间格式",
+                    "target": "最后修改时间格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "闲置时自动暂停",
+                    "target": "闲置时自动暂停"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "闲置暂停后自动恢复专注模式",
+                    "target": "闲置暂停后自动恢复专注模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "在侧边栏组件中显示秒",
+                    "target": "在侧边栏组件中显示秒"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "加载时启用侧边栏组件",
+                    "target": "加载时启用侧边栏组件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "在功能区显示侧边栏组件按钮",
+                    "target": "在功能区显示侧边栏组件按钮"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "默认视图",
+                    "target": "默认视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "专注模式下自动切换到此时间属性",
+                    "target": "专注模式下自动切换到此时间属性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "属性别名",
+                    "target": "属性别名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "随机笔记颜色的亮度",
+                    "target": "随机笔记颜色的亮度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "随机笔记颜色的饱和度",
+                    "target": "随机笔记颜色的饱和度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "设定标签的颜色",
+                    "target": "设定标签的颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "热力图基础颜色",
+                    "target": "热力图基础颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "热力图渐变级别",
+                    "target": "热力图渐变级别"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "热力图显示周数",
+                    "target": "热力图显示周数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "一周起始日",
+                    "target": "一周起始日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "在移动设备上强制显示状态栏",
+                    "target": "在移动设备上强制显示状态栏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "自定义状态栏内容",
+                    "target": "自定义状态栏内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "阅读模式内容",
+                    "target": "阅读模式内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "编辑模式内容",
+                    "target": "编辑模式内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "记录所有编辑过的笔记数据到周期笔记中",
+                    "target": "记录所有编辑过的笔记数据到周期笔记中"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "显示并刷新 Wordflow Tracker 的侧边栏组件",
+                    "target": "显示并刷新 Wordflow Tracker 的侧边栏组件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "刷新侧边栏组件并重新生成随机颜色",
+                    "target": "刷新侧边栏组件并重新生成随机颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Default Recorder",
+                    "target": "默认记录器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "#ignore\n#private",
+                    "target": "#ignore\n#private"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Set to 0 to disable",
+                    "target": "设为 0 以禁用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Set idle time in minute",
+                    "target": "设置闲置时间（分钟）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Enter display name",
+                    "target": "输入显示名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "设置为 0 以禁用",
+                    "target": "设置为 0 以禁用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "设置模板文件",
+                    "target": "设置模板文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "设置闲置暂停阈值（分钟）",
+                    "target": "设置闲置暂停阈值（分钟）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "输入显示名称",
+                    "target": "输入显示名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "moment format",
+                    "target": "moment 格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "文档",
+                    "target": "文档"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Date Format Validation Errors",
+                    "target": "日期格式验证错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Wordflow Tracker",
+                    "target": "Wordflow Tracker"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "⚠️ Confirmation",
+                    "target": "⚠️ 确认"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Rename recorder",
+                    "target": "重命名记录器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "⚠️ Syntax Change Confirmation",
+                    "target": "⚠️ 语法变更确认"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Wordflow Tracker Changelogs - Latest: {version}",
+                    "target": "Wordflow Tracker 变更日志 - 最新：{version}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "日期格式验证错误",
+                    "target": "日期格式验证错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "⚠️ 确认",
+                    "target": "⚠️ 确认"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "重命名记录器",
+                    "target": "重命名记录器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "⚠️ 语法变更确认",
+                    "target": "⚠️ 语法变更确认"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Wordflow Tracker 更新日志 - 最新版本: {version}",
+                    "target": "Wordflow Tracker 更新日志 - 最新版本: {version}"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
