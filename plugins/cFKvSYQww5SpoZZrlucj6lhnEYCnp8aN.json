@@ -1,0 +1,18 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "text-focus",
+        "version": "1.0.0",
+        "title": "Text Focus",
+        "description": "Text Focus Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.5",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [],
+            "regex": []
+        }
+    }
+}
