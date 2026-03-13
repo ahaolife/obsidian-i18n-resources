@@ -1,0 +1,61 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "viewer-ftags",
+        "version": "1.0.0",
+        "title": "Viewer ftags",
+        "description": "Viewer ftags Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Folder where notes without explicit ftags are stored",
+                    "target": "未显式设置 ftags 的笔记存放的文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Inbox folder",
+                    "target": "收件箱文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "+ Add tag...",
+                    "target": "+ 添加标签..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Open child",
+                    "target": "打开子项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Open in new tab",
+                    "target": "在新标签页打开"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Open to the right",
+                    "target": "在右侧打开"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Do you want to untag?",
+                    "target": "要取消标签吗？"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
