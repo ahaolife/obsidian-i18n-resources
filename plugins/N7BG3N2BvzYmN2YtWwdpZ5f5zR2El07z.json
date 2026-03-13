@@ -1,0 +1,133 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "apple-books-import-highlights",
+        "version": "1.0.0",
+        "title": "Apple Books - Import Highlights",
+        "description": "Apple Books - Import Highlights Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.7.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Backup highlights before import.",
+                    "target": "导入前备份标注。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "A folder (within the root of your vault) where you want to save imported highlights",
+                    "target": "用于保存已导入标注的文件夹（位于库根目录内）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Import all highlights from all your books when Obsidian starts",
+                    "target": "在 Obsidian 启动时导入所有书籍的全部标注"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Sort highlights by a specific criterion. Default: By creation date (from oldest to newest)",
+                    "target": "按指定条件排序标注。默认：按创建日期（从旧到新）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Highlights folder",
+                    "target": "标注文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Import highlights on start",
+                    "target": "启动时导入标注"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Backup highlights",
+                    "target": "备份标注"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Highlights sorting criterion",
+                    "target": "标注排序条件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Folder to save highlights",
+                    "target": "保存标注的文件夹"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Disabling backups imposes a risk of data loss. Please use with caution.",
+                    "target": "禁用备份会带来数据丢失风险。请谨慎使用。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Apple Books highlights imported successfully",
+                    "target": "Apple Books 重点摘录导入成功"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Import all",
+                    "target": "导入全部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "From a specific book...",
+                    "target": "从指定书籍..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "The selected book already exists in your highlights folder:",
+                    "target": "所选书籍已存在于你的重点摘录文件夹中："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Would you like to proceed with the overwrite?",
+                    "target": "要继续覆盖吗？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Bulk import will overwrite",
+                    "target": "批量导入将覆盖"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " ALL THE BOOKS ",
+                    "target": " 所有书籍 "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "in your highlights folder",
+                    "target": "在你的重点摘录文件夹中"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Created by ",
+                    "target": "创建者："
+                }
+            ],
+            "regex": []
+        }
+    }
+}
