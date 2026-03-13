@@ -1,0 +1,643 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "granola-sync",
+        "version": "1.0.0",
+        "title": "Granola Sync",
+        "description": "Granola Sync Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.0.11",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Individual files",
+                    "target": "单个文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Sections in daily notes",
+                    "target": "每日笔记中的章节"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Daily Notes folder",
+                    "target": "每日笔记文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Custom folder",
+                    "target": "自定义文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Custom pattern",
+                    "target": "自定义模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "By year/quarter (YYYY/Q1)",
+                    "target": "按年/季度 (YYYY/Q1)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "By year/month (YYYY/MM)",
+                    "target": "按年/月 (YYYY/MM)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "By month (YYYY-MM)",
+                    "target": "按月 (YYYY-MM)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "By day (YYYY-MM-DD)",
+                    "target": "按日 (YYYY-MM-DD)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "No subfolders (flat)",
+                    "target": "无子文件夹（平铺）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Same location as notes",
+                    "target": "与备注相同的位置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Custom location",
+                    "target": "自定义位置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Combined with notes",
+                    "target": "与备注合并"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Granola Sync]",
+                    "target": "[Granola Sync]"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Validation issues:",
+                    "target": "验证问题："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "  - path: (root)",
+                    "target": "  - 路径：(root)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to refresh access token:",
+                    "target": "刷新访问令牌失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Invalid credentials file structure:",
+                    "target": "凭据文件结构无效："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Missing access token:",
+                    "target": "缺少访问令牌："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to refresh token:",
+                    "target": "刷新令牌失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to parse credentials file:",
+                    "target": "解析凭据文件失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Credentials file read error:",
+                    "target": "凭据文件读取错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Folder creation error:",
+                    "target": "文件夹创建错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error saving file to disk:",
+                    "target": "将文件保存到磁盘时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Document missing required id field:",
+                    "target": "文档缺少必需的 id 字段："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Cannot determine file extension for image attachment - skipping",
+                    "target": "无法确定图像附件的文件扩展名 - 已跳过"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error updating daily note section:",
+                    "target": "更新每日笔记部分时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error loading Granola credentials:",
+                    "target": "加载 Granola 凭据时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error fetching Granola documents:",
+                    "target": "获取 Granola 文档时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom daily note settings found!",
+                    "target": "未找到自定义每日笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom weekly note settings found!",
+                    "target": "未找到自定义每周笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom monthly note settings found!",
+                    "target": "未找到自定义每月笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom quarterly note settings found!",
+                    "target": "未找到自定义季度笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom yearly note settings found!",
+                    "target": "未找到自定义每年笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Migrated settings from old format to new format",
+                    "target": "已将设置从旧格式迁移到新格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Full sync",
+                    "target": "完整同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Automatically sync your Granola notes at regular intervals. When disabled, you'll need to manually run the sync command.",
+                    "target": "按固定间隔自动同步你的 Granola 笔记。禁用后，你需要手动运行同步命令。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "How often to automatically sync notes when periodic sync is enabled. Enter value in seconds (default: 1800 = 30 minutes).",
+                    "target": "启用定期同步后，自动同步笔记的频率。以秒为单位输入（默认：1800 = 30 分钟）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "How far back to sync notes and transcripts from Granola, in days. For example, setting this to 7 will only sync notes from the last 7 days. Set to 0 to sync all notes (max 100 notes).",
+                    "target": "以天为单位设置从 Granola 同步笔记和转录的回溯范围。例如，设置为 7 只会同步最近 7 天的笔记。设置为 0 将同步所有笔记（最多 100 条）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable syncing of meeting notes from Granola. Turn this off if you only want to sync transcripts.",
+                    "target": "启用从 Granola 同步会议笔记。如果只想同步转录，请关闭此项。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Include your raw private notes at the top of each synced note. Private notes appear in a '## Private Notes' section above the '## Enhanced Notes' section.",
+                    "target": "在每条同步笔记的顶部包含你的原始私密笔记。私密笔记会出现在“## Private Notes”部分，位于“## Enhanced Notes”部分之上。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose how to package your Granola notes",
+                    "target": "选择如何打包你的 Granola 笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose where to save your note files",
+                    "target": "选择保存笔记文件的位置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The folder where your Granola notes will be saved",
+                    "target": "保存你的 Granola 笔记的文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose how to organize notes in subfolders",
+                    "target": "选择如何在子文件夹中组织笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Use variables: {year}, {month}, {day}, {quarter}. Example: {year}/{month}",
+                    "target": "使用变量：{year}, {month}, {day}, {quarter}。示例：{year}/{month}"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Customize note filenames. Variables: {title}, {date}, {time}, {year}, {month}, {day}",
+                    "target": "自定义笔记文件名。变量：{title}, {date}, {time}, {year}, {month}, {day}"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Add links to your individual note files from the corresponding daily notes. This creates a section in each daily note with links to meetings from that day.",
+                    "target": "从对应的每日笔记中添加到各个笔记文件的链接。这会在每条每日笔记中创建一个包含当天会议链接的部分。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The markdown heading for the meeting links section in daily notes. Include heading markers (e.g., \"# Meetings\").\n\n**Important:** The plugin replaces the entire section from this heading until the next heading at the same or higher level. Any content you manually add under this heading will be overwritten during sync. To preserve your content, place it under a new heading.",
+                    "target": "每日笔记中会议链接部分的 Markdown 标题。包含标题标记（例如，“# Meetings”）。\n\n**重要：** 插件会替换从此标题开始直到下一个同级或更高级标题之间的整个部分。你在此标题下手动添加的任何内容都会在同步时被覆盖。要保留你的内容，请将其放在新的标题下。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The markdown heading for the Granola notes section. Include heading markers (e.g., \"# Meeting Notes\").",
+                    "target": "Granola 笔记部分的 Markdown 标题。包含标题标记（例如，“# Meeting Notes”）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable syncing of meeting transcripts from Granola. Transcripts are saved with speaker-by-speaker formatting.",
+                    "target": "启用从 Granola 同步会议转录。转录按发言人逐一保存。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose how to save transcripts",
+                    "target": "选择转录保存方式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The folder where transcripts will be saved",
+                    "target": "转录将保存到的文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose how to organize transcripts in subfolders",
+                    "target": "选择如何在子文件夹中组织转录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Customize transcript filenames. Variables: {title}, {date}, {time}, {year}, {month}, {day}",
+                    "target": "自定义转录文件名。变量：{title}, {date}, {time}, {year}, {month}, {day}"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Re-syncs all files from Granola 🚨 overwriting any local modifications 🚨. Use this to force refresh your notes and transcripts.",
+                    "target": "重新同步来自 Granola 的所有文件 🚨 覆盖任何本地修改 🚨。使用此功能强制刷新你的笔记和转录。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Copy the current plugin settings as formatted JSON to the clipboard.",
+                    "target": "将当前插件设置以格式化的 JSON 复制到剪贴板。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Automatic sync",
+                    "target": "自动同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Periodic sync enabled",
+                    "target": "启用定期同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Sync interval",
+                    "target": "同步间隔"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Sync history (days)",
+                    "target": "同步历史（天）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Sync notes",
+                    "target": "同步笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Include Private Notes",
+                    "target": "包含私有笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Save notes as",
+                    "target": "将笔记保存为"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Base folder",
+                    "target": "基础文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Custom base folder",
+                    "target": "自定义基础文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Subfolder organization",
+                    "target": "子文件夹组织方式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Custom subfolder pattern",
+                    "target": "自定义子文件夹模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Filename pattern",
+                    "target": "文件名模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Link from daily notes",
+                    "target": "从日记笔记链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Daily note link heading",
+                    "target": "日记链接标题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Daily note section heading",
+                    "target": "日记章节标题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Sync transcripts",
+                    "target": "同步转录文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Transcript handling",
+                    "target": "转录文本处理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Transcript base folder",
+                    "target": "转录文本基础文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Transcript subfolder organization",
+                    "target": "转录文本子文件夹组织"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Custom transcript subfolder pattern",
+                    "target": "自定义转录文本子文件夹模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Transcript filename pattern",
+                    "target": "转录文本文件名模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Full sync",
+                    "target": "完全同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Export settings as JSON",
+                    "target": "导出设置为 JSON"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter the interval in seconds",
+                    "target": "输入间隔（秒）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter number of days",
+                    "target": "输入天数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "# Meetings",
+                    "target": "# 会议"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "# Granola Notes",
+                    "target": "# Granola 笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Granola Sync]",
+                    "target": "[Granola Sync]"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to download or save attachment image",
+                    "target": "下载或保存附件图片失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Unable to create new file.",
+                    "target": "无法创建新文件。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please enter a valid number for sync interval.",
+                    "target": "请输入有效的同步间隔数。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please enter a valid number for sync days.",
+                    "target": "请输入有效的同步天数。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Granola sync: Starting full sync.",
+                    "target": "Granola 同步：开始全量同步。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Granola sync: Full sync complete.",
+                    "target": "Granola 同步：全量同步完成。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Settings copied to clipboard",
+                    "target": "设置已复制到剪贴板"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Invalid configuration: trying to save individual file when saveAsIndividualFiles is false",
+                    "target": "配置无效：当 saveAsIndividualFiles 为 false 时尝试保存单个文件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Granola sync: Starting manual sync.",
+                    "target": "Granola 同步：开始手动同步。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Granola sync: Manual sync complete.",
+                    "target": "Granola 同步：手动同步完成。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Granola sync: No sync options enabled. Please enable either notes or transcripts in settings.",
+                    "target": "Granola 同步：未启用同步选项。请在设置中启用笔记或转录。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Granola sync error: Authentication failed. Your access token may have expired. Please reload Granola to update your credentials file.",
+                    "target": "Granola 同步错误：身份验证失败。你的访问令牌可能已过期。请重新加载 Granola 以更新你的凭据文件。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Granola sync error: Access forbidden. Please check your permissions.",
+                    "target": "Granola 同步错误：访问被禁止。请检查你的权限。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Granola sync error: API endpoint not found. Please check for updates.",
+                    "target": "Granola 同步错误：未找到 API 端点。请检查更新。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Granola sync error: Granola API server error. Please try again later.",
+                    "target": "Granola 同步错误：Granola API 服务器错误。请稍后再试。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Granola sync error: Failed to fetch documents from Granola API. Please check your internet connection.",
+                    "target": "Granola 同步错误：无法从 Granola API 获取文档。请检查您的网络连接。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Anno Domini",
+                    "target": "公元"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Before Christ",
+                    "target": "公元前"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sync from Granola",
+                    "target": "从 Granola 同步"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
