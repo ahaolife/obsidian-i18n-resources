@@ -1,0 +1,259 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "mood-tracker",
+        "version": "1.0.0",
+        "title": "Mood Tracker",
+        "description": "Mood Tracker Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.7.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "Use a static file path, or {{DATE}} variable.<br>\n\t\tSupports <a href=\"https://momentjs.com/docs/#/displaying/format/\" target=\"_blank\">moment.js formatting</a>.<br>\n\t\tExample: journals/daily/{{DATE:YYYY-MM-DD}}.md\n\t\t",
+                    "target": "使用静态文件路径，或 {{DATE}} 变量。<br>\n\t\t支持 <a href=\"https://momentjs.com/docs/#/displaying/format/\" target=\"_blank\">moment.js 格式化</a>。<br>\n\t\t示例：journals/daily/{{DATE:YYYY-MM-DD}}.md\n\t\t"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "Where in the journal should the Mood-Tracker entry be placed?<br>\n\t\tExample: ## Mood Tracker\n\t\t",
+                    "target": "心情追踪器条目应放在日志的哪个位置？<br>\n\t\t示例：## Mood Tracker\n\t\t"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerText",
+                    "source": "Edit mood rating labels",
+                    "target": "编辑心情评分标签"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Group name",
+                    "target": "组名"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Background color",
+                    "target": "背景颜色"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Very Good",
+                    "target": "非常好"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Very bad",
+                    "target": "非常差"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Preview:",
+                    "target": "预览："
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "date & time of entry ",
+                    "target": "条目日期与时间 "
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "No entries for this day. Click diagram to select another day.",
+                    "target": "当天没有条目。点击图表选择另一天。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "✏️",
+                    "target": "✏️"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "🗑️",
+                    "target": "🗑️"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "add a new entry",
+                    "target": "添加新条目"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Mood Rating",
+                    "target": "心情评分"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Day of Week",
+                    "target": "星期几"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Mood Tracking History",
+                    "target": "心情追踪历史"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Folder does not exist",
+                    "target": "文件夹不存在"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Add Group",
+                    "target": "添加分组"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Title for mood tracker modal",
+                    "target": "心情追踪器弹窗标题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "A path to a folder where mood tracker data will be stored.",
+                    "target": "用于存储心情追踪数据的文件夹路径。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Labels to use for mood rating. Used in tracker modal and stats.",
+                    "target": "用于心情评分的标签。用于追踪器弹窗和统计。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Tracker modal title",
+                    "target": "追踪器弹窗标题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Folder to store data file",
+                    "target": "存储数据文件的文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Add mood tracking info to a note",
+                    "target": "将心情追踪信息添加到笔记中"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Chart color",
+                    "target": "图表颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Mood rating labels",
+                    "target": "心情评分标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Note path",
+                    "target": "笔记路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Entry location",
+                    "target": "条目位置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Edit Group",
+                    "target": "编辑组"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Delete note set",
+                    "target": "删除笔记集"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Tried to use the 'fill' option without the 'Filler' plugin enabled. Please import and register the 'Filler' plugin and make sure it is not disabled in the options",
+                    "target": "尝试在未启用“Filler”插件的情况下使用“fill”选项。请导入并注册“Filler”插件，并确保它在选项中未被禁用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Average Mood Rating",
+                    "target": "平均心情评分"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Love and joy",
+                    "target": "爱与喜悦"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Neutral and surprise",
+                    "target": "中性与惊讶"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Anger and stress",
+                    "target": "愤怒与压力"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sadness and fear",
+                    "target": "悲伤与恐惧"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open Tracker",
+                    "target": "打开追踪器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open History",
+                    "target": "打开历史记录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "very bad",
+                    "target": "非常糟糕"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "very good",
+                    "target": "非常好"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
