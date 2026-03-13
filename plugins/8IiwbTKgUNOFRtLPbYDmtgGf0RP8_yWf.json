@@ -1,0 +1,67 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "zettelkasten-navigation",
+        "version": "1.0.0",
+        "title": "zettelkasten navigation",
+        "description": "zettelkasten navigation Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.9",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "placeholder",
+                    "source": "yyyy-MM-DD HH:mm",
+                    "target": "yyyy-MM-DD HH:mm"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "zk-local-section zk-hidden",
+                    "target": "zk-local-section zk-hidden"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "view-content node-insert-event",
+                    "target": "view-content node-insert-event"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "recent-close-button zk-hidden",
+                    "target": "recent-close-button zk-hidden"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Can't find the root of the branch!",
+                    "target": "找不到该分支的根！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "zk-navigation: invalid uri",
+                    "target": "zk-navigation: 无效的 uri"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " >> ",
+                    "target": " >> "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "文字标题",
+                    "target": "文字标题"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
