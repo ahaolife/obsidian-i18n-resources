@@ -1,0 +1,397 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-file-info-plugin",
+        "version": "1.0.0",
+        "title": "File Info Panel",
+        "description": "File Info Panel Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.3",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Date format using moment.js token syntax. ",
+                    "target": "使用 moment.js 标记语法的日期格式。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "The human readable text will always be added. ",
+                    "target": "始终会添加可读文本。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Use a single space to skip the first line formatted date and only see the human readable line.",
+                    "target": "使用一个空格可跳过第一行格式化日期，只显示可读文本行。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Regex. Do not include the outside /'s.",
+                    "target": "正则表达式。不要包含外侧的 /。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "For filter regex help and examples, see: ",
+                    "target": "有关筛选正则的帮助和示例，请参见："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show the date created for the active document.",
+                    "target": "显示活动文档的创建日期。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show the date modified for the active document.",
+                    "target": "显示活动文档的修改日期。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show the file size for the active document.",
+                    "target": "显示活动文档的文件大小。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show a link to open the active document in its default application.",
+                    "target": "显示链接以在默认应用中打开活动文档。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show a link to open the folder that contains the active document.",
+                    "target": "显示链接以打开包含活动文档的文件夹。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show the document's character count.",
+                    "target": "显示文档的字符数。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show the document's word count.",
+                    "target": "显示文档的字数。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show the document's sentence count.",
+                    "target": "显示文档的句子数。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show the document's page count, based on the words per page setting.",
+                    "target": "根据每页字数设置显示文档的页数。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enter a Number. How many words do you average per page?",
+                    "target": "请输入数字。每页平均有多少字？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show a grid of words you use by frequency.",
+                    "target": "按频率显示你使用的词语网格。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Filter (separate) the word frequency report using the following Regex.",
+                    "target": "使用以下正则表达式筛选（分隔）词频报告。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show the words filtered by the above regex.",
+                    "target": "显示以上正则表达式筛选出的词语。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show a grid of URLs and Files you mention by frequency.",
+                    "target": "按频率显示你提到的 URL 和文件网格。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Exclude URLs and Files from the word-count parsers. Does not apply to characters, sentences, paragraphs, or pages.",
+                    "target": "在字数统计解析中排除 URL 和文件。不适用于字符、句子、段落或页数。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show the document's selected text's character count.",
+                    "target": "显示文档选中文本的字符数。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show the document's selected text's word count.",
+                    "target": "显示文档选中文本的词数。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show the document's selected text's sentence count.",
+                    "target": "显示文档选中文本的句子数。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show Date Created",
+                    "target": "显示创建日期"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show Date Modified",
+                    "target": "显示修改日期"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Date Format",
+                    "target": "日期格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show File Size",
+                    "target": "显示文件大小"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show File",
+                    "target": "显示文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show Folder",
+                    "target": "显示文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show Folder as Relative Path",
+                    "target": "将文件夹显示为相对路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show Character Count",
+                    "target": "显示字符数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show Word Count",
+                    "target": "显示单词数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show Sentence Count",
+                    "target": "显示句子数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show Paragraph Count",
+                    "target": "显示段落数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show Page Count Estimate",
+                    "target": "显示页数估算"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Words Per Page",
+                    "target": "每页单词数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show a Word Frequency Report",
+                    "target": "显示词频报告"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Filter Word Frequency Report",
+                    "target": "筛选词频报告"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Filter Regex",
+                    "target": "筛选正则表达式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show Filtered Words",
+                    "target": "显示筛选后的词"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show a URL and File Frequency Report",
+                    "target": "显示 URL 和文件频率报告"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Exclude URLs and Files From Word Frequency Report and Word Counts",
+                    "target": "从词频报告和词数统计中排除 URL 和文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show Selected Character Count",
+                    "target": "显示所选字符数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show Selected Word Count",
+                    "target": "显示所选词数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show Selected Sentence Count",
+                    "target": "显示所选句子数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show Selected Paragraph Count",
+                    "target": "显示所选段落数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle File Info Panel",
+                    "target": "切换文件信息面板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show File Info Panel",
+                    "target": "显示文件信息面板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Hide File Info Panel",
+                    "target": "隐藏文件信息面板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "File Info Panel Settings",
+                    "target": "文件信息面板设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "File Information",
+                    "target": "文件信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Document Statistics",
+                    "target": "文档统计"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "The following settings only work for the currently open document and only for md and txt files. Toggle the File Info Panel visibility if you change these settings.",
+                    "target": "以下设置仅对当前打开的文档生效，且仅适用于 md 和 txt 文件。如更改这些设置，请切换文件信息面板的可见性。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Document Word Frequency",
+                    "target": "文档词频"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Document Selected Text Statistics",
+                    "target": "文档选中文本统计"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No current file.",
+                    "target": "无当前文件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Image Width",
+                    "target": "图片宽度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Image Height",
+                    "target": "图片高度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Est. Pages",
+                    "target": "预计页数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Filtered by Setting:",
+                    "target": "按设置筛选："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Selected Characters",
+                    "target": "已选字符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Selected Sentences",
+                    "target": "已选句子"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Selected Paragraphs",
+                    "target": "已选段落"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
