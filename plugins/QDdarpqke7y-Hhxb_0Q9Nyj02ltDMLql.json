@@ -1,0 +1,211 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "helpmate",
+        "version": "1.0.0",
+        "title": "HelpMate",
+        "description": "HelpMate Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.12",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "alert",
+                    "source": "Please check the Acknowledge checkbox to proceed",
+                    "target": "请勾选“确认”复选框以继续"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "IFrameBrowser: navigateTo",
+                    "target": "IFrameBrowser: navigateTo"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "WebViewBrowser: navigateTo",
+                    "target": "WebViewBrowser: navigateTo"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "WebViewBrowser: dom-ready",
+                    "target": "WebViewBrowser: dom-ready"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show Obsidian's native help.",
+                    "target": "显示 Obsidian 的原生帮助。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "URL to use for Obsidian help. This can be changed to a different URL for other languages.",
+                    "target": "用于 Obsidian 帮助的 URL。可更改为其他语言的不同 URL。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show Obsidian's developer help.",
+                    "target": "显示 Obsidian 的开发者帮助。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "URL to use for Obsidian's Developer help.",
+                    "target": "用于 Obsidian 开发者帮助的 URL。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show the deocumentation for HelpMate.",
+                    "target": "显示 HelpMate 的文档。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "On some devices the browser component of HelpMate may not display properly. This setting forces use of IFRAME \n\t\t\t\t\t\t which is more compatible across devices, but has less functionality. Only use this if you are having issues. Mobile\n\t\t\t\t\t\t devices always use IFRAME, since this is the only supported option on mobile. So this setting does not apply to mobile.\n\t\t\t\t\t\t (This setting will require a restart of Obsidian to take effect).",
+                    "target": "在某些设备上，HelpMate 的浏览器组件可能无法正常显示。此设置会强制使用 IFRAME，\n\t\t\t\t\t\t 它在不同设备上的兼容性更好，但功能更少。仅在遇到问题时使用此设置。移动\n\t\t\t\t\t\t 设备始终使用 IFRAME，因为这是移动端唯一支持的选项。因此此设置不适用于移动端。\n\t\t\t\t\t\t（此设置需要重启 Obsidian 才会生效）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable Obsidian's help in HelpMate",
+                    "target": "在 HelpMate 中启用 Obsidian 的帮助"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Obsidian Help URL",
+                    "target": "Obsidian 帮助 URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable Obsidian's help for developers in HelpMate",
+                    "target": "在 HelpMate 中启用面向开发者的 Obsidian 帮助"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Obsidian developer help URL",
+                    "target": "Obsidian 开发者帮助 URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable HelpMate's help in HelpMate",
+                    "target": "在 HelpMate 中启用 HelpMate 的帮助"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use IFRAME",
+                    "target": "使用 IFRAME"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Title | URL",
+                    "target": "标题 | URL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Navigate To",
+                    "target": "导航到"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Go Back",
+                    "target": "后退"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Go Forward",
+                    "target": "前进"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Obsidian Developer Help",
+                    "target": "Obsidian 开发者帮助"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Obsidian Help",
+                    "target": "Obsidian 帮助"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "HelpMate Help",
+                    "target": "HelpMate 帮助"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open site in browser",
+                    "target": "在浏览器中打开网站"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Code block from site",
+                    "target": "来自网站的代码块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Plugin settings",
+                    "target": "插件设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open sidepane",
+                    "target": "打开侧边栏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Enter URL",
+                    "target": "输入 URL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "List of custom help resources",
+                    "target": "自定义帮助资源列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Add custom help resources to be displayed in HelpMate. Please note some sites will not\n               work on mobile devices, due to some characteristics of Obsidian Mobile even though they work on Obsidian Desktop.  Input a list of URLs, \n               one per line using the following format: \"Title | URL\". Title is the name of the resources, and URL is the the website. For example: ",
+                    "target": "添加要在 HelpMate 中显示的自定义帮助资源。请注意，由于 Obsidian Mobile 的某些特性，一些网站即使在 Obsidian Desktop 上可用，在移动设备上也无法工作。输入 URL 列表，\n               每行一个，使用以下格式：“Title | URL”。Title 为资源名称，URL 为网站。例如： "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Example Help | https://help.example.com",
+                    "target": "示例帮助 | https://help.example.com"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "IFrame Browser Content",
+                    "target": "IFrame 浏览器内容"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
