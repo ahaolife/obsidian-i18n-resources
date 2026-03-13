@@ -1,0 +1,865 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "memochron",
+        "version": "1.0.0",
+        "title": "MemoChron",
+        "description": "MemoChron Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.13.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"10\" fill=\"none\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"12\" y=\"17\" text-anchor=\"middle\" font-size=\"16\" fill=\"#888\">+</text></svg>",
+                    "target": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"10\" fill=\"none\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"12\" y=\"17\" text-anchor=\"middle\" font-size=\"16\" fill=\"#888\">+</text></svg>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "Copy the <strong>Secret address in iCal format</strong>",
+                    "target": "复制<strong>iCal 格式的私密地址</strong>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "Copy the <strong>ICS link</strong> (not the HTML link)",
+                    "target": "复制<strong>ICS 链接</strong>（不是 HTML 链接）"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<strong>Using the public link</strong> - This opens a webpage, not calendar data",
+                    "target": "<strong>使用公开链接</strong> - 这会打开网页，而不是日历数据"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<strong>Missing the .ics extension</strong> - The URL should end with .ics",
+                    "target": "<strong>缺少 .ics 扩展名</strong> - URL 应以 .ics 结尾"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Use defaults",
+                    "target": "使用默认值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "12-hour (1:30 PM)",
+                    "target": "12 小时制（下午 1:30）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "24-hour (13:30)",
+                    "target": "24 小时制（13:30）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to convert ICAL time:",
+                    "target": "转换 ICAL 时间失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error fetching calendars:",
+                    "target": "获取日历出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error reading local calendar file:",
+                    "target": "读取本地日历文件时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error creating note:",
+                    "target": "创建笔记时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error building file path:",
+                    "target": "构建文件路径时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error generating note content:",
+                    "target": "生成笔记内容时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error formatting title:",
+                    "target": "格式化标题时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to load daily notes:",
+                    "target": "加载每日笔记失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error checking daily note:",
+                    "target": "检查每日笔记时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to handle daily note:",
+                    "target": "处理每日笔记失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to create note:",
+                    "target": "创建笔记失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to import ICS file:",
+                    "target": "导入 ICS 文件失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Custom settings not found when rendering custom settings",
+                    "target": "渲染自定义设置时未找到自定义设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom daily note settings found!",
+                    "target": "未找到自定义每日笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom weekly note settings found!",
+                    "target": "未找到自定义每周笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom monthly note settings found!",
+                    "target": "未找到自定义每月笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom quarterly note settings found!",
+                    "target": "未找到自定义每季度笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom yearly note settings found!",
+                    "target": "未找到自定义每年笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Refreshing custom settings with current defaults",
+                    "target": "正在使用当前默认值刷新自定义设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Add calendar",
+                    "target": "添加日历"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Which day the calendar week starts on",
+                    "target": "日历周从哪一天开始"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Display week numbers in the calendar view",
+                    "target": "在日历视图中显示周编号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show only the agenda view without the month calendar",
+                    "target": "仅显示日程视图，不显示月历"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Color-code calendars for easy identification",
+                    "target": "为日历设置颜色编码，便于识别"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enter a calendar URL (http:// or https://) or a vault-relative file path ending in .ics",
+                    "target": "输入日历 URL（http:// 或 https://）或以 .ics 结尾的 vault 相对文件路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Comma-separated tags for event notes",
+                    "target": "事件笔记的逗号分隔标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Display this calendar in the sidebar widget",
+                    "target": "在侧边栏小部件中显示此日历"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Configure attendee type filtering in the Advanced section below.",
+                    "target": "在下方“高级”部分配置参与者类型筛选。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Display the daily note as an entry in the agenda view",
+                    "target": "在日程视图中将每日笔记显示为一条条目"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Minutes between calendar data refreshes",
+                    "target": "日历数据刷新间隔（分钟）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Where to save new event notes",
+                    "target": "新事件笔记的保存位置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Format for new note titles. Available variables: {{event_title}}, {{date}}, {{start_date}}, {{end_date}}, {{start_time}}, {{end_time}}, {{source}}, {{location}}, {{description}}",
+                    "target": "新笔记标题的格式。可用变量：{{event_title}}, {{date}}, {{start_date}}, {{end_date}}, {{start_time}}, {{end_time}}, {{source}}, {{location}}, {{description}}"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose how dates appear in event notes. Hyphens are used (no slashes) so dates work in filenames and YAML properties.",
+                    "target": "选择事件笔记中日期的显示方式。使用连字符（不使用斜杠），以便日期可用于文件名和 YAML 属性。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose how times appear in event notes and calendar view",
+                    "target": "选择事件笔记和日历视图中时间的显示方式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "YAML frontmatter to add at the top of each event note",
+                    "target": "添加到每个事件笔记顶部的 YAML 前置元数据"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Automatically create wiki links [[Name]] for event attendees. Obsidian will find the notes regardless of their folder location.",
+                    "target": "为事件参与者自动创建 wiki 链接 [[Name]]。Obsidian 无论笔记所在文件夹位置如何都能找到这些笔记。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Default tags for all event notes (comma-separated)",
+                    "target": "所有事件笔记的默认标签（逗号分隔）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Override default notes settings for this calendar",
+                    "target": "覆盖此日历的默认笔记设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Date format for this calendar (hyphens, no slashes, for filenames and YAML)",
+                    "target": "此日历的日期格式（连字符，不使用斜杠，用于文件名和 YAML）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Time format for this calendar",
+                    "target": "此日历的时间格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Create wiki links for attendees in this calendar",
+                    "target": "为此日历的参与者创建 wiki 链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "First day of week",
+                    "target": "一周的第一天"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show week numbers",
+                    "target": "显示周数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Hide calendar grid",
+                    "target": "隐藏日历网格"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable calendar colors",
+                    "target": "启用日历颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "URL or file path",
+                    "target": "URL 或文件路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Display name",
+                    "target": "显示名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show in sidebar",
+                    "target": "在侧边栏显示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Note settings",
+                    "target": "笔记设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show daily note in agenda",
+                    "target": "在日程中显示每日笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Refresh interval",
+                    "target": "刷新间隔"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Note location",
+                    "target": "笔记位置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Note title format",
+                    "target": "笔记标题格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Note date format",
+                    "target": "笔记日期格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Note time format",
+                    "target": "笔记时间格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default frontmatter",
+                    "target": "默认 Frontmatter"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Create links for attendees",
+                    "target": "为与会者创建链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Filtered attendees",
+                    "target": "筛选后的与会者"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default tags",
+                    "target": "默认标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use custom notes settings",
+                    "target": "使用自定义笔记设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Calendar name",
+                    "target": "日历名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "work, meetings",
+                    "target": "工作、会议"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "{{event_title}} - {{start_date}}",
+                    "target": "{{event_title}} - {{start_date}}"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "---\ntype: event\ndate: {{start_date}}\n---",
+                    "target": "---\ntype: event\ndate: {{start_date}}\n---"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "John Doe, Jane Smith",
+                    "target": "John Doe, Jane Smith"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "event, meeting",
+                    "target": "事件, 会议"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Choose ICS file from vault",
+                    "target": "从库中选择 ICS 文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to use ical.js toJSDate(), falling back to manual construction:",
+                    "target": "无法使用 ical.js 的 toJSDate()，将回退到手动构建："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "toJSDate failed for custom TZID, falling back to manual conversion:",
+                    "target": "自定义 TZID 的 toJSDate 失败，将回退到手动转换："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "No enabled calendar sources to fetch.",
+                    "target": "没有可获取的已启用日历源。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Unexpected error during timezone registration:",
+                    "target": "时区注册期间发生意外错误："
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Unable to create new file.",
+                    "target": "无法创建新文件。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Daily Notes core plugin is not enabled. Please enable it in Settings > Core plugins.",
+                    "target": "每日笔记核心插件未启用。请在 设置 > 核心插件 中启用它。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Moment.js is not available",
+                    "target": "Moment.js 不可用"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to open daily note. Make sure Daily Notes plugin is enabled and configured.",
+                    "target": "无法打开每日笔记。请确保已启用并配置每日笔记插件。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to create note. Check the console for details.",
+                    "target": "创建笔记失败。请查看控制台获取详细信息。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please set a note location in settings first",
+                    "target": "请先在设置中设置笔记位置"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Could not open the note in a new tab",
+                    "target": "无法在新标签页中打开该笔记"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please drop an ICS calendar file",
+                    "target": "请拖入一个 ICS 日历文件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No ICS files found in vault",
+                    "target": "库中未找到 ICS 文件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to create note",
+                    "target": "创建笔记失败"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "View options",
+                    "target": "查看选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "(usually people)",
+                    "target": "（通常为人员）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "(distribution lists)",
+                    "target": "（分发列表）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "(meeting spaces)",
+                    "target": "（会议空间）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "URL or file path is required",
+                    "target": "需要 URL 或文件路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "This is a Google Calendar public link, not an iCal feed URL.",
+                    "target": "这是 Google 日历的公开链接，不是 iCal 订阅 URL。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "This is a Google Calendar app link, not an iCal feed URL.",
+                    "target": "这是 Google 日历应用链接，不是 iCal 订阅 URL。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "This doesn't appear to be a valid Google Calendar iCal URL.",
+                    "target": "这似乎不是有效的 Google 日历 iCal URL。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "This appears to be an Outlook sharing link. Please use the ICS subscription URL instead.",
+                    "target": "这似乎是 Outlook 共享链接。请改用 ICS 订阅 URL。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Invalid URL format",
+                    "target": "URL 格式无效"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "File path contains invalid characters",
+                    "target": "文件路径包含无效字符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Refresh interval must be a number",
+                    "target": "刷新间隔必须是数字"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Refresh interval must be greater than 0",
+                    "target": "刷新间隔必须大于 0"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "ISO (YYYY-MM-DD)",
+                    "target": "ISO（YYYY-MM-DD）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "US (MM-DD-YYYY)",
+                    "target": "美国（MM-DD-YYYY）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "UK (DD-MM-YYYY)",
+                    "target": "英国（DD-MM-YYYY）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Long (Month DD, YYYY)",
+                    "target": "长格式（Month DD, YYYY）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "24-hour (13:30)",
+                    "target": "24 小时制（13:30）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "12-hour (1:30 PM)",
+                    "target": "12 小时制（1:30 PM）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "New calendar",
+                    "target": "新建日历"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Force refresh calendars",
+                    "target": "强制刷新日历"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Go to today",
+                    "target": "转到今天"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle calendar visibility",
+                    "target": "切换日历可见性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No events scheduled",
+                    "target": "未安排事件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Daily Note",
+                    "target": "每日笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "📝 Open daily note",
+                    "target": "📝 打开每日笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "All day",
+                    "target": "全天"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "How do I get the correct URL?",
+                    "target": "如何获取正确的 URL？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Filter which attendee types appear in event notes. Most calendars only mark rooms and resources explicitly.",
+                    "target": "筛选哪些参会者类型会出现在事件备注中。大多数日历只会明确标记会议室和资源。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Available variables: {YYYY}, {YY}, {MM}, {M}, {MMM}, {MMMM}, {DD}, {D}, {DDD}, {DDDD}, {Q}, {source}, {event_title}",
+                    "target": "可用变量：{YYYY}, {YY}, {MM}, {M}, {MMM}, {MMMM}, {DD}, {D}, {DDD}, {DDDD}, {Q}, {source}, {event_title}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Examples: {YYYY}/{MM}, {YYYY}-{MMM}, {source}/{YYYY}/{MMM}",
+                    "target": "示例：{YYYY}/{MM}, {YYYY}-{MMM}, {source}/{YYYY}/{MMM}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Preview: Notes will be saved directly in the note location folder",
+                    "target": "预览：笔记将直接保存在笔记位置文件夹中"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "How to Get the Correct Calendar URL",
+                    "target": "如何获取正确的日历 URL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Google Calendar",
+                    "target": "Google 日历"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Open Google Calendar in your browser",
+                    "target": "在浏览器中打开 Google 日历"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Click the gear icon (⚙️) → Settings",
+                    "target": "点击齿轮图标（⚙️）→ 设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "In the left sidebar, click on the calendar you want to add",
+                    "target": "在左侧边栏中，点击你想添加的日历"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Scroll down to \"Integrate calendar\"",
+                    "target": "向下滚动到“集成日历”"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Correct URL looks like: ",
+                    "target": "正确的 URL 如下："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Outlook / Microsoft 365",
+                    "target": "Outlook / Microsoft 365"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Open Outlook calendar on the web (outlook.office.com)",
+                    "target": "在网页上打开 Outlook 日历（outlook.office.com）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Click the gear icon → View all Outlook settings",
+                    "target": "点击齿轮图标 → 查看所有 Outlook 设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Go to Calendar → Shared calendars",
+                    "target": "前往“日历” → “共享日历”"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Under \"Publish a calendar\", select your calendar and permissions",
+                    "target": "在“发布日历”下，选择你的日历和权限"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Apple iCloud Calendar",
+                    "target": "Apple iCloud 日历"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Open the Calendar app on your Mac",
+                    "target": "在你的 Mac 上打开“日历”应用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Right-click on the calendar → Share Calendar",
+                    "target": "右键点击该日历 → 共享日历"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Check \"Public Calendar\" to make it shareable",
+                    "target": "勾选“公开日历”使其可共享"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Click \"Copy Link\" to get the subscription URL",
+                    "target": "点击“复制链接”获取订阅 URL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Common Mistakes",
+                    "target": "常见错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "View full documentation on GitHub",
+                    "target": "在 GitHub 上查看完整文档"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Sample Meeting",
+                    "target": "示例会议"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
