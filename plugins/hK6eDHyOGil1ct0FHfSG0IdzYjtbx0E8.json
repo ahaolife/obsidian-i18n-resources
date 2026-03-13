@@ -1,0 +1,133 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "quote-of-the-day",
+        "version": "1.0.0",
+        "title": "Quote of the Day",
+        "description": "Quote of the Day Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Loading Quote of the Day plugin...",
+                    "target": "正在加载每日一言插件..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Format the way the quote is displayed",
+                    "target": "设置引言的显示格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Format the way the quote tags are displayed",
+                    "target": "设置引言标签的显示格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Display the quote tags",
+                    "target": "显示引言标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Display the quote tags with # symbol",
+                    "target": "使用 # 符号显示引言标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Interval to check for quote placeholder presence and quote generation",
+                    "target": "检查引言占位符是否存在及生成引言的间隔"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Quote Format",
+                    "target": "引言格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Quote Tag Format",
+                    "target": "引言标签格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show Quote Tags",
+                    "target": "显示引言标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show Quote Tags Hashtag",
+                    "target": "显示引言标签话题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Quote Placeholder Interval",
+                    "target": "每日引言占位间隔"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Quote of the Day Filters",
+                    "target": "每日引言筛选"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Quote format",
+                    "target": "引言格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Quote tag format",
+                    "target": "引言标签格式"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Invalid format! Missing {author} or {content} field",
+                    "target": "格式无效！缺少 {author} 或 {content} 字段"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Invalid format! Missing {tags} field",
+                    "target": "格式无效！缺少 {tags} 字段"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert Random Quote of the Day",
+                    "target": "插入随机每日引言"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert Random Quote of the Day by selected tag",
+                    "target": "按所选标签插入随机每日引言"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Quote of the Day Settings",
+                    "target": "每日引言设置"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
