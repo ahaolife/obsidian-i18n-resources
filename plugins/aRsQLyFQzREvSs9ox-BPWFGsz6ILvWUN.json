@@ -1,0 +1,265 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "papyrus",
+        "version": "1.0.0",
+        "title": "Papyrus",
+        "description": "Papyrus Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "placeholder",
+                    "source": "Choose filename",
+                    "target": "选择文件名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unexpected end",
+                    "target": "意外结束"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Cannot write after close. Assign an onready handler.",
+                    "target": "关闭后无法写入。请分配一个 onready 处理程序。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Could not parse message into JSON:",
+                    "target": "无法将消息解析为 JSON："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "From chunk:",
+                    "target": "来自分块："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error loading:",
+                    "target": "加载出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "File not open",
+                    "target": "文件未打开"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Using RetryOperation.try() is deprecated",
+                    "target": "使用 RetryOperation.try() 已弃用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Using RetryOperation.start() is deprecated",
+                    "target": "使用 RetryOperation.start() 已弃用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[WARNING]: Received non-string content from OpenAI. This is currently not supported.",
+                    "target": "[警告]：从 OpenAI 收到了非字符串内容。目前不支持。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "User input:",
+                    "target": "用户输入："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Try again",
+                    "target": "重试"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Next question",
+                    "target": "下一个问题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Use this version",
+                    "target": "使用此版本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Generate again",
+                    "target": "重新生成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Close and add tasks to document",
+                    "target": "关闭并将任务添加到文档"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Start chat",
+                    "target": "开始聊天"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Key to access OpenAI's APIs",
+                    "target": "用于访问 OpenAI API 的密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose which GPT model to use",
+                    "target": "选择要使用的 GPT 模型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "OpenAI key",
+                    "target": "OpenAI 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "GPT model",
+                    "target": "GPT 模型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter your key",
+                    "target": "请输入密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to calculate number of tokens, falling back to approximate count",
+                    "target": "无法计算令牌数量，改用近似计数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "String does not match pattern.",
+                    "target": "字符串不匹配该模式。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Analyse project structure",
+                    "target": "分析项目结构"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Create actionable tasks from document",
+                    "target": "从文档创建可执行任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Correct document's grammar",
+                    "target": "纠正文档语法"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Translate document to another language",
+                    "target": "将文档翻译为另一种语言"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Chat with a custom persona",
+                    "target": "与自定义角色聊天"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Review document's content",
+                    "target": "审查文档内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Help us help you...",
+                    "target": "帮我们更好地帮助你..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Type a message...",
+                    "target": "输入消息..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Enter title here",
+                    "target": "在此输入标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Enter description here",
+                    "target": "在此输入描述"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Content review",
+                    "target": "内容审核"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "You are perfect just the way you are!",
+                    "target": "你现在的样子就很完美！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Hit it DJ",
+                    "target": "DJ，来吧"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Get out",
+                    "target": "出去"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "There was an error",
+                    "target": "发生错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "There's nothing I can help you with! You've done it!",
+                    "target": "我没有什么能帮你的了！你做到了！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Select persona",
+                    "target": "选择角色"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
