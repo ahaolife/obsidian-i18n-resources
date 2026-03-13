@@ -1,0 +1,673 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "e-upload",
+        "version": "1.0.0",
+        "title": "EUpload",
+        "description": "EUpload Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "padding: 2px; border-radius: 2px 0 0 2px; color: #fff; background: #5B5B5B;",
+                    "target": "padding: 2px; border-radius: 2px 0 0 2px; color: #fff; background: #5B5B5B;"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "padding: 2px; border-radius: 0 2px 2px 0; color: #fff; background: #409EFF;",
+                    "target": "padding: 2px; border-radius: 0 2px 2px 0; color: #fff; background: #409EFF;"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "上传文件 API 地址，如：https://xxx.xxx.xxx/api/v1/upload，注意末尾不添加 `/`",
+                    "target": "上传文件 API 地址，如：https://xxx.xxx.xxx/api/v1/upload，注意末尾不添加 `/`"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "POST Header，JSON 格式",
+                    "target": "POST Header，JSON 格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "POST Body，JSON 格式",
+                    "target": "POST Body，JSON 格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "返回数据（Response）中图片 URL 字段路径，以 JSON 对象为例，如：data.pathname",
+                    "target": "返回数据（Response）中图片 URL 字段路径，以 JSON 对象为例，如：data.pathname"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "可选，当填入时，此值将插入到图片 URL 路径之前，即：URL = 前缀 + 图片 URL 路径",
+                    "target": "可选，当填入时，此值将插入到图片 URL 路径之前，即：URL = 前缀 + 图片 URL 路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "上传文件 API 地址，注意末尾不添加 `/`，如：https://xxx.xxx.xxx/apis/api.console.halo.run/v1alpha1/attachments/upload",
+                    "target": "上传文件 API 地址，注意末尾不添加 `/`，如：https://xxx.xxx.xxx/apis/api.console.halo.run/v1alpha1/attachments/upload"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "上传文件 API 地址，注意末尾不添加 `/`，如：https://api.github.com",
+                    "target": "上传文件 API 地址，注意末尾不添加 `/`，如：https://api.github.com"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "POST Header，JSON 格式，替换 token [xxx] => Personal access tokens",
+                    "target": "POST Header，JSON 格式，替换 token [xxx] => Personal access tokens"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "POST Body，JSON 格式，尽量保留 $ 字段",
+                    "target": "POST Body，JSON 格式，尽量保留 $ 字段"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "返回数据（Response）中图片 URL 字段路径，以 JSON 对象为例，如：data.pathname。本例：content.download_url（完整链接），content.path（局部路径）",
+                    "target": "返回数据（Response）中图片 URL 字段路径，以 JSON 对象为例，如：data.pathname。本例：content.download_url（完整链接），content.path（局部路径）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "可选，当填入时，URL = 前缀 + 图片的路径值",
+                    "target": "可选，当填入时，URL = 前缀 + 图片的路径值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "选择一种模式",
+                    "target": "选择一种模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "API 请求地址",
+                    "target": "API 请求地址"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "API 请求头",
+                    "target": "API 请求头"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "API 请求体",
+                    "target": "API 请求体"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "图片 URL 路径",
+                    "target": "图片 URL 路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "图片 URL 前缀",
+                    "target": "图片 URL 前缀"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "模式",
+                    "target": "模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "输入合法的请求头",
+                    "target": "输入合法的请求头"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "输入合法的请求体",
+                    "target": "输入合法的请求体"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "{\n  \"Authorization\":\"token [xxx]\"\n}",
+                    "target": "{\n  \"Authorization\":\"token [xxx]\"\n}"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "{\n\"owner\": \"\",\n\"repo\": \"\",\n\"branch\": \"\",\n\"path\": \"$PATH\",\n\"message\": \"\",\n\"content\": \"$CONTENT\"\n}",
+                    "target": "{\n\"owner\": \"\",\n\"repo\": \"\",\n\"branch\": \"\",\n\"path\": \"$PATH\",\n\"message\": \"\",\n\"content\": \"$CONTENT\"\n}"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Status Bar Text",
+                    "target": "状态栏文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "*owner: \\u7528\\u6237, \n*repo: \\u4ED3\\u5E93\\u540D, \n*path: \\u8DEF\\u5F84, \nbranch\\uFF1A\\u5206\\u652F, \n*message: \\u6D88\\u606F, \n*content: base64\\u56FE\\u7247",
+                    "target": "*owner: \\u7528\\u6237, \n*repo: \\u4ED3\\u5E93\\u540D, \n*path: \\u8DEF\\u5F84, \nbranch\\uFF1A\\u5206\\u652F, \n*message: \\u6D88\\u606F, \n*content: base64\\u56FE\\u7247"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "不合法文件，请重新尝试",
+                    "target": "不合法文件，请重新尝试"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "未配置上传器，请检查设置",
+                    "target": "未配置上传器，请检查设置"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "准备上传",
+                    "target": "准备上传"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "没有匹配到文件",
+                    "target": "没有匹配到文件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "文件读取失败",
+                    "target": "文件读取失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "上传成功",
+                    "target": "上传成功"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "This is a notice!",
+                    "target": "这是一条通知！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Advanced Audio Coding (AAC) is an audio coding standard for lossy digital audio compression",
+                    "target": "高级音频编码（AAC）是一种用于有损数字音频压缩的音频编码标准"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "MPEG-4 Advanced Audio Coding (AAC) Low Complexity (LC) audio file",
+                    "target": "MPEG-4 高级音频编码（AAC）低复杂度（LC）音频文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "MPEG-2 Advanced Audio Coding (AAC) Low Complexity (LC) audio file",
+                    "target": "MPEG-2 高级音频编码（AAC）低复杂度（LC）音频文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Adaptive Multi-Rate ACELP (Algebraic Code Excited Linear Prediction) Codec, commonly audio format with GSM cell phones",
+                    "target": "自适应多速率 ACELP（代数码激励线性预测）编解码器，常用于 GSM 手机的音频格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Free Lossless Audio Codec file",
+                    "target": "Free Lossless Audio Codec 文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Apple Lossless Audio Codec file",
+                    "target": "Apple Lossless Audio Codec 文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "A digital audio file format that uses compression to reduce file size while maintaining high quality sound",
+                    "target": "一种使用压缩在保持高质量音效的同时减小文件大小的数字音频文件格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "MPEG-1 Layer 3 file without an ID3 tag or with an ID3v1 tag (which is appended at the end of the file)",
+                    "target": "不含 ID3 标签或含 ID3v1 标签（附加在文件末尾）的 MPEG-1 Layer 3 文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "MP3 file with an ID3v2 container",
+                    "target": "带有 ID3v2 容器的 MP3 文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Waveform Audio File Format",
+                    "target": "波形音频文件格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "7-Zip compressed file",
+                    "target": "7-Zip 压缩文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Roshal ARchive compressed archive file",
+                    "target": "Roshal ARchive 压缩归档文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Compressed archive v5.00 onwards",
+                    "target": "压缩归档 v5.00 及以上版本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Compressed archive v1.50 onwards",
+                    "target": "压缩归档 v1.50 及以上版本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Compressed archive file",
+                    "target": "压缩归档文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "WinZip compressed archive",
+                    "target": "WinZip 压缩归档"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "ZLock Pro encrypted ZIP",
+                    "target": "ZLock Pro 加密 ZIP"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "PKLITE compressed ZIP archive (see also PKZIP)",
+                    "target": "PKLITE 压缩的 ZIP 存档（另见 PKZIP）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "PKSFX self-extracting executable compressed file (see also PKZIP)",
+                    "target": "PKSFX 自解压可执行压缩文件（另见 PKZIP）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "PKZIP archive file - zip file format and multiple formats based on it",
+                    "target": "PKZIP 存档文件 - zip 文件格式及基于它的多种格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "PKZIP multivolume archive file - zip file format and multiple formats based on it",
+                    "target": "PKZIP 多卷存档文件 - zip 文件格式及基于它的多种格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Blender File Format",
+                    "target": "Blender 文件格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Executable and Linking Format executable file (Linux/Unix)",
+                    "target": "可执行与链接格式（ELF）可执行文件（Linux/Unix）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Adobe InDesign document",
+                    "target": "Adobe InDesign 文档"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Portable Document Format",
+                    "target": "便携式文档格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Apache ORC (Optimized Row Columnar) file format for columnar storage",
+                    "target": "用于列式存储的 Apache ORC（优化的行式列存）文件格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Apache Parquet file format for columnar storage",
+                    "target": "用于列式存储的 Apache Parquet 文件格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "PostScript document",
+                    "target": "PostScript 文档"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Rich Text Format word processing file",
+                    "target": "富文本格式字处理文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "SQLite database file",
+                    "target": "SQLite 数据库文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "ASCII STL (STereoLithography) file for 3D printing",
+                    "target": "用于 3D 打印的 ASCII STL（STereoLithography）文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "TrueType font file",
+                    "target": "TrueType 字体文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Alliance for Open Media (AOMedia) Video 1 (AV1) Image File",
+                    "target": "开放媒体联盟（AOMedia）视频 1（AV1）图像文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "A bitmap format used mostly in Windows",
+                    "target": "主要在 Windows 中使用的位图格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Better Portable Graphics image format",
+                    "target": "更好的便携式图形（BPG）图像格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Canon digital camera RAW file",
+                    "target": "佳能数码相机 RAW 文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "OpenEXR bitmap image format",
+                    "target": "OpenEXR 位图图像格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Image file encoded in the Graphics Interchange Format (GIF)",
+                    "target": "以图形交换格式（GIF）编码的图像文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "A variant of the HEIF (High Efficiency Image Format) that store images on the latest Apple devices.",
+                    "target": "在最新苹果设备上存储图像的 HEIF（高效图像格式）变体。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Computer icon encoded in ICO file format",
+                    "target": "以 ICO 文件格式编码的计算机图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "JPEG (Joint Photographic Experts Group) is a widely used lossy image compression format.",
+                    "target": "JPEG（联合图像专家组）是一种广泛使用的有损图像压缩格式。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Digital camera JPG using Exchangeable Image File Format (EXIF)",
+                    "target": "使用可交换图像文件格式（EXIF）的数码相机 JPG"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Still Picture Interchange File Format (SPIFF)",
+                    "target": "静态图片交换文件格式（SPIFF）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "JPEG raw or in the JFIF or Exif file format",
+                    "target": "JPEG 原始格式或 JFIF/Exif 文件格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "JPEG/JFIF graphics file",
+                    "target": "JPEG/JFIF 图形文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Generic JPEGimage file",
+                    "target": "通用 JPEG 图像文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "PBM (Portable Bitmap) is a simple monochrome bitmap image format that uses plain text ASCII characters to represent binary image data",
+                    "target": "PBM（便携式位图）是一种简单的单色位图图像格式，使用纯文本 ASCII 字符来表示二进制图像数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Portable bitmap ASCII",
+                    "target": "可移植位图 ASCII"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Portable bitmap binary",
+                    "target": "可移植位图二进制"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "PGM (Portable Graymap) is a simple grayscale image format that uses ASCII text characters to represent binary image data.",
+                    "target": "PGM（可移植灰度图）是一种简单的灰度图像格式，使用 ASCII 文本字符来表示二进制图像数据。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Portable Gray Map ASCII",
+                    "target": "可移植灰度图 ASCII"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Portable Gray Map binary",
+                    "target": "可移植灰度图二进制"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "PNG (Portable Network Graphics) is a lossless image compression format that supports a wide range of color depths and transparency and is widely used for high-quality graphics.",
+                    "target": "PNG（可移植网络图形）是一种无损图像压缩格式，支持广泛的色深和透明度，广泛用于高质量图形。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "PPM (Portable Pixmap) is a simple color image format in the Portable Network Graphics (PNG) suite.",
+                    "target": "PPM（可移植像素图）是可移植网络图形（PNG）套件中的一种简单彩色图像格式。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Portable Pixmap ASCII",
+                    "target": "可移植像素图 ASCII"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Portable Pixmap binary",
+                    "target": "可移植像素图二进制"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "PSD (Photoshop Document) is an Adobe Photoshop image file format",
+                    "target": "PSD（Photoshop 文档）是 Adobe Photoshop 的图像文件格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "A modern image format that provides superior lossless and lossy compression for images on the web",
+                    "target": "一种现代图像格式，为网页图像提供优异的无损和有损压缩"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Audio Video Interleave video format",
+                    "target": "音频视频交错（AVI）视频格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Flash Video file",
+                    "target": "Flash 视频文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Apple's video container format, very similar to MP4",
+                    "target": "苹果的视频容器格式，与 MP4 非常相似"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "MPEG-4 video | QuickTime file",
+                    "target": "MPEG-4 视频 | QuickTime 文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "MKV (Matroska Video) is a flexible, open-source media container format that supports multiple audio, video, and subtitle streams in a single file",
+                    "target": "MKV（Matroska Video）是一种灵活的开源媒体容器格式，可在单个文件中支持多个音频、视频和字幕流"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "EBML identifier",
+                    "target": "EBML 标识符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "QuickTime movie file",
+                    "target": "QuickTime 影片文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "A multimedia container format widely used for storing audio, video, and other data, and is known for its high compression efficiency and compatibility with many devices",
+                    "target": "一种广泛用于存储音频、视频和其他数据的多媒体容器格式，以高压缩效率和与多设备兼容性著称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "MPEG-4 video file",
+                    "target": "MPEG-4 视频文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "ISO Base Media file (MPEG-4) v1",
+                    "target": "ISO 基础媒体文件（MPEG-4）v1"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Ogg Vorbis Codec compressed Multimedia file",
+                    "target": "Ogg Vorbis 编解码器压缩的多媒体文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "SWF (Shockwave Flash) is a file format for multimedia, vector graphics, and ActionScript, used for creating and delivering animations, games, and other interactive web-based content",
+                    "target": "SWF（Shockwave Flash）是一种用于多媒体、矢量图形和 ActionScript 的文件格式，用于创建和发布动画、游戏及其他交互式 Web 内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Macromedia Shockwave Flash player file (zlib compressed, SWF 6 and later)",
+                    "target": "Macromedia Shockwave Flash 播放器文件（zlib 压缩，SWF 6 及更高版本）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Macromedia Shockwave Flash player file (uncompressed)",
+                    "target": "Macromedia Shockwave Flash 播放器文件（未压缩）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "WebM is a royalty-free, open-source media file format optimized for web delivery, using efficient VP8 video and Vorbis audio codecs",
+                    "target": "WebM 是一种免版税的开源媒体文件格式，针对 Web 传输优化，使用高效的 VP8 视频和 Vorbis 音频编解码器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Lsky 设置",
+                    "target": "Lsky 设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Halo 设置",
+                    "target": "Halo 设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Github 设置",
+                    "target": "Github 设置"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
