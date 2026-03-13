@@ -1,0 +1,325 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "file-ignore",
+        "version": "1.0.0",
+        "title": "File Ignore",
+        "description": "File Ignore Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<svg viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"12\"></line><line x1=\"12\" y1=\"16\" x2=\"12.01\" y2=\"16\"></line></svg>",
+                    "target": "<svg viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"12\"></line><line x1=\"12\" y1=\"16\" x2=\"12.01\" y2=\"16\"></line></svg>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<svg viewBox=\"0 0 24 24\" fill=\"none\" width=\"16\" height=\"16\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"12\" y1=\"16\" x2=\"12\" y2=\"12\"></line><line x1=\"12\" y1=\"8\" x2=\"12.01\" y2=\"8\"></line></svg>",
+                    "target": "<svg viewBox=\"0 0 24 24\" fill=\"none\" width=\"16\" height=\"16\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"12\" y1=\"16\" x2=\"12\" y2=\"12\"></line><line x1=\"12\" y1=\"8\" x2=\"12.01\" y2=\"8\"></line></svg>"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[file-ignore] Failed to read file:",
+                    "target": "[file-ignore] 读取文件失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[file-ignore] Failed to check directory:",
+                    "target": "[file-ignore] 检查目录失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[file-ignore] Failed to get file info:",
+                    "target": "[file-ignore] 获取文件信息失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[file-ignore] Error updating display:",
+                    "target": "[file-ignore] 更新显示时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[file-ignore] Plugin loading error:",
+                    "target": "[file-ignore] 插件加载错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[file-ignore] Hide operation failed:",
+                    "target": "[file-ignore] 隐藏操作失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[file-ignore] Show operation failed:",
+                    "target": "[file-ignore] 显示操作失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[file-ignore] Error in applyRules:",
+                    "target": "[file-ignore] applyRules 中出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[file-ignore] Rollback operation failed:",
+                    "target": "[file-ignore] 回滚操作失败："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Add dot prefix to hide matched files",
+                    "target": "为匹配的文件添加点前缀以隐藏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Write detailed diagnostics to the developer console.",
+                    "target": "将详细的诊断信息写入开发者控制台。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "If you find this plugin helpful, consider supporting its development.",
+                    "target": "如果您觉得这个插件有帮助，请考虑支持其开发。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "为匹配的文件添加点前缀以隐藏",
+                    "target": "为匹配的文件添加点前缀以隐藏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "移除匹配文件的点前缀以显示",
+                    "target": "移除匹配文件的点前缀以显示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "将详细的诊断信息写入开发者控制台。",
+                    "target": "将详细的诊断信息写入开发者控制台。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "如果您觉得这个插件有帮助，请考虑支持其开发。",
+                    "target": "如果您觉得这个插件有帮助，请考虑支持其开发。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "為符合的檔案加入點字首以隱藏",
+                    "target": "为符合的文件添加点字首以隐藏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "移除符合檔案的點字首以顯示",
+                    "target": "移除符合文件的点字首以显示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "將詳細的診斷訊息寫入開發者控制台。",
+                    "target": "将详细的诊断信息写入开发者控制台。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "如果您覺得這個外掛有幫助，請考慮支持其開發。",
+                    "target": "如果您觉得这个插件有帮助，请考虑支持其开发。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Failed to hide files: ",
+                    "target": "隐藏文件失败："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Failed to show files: ",
+                    "target": "显示文件失败："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "隐藏文件失败：",
+                    "target": "隐藏文件失败："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "显示文件失败：",
+                    "target": "显示文件失败："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "隱藏檔案失敗：",
+                    "target": "隐藏文件失败："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "顯示檔案失敗：",
+                    "target": "显示文件失败："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Anno Domini",
+                    "target": "公元"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Before Christ",
+                    "target": "公元前"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Hide files",
+                    "target": "隐藏文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show files",
+                    "target": "显示文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Debug Logging",
+                    "target": "调试日志"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Support the Developer",
+                    "target": "支持开发者"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "隐藏文件",
+                    "target": "隐藏文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "显示文件",
+                    "target": "显示文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "调试日志",
+                    "target": "调试日志"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "支持开发者",
+                    "target": "支持开发者"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "隱藏檔案",
+                    "target": "隐藏文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "顯示檔案",
+                    "target": "显示文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "偵錯日誌",
+                    "target": "调试日志"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "支持開發者",
+                    "target": "支持开发者"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "Files hidden successfully",
+                    "target": "文件已隐藏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "Files shown successfully",
+                    "target": "文件已显示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "文件已隐藏",
+                    "target": "文件已隐藏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "文件已显示",
+                    "target": "文件已显示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "檔案已隱藏",
+                    "target": "文件已隐藏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "檔案已顯示",
+                    "target": "文件已显示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Ignore Rules",
+                    "target": "忽略规则"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "忽略规则",
+                    "target": "忽略规则"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "忽略規則",
+                    "target": "忽略规则"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
