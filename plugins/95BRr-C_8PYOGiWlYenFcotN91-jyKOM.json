@@ -1,0 +1,337 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "readwise-official",
+        "version": "1.0.0",
+        "title": "Readwise Official",
+        "description": "Readwise Official Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "3.0.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Every 1 hour",
+                    "target": "每1小时"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Every 12 hours",
+                    "target": "每12小时"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Every 24 hours",
+                    "target": "每24小时"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Every week",
+                    "target": "每周"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " 📚",
+                    "target": " 📚"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Readwise Official plugin: completed sync",
+                    "target": "Readwise 官方插件: 同步完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Readwise Official plugin: unknown status in getExportStatus: ",
+                    "target": "Readwise 官方插件: getExportStatus 中状态未知: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Readwise Official plugin: bad response in getExportStatus: ",
+                    "target": "Readwise 官方插件: getExportStatus 中响应错误: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Readwise Official plugin: fetch failed in getExportStatus: ",
+                    "target": "Readwise 官方插件: getExportStatus 中获取失败: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Readwise Official plugin: requesting archive...",
+                    "target": "Readwise 官方插件: 正在请求归档..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Readwise Official plugin: fetch failed in queueExport: ",
+                    "target": "Readwise 官方插件：在 queueExport 中获取失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Readwise Official plugin: saved currentSyncStatusID",
+                    "target": "Readwise 官方插件：已保存 currentSyncStatusID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Readwise Official plugin: queueExport done",
+                    "target": "Readwise 官方插件：queueExport 完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Readwise Official plugin: bad response in queueExport: ",
+                    "target": "Readwise 官方插件：queueExport 中响应错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Readwise Official plugin: fetch failed in downloadExport: ",
+                    "target": "Readwise 官方插件：在 downloadExport 中获取失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Readwise Official plugin: bad response in downloadExport: ",
+                    "target": "Readwise 官方插件：downloadExport 中响应错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Writing full document text",
+                    "target": "正在写入完整文档文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Readwise Official plugin: metadata cache processing timeout reached.",
+                    "target": "Readwise 官方插件：元数据缓存处理已超时。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Readwise Official plugin: metadata cache processing has finished.",
+                    "target": "Readwise 官方插件：元数据缓存处理已完成。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Readwise Official plugin: fetch failed to acknowledged sync: ",
+                    "target": "Readwise 官方插件：确认同步时获取失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Readwise Official plugin: bad response in acknowledge sync: ",
+                    "target": "Readwise 官方插件：确认同步时响应异常："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Readwise Official plugin: setting interval to ",
+                    "target": "Readwise 官方插件：将间隔设置为 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Readwise Official plugin: no targetBookIds, checking for new highlights",
+                    "target": "Readwise 官方插件：没有 targetBookIds，正在检查新高亮"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Readwise Official plugin: refreshing books",
+                    "target": "Readwise 官方插件：正在刷新书籍"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Readwise Official plugin: fetch failed in syncBookHighlights: ",
+                    "target": "Readwise 官方插件：syncBookHighlights 中获取失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Readwise Official plugin: fetch failed in Reimport current file: ",
+                    "target": "Readwise 官方插件：重新导入当前文件时获取失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Readwise Official plugin: fetch failed in getUserAuthToken: ",
+                    "target": "Readwise 官方插件：getUserAuthToken 中获取失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Readwise Official plugin: bad response in getUserAuthToken: ",
+                    "target": "Readwise 官方插件：getUserAuthToken 中响应异常："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Readwise Official plugin: successfully authenticated with Readwise",
+                    "target": "Readwise 官方插件：已成功通过 Readwise 认证"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Initiate Sync",
+                    "target": "开始同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "On first sync, the Readwise plugin will create a new folder containing all your highlights",
+                    "target": "首次同步时，Readwise 插件将创建一个包含你所有标注的新文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "By default, the plugin will save all your highlights into a folder named Readwise",
+                    "target": "默认情况下，插件会将你所有的标注保存到名为 Readwise 的文件夹中"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If not set to Manual, Readwise will automatically resync with Obsidian when the app is open at the specified interval",
+                    "target": "如果未设置为“手动”，Readwise 会在应用打开时按指定间隔自动与 Obsidian 重新同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If enabled, Readwise will automatically resync with Obsidian each time you open the app",
+                    "target": "启用后，Readwise 会在每次打开应用时自动与 Obsidian 重新同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The Readwise plugin enables automatic syncing of all your highlights from Kindle, Instapaper, Pocket, and more. Note: Requires Readwise account.",
+                    "target": "Readwise 插件可自动同步你在 Kindle、Instapaper、Pocket 等来源的所有标注。注意：需要 Readwise 账号。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Sync your Readwise data with Obsidian",
+                    "target": "将 Readwise 数据与 Obsidian 同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Customize formatting options",
+                    "target": "自定义格式选项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Customize base folder",
+                    "target": "自定义基础文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Configure resync frequency",
+                    "target": "配置重新同步频率"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Sync automatically when Obsidian opens",
+                    "target": "在 Obsidian 打开时自动同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Resync deleted files",
+                    "target": "重新同步已删除的文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Connect Obsidian to Readwise",
+                    "target": "将 Obsidian 连接到 Readwise"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Defaults to: Readwise",
+                    "target": "默认为：Readwise"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Run sync",
+                    "target": "运行同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Delete and reimport this document?",
+                    "target": "删除并重新导入此文档？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Once the sync begins, you can close this plugin page",
+                    "target": "同步开始后，你可以关闭此插件页面"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Readwise sync already in progress",
+                    "target": "Readwise 同步已在进行中"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sync your data now",
+                    "target": "立即同步你的数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Customize formatting",
+                    "target": "自定义格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Delete and reimport this document",
+                    "target": "删除并重新导入此文档"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Don't ask me in the future",
+                    "target": "以后不要再问我"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Readwise Official",
+                    "target": "Readwise 官方"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Created by ",
+                    "target": "创建者："
+                }
+            ],
+            "regex": []
+        }
+    }
+}
