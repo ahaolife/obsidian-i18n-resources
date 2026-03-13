@@ -1,0 +1,127 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "img2html",
+        "version": "1.0.0",
+        "title": "Image to HTML",
+        "description": "Image to HTML Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "启用后，图片将保存到指定路径而不是当前文件所在目录",
+                    "target": "启用后，图片将保存到指定路径而不是当前文件所在目录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "设置图片保存的路径，可以是相对路径（如 ./assets）",
+                    "target": "设置图片保存的路径，可以是相对路径（如 ./assets）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "启用后，HTML 图片标签将包含 alt 属性，有助于无障碍性和 SEO，但会使标签更长",
+                    "target": "启用后，HTML 图片标签将包含 alt 属性，有助于无障碍性和 SEO，但会使标签更长"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "粘贴图片时显示通知",
+                    "target": "粘贴图片时显示通知"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "When enabled, images will be saved to the specified path instead of the current file directory",
+                    "target": "启用后，图片将保存到指定路径而不是当前文件所在目录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Set the path to save images, can be a relative path (e.g. ./assets)",
+                    "target": "设置图片保存的路径，可以是相对路径（如 ./assets）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "When enabled, HTML image tags will include the alt attribute, which helps with accessibility and SEO, but makes the tag longer",
+                    "target": "启用后，HTML 图片标签将包含 alt 属性，有助于无障碍性和 SEO，但会使标签更长"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Show notification when pasting images",
+                    "target": "粘贴图片时显示通知"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "图片宽度",
+                    "target": "图片宽度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "使用自定义图片路径",
+                    "target": "使用自定义图片路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "自定义图片路径",
+                    "target": "自定义图片路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "包含 alt 属性",
+                    "target": "包含 alt 属性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "显示通知",
+                    "target": "显示通知"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Image width",
+                    "target": "图片宽度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Use custom image path",
+                    "target": "使用自定义图片路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Custom image path",
+                    "target": "自定义图片路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Include alt attribute",
+                    "target": "包含 alt 属性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show notification",
+                    "target": "显示通知"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
