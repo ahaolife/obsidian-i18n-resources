@@ -1,0 +1,145 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-habit-tracker",
+        "version": "1.0.0",
+        "title": "Habit Tracker",
+        "description": "Habit Tracker Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.4",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The day a week begins.",
+                    "target": "一周开始的日期。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Treat your input text as HTML. Be careful, it may cause DOM injection attacks",
+                    "target": "将输入文本视为 HTML。请小心，可能导致 DOM 注入攻击"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "To format the month text which displays in the header",
+                    "target": "用于格式化显示在标题中的月份文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Default is SUN",
+                    "target": "默认是周日"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Default is MON",
+                    "target": "默认是周一"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Default is TUE",
+                    "target": "默认是周二"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Default is WED",
+                    "target": "默认是周三"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Default is THU",
+                    "target": "默认是周四"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Default is FRI",
+                    "target": "默认是周五"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Default is SAT",
+                    "target": "默认是周六"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Start Of Week",
+                    "target": "一周开始日"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Display Table Header",
+                    "target": "显示表格标题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable HTML",
+                    "target": "启用 HTML"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Month Format",
+                    "target": "月份格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Sunday Label",
+                    "target": "星期日标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Monday Label",
+                    "target": "星期一标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Tuesday Label",
+                    "target": "星期二标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Wednesday Label",
+                    "target": "星期三标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Thursday Label",
+                    "target": "星期四标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Friday Label",
+                    "target": "星期五标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Saturday Label",
+                    "target": "星期六标签"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
