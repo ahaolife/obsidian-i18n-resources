@@ -1,0 +1,253 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "fleeting-notes-obsidian",
+        "version": "1.0.0",
+        "title": "Fleeting Notes Sync",
+        "description": "Fleeting Notes Sync Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.6.3",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Realtime Two-way sync (FN ⇔ Obsidian)",
+                    "target": "实时双向同步（FN ⇔ Obsidian）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Realtime One-way sync (FN ⇒ Obsidian)",
+                    "target": "实时单向同步（FN ⇒ Obsidian）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "One-way sync (FN ⇒ Obsidian) + Delete from FN",
+                    "target": "单向同步（FN ⇒ Obsidian）+ 从 FN 删除"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "One-way sync (FN ⇒ Obsidian)",
+                    "target": "单向同步（FN ⇒ Obsidian）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error restoring session:",
+                    "target": "恢复会话时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Sign In",
+                    "target": "登录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Sign Out",
+                    "target": "退出登录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Manage your Fleeting Notes Account",
+                    "target": "管理你的 Fleeting Notes 账户"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Encryption key used to encrypt notes",
+                    "target": "用于加密笔记的加密密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Notes will be populated here",
+                    "target": "笔记将显示在这里"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Attachments will be populated here",
+                    "target": "附件将在此处填充"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Sync will be performed on startup and every 30 minutes",
+                    "target": "同步将在启动时及每30分钟执行一次"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "By default the ${title} variable populates the title in order of: Note title > Source title > Note ID",
+                    "target": "默认情况下，${title} 变量按以下顺序填充标题：笔记标题 > 来源标题 > 笔记 ID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Only editable in one-way sync",
+                    "target": "仅在单向同步中可编辑"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Affected variables: created_date, last_modified_date. For more formatting options, see: https://momentjs.com/docs/#/displaying/",
+                    "target": "受影响的变量：created_date、last_modified_date。更多格式选项请参见：https://momentjs.com/docs/#/displaying/"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Will generate based on note content",
+                    "target": "将根据笔记内容生成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Notes will only be imported if the title/content includes the text",
+                    "target": "仅当标题/内容包含该文本时才会导入笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Encryption key",
+                    "target": "加密密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Notes folder location",
+                    "target": "笔记文件夹位置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Attachments folder location",
+                    "target": "附件文件夹位置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Sync notes automatically",
+                    "target": "自动同步笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Sync type",
+                    "target": "同步类型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Date format",
+                    "target": "日期格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Auto-generate note title",
+                    "target": "自动生成笔记标题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Notes filter text",
+                    "target": "笔记筛选文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Sync Obsidian [[links]] to Fleeting Notes",
+                    "target": "将 Obsidian [[links]] 同步到 Fleeting Notes"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter encryption key",
+                    "target": "输入加密密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter the folder location",
+                    "target": "输入文件夹位置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter title format",
+                    "target": "输入标题格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter date format",
+                    "target": "输入日期格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "ex. #work",
+                    "target": "例如 #work"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Fleeting Notes Sync Success",
+                    "target": "Fleeting Notes 同步成功"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to create a Fleeting Note :(",
+                    "target": "创建 Fleeting Note 失败 :("
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No login credentials found",
+                    "target": "未找到登录凭据"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Fleeing Notes sync failed - please check settings",
+                    "target": "Fleeing Notes 同步失败 - 请检查设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sync Notes with Fleeting Notes",
+                    "target": "将笔记与 Fleeting Notes 同步"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert All Notes Containing Specific Text",
+                    "target": "插入所有包含特定文本的笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Sync Settings",
+                    "target": "同步设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Other Settings",
+                    "target": "其他设置"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
