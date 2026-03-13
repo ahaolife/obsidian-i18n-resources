@@ -1,0 +1,73 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "easy-fonts",
+        "version": "1.0.0",
+        "title": "Easy Fonts",
+        "description": "Easy Fonts Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Reload fonts",
+                    "target": "重新加载字体"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Path to base font for all of Obsidian.",
+                    "target": "Obsidian 全局基础字体的路径。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Path to base font for all of Obsidian (bold).",
+                    "target": "Obsidian 全局基础字体（粗体）的路径。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Path to base font for all of Obsidian (italic).",
+                    "target": "Obsidian 全局基础字体（斜体）的路径。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Path to font for editing and reading views.",
+                    "target": "编辑和阅读视图所用字体的路径。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Path to font for editing and reading views (bold).",
+                    "target": "编辑和阅读视图所用字体（粗体）的路径。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Path to font for editing and reading views (italic).",
+                    "target": "编辑和阅读视图所用字体（斜体）的路径。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Path to font for places like code blocks and frontmatter.",
+                    "target": "用于代码块和 frontmatter 等位置的字体路径。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Reload fonts",
+                    "target": "重新加载字体"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
