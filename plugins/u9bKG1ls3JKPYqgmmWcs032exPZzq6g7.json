@@ -1,0 +1,667 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "fix-require-modules",
+        "version": "1.0.0",
+        "title": "CodeScript Toolkit",
+        "description": "CodeScript Toolkit Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "11.7.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": ": ",
+                    "target": ": "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " See ",
+                    "target": " 参见 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " for more details.",
+                    "target": " 了解更多详情。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "\\u274C Error!\nYour code block uses legacy button config.",
+                    "target": "\\u274C\\u0020\\u9519\\u8BEF\\uFF01\n\\u4F60\\u7684\\u4EE3\\u7801\\u5757\\u4F7F\\u7528\\u4E86\\u65E7\\u7248\\u6309\\u94AE\\u914D\\u7F6E\\u3002"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "\\u274C Error!\nYour code block config is not a valid YAML.",
+                    "target": "\\u274C\\u0020\\u9519\\u8BEF\\uFF01\n\\u4F60\\u7684\\u4EE3\\u7801\\u5757\\u914D\\u7F6E\\u4E0D\\u662F\\u6709\\u6548\\u7684\\u0059\\u0041\\u004D\\u004C\\u3002"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "See the YAML parsing error in the console.",
+                    "target": "在控制台查看YAML解析错误。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Path to the folder that is considered as ",
+                    "target": "被视为的文件夹路径 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " in ",
+                    "target": " 在 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Leave blank to use the root of the vault.",
+                    "target": "留空以使用库的根目录。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Path to the folder with invocable scripts.",
+                    "target": "包含可调用脚本的文件夹路径。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Should be a relative path to the ",
+                    "target": "应为相对于该的路径 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Leave blank if you don't use invocable scripts.",
+                    "target": "如果不使用可调用脚本，请留空。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Path to the invocable script executed on startup.",
+                    "target": "启动时执行的可调用脚本路径。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Leave blank if you don't use startup script.",
+                    "target": "如果不使用启动脚本，请留空。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Interval in seconds to check for changes in the invocable scripts folder ",
+                    "target": "检查可调用脚本文件夹更改的时间间隔（秒） "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Set ",
+                    "target": "设置 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " to disable checking for changes.",
+                    "target": "以禁用更改检查。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Whether to use a synchronous ",
+                    "target": "是否使用同步 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "fallback if ",
+                    "target": "回退，如果 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " failed ",
+                    "target": " 失败 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Whether to handle protocol URLs: ",
+                    "target": "是否处理协议 URL："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "⚠️ WARNING: This allows arbitrary code execution, which could pose a security risk. Use with caution.",
+                    "target": "⚠️ 警告：这将允许执行任意代码，可能带来安全风险。请谨慎使用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Default configuration applied to ",
+                    "target": "默认配置应用于"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " blocks.",
+                    "target": " 个块。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "No Intl support, please use an Intl polyfill!",
+                    "target": "不支持 Intl，请使用 Intl polyfill！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Only canvas changes are supported for canvas files",
+                    "target": "画布文件仅支持画布更改"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Node not found",
+                    "target": "未找到节点"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Node text is not a string",
+                    "target": "节点文本不是字符串"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unsupported file change",
+                    "target": "不支持的文件更改"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Can't call %s on a component that is not yet mounted. This is a no-op, but it might indicate a bug in your application. Instead, assign to `this.state` directly or define a `state = {};` class property with the desired state in the %s component.",
+                    "target": "无法在尚未挂载的组件上调用 %s。这是一个空操作，但可能表明你的应用存在 bug。请改为直接赋值给 `this.state`，或在 %s 组件中定义 `state = {};` 类属性并设置所需状态。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Received an unexpected object in getComponentNameFromType(). This is likely a bug in React. Please file an issue.",
+                    "target": "在 getComponentNameFromType() 中收到意外的对象。这很可能是 React 的一个 bug。请提交问题。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "%s: `key` is not a prop. Trying to access it will result in `undefined` being returned. If you need to access the same value within the child component, you should pass it as a different prop. (https://react.dev/link/special-props)",
+                    "target": "%s：`key` 不是一个 prop。尝试访问它会返回 `undefined`。如果你需要在子组件中访问相同的值，应当通过不同的 prop 传递它。（https://react.dev/link/special-props）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "lazy: Expected the result of a dynamic import() call. Instead received: %s\n\nYour code should look like: \n  const MyComponent = lazy(() => import('./MyComponent'))\n\nDid you accidentally put curly braces around the import?",
+                    "target": "lazy：期望得到动态 import() 调用的结果，但收到的是：%s\n\n你的代码应如下所示：\n  const MyComponent = lazy(() => import('./MyComponent'))\n\n你是否不小心在 import 外面加了花括号？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "lazy: Expected the result of a dynamic import() call. Instead received: %s\n\nYour code should look like: \n  const MyComponent = lazy(() => import('./MyComponent'))",
+                    "target": "lazy：期望得到动态 import() 调用的结果，但收到的是：%s\n\n你的代码应如下所示：\n  const MyComponent = lazy(() => import('./MyComponent'))"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "You called act(async () => ...) without await. This could lead to unexpected testing behaviour, interleaving multiple act calls and mixing their scopes. You should - await act(async () => ...);",
+                    "target": "你在未使用 await 的情况下调用了 act(async () => ...)。这可能导致意外的测试行为，多个 act 调用交错并混淆其作用域。你应该这样做——await act(async () => ...);"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "A component suspended inside an `act` scope, but the `act` call was not awaited. When testing React components that depend on asynchronous data, you must await the result:\n\nawait act(() => ...)",
+                    "target": "一个组件在 `act` 作用域内挂起，但 `act` 调用未被 await。测试依赖异步数据的 React 组件时，你必须等待结果：\n\nawait act(() => ...)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "forwardRef requires a render function but was given %s.",
+                    "target": "forwardRef 需要一个 render 函数，但传入的是 %s。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "forwardRef render functions accept exactly two parameters: props and ref. %s",
+                    "target": "forwardRef 的 render 函数只接受两个参数：props 和 ref。%s"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "forwardRef render functions do not support defaultProps. Did you accidentally pass a React component?",
+                    "target": "forwardRef 的 render 函数不支持 defaultProps。你是否不小心传入了一个 React 组件？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "We expected inner Transitions to have transferred the outer types set and that you cannot add to the outer Transition while inside the inner.This is a bug in React.",
+                    "target": "我们期望内部 Transition 已转移外部类型集合，并且在内部时不能向外部 Transition 添加。这是 React 的一个 bug。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Calling useContext(Context.Consumer) is not supported and will cause bugs. Did you mean to call useContext(Context) instead?",
+                    "target": "不支持调用 useContext(Context.Consumer)，这会导致错误。你是想改为调用 useContext(Context) 吗？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "🌐 i18next is maintained with support from Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙",
+                    "target": "🌐 i18next 在 Locize 的支持下维护 — 可考虑使用托管本地化（AI、CDN、集成）为你的项目赋能：https://locize.com 💙"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": " -",
+                    "target": " -"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "@babel/preset-env: `DEBUG` option",
+                    "target": "@babel/preset-env：`DEBUG` 选项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "\nUsing targets:",
+                    "target": "\n使用目标："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "\nUsing plugins:",
+                    "target": "\n使用插件："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "\nUsing polyfills: No polyfills were added, since the `useBuiltIns` option was not set.",
+                    "target": "\n使用 polyfill：未添加任何 polyfill，因为未设置 `useBuiltIns` 选项。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Reset to plugin default code button config",
+                    "target": "重置为插件默认代码按钮配置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Hotkeys to invoke scripts.",
+                    "target": "用于调用脚本的快捷键。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Script modules root",
+                    "target": "脚本模块根目录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Invocable scripts folder",
+                    "target": "可调用脚本文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Startup script path",
+                    "target": "启动脚本路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Mobile: Changes checking interval",
+                    "target": "移动端：更改检查间隔"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Desktop: Synchronous fallback",
+                    "target": "桌面端：同步回退"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Handle protocol URLs",
+                    "target": "处理协议 URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default code button config",
+                    "target": "默认代码按钮配置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Configure hotkeys",
+                    "target": "配置快捷键"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "accessing an object - but returnObjects options is not enabled!",
+                    "target": "正在访问对象——但未启用 returnObjects 选项！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "This means something IS WRONG in your setup. You access the t function before i18next.init / i18next.loadNamespace / i18next.changeLanguage was done. Wait for the callback or Promise to resolve before accessing it!!!",
+                    "target": "这意味着你的设置有问题。你在 i18next.init / i18next.loadNamespace / i18next.changeLanguage 完成之前就访问了 t 函数。请等待回调或 Promise 解析后再访问它！！！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "No backend was added via i18next.use. Will not load resources.",
+                    "target": "未通过 i18next.use 添加后端。将不会加载资源。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "init: no languageDetector is used and no lng is defined",
+                    "target": "init: 未使用 languageDetector 且未定义 lng"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "init: i18next is already initialized. You should call init just once!",
+                    "target": "init: i18next 已经初始化。你应该只调用一次 init！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "hasLoadedNamespace: i18next was not initialized",
+                    "target": "hasLoadedNamespace: i18next 未初始化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "I18N was not initialized, initializing default obsidian-dev-utils translations",
+                    "target": "I18N 未初始化，正在初始化默认的 obsidian-dev-utils 翻译"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "BABEL_TYPES_8_BREAKING is not supported anymore. Use the latest Babel 8.0.0 pre-release instead!",
+                    "target": "BABEL_TYPES_8_BREAKING 已不再受支持。请改用最新的 Babel 8.0.0 预发布版本！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "You are using import attributes, without specifying the desired output syntax.\nPlease specify the \"importAttributesKeyword\" generator option, whose value can be one of:\n - \"with\"        : `import { a } from \"b\" with { type: \"json\" };`\n - \"assert\"      : `import { a } from \"b\" assert { type: \"json\" };`\n - \"with-legacy\" : `import { a } from \"b\" with type: \"json\";`\n",
+                    "target": "你正在使用 import attributes，但未指定所需的输出语法。\n请指定 \"importAttributesKeyword\" 生成器选项，其值可以是以下之一：\n - \"with\"        : `import { a } from \"b\" with { type: \"json\" };`\n - \"assert\"      : `import { a } from \"b\" assert { type: \"json\" };`\n - \"with-legacy\" : `import { a } from \"b\" with type: \"json\";`\n"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Warning, the following targets are using a decimal version:\n",
+                    "target": "警告，以下目标正在使用小数版本：\n"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "\nWe recommend using a string for minor/patch versions to avoid numbers like 6.10\ngetting parsed as 6.1, which can lead to unexpected behavior.\n",
+                    "target": "\n我们建议对次版本/补丁版本使用字符串，以避免像 6.10 这样的数字被解析为 6.1，从而导致意外行为。\n"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "@babel/helpers is outdated, update it to silence this warning.",
+                    "target": "@babel/helpers 已过时，更新它以消除此警告。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "The smart-mix pipe operator is deprecated. Use \"proposal\": \"hack\" instead.",
+                    "target": "smart-mix 管道运算符已弃用。请改用 \"proposal\": \"hack\"。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "\nWARNING (@babel/preset-env): We noticed you're using the `useBuiltIns` option without declaring a core-js version. Currently, we assume version 2.x when no version is passed. Since this default version will likely change in future versions of Babel, we recommend explicitly setting the core-js version you are using via the `corejs` option.\n\nYou should also be sure that the version you pass to the `corejs` option matches the version specified in your `package.json`'s `dependencies` section. If it doesn't, you need to run one of the following commands:\n\n  npm install --save core-js@2    npm install --save core-js@3\n  yarn add core-js@2              yarn add core-js@3\n\nMore info about useBuiltIns: https://babeljs.io/docs/en/babel-preset-env#usebuiltins\nMore info about core-js: https://babeljs.io/docs/en/babel-preset-env#corejs",
+                    "target": "\nWARNING (@babel/preset-env): 我们注意到你在未声明 core-js 版本的情况下使用了 `useBuiltIns` 选项。当前，如果未传入版本，我们会假定为 2.x。由于这个默认版本很可能在 Babel 的未来版本中发生变化，我们建议你通过 `corejs` 选项明确设置正在使用的 core-js 版本。\n\n你还应确保传给 `corejs` 选项的版本与 `package.json` 的 `dependencies` 部分中指定的版本一致。如果不一致，你需要运行以下命令之一：\n\n  npm install --save core-js@2    npm install --save core-js@3\n  yarn add core-js@2              yarn add core-js@3\n\n关于 useBuiltIns 的更多信息: https://babeljs.io/docs/en/babel-preset-env#usebuiltins\n关于 core-js 的更多信息: https://babeljs.io/docs/en/babel-preset-env#corejs"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "\nWARNING (@babel/preset-env): The `corejs` option only has an effect when the `useBuiltIns` option is not `false`\n",
+                    "target": "\nWARNING (@babel/preset-env): 只有当 `useBuiltIns` 选项不是 `false` 时，`corejs` 选项才会生效\n"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "\nThe uglify target has been deprecated. Set the top level\noption \\`forceAllTransforms: true\\` instead.\n",
+                    "target": "\nuglify 目标已被弃用。请改为设置顶层\n选项 \\`forceAllTransforms: true\\`。\n"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "You are using the in-browser Babel transformer. Be sure to precompile your scripts for production - https://babeljs.io/docs/setup/",
+                    "target": "你正在使用浏览器内的 Babel 转换器。请务必在生产环境中预编译你的脚本 - https://babeljs.io/docs/setup/"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Could not find require function name in arrow function expression.",
+                    "target": "在箭头函数表达式中找不到 require 函数名。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Could not find require function name in function declaration.",
+                    "target": "在函数声明中找不到 require 函数名。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "%s(...) is deprecated in plain JavaScript React classes. %s",
+                    "target": "在纯 JavaScript 的 React 类中，%s(...) 已被弃用。%s"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Your app (or one of its dependencies) is using an outdated JSX transform. Update to the modern JSX transform for faster performance: https://react.dev/link/new-jsx-transform",
+                    "target": "你的应用（或其某个依赖）正在使用过时的 JSX 转换。请更新为现代 JSX 转换以获得更快的性能： https://react.dev/link/new-jsx-transform"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Detected a large number of updates inside startTransition. If this is due to a subscription please re-write it to use React provided hooks. Otherwise concurrent mode guarantees are off the table.",
+                    "target": "检测到在 startTransition 中有大量更新。如果这是由订阅导致的，请改写为使用 React 提供的 hooks。否则将无法保证并发模式。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "React Hook useEffect requires an effect callback. Did you forget to pass a callback to the hook?",
+                    "target": "React Hook useEffect 需要一个 effect 回调。你是不是忘了给这个 hook 传入回调？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "React Hook useInsertionEffect requires an effect callback. Did you forget to pass a callback to the hook?",
+                    "target": "React Hook useInsertionEffect 需要一个副作用回调。你是否忘记向该 Hook 传递回调？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "React Hook useLayoutEffect requires an effect callback. Did you forget to pass a callback to the hook?",
+                    "target": "React Hook useLayoutEffect 需要一个副作用回调。你是否忘记向该 Hook 传递回调？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Trying a synchronous fallback.",
+                    "target": "正在尝试同步回退。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Crypto module is not available on mobile. Consider using window.scrypt instead.",
+                    "target": "Crypto 模块在移动端不可用。请考虑使用 window.scrypt 代替。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Handling of protocol URLs is disabled in plugin settings.",
+                    "target": "插件设置中已禁用对协议 URL 的处理。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "caption",
+                    "source": "(no caption)",
+                    "target": "（无标题）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "This is the collection of useful functions that you can use for your Obsidian plugin development",
+                    "target": "这是你在 Obsidian 插件开发中可以使用的实用函数集合"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "import.meta may appear only with 'sourceType: \"module\"'",
+                    "target": "import.meta 只能与 'sourceType: \"module\"' 一起出现"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "'import' and 'export' may appear only with 'sourceType: \"module\"'",
+                    "target": "'import' 和 'export' 只能与 'sourceType: \"module\"' 一起出现"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Use `auxiliaryCommentBefore` or `auxiliaryCommentAfter`",
+                    "target": "使用 `auxiliaryCommentBefore` 或 `auxiliaryCommentAfter`"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Put the specific transforms you want in the `plugins` option",
+                    "target": "在 `plugins` 选项中放入你需要的特定 transform"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "This is not a necessary option in Babel 6",
+                    "target": "在 Babel 6 中这不是必需选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Use the `external-helpers` plugin instead. Check out http://babeljs.io/docs/plugins/external-helpers/",
+                    "target": "请改用 `external-helpers` 插件。查看 http://babeljs.io/docs/plugins/external-helpers/"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "use the `pragma` option in the `react-jsx` plugin. Check out http://babeljs.io/docs/plugins/transform-react-jsx/",
+                    "target": "在 `react-jsx` 插件中使用 `pragma` 选项。查看 http://babeljs.io/docs/plugins/transform-react-jsx/"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Specify the `loose` option for the relevant plugin you are using or use a preset that sets the option.",
+                    "target": "为你使用的相关插件指定 `loose` 选项，或使用已设置该选项的预设。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Not required anymore as this is enabled by default",
+                    "target": "不再需要，因为默认已启用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Use the corresponding module transform plugin in the `plugins` option. Check out http://babeljs.io/docs/plugins/#modules",
+                    "target": "在 `plugins` 选项中使用对应的模块 transform 插件。查看 http://babeljs.io/docs/plugins/#modules"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Use the `react-jsx` and `flow-strip-types` plugins to support JSX and Flow. Also check out the react preset http://babeljs.io/docs/plugins/preset-react/",
+                    "target": "使用 `react-jsx` 和 `flow-strip-types` 插件来支持 JSX 和 Flow。也可查看 react 预设 http://babeljs.io/docs/plugins/preset-react/"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Check out the corresponding stage-x presets http://babeljs.io/docs/plugins/#presets",
+                    "target": "查看对应的 stage-x 预设 http://babeljs.io/docs/plugins/#presets"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Use `babel-plugin-module-resolver@3`'s 'resolvePath' options",
+                    "target": "使用 `babel-plugin-module-resolver@3` 的 'resolvePath' 选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Generated plugin metadata is always included in the output result",
+                    "target": "生成的插件元数据始终包含在输出结果中"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Clear cache",
+                    "target": "清除缓存"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Invoke script: <<Choose>>",
+                    "target": "调用脚本：<<Choose>>"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Reload startup script",
+                    "target": "重新加载启动脚本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Choose a script to invoke",
+                    "target": "选择要调用的脚本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Update config",
+                    "target": "更新配置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "(only on mobile)",
+                    "target": "（仅限移动端）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "(only on desktop)",
+                    "target": "（仅限桌面端）"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
