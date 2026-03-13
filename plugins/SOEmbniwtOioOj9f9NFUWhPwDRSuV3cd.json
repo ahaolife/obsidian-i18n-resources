@@ -1,0 +1,18 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "sheet-plus",
+        "version": "1.0.0",
+        "title": "Sheet Plus",
+        "description": "Sheet Plus Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.8.5",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [],
+            "regex": []
+        }
+    }
+}
