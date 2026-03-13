@@ -1,0 +1,73 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "mblog-publish",
+        "version": "1.0.0",
+        "title": "MBlog Publish",
+        "description": "MBlog Publish Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Mblog开发者Token,付费后才有.",
+                    "target": "Mblog开发者Token,付费后才有."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "输入你的token",
+                    "target": "输入你的token"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "发布到MBlog平台 👈",
+                    "target": "发布到MBlog平台 👈"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Mblog token没有设置,先去设置.",
+                    "target": "Mblog token没有设置,先去设置."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "文章缺少front matter信息部分,无法发布.",
+                    "target": "文章缺少front matter信息部分,无法发布."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "front matter信息部分缺少title字段,无法发布.",
+                    "target": "front matter信息部分缺少title字段,无法发布."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "正文部分为空,无法发布.",
+                    "target": "正文部分为空,无法发布."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "发布成功!",
+                    "target": "发布成功!"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "暂不支持直接发布文件夹!",
+                    "target": "暂不支持直接发布文件夹!"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
