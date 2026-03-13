@@ -1,0 +1,175 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "another-sticky-headings",
+        "version": "1.0.0",
+        "title": "Another Sticky Headings",
+        "description": "Another Sticky Headings Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.1.3",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "No active markdown view is available.",
+                    "target": "没有可用的活动 Markdown 视图。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "By default, display the current heading, the parent heading, and the siblings of the parent heading. In concise mode, only display the current heading and the parent heading.",
+                    "target": "默认情况下，显示当前标题、父标题以及父标题的同级标题。在简洁模式下，仅显示当前标题和父标题。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Maximum number of headings that can be displayed. 0 indicates no limit.",
+                    "target": "可显示的最大标题数量。0 表示不限制。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Choose between instant or smooth scrolling behaviour",
+                    "target": "选择即时或平滑滚动行为"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Toggle to display heading level indicators",
+                    "target": "切换以显示标题级别指示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "When enabled, if the first heading in the note is not the unique highest-level title, an additional title with the filename as the highest-level title will be added to achieve a better document outline.",
+                    "target": "启用后，如果笔记中的第一个标题不是唯一的最高级标题，将额外添加一个以文件名为最高级标题的标题，以获得更好的文档大纲。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Distance from the top boundary of the note display area where headings will start to stick (in pixels or %)",
+                    "target": "标题开始吸顶时距离笔记显示区域顶部边界的距离（以像素或百分比表示）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "默认情况下，显示当前标题、父标题和父标题的兄弟标题。简洁模式下，仅显示当前标题和父标题。",
+                    "target": "默认情况下，显示当前标题、父标题和父标题的兄弟标题。简洁模式下，仅显示当前标题和父标题。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "最大显示标题数量，0 表示不限制。",
+                    "target": "最大显示标题数量，0 表示不限制。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "选择滚动效果",
+                    "target": "选择滚动效果"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "是否展示标题级别图标",
+                    "target": "是否展示标题级别图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "开启后，如果笔记的第一个标题不是唯一最高级标题，则会额外添加一个以文件名为标题的最高级标题，以达到更好的文档大纲效果。",
+                    "target": "开启后，如果笔记的第一个标题不是唯一最高级标题，则会额外添加一个以文件名为标题的最高级标题，以达到更好的文档大纲效果。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "距离文档显示区域顶部多远时，标题开始粘滞。支持 px 和 % 两种单位。",
+                    "target": "距离文档显示区域顶部多远时，标题开始粘滞。支持 px 和 % 两种单位。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Quick Navigate Headings",
+                    "target": "快速导航标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Display quantity limit",
+                    "target": "显示数量限制"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Scroll behaviour",
+                    "target": "滚动行为"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Display heading indicators",
+                    "target": "显示标题级别图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Auto show file name",
+                    "target": "自动显示文件名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Trigger offset",
+                    "target": "触发偏移量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "模式",
+                    "target": "模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "显示数量限制",
+                    "target": "显示数量限制"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "滚动效果",
+                    "target": "滚动效果"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "外观主题",
+                    "target": "外观主题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "显示标题图标",
+                    "target": "显示标题图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "自动显示文件名",
+                    "target": "自动显示文件名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "触发偏移",
+                    "target": "触发偏移"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
