@@ -1,0 +1,43 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "goal-tracker",
+        "version": "1.0.0",
+        "title": "Goal Tracker",
+        "description": "Goal Tracker Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.8",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to parse calendar data",
+                    "target": "无法解析日历数据"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Could not find source file",
+                    "target": "未找到源文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Could not find section info",
+                    "target": "未找到分区信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Goal tracker",
+                    "target": "目标追踪器"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
