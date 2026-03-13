@@ -1,0 +1,1597 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "format-with-prettier",
+        "version": "1.0.0",
+        "title": "Format with Prettier",
+        "description": "Format with Prettier Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.15.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Invalid character [#]",
+                    "target": "无效字符 [#]"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Invalid numeric separator",
+                    "target": "无效的数字分隔符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Invalid exponent",
+                    "target": "无效的指数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unterminated quote",
+                    "target": "引号未闭合"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unterminated regular expression",
+                    "target": "正则表达式未结束"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Binding expression cannot contain chained expression",
+                    "target": "绑定表达式不能包含链式表达式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Cannot have a pipe in an action expression",
+                    "target": "动作表达式中不能包含管道符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unary operator used immediately before exponentiation expression. Parenthesis must be used to disambiguate operator precedence",
+                    "target": "一元运算符紧接着用于幂表达式之前。必须使用括号来消除运算符优先级的歧义"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Missing closing parentheses",
+                    "target": "缺少右括号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Expected identifier for property access",
+                    "target": "属性访问应为标识符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "The '?.' operator cannot be used in the assignment",
+                    "target": "'?.' 运算符不能用于赋值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Bindings cannot contain assignments",
+                    "target": "绑定不能包含赋值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Double colon",
+                    "target": "双冒号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unclosed block",
+                    "target": "未闭合的块"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unclosed bracket",
+                    "target": "未闭合的括号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unexpected }",
+                    "target": "意外的 }"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "At-rule without name",
+                    "target": "无名称的 at-rule"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Expected a closing square bracket.",
+                    "target": "预期有一个右方括号。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Expected opening parenthesis.",
+                    "target": "预期有一个左圆括号。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Expected opening square bracket.",
+                    "target": "预期有一个左方括号。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Expected closing parenthesis.",
+                    "target": "预期缺少右括号。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Misplaced parenthesis.",
+                    "target": "括号位置错误。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Syntax Error",
+                    "target": "语法错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Expected closing parenthesis",
+                    "target": "预期缺少右括号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Expected opening parenthesis",
+                    "target": "预期缺少左括号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Format on save",
+                    "target": "保存时格式化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Since Acorn 8.0.0, options.ecmaVersion is required.\nDefaulting to 2020, but this will stop working in the future.",
+                    "target": "自 Acorn 8.0.0 起，需要 options.ecmaVersion。\n默认使用 2020，但未来将停止工作。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to format file, see the Developer console for more details",
+                    "target": "文件格式化失败，请查看开发者控制台了解详情"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Check whether the file's first docblock comment contains '@noprettier' or '@noformat' to determine if it should be formatted.",
+                    "target": "检查文件的首个 docblock 注释是否包含“@noprettier”或“@noformat”，以确定是否应进行格式化。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Print (to stderr) where a cursor at the given position would move to after formatting.",
+                    "target": "打印（到 stderr）光标在给定位置格式化后会移动到的位置。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Which end of line characters to apply.",
+                    "target": "要应用哪种行结束字符。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Line Feed only (\\n), common on Linux and macOS as well as inside git repos",
+                    "target": "仅使用换行符 (\\n)，常见于 Linux 和 macOS 以及 git 仓库中"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Carriage Return + Line Feed characters (\\r\\n), common on Windows",
+                    "target": "回车符 + 换行符 (\\r\\n)，常见于 Windows"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Carriage Return character only (\\r), used very rarely",
+                    "target": "仅回车符 (\\r)，使用非常少见"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Maintain existing\n(mixed values within one file are normalised by looking at what's used after the first line)",
+                    "target": "保持现有\n（同一文件内的混合值会通过查看第一行之后使用的内容来规范化）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Specify the input filepath. This will be used to do parser inference.",
+                    "target": "指定输入文件路径。这将用于进行解析器推断。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Insert @format pragma into file's first docblock comment.",
+                    "target": "将 @format 编译指示插入到文件的第一个文档块注释中。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Which parser to use.",
+                    "target": "使用哪个解析器。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "JSON with Comments",
+                    "target": "带注释的 JSON"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Lightning Web Components",
+                    "target": "Lightning Web 组件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Add a plugin. Multiple plugins can be passed as separate `--plugin`s.",
+                    "target": "添加插件。可以通过分别的 `--plugin` 传入多个插件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The line length where Prettier will try wrap.",
+                    "target": "Prettier 会尝试换行的行长度。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Require either '@prettier' or '@format' to be present in the file's first docblock comment in order for it to be formatted.",
+                    "target": "要求文件第一个 docblock 注释中包含 '@prettier' 或 '@format' 才会进行格式化。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Number of spaces per indentation level.",
+                    "target": "每级缩进的空格数。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Indent with tabs instead of spaces.",
+                    "target": "使用制表符而非空格进行缩进。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Print spaces between brackets.",
+                    "target": "在括号之间输出空格。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "How to wrap object literals.",
+                    "target": "如何换行对象字面量。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Keep as multi-line, if there is a newline between the opening brace and first property.",
+                    "target": "如果左花括号与第一个属性之间有换行，则保持多行。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Fit to a single line when possible.",
+                    "target": "尽可能放在单行。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Use single quotes instead of double quotes.",
+                    "target": "使用单引号替代双引号。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "How to wrap prose.",
+                    "target": "如何进行文本换行。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wrap prose if it exceeds the print width.",
+                    "target": "当文本超过打印宽度时换行。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Do not wrap prose.",
+                    "target": "不对文本换行。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wrap prose as-is.",
+                    "target": "按原样对文本换行。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Put > of opening tags on the last line instead of on a new line.",
+                    "target": "将起始标签的 > 放在最后一行，而不是另起一行。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Enforce single attribute per line in HTML, Vue and JSX.",
+                    "target": "在 HTML、Vue 和 JSX 中强制每行一个属性。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Include parentheses around a sole arrow function parameter.",
+                    "target": "为单一箭头函数参数加上括号。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Always include parens. Example: `(x) => x`",
+                    "target": "始终包含括号。示例：`(x) => x`"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Omit parens when possible. Example: `x => x`",
+                    "target": "尽可能省略括号。示例：`x => x`"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Put > on the last line instead of at a new line.",
+                    "target": "将 > 放在最后一行，而不是另起一行。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Where to print operators when binary expressions wrap lines.",
+                    "target": "当二元表达式换行时，运算符应打印在何处。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Print operators at the start of new lines.",
+                    "target": "在新行开头打印运算符。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Print operators at the end of previous lines.",
+                    "target": "在上一行末尾打印运算符。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Use curious ternaries, with the question mark after the condition.",
+                    "target": "使用特殊的三元写法，问号位于条件之后。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Use single quotes in JSX.",
+                    "target": "在 JSX 中使用单引号。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Change when properties in objects are quoted.",
+                    "target": "更改对象属性何时加引号。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Only add quotes around object properties where required.",
+                    "target": "仅在需要时为对象属性添加引号。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "If at least one property in an object requires quotes, quote all properties.",
+                    "target": "如果对象中至少有一个属性需要加引号，则为所有属性加引号。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Respect the input use of quotes in object properties.",
+                    "target": "遵循输入中对象属性的引号用法。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Print trailing commas wherever possible when multi-line.",
+                    "target": "多行时尽可能打印尾随逗号。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Trailing commas wherever possible (including function arguments).",
+                    "target": "尽可能使用尾随逗号（包括函数参数）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Trailing commas where valid in ES5 (objects, arrays, etc.)",
+                    "target": "在 ES5 允许的地方使用尾随逗号（对象、数组等）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "No trailing commas.",
+                    "target": "不使用尾随逗号。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "How to handle whitespaces in HTML.",
+                    "target": "如何处理 HTML 中的空白字符。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Respect the default value of CSS display property.",
+                    "target": "遵循 CSS display 属性的默认值。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Whitespaces are considered sensitive.",
+                    "target": "空白字符视为敏感。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Whitespaces are considered insensitive.",
+                    "target": "空白字符视为不敏感。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Indent script and style tags in Vue files.",
+                    "target": "在 Vue 文件中缩进 script 和 style 标签。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "import.meta may appear only with 'sourceType: \"module\"'",
+                    "target": "import.meta 只能与 'sourceType: \"module\"' 一起出现"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "'import' and 'export' may appear only with 'sourceType: \"module\"'",
+                    "target": "'import' 和 'export' 只能与 'sourceType: \"module\"' 一起出现"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Invalid block parameters syntax: expecting the tag to be closed with \">\" or \"/>\" after parameters list",
+                    "target": "无效的块参数语法：参数列表后期望标签以 \">\" 或 \"/>\" 关闭"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵnamespaceHTML",
+                    "target": "ɵɵnamespaceHTML"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵnamespaceSVG",
+                    "target": "ɵɵnamespaceSVG"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵdomListener",
+                    "target": "ɵɵdomListener"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵadvance",
+                    "target": "ɵɵadvance"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵsyntheticHostProperty",
+                    "target": "ɵɵsyntheticHostProperty"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵsyntheticHostListener",
+                    "target": "ɵɵsyntheticHostListener"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵattribute",
+                    "target": "ɵɵattribute"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵclassProp",
+                    "target": "ɵɵclassProp"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵclassMap",
+                    "target": "ɵɵclassMap"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵstyleProp",
+                    "target": "ɵɵstyleProp"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵinterpolate",
+                    "target": "ɵɵinterpolate"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵinterpolate1",
+                    "target": "ɵɵinterpolate1"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵinterpolate2",
+                    "target": "ɵɵinterpolate2"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵinterpolate3",
+                    "target": "ɵɵinterpolate3"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵinterpolate4",
+                    "target": "ɵɵinterpolate4"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵinterpolate5",
+                    "target": "ɵɵinterpolate5"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵinterpolate6",
+                    "target": "ɵɵinterpolate6"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵinterpolate7",
+                    "target": "ɵɵinterpolate7"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵinterpolate8",
+                    "target": "ɵɵinterpolate8"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵinterpolateV",
+                    "target": "ɵɵinterpolateV"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵnextContext",
+                    "target": "ɵɵnextContext"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵresetView",
+                    "target": "ɵɵresetView"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵdefer",
+                    "target": "ɵɵdefer"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵdeferWhen",
+                    "target": "ɵɵdeferWhen"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵdeferOnIdle",
+                    "target": "ɵɵdeferOnIdle"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵdeferOnImmediate",
+                    "target": "ɵɵdeferOnImmediate"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵdeferOnTimer",
+                    "target": "ɵɵdeferOnTimer"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵdeferOnHover",
+                    "target": "ɵɵdeferOnHover"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵdeferOnInteraction",
+                    "target": "ɵɵdeferOnInteraction"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵdeferOnViewport",
+                    "target": "ɵɵdeferOnViewport"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵdeferPrefetchWhen",
+                    "target": "ɵɵdeferPrefetchWhen"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵdeferPrefetchOnIdle",
+                    "target": "ɵɵdeferPrefetchOnIdle"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵdeferPrefetchOnImmediate",
+                    "target": "ɵɵdeferPrefetchOnImmediate"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵdeferPrefetchOnTimer",
+                    "target": "ɵɵdeferPrefetchOnTimer"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵdeferPrefetchOnHover",
+                    "target": "ɵɵdeferPrefetchOnHover"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵdeferPrefetchOnInteraction",
+                    "target": "ɵɵdeferPrefetchOnInteraction"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵdeferPrefetchOnViewport",
+                    "target": "ɵɵdeferPrefetchOnViewport"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵdeferHydrateWhen",
+                    "target": "ɵɵdeferHydrateWhen"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵdeferHydrateNever",
+                    "target": "ɵɵdeferHydrateNever"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵdeferHydrateOnIdle",
+                    "target": "ɵɵdeferHydrateOnIdle"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵdeferHydrateOnImmediate",
+                    "target": "ɵɵdeferHydrateOnImmediate"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵdeferHydrateOnTimer",
+                    "target": "ɵɵdeferHydrateOnTimer"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵdeferHydrateOnHover",
+                    "target": "ɵɵdeferHydrateOnHover"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵdeferHydrateOnInteraction",
+                    "target": "ɵɵdeferHydrateOnInteraction"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵdeferHydrateOnViewport",
+                    "target": "ɵɵdeferHydrateOnViewport"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵdeferEnableTimerScheduling",
+                    "target": "ɵɵdeferEnableTimerScheduling"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵconditionalCreate",
+                    "target": "ɵɵconditionalCreate"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵconditionalBranchCreate",
+                    "target": "ɵɵconditionalBranchCreate"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵconditional",
+                    "target": "ɵɵconditional"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵrepeater",
+                    "target": "ɵɵrepeater"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵrepeaterCreate",
+                    "target": "ɵɵrepeaterCreate"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵrepeaterTrackByIndex",
+                    "target": "ɵɵrepeaterTrackByIndex"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵrepeaterTrackByIdentity",
+                    "target": "ɵɵrepeaterTrackByIdentity"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵcomponentInstance",
+                    "target": "ɵɵcomponentInstance"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵtext",
+                    "target": "ɵɵtext"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵenableBindings",
+                    "target": "ɵɵenableBindings"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵdisableBindings",
+                    "target": "ɵɵdisableBindings"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵgetCurrentView",
+                    "target": "ɵɵgetCurrentView"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵtextInterpolate",
+                    "target": "ɵɵtextInterpolate"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵtextInterpolate1",
+                    "target": "ɵɵtextInterpolate1"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵtextInterpolate2",
+                    "target": "ɵɵtextInterpolate2"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵtextInterpolate3",
+                    "target": "ɵɵtextInterpolate3"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵtextInterpolate4",
+                    "target": "ɵɵtextInterpolate4"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵtextInterpolate5",
+                    "target": "ɵɵtextInterpolate5"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵtextInterpolate6",
+                    "target": "ɵɵtextInterpolate6"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵtextInterpolate7",
+                    "target": "ɵɵtextInterpolate7"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵtextInterpolate8",
+                    "target": "ɵɵtextInterpolate8"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵtextInterpolateV",
+                    "target": "ɵɵtextInterpolateV"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵrestoreView",
+                    "target": "ɵɵrestoreView"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵpureFunction0",
+                    "target": "ɵɵpureFunction0"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵpureFunction1",
+                    "target": "ɵɵpureFunction1"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵpureFunction2",
+                    "target": "ɵɵpureFunction2"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵpureFunction3",
+                    "target": "ɵɵpureFunction3"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵpureFunction4",
+                    "target": "ɵɵpureFunction4"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵpureFunction5",
+                    "target": "ɵɵpureFunction5"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵpureFunction6",
+                    "target": "ɵɵpureFunction6"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵpureFunction7",
+                    "target": "ɵɵpureFunction7"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵpureFunction8",
+                    "target": "ɵɵpureFunction8"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵpureFunctionV",
+                    "target": "ɵɵpureFunctionV"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵpipeBind1",
+                    "target": "ɵɵpipeBind1"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵpipeBind2",
+                    "target": "ɵɵpipeBind2"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵpipeBind3",
+                    "target": "ɵɵpipeBind3"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵpipeBind4",
+                    "target": "ɵɵpipeBind4"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵpipeBindV",
+                    "target": "ɵɵpipeBindV"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵdomProperty",
+                    "target": "ɵɵdomProperty"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵariaProperty",
+                    "target": "ɵɵariaProperty"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵproperty",
+                    "target": "ɵɵproperty"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵcontrol",
+                    "target": "ɵɵcontrol"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵcontrolCreate",
+                    "target": "ɵɵcontrolCreate"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵanimateEnterListener",
+                    "target": "ɵɵanimateEnterListener"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵanimateLeaveListener",
+                    "target": "ɵɵanimateLeaveListener"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵanimateEnter",
+                    "target": "ɵɵanimateEnter"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵanimateLeave",
+                    "target": "ɵɵanimateLeave"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵi18n",
+                    "target": "ɵɵi18n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵi18nAttributes",
+                    "target": "ɵɵi18nAttributes"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵi18nExp",
+                    "target": "ɵɵi18nExp"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵi18nStart",
+                    "target": "ɵɵi18nStart"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵi18nEnd",
+                    "target": "ɵɵi18nEnd"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵi18nApply",
+                    "target": "ɵɵi18nApply"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵi18nPostprocess",
+                    "target": "ɵɵi18nPostprocess"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵpipe",
+                    "target": "ɵɵpipe"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵprojection",
+                    "target": "ɵɵprojection"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵprojectionDef",
+                    "target": "ɵɵprojectionDef"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵreference",
+                    "target": "ɵɵreference"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵinject",
+                    "target": "ɵɵinject"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵinjectAttribute",
+                    "target": "ɵɵinjectAttribute"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵdirectiveInject",
+                    "target": "ɵɵdirectiveInject"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵinvalidFactory",
+                    "target": "ɵɵinvalidFactory"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵinvalidFactoryDep",
+                    "target": "ɵɵinvalidFactoryDep"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵdefineInjectable",
+                    "target": "ɵɵdefineInjectable"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵngDeclareInjectable",
+                    "target": "ɵɵngDeclareInjectable"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵInjectableDeclaration",
+                    "target": "ɵɵInjectableDeclaration"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵresolveWindow",
+                    "target": "ɵɵresolveWindow"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵresolveDocument",
+                    "target": "ɵɵresolveDocument"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵresolveBody",
+                    "target": "ɵɵresolveBody"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵgetComponentDepsFactory",
+                    "target": "ɵɵgetComponentDepsFactory"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵdefineComponent",
+                    "target": "ɵɵdefineComponent"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵngDeclareComponent",
+                    "target": "ɵɵngDeclareComponent"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵsetComponentScope",
+                    "target": "ɵɵsetComponentScope"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵComponentDeclaration",
+                    "target": "ɵɵComponentDeclaration"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵFactoryDeclaration",
+                    "target": "ɵɵFactoryDeclaration"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵngDeclareFactory",
+                    "target": "ɵɵngDeclareFactory"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵFactoryTarget",
+                    "target": "ɵɵFactoryTarget"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵdefineDirective",
+                    "target": "ɵɵdefineDirective"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵngDeclareDirective",
+                    "target": "ɵɵngDeclareDirective"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵDirectiveDeclaration",
+                    "target": "ɵɵDirectiveDeclaration"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵInjectorDef",
+                    "target": "ɵɵInjectorDef"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵInjectorDeclaration",
+                    "target": "ɵɵInjectorDeclaration"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵdefineInjector",
+                    "target": "ɵɵdefineInjector"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵngDeclareInjector",
+                    "target": "ɵɵngDeclareInjector"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵNgModuleDeclaration",
+                    "target": "ɵɵNgModuleDeclaration"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵdefineNgModule",
+                    "target": "ɵɵdefineNgModule"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵngDeclareNgModule",
+                    "target": "ɵɵngDeclareNgModule"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵsetNgModuleScope",
+                    "target": "ɵɵsetNgModuleScope"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵregisterNgModuleType",
+                    "target": "ɵɵregisterNgModuleType"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵPipeDeclaration",
+                    "target": "ɵɵPipeDeclaration"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵdefinePipe",
+                    "target": "ɵɵdefinePipe"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵngDeclarePipe",
+                    "target": "ɵɵngDeclarePipe"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵngDeclareClassMetadata",
+                    "target": "ɵɵngDeclareClassMetadata"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵngDeclareClassMetadataAsync",
+                    "target": "ɵɵngDeclareClassMetadataAsync"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵsetClassMetadata",
+                    "target": "ɵsetClassMetadata"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵsetClassMetadataAsync",
+                    "target": "ɵsetClassMetadataAsync"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵsetClassDebugInfo",
+                    "target": "ɵsetClassDebugInfo"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵqueryRefresh",
+                    "target": "ɵɵqueryRefresh"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵviewQuery",
+                    "target": "ɵɵviewQuery"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵloadQuery",
+                    "target": "ɵɵloadQuery"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵcontentQuery",
+                    "target": "ɵɵcontentQuery"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵviewQuerySignal",
+                    "target": "ɵɵviewQuerySignal"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵcontentQuerySignal",
+                    "target": "ɵɵcontentQuerySignal"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵqueryAdvance",
+                    "target": "ɵɵqueryAdvance"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵtwoWayProperty",
+                    "target": "ɵɵtwoWayProperty"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵtwoWayBindingSet",
+                    "target": "ɵɵtwoWayBindingSet"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵtwoWayListener",
+                    "target": "ɵɵtwoWayListener"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵdeclareLet",
+                    "target": "ɵɵdeclareLet"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵstoreLet",
+                    "target": "ɵɵstoreLet"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵreadContextLet",
+                    "target": "ɵɵreadContextLet"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵattachSourceLocations",
+                    "target": "ɵɵattachSourceLocations"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵNgOnChangesFeature",
+                    "target": "ɵɵNgOnChangesFeature"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵInheritDefinitionFeature",
+                    "target": "ɵɵInheritDefinitionFeature"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵProvidersFeature",
+                    "target": "ɵɵProvidersFeature"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵHostDirectivesFeature",
+                    "target": "ɵɵHostDirectivesFeature"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵExternalStylesFeature",
+                    "target": "ɵɵExternalStylesFeature"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵlistener",
+                    "target": "ɵɵlistener"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵgetInheritedFactory",
+                    "target": "ɵɵgetInheritedFactory"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵsanitizeHtml",
+                    "target": "ɵɵsanitizeHtml"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵsanitizeStyle",
+                    "target": "ɵɵsanitizeStyle"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵvalidateAttribute",
+                    "target": "ɵɵvalidateAttribute"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵsanitizeResourceUrl",
+                    "target": "ɵɵsanitizeResourceUrl"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵsanitizeScript",
+                    "target": "ɵɵsanitizeScript"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵsanitizeUrl",
+                    "target": "ɵɵsanitizeUrl"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵsanitizeUrlOrResourceUrl",
+                    "target": "ɵɵsanitizeUrlOrResourceUrl"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵtrustConstantHtml",
+                    "target": "ɵɵtrustConstantHtml"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵɵtrustConstantResourceUrl",
+                    "target": "ɵɵtrustConstantResourceUrl"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵINPUT_SIGNAL_BRAND_WRITE_TYPE",
+                    "target": "ɵINPUT_SIGNAL_BRAND_WRITE_TYPE"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵUnwrapDirectiveSignalInputs",
+                    "target": "ɵUnwrapDirectiveSignalInputs"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵunwrapWritableSignal",
+                    "target": "ɵunwrapWritableSignal"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ɵassertType",
+                    "target": "ɵassertType"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "JSON with Comments",
+                    "target": "带注释的JSON"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Lightning Web Components",
+                    "target": "闪电Web组件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Format current file",
+                    "target": "格式化当前文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "an array of the following values",
+                    "target": "以下值的数组"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "one of the following values",
+                    "target": "以下值之一"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
