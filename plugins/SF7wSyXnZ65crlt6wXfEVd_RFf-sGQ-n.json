@@ -1,0 +1,2311 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "nova",
+        "version": "1.0.0",
+        "title": "Nova",
+        "description": "Nova Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.3.3",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Support Nova development and get early access to new features. All features eventually become free for everyone.",
+                    "target": "支持 Nova 开发并抢先体验新功能。所有功能最终都会向所有人免费开放。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Your support keeps Nova free and open source for everyone",
+                    "target": "你的支持让 Nova 对所有人保持免费且开源"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Nova respects your privacy and gives you full control over how your data is handled. All AI providers are accessed using your own API keys, so your content stays between you and your chosen AI service.",
+                    "target": "Nova 尊重你的隐私，并让你完全掌控数据的处理方式。所有 AI 提供商均使用你自己的 API 密钥访问，因此你的内容只在你与所选 AI 服务之间共享。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Mobile support is disabled by default to protect your privacy. When enabled, Nova provides identical selection-based editing capabilities across desktop and mobile with cloud-based AI providers",
+                    "target": "为保护你的隐私，默认禁用移动端支持。启用后，Nova 在桌面端和移动端都可通过云端 AI 提供商提供相同的基于选择的编辑能力。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Status unknown",
+                    "target": "状态未知"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Nova provides all features for free when you use your own AI provider API keys. Supernova supporters get early access to new features.",
+                    "target": "使用你自己的 AI 提供商 API 密钥时，Nova 的所有功能都免费提供。Supernova 支持者可抢先体验新功能。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Nova connects to AI providers using your own API keys. All providers are available to all users - just add your API keys below to get started.",
+                    "target": "Nova 使用你自己的 API 密钥连接 AI 提供商。所有提供商对所有用户开放——只需在下方添加你的 API 密钥即可开始。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Configure which AI provider to use as your primary provider on different platforms. Nova works seamlessly across desktop and mobile with all providers.",
+                    "target": "配置在不同平台上将哪个 AI 提供商作为主提供商。Nova 在桌面端和移动端与所有提供商都能无缝协作。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Supernova supporter feature",
+                    "target": "Supernova 支持者功能"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Smart fill is currently available to Supernova supporters. It will be available to all users on ",
+                    "target": "智能填充目前仅对 Supernova 支持者开放。它将于 面向所有用户开放。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Create your first command to get started!",
+                    "target": "创建你的第一个命令以开始使用！"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Status: ",
+                    "target": "状态："
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Learn more",
+                    "target": "了解更多"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Hi! I'm Nova, your AI writing partner — select any text and right-click to transform it directly, or chat with me to add content where your cursor is",
+                    "target": "你好！我是 Nova，你的 AI 写作伙伴——选择任意文本并右键即可直接转换，或与我对话以在光标位置添加内容"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "No documents in context. Link notes with [[wikilinks]] or enable auto-context above.",
+                    "target": "上下文中没有文档。用 [[wikilinks]] 链接笔记，或在上方启用自动上下文。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Mobile disabled",
+                    "target": "移动端已禁用"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "1 issue",
+                    "target": "1 个问题"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Use /fill command to generate content for this placeholder",
+                    "target": "使用 /fill 命令为此占位符生成内容"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": " → ",
+                    "target": " → "
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Fix all issues for proper grammar:",
+                    "target": "修复所有问题以确保语法正确："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Aggressive - show all suggestions",
+                    "target": "激进 - 显示所有建议"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Balanced - good suggestions (recommended)",
+                    "target": "平衡 - 良好建议（推荐）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Minimal - only high-confidence suggestions",
+                    "target": "最小 - 仅高置信度建议"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Off - no suggestions",
+                    "target": "关闭 - 无建议"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Your privacy matters",
+                    "target": "您的隐私很重要"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Mobile support",
+                    "target": "移动端支持"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " After connecting successfully, select models for any provider using the dropdown in the Nova sidebar.",
+                    "target": " 成功连接后，使用 Nova 侧边栏中的下拉菜单为任意提供商选择模型。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Claude API Error Details:",
+                    "target": "Claude API 错误详情："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "OpenAI API Response Error: Unexpected format",
+                    "target": "OpenAI API 响应错误：格式异常"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "OpenAI API Error Details:",
+                    "target": "OpenAI API 错误详情："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "OpenAI API Request Failed (Exception):",
+                    "target": "OpenAI API 请求失败（异常）："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Google API Error Details:",
+                    "target": "Google API 错误详情："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Ollama API Error Details:",
+                    "target": "Ollama API 错误详情："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error creating provider status indicator:",
+                    "target": "创建提供方状态指示器时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to save settings after adding command:",
+                    "target": "添加命令后保存设置失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to save settings after deleting command:",
+                    "target": "删除命令后保存设置失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to create test document:",
+                    "target": "创建测试文档失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to add files to context:",
+                    "target": "将文件添加到上下文失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error in markdown command selection:",
+                    "target": "选择 Markdown 命令时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to persist context update:",
+                    "target": "持久化上下文更新失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to fill single marker:",
+                    "target": "无法填充单个标记："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Selection edit command error:",
+                    "target": "选择编辑命令错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Selection edit streaming error:",
+                    "target": "选择编辑流式错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to handle selection action:",
+                    "target": "无法处理选择操作："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error executing Nova selection action:",
+                    "target": "执行 Nova 选择操作时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error in streaming selection edit:",
+                    "target": "流式选择编辑出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Challenge This failed:",
+                    "target": "Challenge This 失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "❌ Failed to update provider display after configuration:",
+                    "target": "❌ 配置后无法更新提供方显示："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to update send button:",
+                    "target": "无法更新发送按钮："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "❌ Failed to update provider display after disconnection:",
+                    "target": "❌ 断开连接后无法更新提供方显示："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "❌ Failed to refresh Supernova UI after license update:",
+                    "target": "❌ 许可证更新后刷新 Supernova UI 失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to load conversation on file change:",
+                    "target": "文件更改时加载对话失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to load conversation on open:",
+                    "target": "打开时加载对话失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to refresh stats on input focus:",
+                    "target": "输入框获得焦点时刷新统计失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to refresh stats on sidebar click:",
+                    "target": "侧边栏点击时刷新统计失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to handle send:",
+                    "target": "处理发送失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to execute command from menu:",
+                    "target": "从菜单执行命令失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to refresh context:",
+                    "target": "刷新上下文失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to refresh stats:",
+                    "target": "刷新统计失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Conversation loading error:",
+                    "target": "对话加载错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to update privacy indicator:",
+                    "target": "更新隐私指示器失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error switching provider/model:",
+                    "target": "切换提供商/模型时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error saving model selection:",
+                    "target": "保存模型选择时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error refreshing provider status:",
+                    "target": "刷新提供商状态时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error refreshing context after model switch:",
+                    "target": "模型切换后刷新上下文时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error switching model:",
+                    "target": "切换模型时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error in streaming add command:",
+                    "target": "流式添加命令出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error in streaming edit command:",
+                    "target": "流式编辑命令出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error in streaming rewrite command:",
+                    "target": "流式改写命令出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error in streaming grammar command:",
+                    "target": "流式语法命令出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to clear persistent context:",
+                    "target": "无法清除持久上下文："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error replacing selection:",
+                    "target": "替换所选内容时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "ConversationManager.loadConversations: Load failed:",
+                    "target": "ConversationManager.loadConversations：加载失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "ConversationManager.saveConversations: Save failed:",
+                    "target": "ConversationManager.saveConversations：保存失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to cleanup old conversations:",
+                    "target": "无法清理旧对话："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to parse metadata updates. AI response:",
+                    "target": "无法解析元数据更新。AI 响应："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to parse AI tag response:",
+                    "target": "无法解析 AI 标签响应："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error parsing AI tag response:",
+                    "target": "解析 AI 标签响应时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Response was:",
+                    "target": "响应为："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to encrypt value:",
+                    "target": "无法加密值："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to decrypt value:",
+                    "target": "无法解密值："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error in classifyIntent:",
+                    "target": "classifyIntent 出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to build smart context:",
+                    "target": "无法构建智能上下文："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to position InsightPanel:",
+                    "target": "无法定位 InsightPanel："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Missing context for command execution",
+                    "target": "缺少命令执行的上下文"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Could not build smart context for command execution",
+                    "target": "无法为命令执行构建智能上下文"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Missing context for specific fix execution",
+                    "target": "缺少特定修复执行的上下文"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to execute specific fix:",
+                    "target": "无法执行特定修复："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Missing context for combined fix execution",
+                    "target": "缺少组合修复执行的上下文"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to apply combined fixes:",
+                    "target": "无法应用组合修复："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to select opportunity text:",
+                    "target": "无法选择机会文本："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to analyze context for indicators:",
+                    "target": "无法分析指标的上下文："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to get visible line range:",
+                    "target": "无法获取可见行范围："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to initialize Nova plugin:",
+                    "target": "无法初始化 Nova 插件："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to decrypt API keys:",
+                    "target": "无法解密 API 密钥："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to decrypt license keys:",
+                    "target": "无法解密许可密钥："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to encrypt API keys:",
+                    "target": "无法加密 API 密钥："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to encrypt license keys:",
+                    "target": "无法加密许可密钥："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error during save operation:",
+                    "target": "保存操作期间出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error executing Nova selection command:",
+                    "target": "执行 Nova 选择命令时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error executing Nova tone command:",
+                    "target": "执行 Nova 语气命令出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "CommandEngine cleaned up",
+                    "target": "CommandEngine 已清理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "SmartTimingEngine initialized",
+                    "target": "SmartTimingEngine 已初始化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Using AI restructuring for passive voice fixes",
+                    "target": "使用 AI 重构进行被动语态修正"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "InsightPanel cleaned up",
+                    "target": "InsightPanel 已清理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Initializing MarginIndicators",
+                    "target": "正在初始化 MarginIndicators"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "MarginIndicators initialized",
+                    "target": "MarginIndicators 已初始化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "MarginIndicators cleaned up",
+                    "target": "MarginIndicators 已清理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Test connection",
+                    "target": "测试连接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Validate license",
+                    "target": "验证许可证"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Clear licenses",
+                    "target": "清除许可证"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "+ add custom command",
+                    "target": "+ 添加自定义命令"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Transform text",
+                    "target": "转换文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Display name for this command",
+                    "target": "此命令的显示名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Shortcut to trigger this command (without colon)",
+                    "target": "触发此命令的快捷方式（不含冒号）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Optional description of what this command does",
+                    "target": "该命令功能的可选说明"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Allow Nova to work on mobile devices using cloud-based AI providers",
+                    "target": "允许 Nova 使用基于云的 AI 提供商在移动设备上工作"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Test your API connection",
+                    "target": "测试你的 API 连接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Validate your Supernova license key",
+                    "target": "验证你的 Supernova 许可证密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable development testing features",
+                    "target": "启用开发测试功能"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Override current date for testing time-gated features (yyyy-mm-dd)",
+                    "target": "为测试按时间解锁的功能覆盖当前日期（yyyy-mm-dd）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Override Supernova supporter status for testing",
+                    "target": "为测试覆盖 Supernova 支持者状态"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Controls randomness in AI responses (0.0 = focused, 1.0 = creative)",
+                    "target": "控制 AI 回复的随机性（0.0 = 更专注，1.0 = 更有创意）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Maximum length of AI responses (2000-32000 tokens)",
+                    "target": "AI 回复的最大长度（2000-32000 个 token）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Display what's new after plugin updates",
+                    "target": "插件更新后显示新内容"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Ollama server URL",
+                    "target": "Ollama 服务器 URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Ollama model to use",
+                    "target": "使用的 Ollama 模型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Context window size for all ollama models (Nova defaults to 32k vs ollama's 2k)",
+                    "target": "所有 ollama 模型的上下文窗口大小（Nova 默认为 32k，ollama 为 2k）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Select a recent prompt or type a new instruction below",
+                    "target": "选择最近的提示词，或在下方输入新指令"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Describe how you want Nova to transform your selected text",
+                    "target": "描述你希望 Nova 如何转换所选文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Press Enter to submit • Shift+Enter for new line",
+                    "target": "按 Enter 提交 • Shift+Enter 换行"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Command name",
+                    "target": "命令名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Command trigger",
+                    "target": "命令触发器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Debug mode",
+                    "target": "调试模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Privacy & platform",
+                    "target": "隐私与平台"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable mobile support",
+                    "target": "启用移动端支持"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Connection status",
+                    "target": "连接状态"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Override date",
+                    "target": "覆盖日期"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Force Supernova status",
+                    "target": "强制 Supernova 状态"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Clear all licenses",
+                    "target": "清除所有许可证"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default max tokens",
+                    "target": "默认最大令牌数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Insight sensitivity",
+                    "target": "洞察敏感度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show release notes",
+                    "target": "显示发布说明"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Configure your API keys",
+                    "target": "配置你的 API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Setup providers",
+                    "target": "设置提供商"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Claude (Anthropic)",
+                    "target": "Claude (Anthropic)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "ChatGPT (OpenAI)",
+                    "target": "ChatGPT (OpenAI)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Ollama (local)",
+                    "target": "Ollama（本地）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Base URL",
+                    "target": "基础 URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default context limit",
+                    "target": "默认上下文限制"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Model selection",
+                    "target": "模型选择"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Custom commands",
+                    "target": "自定义命令"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "E.g., expand outline",
+                    "target": "例如：扩展大纲"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "E.g., expand",
+                    "target": "例如：扩展"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "E.g., transform bullet points into flowing prose",
+                    "target": "例如：将要点转换为流畅的文字"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "E.g., transform the following bullet points into flowing prose...",
+                    "target": "例如：将以下要点转换为流畅的文字..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Search files to add to context...",
+                    "target": "搜索要添加到上下文的文件..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "How can I help?",
+                    "target": "我能帮您什么？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Type a command...",
+                    "target": "输入命令..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Choose a writing tone...",
+                    "target": "选择写作语气..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "E.g., \"make this more persuasive\", \"add statistics\", \"write in bullet points\"",
+                    "target": "例如：“让这段更有说服力”“添加统计数据”“用要点列出”"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "⚠️ developer",
+                    "target": "⚠️ 开发者"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Become a Supernova supporter",
+                    "target": "成为 Supernova 支持者"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Recommended defaults",
+                    "target": "推荐默认值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "🖥️ platform setup",
+                    "target": "🖥️ 平台设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Selection-based editing",
+                    "target": "基于选择的编辑"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Chat-based targeting",
+                    "target": "基于聊天的定位"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "AI provider selection",
+                    "target": "AI 提供商选择"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Supernova support",
+                    "target": "Supernova 支持"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Quick start",
+                    "target": "快速开始"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Custom prompt",
+                    "target": "自定义提示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Support Nova on Ko-fi",
+                    "target": "在 Ko-fi 上支持 Nova"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Nova: Insert placeholder",
+                    "target": "Nova：插入占位符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Nova: Smart fill",
+                    "target": "Nova：智能填充"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Send message",
+                    "target": "发送消息"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Stop response",
+                    "target": "停止响应"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Clear conversation history",
+                    "target": "清除对话历史"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to parse Obsidian URL:",
+                    "target": "解析 Obsidian URL 失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Invalid context document structure:",
+                    "target": "无效的上下文文档结构："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Error processing context document, skipping:",
+                    "target": "处理上下文文档出错，已跳过："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to restore context from conversation:",
+                    "target": "无法从会话中恢复上下文："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to cleanup missing files from conversation:",
+                    "target": "无法清理会话中的缺失文件："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to show missing files notification:",
+                    "target": "无法显示缺失文件通知："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to get current model:",
+                    "target": "无法获取当前模型："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Error during context calculation setup, using defaults:",
+                    "target": "设置上下文计算时出错，使用默认值："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to populate auto-context:",
+                    "target": "无法填充自动上下文："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to create thinking notice:",
+                    "target": "无法创建思考提示："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Magical scroll failed:",
+                    "target": "魔法卷轴失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Error updating streaming text:",
+                    "target": "更新流式文本时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Error in notice dots animation:",
+                    "target": "提示点动画出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to add cancel message to chat:",
+                    "target": "无法将取消消息添加到聊天："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to start selection animation:",
+                    "target": "无法启动选择动画："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to stop selection animation:",
+                    "target": "无法停止选择动画："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to add success chat message:",
+                    "target": "无法添加成功聊天消息："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to add error chat message:",
+                    "target": "无法添加错误聊天消息："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to add cancel chat message:",
+                    "target": "无法添加取消聊天消息："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to refresh context:",
+                    "target": "无法刷新上下文："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Invalid model display name detected:",
+                    "target": "检测到无效的模型显示名称："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Pattern matching error in IntentDetector:",
+                    "target": "IntentDetector 中的模式匹配错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Error in fastClassification:",
+                    "target": "fastClassification 中的错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Error in isDirectEditingCommand:",
+                    "target": "isDirectEditingCommand 出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "No active markdown editor found",
+                    "target": "未找到活动的 Markdown 编辑器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "No file associated with active editor",
+                    "target": "活动编辑器未关联文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Could not find .cm-scroller for panel creation",
+                    "target": "无法找到用于面板创建的 .cm-scroller"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "No smart context available",
+                    "target": "没有可用的智能上下文"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "No active view available for InsightPanel",
+                    "target": "InsightPanel 没有可用的活动视图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "No commands settings found, using defaults",
+                    "target": "未找到命令设置，使用默认值"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to create test document. Check console for details.",
+                    "target": "创建测试文档失败。请查看控制台了解详情。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Only Markdown files can be added to context",
+                    "target": "仅可将 Markdown 文件添加到上下文中"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Folders cannot be added to context. Please select individual files.",
+                    "target": "文件夹无法添加到上下文。请选择单个文件。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No active document found",
+                    "target": "未找到活动文档"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No placeholder found at this line",
+                    "target": "此行未找到占位符"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No active editor available",
+                    "target": "没有可用的活动编辑器"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Filled placeholder",
+                    "target": "已填充占位符"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Fill canceled",
+                    "target": "填充已取消"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No placeholders found in document",
+                    "target": "文档中未找到占位符"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to fill placeholders",
+                    "target": "填充占位符失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Nova is processing your request...",
+                    "target": "Nova 正在处理您的请求..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to execute Nova action. Please try again.",
+                    "target": "执行 Nova 操作失败。请重试。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Operation canceled",
+                    "target": "操作已取消"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Open the Nova sidebar first to use challenge this",
+                    "target": "请先打开 Nova 侧边栏以使用此挑战"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No text selected. Please select text to use Nova editing commands.",
+                    "target": "未选择文本。请选择文本以使用 Nova 编辑命令。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Chat cleared",
+                    "target": "聊天已清除"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No file is open. Please open a file to add context.",
+                    "target": "未打开文件。请打开文件以添加上下文。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please select some text first",
+                    "target": "请先选择一些文本"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to execute Nova action, please try again",
+                    "target": "执行 Nova 操作失败，请重试"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": " - Ollama and desktop-only providers keep everything on your device",
+                    "target": " - Ollama 和仅桌面提供商会将所有内容保留在你的设备上"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": " - Enable mobile only when you need cross-device access",
+                    "target": " - 仅在需要跨设备访问时启用移动端"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": " - Selection-based editing works identically on mobile via Command Palette (Cmd+P)",
+                    "target": " - 通过命令面板 (Cmd+P)，移动端的基于选择的编辑方式与桌面端完全一致"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": " - Mobile provides the same editing capabilities as desktop",
+                    "target": " - 移动端提供与桌面端相同的编辑能力"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Enter your Supernova supporter license key for early access to new features",
+                    "target": "输入您的 Supernova 支持者许可证密钥以提前体验新功能"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": " - Latest generation with excellent instruction following for collaborative editing",
+                    "target": " - 最新一代，具备出色的指令遵循能力，适用于协作编辑"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": " - Cost-effective model with strong performance across coding and general tasks",
+                    "target": " - 具备高性价比，在编码和通用任务中表现强劲"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": " - Best price/performance with \"thinking\" capabilities and strong coding support",
+                    "target": " - 最佳性价比，具备“思考”能力并提供强大的编码支持"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": " - Complete privacy with local processing - requires setup but keeps all data on your device",
+                    "target": " - 本地处理保障完全隐私 - 需要设置，但所有数据都保留在您的设备上"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Your Anthropic API key",
+                    "target": "您的 Anthropic API 密钥"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Your OpenAI API key",
+                    "target": "您的 OpenAI API 密钥"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Your Google AI API key",
+                    "target": "您的 Google AI API 密钥"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": " - For complex reasoning and analysis",
+                    "target": " - 用于复杂推理与分析"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": " - For balanced performance and creativity",
+                    "target": " - 兼顾性能与创造力"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": " - For fast responses and research",
+                    "target": " - 用于快速响应和研究"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": " - For local privacy and offline use 🔒",
+                    "target": " - 用于本地隐私和离线使用 🔒"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Enter your Supernova supporter license key",
+                    "target": "输入你的 Supernova 支持者许可证密钥"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Enhance clarity and flow",
+                    "target": "增强清晰度和流畅性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Correct grammar and spelling",
+                    "target": "纠正语法和拼写"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Create a concise summary",
+                    "target": "创建简明摘要"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Develop thoughts further",
+                    "target": "进一步扩展思路"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Clarify complex concepts",
+                    "target": "澄清复杂概念"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Extend the current text",
+                    "target": "扩展当前文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Smart fill all <!-- nova: --> placeholders in the document",
+                    "target": "智能填充文档中所有 <!-- nova: --> 占位符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Relaxed, conversational tone for informal communication",
+                    "target": "用于非正式沟通的轻松、对话式语气"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Scholarly, precise language with technical vocabulary",
+                    "target": "采用技术词汇的学术、精准语言"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Warm, approachable tone that builds connection",
+                    "target": "温暖、亲切的语气，建立联系"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Make text clearer, more concise, better flow",
+                    "target": "让文本更清晰、更简洁、行文更流畅"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Expand ideas with more detail and examples",
+                    "target": "用更多细节和示例扩展思路"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Condense to essential points",
+                    "target": "压缩为核心要点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Adjust writing style and tone",
+                    "target": "调整写作风格和语气"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Critical analysis sent to sidebar chat",
+                    "target": "将批判性分析发送到侧边栏聊天"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Custom instruction for transformation",
+                    "target": "用于转换的自定义指令"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Provider Commands",
+                    "target": "提供方命令"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Anthropic Claude AI",
+                    "target": "Anthropic Claude AI"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "OpenAI GPT models",
+                    "target": "OpenAI GPT 模型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Local AI models",
+                    "target": "本地 AI 模型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Custom Commands",
+                    "target": "自定义命令"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Smart fill with / triggers and placeholders",
+                    "target": "使用 / 触发器和占位符进行智能填充"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Convert passive voice to active voice with proper grammar",
+                    "target": "将被动语态转换为主动语态并确保语法正确"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Selected text to fix",
+                    "target": "需要修复的选中文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "passive voice detected",
+                    "target": "检测到被动语态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "passive construction",
+                    "target": "被动结构"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "No active editor found",
+                    "target": "未找到活动的编辑器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Could not determine cursor position",
+                    "target": "无法确定光标位置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "No active editor or file",
+                    "target": "没有活动的编辑器或文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "No text selected",
+                    "target": "未选择文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Invalid delete target",
+                    "target": "无效的删除目标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "No active editor",
+                    "target": "没有活动的编辑器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "This command requires text to be selected first",
+                    "target": "此命令需要先选择文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Cannot add content to a selection. Use \"edit\" to modify selected text",
+                    "target": "无法向选区添加内容。使用 \"edit\" 修改所选文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "No active document found",
+                    "target": "未找到活动文档"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Command action must be add",
+                    "target": "命令操作必须为 add"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Add instruction is required",
+                    "target": "需要添加指令"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "No text selected for editing",
+                    "target": "未选择要编辑的文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Please select text to edit",
+                    "target": "请选择要编辑的文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Command action must be edit",
+                    "target": "命令操作必须为 edit"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Edit instruction is required",
+                    "target": "必须提供编辑指令"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "No text selected for deletion",
+                    "target": "未选择要删除的文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Cannot delete from end - use cursor or selection instead",
+                    "target": "无法从末尾删除——请使用光标或选区"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Please select text to delete",
+                    "target": "请选择要删除的文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Command action must be delete",
+                    "target": "命令操作必须为 delete"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "No text selected for grammar correction",
+                    "target": "未选择要进行语法校正的文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Please select text to correct grammar, or use \"document\" to fix entire document",
+                    "target": "请选择要进行语法校正的文本，或使用 \"document\" 修复整个文档"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Grammar correction requires selecting text or specifying \"document\"",
+                    "target": "语法更正需要选择文本或指定“document”"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Command action must be grammar",
+                    "target": "命令操作必须为语法"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Please select text to correct grammar",
+                    "target": "请选择文本以更正语法"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Grammar correction requires selecting text or targeting entire document",
+                    "target": "语法更正需要选择文本或定位整个文档"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "No text selected for rewriting",
+                    "target": "未选择要重写的文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Command action must be rewrite",
+                    "target": "命令操作必须为重写"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Rewrite instruction is required",
+                    "target": "必须提供重写指令"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "No property updates found in AI response",
+                    "target": "AI 响应中未发现属性更新"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Getting started",
+                    "target": "快速入门"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "AI providers",
+                    "target": "AI 提供商"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Claude Opus 4.6",
+                    "target": "Claude Opus 4.6"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Claude Sonnet 4.6",
+                    "target": "Claude Sonnet 4.6"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Claude Haiku 4.5",
+                    "target": "Claude Haiku 4.5"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "GPT-5.4 Pro",
+                    "target": "GPT-5.4 Pro"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "GPT-5.3 Chat",
+                    "target": "GPT-5.3 Chat"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "GPT-5.1 Chat",
+                    "target": "GPT-5.1 Chat"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "GPT-5 Pro",
+                    "target": "GPT-5 Pro"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "GPT-5 Mini",
+                    "target": "GPT-5 Mini"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "GPT-5 Nano",
+                    "target": "GPT-5 Nano"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Improve writing",
+                    "target": "改进写作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Make longer",
+                    "target": "加长"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Make shorter",
+                    "target": "缩短"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Change tone",
+                    "target": "更改语气"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Challenge this",
+                    "target": "质疑此内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Custom prompt",
+                    "target": "自定义提示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "link",
+                    "source": "→ Go to General tab",
+                    "target": "→ 前往“常规”选项卡"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "link",
+                    "source": "→ Go to AI providers tab",
+                    "target": "→ 前往“AI 提供商”选项卡"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "link",
+                    "source": "→ Go to Supernova tab",
+                    "target": "→ 前往“Supernova”选项卡"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "link",
+                    "source": "→ Open user guide ↗",
+                    "target": "→ 打开用户指南 ↗"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Status unavailable",
+                    "target": "状态不可用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Supernova license key (optional)",
+                    "target": "Supernova 许可证密钥（可选）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "API Key",
+                    "target": "API 密钥"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "License Key",
+                    "target": "许可证密钥"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Improve writing",
+                    "target": "改进写作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Fix grammar",
+                    "target": "修正语法"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Expand ideas",
+                    "target": "拓展思路"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Continue writing",
+                    "target": "继续写作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Smart fill",
+                    "target": "智能填充"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "─────────────",
+                    "target": "─────────────"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Switch to Claude",
+                    "target": "切换到 Claude"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Switch to ChatGPT",
+                    "target": "切换到 ChatGPT"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Switch to Ollama",
+                    "target": "切换到 Ollama"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Fix Passive Voice",
+                    "target": "修复被动语态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Make longer",
+                    "target": "加长"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Make shorter",
+                    "target": "缩短"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Custom prompt",
+                    "target": "自定义提示词"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open sidebar",
+                    "target": "打开侧边栏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Smart fill (/fill)",
+                    "target": "智能填充（/fill）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert smart fill placeholder",
+                    "target": "插入智能填充占位符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Enter Supernova license key...",
+                    "target": "输入 Supernova 许可证密钥..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Debug settings for development and testing. These options help developers troubleshoot issues and test new features.",
+                    "target": "用于开发和测试的调试设置。这些选项帮助开发者排查问题并测试新功能。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Only modify these settings if you understand their purpose.",
+                    "target": "只有在了解其用途时才修改这些设置。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "🔒 ",
+                    "target": "🔒 "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "📱 ",
+                    "target": "📱 "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Model selection:",
+                    "target": "模型选择："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "January 1, 2026",
+                    "target": "2026年1月1日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No custom commands yet.",
+                    "target": "暂无自定义命令。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Your AI writing partner to make the writing process smoother",
+                    "target": "你的 AI 写作伙伴，让写作过程更顺畅"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "🎯",
+                    "target": "🎯"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "💡 Tip: Select any text in your document and right-click to see Nova actions",
+                    "target": "💡 提示：在文档中选择任意文本并右键单击以查看 Nova 操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "💬",
+                    "target": "💬"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "📱 Works identically on desktop and mobile",
+                    "target": "📱 在桌面端和移动端表现一致"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "🤖",
+                    "target": "🤖"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Choose the right AI for your task:",
+                    "target": "为你的任务选择合适的 AI："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Configure providers in the AI Providers tab",
+                    "target": "在 AI Providers 选项卡中配置提供商"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Founding Supernova",
+                    "target": "创始 Supernova"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Lifetime Supernova",
+                    "target": "终身 Supernova"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Annual Supernova",
+                    "target": "年度 Supernova"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Licensed to:",
+                    "target": "授权给："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Status:",
+                    "target": "状态："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "1. Explore privacy and general",
+                    "target": "1. 探索隐私与常规设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "2. Configure AI providers",
+                    "target": "2. 配置 AI 提供商"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "3. Manage Supernova license",
+                    "target": "3. 管理 Supernova 许可证"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "4. Explore the user guide",
+                    "target": "4. 查看用户指南"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "💡 Tip: Press Cmd+P (Mac) or Ctrl+P (PC), then choose \"Open sidebar\" to access Nova",
+                    "target": "💡 提示：按下 Cmd+P（Mac）或 Ctrl+P（PC），然后选择“打开侧边栏”以访问 Nova"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "↑↓",
+                    "target": "↑↓"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "to navigate",
+                    "target": "用于导航"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "to use",
+                    "target": "用于使用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "to dismiss",
+                    "target": "用于关闭"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Quick commands",
+                    "target": "快速命令"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "to select",
+                    "target": "选择"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Context: ",
+                    "target": "上下文： "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Auto-include linked notes",
+                    "target": "自动包含链接笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Include backlinks",
+                    "target": "包含反向链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " Nova",
+                    "target": " Nova"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " Commands",
+                    "target": " 命令"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No provider",
+                    "target": "无提供商"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Smart fill",
+                    "target": "智能填充"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Your choice",
+                    "target": "你的选择"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Cross-platform editing",
+                    "target": "跨平台编辑"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Same experience",
+                    "target": "相同体验"
+                },
+                {
+                    "type": "VariableDeclarator",
+                    "name": "placeholder",
+                    "source": "<!-- nova: Replace this text -->",
+                    "target": "<!-- nova: 替换此文本 -->"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
