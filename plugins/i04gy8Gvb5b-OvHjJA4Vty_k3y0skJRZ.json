@@ -1,0 +1,895 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "dashboard-navigator",
+        "version": "1.0.0",
+        "title": "Dashboard navigator",
+        "description": "Dashboard navigator Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "10.0.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "YYYY-MM-DD HH:mm:ss",
+                    "target": "YYYY-MM-DD HH:mm:ss"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "YYYY-MM-DD HH:mm",
+                    "target": "YYYY-MM-DD HH:mm"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "DD/MM/YYYY HH:mm:ss",
+                    "target": "DD/MM/YYYY HH:mm:ss"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "DD/MM/YYYY HH:mm",
+                    "target": "DD/MM/YYYY HH:mm"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Row striped",
+                    "target": "行条纹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Column striped",
+                    "target": "列条纹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Select the initial view for this plugin's modal when it opens using its primary ribbon icon.",
+                    "target": "选择该插件通过其主功能区图标打开时模态框的初始视图。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Select date format.",
+                    "target": "选择日期格式。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Select font size in pixels for results and links.",
+                    "target": "选择结果和链接的字体大小（像素）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Dashboard: Number of recent files per category.",
+                    "target": "仪表板：每个类别的最近文件数量。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Dashboard: Number of bookmarks to display.",
+                    "target": "仪表板：要显示的书签数量。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Dashboard: Displays a pie chart of file types and a count of all files and folders.",
+                    "target": "仪表板：显示文件类型的饼图以及所有文件和文件夹的计数。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Navigator: Select search results layout.",
+                    "target": "导航器：选择搜索结果布局。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Navigator: Number of results per page.",
+                    "target": "导航器：每页结果数量。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Navigator: Hide file extension column.",
+                    "target": "导航器：隐藏文件扩展名列。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Navigator: Hide path column.",
+                    "target": "导航器：隐藏路径列。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Navigator: Hide size column.",
+                    "target": "导航器：隐藏大小列。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Navigator: Hide date column.",
+                    "target": "导航器：隐藏日期列。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Navigator: Hide tags column.",
+                    "target": "导航器：隐藏标签列。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Navigator: Hide frontmatter properties column.",
+                    "target": "导航器：隐藏 Frontmatter 属性列。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Navigator: Hide backlinks column.",
+                    "target": "导航器：隐藏反向链接列。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Navigator: Hide outgoing links column.",
+                    "target": "导航器：隐藏外部链接列。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Navigator: Activate to show image thumbnails. Deactivate to show image icons.",
+                    "target": "导航器：启用后显示图片缩略图，禁用后显示图片图标。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Navigator: Adjust image thumbnails size",
+                    "target": "导航器：调整图片缩略图大小"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "File extensions to exclude, separated by commas.",
+                    "target": "要排除的文件扩展名，用逗号分隔。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "List of folder paths to exclude, separated by commas.",
+                    "target": "要排除的文件夹路径列表，用逗号分隔。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Turn on/off colored files.",
+                    "target": "开启/关闭彩色文件。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Color of notes.",
+                    "target": "笔记颜色。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Color of canvases.",
+                    "target": "画布颜色。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Color of images.",
+                    "target": "图片颜色。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Color of videos.",
+                    "target": "视频的颜色。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Color of audio files.",
+                    "target": "音频文件的颜色。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Color of PDF files.",
+                    "target": "PDF 文件的颜色。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Color of .base files.",
+                    "target": ".base 文件的颜色。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Color of other files.",
+                    "target": "其他文件的颜色。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Activate to show image thumbnails. Deactivate to show image icons.",
+                    "target": "启用以显示图片缩略图。停用以显示图片图标。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Adjust image thumbnails size in pixels.",
+                    "target": "以像素调整图片缩略图大小。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Open dashboard navigator",
+                    "target": "打开仪表板导航器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default modal view",
+                    "target": "默认模态视图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Date format",
+                    "target": "日期格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Font size",
+                    "target": "字体大小"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Recent files",
+                    "target": "最近文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show pie chart panel",
+                    "target": "显示饼图面板"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Search results layout",
+                    "target": "搜索结果布局"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Files per page",
+                    "target": "每页文件数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Hide: Ext",
+                    "target": "隐藏：扩展名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Hide: Path",
+                    "target": "隐藏：路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Hide: Size",
+                    "target": "隐藏：大小"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Hide: Date",
+                    "target": "隐藏：日期"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Hide: Tags",
+                    "target": "隐藏：标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Hide: Frontmatter",
+                    "target": "隐藏：Frontmatter"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Hide: BL (Backlinks)",
+                    "target": "隐藏：BL（反向链接）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Hide: OL (Outgoing links)",
+                    "target": "隐藏：OL（外链）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show image thumbnails",
+                    "target": "显示图片缩略图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Image thumbnails size",
+                    "target": "图片缩略图大小"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Excluded file extensions",
+                    "target": "排除的文件扩展名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Excluded folders",
+                    "target": "排除的文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Toggle colored files",
+                    "target": "切换彩色文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Color: Notes",
+                    "target": "颜色：笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Color: Canvases",
+                    "target": "颜色：画布"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Color: Images",
+                    "target": "颜色：图片"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Color: Videos",
+                    "target": "颜色：视频"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Color: Audio files",
+                    "target": "颜色：音频文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Color: PDF",
+                    "target": "颜色：PDF"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Color: Bases",
+                    "target": "颜色：库"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Color: Other files",
+                    "target": "颜色：其他文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "File extensions to exclude",
+                    "target": "要排除的文件扩展名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Folder paths to exclude",
+                    "target": "要排除的文件夹路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Preview unavailable.",
+                    "target": "无法预览。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Open in new tab",
+                    "target": "在新标签页中打开"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Open to the right",
+                    "target": "在右侧打开"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Open in new window",
+                    "target": "在新窗口打开"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Show preview",
+                    "target": "显示预览"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Outgoing links",
+                    "target": "外链"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "File tags",
+                    "target": "文件标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "File frontmatter",
+                    "target": "文件 frontmatter"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "File properties",
+                    "target": "文件属性"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Open dashboard navigator",
+                    "target": "打开仪表盘导航器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Restore default",
+                    "target": "恢复默认"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please type a tag or multiple tags to search in Navigator.",
+                    "target": "请输入一个或多个标签以在导航器中搜索。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please enter a search.",
+                    "target": "请输入搜索内容。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Search saved successfully!",
+                    "target": "搜索已成功保存！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Search input not found.",
+                    "target": "未找到搜索输入。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Saved search deleted.",
+                    "target": "已删除已保存的搜索。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error: Could not find search to delete.",
+                    "target": "错误：未找到要删除的搜索。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open dashboard",
+                    "target": "打开仪表盘"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open navigator",
+                    "target": "打开导航器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open tags",
+                    "target": "打开标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Search for tag(s)...",
+                    "target": "搜索标签..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Enter your search...",
+                    "target": "输入您的搜索..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Description... (optional)",
+                    "target": "描述...（可选）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Filter saved searches...",
+                    "target": "筛选已保存的搜索..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Hidden columns",
+                    "target": "隐藏的列"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Image thumbnails",
+                    "target": "图片缩略图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Excluded files and folders",
+                    "target": "排除的文件和文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "File colors",
+                    "target": "文件颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Target file: ",
+                    "target": "目标文件："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Path: ",
+                    "target": "路径："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Total: ",
+                    "target": "总计："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No backlinks found.",
+                    "target": "未找到反向链接。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Outgoing links",
+                    "target": "外部链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Origin file: ",
+                    "target": "源文件： "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No outgoing links found.",
+                    "target": "未找到外部链接。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "File tags",
+                    "target": "文件标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No tags",
+                    "target": "无标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "File frontmatter",
+                    "target": "文件前言"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No frontmatter",
+                    "target": "无前言"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "File properties",
+                    "target": "文件属性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Extension: ",
+                    "target": "扩展名： "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Size: ",
+                    "target": "大小： "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Created: ",
+                    "target": "创建时间： "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Modified: ",
+                    "target": "修改时间： "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Tag(s): ",
+                    "target": "标签： "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Frontmatter: ",
+                    "target": "前置元数据： "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Open in new tab",
+                    "target": "在新标签页中打开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Open in new window",
+                    "target": "在新窗口中打开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Layout:",
+                    "target": "布局："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Row striped",
+                    "target": "行条纹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Column striped",
+                    "target": "列条纹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Sort by:",
+                    "target": "排序方式："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Name (A to Z)",
+                    "target": "名称（A 到 Z）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Name (Z to A)",
+                    "target": "名称（Z 到 A）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Extension (A to Z)",
+                    "target": "扩展名（A 到 Z）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Extension (Z to A)",
+                    "target": "扩展名（Z 到 A）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Path (A to Z)",
+                    "target": "路径（A 到 Z）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Path (Z to A)",
+                    "target": "路径（Z 到 A）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Size (smallest to largest)",
+                    "target": "大小（从小到大）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Size (largest to smallest)",
+                    "target": "大小（从大到小）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Date/time (oldest to newest)",
+                    "target": "日期/时间（从最早到最新）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Date/time (newest to oldest)",
+                    "target": "日期/时间（从最新到最早）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Backlinks (lowest to highest)",
+                    "target": "反向链接（从少到多）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Backlinks (highest to lowest)",
+                    "target": "反向链接（从多到少）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Outgoing links (lowest to highest)",
+                    "target": "外部链接（从少到多）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Outgoing links (highest to lowest)",
+                    "target": "外部链接（从多到少）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Recent notes & tags",
+                    "target": "最近的笔记和标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "File(s): 0 ",
+                    "target": "文件：0 "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No files found.",
+                    "target": "未找到文件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No notes found matching the specified tag(s).",
+                    "target": "未找到与指定标签匹配的笔记。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Sort tags by:",
+                    "target": "标签排序方式："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Tag name (A-Z)",
+                    "target": "标签名称（A-Z）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Frequency (high to low)",
+                    "target": "频率（从高到低）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No matching tags found.",
+                    "target": "未找到匹配的标签。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Save search",
+                    "target": "保存搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Saved searches",
+                    "target": "已保存的搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Activate toggles to hide columns. Deactivate to show.",
+                    "target": "启用切换以隐藏列。停用以显示。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Reload content",
+                    "target": "重新加载内容"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
