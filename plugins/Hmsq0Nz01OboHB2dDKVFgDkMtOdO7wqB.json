@@ -1,0 +1,73 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "substitutions",
+        "version": "1.0.0",
+        "title": "Substitutions",
+        "description": "Substitutions Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.5.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Here you can set and enable automatic text substitutions. Auto paired characters, like brackets, currently do not work.",
+                    "target": "在这里您可以设置并启用自动文本替换。自动成对的字符（如括号）目前无法使用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Auto paired characters, like brackets, currently do not work.",
+                    "target": "自动成对的字符（如括号）目前无法使用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "replace this",
+                    "target": "替换此内容"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "with this",
+                    "target": "为此内容"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Add new substitution",
+                    "target": "添加新替换"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Enable/Disable this substitution",
+                    "target": "启用/禁用此替换"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Swap from and to",
+                    "target": "交换替换前后"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Use Regular Expressions",
+                    "target": "使用正则表达式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add Substitution",
+                    "target": "添加替换"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
