@@ -1,0 +1,85 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "canvas-llm",
+        "version": "1.0.0",
+        "title": "Canvas LLM",
+        "description": "Canvas LLM Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.4",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "unexpected end of input",
+                    "target": "意外的输入结束"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unclosed comment",
+                    "target": "未闭合的注释"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "invalid doc source",
+                    "target": "无效的文档源"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Audio playback error:",
+                    "target": "音频播放错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "TTS Error:",
+                    "target": "TTS 错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "New Canvas LLM",
+                    "target": "新建画布 LLM"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "%c[svelte] lifecycle_double_unmount\n%cTried to unmount a component that was not mounted\nhttps://svelte.dev/e/lifecycle_double_unmount",
+                    "target": "%c[svelte] lifecycle_double_unmount\n%c尝试卸载一个未挂载的组件\nhttps://svelte.dev/e/lifecycle_double_unmount"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "%c[svelte] state_proxy_unmount\n%cTried to unmount a state proxy, rather than a component\nhttps://svelte.dev/e/state_proxy_unmount",
+                    "target": "%c[svelte] state_proxy_unmount\n%c尝试卸载状态代理，而不是组件\nhttps://svelte.dev/e/state_proxy_unmount"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "%c[svelte] svelte_boundary_reset_noop\n%cA \\`<svelte:boundary>\\` \\`reset\\` function only resets the boundary the first time it is called\nhttps://svelte.dev/e/svelte_boundary_reset_noop",
+                    "target": "%c[svelte] svelte_boundary_reset_noop\n%c\\`<svelte:boundary>\\` 的 \\`reset\\` 函数仅在首次调用时重置边界\nhttps://svelte.dev/e/svelte_boundary_reset_noop"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to hydrate: ",
+                    "target": "水合失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Please use `getNodesBounds` from `useReactFlow`/`useSvelteFlow` hook to ensure correct values for sub flows. If not possible, you have to provide a nodeLookup to support sub flows.",
+                    "target": "请使用 `useReactFlow`/`useSvelteFlow` 钩子中的 `getNodesBounds` 来确保子流程的值正确。如果无法做到，你必须提供一个 nodeLookup 来支持子流程。"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
