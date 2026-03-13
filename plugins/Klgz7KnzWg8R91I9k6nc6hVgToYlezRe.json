@@ -1,0 +1,193 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "project-euler-stats",
+        "version": "1.0.0",
+        "title": "Project Euler Stats",
+        "description": "Project Euler Stats Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.4",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Place in Eulerians",
+                    "target": "在欧拉人中的排名"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Error fetching progress. Please update your cookies in the settings and try again.",
+                    "target": "获取进度时出错。请在设置中更新您的 cookies 后重试。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to save data:",
+                    "target": "保存数据失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to load data:",
+                    "target": "加载数据失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error fetching progress:",
+                    "target": "获取进度时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error during sync:",
+                    "target": "同步期间出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Cookies PHPSESSID",
+                    "target": "Cookies PHPSESSID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Cookies keep_alive",
+                    "target": "Cookies keep_alive"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable to display data in a compact view",
+                    "target": "启用以紧凑视图显示数据"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Session Id",
+                    "target": "会话 ID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Keep Alive",
+                    "target": "保持活动"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use compact format",
+                    "target": "使用紧凑格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter PHPSESSID",
+                    "target": "输入 PHPSESSID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter keep_alive",
+                    "target": "输入 keep_alive"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error during sync. Please check the console for details.",
+                    "target": "同步时出错。请查看控制台了解详情。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "You are in the Top 1",
+                    "target": "你位列前 1"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Top 100",
+                    "target": "前 100"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Top 50",
+                    "target": "前 50"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Top 25",
+                    "target": "前 25"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Top 10",
+                    "target": "前 10"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Top 5",
+                    "target": "前5"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Top 1",
+                    "target": "前1"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sync with Project Euler",
+                    "target": "与 Project Euler 同步"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Top 100",
+                    "target": "前100"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Top 50",
+                    "target": "前50"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Top 25",
+                    "target": "前25"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Top 10",
+                    "target": "前10"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Top 5",
+                    "target": "前5"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Top 1",
+                    "target": "前1"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
