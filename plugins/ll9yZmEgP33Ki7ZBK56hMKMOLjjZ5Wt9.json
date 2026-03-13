@@ -1,0 +1,217 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "git-integration",
+        "version": "1.0.0",
+        "title": "Git Integration",
+        "description": "Git Integration Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.4.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"svg-icon\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-copy\"><rect width=\"14\" height=\"14\" x=\"8\" y=\"8\" rx=\"2\" ry=\"2\"/><path d=\"M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2\"/></svg>",
+                    "target": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"svg-icon\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-copy\"><rect width=\"14\" height=\"14\" x=\"8\" y=\"8\" rx=\"2\" ry=\"2\"/><path d=\"M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2\"/></svg>"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Failed %o",
+                    "target": "失败 %o"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "A fatal exception occurred in a previous task, the queue has been purged: %o",
+                    "target": "上一任务发生致命异常，队列已清空：%o"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "exitCode=%s handling with custom error handler",
+                    "target": "exitCode=%s 使用自定义错误处理器处理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "custom error handler treated as success",
+                    "target": "自定义错误处理器视为成功"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "handling as error: exitCode=%s stdErr=%s rejection=%o",
+                    "target": "按错误处理：exitCode=%s stdErr=%s rejection=%o"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "retrieving task output complete",
+                    "target": "获取任务输出完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "%s %o",
+                    "target": "%s %o"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "checking %s",
+                    "target": "正在检查 %s"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[OK] path represents a file",
+                    "target": "[OK] 路径表示一个文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[OK] path represents a directory",
+                    "target": "[OK] 路径表示一个目录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[FAIL] path represents something other than a file or directory",
+                    "target": "[FAIL] 路径表示的不是文件或目录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[FAIL] path is not accessible: %o",
+                    "target": "[FAIL] 路径无法访问：%o"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[FATAL] %o",
+                    "target": "[FATAL] %o"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Git init",
+                    "target": "Git 初始化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Git commit",
+                    "target": "Git 提交"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Git sync",
+                    "target": "Git 同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Open folder in file explorer",
+                    "target": "在文件资源管理器中打开文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Commit message",
+                    "target": "提交信息"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "File explorer",
+                    "target": "文件资源管理器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter commit message...",
+                    "target": "输入提交消息..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter repository url...",
+                    "target": "输入仓库 URL..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Git integration active",
+                    "target": "Git 集成已启用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "simple-git deprecation notice: git.silent: logging should be configured using the `debug` library / `DEBUG` environment variable, this will be an error in version 3",
+                    "target": "simple-git 弃用通知：git.silent：日志应使用 `debug` 库 / `DEBUG` 环境变量进行配置，在版本 3 中这将成为错误"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Copied to clipboard",
+                    "target": "已复制到剪贴板"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No changes to commit",
+                    "target": "没有可提交的更改"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No changes to push",
+                    "target": "没有可推送的更改"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Init repository",
+                    "target": "初始化仓库"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Commit changes",
+                    "target": "提交更改"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Git commit",
+                    "target": "Git 提交"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Previous commit",
+                    "target": "上一个提交"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Git menu",
+                    "target": "Git 菜单"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Git sync?",
+                    "target": "同步 Git？"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
