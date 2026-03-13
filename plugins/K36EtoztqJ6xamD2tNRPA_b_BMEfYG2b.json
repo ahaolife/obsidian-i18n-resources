@@ -1,0 +1,1483 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "unicode-search",
+        "version": "1.0.0",
+        "title": "Unicode Search",
+        "description": "Unicode Search Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.7.3",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Add a new favorite character",
+                    "target": "添加新的常用字符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Here you can set which characters would you like to be included or excluded from the plugins search results. Toggle the headings to display the options.",
+                    "target": "在这里可设置哪些字符包含或排除在插件搜索结果中。切换标题以显示选项。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Favorite Characters",
+                    "target": "常用字符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Unicode Character Filters",
+                    "target": "Unicode 字符筛选"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "General Categories",
+                    "target": "通用类别"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Planes and Blocks",
+                    "target": "平面与区块"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Add insert command to Obsidian",
+                    "target": "添加插入命令到 Obsidian"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Basic Multilingual Plane",
+                    "target": "基本多文种平面"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Basic Latin",
+                    "target": "基本拉丁"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Latin Extended-A",
+                    "target": "拉丁扩展-A"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Latin Extended-B",
+                    "target": "拉丁文扩展-B"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "IPA Extensions",
+                    "target": "国际音标扩展"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Spacing Modifier Letters",
+                    "target": "间距修饰字母"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Combining Diacritical Marks",
+                    "target": "组合变音符号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Greek and Coptic",
+                    "target": "希腊文和科普特文"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Arabic Extended-B",
+                    "target": "阿拉伯文扩展-B"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Arabic Extended-A",
+                    "target": "阿拉伯文扩展-A"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Hangul Jamo",
+                    "target": "谚文字母"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Unified Canadian Aboriginal Syllabics",
+                    "target": "统一加拿大原住民音节文字"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Unified Canadian Aboriginal Syllabics Extended",
+                    "target": "统一加拿大原住民音节文字扩展"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Tai Le",
+                    "target": "傣仂文"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "New Tai Lue",
+                    "target": "新傣仂文"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Khmer Symbols",
+                    "target": "高棉符号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Tai Tham",
+                    "target": "傣坦文"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Combining Diacritical Marks Extended",
+                    "target": "扩展组合变音符号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Ol Chiki",
+                    "target": "奥尔奇基文"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Cyrillic Extended-C",
+                    "target": "西里尔扩展-C"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Georgian Extended",
+                    "target": "格鲁吉亚扩展"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Vedic Extensions",
+                    "target": "吠陀扩展"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Phonetic Extensions",
+                    "target": "语音扩展"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Latin Extended Additional",
+                    "target": "拉丁文扩展附加"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Greek Extended",
+                    "target": "希腊文扩展"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "General Punctuation",
+                    "target": "通用标点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Superscripts and Subscripts",
+                    "target": "上标和下标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Currency Symbols",
+                    "target": "货币符号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Combining Diacritical Marks for Symbols",
+                    "target": "符号组合变音标记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Letterlike Symbols",
+                    "target": "类字母符号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Number Forms",
+                    "target": "数字形式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Miscellaneous Technical",
+                    "target": "杂项技术符号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Control Pictures",
+                    "target": "控制符号图形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Optical Character Recognition",
+                    "target": "光学字符识别"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Enclosed Alphanumerics",
+                    "target": "带圈字母数字"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Box Drawing",
+                    "target": "制表符号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Geometric Shapes",
+                    "target": "几何图形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Miscellaneous Symbols",
+                    "target": "杂项符号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Braille Patterns",
+                    "target": "盲文图案"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Miscellaneous Symbols and Arrows",
+                    "target": "杂项符号与箭头"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Latin Extended-C",
+                    "target": "拉丁扩展-C"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Ethiopic Extended",
+                    "target": "埃塞俄比亚文扩展"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Cyrillic Extended-A",
+                    "target": "西里尔扩展-A"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Kangxi Radicals",
+                    "target": "康熙部首"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Ideographic Description Characters",
+                    "target": "表意文字描述字符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "CJK Symbols and Punctuation",
+                    "target": "CJK 符号和标点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Hangul Compatibility Jamo",
+                    "target": "谚文兼容字母"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Bopomofo Extended",
+                    "target": "注音符号扩展"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "CJK Strokes",
+                    "target": "CJK 笔画"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Katakana Phonetic Extensions",
+                    "target": "片假名语音扩展"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Enclosed CJK Letters and Months",
+                    "target": "带圈的 CJK 字母和月份"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "CJK Compatibility",
+                    "target": "CJK 兼容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "CJK Unified Ideographs Extension A",
+                    "target": "CJK 统一表意文字扩展 A"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Yijing Hexagram Symbols",
+                    "target": "易经卦象符号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "CJK Unified Ideographs",
+                    "target": "中日韩统一表意文字"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Yi Syllables",
+                    "target": "彝文音节"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Yi Radicals",
+                    "target": "彝文部首"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Cyrillic Extended-B",
+                    "target": "西里尔文扩展-B"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Modifier Tone Letters",
+                    "target": "修饰性声调字母"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Latin Extended-D",
+                    "target": "拉丁文扩展-D"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Syloti Nagri",
+                    "target": "锡尔赫特纳格里文"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Common Indic Number Forms",
+                    "target": "通用印度数字形式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Devanagari Extended",
+                    "target": "天城文扩展"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Kayah Li",
+                    "target": "克耶利文"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Hangul Jamo Extended-A",
+                    "target": "谚文字母扩展-A"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Myanmar Extended-B",
+                    "target": "缅文扩展-B"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Myanmar Extended-A",
+                    "target": "缅文扩展-A"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Tai Viet",
+                    "target": "傣越文"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Meetei Mayek Extensions",
+                    "target": "曼尼普尔文扩展"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Ethiopic Extended-A",
+                    "target": "埃塞俄比亚文扩展-A"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Latin Extended-E",
+                    "target": "拉丁文扩展-E"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Meetei Mayek",
+                    "target": "曼尼普尔文"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Hangul Syllables",
+                    "target": "谚文音节"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Hangul Jamo Extended-B",
+                    "target": "韩文字母扩展-B"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "High Surrogates",
+                    "target": "高位代理项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "High Private Use Surrogates",
+                    "target": "高位私用代理项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Low Surrogates",
+                    "target": "低位代理项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Private Use Area",
+                    "target": "私用区"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "CJK Compatibility Ideographs",
+                    "target": "CJK 兼容表意文字"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Alphabetic Presentation Forms",
+                    "target": "字母表示形式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Arabic Presentation Forms-A",
+                    "target": "阿拉伯文表示形式-A"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Variation Selectors",
+                    "target": "变体选择器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Vertical Forms",
+                    "target": "竖排形式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Combining Half Marks",
+                    "target": "半角组合符号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "CJK Compatibility Forms",
+                    "target": "中日韩兼容形式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Small Form Variants",
+                    "target": "小型形式变体"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Arabic Presentation Forms-B",
+                    "target": "阿拉伯文呈现形式-B"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Halfwidth and Fullwidth Forms",
+                    "target": "半角和全角形式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Linear B Syllabary",
+                    "target": "线形文字B音节表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Linear B Ideograms",
+                    "target": "线形文字B表意符号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Aegean Numbers",
+                    "target": "爱琴海数字"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Ancient Greek Numbers",
+                    "target": "古希腊数字"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Ancient Symbols",
+                    "target": "古代符号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Phaistos Disc",
+                    "target": "费斯托斯圆盘"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Coptic Epact Numbers",
+                    "target": "科普特闰余数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Old Italic",
+                    "target": "古意大利文"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Old Permic",
+                    "target": "古彼尔姆文"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Old Persian",
+                    "target": "古波斯文"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Caucasian Albanian",
+                    "target": "高加索阿尔巴尼亚文"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Linear A",
+                    "target": "线形文字A"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Latin Extended-F",
+                    "target": "拉丁文扩展F"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Cypriot Syllabary",
+                    "target": "塞浦路斯音节文字"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Imperial Aramaic",
+                    "target": "帝国阿拉姆文"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Meroitic Hieroglyphs",
+                    "target": "麦罗埃象形文字"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Meroitic Cursive",
+                    "target": "麦罗埃草书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Old South Arabian",
+                    "target": "古南阿拉伯文"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Old North Arabian",
+                    "target": "古北阿拉伯文"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Inscriptional Parthian",
+                    "target": "帕提亚铭文"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Inscriptional Pahlavi",
+                    "target": "帕拉维铭文"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Psalter Pahlavi",
+                    "target": "诗篇帕拉维文"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Old Turkic",
+                    "target": "古突厥文"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Old Hungarian",
+                    "target": "古匈牙利文"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Hanifi Rohingya",
+                    "target": "哈尼菲罗兴亚文"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Rumi Numeral Symbols",
+                    "target": "鲁米数字符号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Arabic Extended-C",
+                    "target": "阿拉伯文扩展-C"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Old Sogdian",
+                    "target": "古粟特文"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Old Uyghur",
+                    "target": "古维吾尔文"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Sora Sompeng",
+                    "target": "索拉·松朋文字"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Sinhala Archaic Numbers",
+                    "target": "僧伽罗古数字"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Warang Citi",
+                    "target": "瓦兰齐蒂文字"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Dives Akuru",
+                    "target": "迪维斯阿库鲁文字"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Zanabazar Square",
+                    "target": "扎那巴扎尔方形文字"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Unified Canadian Aboriginal Syllabics Extended-A",
+                    "target": "加拿大原住民统一音节文字扩展-A"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Pau Cin Hau",
+                    "target": "鲍钦豪文"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Devanagari Extended-A",
+                    "target": "天城文扩展A"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Masaram Gondi",
+                    "target": "马萨拉姆冈德文"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Gunjala Gondi",
+                    "target": "贡贾拉冈德文"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Cuneiform Numbers and Punctuation",
+                    "target": "楔形文字数字和标点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Early Dynastic Cuneiform",
+                    "target": "早期王朝楔形文字"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Egyptian Hieroglyphs",
+                    "target": "埃及象形文字"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Egyptian Hieroglyph Format Controls",
+                    "target": "埃及象形文字格式控制符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Anatolian Hieroglyphs",
+                    "target": "安纳托利亚象形文字"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Bassa Vah",
+                    "target": "巴萨瓦赫文"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Pahawh Hmong",
+                    "target": "帕豪苗文"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Ideographic Symbols and Punctuation",
+                    "target": "表意符号和标点符号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Tangut Components",
+                    "target": "西夏文部件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Khitan Small Script",
+                    "target": "契丹小字"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Kana Extended-B",
+                    "target": "假名扩展-B"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Kana Extended-A",
+                    "target": "假名扩展-A"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Small Kana Extension",
+                    "target": "小写假名扩展"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Shorthand Format Controls",
+                    "target": "速记格式控制符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Znamenny Musical Notation",
+                    "target": "兹纳缅尼音乐记谱"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Byzantine Musical Symbols",
+                    "target": "拜占庭音乐符号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Musical Symbols",
+                    "target": "音乐符号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Ancient Greek Musical Notation",
+                    "target": "古希腊音乐记谱"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Kaktovik Numerals",
+                    "target": "卡克托维克数字"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Mayan Numerals",
+                    "target": "玛雅数字"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Tai Xuan Jing Symbols",
+                    "target": "太玄经符号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Counting Rod Numerals",
+                    "target": "算筹数字"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Sutton SignWriting",
+                    "target": "萨顿手语书写"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Latin Extended-G",
+                    "target": "拉丁文扩展-G"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Cyrillic Extended-D",
+                    "target": "西里尔文扩展-D"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Nyiakeng Puachue Hmong",
+                    "target": "尼亚肯·普阿楚赫蒙文"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Nag Mundari",
+                    "target": "纳格蒙达里"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Ethiopic Extended-B",
+                    "target": "埃塞俄比亚文扩展-B"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Mende Kikakui",
+                    "target": "门德基卡奎"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Indic Siyaq Numbers",
+                    "target": "印度西亚克数字"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Ottoman Siyaq Numbers",
+                    "target": "奥斯曼西亚克数字"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Mahjong Tiles",
+                    "target": "麻将牌"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Domino Tiles",
+                    "target": "多米诺牌"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Playing Cards",
+                    "target": "扑克牌"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Miscellaneous Symbols and Pictographs",
+                    "target": "杂项符号和图 pictographs"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Ornamental Dingbats",
+                    "target": "装饰性符号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Transport and Map Symbols",
+                    "target": "交通与地图符号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Geometric Shapes Extended",
+                    "target": "几何形状扩展"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Chess Symbols",
+                    "target": "国际象棋符号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Symbols and Pictographs Extended-A",
+                    "target": "符号与象形图扩展-A"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Symbols for Legacy Computing",
+                    "target": "传统计算符号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "CJK Unified Ideographs Extension B",
+                    "target": "CJK 统一表意文字扩展B"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "CJK Unified Ideographs Extension C",
+                    "target": "CJK 统一表意文字扩展C"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "CJK Unified Ideographs Extension D",
+                    "target": "CJK 统一表意文字扩展D"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "CJK Unified Ideographs Extension E",
+                    "target": "CJK 统一表意文字扩展E"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "CJK Unified Ideographs Extension F",
+                    "target": "CJK 统一表意文字扩展F"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "CJK Unified Ideographs Extension I",
+                    "target": "中日韩统一表意文字扩展 I"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Tertiary Ideographic Plane",
+                    "target": "第三表意文字平面"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "CJK Unified Ideographs Extension G",
+                    "target": "中日韩统一表意文字扩展 G"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "CJK Unified Ideographs Extension H",
+                    "target": "中日韩统一表意文字扩展 H"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "an uppercase letter",
+                    "target": "大写字母"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "a lowercase letter",
+                    "target": "小写字母"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "a digraph encoded as a single character, with first part uppercase",
+                    "target": "编码为单个字符且首部为大写的二合字母"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "a modifier letter",
+                    "target": "修饰字母"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "other letters, including syllables and ideographs",
+                    "target": "其他字母，包括音节和表意文字"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "a nonspacing combining mark (zero advance width)",
+                    "target": "非间距组合标记（零前进宽度）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "a spacing combining mark (positive advance width)",
+                    "target": "一个有间距的组合标记（正向前进宽度）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "an enclosing combining mark",
+                    "target": "一个包围式组合标记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "a decimal digit",
+                    "target": "一个十进制数字"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "a letterlike numeric character",
+                    "target": "一个类字母数字字符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "a numeric character of other type",
+                    "target": "其他类型的数字字符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "a connecting punctuation mark, like a tie",
+                    "target": "连接标点符号，例如连字号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "a dash or hyphen punctuation mark",
+                    "target": "破折号或连字符标点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "an opening punctuation mark (of a pair)",
+                    "target": "成对的开括号标点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "a closing punctuation mark (of a pair)",
+                    "target": "成对的闭括号标点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "an initial quotation mark",
+                    "target": "起始引号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "a final quotation mark",
+                    "target": "终引号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "a punctuation mark of other type",
+                    "target": "其他类型的标点符号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "a currency sign",
+                    "target": "货币符号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "a non-letterlike modifier symbol",
+                    "target": "非字母状修饰符号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "a symbol of other type",
+                    "target": "其他类型的符号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "a space character (of various non-zero widths)",
+                    "target": "空格字符（各种非零宽度）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "U+2028 LINE SEPARATOR only",
+                    "target": "仅 U+2028 行分隔符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "U+2029 PARAGRAPH SEPARATOR only",
+                    "target": "仅 U+2029 段落分隔符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "a C0 or C1 control code",
+                    "target": "C0 或 C1 控制码"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "a format control character",
+                    "target": "格式控制字符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "a surrogate code point",
+                    "target": "一个代理码位"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "a private-use character",
+                    "target": "一个私用字符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "a reserved unassigned code point or a noncharacter",
+                    "target": "一个保留的未分配码位或非字符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Quoted field unterminated",
+                    "target": "带引号字段未终止"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Trailing quote on quoted field is malformed",
+                    "target": "带引号字段的尾随引号格式错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Uppercase Letter",
+                    "target": "大写字母"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Lowercase Letter",
+                    "target": "小写字母"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Titlecase Letter",
+                    "target": "标题大小写字母"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Modifier Letter",
+                    "target": "修饰字母"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Other Letter",
+                    "target": "其他字母"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Nonspacing Mark",
+                    "target": "非间隔标记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Spacing Mark",
+                    "target": "间隔标记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Enclosing Mark",
+                    "target": "包围标记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Decimal Number",
+                    "target": "十进制数字"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Letter Number",
+                    "target": "字母数字"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Other Number",
+                    "target": "其他数字"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Connector Punctuation",
+                    "target": "连接标点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Dash Punctuation",
+                    "target": "破折号标点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open Punctuation",
+                    "target": "开括号标点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Close Punctuation",
+                    "target": "闭括号标点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Initial Punctuation",
+                    "target": "起始标点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Final Punctuation",
+                    "target": "终止标点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Other Punctuation",
+                    "target": "其他标点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Math Symbol",
+                    "target": "数学符号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Currency Symbol",
+                    "target": "货币符号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Modifier Symbol",
+                    "target": "修饰符号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Other Symbol",
+                    "target": "其他符号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Space Separator",
+                    "target": "空格分隔符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Line Separator",
+                    "target": "行分隔符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Paragraph Separator",
+                    "target": "段落分隔符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Private Use",
+                    "target": "私用区"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Search Unicode characters",
+                    "target": "搜索 Unicode 字符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "used recently",
+                    "target": "最近使用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "used frequently",
+                    "target": "常用"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
