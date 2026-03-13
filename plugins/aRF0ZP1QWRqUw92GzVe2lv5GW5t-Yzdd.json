@@ -1,0 +1,43 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "new-tab-plus",
+        "version": "1.0.0",
+        "title": "New Tab +",
+        "description": "New Tab + Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.4.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "This will check if the file is already open among the tabs and will switch to it if it is.",
+                    "target": "这将检查该文件是否已在标签页中打开，若是则切换到它。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Default value: 30. You might want to cramp it up a little if you experience misbehaviors",
+                    "target": "默认值：30。如果出现异常行为，你可能需要稍微调高一些。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Check if file already open",
+                    "target": "检查文件是否已打开"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Delay to execute (ms)",
+                    "target": "执行延迟（毫秒）"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
