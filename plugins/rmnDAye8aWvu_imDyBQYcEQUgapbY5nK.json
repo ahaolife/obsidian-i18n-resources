@@ -1,0 +1,847 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "nav-link-header",
+        "version": "1.0.0",
+        "title": "Nav Link Header",
+        "description": "Nav Link Header Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.7.3",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom daily note settings found!",
+                    "target": "未找到自定义每日笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom weekly note settings found!",
+                    "target": "未找到自定义每周笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom monthly note settings found!",
+                    "target": "未找到自定义每月笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom quarterly note settings found!",
+                    "target": "未找到自定义每季度笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom yearly note settings found!",
+                    "target": "未找到自定义每年笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Create (Don't ask again)",
+                    "target": "创建（不再询问）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Move up",
+                    "target": "上移"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Move down",
+                    "target": "下移"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Add folder setting",
+                    "target": "添加文件夹设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "\n              If enabled, the width of the navigation header will match the line length of the note.\n              Here, \"line length\" refers to the width defined when Obsidian's \"Readable line length\"\n              option is enabled.\n            ",
+                    "target": "\n              启用后，导航标题的宽度将与笔记的行长度一致。\n              此处的“行长度”指的是在 Obsidian 的“可读行长度”\n              选项启用时所定义的宽度。\n            "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "\n              If you want to use file properties to specify the note's display text, set the\n              property name to this field. Leave this field blank if you are not using this feature.\n            ",
+                    "target": "\n              如果你想使用文件属性来指定笔记的显示文本，请将属性名称设置到此字段。\n              如果不使用此功能，请将此字段留空。\n            "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "\n              Filter out duplicates when multiple links with the same destination are detected.\n              This setting does not apply to prev/next/parent-type links and pinned note contents.\n            ",
+                    "target": "\n              当检测到多个指向同一目标的链接时，过滤重复项。\n              此设置不适用于 prev/next/parent 类型的链接以及固定的笔记内容。\n            "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "\n              Specify the filtering priority.\n              For example, if you specify \\u{1F3E0},\\u2B06\\uFE0F,\\u{1F4CC},\\u{1F517} here,\n              links with \"\\u{1F3E0}\" will be displayed with the highest priority.\n            ",
+                    "target": "\n              指定过滤优先级。\n              例如，如果你在此处指定 \\u{1F3E0},\\u2B06\\uFE0F,\\u{1F4CC},\\u{1F517}，\n              带有“\\u{1F3E0}”的链接将以最高优先级显示。\n            "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "\n              Display a loading message (\"Loading...\") in the navigation header\n              while links are being loaded.\n            ",
+                    "target": "\n              在加载链接时，在导航栏中显示加载消息（\"Loading...\"）。\n            "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "\n              Display a placeholder (\"No links\") when there is nothing to display.\n            ",
+                    "target": "\n              当没有内容可显示时，显示占位符（\"No links\"）。\n            "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "\n              Display a confirmation dialog when a new file is created.\n              This option is currently only used for periodic notes.\n            ",
+                    "target": "\n              创建新文件时显示确认对话框。\n              此选项目前仅用于周期性笔记。\n            "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "\n              Show navigation header when notes are opened in panes.\n              This setting applies to note containers (panes). To show the navigation header,\n              also enable view-specific options below.\n            ",
+                    "target": "\n              在窗格中打开笔记时显示导航栏。\n              此设置适用于笔记容器（窗格）。要显示导航栏，\n              还需启用下方的视图特定选项。\n            "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "\n              Show navigation header when notes are shown in page previews.\n              This setting applies to note containers (page previews).\n              To show the navigation header, also enable view-specific options below.\n            ",
+                    "target": "\n              在页面预览中显示笔记时显示导航栏。\n              此设置适用于笔记容器（页面预览）。\n              要显示导航栏，还需启用下方的视图特定选项。\n            "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show navigation header when viewing Markdown documents.",
+                    "target": "查看 Markdown 文档时显示导航栏。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show navigation header when viewing images.",
+                    "target": "查看图片时显示导航栏。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show navigation header when viewing videos.",
+                    "target": "查看视频时显示导航标题栏。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show navigation header when viewing audio.",
+                    "target": "查看音频时显示导航标题栏。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show navigation header when viewing PDFs.",
+                    "target": "查看 PDF 时显示导航标题栏。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show navigation header when viewing Canvas.",
+                    "target": "查看 Canvas 时显示导航标题栏。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show navigation header when viewing Bases.",
+                    "target": "查看 Bases 时显示导航标题栏。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "\n          Show navigation header in other views (such as views introduced by community plugins).\n          This may not work depending on the view type.\n        ",
+                    "target": "\n          在其他视图中显示导航标题栏（例如社区插件引入的视图）。\n          这可能会因视图类型而不起作用。\n        "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "\n              Define the annotation strings for links in the current note.\n              This setting works the same way as \"Annotation strings for backlinks\",\n              but applies to links in the current note.\n            ",
+                    "target": "\n              定义当前笔记中链接的标注字符串。\n              此设置的工作方式与“反向链接的标注字符串”相同，\n              但适用于当前笔记中的链接。\n            "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "\n              An advanced version of \"Annotation strings for current note\".\n              The syntax is the same as that of \"Advanced annotation strings for backlinks\".\n            ",
+                    "target": "\n              “当前笔记的标注字符串”的高级版本。\n              语法与“反向链接的高级标注字符串”相同。\n            "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "\n              If enabled, a link will still be recognized as an annotated link even if there is a\n              space between the annotation string and the link.\n            ",
+                    "target": "\n              如果启用，即使标注字符串与链接之间有空格，\n              该链接仍会被识别为标注链接。\n            "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "\n              Enter the mapping that specifies the previous note. The note specified here will\n              appear in the navigation header as < previous | parent | next >.\n              The syntax is the same as \"Property mappings\".\n            ",
+                    "target": "\n              输入用于指定上一条笔记的映射。此处指定的笔记将\n              以 < previous | parent | next > 的形式显示在导航标题栏中。\n              语法与“属性映射”相同。\n            "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "\n              Enter the mapping that specifies the next note. The note specified here will appear\n              in the navigation header as < previous | parent | next >.\n              The syntax is the same as \"Property mappings\".\n            ",
+                    "target": "\n              输入用于指定下一条笔记的映射。此处指定的笔记将显示在导航标题中为 < previous | parent | next >。\n              语法与“Property mappings”相同。\n            "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "\n              Enter the mapping that specifies the parent note. The note specified here will appear\n              in the navigation header as < previous | parent | next >.\n              The syntax is the same as \"Property mappings\".\n            ",
+                    "target": "\n              输入用于指定父级笔记的映射。此处指定的笔记将显示在导航标题中为 < previous | parent | next >。\n              语法与“Property mappings”相同。\n            "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "\n              Specify the display style of prev/next/parent links in the navigation header.\n              Full: < previous | parent | next >,\n              Full (double separator): < previous || parent || next >,\n              Separator: previous | parent | next,\n              Double separator: previous || parent || next,\n              None: previous parent next.\n            ",
+                    "target": "\n              指定导航标题中 prev/next/parent 链接的显示样式。\n              完整：< previous | parent | next >，\n              完整（双分隔符）：< previous || parent || next >，\n              分隔符：previous | parent | next，\n              双分隔符：previous || parent || next，\n              无：previous parent next。\n            "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "\n              Specify pairs of property names here to implicitly create reciprocal links\n              in the navigation header. For example, if you enter prev:next here,\n              when Note A has a property \"next: [[Note B]]\", Note B will be treated as if\n              it also had \"prev: [[Note A]]\" even if it isn't explicitly set.\n              Enter one pair per line.\n            ",
+                    "target": "\n              在此指定成对的属性名，以在导航标题中隐式创建互相链接。例如，如果你在此输入 prev:next，\n              当笔记 A 具有属性 \"next: [[Note B]]\" 时，笔记 B 将被视为也具有\n              \"prev: [[Note A]]\"，即使未显式设置。\n              每行输入一对。\n            "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "\n              To use this option, daily notes must be enabled\n              in Daily Notes plugin or Periodic Notes plugin.\n            ",
+                    "target": "\n              要使用此选项，必须在 Daily Notes 插件或 Periodic Notes 插件中启用每日笔记。\n            "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "To use this option, weekly notes must be enabled in Periodic Notes plugin.",
+                    "target": "要使用此选项，必须在 Periodic Notes 插件中启用每周笔记。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "To use this option, monthly notes must be enabled in Periodic Notes plugin.",
+                    "target": "要使用此选项，必须在 Periodic Notes 插件中启用每月笔记。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "To use this option, quarterly notes must be enabled in Periodic Notes plugin.",
+                    "target": "要使用此选项，必须在 Periodic Notes 插件中启用季度笔记。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "To use this option, yearly notes must be enabled in Periodic Notes plugin.",
+                    "target": "要使用此选项，必须在 Periodic Notes 插件中启用年度笔记。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "\n              Specify the display style of links in the navigation header.\n              Full: < previous | parent | next >,\n              Full (double separator): < previous || parent || next >,\n              Separator: previous | parent | next,\n              Double separator: previous || parent || next,\n              None: previous parent next.\n            ",
+                    "target": "\n              指定导航标题中链接的显示样式。\n              完整：< previous | parent | next >，\n              完整（双分隔符）：< previous || parent || next >，\n              分隔符：previous | parent | next，\n              双分隔符：previous || parent || next，\n              无：previous parent next。\n            "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If enabled, code blocks will be ignored when searching for pinned content.",
+                    "target": "启用后，搜索置顶内容时将忽略代码块。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "\n                For each folder specified here, files in the same folder as the currently opened\n                file will be shown in the navigation header. Multiple folders can be specified\n                (enter one path per line). Glob patterns are supported\n                (e.g., **: all folders; *: all folders directly under root;\n                folder/*: all folders directly under \"folder\").\n              ",
+                    "target": "\n                对于此处指定的每个文件夹，与当前打开文件位于同一文件夹中的文件\n                将显示在导航标题中。可以指定多个文件夹\n                （每行输入一个路径）。支持 Glob 模式\n                （例如，**：所有文件夹；*：根目录下的所有直接子文件夹；\n                folder/*：位于“folder”下的所有文件夹）。\n              "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "\n                Specify the folder paths to exclude. Multiple folders can be specified\n                (enter one path per line). Glob patterns are supported.\n              ",
+                    "target": "\n                指定要排除的文件夹路径。可以指定多个文件夹\n                （每行输入一个路径）。支持 Glob 模式。\n              "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Whether to include files in subfolders.",
+                    "target": "是否包含子文件夹中的文件。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Exclude files that match these patterns partially. Enter one per line.",
+                    "target": "排除部分匹配这些模式的文件。每行输入一个。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Whether to enable regular expressions for include/exclude patterns.",
+                    "target": "是否为包含/排除模式启用正则表达式。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Specify whether to use file names or property values for include/exclude patterns.",
+                    "target": "指定包含/排除模式使用文件名还是属性值。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "\n                The name of the property to filter by.\n                This is required when \"Filter by\" is set to \"Property\".\n              ",
+                    "target": "\n                用于筛选的属性名称。\n                当“筛选依据”设置为“属性”时必填。\n              "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "\n                The name of the property to sort by.\n                This is required when \"Sort by\" is set to \"Property\".\n              ",
+                    "target": "\n                用于排序的属性名称。\n                当“排序依据”设置为“属性”时必填。\n              "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "\n                The maximum number of folder links to display.\n                For example, if set to 3, the display would look like\n                <prev3 prev2 prev1 | parent | next1 next2 next3>.\n              ",
+                    "target": "\n                要显示的文件夹链接的最大数量。\n                例如，设置为 3 时，显示将如下所示：\n                <prev3 prev2 prev1 | parent | next1 next2 next3>。\n              "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "\n                Specify the display style of prev/next/parent links in the navigation header.\n                Full: < previous | parent | next >,\n                Full (double separator): < previous || parent || next >,\n                Separator: previous | parent | next,\n                Double separator: previous || parent || next,\n                None: previous parent next.\n              ",
+                    "target": "\n                指定导航标题中 prev/next/parent 链接的显示样式。\n                完整：< previous | parent | next >，\n                完整（双分隔符）：< previous || parent || next >，\n                分隔符：previous | parent | next，\n                双分隔符：previous || parent || next，\n                无：previous parent next。\n              "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Match navigation header width to line length",
+                    "target": "使导航标题宽度与行长度匹配"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Display order of links",
+                    "target": "链接的显示顺序"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Property name to specify display text",
+                    "target": "用于指定显示文本的属性名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Filter duplicate links",
+                    "target": "过滤重复链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Duplicate link filtering priority",
+                    "target": "重复链接过滤优先级"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Merge prefixes",
+                    "target": "合并前缀"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Display loading message",
+                    "target": "显示加载消息"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Display placeholder",
+                    "target": "显示占位符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Confirm when creating a new file",
+                    "target": "创建新文件时确认"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Trim whitespace in input fields",
+                    "target": "去除输入字段中的空白"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Display navigation header in panes",
+                    "target": "在窗格中显示导航标题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Display navigation header in page previews",
+                    "target": "在页面预览中显示导航标题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Display navigation header in Markdown views",
+                    "target": "在 Markdown 视图中显示导航标题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Display navigation header in Image views",
+                    "target": "在图片视图中显示导航标题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Display navigation header in Video views",
+                    "target": "在视频视图中显示导航标题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Display navigation header in Audio views",
+                    "target": "在音频视图中显示导航标题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Display navigation header in PDF views",
+                    "target": "在 PDF 视图中显示导航标题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Display navigation header in Canvas views",
+                    "target": "在 Canvas 视图中显示导航标题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Display navigation header in Bases views",
+                    "target": "在 Bases 视图中显示导航标题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Display navigation header in other views",
+                    "target": "在其他视图中显示导航标题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Annotation strings for backlinks",
+                    "target": "反向链接的注释字符串"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Annotation strings for current note",
+                    "target": "当前笔记的注释字符串"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Hide prefixes in the navigation header",
+                    "target": "在导航标题中隐藏前缀"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Advanced annotation strings for backlinks",
+                    "target": "反向链接的高级注释字符串"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Advanced annotation strings for current note",
+                    "target": "当前笔记的高级注释字符串"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Allow a space between the annotation string and the link",
+                    "target": "允许注释字符串与链接之间留空格"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Ignore variation selectors",
+                    "target": "忽略变体选择符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Property mappings",
+                    "target": "属性映射"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Previous note property mappings",
+                    "target": "上一条笔记的属性映射"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Next note property mappings",
+                    "target": "下一篇笔记属性映射"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Parent note property mappings",
+                    "target": "父级笔记属性映射"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Link display style",
+                    "target": "链接显示样式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Implicit reciprocal property pairs",
+                    "target": "隐式互为关联的属性对"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Display previous and next links in daily notes",
+                    "target": "在日记中显示上一条和下一条链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Parent for daily notes",
+                    "target": "日记的父级"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Display previous and next links in weekly notes",
+                    "target": "在周记中显示上一条和下一条链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Parent for weekly notes",
+                    "target": "周记的父级"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Display previous and next links in monthly notes",
+                    "target": "在月记中显示上一条和下一条链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Parent for monthly notes",
+                    "target": "月记的父级"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Display previous and next links in quarterly notes",
+                    "target": "在季度笔记中显示上一条和下一条链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Parent for quarterly notes",
+                    "target": "季度笔记的上级"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Display previous and next links in yearly notes",
+                    "target": "在年度笔记中显示上一条和下一条链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Link prefix",
+                    "target": "链接前缀"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Annotation strings",
+                    "target": "注释字符串"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Start marker",
+                    "target": "起始标记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "End marker",
+                    "target": "结束标记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Ignore code blocks",
+                    "target": "忽略代码块"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Folder paths",
+                    "target": "文件夹路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Excluded folder paths",
+                    "target": "排除的文件夹路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Include patterns",
+                    "target": "包含模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Exclude patterns",
+                    "target": "排除模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable regular expressions",
+                    "target": "启用正则表达式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Filter by",
+                    "target": "筛选依据"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Property name to filter by",
+                    "target": "用于筛选的属性名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Sort order",
+                    "target": "排序顺序"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Sort by",
+                    "target": "排序依据"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Property name to sort by",
+                    "target": "用于排序的属性名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Max links",
+                    "target": "最大链接数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Path to the parent note",
+                    "target": "父级笔记路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "\\u{1F4CC}:\\u{1F517}\n(?:^|\\\\n)-:\n\\\\[\\\\[E\\\\]\\\\]:\\u{1F517}",
+                    "target": "\\u{1F4CC}:\\u{1F517}\n(?:^|\\\\n)-:\n\\\\[\\\\[E\\\\]\\\\]:\\u{1F517}"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "up:\\u2B06\\uFE0F\nhome:\\u{1F3E0}",
+                    "target": "上级:\\u2B06\\uFE0F\n主页:\\u{1F3E0}"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "previous:",
+                    "target": "上一页:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "next:",
+                    "target": "下一页:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "parent:\nup:",
+                    "target": "父级:\n上级:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "prev:next\nparent:child",
+                    "target": "上一页:下一页\n父级:子级"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "📌,🔗",
+                    "target": "📌,🔗"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "path/to/the/folder\nanother/folder/*",
+                    "target": "path/to/the/folder\nanother/folder/*"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Chapter\n.pdf",
+                    "target": "章节\n.pdf"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "%c[svelte] lifecycle_double_unmount\n%cTried to unmount a component that was not mounted\nhttps://svelte.dev/e/lifecycle_double_unmount",
+                    "target": "%c[svelte] lifecycle_double_unmount\n%c尝试卸载一个未挂载的组件\nhttps://svelte.dev/e/lifecycle_double_unmount"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "%c[svelte] state_proxy_unmount\n%cTried to unmount a state proxy, rather than a component\nhttps://svelte.dev/e/state_proxy_unmount",
+                    "target": "%c[svelte] state_proxy_unmount\n%c尝试卸载状态代理，而不是组件\nhttps://svelte.dev/e/state_proxy_unmount"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "%c[svelte] svelte_boundary_reset_noop\n%cA `<svelte:boundary>` `reset` function only resets the boundary the first time it is called\nhttps://svelte.dev/e/svelte_boundary_reset_noop",
+                    "target": "%c[svelte] svelte_boundary_reset_noop\n%c`<svelte:boundary>` 的 `reset` 函数仅在第一次调用时重置边界\nhttps://svelte.dev/e/svelte_boundary_reset_noop"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to hydrate: ",
+                    "target": "水合失败："
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Unable to create new file.",
+                    "target": "无法创建新文件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open previous property link",
+                    "target": "打开上一个属性链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open next property link",
+                    "target": "打开下一个属性链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open parent property link",
+                    "target": "打开父级属性链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open previous periodic note",
+                    "target": "打开上一条周期笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open next periodic note",
+                    "target": "打开下一条周期笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open parent periodic note",
+                    "target": "打开父级周期笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open previous folder link",
+                    "target": "打开上一个文件夹链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open next folder link",
+                    "target": "打开下一个文件夹链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open parent folder link",
+                    "target": "打开父文件夹链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open previous link (for any type)",
+                    "target": "打开上一个链接（适用于任意类型）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open next link (for any type)",
+                    "target": "打开下一个链接（适用于任意类型）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open parent link (for any type)",
+                    "target": "打开父链接（适用于任意类型）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle \"Match navigation width to line length\"",
+                    "target": "切换“导航宽度与行长匹配”"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Create a new note",
+                    "target": "创建新笔记"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
