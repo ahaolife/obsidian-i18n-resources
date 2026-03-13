@@ -1,0 +1,109 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "connections",
+        "version": "1.0.0",
+        "title": "Connections",
+        "description": "Connections Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.5",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "forceFrameRate takes a positive int between 0 and 125, forcing frame rates higher than 125 fps is not supported",
+                    "target": "forceFrameRate 需要一个 0 到 125 之间的正整数，不支持强制设置高于 125 fps 的帧率"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Can't find a type for this connection: ",
+                    "target": "找不到此连接的类型："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Can't find the connection's mapped property in this note!",
+                    "target": "在此笔记中找不到该连接的映射属性！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Add connection",
+                    "target": "添加连接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Connection text",
+                    "target": "连接文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Search for note",
+                    "target": "搜索笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Add a connection",
+                    "target": "添加连接"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Unable to add new unmapped connection type!",
+                    "target": "无法添加新的未映射连接类型！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Connection text can't be blank!",
+                    "target": "连接文本不能为空！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "File path can't be blank!",
+                    "target": "文件路径不能为空！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Can't find a type for this connection!",
+                    "target": "找不到此连接的类型！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Can't find the connection's mapped property in this note!",
+                    "target": "在此笔记中找不到连接的映射属性！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add connection to another note",
+                    "target": "将连接添加到另一条笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add the pane to the right sidebar",
+                    "target": "将窗格添加到右侧边栏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Connection text",
+                    "target": "连接文本"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
