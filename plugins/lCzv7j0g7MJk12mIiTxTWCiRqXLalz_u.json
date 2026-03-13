@@ -1,0 +1,1531 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "pixel-perfect-image",
+        "version": "1.0.0",
+        "title": "Pixel Perfect Image",
+        "description": "Pixel Perfect Image Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.24",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error disposing what's new modal listener:",
+                    "target": "清理“新功能”模态监听器时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to persist setting:",
+                    "target": "设置持久化失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to save settings:",
+                    "target": "保存设置失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to save settings (previous save):",
+                    "target": "保存设置失败（上次保存）："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Show filename and dimensions at top of menu",
+                    "target": "在菜单顶部显示文件名和尺寸"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Show option to rename image file",
+                    "target": "显示重命名图像文件的选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Show option to delete both image file and link",
+                    "target": "显示删除图像文件和链接的选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Show option to open image in new tab",
+                    "target": "显示在新标签页中打开图像的选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Show option to open image in a right split",
+                    "target": "显示在右侧分栏中打开图像的选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Show option to open image in a new app window",
+                    "target": "显示在新的应用窗口中打开图像的选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Show option to open image in default app",
+                    "target": "显示在默认应用中打开图片的选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Set resize options (comma-separated). Use % for percentages (e.g., 25%, 50%) or px for pixels (e.g., 600px, 800px)",
+                    "target": "设置缩放选项（用逗号分隔）。百分比用 %（如 25%、50%），像素用 px（如 600px、800px）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Choose what happens when you {cmd} + click an image",
+                    "target": "选择当你 {cmd} + 单击图片时执行的操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Hold modifier key and scroll to resize images",
+                    "target": "按住修饰键并滚动以缩放图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Key to hold while scrolling to zoom images",
+                    "target": "滚动缩放图片时要按住的按键"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Percentage to zoom per scroll step",
+                    "target": "每次滚动的缩放百分比"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Invert the zoom direction when scrolling",
+                    "target": "滚动时反转缩放方向"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Name of your external editor (e.g., Photoshop)",
+                    "target": "外部编辑器名称（如 Photoshop）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Full path to your external editor application on macOS",
+                    "target": "macOS 上外部编辑器应用的完整路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Full path to your external editor application on Windows",
+                    "target": "Windows 上外部编辑器应用的完整路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Full path to your external editor application on Linux",
+                    "target": "Linux 上外部编辑器应用程序的完整路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Show confirmation dialog before deleting files",
+                    "target": "删除文件前显示确认对话框"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Enable debug logging to console",
+                    "target": "启用控制台调试日志"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Sieh dir die neuesten Änderungen und Verbesserungen an.",
+                    "target": "查看最新的更改和改进。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Dateiname und Abmessungen oben im Menü anzeigen",
+                    "target": "在菜单顶部显示文件名和尺寸"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Option zum Umbenennen der Bilddatei anzeigen",
+                    "target": "显示重命名图片文件的选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Option zum Löschen von Bilddatei und Link anzeigen",
+                    "target": "显示删除图片文件和链接的选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Option zum Öffnen des Bildes in Standard-App anzeigen",
+                    "target": "显示在默认应用中打开图片的选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Größenoptionen festlegen (kommagetrennt). Verwenden Sie % für Prozent (z.B. 25%, 50%) oder px für Pixel (z.B. 600px, 800px)",
+                    "target": "设置尺寸选项（以逗号分隔）。使用 % 表示百分比（例如 25%、50%），或使用 px 表示像素（例如 600px、800px）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Wählen Sie, was passiert, wenn Sie {cmd} + Klick auf ein Bild ausführen",
+                    "target": "选择当您对图片执行 {cmd} + 点击时发生的操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Modifikationstaste halten und scrollen zum Ändern der Bildgröße",
+                    "target": "按住修饰键并滚动以更改图像大小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Taste, die beim Scrollen zum Zoomen gehalten werden muss",
+                    "target": "滚动缩放时需要按住的键"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Prozentsatz zum Zoomen pro Scroll-Schritt",
+                    "target": "每次滚动步骤的缩放百分比"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Zoom-Richtung beim Scrollen umkehren",
+                    "target": "滚动时反转缩放方向"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Name Ihres externen Editors (z.B. Photoshop)",
+                    "target": "外部编辑器名称（例如 Photoshop）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Vollständiger Pfad zu Ihrer externen Editor-Anwendung auf macOS",
+                    "target": "macOS 上外部编辑器应用程序的完整路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Vollständiger Pfad zu Ihrer externen Editor-Anwendung auf Windows",
+                    "target": "Windows 上外部编辑器应用程序的完整路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Vollständiger Pfad zu Ihrer externen Editor-Anwendung unter Linux",
+                    "target": "Linux 上外部编辑器应用程序的完整路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Debug-Protokollierung in Konsole aktivieren",
+                    "target": "启用控制台调试日志记录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Consulta los últimos cambios y mejoras.",
+                    "target": "查看最新的更改和改进。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Mostrar nombre del archivo y dimensiones en la parte superior del menú",
+                    "target": "在菜单顶部显示文件名和尺寸"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Mostrar opción para renombrar archivo de imagen",
+                    "target": "显示重命名图像文件的选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Mostrar opción para eliminar tanto el archivo de imagen como el enlace",
+                    "target": "显示删除图像文件和链接的选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Mostrar opción para abrir imagen en nueva pestaña",
+                    "target": "显示在新标签页中打开图像的选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Mostrar opción para abrir imagen en una división a la derecha",
+                    "target": "显示在右侧分栏中打开图像的选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Mostrar opción para abrir imagen en una nueva ventana de la aplicación",
+                    "target": "显示在应用新窗口中打开图像的选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Mostrar opción para abrir imagen con aplicación predeterminada",
+                    "target": "显示用默认应用打开图像的选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Configurar opciones de redimensionado (separadas por comas). Usa % para porcentajes (ej., 25%, 50%) o px para píxeles (ej., 600px, 800px)",
+                    "target": "配置调整大小选项（用逗号分隔）。使用 % 表示百分比（如 25%、50%），或用 px 表示像素（如 600px、800px）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Elige qué sucede cuando haces {cmd} + clic en una imagen",
+                    "target": "选择在图像上按 {cmd} + 点击时的操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Mantén presionada la tecla modificadora y desplázate para redimensionar imágenes",
+                    "target": "按住修饰键并滚动以调整图像大小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Tecla a mantener mientras te desplazas para hacer zoom en imágenes",
+                    "target": "滚动以放大图片时需按住的按键"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Porcentaje a hacer zoom por paso de desplazamiento",
+                    "target": "每次滚动的缩放百分比"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Invertir la dirección del zoom al desplazarse",
+                    "target": "滚动时反转缩放方向"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Nombre de tu editor externo (ej., Photoshop)",
+                    "target": "外部编辑器名称（如 Photoshop）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Ruta completa a tu aplicación de editor externo en macOS",
+                    "target": "macOS 上外部编辑器应用的完整路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Ruta completa a tu aplicación de editor externo en Windows",
+                    "target": "Windows 上外部编辑器应用的完整路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Ruta completa a tu aplicación de editor externo en Linux",
+                    "target": "Linux 上外部编辑器应用的完整路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Mostrar diálogo de confirmación antes de eliminar archivos",
+                    "target": "删除文件前显示确认对话框"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Habilitar registro de depuración en la consola",
+                    "target": "在控制台启用调试日志"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Afficher le nom du fichier et les dimensions en haut du menu",
+                    "target": "在菜单顶部显示文件名和尺寸"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Afficher l'option pour révéler l'image dans l'explorateur de fichiers système",
+                    "target": "显示在系统文件资源管理器中显示图像的选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Afficher l'option pour renommer le fichier image",
+                    "target": "显示重命名图像文件的选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Afficher l'option pour supprimer à la fois le fichier image et le lien",
+                    "target": "显示同时删除图像文件和链接的选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Afficher l'option pour ouvrir l'image dans un nouvel onglet",
+                    "target": "显示在新标签页中打开图像的选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Afficher l'option pour ouvrir l'image dans une division à droite",
+                    "target": "显示在右侧分栏中打开图像的选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Afficher l'option pour ouvrir l'image dans une nouvelle fenêtre de l'application",
+                    "target": "显示在应用新窗口中打开图像的选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Afficher l'option pour ouvrir l'image avec l'application par défaut",
+                    "target": "显示用默认应用打开图像的选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Choisir ce qui se passe lorsque vous faites {cmd} + clic sur une image",
+                    "target": "选择当您在图像上按 {cmd} + 单击时发生的操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Maintenez la touche de modification et faites défiler pour redimensionner les images",
+                    "target": "按住修改键并滚动以调整图像大小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Nom de votre éditeur externe (ex., Photoshop)",
+                    "target": "您的外部编辑器名称（例如，Photoshop）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Afficher la boîte de dialogue de confirmation avant de supprimer les fichiers",
+                    "target": "删除文件前显示确认对话框"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "最新の変更点や改善点を確認できます。",
+                    "target": "可查看最新的更改和改进。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "メニューの上部にファイル名とサイズを表示します",
+                    "target": "在菜单顶部显示文件名和大小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "システムファイルエクスプローラーで画像を表示するオプションを表示します",
+                    "target": "显示在系统文件资源管理器中显示图片的选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "画像ファイル名を変更するオプションを表示します",
+                    "target": "显示更改图片文件名的选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "画像ファイルとリンクの両方を削除するオプションを表示します",
+                    "target": "显示同时删除图片文件和链接的选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "画像を新しいタブで開くオプションを表示します",
+                    "target": "显示在新标签页中打开图片的选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "画像を右側の分割で開くオプションを表示します",
+                    "target": "显示在右侧分栏中打开图片的选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "画像を新しいウィンドウで開くオプションを表示します",
+                    "target": "显示在新窗口中打开图片的选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "画像をデフォルトアプリで開くオプションを表示します",
+                    "target": "显示用默认应用打开图片的选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "リサイズオプションを設定します（カンマ区切り）。パーセンテージには%を使用し（例：25%、50%）、ピクセルにはpxを使用します（例：600px、800px）",
+                    "target": "设置调整大小选项（用逗号分隔）。百分比使用%（例如：25%、50%），像素使用px（例如：600px、800px）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "画像を{cmd} + クリックしたときの動作を選択します",
+                    "target": "选择{cmd} + 单击图片时的操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "修飾キーを押しながらスクロールして画像をリサイズします",
+                    "target": "按住修饰键并滚动以调整图片大小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "画像をズームするためにスクロール時に押す必要があるキー",
+                    "target": "滚动时用于缩放图片需按下的键"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "スクロールステップごとのズーム率",
+                    "target": "每次滚动步进的缩放比例"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "スクロール時のズーム方向を反転します",
+                    "target": "反转滚动时的缩放方向"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "外部エディターの名前（例：Photoshop）",
+                    "target": "外部编辑器名称（例如：Photoshop）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "macOS上の外部エディターアプリケーションへのフルパス",
+                    "target": "macOS 上外部编辑器应用的完整路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Windows上の外部エディターアプリケーションへのフルパス",
+                    "target": "Windows 上外部编辑器应用的完整路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Linux の外部エディターアプリのフルパス",
+                    "target": "Linux 上外部编辑器应用的完整路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "ファイル削除前に確認ダイアログを表示します",
+                    "target": "删除文件前显示确认对话框"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "コンソールにデバッグログを出力します",
+                    "target": "在控制台输出调试日志"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "查看最新的更改与改进。",
+                    "target": "查看最新的更改与改进。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在菜单顶部显示文件名和尺寸",
+                    "target": "在菜单顶部显示文件名和尺寸"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "显示在系统文件资源管理器中显示图像的选项",
+                    "target": "显示在系统文件资源管理器中显示图像的选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "显示重命名图像文件的选项",
+                    "target": "显示重命名图像文件的选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "显示删除图像文件和链接的选项",
+                    "target": "显示删除图像文件和链接的选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "显示在新标签页中打开图像的选项",
+                    "target": "显示在新标签页中打开图像的选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "显示在右侧分屏中打开图像的选项",
+                    "target": "显示在右侧分屏中打开图像的选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "显示在新的应用窗口中打开图像的选项",
+                    "target": "显示在新的应用窗口中打开图像的选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "显示用默认应用打开图像的选项",
+                    "target": "显示用默认应用打开图像的选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "设置调整大小选项（用逗号分隔）。使用%表示百分比（例如：25%、50%）或px表示像素（例如：600px、800px）",
+                    "target": "设置调整大小选项（用逗号分隔）。使用%表示百分比（例如：25%、50%）或px表示像素（例如：600px、800px）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "选择{cmd} + 点击图像时的行为",
+                    "target": "选择{cmd} + 点击图像时的行为"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "按住修饰键并滚动以调整图像大小",
+                    "target": "按住修饰键并滚动以调整图像大小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "滚动缩放图像时需要按住的键",
+                    "target": "滚动缩放图像时需要按住的键"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "每次滚动步长的缩放百分比",
+                    "target": "每次滚动步长的缩放百分比"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "反转滚动时的缩放方向",
+                    "target": "反转滚动时的缩放方向"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "您的外部编辑器名称（例如：Photoshop）",
+                    "target": "您的外部编辑器名称（例如：Photoshop）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "macOS上外部编辑器应用程序的完整路径",
+                    "target": "macOS上外部编辑器应用程序的完整路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Windows上外部编辑器应用程序的完整路径",
+                    "target": "Windows上外部编辑器应用程序的完整路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Linux 上外部编辑器的完整路径",
+                    "target": "Linux 上外部编辑器的完整路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "删除文件前显示确认对话框",
+                    "target": "删除文件前显示确认对话框"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在控制台中启用调试日志",
+                    "target": "在控制台中启用调试日志"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "What's new in Pixel Perfect Image {version}",
+                    "target": "Pixel Perfect Image {version} 有什么新内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File information",
+                    "target": "文件信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show in Finder/Explorer",
+                    "target": "在 Finder/资源管理器中显示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Rename image",
+                    "target": "重命名图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Delete image and link",
+                    "target": "删除图片和链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open in new tab",
+                    "target": "在新标签页中打开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open to the right",
+                    "target": "在右侧打开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open in new window",
+                    "target": "在新窗口打开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open in default app",
+                    "target": "在默认应用中打开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Resize options",
+                    "target": "调整大小选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "{cmd} + click behavior",
+                    "target": "{cmd} + 点击行为"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Enable mousewheel zoom",
+                    "target": "启用鼠标滚轮缩放"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Modifier key",
+                    "target": "修饰键"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Zoom step size",
+                    "target": "缩放步进大小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Invert scroll direction",
+                    "target": "反转滚动方向"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "External editor name",
+                    "target": "外部编辑器名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "External editor path (macOS)",
+                    "target": "外部编辑器路径（macOS）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "External editor path (Windows)",
+                    "target": "外部编辑器路径（Windows）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "External editor path (Linux)",
+                    "target": "外部编辑器路径（Linux）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Confirm before delete",
+                    "target": "删除前确认"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Debug mode",
+                    "target": "调试模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Was ist neu in Pixel Perfect Image {version}",
+                    "target": "Pixel Perfect Image {version} 中的新功能"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Bild umbenennen",
+                    "target": "重命名图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Bild und Link löschen",
+                    "target": "删除图片和链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Nach rechts öffnen",
+                    "target": "向右打开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "In Standard-App öffnen",
+                    "target": "在默认应用中打开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Größenoptionen",
+                    "target": "大小选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "{cmd} + Klick Verhalten",
+                    "target": "{cmd} + 点击行为"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Mausrad-Zoom aktivieren",
+                    "target": "启用鼠标滚轮缩放"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Zoom-Schrittgröße",
+                    "target": "缩放步进大小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Scroll-Richtung umkehren",
+                    "target": "反转滚动方向"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Name des externen Editors",
+                    "target": "外部编辑器名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Pfad zum externen Editor (macOS)",
+                    "target": "外部编辑器路径（macOS）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Pfad zum externen Editor (Windows)",
+                    "target": "外部编辑器路径（Windows）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Pfad zum externen Editor (Linux)",
+                    "target": "外部编辑器路径（Linux）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Novedades de Pixel Perfect Image {version}",
+                    "target": "Pixel Perfect Image {version} 更新内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Información del archivo",
+                    "target": "文件信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show in Finder/Explorador",
+                    "target": "在 Finder/Explorador 中显示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Renombrar imagen",
+                    "target": "重命名图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Eliminar imagen y enlace",
+                    "target": "删除图片和链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Abrir en nueva pestaña",
+                    "target": "在新标签页中打开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Abrir a la derecha",
+                    "target": "在右侧打开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Abrir en nueva ventana",
+                    "target": "在新窗口中打开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Abrir con aplicación predeterminada",
+                    "target": "使用默认应用打开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Opciones de redimensionado",
+                    "target": "调整大小选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Comportamiento de {cmd} + clic",
+                    "target": "{cmd} + 点击行为"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Habilitar zoom con rueda del ratón",
+                    "target": "启用鼠标滚轮缩放"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Tecla modificadora",
+                    "target": "修饰键"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Tamaño del paso de zoom",
+                    "target": "缩放步长"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Invertir dirección de desplazamiento",
+                    "target": "反转滚动方向"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Nombre del editor externo",
+                    "target": "外部编辑器名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ruta del editor externo (macOS)",
+                    "target": "外部编辑器路径（macOS）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ruta del editor externo (Windows)",
+                    "target": "外部编辑器路径（Windows）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ruta del editor externo (Linux)",
+                    "target": "外部编辑器路径（Linux）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Confirmar antes de eliminar",
+                    "target": "删除前确认"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Modo de depuración",
+                    "target": "调试模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Quoi de neuf dans Pixel Perfect Image {version}",
+                    "target": "Pixel Perfect Image {version} 有什么新内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Informations du fichier",
+                    "target": "文件信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show in Finder/Explorateur",
+                    "target": "在 Finder/资源管理器中显示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Renommer l'image",
+                    "target": "重命名图像"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Supprimer l'image et le lien",
+                    "target": "删除图像和链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ouvrir dans un nouvel onglet",
+                    "target": "在新标签页中打开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ouvrir à droite",
+                    "target": "在右侧打开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ouvrir dans une nouvelle fenêtre",
+                    "target": "在新窗口中打开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ouvrir avec l'application par défaut",
+                    "target": "使用默认应用打开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Activer le zoom avec la molette",
+                    "target": "启用滚轮缩放"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Touche de modification",
+                    "target": "修饰键"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Taille du pas de zoom",
+                    "target": "缩放步长大小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Nom de l'éditeur externe",
+                    "target": "外部编辑器名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Confirmer avant suppression",
+                    "target": "删除前确认"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Mode débogage",
+                    "target": "调试模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Pixel Perfect Image {version} の新機能",
+                    "target": "Pixel Perfect Image {version} 的新功能"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ファイル情報",
+                    "target": "文件信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show in Finder/エクスプローラー",
+                    "target": "在 Finder/资源管理器中显示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "画像名を変更",
+                    "target": "更改图片名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "画像とリンクを削除",
+                    "target": "删除图片和链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "新しいタブで開く",
+                    "target": "在新标签页中打开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "右に開く",
+                    "target": "向右打开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "新しいウィンドウで開く",
+                    "target": "在新窗口中打开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "デフォルトアプリで開く",
+                    "target": "用默认应用打开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "リサイズオプション",
+                    "target": "调整大小选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "{cmd} + クリックの動作",
+                    "target": "{cmd} + 点击的行为"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "マウスホイールズームを有効にする",
+                    "target": "启用鼠标滚轮缩放"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "修飾キー",
+                    "target": "修饰键"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ズームステップサイズ",
+                    "target": "缩放步进大小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "スクロール方向を反転",
+                    "target": "反转滚动方向"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "外部エディター名",
+                    "target": "外部编辑器名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "外部エディターパス（macOS）",
+                    "target": "外部编辑器路径（macOS）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "外部エディターパス（Windows）",
+                    "target": "外部编辑器路径（Windows）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "外部エディターのパス（Linux）",
+                    "target": "外部编辑器路径（Linux）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "削除前に確認",
+                    "target": "删除前确认"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "デバッグモード",
+                    "target": "调试模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Pixel Perfect Image {version} 的新功能",
+                    "target": "Pixel Perfect Image {version} 的新功能"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "文件信息",
+                    "target": "文件信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show in Finder/资源管理器",
+                    "target": "在 Finder/资源管理器中显示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "重命名图像",
+                    "target": "重命名图像"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "删除图像和链接",
+                    "target": "删除图像和链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "在新标签页中打开",
+                    "target": "在新标签页中打开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "在右侧打开",
+                    "target": "在右侧打开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "在新窗口中打开",
+                    "target": "在新窗口中打开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "用默认应用打开",
+                    "target": "用默认应用打开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "调整大小选项",
+                    "target": "调整大小选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "{cmd} + 点击行为",
+                    "target": "{cmd} + 点击行为"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "启用鼠标滚轮缩放",
+                    "target": "启用鼠标滚轮缩放"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "修饰键",
+                    "target": "修饰键"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "缩放步长",
+                    "target": "缩放步长"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "反转滚动方向",
+                    "target": "反转滚动方向"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "外部编辑器名称",
+                    "target": "外部编辑器名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "外部编辑器路径（macOS）",
+                    "target": "外部编辑器路径（macOS）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "外部编辑器路径（Windows）",
+                    "target": "外部编辑器路径（Windows）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "外部编辑器路径（Linux）",
+                    "target": "外部编辑器路径（Linux）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "删除前确认",
+                    "target": "删除前确认"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "调试模式",
+                    "target": "调试模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "e.g., 25%, 50%, 100%, 600px",
+                    "target": "例如 25%, 50%, 100%, 600px"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "/Applications/Adobe Photoshop 2025/Adobe Photoshop 2025.app",
+                    "target": "/Applications/Adobe Photoshop 2025/Adobe Photoshop 2025.app"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "C:\\Program Files\\Adobe\\Adobe Photoshop 2025\\Photoshop.exe",
+                    "target": "C:\\Program Files\\Adobe\\Adobe Photoshop 2025\\Photoshop.exe"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "z.B. 25%, 50%, 100%, 600px",
+                    "target": "例如 25%, 50%, 100%, 600px"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "ej., 25%, 50%, 100%, 600px",
+                    "target": "例如：25%、50%、100%、600px"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "ex., 25%, 50%, 100%, 600px",
+                    "target": "例如：25%、50%、100%、600px"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "例：25%、50%、100%、600px",
+                    "target": "例：25%、50%、100%、600px"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "例如：25%、50%、100%、600px",
+                    "target": "例如：25%、50%、100%、600px"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Rename image",
+                    "target": "重命名图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Delete image",
+                    "target": "删除图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "What's new in Pixel Perfect Image",
+                    "target": "Pixel Perfect Image 有哪些新内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Bild umbenennen",
+                    "target": "重命名图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Bild löschen",
+                    "target": "删除图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Was ist neu in Pixel Perfect Image",
+                    "target": "Pixel Perfect Image 有哪些新内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Renombrar imagen",
+                    "target": "重命名图像"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Eliminar imagen",
+                    "target": "删除图像"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Novedades de Pixel Perfect Image",
+                    "target": "Pixel Perfect Image 的新功能"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Renommer l'image",
+                    "target": "重命名图像"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Supprimer l'image",
+                    "target": "删除图像"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Quoi de neuf dans Pixel Perfect Image",
+                    "target": "Pixel Perfect Image 的新功能"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "画像名を変更",
+                    "target": "重命名图像"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "画像を削除",
+                    "target": "删除图像"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Pixel Perfect Image の新機能",
+                    "target": "Pixel Perfect Image 的新功能"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "重命名图像",
+                    "target": "重命名图像"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "删除图像",
+                    "target": "删除图像"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Pixel Perfect Image 的新功能",
+                    "target": "Pixel Perfect Image 的新功能"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
