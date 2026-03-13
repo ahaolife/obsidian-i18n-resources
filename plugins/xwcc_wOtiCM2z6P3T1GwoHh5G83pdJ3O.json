@@ -1,0 +1,91 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "auto-close-tags",
+        "version": "1.0.0",
+        "title": "Auto Close Tags",
+        "description": "Auto Close Tags Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "After closing tag",
+                    "target": "在闭合标签之后"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Between tags",
+                    "target": "在标签之间"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Comma-separated list of tags that should not be auto-closed (e.g., div, span, i).",
+                    "target": "不应自动闭合的标签列表（用逗号分隔）（例如 div、span、i）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Where to place the cursor after auto-closing a tag.",
+                    "target": "自动闭合标签后光标的位置。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Avoid auto-closing tags inside Markdown code blocks (``` blocks).",
+                    "target": "避免在 Markdown 代码块（``` 块）内自动闭合标签。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Avoid auto-closing tags inside inline code spans (e.g., `<div>`).",
+                    "target": "避免在行内代码片段（例如 `<div>`）内自动闭合标签。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Excluded tags",
+                    "target": "排除的标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Cursor position after auto-close",
+                    "target": "自动闭合后光标位置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Ignore fenced code blocks",
+                    "target": "忽略围栏代码块"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Ignore inline code",
+                    "target": "忽略行内代码"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "e.g., div, span, i",
+                    "target": "例如，div、span、i"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Close last unclosed tag",
+                    "target": "关闭最后一个未闭合标签"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
