@@ -1,0 +1,139 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "stu-repo-helper",
+        "version": "1.0.0",
+        "title": "Student Repo",
+        "description": "Student Repo Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.1.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "普通话",
+                    "target": "普通话"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Text to speech error",
+                    "target": "文本转语音错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "create token error",
+                    "target": "创建令牌错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Image to text error",
+                    "target": "图像转文本错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Send llm request error",
+                    "target": "发送 LLM 请求错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "调用大模型出错:",
+                    "target": "调用大模型出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "LLM API base URL",
+                    "target": "LLM API 基础 URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "LLM API key",
+                    "target": "LLM API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "LLM model name",
+                    "target": "LLM 模型名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Microsoft Azure speech subscription key",
+                    "target": "Microsoft Azure 语音订阅密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Speech voice type",
+                    "target": "语音音色类型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "API base URL",
+                    "target": "API 基础 URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "API key",
+                    "target": "API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Model name",
+                    "target": "模型名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "APP ID",
+                    "target": "APP ID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "API secret",
+                    "target": "API 密钥"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Plugin updated",
+                    "target": "插件已更新"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "你是一个学生学习助理。",
+                    "target": "你是一个学生学习助理。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Plugin update",
+                    "target": "插件更新"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "你是一个绘画分析师。",
+                    "target": "你是一个绘画分析师。"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
