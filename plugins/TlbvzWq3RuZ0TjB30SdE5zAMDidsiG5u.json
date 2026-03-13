@@ -1,0 +1,1477 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "decks",
+        "version": "1.0.0",
+        "title": "Decks",
+        "description": "Decks Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.4.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Select backup...",
+                    "target": "选择备份..."
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "No backups found",
+                    "target": "未找到备份"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Browse all cards",
+                    "target": "浏览所有卡片"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Export to Anki",
+                    "target": "导出到 Anki"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Configure profile",
+                    "target": "配置档案"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Select backup...",
+                    "target": "选择备份..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "-- Select a deck --",
+                    "target": "-- 选择牌组 --"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "All Decks",
+                    "target": "所有牌组"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "All History",
+                    "target": "全部历史"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Last 12 Months",
+                    "target": "过去12个月"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Oldest Due First",
+                    "target": "最早到期优先"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " To edit profile settings, use the \"Manage Profiles\" button in the main Decks panel.",
+                    "target": " 要编辑配置文件设置，请使用主牌组面板中的“管理配置文件”按钮。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to create backup database:",
+                    "target": "创建备份数据库失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to restore from backup database:",
+                    "target": "从备份数据库恢复失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to restore from backup data:",
+                    "target": "从备份数据恢复失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to initialize MainDatabaseService:",
+                    "target": "初始化 MainDatabaseService 失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to save database:",
+                    "target": "保存数据库失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error closing database:",
+                    "target": "关闭数据库时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to sync with disk:",
+                    "target": "与磁盘同步失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Database worker error:",
+                    "target": "数据库工作线程错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to initialize WorkerDatabaseService:",
+                    "target": "初始化 WorkerDatabaseService 失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to create backup database instance:",
+                    "target": "创建备份数据库实例失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to query backup database:",
+                    "target": "查询备份数据库失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to close backup database instance:",
+                    "target": "关闭备份数据库实例失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to sync with disk in worker:",
+                    "target": "在 worker 中与磁盘同步失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Worker sync failed:",
+                    "target": "Worker 同步失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Decks Debug] Failed to write to log file:",
+                    "target": "[Decks Debug] 写入日志文件失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Initial sync failed:",
+                    "target": "初始同步失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to create backup:",
+                    "target": "创建备份失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to get available backups:",
+                    "target": "获取可用备份失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to restore from backup:",
+                    "target": "从备份恢复失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to cleanup old backups:",
+                    "target": "清理旧备份失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to get overall statistics:",
+                    "target": "获取总体统计失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error getting scheduling preview:",
+                    "target": "获取计划预览出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error reviewing card:",
+                    "target": "复习卡片出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error rendering markdown:",
+                    "target": "渲染 Markdown 出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to load review counts:",
+                    "target": "加载复习数量失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[ReviewsOverTimeChart] Error loading review data:",
+                    "target": "[ReviewsOverTimeChart] 加载复习数据出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[StatisticsUI] Error during filter change:",
+                    "target": "[StatisticsUI] 更改筛选时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[CardCountsChart] Error loading counts:",
+                    "target": "[CardCountsChart] 加载数量出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[CardCountsChart] Error creating chart:",
+                    "target": "[CardCountsChart] 创建图表时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[CardCountsChart] Doughnut fallback also failed:",
+                    "target": "[CardCountsChart] 环形图回退也失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[ReviewIntervalsChart] Error loading interval data:",
+                    "target": "[ReviewIntervalsChart] 加载间隔数据时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[CardStabilityChart] Error loading stability data:",
+                    "target": "[CardStabilityChart] 加载稳定性数据时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[CardDifficultyChart] Error loading difficulty data:",
+                    "target": "[CardDifficultyChart] 加载难度数据时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[HourlyBreakdownChart] Error loading hourly data:",
+                    "target": "[HourlyBreakdownChart] 加载每小时数据时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[CardsAddedChart] Error loading cards added data:",
+                    "target": "[CardsAddedChart] 加载新增卡片数据时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[CardsAddedChart] Error during filter change:",
+                    "target": "[CardsAddedChart] 筛选条件更改时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[CardRetrievabilityChart] Error loading retrievability data:",
+                    "target": "[CardRetrievabilityChart] 加载可回忆性数据时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[TrueRetentionTable] Error loading retention stats:",
+                    "target": "[TrueRetentionTable] 加载留存统计时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[FutureDueChart] Error simulating backlog:",
+                    "target": "[FutureDueChart] 模拟积压时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[FutureDueChart] Error creating chart:",
+                    "target": "[FutureDueChart] 创建图表时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[FutureDueChart] Error updating chart:",
+                    "target": "[FutureDueChart] 更新图表时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[MaturityProgressionChart] Error loading maturity data:",
+                    "target": "[MaturityProgressionChart] 加载成熟度数据时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[MaturityProgressionChart] Error creating chart:",
+                    "target": "[MaturityProgressionChart] 创建图表时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[StatisticsUI] Error in onMount:",
+                    "target": "[StatisticsUI] onMount 中出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[StatisticsUI] Error loading statistics:",
+                    "target": "[StatisticsUI] 加载统计数据时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[StatisticsUI] Error loading decks and tags:",
+                    "target": "[StatisticsUI] 加载牌组和标签时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[StatisticsUI] Error in retry:",
+                    "target": "[StatisticsUI] 重试中出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "StatisticsService is not available",
+                    "target": "StatisticsService 不可用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error getting review counts:",
+                    "target": "获取复习数量时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error saving profile:",
+                    "target": "保存个人资料时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error saving deck configuration:",
+                    "target": "保存牌组配置时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error exporting to Anki:",
+                    "target": "导出到 Anki 时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error during refresh:",
+                    "target": "刷新时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error loading study stats:",
+                    "target": "加载学习统计时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Cannot export: no decks found in group",
+                    "target": "无法导出：组中未找到牌组"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error opening Anki export for group:",
+                    "target": "打开组的 Anki 导出时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error refreshing decks:",
+                    "target": "刷新牌组时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error refreshing decks and stats:",
+                    "target": "刷新牌组和统计时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error refreshing stats:",
+                    "target": "刷新统计时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error refreshing stats by ID:",
+                    "target": "按 ID 刷新统计时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error starting review:",
+                    "target": "开始复习时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error starting deck group review:",
+                    "target": "开始牌组分组复习时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error starting browse:",
+                    "target": "开始浏览时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error starting deck group browse:",
+                    "target": "开始牌组分组浏览时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error refreshing decks in modal:",
+                    "target": "在弹窗中刷新牌组时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error loading Decks plugin:",
+                    "target": "加载 Decks 插件时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error during initial sync:",
+                    "target": "初始同步时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "prompt",
+                    "source": "Input: ",
+                    "target": "输入："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Purge database",
+                    "target": "清空数据库"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Create backup",
+                    "target": "创建备份"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Create New Profile",
+                    "target": "创建新配置文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Display progress bar during review sessions",
+                    "target": "在复习会话期间显示进度条"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable keyboard shortcuts in review modal (1-4 for difficulty)",
+                    "target": "在复习弹窗中启用键盘快捷键（1-4 表示难度）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Maximum duration for flashcard review sessions in minutes (1-60)",
+                    "target": "闪卡复习会话的最长时长（分钟，1-60）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Hour when the study day rolls over (0-23, default is 4). Reviews done before this hour count toward the previous day's statistics and daily limits.",
+                    "target": "学习日切换的小时（0-23，默认 4）。此时间之前完成的复习计入前一天的统计和每日上限。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Limit scanning to a specific folder. Select 'scan entire vault' to scan all files.",
+                    "target": "将扫描限制到特定文件夹。选择“扫描整个库”以扫描所有文件。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "How often to refresh deck stats in the side panel (in seconds)",
+                    "target": "侧边栏中牌组统计的刷新频率（秒）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Automatically refresh deck stats in the side panel",
+                    "target": "自动刷新侧边栏中的牌组统计"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show notification messages for completed review sessions and sync operations",
+                    "target": "为已完成的复习会话和同步操作显示通知消息"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show detailed logging in the console for sync operations and flashcard processing",
+                    "target": "在控制台显示同步操作和闪卡处理的详细日志"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show performance timing metrics in the console (sync times, parsing performance, etc.)",
+                    "target": "在控制台显示性能计时指标（同步耗时、解析性能等）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Run database operations in a background worker thread to prevent UI freezing with large databases. Requires restart to take effect.",
+                    "target": "在后台工作线程中运行数据库操作，以防止大型数据库导致界面卡顿。需重启生效。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Permanently delete all flashcards, review history, and deck data. This will force a clean rebuild from your vault files. All progress will be lost!",
+                    "target": "永久删除所有闪卡、复习历史和牌组数据。这将强制从你的仓库文件中重新干净构建。所有进度将丢失！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Automatically backup review data after each session",
+                    "target": "每次会话后自动备份复习数据"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Maximum number of backups to keep (3-10)",
+                    "target": "保留的备份最大数量（3-10）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Create a manual backup of your flashcard database",
+                    "target": "创建闪卡数据库的手动备份"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Select a backup to restore",
+                    "target": "选择要还原的备份"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose a profile to view and edit",
+                    "target": "选择要查看和编辑的配置文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Name for this profile",
+                    "target": "此配置的名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable daily limit for new cards",
+                    "target": "启用新卡每日上限"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Maximum new cards to introduce per day (1-9999)",
+                    "target": "每天引入的新卡最大数量（1-9999）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable daily limit for review cards",
+                    "target": "启用复习卡每日上限"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Maximum review cards per day (1-9999)",
+                    "target": "每天复习卡最大数量（1-9999）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Interval when pressing Again on a new card (e.g. 1m)",
+                    "target": "新卡点击 Again 时的间隔（例如 1m）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Interval when pressing Again on a review card (e.g. 10m)",
+                    "target": "复习卡点击 Again 时的间隔（例如 10m）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Header level for flashcard parsing",
+                    "target": "闪卡解析的标题级别"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Order in which cards are reviewed",
+                    "target": "卡片复习顺序"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Target retention rate (0.5 - 0.995)",
+                    "target": "目标记忆保留率（0.5 - 0.995）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Learning intensity profile",
+                    "target": "学习强度配置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Select tag to apply profile to all its decks",
+                    "target": "选择标签以将配置应用到其所有牌组"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Select a profile for this tag",
+                    "target": "为此标签选择配置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Name of the deck in Anki where cards will be imported",
+                    "target": "在 Anki 中将导入卡片的牌组名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Review sessions",
+                    "target": "复习会话"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show progress",
+                    "target": "显示进度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Keyboard shortcuts",
+                    "target": "键盘快捷键"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Session duration",
+                    "target": "会话时长"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Study day starts at",
+                    "target": "学习日开始时间"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Folder search path",
+                    "target": "文件夹搜索路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "User interface",
+                    "target": "用户界面"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Background refresh interval",
+                    "target": "后台刷新间隔"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable background refresh",
+                    "target": "启用后台刷新"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable notices",
+                    "target": "启用通知"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable debug logging",
+                    "target": "启用调试日志"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable performance logs",
+                    "target": "启用性能日志"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Experimental features",
+                    "target": "实验性功能"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Database worker thread",
+                    "target": "数据库工作线程"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Purge database",
+                    "target": "清空数据库"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable auto backup",
+                    "target": "启用自动备份"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Max backups",
+                    "target": "最大备份数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Create backup now",
+                    "target": "立即创建备份"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Restore backup",
+                    "target": "恢复备份"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Available backups",
+                    "target": "可用备份"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Select Deck(s):",
+                    "target": "选择牌组："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Timeframe:",
+                    "target": "时间范围："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Select Profile",
+                    "target": "选择配置文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Profile Name",
+                    "target": "配置文件名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Limit new cards per day",
+                    "target": "限制每日新卡数量"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "New cards per day",
+                    "target": "每日新卡数量"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Limit review cards per day",
+                    "target": "每日复习卡片上限"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Review cards per day",
+                    "target": "每日复习卡片数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Again interval",
+                    "target": "再次间隔"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Header level",
+                    "target": "标题级别"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Review order",
+                    "target": "复习顺序"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Request retention",
+                    "target": "目标保持率"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "FSRS profile",
+                    "target": "FSRS 配置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Decks Using Profile",
+                    "target": "使用该配置的牌组"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Apply profile to tag",
+                    "target": "将配置应用到标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "New cards limit",
+                    "target": "新卡上限"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Review Cards Limit",
+                    "target": "复习卡片上限"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "FSRS Settings",
+                    "target": "FSRS 设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Anki Deck Name",
+                    "target": "Anki 牌组名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter deck name...",
+                    "target": "输入牌组名称..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Refresh backup list",
+                    "target": "刷新备份列表"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Create a new profile",
+                    "target": "创建新配置文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "%c[svelte] lifecycle_double_unmount\n%cTried to unmount a component that was not mounted\nhttps://svelte.dev/e/lifecycle_double_unmount",
+                    "target": "%c[svelte] lifecycle_double_unmount\n%c尝试卸载一个未挂载的组件\nhttps://svelte.dev/e/lifecycle_double_unmount"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "%c[svelte] state_proxy_unmount\n%cTried to unmount a state proxy, rather than a component\nhttps://svelte.dev/e/state_proxy_unmount",
+                    "target": "%c[svelte] state_proxy_unmount\n%c尝试卸载一个状态代理，而不是组件\nhttps://svelte.dev/e/state_proxy_unmount"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "%c[svelte] svelte_boundary_reset_noop\n%cA `<svelte:boundary>` `reset` function only resets the boundary the first time it is called\nhttps://svelte.dev/e/svelte_boundary_reset_noop",
+                    "target": "%c[svelte] svelte_boundary_reset_noop\n%c`<svelte:boundary>` 的 `reset` 函数仅在首次调用时重置边界\nhttps://svelte.dev/e/svelte_boundary_reset_noop"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to hydrate: ",
+                    "target": "水合失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Error unmounting flashcard review component:",
+                    "target": "卸载闪卡复习组件时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Tried to use the 'fill' option without the 'Filler' plugin enabled. Please import and register the 'Filler' plugin and make sure it is not disabled in the options",
+                    "target": "在未启用“Filler”插件的情况下尝试使用“fill”选项。请导入并注册“Filler”插件，并确保它未在选项中被禁用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Error unmounting statistics component:",
+                    "target": "卸载统计组件时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Plugin not available for Anki export",
+                    "target": "用于 Anki 导出的插件不可用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Error unmounting deck list panel:",
+                    "target": "卸载牌组列表面板时出错："
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Creating backup...",
+                    "target": "正在创建备份..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please select a backup to restore",
+                    "target": "请选择要还原的备份"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Dropdown not found",
+                    "target": "未找到下拉菜单"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No backups found",
+                    "target": "未找到备份"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Restoring backup...",
+                    "target": "正在还原备份..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Purging database...",
+                    "target": "正在清除数据库..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to purge database. Check the console for details.",
+                    "target": "清除数据库失败。请查看控制台了解详情。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Confirmation text doesn't match. Database purge cancelled.",
+                    "target": "确认文本不匹配。已取消清除数据库。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Created new profile",
+                    "target": "已创建新配置文件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "New cards per day must be between 1 and 9999",
+                    "target": "每日新卡片数量必须在 1 到 9999 之间"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Review cards per day must be between 1 and 9999",
+                    "target": "每日复习卡片数量必须在 1 到 9999 之间"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Request retention must be between 0.5 and 0.995",
+                    "target": "请求保留率必须在 0.5 到 0.995 之间"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Profile saved successfully",
+                    "target": "配置文件保存成功"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error saving profile",
+                    "target": "保存配置文件时出错"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Cannot delete the DEFAULT profile",
+                    "target": "无法删除 DEFAULT 配置文件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Profile deleted",
+                    "target": "个人资料已删除"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error saving configuration",
+                    "target": "保存配置时出错"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No flashcards found in this deck to export",
+                    "target": "此牌组中未找到可导出的抽认卡"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to export deck to Anki format",
+                    "target": "导出牌组为 Anki 格式失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error refreshing decks. Check console for details.",
+                    "target": "刷新牌组时出错。请查看控制台了解详情。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error starting review. Check console for details.",
+                    "target": "开始复习时出错。请查看控制台了解详情。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error starting browse. Check console for details.",
+                    "target": "开始浏览时出错。请查看控制台了解详情。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to load decks plugin. Check the console for details.",
+                    "target": "加载牌组插件失败。请查看控制台了解详情。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Only a single interval value is allowed (e.g. 1m, 10m, 1h).",
+                    "target": "只允许一个间隔值（例如 1m、10m、1h）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Only a single interval value is allowed (e.g. 10m, 1h).",
+                    "target": "只允许一个间隔值（例如 10m、1h）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Number of cards",
+                    "target": "卡片数量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Review Count",
+                    "target": "复习次数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Success Rate (%)",
+                    "target": "成功率（%）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Cards Added",
+                    "target": "新增卡片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Cards added",
+                    "target": "新增卡片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Number of Reviews",
+                    "target": "复习次数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Due cards",
+                    "target": "到期卡片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "New cards",
+                    "target": "新卡片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Learning cards",
+                    "target": "学习中卡片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Mature cards",
+                    "target": "成熟卡片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "🔍 Discovering decks...",
+                    "target": "🔍 正在发现卡组..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "📊 Loading decks...",
+                    "target": "📊 正在加载卡组..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "💾 Saving database...",
+                    "target": "💾 正在保存数据库..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "New Profile",
+                    "target": "新建配置文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show flashcards panel",
+                    "target": "显示闪卡面板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open review modal",
+                    "target": "打开复习弹窗"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "DELETE ALL DATA",
+                    "target": "删除所有数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Debug settings for troubleshooting and development.",
+                    "target": "用于故障排查和开发的调试设置。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Experimental features may be unstable. Use with caution and back up your data.",
+                    "target": "实验性功能可能不稳定。请谨慎使用并备份数据。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Manage your flashcard database. Use with caution - these actions cannot be undone.",
+                    "target": "管理你的闪卡数据库。请谨慎使用——这些操作无法撤销。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Purge database",
+                    "target": "清除数据库"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "This will permanently delete all flashcard data including:",
+                    "target": "这将永久删除所有闪卡数据，包括："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "All flashcards and their content",
+                    "target": "所有闪卡及其内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Complete review history and progress",
+                    "target": "完整的复习历史和进度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "All deck information",
+                    "target": "所有牌组信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Statistical data",
+                    "target": "统计数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "This action cannot be undone!",
+                    "target": "此操作无法撤销！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "The database will be rebuilt from your current vault files, but all progress will be lost.",
+                    "target": "数据库将从你当前的保管库文件重建，但所有进度都会丢失。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "To confirm this action, type the text shown in the placeholder below",
+                    "target": "要确认此操作，请输入下方占位符中显示的文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Reviews Over Time",
+                    "target": "随时间的复习次数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Card Distribution by State",
+                    "target": "按状态的卡片分布"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Card Distribution by State (Doughnut)",
+                    "target": "按状态的卡片分布（圆环图）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Interval Range",
+                    "target": "间隔范围"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Number of Cards",
+                    "target": "卡片数量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Review Interval Distribution",
+                    "target": "复习间隔分布"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Stability Range",
+                    "target": "稳定性范围"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Card Stability Distribution",
+                    "target": "卡片稳定性分布"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Difficulty Range",
+                    "target": "难度范围"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Card Difficulty Distribution",
+                    "target": "卡片难度分布"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Hour of Day",
+                    "target": "一天中的小时"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Number of Reviews",
+                    "target": "复习次数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Success Rate (%)",
+                    "target": "成功率（%）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Review Activity by Hour of Day",
+                    "target": "按一天小时统计的复习活动"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Date Added",
+                    "target": "添加日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Cards Added Over Time",
+                    "target": "随时间新增的卡片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Retrievability Range",
+                    "target": "可回忆性范围"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Card Retrievability Distribution",
+                    "target": "卡片可回忆性分布"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Due cards",
+                    "target": "到期卡片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Cumulative Backlog",
+                    "target": "累计积压"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Card Maturity Progression",
+                    "target": "卡片成熟度进展"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Days from Now",
+                    "target": "从现在起的天数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Tag Assignments",
+                    "target": "标签分配"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Note:",
+                    "target": "注意："
+                }
+            ],
+            "regex": []
+        }
+    }
+}
