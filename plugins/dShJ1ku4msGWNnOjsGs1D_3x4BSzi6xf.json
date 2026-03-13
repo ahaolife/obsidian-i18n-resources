@@ -1,0 +1,265 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "bitcoin-block-stamp",
+        "version": "1.0.0",
+        "title": "Bitcoin Block Stamp",
+        "description": "Bitcoin Block Stamp Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.2.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Underscore (840_000)",
+                    "target": "下划线 (840_000)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Apostrophe (840'000)",
+                    "target": "单引号 (840'000)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Space (840 000)",
+                    "target": "空格 (840 000)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Period (840.000)",
+                    "target": "句点 (840.000)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Comma (840,000)",
+                    "target": "逗号 (840,000)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Plain (840000)",
+                    "target": "纯数字 (840000)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Period (15.66)",
+                    "target": "句点 (15.66)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Colon (15:66)",
+                    "target": "冒号 (15:66)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Plain (1566)",
+                    "target": "纯数字 (1566)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Moscow time @ block height",
+                    "target": "莫斯科时间 @ 区块高度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Moscow time",
+                    "target": "莫斯科时间"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Block height",
+                    "target": "区块高度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Default block explorer for block height links.",
+                    "target": "区块高度链接的默认区块浏览器。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Thousands separator.",
+                    "target": "千位分隔符。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Time format separator.",
+                    "target": "时间格式分隔符。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Placeholders are replaced with the current stamp when you create a new note or when you use the \"Replace stamp placeholder\" command.",
+                    "target": "当你创建新笔记或使用“替换印章占位符”命令时，占位符会被替换为当前印章。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Default: {{blockheight}}",
+                    "target": "默认：{{blockheight}}"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Default: {{moscowtime}}",
+                    "target": "默认：{{moscowtime}}"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Default: {{moscowtime@blockheight}}",
+                    "target": "默认：{{moscowtime@blockheight}}"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Date and time of your stamp. The block closest to the time stamp entered will be stamped.",
+                    "target": "你的印章的日期和时间。将为最接近所输入时间戳的区块加盖印章。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Block explorer",
+                    "target": "区块浏览器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Block height format",
+                    "target": "区块高度格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Moscow time format",
+                    "target": "莫斯科时间格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Stamp placeholders",
+                    "target": "时间戳占位符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Block height placeholder",
+                    "target": "区块高度占位符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Moscow time placeholder",
+                    "target": "莫斯科时间占位符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Moscow time @ block height placeholder",
+                    "target": "莫斯科时间 @ 区块高度占位符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Stamp kind",
+                    "target": "时间戳类型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Date & time",
+                    "target": "日期与时间"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No valid stamp selected!",
+                    "target": "未选择有效的时间戳！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Couldn't add stamp: Invalid date",
+                    "target": "无法添加印章：日期无效"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Couldn't add stamp: Not in editor view",
+                    "target": "无法添加印章：不在编辑器视图中"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "🛑 An error occurred while adding a custom stamp.",
+                    "target": "🛑 添加自定义印章时发生错误。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "🛑 An error occurred while adding the stamp.",
+                    "target": "🛑 添加印章时发生错误。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "🛑 An error occurred while replacing stamp placeholders.",
+                    "target": "🛑 替换印章占位符时发生错误。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert custom block stamp",
+                    "target": "插入自定义区块印章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert current block height",
+                    "target": "插入当前区块高度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert current Moscow time",
+                    "target": "插入当前莫斯科时间"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert current Moscow time @ block height",
+                    "target": "在区块高度处插入当前莫斯科时间"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Replace stamp placeholders",
+                    "target": "替换印章占位符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Bitcoin block stamp",
+                    "target": "比特币区块时间戳"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
