@@ -1,0 +1,115 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-spaced-repetition",
+        "version": "1.0.0",
+        "title": "Spaced Repetition",
+        "description": "Spaced Repetition Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.13.8",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "sr-review-context-btn clickable-icon",
+                    "target": "sr-review-context-btn clickable-icon"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Invalid format for start of day",
+                    "target": "一天开始时间格式无效"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Could not find a valid ID for one of the columns. Make sure a valid \"id\" is set for all columns.",
+                    "target": "无法为其中一个列找到有效的 ID。请确保所有列都设置了有效的“id”。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Could not determine the storage type",
+                    "target": "无法确定存储类型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Parsed cards:\n",
+                    "target": "已解析的卡片：\n"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Day boundary set to",
+                    "target": "一天边界设置为"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Example:\n==[123;;]answer[;;hint]==\n**[123;;]answer[;;hint]**\n{{[123;;]answer[;;hint]}}",
+                    "target": "示例：\n==[123;;]answer[;;hint]==\n**[123;;]answer[;;hint]**\n{{[123;;]answer[;;hint]}}"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Spaced Repetition: new Update!",
+                    "target": "间隔重复：新更新！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Jump to card",
+                    "target": "跳转到卡片"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Tried to use the 'fill' option without the 'Filler' plugin enabled. Please import and register the 'Filler' plugin and make sure it is not disabled in the options",
+                    "target": "在未启用“Filler”插件的情况下尝试使用“fill”选项。请导入并注册“Filler”插件，并确保它未在选项中被禁用"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Note was opened in new tab in the background",
+                    "target": "笔记已在后台的新标签页中打开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "An error happened while fetching the data",
+                    "target": "获取数据时发生错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Anno Domini",
+                    "target": "公元"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Before Christ",
+                    "target": "公元前"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Type a keyword...",
+                    "target": "输入关键词..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Open menu",
+                    "target": "打开菜单"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
