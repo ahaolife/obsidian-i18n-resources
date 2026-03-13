@@ -1,0 +1,18 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-search-everywhere-plugin",
+        "version": "1.0.0",
+        "title": "Search Everywhere",
+        "description": "Search Everywhere Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.10",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [],
+            "regex": []
+        }
+    }
+}
