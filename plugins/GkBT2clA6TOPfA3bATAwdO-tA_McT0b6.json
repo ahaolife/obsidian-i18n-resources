@@ -1,0 +1,553 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "ultimate-todoist-sync",
+        "version": "1.0.0",
+        "title": "Ultimate Todoist Sync",
+        "description": "Ultimate Todoist Sync Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.43",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error open a  task:",
+                    "target": "打开任务时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error closing task:",
+                    "target": "关闭任务时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error get all projects",
+                    "target": "获取所有项目时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "An error occurred:",
+                    "target": "发生错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error adding task:",
+                    "target": "添加任务时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error updating task:",
+                    "target": "更新任务时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error modifying task:",
+                    "target": "修改任务时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error processing modified content:",
+                    "target": "处理修改后的内容时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error:",
+                    "target": "错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error opening task:",
+                    "target": "打开任务时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "同步任务状态时出错：",
+                    "target": "同步任务状态时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "An error occurred while synchronizing:",
+                    "target": "同步时发生错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "An error occurred while creating Todoist backup:",
+                    "target": "创建 Todoist 备份时发生错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "An error occurred in updateTaskDescription:",
+                    "target": "updateTaskDescription 中发生错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to load data:",
+                    "target": "加载数据失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error saving settings:",
+                    "target": "保存设置时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "An error occurred in syncTodoistToObsidian:",
+                    "target": "syncTodoistToObsidian 中发生错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "An error occurred in saveSettings:",
+                    "target": "saveSettings 中发生错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "An error occurred in fullTextNewTaskCheck:",
+                    "target": "fullTextNewTaskCheck 中发生错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "An error occurred in deletedTaskCheck:",
+                    "target": "deletedTaskCheck 中发生错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "An error occurred in fullTextModifiedTaskCheck:",
+                    "target": "fullTextModifiedTaskCheck 中发生错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "checking file metadata",
+                    "target": "正在检查文件元数据"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "checking deleted tasks",
+                    "target": "正在检查已删除的任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "checking renamed files",
+                    "target": "正在检查已重命名的文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Preparing to update description.",
+                    "target": "准备更新描述。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "checking unsynced tasks",
+                    "target": "正在检查未同步的任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "invalid date",
+                    "target": "无效日期"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "new file path is",
+                    "target": "新的文件路径是"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "frontmatter没有task",
+                    "target": "frontmatter 没有 task"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "this is a new task",
+                    "target": "这是一个新任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "task completed",
+                    "target": "任务已完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "task umcompleted",
+                    "target": "任务未完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "没有删除任务",
+                    "target": "没有删除任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "New project event",
+                    "target": "新项目事件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "editor is not focused",
+                    "target": "编辑器未聚焦"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Ultimate Todoist Sync for Obsidian id unloaded!",
+                    "target": "Obsidian 的 Ultimate Todoist Sync ID 已卸载！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Line changed!",
+                    "target": "行已更改！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "file path undefined",
+                    "target": "文件路径未定义"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "projectName undefined",
+                    "target": "projectName未定义"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Todoist scheduled synchronization task started at",
+                    "target": "Todoist 定时同步任务开始于"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Todoist scheduled synchronization task completed at",
+                    "target": "Todoist 定时同步任务完成于"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "sync locked.",
+                    "target": "同步已锁定。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "sync unlocked.",
+                    "target": "同步已解锁。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Check Database",
+                    "target": "检查数据库"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Please enter todoist api token and click the paper airplane button to submit.",
+                    "target": "请输入 todoist API 令牌并点击纸飞机按钮提交。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Please specify the desired interval time, with seconds as the default unit. The default setting is 300 seconds, which corresponds to syncing once every 5 minutes. You can customize it, but it cannot be lower than 20 seconds.",
+                    "target": "请指定所需的间隔时间，默认单位为秒。默认设置为 300 秒，对应每 5 分钟同步一次。您可以自定义，但不能低于 20 秒。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "New tasks are automatically synced to the default project. You can modify the project here.",
+                    "target": "新任务会自动同步到默认项目。您可以在此修改项目。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "By default, only tasks marked with #todoist are synchronized. If this option is turned on, all tasks in the vault will be synchronized.",
+                    "target": "默认情况下，仅同步标记为 #todoist 的任务。开启此选项后，将同步库中的所有任务。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Manually perform a synchronization task.",
+                    "target": "手动执行同步任务。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Check for possible issues: sync error, file renaming not updated, or missed tasks not synchronized.",
+                    "target": "检查可能的问题：同步错误、文件重命名未更新或遗漏任务未同步。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "After enabling this option, all log information will be output to the console, which can help check for errors.",
+                    "target": "启用此选项后，所有日志信息将输出到控制台，有助于检查错误。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Click to backup Todoist data, The backed-up files will be stored in the root directory of the Obsidian vault.",
+                    "target": "点击备份 Todoist 数据，备份文件将存储在 Obsidian 资料库的根目录。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Todoist API",
+                    "target": "Todoist API"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Automatic Sync Interval Time",
+                    "target": "自动同步间隔时间"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default Project",
+                    "target": "默认项目"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Full Vault Sync",
+                    "target": "完整资料库同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Manual Sync",
+                    "target": "手动同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Check Database",
+                    "target": "检查数据库"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Debug Mode",
+                    "target": "调试模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Backup Todoist Data",
+                    "target": "备份 Todoist 数据"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default project",
+                    "target": "默认项目"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter your API",
+                    "target": "请输入您的 API"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Sync interval",
+                    "target": "同步间隔"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Wrong type,please enter a number.",
+                    "target": "类型错误，请输入数字。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "The synchronization interval time cannot be less than 20 seconds.",
+                    "target": "同步间隔时间不能少于 20 秒。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "The synchronization interval must be an integer.",
+                    "target": "同步间隔必须是整数。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Settings have been updated.",
+                    "target": "设置已更新。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Full vault sync is enabled.",
+                    "target": "已启用全库同步。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please set the todoist api first",
+                    "target": "请先设置 todoist api"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Sync completed..",
+                    "target": "同步完成.."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "The number of tasks in the default project exceeds 300, reaching the upper limit. It is not possible to add more tasks. Please modify the default project.",
+                    "target": "默认项目中的任务数量超过300，已达到上限。无法再添加更多任务。请修改默认项目。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "All files have been scanned.",
+                    "target": "所有文件已扫描。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Settings failed to load.Please reload the ultimate todoist sync plugin.",
+                    "target": "设置加载失败。请重新加载 Ultimate Todoist Sync 插件。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please enter your Todoist API.",
+                    "target": "请输入你的 Todoist API。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Ultimate Todoist Sync plugin initialization failed, please check the todoist api",
+                    "target": "Ultimate Todoist Sync 插件初始化失败，请检查 todoist api"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "error creating user data folder",
+                    "target": "创建用户数据文件夹时出错"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Ultimate Todoist Sync initialization successful. Todoist data has been backed up.",
+                    "target": "Ultimate Todoist Sync 初始化成功。Todoist 数据已备份。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Ultimate Todoist Sync loaded successfully.",
+                    "target": "Ultimate Todoist Sync 加载成功。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please enter the correct Todoist API token\"",
+                    "target": "请输入正确的 Todoist API token\""
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "An error occurred:",
+                    "target": "发生错误："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Berry Red",
+                    "target": "浆果红"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Olive Green",
+                    "target": "橄榄绿"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Lime Green",
+                    "target": "青柠绿"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Mint Green",
+                    "target": "薄荷绿"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sky Blue",
+                    "target": "天蓝色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Light Blue",
+                    "target": "浅蓝色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Set default project for todoist task in the current file",
+                    "target": "为当前文件中的 todoist 任务设置默认项目"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Settings for Ultimate Todoist Sync for Obsidian.",
+                    "target": "Obsidian 的 Ultimate Todoist Sync 设置。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Set default project for todoist tasks in the current file",
+                    "target": "为当前文件中的 todoist 任务设置默认项目"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
