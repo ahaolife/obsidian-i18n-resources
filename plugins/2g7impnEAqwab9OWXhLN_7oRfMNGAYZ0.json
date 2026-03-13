@@ -1,0 +1,61 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "heatmap-calendar",
+        "version": "1.0.0",
+        "title": "Heatmap Calendar",
+        "description": "Heatmap Calendar Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.7.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Select the day on which your week starts.",
+                    "target": "选择一周开始的日期。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Week Start Day",
+                    "target": "一周开始日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Color name",
+                    "target": "颜色名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Colors array",
+                    "target": "颜色数组"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Add lists of colors which will be globally available on your heatmaps.",
+                    "target": "添加颜色列表，这些颜色将在热力图中全局可用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "You can use those colors by referencing their name in your heatmap render settings.",
+                    "target": "你可以在热力图渲染设置中通过名称引用这些颜色。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Heatmap Calendar Settings",
+                    "target": "热力图日历设置"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
