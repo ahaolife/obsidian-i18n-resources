@@ -1,0 +1,199 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "minote-sync",
+        "version": "1.0.0",
+        "title": "Minote Sync",
+        "description": "Minote Sync Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.1.8",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Last ten effects were: ",
+                    "target": "最近十个效果为： "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[minote plugin] debugger attach failed: ",
+                    "target": "[minote plugin] 调试器附加失败： "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[minote plugin] failed to copy settings to clipboard",
+                    "target": "[minote plugin] 复制设置到剪贴板失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[minote plugin] sync MI note error: ",
+                    "target": "[minote plugin] 同步 MI 笔记出错： "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[minote plugin] failed to sync MI notes",
+                    "target": "[minote plugin] 同步 MI 笔记失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "登录",
+                    "target": "登录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "刷新Cookie",
+                    "target": "刷新Cookie"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "注销",
+                    "target": "注销"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "拷贝Settings",
+                    "target": "拷贝Settings"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "请选择Obsidian Vault中小米笔记存放的位置",
+                    "target": "请选择Obsidian Vault中小米笔记存放的位置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "登录小米云服务",
+                    "target": "登录小米云服务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "笔记保存位置",
+                    "target": "笔记保存位置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "小米云服务域名",
+                    "target": "小米云服务域名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "本地调试",
+                    "target": "本地调试"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "登录小米云服务~",
+                    "target": "登录小米云服务~"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "注销小米云服务，点击头像选择【退出】",
+                    "target": "注销小米云服务，点击头像选择【退出】"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "刷新小米云服务Cookie，点击【使用小米账号登录】",
+                    "target": "刷新小米云服务Cookie，点击【使用小米账号登录】"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "同步小米笔记",
+                    "target": "同步小米笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "强制同步小米笔记",
+                    "target": "强制同步小米笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "If bundling, conditions should include development or production. If not bundling, conditions or NODE_ENV should include development or production. See https://www.npmjs.com/package/esm-env for tips on setting conditions in popular bundlers and runtimes.",
+                    "target": "如果进行打包，conditions 应包含 development 或 production。若不打包，conditions 或 NODE_ENV 应包含 development 或 production。有关在常见打包器和运行时中设置 conditions 的提示，请参阅 https://www.npmjs.com/package/esm-env。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "%c[svelte] lifecycle_double_unmount\n%cTried to unmount a component that was not mounted\nhttps://svelte.dev/e/lifecycle_double_unmount",
+                    "target": "%c[svelte] lifecycle_double_unmount\n%c尝试卸载一个未挂载的组件\nhttps://svelte.dev/e/lifecycle_double_unmount"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "拷贝Settings到剪切板成功！",
+                    "target": "拷贝Settings到剪切板成功！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "拷贝Settings到剪切板失败！",
+                    "target": "拷贝Settings到剪切板失败！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "正在同步小米笔记，请勿重复点击",
+                    "target": "正在同步小米笔记，请勿重复点击"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "开始同步小米笔记...",
+                    "target": "开始同步小米笔记..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "同步小米笔记异常，请打开设置页面检查登录状态或者刷新Cookie",
+                    "target": "同步小米笔记异常，请打开设置页面检查登录状态或者刷新Cookie"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "未分类",
+                    "target": "未分类"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "同步小米笔记",
+                    "target": "同步小米笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "强制同步小米笔记",
+                    "target": "强制同步小米笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "高级设置",
+                    "target": "高级设置"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
