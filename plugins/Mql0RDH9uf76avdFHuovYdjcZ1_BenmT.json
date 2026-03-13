@@ -1,0 +1,43 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "easy-test",
+        "version": "1.0.0",
+        "title": "Easy Test",
+        "description": "Easy Test Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.2.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No active editor found.",
+                    "target": "未找到活动编辑器。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "The editor does not have a valid document.",
+                    "target": "该编辑器没有有效的文档。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Create test command",
+                    "target": "创建测试命令"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Input Box Color Settings",
+                    "target": "输入框颜色设置"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
