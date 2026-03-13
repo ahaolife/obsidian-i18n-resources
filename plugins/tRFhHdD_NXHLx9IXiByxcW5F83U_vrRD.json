@@ -1,0 +1,85 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "brain",
+        "version": "1.0.0",
+        "title": "brAIn",
+        "description": "brAIn Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.3",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Running brain container...",
+                    "target": "正在运行 brain 容器..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Ingesting docs...",
+                    "target": "正在导入文档..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set here your own OpenAI api key",
+                    "target": "在此设置你自己的 OpenAI API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "OpenAI api key",
+                    "target": "OpenAI API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Please wait while the docker is being loaded, the first time could take several minutes...",
+                    "target": "请稍候，Docker 正在加载，首次可能需要几分钟..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Ingesting docs...",
+                    "target": "正在导入文档..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Please wait while the docker is ingesting the docs of your vault, the fisrt time could take several minutes...",
+                    "target": "请稍候，Docker 正在导入你 vault 的文档，首次可能需要几分钟..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "brAIn is not running, check that you have run the ingest command first and also that no other services are using port 9000",
+                    "target": "brAIn 未运行，请检查你是否先运行了 ingest 命令，并确认没有其他服务占用 9000 端口"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "OpenAI api key not set. You need to add an OpenAI api key brAIn settings.",
+                    "target": "未设置 OpenAI API 密钥。你需要在 brAIn 设置中添加 OpenAI API 密钥。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open chat",
+                    "target": "打开聊天"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ingest vault docs",
+                    "target": "导入保险库文档"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
