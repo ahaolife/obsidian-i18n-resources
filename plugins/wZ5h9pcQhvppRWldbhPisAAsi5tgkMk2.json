@@ -1,0 +1,25 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "pf2e-statblocks",
+        "version": "1.0.0",
+        "title": "PF2e Statblocks",
+        "description": "PF2e Statblocks Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "3.4.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerText",
+                    "source": "???",
+                    "target": "？？？"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
