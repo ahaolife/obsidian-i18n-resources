@@ -1,0 +1,241 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "tag-project-odaimoko",
+        "version": "1.0.0",
+        "title": "Tag Project",
+        "description": "Tag Project Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.12.4",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "End of comment missing",
+                    "target": "注释结束缺失"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "property missing ':'",
+                    "target": "属性缺少“:”"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "forceFrameRate takes a positive int between 0 and 125, forcing frame rates higher than 125 fps is not supported",
+                    "target": "forceFrameRate 接受 0 到 125 之间的正整数，不支持强制设置高于 125 fps 的帧率"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Multiple Select Dropdown must pass currentOptionValues. Data are ",
+                    "target": "多选下拉框必须传入 currentOptionValues。数据为 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show normal tags in the task table on Manage Page. Need to reopen the Manage Page.",
+                    "target": "在管理页面的任务表中显示普通标签。需要重新打开管理页面。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If ON, unclassified workflows will be available to any projects. If OFF, only workflows in that project are available.",
+                    "target": "开启后，未分类的工作流可用于任何项目。关闭后，仅该项目中的工作流可用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If ON, the tasks under headers with the same name can be grouped together. Need to reopen the Manage Page.",
+                    "target": "开启后，同名标题下的任务可分组显示。需要重新打开管理页面。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If the key is pressed when clicking the task, always open in a new tab. None for never apply modifier keys.",
+                    "target": "点击任务时按住该按键时始终在新标签页打开。选择 None 表示从不应用修饰键。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Notify when a task is malformed",
+                    "target": "任务格式错误时通知"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Capitalized the first letter in table row",
+                    "target": "表格行首字母大写"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Tags in Task Table",
+                    "target": "任务表中的标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Unclassified workflows available for all projects",
+                    "target": "所有项目可用的未分类工作流"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Header as module",
+                    "target": "将标题设为模块"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Always open task in new tab modify key",
+                    "target": "始终在新标签页打开任务 修改键"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "Show Completed",
+                    "target": "显示已完成"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "Show Steps",
+                    "target": "显示步骤"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "Write preface",
+                    "target": "撰写前言"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "card: warlock, normal attack",
+                    "target": "卡牌：术士，普通攻击"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "card: warlock, fire magic",
+                    "target": "卡牌：术士，火焰魔法"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "If ON, the plugin will look for the task in opened tabs before navigating to the task.\nIf OFF, open in current tab.",
+                    "target": "若为开启，插件将在跳转到任务前先在已打开的标签页中查找该任务。\n若为关闭，则在当前标签页打开。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "If ON, when the task file is not found in existing tabs, open a new tab.\nIf OFF, open in current editor.",
+                    "target": "若为 ON，当在现有标签页中找不到任务文件时，打开新标签页。\n若为 OFF，在当前编辑器中打开。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Example Folder: MyProject - Root",
+                    "target": "示例文件夹：MyProject - 根目录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "MyProject 1.md (Contains property `tpm_project_root: MyProject`)",
+                    "target": "MyProject 1.md（包含属性 `tpm_project_root: MyProject`）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "MyProject 2.md (Tasks in this file will be in [MyProject])",
+                    "target": "MyProject 2.md（此文件中的任务将归入 [MyProject]）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "MyProject 3.md (Contains property `tpm_project: Another Project`)",
+                    "target": "MyProject 3.md（包含属性 `tpm_project: Another Project`）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Look among opened tabs before navigating tasks",
+                    "target": "在导航任务前先在已打开的标签页中查找"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open new tab if task tab not found",
+                    "target": "未找到任务标签页时打开新标签页"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Search task name...",
+                    "target": "搜索任务名称..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Search Project",
+                    "target": "搜索项目"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Search/Select Project",
+                    "target": "搜索/选择项目"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Your task summary",
+                    "target": "你的任务摘要"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "*, /, -, x",
+                    "target": "*, /, -, x"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Task Navigation Policy",
+                    "target": "任务导航策略"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Choose priority...",
+                    "target": "选择优先级..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Sort by...",
+                    "target": "排序方式..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Defined At",
+                    "target": "定义于"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "What is an Orphan Task?",
+                    "target": "什么是孤立任务？"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
