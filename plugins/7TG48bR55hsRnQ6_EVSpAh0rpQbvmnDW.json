@@ -1,0 +1,31 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "one-step-wiki-link",
+        "version": "1.0.0",
+        "title": "One Step Wiki Link",
+        "description": "One Step Wiki Link Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.4",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Convert all matching words to wiki links",
+                    "target": "将所有匹配的词转换为维基链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "转换所有匹配的文本为维基链接",
+                    "target": "转换所有匹配的文本为维基链接"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
