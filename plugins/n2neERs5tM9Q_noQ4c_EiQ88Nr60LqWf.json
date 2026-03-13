@@ -1,0 +1,847 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "breadcrumbs",
+        "version": "1.0.0",
+        "title": "Breadcrumbs",
+        "description": "Breadcrumbs Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "4.4.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<a href=\"https://moment.github.io/luxon/#/formatting?id=table-of-tokens\">Luxon date format</a> to use",
+                    "target": "要使用的 <a href=\"https://moment.github.io/luxon/#/formatting?id=table-of-tokens\">Luxon 日期格式</a>"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "confirm",
+                    "source": "Are you sure you want to freeze implied edges to all notes in vault? This will write to all notes that have outgoing implied edges.",
+                    "target": "确定要将隐含边冻结到库中的所有笔记吗？这将写入所有具有外向隐含边的笔记。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Bulk-add transitive rule errors >",
+                    "target": "批量添加传递规则错误 >"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error updating codeblock tree",
+                    "target": "更新代码块树时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error generating mermaid graph",
+                    "target": "生成 Mermaid 图表时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Codeblock > parse_source > ",
+                    "target": "Codeblock > parse_source > "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "CodeblockMDRC.update error >",
+                    "target": "CodeblockMDRC.update 错误 >"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "CodeblockMDRC unknown type",
+                    "target": "CodeblockMDRC 未知类型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "thread > create file error",
+                    "target": "thread > 创建文件错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "redraw_page_views > No markdown views found",
+                    "target": "redraw_page_views > 未找到 Markdown 视图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "redraw_page_views > No view_parent (mode=preview)",
+                    "target": "redraw_page_views > 无 view_parent（mode=preview）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "redraw_page_views > No view_parent (mode=source)",
+                    "target": "redraw_page_views > 无 view_parent（mode=source）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Build & Copy to Clipboard",
+                    "target": "构建并复制到剪贴板"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "How to display note links",
+                    "target": "如何显示笔记链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show the Previous/Next view at the top of the page",
+                    "target": "在页面顶部显示上一/下一视图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Note display options",
+                    "target": "笔记显示选项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable Previous/Next view",
+                    "target": "启用上一/下一视图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Folder path",
+                    "target": "文件夹路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "File extension",
+                    "target": "文件扩展名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Alias (first alias, if available)",
+                    "target": "别名（如果有，取第一个别名）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "using deprecated parameters for the initialization function; pass a single object instead",
+                    "target": "初始化函数使用了已弃用的参数；请改为传递单个对象"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "dataview-note > DV API error:",
+                    "target": "dataview-note > DV API 错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "%c[svelte] lifecycle_double_unmount\n%cTried to unmount a component that was not mounted\nhttps://svelte.dev/e/lifecycle_double_unmount",
+                    "target": "%c[svelte] lifecycle_double_unmount\n%c尝试卸载一个未挂载的组件\nhttps://svelte.dev/e/lifecycle_double_unmount"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to hydrate: ",
+                    "target": "注水失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "fatal codeblock errors",
+                    "target": "致命代码块错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "non-fatal codeblock errors",
+                    "target": "非致命代码块错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "explicit_edge_errors >",
+                    "target": "explicit_edge_errors >"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "activate_view > no leaf found",
+                    "target": "activate_view > 未找到叶子"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Copied to clipboard and logged to console.",
+                    "target": "已复制到剪贴板并记录到控制台。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Field label must be unique.",
+                    "target": "字段标签必须唯一。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Could not find textarea.",
+                    "target": "找不到文本区域。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No rules to parse.",
+                    "target": "没有可解析的规则。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Some rules could not be parsed. Ensure you're using the correct syntax of `[field-one, field-two] -> close-field`, with each rule of a new line.",
+                    "target": "部分规则无法解析。请确保使用正确语法 `[field-one, field-two] -> close-field`，并且每条规则单独一行。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Some rules could not be parsed. Check the logs for more information.",
+                    "target": "部分规则无法解析。请查看日志了解更多信息。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please restart Obsidian for the changes to take effect",
+                    "target": "请重启 Obsidian 使更改生效"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Depth must be a number",
+                    "target": "深度必须为数字"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Depth must be a non-negative number",
+                    "target": "深度必须为非负数"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No active file",
+                    "target": "没有活动文件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "List index copied to clipboard",
+                    "target": "列表索引已复制到剪贴板"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No active markdown view",
+                    "target": "没有活动的 Markdown 视图"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Graph stats printed to console and copied to clipboard",
+                    "target": "图表统计已打印到控制台并复制到剪贴板"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Implied edges frozen to note",
+                    "target": "隐含边已冻结到笔记"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Command cancelled",
+                    "target": "命令已取消"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Freezing implied edges to all notes in vault...",
+                    "target": "正在冻结隐含边到库中的所有笔记..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Rebuilding graph",
+                    "target": "正在重建图表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Look for date notes to use as edge sources",
+                    "target": "查找日期笔记作为边的来源"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Field used to join date notes together. Breadcrumbs takes the current note's date, adds one day, and joins the two notes with this field.",
+                    "target": "用于将日期笔记连接在一起的字段。Breadcrumbs 获取当前笔记的日期，加一天，并用此字段连接两条笔记。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "If there is a gap from one day to another, should the next note be the unresolved one in one day or should it 'stretch' to the next resolved (existing) note?",
+                    "target": "如果从某一天到下一天存在空缺，下一条笔记应该是未解析的一天，还是应“延伸”到下一条已解析（存在的）笔记？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Set the level of debug logging",
+                    "target": "设置调试日志级别"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Look for dendron notes to use as edge sources",
+                    "target": "查找 dendron 笔记作为边的来源"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Delimiter to use to split the note name",
+                    "target": "用于拆分笔记名称的分隔符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Field to use if the BC-dendron-note-field is not specified",
+                    "target": "未指定 BC-dendron-note-field 时使用的字段"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Display Dendron note names as the right-most split of the delimiter. e.g. `a.b.c` -> `c`",
+                    "target": "将 Dendron 笔记名称显示为分隔符最右侧的分段。例如：`a.b.c` -> `c`"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Whether to enable the edge field suggestor",
+                    "target": "是否启用边字段建议器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "The string that triggers the suggestor (when entered at the start of a line)",
+                    "target": "触发建议器的字符串（在行首输入时）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Where to write the frozen edges to",
+                    "target": "冻结边写入的位置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Show the trail view at the top of the page",
+                    "target": "在页面顶部显示路径视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Format of the trail view",
+                    "target": "路径视图的格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "How to select the path(s) to display in the trail view",
+                    "target": "如何选择要在路径视图中显示的路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Default depth of the trail view",
+                    "target": "路径视图的默认深度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Merge fields in the traversal, instead of keeping their paths separate",
+                    "target": "在遍历中合并字段，而不是将其路径分开保留"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Show controls to change the depth/format/path-selection of the trail view",
+                    "target": "显示用于更改轨迹视图深度/格式/路径选择的控件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Message to display when there is no path to display. Leave blank to hide the trail view when there is no path.",
+                    "target": "没有路径可显示时要显示的消息。留空以在没有路径时隐藏轨迹视图。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Look for Johnny.Decimal notes to use as edge sources",
+                    "target": "查找 Johnny.Decimal 笔记用作边缘来源"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Format to use for links",
+                    "target": "用于链接的格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Indentation to use for each level",
+                    "target": "每个层级使用的缩进"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Collapse the matrix by default",
+                    "target": "默认折叠矩阵"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Lock the matrix view to the current file",
+                    "target": "将矩阵视图锁定到当前文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Path to lock the matrix view to (overrides current file)",
+                    "target": "用于锁定矩阵视图的路径（覆盖当前文件）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Keep the page views pinned to the top of the note as you scroll",
+                    "target": "滚动时将页面视图固定在笔记顶部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Limit to the width of the text in the editor",
+                    "target": "限制为编辑器中文本的宽度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Show a notification when the graph is rebuilt",
+                    "target": "在图表重建时显示通知"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "When to rebuild the graph",
+                    "target": "何时重建图表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Field to use if the BC-regex-note-field is not specified",
+                    "target": "如果未指定 BC-regex-note-field，则使用的字段"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Field to use if the BC-tag-note-field is not specified",
+                    "target": "如果未指定 BC-tag-note-field，则使用的字段"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Where to write the new edge to",
+                    "target": "将新边写入到哪里"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Collapse the tree by default",
+                    "target": "默认折叠树形结构"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Lock the tree view to the current file",
+                    "target": "将树视图锁定到当前文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Path to lock the tree view to (overrides current file)",
+                    "target": "锁定树视图的路径（覆盖当前文件）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Select the sorting method for the edges in the graph.",
+                    "target": "选择图中边的排序方式。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Select the edge attributes to show.",
+                    "target": "选择要显示的边属性。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Select the field groups to show in the left side of this view",
+                    "target": "选择要在此视图左侧显示的字段组"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Select the field groups to show in the right side of this view",
+                    "target": "选择要在此视图右侧显示的字段组"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "dataview-note-query is not a string",
+                    "target": "dataview-note-query 不是字符串"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "dataview-note-field is not a string",
+                    "target": "dataview-note-field 不是字符串"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Invalid codeblock YAML. Check the console for more information (press `Ctrl + Shift + I` to open the console).",
+                    "target": "无效的代码块 YAML。查看控制台以获取更多信息（按 `Ctrl + Shift + I` 打开控制台）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Default Field",
+                    "target": "默认字段"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Date Format",
+                    "target": "日期格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Stretch to Existing",
+                    "target": "拉伸到现有"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Debug Level",
+                    "target": "调试级别"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Display Trimmed",
+                    "target": "显示修剪结果"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Trigger String",
+                    "target": "触发字符串"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Enable trail view",
+                    "target": "启用轨迹视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Path Selection",
+                    "target": "路径选择"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Default depth",
+                    "target": "默认深度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Merge Fields",
+                    "target": "合并字段"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show controls",
+                    "target": "显示控件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "No path message",
+                    "target": "无路径提示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Edge Sort",
+                    "target": "边排序"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show Attributes",
+                    "target": "显示属性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Link Kind",
+                    "target": "链接类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Default Neighbour Field",
+                    "target": "默认邻接字段"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Lock View",
+                    "target": "锁定视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Lock Path",
+                    "target": "锁定路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Readable line width",
+                    "target": "可读线宽"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Field Groups for Left",
+                    "target": "左侧字段组"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Field Groups for Right",
+                    "target": "右侧字段组"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Notify on refresh",
+                    "target": "刷新时通知"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Rebuild graph",
+                    "target": "重建图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Create list index",
+                    "target": "创建列表索引"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show/Copy graph stats",
+                    "target": "显示/复制图表统计"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Freeze implied edges to note",
+                    "target": "冻结到笔记的隐含边"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Freeze implied edges to all notes in vault",
+                    "target": "冻结到库中所有笔记的隐含边"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Add Field",
+                    "target": "添加字段"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "> Edge Fields",
+                    "target": "> 边字段"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Implied Relations",
+                    "target": "隐含关系"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "> Transitive",
+                    "target": "> 传递"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Edge Sources",
+                    "target": "边来源"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "> Tag Notes",
+                    "target": "> 标签笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "> List Notes",
+                    "target": "> 列表笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "> Date Notes",
+                    "target": "> 日期笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "> Regex Notes",
+                    "target": "> 正则笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "> Dendron Notes",
+                    "target": "> Dendron 笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "> Johnny.Decimal Notes",
+                    "target": "> Johnny.Decimal 笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "> Matrix",
+                    "target": "> 矩阵"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "> Page",
+                    "target": "> 页面"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "> Tree",
+                    "target": "> 树"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "> Codeblocks",
+                    "target": "> 代码块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "> Rebuild Graph",
+                    "target": "> 重建图谱"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "> List Index",
+                    "target": "> 列表索引"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "> Freeze Implied Edges",
+                    "target": "> 冻结隐含边"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "> Thread",
+                    "target": "> 线程"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "> Edge Field Suggestor",
+                    "target": "> 边字段建议器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "> Debug",
+                    "target": "> 调试"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Create List Index",
+                    "target": "创建列表索引"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Jump to group. Right click for more actions.",
+                    "target": "跳转到分组。右键单击查看更多操作。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Jump to field. Right click for more actions.",
+                    "target": "跳转到字段。右键单击查看更多操作。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Right click for more actions.",
+                    "target": "右键单击查看更多操作。"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
