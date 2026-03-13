@@ -1,0 +1,1123 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "enhanced-publisher",
+        "version": "1.0.0",
+        "title": "Enhanced Publisher",
+        "description": "Enhanced Publisher Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "⚠️ 警告：原始文档已被删除或重命名，该预览内容将不会再更新",
+                    "target": "⚠️ 警告：原始文档已被删除或重命名，该预览内容将不会再更新"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "样式：",
+                    "target": "样式："
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "复制到内容平台",
+                    "target": "复制到内容平台"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "发布",
+                    "target": "发布"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "素材库",
+                    "target": "素材库"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "本地图片",
+                    "target": "本地图片"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "第1页",
+                    "target": "第1页"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "预览区域",
+                    "target": "预览区域"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "加载素材库失败，请检查网络连接",
+                    "target": "加载素材库失败，请检查网络连接"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "无封面图",
+                    "target": "无封面图"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "选择封面图",
+                    "target": "选择封面图"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "已选择封面图",
+                    "target": "已选择封面图"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "正在上传封面图...",
+                    "target": "正在上传封面图..."
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "正在发布...",
+                    "target": "正在发布..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "skip, excludeBegin, returnBegin not compatible with beginScope: {}",
+                    "target": "skip、excludeBegin、returnBegin 与 beginScope 不兼容: {}"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "beginScope must be object",
+                    "target": "beginScope 必须是对象"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "skip, excludeEnd, returnEnd not compatible with endScope: {}",
+                    "target": "skip、excludeEnd、returnEnd 与 endScope 不兼容: {}"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "endScope must be object",
+                    "target": "endScope 必须是对象"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "保存粘贴图片时出错:",
+                    "target": "保存粘贴图片时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[图片处理] 刷新图片容器时出错:",
+                    "target": "[图片处理] 刷新图片容器时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "清理HTML内容时出错:",
+                    "target": "清理HTML内容时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "应用代码高亮时出错:",
+                    "target": "应用代码高亮时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[MathJax] Style inlining failed:",
+                    "target": "[MathJax] 样式内联失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Canvas export failed (Tainted):",
+                    "target": "Canvas 导出失败（受污染）:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Image load failed:",
+                    "target": "图片加载失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[MathJax] Conversion failed:",
+                    "target": "[MathJax] 转换失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "应用微信样式时出错:",
+                    "target": "应用微信样式时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "无法读取原始文件",
+                    "target": "无法读取原始文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "无法获取 Markdown 内容",
+                    "target": "无法获取 Markdown 内容"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "刷新HTML预览失败:",
+                    "target": "刷新HTML预览失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "复制前重新渲染失败:",
+                    "target": "复制前重新渲染失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "无法获取当前文档",
+                    "target": "无法获取当前文档"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "处理图片失败:",
+                    "target": "处理图片失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "复制失败:",
+                    "target": "复制失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "无法找到showPublishModal函数",
+                    "target": "无法找到showPublishModal函数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "打开原始文档失败:",
+                    "target": "打开原始文档失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to extract MathJax CSS:",
+                    "target": "提取 MathJax CSS 失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "刷新预览失败:",
+                    "target": "刷新预览失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "更新内容时出错:",
+                    "target": "更新内容时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "HTML预览生成失败:",
+                    "target": "HTML预览生成失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "加载素材库失败:",
+                    "target": "加载素材库失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "上传封面图失败:",
+                    "target": "上传封面图失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "发布失败:",
+                    "target": "发布失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "处理元数据文件时出错:",
+                    "target": "处理元数据文件时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "获取微信素材库时出错:",
+                    "target": "获取微信素材库时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "上传图片到微信时出错:",
+                    "target": "上传图片到微信时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "读取令牌缓存失败:",
+                    "target": "读取令牌缓存失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "获取微信访问令牌业务失败: ",
+                    "target": "获取微信访问令牌业务失败: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "上传图片失败:",
+                    "target": "上传图片失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "处理文档图片时出错:",
+                    "target": "处理文档图片时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "处理图片时出错:",
+                    "target": "处理图片时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "发布到微信时出错:",
+                    "target": "发布到微信时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "\\u5FAE\\u4FE1\\u63A5\\u53E3\\u8BF7\\u6C42\\u5931\\u8D25:",
+                    "target": "\\u5FAE\\u4FE1\\u63A5\\u53E3\\u8BF7\\u6C42\\u5931\\u8D25:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "重命名资源文件夹失败:",
+                    "target": "重命名资源文件夹失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "重命名资源文件夹异常:",
+                    "target": "重命名资源文件夹异常:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "更新图片引用失败:",
+                    "target": "更新图片引用失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "处理文档重命名时出错:",
+                    "target": "处理文档重命名时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "处理图片重命名时出错:",
+                    "target": "处理图片重命名时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "\\u5904\\u7406\\u6587\\u6863\\u91CD\\u547D\\u540D\\u65F6\\u51FA\\u9519:",
+                    "target": "\\u5904\\u7406\\u6587\\u6863\\u91CD\\u547D\\u540D\\u65F6\\u51FA\\u9519:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "\\u52A0\\u8F7D\\u56FE\\u7247\\u5230\\u5BB9\\u5668\\u65F6\\u51FA\\u9519:",
+                    "target": "\\u52A0\\u8F7D\\u56FE\\u7247\\u5230\\u5BB9\\u5668\\u65F6\\u51FA\\u9519:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "更新图片容器时出错:",
+                    "target": "更新图片容器时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "重命名图片失败:",
+                    "target": "重命名图片失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "删除图片失败:",
+                    "target": "删除图片失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "处理资源文件夹重命名时出错:",
+                    "target": "处理资源文件夹重命名时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "处理目标文件夹冲突时出错:",
+                    "target": "处理目标文件夹冲突时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "文档重命名过程出错:",
+                    "target": "文档重命名过程出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "打开文件失败:",
+                    "target": "打开文件失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "加载增强发布插件",
+                    "target": "加载增强发布插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "卸载增强发布插件",
+                    "target": "卸载增强发布插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "粘贴图片时自动保存到文档同名文件夹",
+                    "target": "粘贴图片时自动保存到文档同名文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "设置图片保存的文件夹路径。支持使用 ${filename} 代表当前文档的文件名。例如：${filename}__assets (默认) 或 attachments/${filename}",
+                    "target": "设置图片保存的文件夹路径。支持使用 ${filename} 代表当前文档的文件名。例如：${filename}__assets (默认) 或 attachments/${filename}"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "在文件浏览器中隐藏图片文件夹(__assets)并将图片集成到文档中。启用后可以点击文档名展开/折叠查看图片。",
+                    "target": "在文件浏览器中隐藏图片文件夹(__assets)并将图片集成到文档中。启用后可以点击文档名展开/折叠查看图片。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "启用后将显示详细的调试日志信息",
+                    "target": "启用后将显示详细的调试日志信息"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "微信公众号的AppID",
+                    "target": "微信公众号的AppID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "微信公众号的AppSecret",
+                    "target": "微信公众号的AppSecret"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "启用后将使用微信公众号优化的样式渲染，包括代码高亮、表格样式等",
+                    "target": "启用后将使用微信公众号优化的样式渲染，包括代码高亮、表格样式等"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "选择微信公众号文章的样式风格",
+                    "target": "选择微信公众号文章的样式风格"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "文章标题",
+                    "target": "文章标题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "选择发布平台",
+                    "target": "选择发布平台"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "当前仅支持保存到草稿箱，后续将支持直接发布",
+                    "target": "当前仅支持保存到草稿箱，后续将支持直接发布"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "选择文章封面图",
+                    "target": "选择文章封面图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "自动保存图片",
+                    "target": "自动保存图片"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "图片存储位置",
+                    "target": "图片存储位置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "隐藏图片文件夹",
+                    "target": "隐藏图片文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "调试模式",
+                    "target": "调试模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "微信公众号",
+                    "target": "微信公众号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "启用微信样式渲染",
+                    "target": "启用微信样式渲染"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "默认主题",
+                    "target": "默认主题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "标题",
+                    "target": "标题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "平台",
+                    "target": "平台"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "草稿",
+                    "target": "草稿"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "封面图",
+                    "target": "封面图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "输入AppID",
+                    "target": "输入AppID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "输入AppSecret",
+                    "target": "输入AppSecret"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Math input error",
+                    "target": "数学输入错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "删除文件",
+                    "target": "删除文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "重命名",
+                    "target": "重命名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "删除",
+                    "target": "删除"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "以HTML形式预览",
+                    "target": "以HTML形式预览"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "发布到内容平台",
+                    "target": "发布到内容平台"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Falling back to no-highlight mode for this block.",
+                    "target": "此块将回退到无高亮模式。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "One of your code blocks includes unescaped HTML. This is a potentially serious security risk.",
+                    "target": "你的某个代码块包含未转义的 HTML。这可能存在严重的安全风险。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "设置已保存。为确保\"隐藏图片文件夹\"功能正常工作，建议重启插件或重新加载Obisidian。",
+                    "target": "设置已保存。为确保\"隐藏图片文件夹\"功能正常工作，建议重启插件或重新加载Obisidian。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "无法确定当前文件",
+                    "target": "无法确定当前文件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "正在准备内容...",
+                    "target": "正在准备内容..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "内容已复制到剪贴板（包含图片），你可以粘贴到内容发布平台了",
+                    "target": "内容已复制到剪贴板（包含图片），你可以粘贴到内容发布平台了"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "已使用备用方式复制内容（不含图片）",
+                    "target": "已使用备用方式复制内容（不含图片）"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "复制完全失败，请重试",
+                    "target": "复制完全失败，请重试"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "发布功能不可用",
+                    "target": "发布功能不可用"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "无法确定要发布的原始文档",
+                    "target": "无法确定要发布的原始文档"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "无法创建HTML预览页签",
+                    "target": "无法创建HTML预览页签"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请先选择图片",
+                    "target": "请先选择图片"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请输入标题",
+                    "target": "请输入标题"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请选择封面图",
+                    "target": "请选择封面图"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "无法获取当前文件",
+                    "target": "无法获取当前文件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请先在设置中配置微信公众号的AppID和AppSecret",
+                    "target": "请先在设置中配置微信公众号的AppID和AppSecret"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "上传封面图失败",
+                    "target": "上传封面图失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "获取微信素材库时出错，请检查网络或配置",
+                    "target": "获取微信素材库时出错，请检查网络或配置"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "获取微信令牌失败: 网络连接被关闭，请检查是否启用了代理或网络环境不稳定",
+                    "target": "获取微信令牌失败: 网络连接被关闭，请检查是否启用了代理或网络环境不稳定"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "获取微信访问令牌时出错，请检查网络设置",
+                    "target": "获取微信访问令牌时出错，请检查网络设置"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "上传图片失败，请检查网络或配置",
+                    "target": "上传图片失败，请检查网络或配置"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "成功发布到微信公众号草稿箱",
+                    "target": "成功发布到微信公众号草稿箱"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "header",
+                    "source": ":is(h1, h2, h3, h4, h5, h6)",
+                    "target": ":is(h1, h2, h3, h4, h5, h6)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Plain text",
+                    "target": "纯文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Augmented Backus-Naur Form",
+                    "target": "扩展巴科斯-诺尔形式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Apache Access Log",
+                    "target": "Apache 访问日志"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Apache config",
+                    "target": "Apache 配置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ArcGIS Arcade",
+                    "target": "ArcGIS Arcade"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "HTML, XML",
+                    "target": "HTML, XML"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Backus–Naur Form",
+                    "target": "巴科斯-诺尔范式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Cap’n Proto",
+                    "target": "Cap’n Proto"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Clojure REPL",
+                    "target": "Clojure REPL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Caché Object Script",
+                    "target": "Caché 对象脚本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "DNS Zone",
+                    "target": "DNS 区域"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Batch file (DOS)",
+                    "target": "批处理文件（DOS）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Device Tree",
+                    "target": "设备树"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Extended Backus-Naur Form",
+                    "target": "扩展巴科斯-诺尔范式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Erlang REPL",
+                    "target": "Erlang REPL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Excel formulae",
+                    "target": "Excel 公式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "G-code (ISO 6983)",
+                    "target": "G-code（ISO 6983）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Inform 7",
+                    "target": "Inform 7"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "TOML, also INI",
+                    "target": "TOML，也包括 INI"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "JBoss CLI",
+                    "target": "JBoss CLI"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Julia REPL",
+                    "target": "Julia REPL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "LLVM IR",
+                    "target": "LLVM IR"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "LSL (Linden Scripting Language)",
+                    "target": "LSL（Linden 脚本语言）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Nested Text",
+                    "target": "嵌套文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Nginx config",
+                    "target": "Nginx 配置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Node REPL",
+                    "target": "Node REPL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Packet Filter config",
+                    "target": "数据包过滤器配置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Python profiler",
+                    "target": "Python 性能分析器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Protocol Buffers",
+                    "target": "Protocol Buffers"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "RenderMan RIB",
+                    "target": "RenderMan RIB"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "MikroTik RouterOS script",
+                    "target": "MikroTik RouterOS 脚本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "RenderMan RSL",
+                    "target": "RenderMan RSL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Oracle Rules Language",
+                    "target": "Oracle 规则语言"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Shell Session",
+                    "target": "Shell 会话"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "SML (Standard ML)",
+                    "target": "SML（Standard ML）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "STEP Part 21",
+                    "target": "STEP 第 21 部分"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Tagger Script",
+                    "target": "Tagger 脚本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Test Anything Protocol",
+                    "target": "Test Anything 协议"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Visual Basic .NET",
+                    "target": "Visual Basic .NET"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "VBScript in HTML",
+                    "target": "HTML 中的 VBScript"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Vim Script",
+                    "target": "Vim 脚本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "以HTML形式预览",
+                    "target": "以HTML形式预览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "发布到内容平台",
+                    "target": "发布到内容平台"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "option",
+                    "source": "1st-level escape",
+                    "target": "一级转义"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "option",
+                    "source": "addition compound",
+                    "target": "加成化合物"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "option",
+                    "source": "comma enumeration S",
+                    "target": "逗号枚举 S"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "option",
+                    "source": "electron dot",
+                    "target": "电子点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "option",
+                    "source": "KV x",
+                    "target": "KV x"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "input:is(:not([type!='']), [type=text])",
+                    "target": "input:is(:not([type!='']), [type=text])"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "选择封面图",
+                    "target": "选择封面图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "正在加载素材...",
+                    "target": "正在加载素材..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "上一页",
+                    "target": "上一页"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "下一页",
+                    "target": "下一页"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "取消",
+                    "target": "取消"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "确认",
+                    "target": "确认"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "没有找到素材，请上传新图片",
+                    "target": "没有找到素材，请上传新图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "发布到内容平台",
+                    "target": "发布到内容平台"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "发布",
+                    "target": "发布"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "它将被移动到系统回收站里。",
+                    "target": "它将被移动到系统回收站里。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "删除",
+                    "target": "删除"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "setup draw",
+                    "target": "设置绘图"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
