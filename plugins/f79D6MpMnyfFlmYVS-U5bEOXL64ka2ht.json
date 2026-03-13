@@ -1,0 +1,73 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-wavedrom",
+        "version": "1.0.0",
+        "title": "WaveDrom",
+        "description": "WaveDrom Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.1.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "Save as PNG",
+                    "target": "另存为 PNG"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "Save as SVG",
+                    "target": "另存为 SVG"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<style type=\"text/css\">div.wavedromMenu{position:fixed;border:solid 1pt#CCCCCC;background-color:white;box-shadow:0px 10px 20px #808080;cursor:default;margin:0px;padding:0px;}div.wavedromMenu>ul{margin:0px;padding:0px;}div.wavedromMenu>ul>li{padding:2px 10px;list-style:none;}div.wavedromMenu>ul>li:hover{background-color:#b5d5ff;}</style>",
+                    "target": "<style type=\"text/css\">div.wavedromMenu{position:fixed;border:solid 1pt#CCCCCC;background-color:white;box-shadow:0px 10px 20px #808080;cursor:default;margin:0px;padding:0px;}div.wavedromMenu>ul{margin:0px;padding:0px;}div.wavedromMenu>ul>li{padding:2px 10px;list-style:none;}div.wavedromMenu>ul>li:hover{background-color:#b5d5ff;}</style>"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "This browser lacks typed array (Uint8Array) support which is required by `buffer` v5.x. Use `buffer` v4.x if you require old browser support.",
+                    "target": "此浏览器缺少 `buffer` v5.x 所需的类型化数组（Uint8Array）支持。如需旧版浏览器支持，请使用 `buffer` v4.x。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unexpected end",
+                    "target": "意外结束"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Cannot write after close. Assign an onready handler.",
+                    "target": "关闭后无法写入。请分配一个 onready 处理程序。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Obsidian wavedrom loaded",
+                    "target": "Obsidian wavedrom 已加载"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Obsidian wavedrom unloaded",
+                    "target": "Obsidian wavedrom 已卸载"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Digital timing diagram in your browser",
+                    "target": "在浏览器中显示数字时序图"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
