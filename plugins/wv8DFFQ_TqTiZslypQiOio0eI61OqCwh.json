@@ -1,0 +1,205 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "homework-manager",
+        "version": "1.0.0",
+        "title": "Homework Manager",
+        "description": "Homework Manager Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Found data is legacy, converting now.\n\nLegacy",
+                    "target": "发现数据为旧版，正在转换。\n\n旧版"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "\n\nConverted",
+                    "target": "\n\n已转换"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Cannot find requested view in data.",
+                    "target": "在数据中找不到请求的视图。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Automatically sort subjects by the quantity of tasks.",
+                    "target": "按任务数量自动排序科目。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show tooltips when hovering over buttons.",
+                    "target": "鼠标悬停按钮时显示工具提示。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Auto sort for task quantity",
+                    "target": "按任务数量自动排序"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show tooltips",
+                    "target": "显示工具提示"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Linked file cannot be found.",
+                    "target": "找不到链接的文件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "View options",
+                    "target": "视图选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Switch to view",
+                    "target": "切换到视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Add, delete, sort, or rename your views",
+                    "target": "添加、删除、排序或重命名你的视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Creates a task without a subject",
+                    "target": "创建一个没有科目的任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Creates a subject in the current view",
+                    "target": "在当前视图中创建科目"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Add new task to subject",
+                    "target": "向科目添加新任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open homework",
+                    "target": "打开作业"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open update notes",
+                    "target": "打开更新说明"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "New View",
+                    "target": "新建视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Enter subject name",
+                    "target": "输入科目名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Enter task name",
+                    "target": "输入任务名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Homework Manager: v1.1.0!",
+                    "target": "作业管理器：v1.1.0！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\\u2757 This update requires the reformatting of user data. If you run into any issues or have lost any data, please create an issue on the GitHub. \\u2757",
+                    "target": "\\u2757\\u0020\\u6B64\\u66F4\\u65B0\\u9700\\u8981\\u91CD\\u65B0\\u683C\\u5F0F\\u5316\\u7528\\u6237\\u6570\\u636E\\u3002\\u5982\\u679C\\u4F60\\u9047\\u5230\\u4EFB\\u4F55\\u95EE\\u9898\\u6216\\u4E22\\u5931\\u4EFB\\u4F55\\u6570\\u636E\\uFF0C\\u8BF7\\u5728\\u0020\\u0047\\u0069\\u0074\\u0048\\u0075\\u0062\\u0020\\u4E0A\\u521B\\u5EFA\\u4E00\\u4E2A\\u0020\\u0069\\u0073\\u0073\\u0075\\u0065\\u3002\\u0020\\u2757"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\\u{1F4C2} Views: You can switch between different views, each with its own set of tasks. This makes it easy to separate work-related to-dos from personal tasks.",
+                    "target": "\\u{1F4C2}\\u0020\\u89C6\\u56FE\\uFF1A\\u4F60\\u53EF\\u4EE5\\u5728\\u4E0D\\u540C\\u89C6\\u56FE\\u4E4B\\u95F4\\u5207\\u6362\\uFF0C\\u6BCF\\u4E2A\\u89C6\\u56FE\\u90FD\\u6709\\u81EA\\u5DF1\\u7684\\u4E00\\u7EC4\\u4EFB\\u52A1\\u3002\\u8FD9\\u4F7F\\u4F60\\u53EF\\u4EE5\\u8F7B\\u677E\\u5C06\\u5DE5\\u4F5C\\u76F8\\u5173\\u7684\\u5F85\\u529E\\u4E8B\\u9879\\u4E0E\\u4E2A\\u4EBA\\u4EFB\\u52A1\\u5206\\u5F00\\u3002"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\\u270F\\uFE0F Editing tasks & subjects: Update names, due dates, and files.",
+                    "target": "\\u270F\\uFE0F\\u0020\\u7F16\\u8F91\\u4EFB\\u52A1\\u548C\\u79D1\\u76EE\\uFF1A\\u66F4\\u65B0\\u540D\\u79F0\\u3001\\u622A\\u6B62\\u65E5\\u671F\\u548C\\u6587\\u4EF6\\u3002"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\\u{1F500} Reordering tasks: Arrange tasks the way you like.",
+                    "target": "\\u{1F500}\\u0020\\u91CD\\u65B0\\u6392\\u5E8F\\u4EFB\\u52A1\\uFF1A\\u6309\\u4F60\\u559C\\u6B22\\u7684\\u65B9\\u5F0F\\u5B89\\u6392\\u4EFB\\u52A1\\u3002"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\\u{1F4CC} Auto-sorting subjects: Subjects can now automatically sort to the top based on the number of tasks they have. This feature can be enabled in the settings.",
+                    "target": "\\u{1F4CC}\\u0020\\u79D1\\u76EE\\u81EA\\u52A8\\u6392\\u5E8F\\uFF1A\\u79D1\\u76EE\\u73B0\\u5728\\u53EF\\u6839\\u636E\\u5176\\u4EFB\\u52A1\\u6570\\u91CF\\u81EA\\u52A8\\u6392\\u5230\\u9876\\u90E8\\u3002\\u6B64\\u529F\\u80FD\\u53EF\\u5728\\u8BBE\\u7F6E\\u4E2D\\u542F\\u7528\\u3002"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "View Manager",
+                    "target": "视图管理器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Manage views",
+                    "target": "管理视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Add task",
+                    "target": "添加任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Add subject",
+                    "target": "添加科目"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " ↑ ",
+                    "target": " ↑ "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " ↓ ",
+                    "target": " ↓ "
+                }
+            ],
+            "regex": []
+        }
+    }
+}
