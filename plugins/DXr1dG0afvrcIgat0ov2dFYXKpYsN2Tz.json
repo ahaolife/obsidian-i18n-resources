@@ -1,0 +1,427 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "math-booster",
+        "version": "1.0.0",
+        "title": "LaTeX-like Theorem & Equation Referencer",
+        "description": "LaTeX-like Theorem & Equation Referencer Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.2.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addHeading",
+                    "source": "Equations - numbering",
+                    "target": "公式 - 编号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addHeading",
+                    "source": "Equations - referencing",
+                    "target": "公式 - 引用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addHeading",
+                    "source": "Proofs (experimental)",
+                    "target": "证明（实验性）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addHeading",
+                    "source": "Search & link auto-completion - general",
+                    "target": "搜索与链接自动补全 - 常规"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addHeading",
+                    "source": "Enhance Obsidian's built-in link auto-completion (experimental)",
+                    "target": "增强 Obsidian 内置的链接自动补全（实验性）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addHeading",
+                    "source": "Configure this plugin's custom editor link auto-completion",
+                    "target": "配置此插件的自定义编辑器链接自动补全"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addHeading",
+                    "source": "From entire vault",
+                    "target": "来自整个库"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addHeading",
+                    "source": "From recently opened notes",
+                    "target": "来自最近打开的笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addHeading",
+                    "source": "From active note",
+                    "target": "来自当前笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addHeading",
+                    "source": "From Dataview query",
+                    "target": "来自 Dataview 查询"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addHeading",
+                    "source": "Equation suggestion",
+                    "target": "公式建议"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addHeading",
+                    "source": "Equations - general",
+                    "target": "公式 - 常规"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Foldable & expanded by default",
+                    "target": "可折叠且默认展开"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Foldable & folded by default",
+                    "target": "可折叠且默认折叠"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Dataview query",
+                    "target": "Dataview 查询"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Active note",
+                    "target": "当前笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Recent notes",
+                    "target": "最近的笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Manage profiles",
+                    "target": "管理配置文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Restore defaults",
+                    "target": "恢复默认设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Search files & folders",
+                    "target": "搜索文件和文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Okay, I got it",
+                    "target": "好的，我知道了"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Not now",
+                    "target": "暂不"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "You can include inline math in the title.",
+                    "target": "你可以在标题中包含行内数学公式。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Configure how this plugin modifies the appearance of Obsidian's built-in link auto-completion (the one that pops up when you type \"[[\"). This feature dives deep into Obsidian's internals, so it might break when Obsidian is updated. If you encounter any issue, please report it on GitHub.",
+                    "target": "配置此插件如何修改 Obsidian 内置链接自动补全（在你输入 \"[[\" 时弹出的那个）的外观。此功能深入 Obsidian 内部，因此在 Obsidian 更新时可能会失效。如果遇到任何问题，请在 GitHub 上反馈。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "It is recommended to turn off unnecessary auto-completions to improve performance.",
+                    "target": "建议关闭不必要的自动补全以提升性能。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "You can make your search results more visible by excluding certain files or folders.",
+                    "target": "你可以通过排除某些文件或文件夹让搜索结果更清晰可见。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Only LIST queries are supported.",
+                    "target": "仅支持 LIST 查询。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Retry after enabling Dataview.",
+                    "target": "启用 Dataview 后重试。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Add profile",
+                    "target": "添加配置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Linked proofs",
+                    "target": "关联证明"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Pandoc label",
+                    "target": "Pandoc 标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Open local settings for the current note",
+                    "target": "打开当前笔记的本地设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "The files/folders in this list and their descendants will be excluded from suggestion for local settings.",
+                    "target": "此列表中的文件/文件夹及其后代将被排除在本地设置建议之外。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Local settings",
+                    "target": "本地设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Excluded files",
+                    "target": "排除的文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Are you sure to proceed?",
+                    "target": "确定继续吗？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Preparing the fresh cache...",
+                    "target": "正在准备新的缓存..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Preparing the fresh cache... Done!",
+                    "target": "正在准备新的缓存... 完成！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Converting... Done!",
+                    "target": "正在转换... 完成！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Query type",
+                    "target": "查询类型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Search range",
+                    "target": "搜索范围"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Dataview query",
+                    "target": "Dataview 查询"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter name...",
+                    "target": "输入名称..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Ex) $\\sigma$-algebra",
+                    "target": "例）$\\sigma$-代数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Type here...",
+                    "target": "在此输入..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "LIST ...",
+                    "target": "LIST ..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Manage profiles",
+                    "target": "管理配置文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Edit profile",
+                    "target": "编辑配置文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Delete profile",
+                    "target": "删除配置文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Add profile",
+                    "target": "添加配置文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Update profiles",
+                    "target": "更新配置文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Math Booster has been renamed",
+                    "target": "Math Booster 已更名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Edit this block",
+                    "target": "编辑此块"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "A tag can only contain lower-case alphabets or hyphens.",
+                    "target": "标签只能包含小写字母或连字符。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Obsidian is still indexing the vault. Try again after the cache is fully initialized.",
+                    "target": "Obsidian 仍在索引库。缓存完全初始化后再试。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert display math",
+                    "target": "插入陈列公式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open local settings for the current note",
+                    "target": "打开当前笔记的本地设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert proof",
+                    "target": "插入证明"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Convert equation numbers in the current note to static \\tag{}",
+                    "target": "将当前笔记中的公式编号转换为静态 \\tag{}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Migrate from version 1",
+                    "target": "从版本 1 迁移"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\"auto\" - automatically numbered",
+                    "target": "\"auto\" - 自动编号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "blank - unnumbered",
+                    "target": "blank - 不编号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "otherwise - used as is",
+                    "target": "otherwise - 原样使用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Mod is Cmd on MacOS and Ctrl on other OS.",
+                    "target": "MacOS 上 Mod 为 Cmd，其他系统为 Ctrl。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Meta is Cmd on MacOS and Win key on Windows.",
+                    "target": "MacOS 上 Meta 为 Cmd，Windows 上为 Win 键。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "If you want the change to apply to the entire vault, go to the plugin settings.",
+                    "target": "如果要将更改应用到整个库，请前往插件设置。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Excluded files/folders",
+                    "target": "排除的文件/文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Migration from version 1",
+                    "target": "从版本 1 迁移"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
