@@ -1,0 +1,829 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "todoseq",
+        "version": "1.0.0",
+        "title": "TODOseq",
+        "description": "TODOseq Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.11.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"\n                fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"\n                stroke-linejoin=\"round\" class=\"svg-icon lucide-info\">\n                <circle cx=\"12\" cy=\"12\" r=\"10\"></circle>\n                <path d=\"M12 16v-4\"></path>\n                <path d=\"M12 8h.01\"></path>\n            </svg>\n        ",
+                    "target": "\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"\n                fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"\n                stroke-linejoin=\"round\" class=\"svg-icon lucide-info\">\n                <circle cx=\"12\" cy=\"12\" r=\"10\"></circle>\n                <path d=\"M12 16v-4\"></path>\n                <path d=\"M12 8h.01\"></path>\n            </svg>\n        "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Show all tasks",
+                    "target": "显示所有任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Sort completed to end",
+                    "target": "将已完成排到末尾"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Hide completed",
+                    "target": "隐藏已完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Show upcoming (7 days)",
+                    "target": "显示即将到来（7天）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Sort future to end",
+                    "target": "将未来任务排到末尾"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Hide future",
+                    "target": "隐藏未来任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Default (file path)",
+                    "target": "默认（文件路径）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Scheduled date",
+                    "target": "计划日期"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Deadline date",
+                    "target": "截止日期"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "TODOseq: Failed to open search documentation:",
+                    "target": "TODOseq：无法打开搜索文档："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "TODOseq: TaskUpdateCoordinator not available",
+                    "target": "TODOseq：TaskUpdateCoordinator 不可用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "TODOseq: Failed to update task state:",
+                    "target": "TODOseq：无法更新任务状态："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to load search suggestion dropdowns:",
+                    "target": "无法加载搜索建议下拉菜单："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error creating task decorations:",
+                    "target": "创建任务装饰时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "VaultScanner scanVault error",
+                    "target": "VaultScanner scanVault 错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "VaultScanner processFileDelete error",
+                    "target": "VaultScanner processFileDelete 错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "VaultScanner processFileRename error",
+                    "target": "VaultScanner processFileRename 错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to recreate parser with keywords:",
+                    "target": "无法使用关键字重新创建解析器："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to rescan vault:",
+                    "target": "无法重新扫描仓库："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "TODOseq: PropertySearchEngine initialization failed:",
+                    "target": "TODOseq: PropertySearchEngine 初始化失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "TODOseq: Failed to check vault scan status:",
+                    "target": "TODOseq: 检查仓库扫描状态失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "TODOseq: Failed to refresh task list views:",
+                    "target": "TODOseq: 刷新任务列表视图失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "TODOseq: Failed to get task files for property cache:",
+                    "target": "TODOseq: 获取用于属性缓存的任务文件失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "TODOseq: Failed to check if file contains tasks:",
+                    "target": "TODOseq: 检查文件是否包含任务失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "TODOseq: Failed to check if file path contains tasks:",
+                    "target": "TODOseq: 检查文件路径是否包含任务失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "TODOseq: PropertySearchEngine rebuild failed:",
+                    "target": "TODOseq: PropertySearchEngine 重建失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error in EventCoordinator file change callback:",
+                    "target": "EventCoordinator 文件更改回调出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "TODOseq: VaultScanner scan error:",
+                    "target": "TODOseq: VaultScanner 扫描错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "TODOseq: Fatal background scanning error:",
+                    "target": "TODOseq: 后台扫描致命错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error updating task state:",
+                    "target": "更新任务状态时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error navigating to task:",
+                    "target": "导航到任务时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error filtering/sorting tasks:",
+                    "target": "筛选/排序任务时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error counting tasks:",
+                    "target": "统计任务数量时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error evaluating search query:",
+                    "target": "评估搜索查询时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error sorting tasks:",
+                    "target": "排序任务时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error refreshing code block:",
+                    "target": "刷新代码块时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error processing todoseq code block:",
+                    "target": "处理 todoseq 代码块时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom daily note settings found!",
+                    "target": "未找到自定义日记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom weekly note settings found!",
+                    "target": "未找到自定义周记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom monthly note settings found!",
+                    "target": "未找到自定义月度笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom quarterly note settings found!",
+                    "target": "未找到自定义季度笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom yearly note settings found!",
+                    "target": "未找到自定义年度笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "TODOseq: First install flag reset. Reload plugin to test first-install behavior.",
+                    "target": "TODOseq：首次安装标志已重置。重新加载插件以测试首次安装行为。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Add custom keywords to extend the built-in task states.",
+                    "target": "添加自定义关键字以扩展内置任务状态。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Configure how task states transition when clicked or cycled.",
+                    "target": "配置任务状态在点击或循环时如何切换。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Define how states transition. Each line: STATE -> NEXT_STATE. Use (A | B) to define multiple initial states.",
+                    "target": "定义状态如何切换。每行：STATE -> NEXT_STATE。使用 (A | B) 来定义多个初始状态。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The default state for inactive tasks when no explicit transition is defined.",
+                    "target": "未定义明确切换时，非活动任务的默认状态。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The default state for active tasks when no explicit transition is defined.",
+                    "target": "未定义明确切换时，活动任务的默认状态。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The default state for completed tasks when no explicit transition is defined.",
+                    "target": "未定义明确切换时，已完成任务的默认状态。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Select where task are detected in the vault content.",
+                    "target": "选择在库内容中检测任务的位置。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When enabled, include tasks inside quote and callout blocks (>, >[!info], >[!todo], etc.).",
+                    "target": "启用后，将包含引用和标注块中的任务（>, >[!info], >[!todo] 等）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When enabled, include tasks inside comments (%%).",
+                    "target": "启用后，将包含注释（%%）中的任务。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When enabled, tasks inside fenced code blocks (``` or ~~~) will be included.",
+                    "target": "启用后，将包含围栏代码块（``` 或 ~~~）中的任务。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When enabled, tasks inside code blocks will be detected using language-specific comment patterns e.g. `// TODO`",
+                    "target": "启用后，将使用特定语言的注释模式（如 `// TODO`）检测代码块中的任务。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set the default search and filter settings for the task list view.",
+                    "target": "设置任务列表视图的默认搜索和筛选设置。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose which day the week starts on for date filtering.",
+                    "target": "选择日期筛选时一周从哪一天开始。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Chooose how tasks with future dates are displayed in the task list.",
+                    "target": "选择任务列表中如何显示未来日期的任务。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose the default sort method for the task list.",
+                    "target": "选择任务列表的默认排序方式。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Highlight task keywords (TODO, DOING, etc.) in bold with accent color in the editor.",
+                    "target": "在编辑器中将任务关键字（TODO、DOING 等）以强调色加粗高亮。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When enabled, scans for .org files in vault and detects tasks using org-mode syntax.",
+                    "target": "启用后，将在库中扫描 .org 文件，并使用 org-mode 语法检测任务。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Task keywords",
+                    "target": "任务关键词"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Task state transitions",
+                    "target": "任务状态转换"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "State transitions",
+                    "target": "状态转换"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default inactive state",
+                    "target": "默认未激活状态"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default active state",
+                    "target": "默认激活状态"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default completed state",
+                    "target": "默认已完成状态"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Task detection",
+                    "target": "任务检测"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Include tasks inside quote and callout blocks",
+                    "target": "包含引用块和标注块内的任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Include tasks inside comments",
+                    "target": "包含注释中的任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Include tasks inside code blocks",
+                    "target": "包含代码块内的任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable language comment support",
+                    "target": "启用语言注释支持"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Task list search and filter",
+                    "target": "任务列表搜索与筛选"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Week starts on",
+                    "target": "一周起始于"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Completed tasks",
+                    "target": "已完成任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Future dated tasks",
+                    "target": "未来日期任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default sort method",
+                    "target": "默认排序方式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Format task keywords",
+                    "target": "格式化任务关键字"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Experimental Features",
+                    "target": "实验性功能"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Detect org-mode files",
+                    "target": "检测 org-mode 文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "TODO -> DOING -> DONE\n(WAIT | WAITING) -> IN-PROGRESS\nLATER -> NOW -> DONE",
+                    "target": "待办 -> 进行中 -> 已完成\n(WAIT | WAITING) -> 进行中\n稍后 -> 现在 -> 已完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Scheduled: ",
+                    "target": "计划："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Deadline: ",
+                    "target": "截止："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "0 of 0 tasks",
+                    "target": "0/0 项任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Scanning vault...",
+                    "target": "正在扫描库..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Please wait while your tasks are being indexed.",
+                    "target": "正在为您的任务建立索引，请稍候。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Loading tasks...",
+                    "target": "正在加载任务..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Please wait while your vault is being indexed.",
+                    "target": "正在为您的库建立索引，请稍候。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "All tasks are completed",
+                    "target": "所有任务已完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "You are hiding completed tasks. Switch view mode or add new tasks to see more.",
+                    "target": "您正在隐藏已完成的任务。切换视图模式或添加新任务以查看更多。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "No matching tasks",
+                    "target": "没有匹配的任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Try clearing the search or switching view modes.",
+                    "target": "请尝试清除搜索或切换视图模式。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "No tasks found",
+                    "target": "未找到任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Create tasks in your notes using \"TODO Your task\". They will appear here automatically.",
+                    "target": "在笔记中使用“TODO Your task”创建任务。它们会自动显示在这里。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to calculate task age",
+                    "target": "无法计算任务时长"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to calculate urgency for task",
+                    "target": "无法计算任务的紧急程度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Daily note detection failed:",
+                    "target": "日记检测失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to create settings fingerprint:",
+                    "target": "无法创建设置指纹："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to open task view in right sidebar, falling back to main area:",
+                    "target": "无法在右侧边栏打开任务视图，回退到主区域："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Task parser not initialized, skipping task keyword processing",
+                    "target": "任务解析器未初始化，跳过任务关键词处理"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Unable to create new file.",
+                    "target": "无法创建新文件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Read more",
+                    "target": "阅读更多"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Clear history",
+                    "target": "清除历史记录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Search tasks",
+                    "target": "搜索任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Clear search",
+                    "target": "清除搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Match case",
+                    "target": "区分大小写"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Show completed tasks",
+                    "target": "显示已完成的任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Future task sorting",
+                    "target": "未来任务排序"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Sort tasks by",
+                    "target": "任务排序依据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Collapse task list",
+                    "target": "折叠任务列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Sort to end",
+                    "target": "移到末尾"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Show upcoming",
+                    "target": "显示即将到来"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Default (file path)",
+                    "target": "默认（文件路径）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Scheduled date",
+                    "target": "计划日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Deadline date",
+                    "target": "截止日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Invalid syntax: expected at least one -> operator",
+                    "target": "语法无效：至少需要一个 -> 运算符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show task list",
+                    "target": "显示任务列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Rescan vault",
+                    "target": "重新扫描仓库"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle task state",
+                    "target": "切换任务状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Cycle task state",
+                    "target": "循环切换任务状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add scheduled date",
+                    "target": "添加计划日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add deadline date",
+                    "target": "添加截止日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Set priority high",
+                    "target": "设置高优先级"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Set priority medium",
+                    "target": "设置中优先级"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Set priority low",
+                    "target": "设置低优先级"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Search tasks…",
+                    "target": "搜索任务…"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Search options",
+                    "target": "搜索选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No suggestions found",
+                    "target": "未找到建议"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Completed tasks:",
+                    "target": "已完成任务："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Future dated tasks:",
+                    "target": "未来日期任务："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "All tasks",
+                    "target": "所有任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No tasks found",
+                    "target": "未找到任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Try adjusting your search or sort parameters",
+                    "target": "尝试调整搜索或排序参数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Error rendering task list",
+                    "target": "渲染任务列表时出错"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Check your search and sort parameters for syntax errors.",
+                    "target": "请检查搜索和排序参数是否有语法错误。"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
