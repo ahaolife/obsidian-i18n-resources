@@ -1,0 +1,403 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "disciples-journal",
+        "version": "1.0.0",
+        "title": "Disciples Journal",
+        "description": "Disciples Journal Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.8.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Larger (120%)",
+                    "target": "更大（120%）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Large (110%)",
+                    "target": "大（110%）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Normal (100%)",
+                    "target": "正常（100%）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Small (90%)",
+                    "target": "小（90%）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Smaller (80%)",
+                    "target": "更小（80%）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "English Standard Version (ESV)",
+                    "target": "英文标准译本（ESV）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "ESV API token not set. Cannot download content.",
+                    "target": "未设置 ESV API 令牌。无法下载内容。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "To display Bible passages, you need to set up an ESV API token in the plugin settings.",
+                    "target": "要显示圣经经文，你需要在插件设置中配置 ESV API 令牌。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error downloading from ESV API:",
+                    "target": "从 ESV API 下载时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "An error occurred when trying to access the ESV API. Please check your internet connection and API token.",
+                    "target": "访问 ESV API 时发生错误。请检查你的网络连接和 API 令牌。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error saving ESV API response:",
+                    "target": "保存 ESV API 响应时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error navigating to chapter:",
+                    "target": "跳转到章节时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error showing Bible reference preview:",
+                    "target": "显示圣经引用预览时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error opening chapter note from popup:",
+                    "target": "从弹出窗口打开章节笔记时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error extracting verse content from HTML:",
+                    "target": "从 HTML 提取经文内容时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error opening chapter note:",
+                    "target": "打开章节笔记时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error creating chapter note:",
+                    "target": "创建章节笔记时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error processing Bible code block:",
+                    "target": "处理圣经代码块时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error processing inline Bible references:",
+                    "target": "处理内联圣经引用时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "skipping live preview",
+                    "target": "跳过实时预览"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Loading Disciples Journal plugin",
+                    "target": "正在加载门徒日志插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Clear Bible Data",
+                    "target": "清除圣经数据"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable rendering of inline Bible references (in `code blocks`).",
+                    "target": "启用内联圣经引用的渲染（在 `code blocks` 中）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable rendering of full Bible passages (in ```bible code blocks).",
+                    "target": "启用完整圣经段落的渲染（在 ```bible 代码块中）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show chapter navigation when displaying specific verses (by default, navigation only shows for full chapters).",
+                    "target": "显示特定经节时显示章节导航（默认仅在完整章节时显示导航）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose a predefined style preset for Bible content.",
+                    "target": "为圣经内容选择预定义样式预设。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set the font size for Bible verses and passages.",
+                    "target": "设置圣经经节和段落的字体大小。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set the color for Words of Christ (use `var(--text-normal)` for no special color).",
+                    "target": "设置基督话语的颜色（无特殊颜色请使用 `var(--text-normal)`）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set the color for verse numbers.",
+                    "target": "设置经节编号的颜色。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set the color for Bible passage headings.",
+                    "target": "设置圣经段落标题的颜色。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set the indentation for block sections.",
+                    "target": "设置块级段落的缩进。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Select your preferred Bible version (only ESV currently supported).",
+                    "target": "选择你偏好的圣经版本（目前仅支持 ESV）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Root path in your vault where Bible content will be stored. Each translation will be stored in a subdirectory.",
+                    "target": "在你的库中用于存储圣经内容的根路径。每个译本将存放在子目录中。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enter your ESV API token from api.esv.org.",
+                    "target": "输入你从 api.esv.org 获取的 ESV API 令牌。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable automatic downloading of Bible content when requested.",
+                    "target": "在请求时启用圣经内容的自动下载。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Display Customization",
+                    "target": "显示自定义"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Display Inline Verses",
+                    "target": "显示行内经文"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Display Full Passages",
+                    "target": "显示完整经文段落"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show Navigation for Verses",
+                    "target": "显示经文导航"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Style Preset",
+                    "target": "样式预设"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Bible Text Font Size",
+                    "target": "圣经文本字体大小"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Text Styling",
+                    "target": "文本样式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Words of Christ Color",
+                    "target": "基督之语颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Verse Number Color",
+                    "target": "经文编号颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Heading Color",
+                    "target": "标题颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Block Indentation",
+                    "target": "区块缩进"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Preferred Bible Version",
+                    "target": "首选圣经版本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Bible Content Vault Path",
+                    "target": "圣经内容库路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "ESV API",
+                    "target": "ESV API"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "ESV API Token",
+                    "target": "ESV API 令牌"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter your ESV API token",
+                    "target": "请输入你的 ESV API 令牌"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Loading chapter...",
+                    "target": "正在加载章节..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Invalid book selected.",
+                    "target": "所选书卷无效。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "ESV API token updated",
+                    "target": "ESV API 令牌已更新"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No text content found for Bible reference",
+                    "target": "未找到该圣经引用的文本内容"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Disciples Journal: ESV API token not set. Bible content may not load correctly. Visit the plugin settings to add your API token.",
+                    "target": "Disciples Journal：未设置 ESV API 令牌。圣经内容可能无法正确加载。请访问插件设置添加你的 API 令牌。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Clear input",
+                    "target": "清除输入"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Search book...",
+                    "target": "搜索书卷..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "◄ Previous",
+                    "target": "◄ 上一页"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Next ►",
+                    "target": "下一页 ►"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "The ESV API allows this plugin to download and display Bible passages from the ESV translation.",
+                    "target": "ESV API 允许此插件下载并显示 ESV 译本的经文。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "To get a free ESV API token:",
+                    "target": "获取免费的 ESV API 令牌："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Visit ",
+                    "target": "访问 "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "With a valid token, the plugin can download and display Bible passages directly in your notes.",
+                    "target": "有了有效的令牌，插件可以直接在你的笔记中下载并显示经文。"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
