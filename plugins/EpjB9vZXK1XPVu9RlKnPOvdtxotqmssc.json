@@ -1,0 +1,37 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "blur",
+        "version": "1.0.0",
+        "title": "Blur",
+        "description": "Blur Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "%c Blur plugin loaded",
+                    "target": "%c 模糊插件已加载"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "color:lime;",
+                    "target": "color:lime;"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "%c Blur plugin unloaded",
+                    "target": "%c 模糊插件已卸载"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
