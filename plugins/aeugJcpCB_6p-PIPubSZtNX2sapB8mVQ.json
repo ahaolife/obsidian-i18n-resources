@@ -1,0 +1,223 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "daily-routine",
+        "version": "1.0.0",
+        "title": "Daily Routine",
+        "description": "Daily Routine Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.8",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "forceFrameRate takes a positive int between 0 and 125, forcing frame rates higher than 125 fps is not supported",
+                    "target": "forceFrameRate 需要 0 到 125 之间的正整数，不支持强制设置高于 125 fps 的帧率"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "This is the path to the folder where the Daily Routine Plugin saves notes, routines, and other data.",
+                    "target": "这是 Daily Routine 插件保存笔记、例程和其他数据的文件夹路径。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set the start of the week on the top of note view.",
+                    "target": "在笔记视图顶部设置一周的起始日。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When you uncheck a task, a confirmation dialog will appear.",
+                    "target": "取消勾选任务时，将出现确认对话框。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Daily routine folder path",
+                    "target": "日常例程文件夹路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Start of week",
+                    "target": "一周开始日"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Do confirmation when unchecking task",
+                    "target": "取消勾选任务时确认"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Check task as failed",
+                    "target": "将任务标记为失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Reschedule todo to tomorrow",
+                    "target": "将待办重新安排到明天"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Start new routine",
+                    "target": "开始新例程"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Add todo",
+                    "target": "添加待办"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Add group",
+                    "target": "添加分组"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Merge notes",
+                    "target": "合并笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Deprecation notice: You are using a pipeline which doesn't include backends' 'id'.\n        This might be unsupported in the future, please specify 'id' explicitely for every backend.",
+                    "target": "弃用通知：您正在使用不包含后端“id”的管道。\n        未来可能不再支持，请为每个后端明确指定“id”。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "All Notes Merged!",
+                    "target": "所有笔记已合并！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Are you sure you want to uncheck this task?",
+                    "target": "确定要取消勾选此任务吗？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "header",
+                    "source": "Start new Routine",
+                    "target": "开始新例行任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "header",
+                    "source": "Routine option",
+                    "target": "例行任务选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "header",
+                    "source": "Add new todo",
+                    "target": "添加新待办"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "header",
+                    "source": "Todo option",
+                    "target": "待办选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "header",
+                    "source": "Group option",
+                    "target": "分组选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "header",
+                    "source": "Create group",
+                    "target": "创建分组"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show on calendar",
+                    "target": "在日历中显示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open routine view",
+                    "target": "打开例行视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "New routine",
+                    "target": "新建例行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "New todo",
+                    "target": "新建待办"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "New Group",
+                    "target": "新建分组"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Delete all tasks in this group",
+                    "target": "删除此组中的所有任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Create routine note",
+                    "target": "创建例行笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "UnCheck Task",
+                    "target": "取消勾选任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Delete routine",
+                    "target": "删除日常"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Reschedule todo",
+                    "target": "重新安排待办"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Delete todo",
+                    "target": "删除待办"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Delete group",
+                    "target": "删除组"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
