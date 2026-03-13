@@ -1,0 +1,18 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "x86-flow-graphing",
+        "version": "1.0.0",
+        "title": "x86 Assembly Flow Graphing",
+        "description": "x86 Assembly Flow Graphing Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [],
+            "regex": []
+        }
+    }
+}
