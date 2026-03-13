@@ -1,0 +1,247 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "mindmap",
+        "version": "1.0.0",
+        "title": "Mindmap",
+        "description": "Mindmap Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.3.3",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unable to access cssRules property",
+                    "target": "无法访问 cssRules 属性"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Cannot detach cloned iframe as it is not in the DOM anymore",
+                    "target": "无法分离克隆的 iframe，因为它已不在 DOM 中"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Unable to inline canvas contents, canvas is tainted",
+                    "target": "无法内联 canvas 内容，canvas 已被污染"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Unable to clone canvas as it is tainted",
+                    "target": "无法克隆 canvas，因为它已被污染"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Unable to clone video as it is tainted",
+                    "target": "无法克隆 video，因为它已被污染"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Unable to restore scroll position for cloned document",
+                    "target": "无法为克隆的文档恢复滚动位置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Unable to clone WebGL context as it has preserveDrawingBuffer=false",
+                    "target": "无法克隆 WebGL 上下文，因为它的 preserveDrawingBuffer=false"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "accessing an object - but returnObjects options is not enabled!",
+                    "target": "正在访问对象 - 但未启用 returnObjects 选项！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "This means something IS WRONG in your setup. You access the t function before i18next.init / i18next.loadNamespace / i18next.changeLanguage was done. Wait for the callback or Promise to resolve before accessing it!!!",
+                    "target": "这表示你的设置有问题。你在 i18next.init / i18next.loadNamespace / i18next.changeLanguage 完成之前就访问了 t 函数。请等待回调或 Promise 解析后再访问！！！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "No backend was added via i18next.use. Will not load resources.",
+                    "target": "未通过 i18next.use 添加后端。将不会加载资源。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "init: no languageDetector is used and no lng is defined",
+                    "target": "init: 未使用 languageDetector 且未定义 lng"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "init: i18next is already initialized. You should call init just once!",
+                    "target": "init: i18next 已经初始化。你应该只调用一次 init！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "hasLoadedNamespace: i18next was not initialized",
+                    "target": "hasLoadedNamespace: i18next 未初始化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Vdr warn]: Invalid prop: minWidth cannot be greater than maxWidth",
+                    "target": "[Vdr warn]: 无效的 prop：minWidth 不能大于 maxWidth"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Vdr warn]: Invalid prop: minHeight cannot be greater than maxHeight",
+                    "target": "[Vdr warn]: 无效的 prop：minHeight 不能大于 maxHeight"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "如何学习D3",
+                    "target": "如何学习D3"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "预备知识",
+                    "target": "预备知识"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "HTML & CSS",
+                    "target": "HTML & CSS"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "test\ntest",
+                    "target": "测试\n测试"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "安装",
+                    "target": "安装"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "折叠节点",
+                    "target": "折叠节点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "入门",
+                    "target": "入门"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "选择集",
+                    "target": "选择集"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "绑定数据",
+                    "target": "绑定数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "添加删除元素",
+                    "target": "添加删除元素"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "简单图形",
+                    "target": "简单图形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "柱形图",
+                    "target": "柱形图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "折线图",
+                    "target": "折线图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "散点图",
+                    "target": "散点图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "比例尺",
+                    "target": "比例尺"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "生成器",
+                    "target": "生成器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "过渡",
+                    "target": "过渡"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "进阶",
+                    "target": "进阶"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "一级节点",
+                    "target": "一级节点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "子节点1",
+                    "target": "子节点1"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "子节点2",
+                    "target": "子节点2"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "子节点3",
+                    "target": "子节点3"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "HTML Color Names",
+                    "target": "HTML 颜色名称"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
