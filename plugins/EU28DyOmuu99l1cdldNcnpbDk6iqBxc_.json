@@ -1,0 +1,139 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "enhanced-canvas",
+        "version": "1.0.0",
+        "title": "Enhanced Canvas",
+        "description": "Enhanced Canvas Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.21",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Canvas JSON Parse Error:",
+                    "target": "Canvas JSON 解析错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Canvas Modify Error:",
+                    "target": "Canvas 修改错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to show release notes:",
+                    "target": "显示发行说明失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Got it",
+                    "target": "知道了"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When enabled, canvas nodes and edges are mapped to file metadata (properties). ",
+                    "target": "启用后，画布节点和边将映射到文件元数据（属性）。 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable Frontmatter Synchronization",
+                    "target": "启用 Frontmatter 同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable Custom Visuals & CSS",
+                    "target": "启用自定义视觉效果与 CSS"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Select a Canvas file...",
+                    "target": "选择一个 Canvas 文件..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Split by Headings",
+                    "target": "按标题拆分"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No headings found to split.",
+                    "target": "未找到可拆分的标题。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please open a Markdown file to send to the Canvas.",
+                    "target": "请打开一个 Markdown 文件以发送到 Canvas。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to send. No Canvas file selected yet.",
+                    "target": "发送失败。尚未选择 Canvas 文件。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No Canvas files found in vault.",
+                    "target": "在库中未找到 Canvas 文件。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No Canvas file is currently selected.",
+                    "target": "当前未选择 Canvas 文件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Adjust edges with shortest path",
+                    "target": "用最短路径调整边"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Delete edges between selected nodes",
+                    "target": "删除选中节点之间的边"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add edges according the links in notes",
+                    "target": "根据笔记中的链接添加边"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Send to Canvas",
+                    "target": "发送到 Canvas"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Send to Selected Canvas",
+                    "target": "发送到选定的 Canvas"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Clear selected Canvas file",
+                    "target": "清除选定的 Canvas 文件"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
