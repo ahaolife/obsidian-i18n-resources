@@ -1,0 +1,739 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "google-calendar",
+        "version": "1.0.0",
+        "title": "Google Calendar",
+        "description": "Google Calendar Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.10.16",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-pen-line svelte-1oo9xzi\"><path d=\"M12 20h9\"></path><path d=\"M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z\"></path></svg>",
+                    "target": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-pen-line svelte-1oo9xzi\"><path d=\"M12 20h9\"></path><path d=\"M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z\"></path></svg>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-book-open svelte-1oo9xzi\"><path d=\"M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z\"></path><path d=\"M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z\"></path></svg>",
+                    "target": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-book-open svelte-1oo9xzi\"><path d=\"M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z\"></path><path d=\"M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z\"></path></svg>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Start Date",
+                    "target": "开始日期"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "End Date",
+                    "target": "结束日期"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Show Single Event",
+                    "target": "显示单次事件"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Show Recurring Event",
+                    "target": "显示重复事件"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Create Event Note",
+                    "target": "创建事件备注"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Open Event Note",
+                    "target": "打开事件备注"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Update All",
+                    "target": "全部更新"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Delete All",
+                    "target": "全部删除"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Full Day",
+                    "target": "全天"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Show me as Busy?",
+                    "target": "将我显示为忙碌？"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Copy to Codeblock",
+                    "target": "复制到代码块"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "📋",
+                    "target": "📋"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Show All Day",
+                    "target": "显示全天"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Hour Range",
+                    "target": "小时范围"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Default view",
+                    "target": "默认视图"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Open Login",
+                    "target": "打开登录"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "No events",
+                    "target": "无事件"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Table structure",
+                    "target": "表结构"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Insert Options",
+                    "target": "插入选项"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Insert type",
+                    "target": "插入类型"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Insert date",
+                    "target": "插入日期"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Select a calendar",
+                    "target": "选择日历"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Select Option to add",
+                    "target": "选择要添加的选项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "Calendar Blacklist",
+                    "target": "日历黑名单"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Google Calendar]",
+                    "target": "[Google Calendar]"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "MultiSelect received no options",
+                    "target": "MultiSelect 未收到任何选项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "'values' prop should be an Array (https://github.com/simeydotme/svelte-range-slider-pips#slider-props)",
+                    "target": "'values' 属性应为数组 (https://github.com/simeydotme/svelte-range-slider-pips#slider-props)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom daily note settings found!",
+                    "target": "未找到自定义每日笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom weekly note settings found!",
+                    "target": "未找到自定义每周笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom monthly note settings found!",
+                    "target": "未找到自定义每月笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom quarterly note settings found!",
+                    "target": "未找到自定义每季度笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom yearly note settings found!",
+                    "target": "未找到自定义每年笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[Google Calendar]",
+                    "target": "[Google Calendar]"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Create Note",
+                    "target": "创建笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Google client id",
+                    "target": "Google 客户端 ID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Google client secret",
+                    "target": "Google 客户端密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The url to the server where the oauth takes place",
+                    "target": "进行 OAuth 的服务器 URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Time in seconds between refresh request from google server",
+                    "target": "从 Google 服务器刷新请求的时间间隔（秒）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Will send notification when an event starts",
+                    "target": "事件开始时将发送通知"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Will display daily notes and allow to open and create daily notes",
+                    "target": "将显示日记，并允许打开和创建日记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Will show week numbers with weekly note dots",
+                    "target": "将显示周数并带有周记圆点"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Color for daily note dots in month view",
+                    "target": "月视图中日记圆点的颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Will help you to easily link events from you calendar in your notes",
+                    "target": "将帮助你在笔记中轻松链接日历中的事件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Switch between english and german",
+                    "target": "在英语和德语之间切换"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Will create new notes from a event if the description contains :obsidian:",
+                    "target": "如果描述中包含 :obsidian:，将从事件创建新笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When creating a new note should it stay open for direct editing",
+                    "target": "创建新笔记时是否保持打开以便直接编辑"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Days in the past from events to import",
+                    "target": "要导入的过去事件天数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Days in the future from events to import",
+                    "target": "要导入的未来事件天数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Optional prefix for event notes to improve performance",
+                    "target": "事件笔记的可选前缀以提升性能"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Define how the event note name should look like",
+                    "target": "定义事件笔记名称的显示方式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable if something is not working",
+                    "target": "如有功能无法正常工作请启用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If active creating notes will be faster but less flexible",
+                    "target": "启用后创建笔记更快但灵活性更低"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Folder to save notes to after creation",
+                    "target": "创建后保存笔记的文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "A list of strings/regex pattern, if contained in the event summary or description, the event will not be used by the plugin",
+                    "target": "字符串/正则表达式列表；若包含在事件摘要或描述中，插件将忽略该事件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use own authentication client",
+                    "target": "使用自有认证客户端"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Server url",
+                    "target": "服务器 URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Login with google",
+                    "target": "使用 Google 登录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Refresh Interval",
+                    "target": "刷新间隔"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use event Notification",
+                    "target": "使用事件通知"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show daily notes",
+                    "target": "显示每日笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use Weekly Notes",
+                    "target": "使用每周笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Daily dot color",
+                    "target": "每日圆点颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable @ Annotations",
+                    "target": "启用 @ 注释"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "@ Annotation language",
+                    "target": "@ 注释语言"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Auto create Event Notes",
+                    "target": "自动创建事件笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Auto create Event Notes Marker",
+                    "target": "自动创建事件笔记标记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Keep auto created Notes open",
+                    "target": "保持自动创建的笔记打开"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Import Start Offset",
+                    "target": "导入起始偏移量"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Import End Offset",
+                    "target": "导入结束偏移量"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Event Note Prefix",
+                    "target": "事件笔记前缀"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Event Note Name Format",
+                    "target": "事件笔记名称格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Debug Mode",
+                    "target": "调试模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use defaults for note creation",
+                    "target": "使用默认值创建笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default Folder",
+                    "target": "默认文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Pattern ignore list",
+                    "target": "模式忽略列表"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default Calendar",
+                    "target": "默认日历"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter your client id",
+                    "target": "请输入你的客户端 ID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter your client secret",
+                    "target": "请输入你的客户端密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Example: folder1/folder2",
+                    "target": "示例：folder1/folder2"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Select a calendar to view it",
+                    "target": "选择一个日历以查看"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Select an event to insert",
+                    "target": "选择一个事件以插入"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Open Timeline View",
+                    "target": "打开时间轴视图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Open Schedule View",
+                    "target": "打开日程视图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Open Weekly View",
+                    "target": "打开周视图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Don't combine parseLabelsAsHtml and allowUserOptions. It's susceptible to XSS attacks!",
+                    "target": "不要将 parseLabelsAsHtml 和 allowUserOptions 组合使用。它容易受到 XSS 攻击！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "MultiSelect's sortSelected and selectedOptionsDraggable should not be combined as any user re-orderings of selected options will be undone by sortSelected on component re-renders.",
+                    "target": "MultiSelect 的 sortSelected 和 selectedOptionsDraggable 不应组合使用，因为用户对已选选项的任何重新排序都会在组件重新渲染时被 sortSelected 撤销。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Unable to create new file.",
+                    "target": "无法创建新文件。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Login successful!",
+                    "target": "登录成功！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Can't use this OAuth method on this device",
+                    "target": "此设备无法使用该 OAuth 方法"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Missing Auth Token",
+                    "target": "缺少身份验证令牌"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Unknown Error",
+                    "target": "未知错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Not logged in",
+                    "target": "未登录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "No calendar set",
+                    "target": "未设置日历"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open gCal Timeline View",
+                    "target": "打开 gCal 时间轴视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open gCal week view",
+                    "target": "打开 gCal 周视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open gCal month view",
+                    "target": "打开 gCal 月视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open gCal year view",
+                    "target": "打开 gCal 年视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open gCal Web View",
+                    "target": "打开 gCal 网页视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open gCal Schedule View",
+                    "target": "打开 gCal 日程视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Create gCal Event inside Popup",
+                    "target": "在弹出窗口中创建 gCal 事件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Create gCal Event inside View",
+                    "target": "在视图中创建 gCal 事件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "List Google Calendars",
+                    "target": "列出 Google 日历"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "List gCal Events",
+                    "target": "列出 gCal 事件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "gCal Trigger Auto Import",
+                    "target": "gCal 触发自动导入"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Create Event Note",
+                    "target": "创建事件笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Create Event Note for Current gCal Event",
+                    "target": "为当前 gCal 事件创建事件笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert gCal Event CodeBlock",
+                    "target": "插入 gCal 事件代码块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert gCal Events",
+                    "target": "插入 gCal 事件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Create gCal Event from Frontmatter",
+                    "target": "从 Frontmatter 创建 gCal 事件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Update gCal Event from Frontmatter",
+                    "target": "从 Frontmatter 更新 gCal 事件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Delete gCal Event from Frontmatter",
+                    "target": "从 Frontmatter 删除 gCal 事件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open gCal Event from Frontmatter",
+                    "target": "从 Frontmatter 打开 gCal 事件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Google Calendar Alert",
+                    "target": "Google 日历提醒"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "The public client is full and will not work. Please activate `Use own authentication client` again. Press the link below to find out how to create a own client.",
+                    "target": "公共客户端已满，无法使用。请再次启用 `Use own authentication client`。点击下方链接了解如何创建自己的客户端。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Settings for Google Calendar",
+                    "target": "Google 日历设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Please restart Obsidian to let changes take effect",
+                    "target": "请重启 Obsidian 以使更改生效"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Previous Month",
+                    "target": "上个月"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Next Month",
+                    "target": "下个月"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
