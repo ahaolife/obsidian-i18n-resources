@@ -1,0 +1,169 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "simple-anki-sync",
+        "version": "1.0.0",
+        "title": "Simple Anki Sync",
+        "description": "Simple Anki Sync Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.5.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "AnkiConnect Error:",
+                    "target": "AnkiConnect 错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to parse AnkiConnect response:",
+                    "target": "解析 AnkiConnect 响应失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "verifyConnection error:",
+                    "target": "verifyConnection 错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Simple Anki Sync: Failed to generate PNG from Excalidraw file",
+                    "target": "Simple Anki Sync：从 Excalidraw 文件生成 PNG 失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Loading Simple Anki Sync Plugin",
+                    "target": "正在加载 Simple Anki Sync 插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Unloading Simple Anki Sync Plugin",
+                    "target": "正在卸载 Simple Anki Sync 插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Allow collapsing/expanding single-column Anki tables in preview and source view.",
+                    "target": "允许在预览和源码视图中折叠/展开单列表格。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When enabled, newly rendered single-column Anki tables start collapsed.",
+                    "target": "启用后，新渲染的单列表格默认折叠。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable answer table toggles",
+                    "target": "启用答案表格切换"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Collapse tables by default",
+                    "target": "默认折叠表格"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "AnkiConnect connection failed. Is Anki open with AnkiConnect installed?",
+                    "target": "AnkiConnect 连接失败。Anki 是否已打开并安装 AnkiConnect？"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to retrieve deck list from Anki.",
+                    "target": "无法从 Anki 获取牌组列表。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "AnkiConnect did not return a valid note ID.",
+                    "target": "AnkiConnect 未返回有效的笔记 ID。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to fetch note info from Anki.",
+                    "target": "无法从 Anki 获取笔记信息。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Could not find managed notes in Anki.",
+                    "target": "在 Anki 中找不到受管理的笔记。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Answer table toggles are disabled in settings.",
+                    "target": "设置中已禁用答案表切换。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "AnkiConnect is not available. Please make sure Anki is running and AnkiConnect is installed.",
+                    "target": "AnkiConnect 不可用。请确保 Anki 正在运行并已安装 AnkiConnect。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Starting vault sync. This may take a while...",
+                    "target": "正在开始同步库。这可能需要一段时间..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Vault sync complete.",
+                    "target": "库同步完成。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sync current file with Anki",
+                    "target": "将当前文件与 Anki 同步"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sync entire vault with Anki",
+                    "target": "与 Anki 同步整个库"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Unsync current file with Anki",
+                    "target": "与 Anki 取消同步当前文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Collapse all Anki card tables on page",
+                    "target": "折叠页面上所有 Anki 卡片表格"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Expand all Anki card tables on page",
+                    "target": "展开页面上所有 Anki 卡片表格"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Simple Anki Sync",
+                    "target": "简易 Anki 同步"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
