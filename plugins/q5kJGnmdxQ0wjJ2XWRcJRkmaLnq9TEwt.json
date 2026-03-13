@@ -1,0 +1,181 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "repeat-plugin",
+        "version": "1.0.0",
+        "title": "Repeat",
+        "description": "Repeat Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.0.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Repeat Plugin: Could not parse datetime from picker.",
+                    "target": "Repeat 插件：无法从选择器解析日期时间。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Set Up Repetition",
+                    "target": "设置重复"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Blur contents until clicked",
+                    "target": "点击前模糊内容"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Whether to display how many notes are due in Obsidian's status bar.",
+                    "target": "是否在 Obsidian 的状态栏中显示到期笔记数量。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Whether to display the ribbon icon that opens the Repeat pane.",
+                    "target": "是否显示用于打开 Repeat 面板的功能区图标。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When morning and long-term notes become due in the morning.",
+                    "target": "早晨与长期笔记在上午到期的时间。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When evening notes become due in the afternoon.",
+                    "target": "晚间笔记在下午到期的时间。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Used to populate \"Repeat this note...\" command's modal. Ignored if the supplied value is not parsable.",
+                    "target": "用于填充“Repeat this note...”命令的对话框。如果提供的值不可解析则忽略。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Add notes without a repeat field to the end of the queue. Useful to quickly make new notes repeating during reviews.",
+                    "target": "将没有重复字段的笔记添加到队列末尾。用于在复习期间快速创建新的重复笔记。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Repeat type",
+                    "target": "重复类型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Repeat in",
+                    "target": "重复于"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Next repeat",
+                    "target": "下次重复"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show due count in status bar",
+                    "target": "在状态栏显示到期计数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show ribbon icon",
+                    "target": "显示侧边栏图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Ignore folder path",
+                    "target": "忽略文件夹路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Morning review time",
+                    "target": "早晨复习时间"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Evening review time",
+                    "target": "晚上复习时间"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default `repeat` property",
+                    "target": "默认 `repeat` 属性"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enqueue non-repeating notes",
+                    "target": "将非重复笔记加入队列"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Repeat this note...",
+                    "target": "重复此笔记..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Review due notes",
+                    "target": "查看到期笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Never repeat this note",
+                    "target": "不再重复此笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Filter: #tag or Dataview expression...",
+                    "target": "筛选：#标签或 Dataview 表达式..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Load saved filter...",
+                    "target": "加载已保存的筛选器..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Select days",
+                    "target": "选择天数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Choose on which days of the week to repeat",
+                    "target": "选择每周在哪些天重复"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Repeat Plugin Settings",
+                    "target": "重复插件设置"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
