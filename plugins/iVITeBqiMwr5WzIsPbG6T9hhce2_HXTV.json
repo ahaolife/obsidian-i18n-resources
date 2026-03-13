@@ -1,0 +1,391 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-raindrop-highlights",
+        "version": "1.0.0",
+        "title": "Raindrop Highlights",
+        "description": "Raindrop Highlights Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.0.24",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "NOTICE: Search syntax follows the <a href='https://help.raindrop.io/using-search#operators'>Raindrop.io documents</a>.",
+                    "target": "注意：搜索语法遵循 <a href='https://help.raindrop.io/using-search#operators'>Raindrop.io 文档</a>。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerText",
+                    "source": "Raindrop.io: Manage collections to be synced",
+                    "target": "Raindrop.io：管理要同步的集合"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerText",
+                    "source": "Enter Raindrop.io API token",
+                    "target": "输入 Raindrop.io API 令牌"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerText",
+                    "source": "Raindrop Highlight - Breaking Changes",
+                    "target": "Raindrop Highlight - 重大变更"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unknown error",
+                    "target": "未知错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error unmounting modal content",
+                    "target": "卸载模态内容时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error during bookmark deletion sync:",
+                    "target": "书签删除同步期间出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Raindrop Highlights: failed to sync collections metadata",
+                    "target": "Raindrop Highlights：同步集合元数据失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Raindrop API request failed:",
+                    "target": "Raindrop API 请求失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to parse raindrops page:",
+                    "target": "解析 raindrops 页面失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Set raindrop.io autosync interval",
+                    "target": "设置 raindrop.io 自动同步间隔"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Raindrop.io auto sync disabled!",
+                    "target": "Raindrop.io 自动同步已禁用！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Clearing auto sync...",
+                    "target": "正在清除自动同步..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Test API",
+                    "target": "测试 API"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Loading collections...",
+                    "target": "正在加载集合..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If enabled, existing files will not be moved during sync.",
+                    "target": "启用后，同步期间现有文件不会被移动。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Organize highlights into folders based on their collections",
+                    "target": "根据其集合将高亮整理到文件夹中"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Vault folder to store highlights",
+                    "target": "用于存储高亮的 Vault 文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Manage collections to be synced",
+                    "target": "管理要同步的集合"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "This is useful if you want to resync all bookmarks.",
+                    "target": "如果你想重新同步所有书签，这很有用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Sync every X minutes. To disable auto sync, specify negative value or zero (default)",
+                    "target": "每 X 分钟同步一次。要禁用自动同步，请指定负值或零（默认）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable ribbon icon in the sidebar (need reload)",
+                    "target": "在侧边栏启用功能区图标（需要重载）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Append Mode",
+                    "target": "追加模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Only sync bookmarks with highlights",
+                    "target": "仅同步包含高亮的书签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Folder location: Prevent moving existing files on sync",
+                    "target": "文件夹位置：同步时防止移动现有文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use Trash to delete synced files",
+                    "target": "使用回收站删除同步的文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Folder location: Collections folders",
+                    "target": "文件夹位置：集合文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Connect to Raindrop.io",
+                    "target": "连接到 Raindrop.io"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Folder location",
+                    "target": "文件夹位置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Folder location: Collection groups",
+                    "target": "文件夹位置：集合分组"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Reset last sync time for all collections",
+                    "target": "重置所有集合的上次同步时间"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Auto sync in interval (minutes)",
+                    "target": "按间隔自动同步（分钟）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show notifications while syncing",
+                    "target": "同步时显示通知"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable autoescaping for nunjucks",
+                    "target": "为 nunjucks 启用自动转义"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "%c[svelte] lifecycle_double_unmount\n%cTried to unmount a component that was not mounted\nhttps://svelte.dev/e/lifecycle_double_unmount",
+                    "target": "%c[svelte] lifecycle_double_unmount\n%c尝试卸载一个未挂载的组件\nhttps://svelte.dev/e/lifecycle_double_unmount"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "%c[svelte] state_proxy_unmount\n%cTried to unmount a state proxy, rather than a component\nhttps://svelte.dev/e/state_proxy_unmount",
+                    "target": "%c[svelte] state_proxy_unmount\n%c尝试卸载一个状态代理，而不是组件\nhttps://svelte.dev/e/state_proxy_unmount"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "%c[svelte] svelte_boundary_reset_noop\n%cA `<svelte:boundary>` `reset` function only resets the boundary the first time it is called\nhttps://svelte.dev/e/svelte_boundary_reset_noop",
+                    "target": "%c[svelte] svelte_boundary_reset_noop\n%c`<svelte:boundary>` 的 `reset` 函数仅在首次调用时重置边界\nhttps://svelte.dev/e/svelte_boundary_reset_noop"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to hydrate: ",
+                    "target": "水合失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Too many requests, will retry sync after 1 minute",
+                    "target": "请求过多，将在 1 分钟后重试同步"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Raindrop Highlights: Sync failed, see console for details.",
+                    "target": "Raindrop Highlights：同步失败，详情请查看控制台。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Raindrop Highlights: Sync completed",
+                    "target": "Raindrop Highlights：同步完成"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Raindrop Highlights: failed to sync collections metadata, see console for details.",
+                    "target": "Raindrop Highlights：同步集合元数据失败，详情请查看控制台。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "This is not a Raindrop bookmark file",
+                    "target": "这不是 Raindrop 书签文件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No active file",
+                    "target": "没有活动文件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Token saved",
+                    "target": "Token 已保存"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Sync history reset successfully",
+                    "target": "同步历史已成功重置"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Too many requests, will retry sync after 1 minute",
+                    "target": "请求过多，将在 1 分钟后重试同步"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Raindrop Highlight: Settings are corrupted. Resetting to default.",
+                    "target": "Raindrop Highlight：设置已损坏。正在重置为默认值。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please configure Raindrop API token in the plugin setting",
+                    "target": "请在插件设置中配置 Raindrop API token"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No collections are being synced.",
+                    "target": "没有集合正在同步。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Loading collections...",
+                    "target": "正在加载收藏集..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Anno Domini",
+                    "target": "公元"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Before Christ",
+                    "target": "公元前"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sync bookmarks from last sync time",
+                    "target": "从上次同步时间同步书签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sync all bookmarks (full sync)",
+                    "target": "同步所有书签（完全同步）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sync this bookmark",
+                    "target": "同步此书签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show last sync time",
+                    "target": "显示上次同步时间"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open link in Raindrop",
+                    "target": "在 Raindrop 中打开链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Manage collections to be synced",
+                    "target": "管理要同步的收藏集"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Auto sync all collections",
+                    "target": "自动同步所有收藏集"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Auto sync new nested collections",
+                    "target": "自动同步新的嵌套集合"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "All bookmarks",
+                    "target": "所有书签"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
