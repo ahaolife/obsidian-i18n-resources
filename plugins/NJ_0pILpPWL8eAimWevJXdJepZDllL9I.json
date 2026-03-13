@@ -1,0 +1,121 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "actions-uri",
+        "version": "1.0.0",
+        "title": "Actions URI",
+        "description": "Actions URI Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.8.4",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Actions URI]",
+                    "target": "[操作 URI]"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom daily note settings found!",
+                    "target": "未找到自定义的每日笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom weekly note settings found!",
+                    "target": "未找到自定义的每周笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom monthly note settings found!",
+                    "target": "未找到自定义的每月笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom quarterly note settings found!",
+                    "target": "未找到自定义的每季度笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom yearly note settings found!",
+                    "target": "未找到自定义的每年笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[Actions URI]",
+                    "target": "[操作 URI]"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "\n        Actions URI is able to find notes by their UID.\n        This unique identifier is stored in the note's frontmatter.\n        The plugin needs to know under which frontmatter key it can find the UID. (Default: \"uid\".)\n      ",
+                    "target": "\n        操作 URI 可以通过 UID 查找笔记。\n        这个唯一标识符存储在笔记的 frontmatter 中。\n        插件需要知道在哪个 frontmatter 键下可以找到 UID。（默认：“uid”。）\n      "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "UID frontmatter key",
+                    "target": "UID frontmatter 键"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Unable to create new file.",
+                    "target": "无法创建新文件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Input must be a JSON-encoded string array.",
+                    "target": "输入必须是 JSON 编码的字符串数组。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Input must be a JSON-encoded object containing only values of type string, string array, number, boolean or null.",
+                    "target": "输入必须是 JSON 编码的对象，仅包含类型为字符串、字符串数组、数字、布尔值或 null 的值。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "File doesn't exist",
+                    "target": "文件不存在"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Folder doesn't exist",
+                    "target": "文件夹不存在"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Hello!",
+                    "target": "你好！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Opened search",
+                    "target": "已打开搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Opened settings UI",
+                    "target": "已打开设置界面"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
