@@ -1,0 +1,2677 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "image-upload-toolkit",
+        "version": "1.0.0",
+        "title": "Image Upload Toolkit",
+        "description": "Image Upload Toolkit Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.3.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "ACTION NEEDED: require('iconv-lite').extendNodeEncodings() is not supported in your version of Node",
+                    "target": "需要采取操作：require('iconv-lite').extendNodeEncodings() 在你的 Node 版本中不受支持"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "See more info at https://github.com/ashtuchkin/iconv-lite/wiki/Node-v4-compatibility",
+                    "target": "更多信息请参见 https://github.com/ashtuchkin/iconv-lite/wiki/Node-v4-compatibility"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Iconv-lite warning: decode()-ing strings is deprecated. Refer to https://github.com/ashtuchkin/iconv-lite/wiki/Use-Buffers-when-decoding",
+                    "target": "Iconv-lite 警告：对字符串使用 decode() 已弃用。请参阅 https://github.com/ashtuchkin/iconv-lite/wiki/Use-Buffers-when-decoding"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "\n[%s][pid: %s][%s][%s] %s: %s \nError Stack:\n  %s",
+                    "target": "\n[%s][pid: %s][%s][%s] %s: %s \n错误堆栈：\n  %s"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error Additions:\n%s",
+                    "target": "错误补充：\n%s"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Service must be constructed with `new' operator",
+                    "target": "Service 必须使用 `new' 操作符构造"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error reading token file:",
+                    "target": "读取 token 文件出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "missing param SecretId",
+                    "target": "缺少参数 SecretId"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "missing param SecretKey",
+                    "target": "缺少参数 SecretKey"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "missing param Bucket",
+                    "target": "缺少参数 Bucket"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "stream not support pause",
+                    "target": "流不支持 pause"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "REQUEST %s",
+                    "target": "请求 %s"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Ignoring encoding parameter as this stream is being piped to another stream which makes the encoding option invalid.",
+                    "target": "已忽略 encoding 参数，因为该流正被管道到另一个流，导致编码选项无效。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "error: Local time is too skewed.",
+                    "target": "错误：本地时间偏差过大。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "error: SecretId格式错误，请检查",
+                    "target": "error: SecretId格式错误，请检查"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "error: SecretId format is incorrect. Please check",
+                    "target": "错误：SecretId 格式不正确，请检查"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "error: SecretKey格式错误，请检查",
+                    "target": "error: SecretKey格式错误，请检查"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "error: SecretKey format is incorrect. Please check",
+                    "target": "错误：SecretKey 格式不正确，请检查"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Web image upload error:",
+                    "target": "网页图片上传错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error processing image lists:",
+                    "target": "处理图片列表出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error uploading to GitHub:",
+                    "target": "上传到 GitHub 出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "insertText",
+                    "source": "export ",
+                    "target": "export "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "insertText",
+                    "source": " type",
+                    "target": " type"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "insertText",
+                    "source": " =>",
+                    "target": " =>"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "insertText",
+                    "source": " = ",
+                    "target": " = "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "insertText",
+                    "source": "/** @type {Promise<void>} */(",
+                    "target": "/** @type {Promise<void>} */("
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "AWS SDK",
+                    "target": "AWS SDK"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Tip: 使用 electron 等跨平台技术可正常使用Nodejs SDK，请忽略下方浏览器环境警告",
+                    "target": "提示：使用 electron 等跨平台技术可正常使用Nodejs SDK，请忽略下方浏览器环境警告"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Credentials secretId changed",
+                    "target": "凭据 secretId 已更改"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Credentials secretKey changed",
+                    "target": "凭据 secretKey 已更改"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Whether to use image name as Alt Text with '-' and '_' replaced with space.",
+                    "target": "是否将图片名称作为替代文本（Alt Text），并将 '-' 和 '_' 替换为空格。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Whether to replace internal link with store link.",
+                    "target": "是否用存储链接替换内部链接。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Where to ignore note properties when copying to clipboard. This won't affect original note.",
+                    "target": "复制到剪贴板时是否忽略笔记属性。这不会影响原始笔记。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show a modal dialog with detailed progress when uploading images (auto close in 3s). If disabled, a simpler status indicator will be used.",
+                    "target": "上传图片时显示包含详细进度的模态对话框（3 秒后自动关闭）。若禁用，将使用更简洁的状态指示器。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When enabled, web images (http/https URLs) will be downloaded and re-uploaded to your configured storage. Images already hosted on your storage service will be skipped. This is useful for preserving web-clipped content that might become unavailable.",
+                    "target": "启用后，将下载网页图片（http/https URLs）并重新上传到你配置的存储。已托管在你存储服务上的图片会被跳过。这有助于保留可能失效的网页剪藏内容。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "OSS data center region.",
+                    "target": "OSS 数据中心区域。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The access key id of AliYun RAM.",
+                    "target": "阿里云 RAM 的 Access Key ID。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The access key secret of AliYun RAM.",
+                    "target": "阿里云 RAM 的 Access Key Secret。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The name of bucket to store images.",
+                    "target": "用于存储图片的存储桶名称。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The path to store image.\nSupport {year} {mon} {day} {random} {filename} vars. For example, /{year}/{mon}/{day}/{filename} with uploading pic.jpg, it will store as /2023/06/08/pic.jpg.",
+                    "target": "图片存储路径。\n支持 {year} {mon} {day} {random} {filename} 变量。例如，使用 /{year}/{mon}/{day}/{filename} 上传 pic.jpg，将存为 /2023/06/08/pic.jpg。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If the custom domain name is example.com, you can use https://example.com/pic.jpg to access pic.img.",
+                    "target": "如果自定义域名为 example.com，你可以使用 https://example.com/pic.jpg 来访问 pic.img。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Please enter the directory name, otherwise leave it blank",
+                    "target": "请输入目录名称，否则留空"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Your AWS S3 access key ID",
+                    "target": "你的 AWS S3 Access Key ID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Your AWS S3 secret access key",
+                    "target": "你的 AWS S3 Secret Access Key"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Your AWS S3 region",
+                    "target": "你的 AWS S3 区域"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Your AWS S3 bucket name",
+                    "target": "你的 AWS S3 存储桶名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "COS data center region.",
+                    "target": "COS 数据中心区域。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The secret id of TencentCloud.",
+                    "target": "腾讯云的 Secret ID。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The secret key of TencentCloud.",
+                    "target": "腾讯云的 Secret Key。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The access key of Qiniu.",
+                    "target": "七牛的 Access Key。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The secret key of Qiniu.",
+                    "target": "七牛的密钥。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The name of the GitHub repository to store images (format: owner/repo).",
+                    "target": "用于存储图片的 GitHub 仓库名称（格式：owner/repo）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The branch to store images in (defaults to 'main').",
+                    "target": "用于存储图片的分支（默认 'main'）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Your Cloudflare R2 access key ID",
+                    "target": "你的 Cloudflare R2 访问密钥 ID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Your Cloudflare R2 secret access key",
+                    "target": "你的 Cloudflare R2 访问密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Your Cloudflare R2 endpoint URL (e.g., https://account-id.r2.cloudflarestorage.com)",
+                    "target": "你的 Cloudflare R2 端点 URL（例如：https://account-id.r2.cloudflarestorage.com）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Your Cloudflare R2 bucket name",
+                    "target": "你的 Cloudflare R2 存储桶名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "You can use the R2.dev URL such as https://pub-xxxx.r2.dev here, or custom domain. If the custom domain name is example.com, you can use https://example.com/pic.jpg to access pic.img.",
+                    "target": "这里可以使用 R2.dev URL，例如 https://pub-xxxx.r2.dev，或自定义域名。如果自定义域名为 example.com，你可以用 https://example.com/pic.jpg 访问 pic.img。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Your Backblaze B2 application key ID",
+                    "target": "你的 Backblaze B2 应用密钥 ID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Your Backblaze B2 application key",
+                    "target": "你的 Backblaze B2 应用密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Your Backblaze B2 region (e.g., us-west-004)",
+                    "target": "你的 Backblaze B2 区域（例如：us-west-004）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Your Backblaze B2 bucket name",
+                    "target": "你的 Backblaze B2 存储桶名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use image name as Alt Text",
+                    "target": "使用图片名称作为替代文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Update original document",
+                    "target": "更新原始文档"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Ignore note properties",
+                    "target": "忽略笔记属性"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show progress modal",
+                    "target": "显示进度弹窗"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Upload web images",
+                    "target": "上传网页图片"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Image store",
+                    "target": "图片存储"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Client ID",
+                    "target": "客户端 ID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Access Key Id",
+                    "target": "访问密钥 ID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Access Key Secret",
+                    "target": "访问密钥 Secret"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Access Bucket Name",
+                    "target": "访问存储桶名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Target Path",
+                    "target": "目标路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Custom Domain Name",
+                    "target": "自定义域名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Imagekit ID",
+                    "target": "Imagekit ID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Folder name",
+                    "target": "文件夹名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Public Key",
+                    "target": "公钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Private Key",
+                    "target": "私钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "AWS S3 Access Key ID",
+                    "target": "AWS S3 访问密钥 ID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "AWS S3 Secret Access Key",
+                    "target": "AWS S3 私有访问密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "AWS S3 Region",
+                    "target": "AWS S3 区域"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "AWS S3 Bucket Name",
+                    "target": "AWS S3 存储桶名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Secret Id",
+                    "target": "密钥 ID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Secret Key",
+                    "target": "私有密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Access Key",
+                    "target": "访问密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Bucket Name",
+                    "target": "存储桶名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Repository Name",
+                    "target": "仓库名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Branch Name",
+                    "target": "分支名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Personal Access Token",
+                    "target": "个人访问令牌"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Cloudflare R2 Access Key ID",
+                    "target": "Cloudflare R2 访问密钥 ID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Cloudflare R2 Secret Access Key",
+                    "target": "Cloudflare R2 私有访问密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Cloudflare R2 Endpoint",
+                    "target": "Cloudflare R2 端点"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Cloudflare R2 Bucket Name",
+                    "target": "Cloudflare R2 存储桶名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "R2.dev URL, Custom Domain Name",
+                    "target": "R2.dev URL，自定义域名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Backblaze B2 Access Key ID",
+                    "target": "Backblaze B2 访问密钥 ID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Backblaze B2 Secret Access Key",
+                    "target": "Backblaze B2 私有访问密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Backblaze B2 Region",
+                    "target": "Backblaze B2 区域"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Backblaze B2 Bucket Name",
+                    "target": "Backblaze B2 存储桶名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter client_id",
+                    "target": "输入 client_id"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter access key id",
+                    "target": "输入访问密钥 id"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter access key secret",
+                    "target": "输入访问密钥 secret"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter bucket name",
+                    "target": "输入存储桶名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter path",
+                    "target": "输入路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter your ImagekitID",
+                    "target": "输入你的 ImagekitID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter the folder name",
+                    "target": "输入文件夹名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter your Public Key",
+                    "target": "输入你的公钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter your Private Key",
+                    "target": "输入你的私钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter your access key ID",
+                    "target": "输入你的访问密钥 ID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter your secret access key",
+                    "target": "输入你的秘密访问密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter your region",
+                    "target": "输入你的区域"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter your bucket name",
+                    "target": "输入你的存储桶名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter access key",
+                    "target": "输入访问密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter secret key",
+                    "target": "输入密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter repository name (e.g., username/repo)",
+                    "target": "输入仓库名称（例如：username/repo）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter branch name",
+                    "target": "输入分支名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter your GitHub personal access token",
+                    "target": "输入你的 GitHub 个人访问令牌"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter your R2 endpoint",
+                    "target": "输入你的 R2 端点"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter domain name",
+                    "target": "输入域名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter your application key ID",
+                    "target": "输入你的应用程序密钥 ID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter your application key",
+                    "target": "输入你的应用程序密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter custom domain (optional)",
+                    "target": "输入自定义域名（可选）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Uploading Images",
+                    "target": "正在上传图片"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "fs-extra: Using the preserveTimestamps option in 32-bit node is not recommended;\n\n    see https://github.com/jprichardson/node-fs-extra/issues/269",
+                    "target": "fs-extra：不建议在 32 位 node 中使用 preserveTimestamps 选项；\n\n    参见 https://github.com/jprichardson/node-fs-extra/issues/269"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Since Acorn 8.0.0, options.ecmaVersion is required.\nDefaulting to 2020, but this will stop working in the future.",
+                    "target": "自 Acorn 8.0.0 起，options.ecmaVersion 为必填。\n默认使用 2020，但未来将不再有效。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[urllib:warn] [%s] [%s] [worker:%s] %s %s callback twice!!!",
+                    "target": "[urllib:warn] [%s] [%s] [worker:%s] %s %s 回调两次！！！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[urllib:warn] [%s] [%s] [worker:%s] %s: %s\nstack: %s",
+                    "target": "[urllib:warn] [%s] [%s] [worker:%s] %s: %s\nstack: %s"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "It's recommended to set 'refreshSTSToken' and 'refreshSTSTokenInterval' to refresh stsToken、accessKeyId、accessKeySecret automatically when sts token has expired",
+                    "target": "建议设置 'refreshSTSToken' 和 'refreshSTSTokenInterval'，在 sts token 过期时自动刷新 stsToken、accessKeyId、accessKeySecret"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "The follow-redirects package should be excluded from browser builds.",
+                    "target": "浏览器构建中应排除 follow-redirects 包。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "warning: param Region format error, find help here: https://cloud.tencent.com/document/product/436/6224",
+                    "target": "warning: 参数 Region 格式错误，帮助请见：https://cloud.tencent.com/document/product/436/6224"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "warning: AppId has been deprecated, Please put it at the end of parameter Bucket(E.g Bucket:\"test-1250000000\" ).",
+                    "target": "warning: AppId 已弃用，请将其放在参数 Bucket 末尾（例如 Bucket:\"test-1250000000\"）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "these parameters are deprecated, see docs for addKeyword",
+                    "target": "这些参数已弃用，请参阅 addKeyword 文档"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "keywords option as map is deprecated, pass array",
+                    "target": "keywords 选项作为 map 已弃用，请传入数组"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "warning: Param \"TaskReady\" has been deprecated. Please use \"onTaskReady\" instead.",
+                    "target": "warning: 参数 \"TaskReady\" 已弃用，请改用 \"onTaskReady\"。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "tough-cookie: can't load punycode; won't use punycode for domain normalization",
+                    "target": "tough-cookie：无法加载 punycode；将不使用 punycode 进行域名规范化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "options.requestBodyStream is deprecated, please pass the request object to stream.pipe.",
+                    "target": "options.requestBodyStream 已弃用，请将 request 对象传给 stream.pipe。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "warning: AppId has been deprecated, Please put it at the end of parameter Bucket(E.g: \"test-1250000000\").",
+                    "target": "warning: AppId 已弃用，请将其放在参数 Bucket 末尾（例如：\"test-1250000000\"）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "warning: Please change options secretId/secretKey to SecretId/SecretKey.",
+                    "target": "warning: 请将 options 中的 secretId/secretKey 改为 SecretId/SecretKey。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "warning: cos-nodejs-sdk-v5 不支持浏览器使用，请改用 cos-js-sdk-v5，参考文档： https://cloud.tencent.com/document/product/436/11459",
+                    "target": "warning: cos-nodejs-sdk-v5 不支持浏览器使用，请改用 cos-js-sdk-v5，参考文档： https://cloud.tencent.com/document/product/436/11459"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "warning: cos-nodejs-sdk-v5 does not support browsers. Please use cos-js-sdk-v5 instead, See: https://cloud.tencent.com/document/product/436/11459",
+                    "target": "warning: cos-nodejs-sdk-v5 不支持浏览器，请改用 cos-js-sdk-v5，参见：https://cloud.tencent.com/document/product/436/11459"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "cos-nodejs-sdk-v5不再支持使用path-style，仅支持使用virtual-hosted-style，参考文档：https://cloud.tencent.com/document/product/436/96243",
+                    "target": "cos-nodejs-sdk-v5不再支持使用path-style，仅支持使用virtual-hosted-style，参考文档：https://cloud.tencent.com/document/product/436/96243"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[before-after-hook]: \"Hook()\" repurposing warning, use \"Hook.Collection()\". Read more: https://git.io/upgrade-before-after-hook-to-1.4",
+                    "target": "[before-after-hook]：“Hook()”用途变更警告，请使用 “Hook.Collection()”。了解更多：https://git.io/upgrade-before-after-hook-to-1.4"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No images found or all images failed to process",
+                    "target": "未找到图片或所有图片处理失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Copied to clipboard",
+                    "target": "已复制到剪贴板"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Image uploader setup failed, please check setting.",
+                    "target": "图片上传器设置失败，请检查设置。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "ECMAScript JS AST traversal functions",
+                    "target": "ECMAScript JS AST 遍历函数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "ECMAScript code generator",
+                    "target": "ECMAScript 代码生成器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Help in opening URLs (mostly HTTP) in a complex world — basic and digest authentication, redirections, cookies and more.",
+                    "target": "在复杂环境中帮助打开 URL（主要是 HTTP）——基础与摘要认证、重定向、Cookie 等。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "aliyun oss(object storage service) node client",
+                    "target": "阿里云 OSS（对象存储服务）Node 客户端"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until stack status is CREATE_COMPLETE.",
+                    "target": "等待栈状态变为 CREATE_COMPLETE。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until stack status is DELETE_COMPLETE.",
+                    "target": "等待栈状态变为 DELETE_COMPLETE。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until stack status is UPDATE_COMPLETE.",
+                    "target": "等待堆栈状态为 UPDATE_COMPLETE。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until stack status is IMPORT_COMPLETE.",
+                    "target": "等待堆栈状态为 IMPORT_COMPLETE。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until stack status is UPDATE_ROLLBACK_COMPLETE.",
+                    "target": "等待堆栈状态为 UPDATE_ROLLBACK_COMPLETE。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until change set status is CREATE_COMPLETE.",
+                    "target": "等待变更集状态为 CREATE_COMPLETE。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until type registration is COMPLETE.",
+                    "target": "等待类型注册为 COMPLETE。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a distribution is deployed.",
+                    "target": "等待分发已部署。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until an invalidation has completed.",
+                    "target": "等待失效处理完成。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a streaming distribution is deployed.",
+                    "target": "等待流式分发已部署。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until testing connection succeeds.",
+                    "target": "等待测试连接成功。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until testing endpoint is deleted.",
+                    "target": "等待测试端点被删除。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until DMS replication instance is available.",
+                    "target": "等待 DMS 复制实例可用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until DMS replication instance is deleted.",
+                    "target": "等待 DMS 复制实例被删除。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until DMS replication task is ready.",
+                    "target": "等待 DMS 复制任务就绪。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until DMS replication task is stopped.",
+                    "target": "等待 DMS 复制任务已停止。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until DMS replication task is running.",
+                    "target": "等待 DMS 复制任务正在运行。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until DMS replication task is deleted.",
+                    "target": "等待 DMS 复制任务被删除。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until an image scan is complete and findings can be accessed",
+                    "target": "等待镜像扫描完成并可访问发现结果"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a lifecycle policy preview request is complete and results can be accessed",
+                    "target": "等待生命周期策略预览请求完成并可访问结果"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until ElastiCache cluster is available.",
+                    "target": "等待 ElastiCache 集群可用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until ElastiCache cluster is deleted.",
+                    "target": "等待 ElastiCache 集群被删除。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until ElastiCache replication group is available.",
+                    "target": "等待 ElastiCache 复制组可用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until ElastiCache replication group is deleted.",
+                    "target": "等待 ElastiCache 复制组被删除。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Waits for the function's State to be Active. This waiter uses GetFunctionConfiguration API. This should be used after new function creation.",
+                    "target": "等待函数的 State 变为 Active。此等待器使用 GetFunctionConfiguration API。应在新函数创建后使用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Waits for the function's LastUpdateStatus to be Successful. This waiter uses GetFunctionConfiguration API. This should be used after function updates.",
+                    "target": "等待函数的 LastUpdateStatus 变为 Successful。此等待器使用 GetFunctionConfiguration API。应在函数更新后使用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Waits for the function's State to be Active. This waiter uses GetFunction API. This should be used after new function creation.",
+                    "target": "等待函数的 State 变为 Active。此等待器使用 GetFunction API。应在新函数创建后使用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Waits for the function's LastUpdateStatus to be Successful. This waiter uses GetFunction API. This should be used after function updates.",
+                    "target": "等待函数的 LastUpdateStatus 变为 Successful。此等待器使用 GetFunction API。应在函数更新后使用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Waits for the published version's State to be Active. This waiter uses GetFunctionConfiguration API. This should be used after new version is published.",
+                    "target": "等待已发布版本的 State 变为 Active。此等待器使用 GetFunctionConfiguration API。应在新版本发布后使用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a deployment has completed successfully.",
+                    "target": "等待部署成功完成。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until OpsWorks instance is online.",
+                    "target": "等待 OpsWorks 实例上线。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until OpsWorks instance is registered.",
+                    "target": "等待 OpsWorks 实例已注册。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until OpsWorks instance is stopped.",
+                    "target": "等待 OpsWorks 实例已停止。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until OpsWorks instance is terminated.",
+                    "target": "等待 OpsWorks 实例已终止。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until node is associated or disassociated.",
+                    "target": "等待节点已关联或取消关联。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until the ProjectVersion training completes.",
+                    "target": "等待 ProjectVersion 训练完成。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until the ProjectVersion is running.",
+                    "target": "等待 ProjectVersion 运行中。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a channel has been created",
+                    "target": "等待通道已创建"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a channel is running",
+                    "target": "等待通道运行中"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a channel has is stopped",
+                    "target": "等待通道已停止"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a channel has been deleted",
+                    "target": "等待通道已删除"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until an input has been attached",
+                    "target": "等待输入已附加"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until an input has been detached",
+                    "target": "等待输入已分离"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until an input has been deleted",
+                    "target": "等待输入已删除"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a multiplex has been created",
+                    "target": "等待多路复用已创建"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a multiplex is running",
+                    "target": "等待多路复用运行中"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a multiplex has is stopped",
+                    "target": "等待多路复用已停止"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a multiplex has been deleted",
+                    "target": "等待多路复用已删除"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a signal map has been created",
+                    "target": "等待信号映射已创建"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a signal map's monitor has been deleted",
+                    "target": "等待信号映射的监视器已删除"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a signal map's monitor has been deployed",
+                    "target": "等待信号映射的监视器已部署"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a signal map has been updated",
+                    "target": "等待信号映射已更新"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a Certificate Authority CSR is created",
+                    "target": "等待创建 Certificate Authority CSR"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a certificate is issued",
+                    "target": "等待证书签发"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a Audit Report is created",
+                    "target": "等待创建 Audit Report"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a flow is active",
+                    "target": "等待 flow 处于 active 状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a flow is in standby mode",
+                    "target": "等待 flow 进入 standby 模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a flow is deleted",
+                    "target": "等待删除 flow"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Waits until a contact has been scheduled",
+                    "target": "等待联系人已安排"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until code binding is generated",
+                    "target": "等待生成 code binding"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a repository association is complete.",
+                    "target": "等待存储库关联完成。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a code review is complete.",
+                    "target": "等待代码审查完成。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until the sensitive data occurrences are ready.",
+                    "target": "等待敏感数据出现项就绪。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a scraper reaches ACTIVE status",
+                    "target": "等待 scraper 达到 ACTIVE 状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a scraper reaches DELETED status",
+                    "target": "等待 scraper 达到 DELETED 状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a workspace reaches ACTIVE status",
+                    "target": "等待 workspace 达到 ACTIVE 状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a workspace reaches DELETED status",
+                    "target": "等待 workspace 达到 DELETED 状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a bot is available",
+                    "target": "等待 bot 可用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a bot alias is available",
+                    "target": "等待 bot alias 可用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a bot has been exported",
+                    "target": "等待导出 bot"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a bot has been imported",
+                    "target": "等待导入 bot"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a bot locale is built",
+                    "target": "等待构建 bot locale"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a bot locale build is ready for express testing",
+                    "target": "等待 bot locale 构建就绪以进行快速测试"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a bot version is available",
+                    "target": "等待 bot version 可用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait unit a bot locale is created",
+                    "target": "等待创建 bot locale"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a LaunchProfile is Deleted. Use this after invoking DeleteLaunchProfile",
+                    "target": "等待 LaunchProfile 被删除。调用 DeleteLaunchProfile 后使用此项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a LaunchProfile is Ready. Use this after invoking CreateLaunchProfile or UpdateLaunchProfile",
+                    "target": "等待 LaunchProfile 就绪。调用 CreateLaunchProfile 或 UpdateLaunchProfile 后使用此项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a StreamingImage Deleted. Use this after invoking DeleteStreamingImage",
+                    "target": "等待 StreamingImage 被删除。请在调用 DeleteStreamingImage 后使用此操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a StreamingImage is Ready. Use this after invoking CreateStreamingImage or UpdateStreamingImage",
+                    "target": "等待 StreamingImage 就绪。请在调用 CreateStreamingImage 或 UpdateStreamingImage 后使用此操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a StreamingSessionDeleted. Use this after invoking DeleteStreamingSession",
+                    "target": "等待 StreamingSessionDeleted 完成。请在调用 DeleteStreamingSession 后使用此操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a StreamingSession is ready. Use this after invoking CreateStreamingSession, StartStreamingSession",
+                    "target": "等待 StreamingSession 就绪。请在调用 CreateStreamingSession、StartStreamingSession 后使用此操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a StreamingSessionStopped. Use this after invoking StopStreamingSession",
+                    "target": "等待 StreamingSessionStopped 完成。请在调用 StopStreamingSession 后使用此操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a StreamingSessionStream is ready. Use this after invoking CreateStreamingSessionStream",
+                    "target": "等待 StreamingSessionStream 就绪。请在调用 CreateStreamingSessionStream 后使用此操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a StudioComponent Deleted. Use this after invoking DeleteStudioComponent",
+                    "target": "等待 StudioComponent 被删除。请在调用 DeleteStudioComponent 后使用此操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a StudioComponent is Ready. Use this after invoking CreateStudioComponent or UpdateStudioComponent",
+                    "target": "等待 StudioComponent 就绪。请在调用 CreateStudioComponent 或 UpdateStudioComponent 后使用此操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a Studio is Deleted. Use this after invoking DeleteStudio.",
+                    "target": "等待 Studio 被删除。请在调用 DeleteStudio 后使用此操作。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a Studio is Ready. Use this after invoking CreateStudio, UpdateStudio, or StartStudioSSOConfigurationRepair",
+                    "target": "等待 Studio 就绪。请在调用 CreateStudio、UpdateStudio 或 StartStudioSSOConfigurationRepair 后使用此操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait for a replication set to become ACTIVE",
+                    "target": "等待复制集变为 ACTIVE"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait for a replication set to be deleted",
+                    "target": "等待复制集被删除"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a Component is deleted. Use this after invoking DeleteComponent",
+                    "target": "等待 Component 被删除。请在调用 DeleteComponent 后使用此操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a Component is deployed. Use this after invoking CreateComponent or UpdateComponent",
+                    "target": "等待 Component 部署完成。请在调用 CreateComponent 或 UpdateComponent 后使用此操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until an Environment is deployed. Use this after invoking CreateEnvironment or UpdateEnvironment",
+                    "target": "等待 Environment 部署完成。请在调用 CreateEnvironment 或 UpdateEnvironment 后使用此操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until an Service has deployed its instances and possibly pipeline. Use this after invoking CreateService",
+                    "target": "等待 Service 部署其实例并可能包括管道。请在调用 CreateService 后使用此操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a Service, its instances, and possibly pipeline have been deleted after DeleteService is invoked",
+                    "target": "在调用 DeleteService 后，等待 Service、其实例以及可能的管道被删除"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a ServiceInstance is deployed. Use this after invoking CreateService or UpdateServiceInstance",
+                    "target": "等待 ServiceInstance 部署完成。请在调用 CreateService 或 UpdateServiceInstance 后使用此操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until an ServicePipeline is deployed. Use this after invoking CreateService or UpdateServicePipeline",
+                    "target": "等待 ServicePipeline 部署完成。请在调用 CreateService 或 UpdateServicePipeline 后使用此操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a Service, its instances, and possibly pipeline have been deployed after UpdateService is invoked",
+                    "target": "在调用 UpdateService 后，等待 Service、其实例以及可能的管道部署完成"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a cluster is created",
+                    "target": "等待集群创建完成"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait for a cluster to be deleted",
+                    "target": "等待集群被删除"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a control panel is created",
+                    "target": "等待控制面板创建完成"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a control panel is deleted",
+                    "target": "等待控制面板被删除"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a routing control is created",
+                    "target": "等待路由控制创建完成"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait for a routing control to be deleted",
+                    "target": "等待路由控制被删除"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until resource operation request is successful",
+                    "target": "等待资源操作请求成功"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until an annotation import is completed",
+                    "target": "等待注释导入完成"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until an annotation store is created",
+                    "target": "等待注释存储创建完成"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until an annotation store is deleted.",
+                    "target": "等待注释存储被删除。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until an annotation store version is created",
+                    "target": "等待注释存储版本创建完成"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until an annotation store version is deleted.",
+                    "target": "等待注释存储版本被删除。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a job is completed.",
+                    "target": "等待作业完成。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a run is completed.",
+                    "target": "等待运行完成。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a run is running.",
+                    "target": "等待运行进入运行状态。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a task is completed.",
+                    "target": "等待任务完成。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a task is running.",
+                    "target": "等待任务进入运行状态。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until variant import is completed",
+                    "target": "等待变体导入完成"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a variant store is created",
+                    "target": "等待变体存储创建完成"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a variant store is deleted.",
+                    "target": "等待变体存储被删除。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a workflow is active.",
+                    "target": "等待工作流激活。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a Fleet is activated. Use this after invoking CreateFleet or UpdateFleet.",
+                    "target": "等待 Fleet 激活。在调用 CreateFleet 或 UpdateFleet 后使用此操作。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a Job is created. Use this after invoking CreateJob.",
+                    "target": "等待 Job 创建完成。在调用 CreateJob 后使用此操作。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a LicenseEndpoint is Deleted. Use this after invoking DeleteLicenseEndpoint.",
+                    "target": "等待 LicenseEndpoint 被删除。在调用 DeleteLicenseEndpoint 后使用此操作。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a LicenseEndpoint is Ready. Use this after invoking CreateLicenseEndpoint.",
+                    "target": "等待 LicenseEndpoint 就绪。在调用 CreateLicenseEndpoint 后使用此操作。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wait until a QueueFleetAssociation is stopped. Use this after setting the status to STOP_SCHEDULING_AND_COMPLETE_TASKS or STOP_SCHEDULING_AND_CANCEL_TASKS to wait for a QueueFleetAssociation to reach STOPPED",
+                    "target": "等待 QueueFleetAssociation 停止。在将状态设置为 STOP_SCHEDULING_AND_COMPLETE_TASKS 或 STOP_SCHEDULING_AND_CANCEL_TASKS 后使用，以等待 QueueFleetAssociation 达到 STOPPED"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "cos nodejs sdk v5",
+                    "target": "cos nodejs sdk v5"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Node wrapper for Qiniu Resource (Cloud) Storage API",
+                    "target": "七牛资源（云）存储 API 的 Node 封装"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "failed to parse address with port",
+                    "target": "解析带端口的地址失败"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "failed to parse address from URL",
+                    "target": "从 URL 解析地址失败"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Selection is not an import declaration.",
+                    "target": "选区不是导入声明。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Microsoft Edge",
+                    "target": "Microsoft Edge"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Samsung Internet",
+                    "target": "Samsung Internet"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "SRWare Iron",
+                    "target": "SRWare Iron"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Yandex Browser",
+                    "target": "Yandex Browser"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "UC Browser",
+                    "target": "UC Browser"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Opera Mini",
+                    "target": "Opera Mini"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Chrome Mobile",
+                    "target": "Chrome Mobile"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Firefox for iOS",
+                    "target": "Firefox for iOS"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Galaxy S",
+                    "target": "Galaxy S"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Galaxy S2",
+                    "target": "Galaxy S2"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Galaxy S3",
+                    "target": "Galaxy S3"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Galaxy S4",
+                    "target": "Galaxy S4"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Galaxy S5",
+                    "target": "Galaxy S5"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Galaxy S6",
+                    "target": "Galaxy S6"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Galaxy S6 Edge",
+                    "target": "Galaxy S6 Edge"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Galaxy S7",
+                    "target": "Galaxy S7"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Galaxy S7 Edge",
+                    "target": "Galaxy S7 Edge"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Kindle Fire",
+                    "target": "Kindle Fire"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Wii U",
+                    "target": "Wii U"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Xbox 360",
+                    "target": "Xbox 360"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Chrome OS",
+                    "target": "Chrome OS"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "DragonFly BSD",
+                    "target": "DragonFly BSD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Use the appropriate method on 'ts.factory' or the 'factory' supplied by your transformation context instead.",
+                    "target": "请改用“ts.factory”上的相应方法或由转换上下文提供的“factory”。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Use `factory.createStringLiteral`, `factory.createStringLiteralFromNode`, `factory.createNumericLiteral`, `factory.createBigIntLiteral`, `factory.createTrue`, `factory.createFalse`, or the factory supplied by your transformation context instead.",
+                    "target": "请改用 `factory.createStringLiteral`、`factory.createStringLiteralFromNode`、`factory.createNumericLiteral`、`factory.createBigIntLiteral`、`factory.createTrue`、`factory.createFalse`，或由转换上下文提供的 factory。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Use an appropriate `factory` method instead.",
+                    "target": "请改用合适的 `factory` 方法。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Use `isTypeAssertionExpression` instead.",
+                    "target": "请改用 `isTypeAssertionExpression`。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Use the overload that accepts 'modifiers'",
+                    "target": "请使用接受 'modifiers' 的重载。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Use the overload that accepts 'assertions'",
+                    "target": "请使用接受 'assertions' 的重载。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Decorators have been combined with modifiers. Callers should switch to an overload that does not accept a 'decorators' parameter.",
+                    "target": "装饰器已与修饰符合并。调用方应切换到不接受 'decorators' 参数的重载。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Decorators are no longer supported for this function. Callers should switch to an overload that does not accept a 'decorators' parameter.",
+                    "target": "此函数不再支持装饰器。调用方应切换到不接受 'decorators' 参数的重载。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Decorators and modifiers are no longer supported for this function. Callers should switch to an overload that does not accept the 'decorators' and 'modifiers' parameters.",
+                    "target": "此函数不再支持装饰器和修饰符。调用方应切换到不接受 'decorators' 和 'modifiers' 参数的重载。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "upload task has been abort",
+                    "target": "上传任务已中止"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Missing publicKey or privateKey or urlEndpoint during ImageKit initialization",
+                    "target": "ImageKit 初始化时缺少 publicKey 或 privateKey 或 urlEndpoint"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Missing publicKey during ImageKit initialization",
+                    "target": "ImageKit 初始化时缺少 publicKey"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Missing privateKey during ImageKit initialization",
+                    "target": "ImageKit 初始化时缺少 privateKey"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Missing urlEndpoint during ImageKit initialization",
+                    "target": "ImageKit 初始化时缺少 urlEndpoint"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Invalid transformationPosition parameter",
+                    "target": "transformationPosition 参数无效"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Missing URL parameter for this request",
+                    "target": "此请求缺少 URL 参数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Missing Request ID parameter for this request",
+                    "target": "此请求缺少 Request ID 参数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Missing fileId parameter for this request",
+                    "target": "此请求缺少 fileId 参数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Missing versionId parameter for this request",
+                    "target": "此请求缺少 versionId 参数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Pass a valid JSON list options e.g. {skip: 10, limit: 100}.",
+                    "target": "请传入有效的 JSON 列表选项，例如 {skip: 10, limit: 100}。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Missing file update data for this request",
+                    "target": "此请求缺少文件更新数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Invalid tags parameter for this request",
+                    "target": "此请求的 tags 参数无效"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Invalid customCoordinates parameter for this request",
+                    "target": "此请求的 customCoordinates 参数无效"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Missing options for list files",
+                    "target": "缺少列出文件的选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Missing data for upload",
+                    "target": "缺少上传数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Missing file parameter for upload",
+                    "target": "缺少上传的 file 参数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Missing fileName parameter for upload",
+                    "target": "缺少上传的 fileName 参数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Missing jobId parameter",
+                    "target": "缺少 jobId 参数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Invalid destinationPath value",
+                    "target": "destinationPath 值无效"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Invalid includeFileVersions value",
+                    "target": "includeFileVersions 值无效"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Invalid sourceFilePath value",
+                    "target": "sourceFilePath 值无效"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Invalid sourceFolderPath value",
+                    "target": "sourceFolderPath 值无效"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Invalid folderName value",
+                    "target": "folderName 值无效"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Invalid parentFolderPath value",
+                    "target": "parentFolderPath 值无效"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Invalid folderPath value",
+                    "target": "folderPath 值无效"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Invalid pHash value",
+                    "target": "pHash 值无效"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Missing pHash value",
+                    "target": "缺少 pHash 值"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Unequal pHash string length",
+                    "target": "pHash 字符串长度不一致"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Invalid value for fileIds",
+                    "target": "fileIds 的值无效"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Invalid value for tags",
+                    "target": "tags 的值无效"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Invalid value for AITags",
+                    "target": "AITags 的值无效"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Missing name parameter for this request",
+                    "target": "此请求缺少 name 参数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Missing label parameter for this request",
+                    "target": "此请求缺少 label 参数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Missing fieldId parameter for this request",
+                    "target": "此请求缺少 fieldId 参数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Invalid value for filePath",
+                    "target": "filePath 的值无效"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Invalid value for newFileName. It should be a string.",
+                    "target": "newFileName 的值无效。应为字符串。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Invalid value for purgeCache. It should be boolean.",
+                    "target": "purgeCache 的值无效。应为布尔值。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Incorrect signature",
+                    "target": "签名不正确"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Signature missing",
+                    "target": "缺少签名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Timestamp missing",
+                    "target": "缺少时间戳"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Timestamp invalid",
+                    "target": "时间戳无效"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Invalid transformation parameter. Please include at least pre, post, or both.",
+                    "target": "转换参数无效。请至少包含 pre、post 或两者。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Invalid pre transformation parameter.",
+                    "target": "无效的预转换参数。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Invalid post transformation parameter.",
+                    "target": "无效的后转换参数。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Hostname label length should be between 1 to 63 characters, inclusive.",
+                    "target": "主机名标签长度应在 1 到 63 个字符之间（含）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Custom endpoint is supplied; endpointDiscoveryEnabled must not be true.",
+                    "target": "已提供自定义端点；endpointDiscoveryEnabled 不能为 true。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "config file entry 'endpoint_discovery_enabled' cannot be set to nothing",
+                    "target": "配置文件条目 'endpoint_discovery_enabled' 不能设置为空"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Missing credentials in config, if using AWS_CONFIG_FILE, set AWS_SDK_LOAD_CONFIG=1",
+                    "target": "配置中缺少凭证，如果使用 AWS_CONFIG_FILE，请设置 AWS_SDK_LOAD_CONFIG=1"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Invalid region in config",
+                    "target": "配置中的区域无效"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Missing region in config",
+                    "target": "配置中缺少区域"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "An unknown error occurred.",
+                    "target": "发生未知错误。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Presigning only supports S3 or SigV4 signing.",
+                    "target": "预签名仅支持 S3 或 SigV4 签名。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "EC2 Metadata roleName request returned error",
+                    "target": "EC2 元数据 roleName 请求返回错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "EC2 Metadata creds request returned error",
+                    "target": "EC2 元数据 creds 请求返回错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "EC2 Metadata token request returned error",
+                    "target": "EC2 元数据 token 请求返回错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "EC2 Metadata token request returned 400",
+                    "target": "EC2 元数据 token 请求返回 400"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Sets can contain string, number, or binary values",
+                    "target": "集合可包含字符串、数字或二进制值"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "CRC32 integrity check failed",
+                    "target": "CRC32 完整性检查失败"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "expect 's3' or 's3-outposts' or 's3-object-lambda' in ARN service component",
+                    "target": "ARN 服务组件中应为 's3' 或 's3-outposts' 或 's3-object-lambda'"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "ARN accountID does not match regex \"[0-9]{12}\"",
+                    "target": "ARN accountID 不匹配正则 \"[0-9]{12}\""
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Access Point ARN should have one resource accesspoint/{accesspointName}",
+                    "target": "访问点 ARN 应包含一个资源 accesspoint/{accesspointName}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "ARN resource should begin with 'outpost/'",
+                    "target": "ARN 资源应以 'outpost/' 开头"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Outposts ARN should have two resources outpost/{outpostId}/accesspoint/{accesspointName}",
+                    "target": "Outposts ARN 应包含两个资源 outpost/{outpostId}/accesspoint/{accesspointName}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "ARN endpoint is not compatible with FIPS region",
+                    "target": "ARN 端点与 FIPS 区域不兼容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "FIPS region not allowed in ARN",
+                    "target": "ARN 中不允许 FIPS 区域"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Configured region conflicts with access point region",
+                    "target": "配置的区域与访问点区域冲突"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Configured region and access point region not in same partition",
+                    "target": "配置的区域与访问点区域不在同一分区"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "useAccelerateEndpoint config is not supported with access point ARN",
+                    "target": "使用 access point ARN 时不支持 useAccelerateEndpoint 配置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Dualstack is not supported with outposts access point ARN",
+                    "target": "使用 outposts access point ARN 时不支持 Dualstack"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Custom endpoint is not compatible with access point ARN",
+                    "target": "自定义 endpoint 与 access point ARN 不兼容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Cannot construct path-style endpoint with access point",
+                    "target": "无法使用 access point 构建 path-style endpoint"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "ARN resource should begin with 'accesspoint/'",
+                    "target": "ARN resource 应以 'accesspoint/' 开头"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "S3 aborted request",
+                    "target": "S3 已中止请求"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "ContentLength is not supported in pre-signed URLs.",
+                    "target": "预签名 URL 不支持 ContentLength。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Bucket ARN should have two resources outpost/{outpostId}/bucket/{accesspointName}",
+                    "target": "Bucket ARN 应包含两个资源 outpost/{outpostId}/bucket/{accesspointName}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "AccountId in ARN and request params should be same.",
+                    "target": "ARN 中的 AccountId 与请求参数应相同。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "AccountId must be a string.",
+                    "target": "AccountId 必须是字符串。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "AccountId length should be between 1 to 63 characters, inclusive.",
+                    "target": "AccountId 长度应在 1 到 63 个字符之间（含）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "EndpointId is not supported in current SDK.\nYou should consider switching to V3(https://github.com/aws/aws-sdk-js-v3).",
+                    "target": "当前 SDK 不支持 EndpointId。\n建议切换到 V3(https://github.com/aws/aws-sdk-js-v3)。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "should be equal to constant",
+                    "target": "应等于常量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "should be equal to one of the allowed values",
+                    "target": "应等于允许值之一"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "should NOT have additional properties",
+                    "target": "不应有额外属性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "should NOT be valid",
+                    "target": "不应为有效"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "an object is required",
+                    "target": "需要一个对象"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Archive object can not download, please restore to Standard storage class.",
+                    "target": "归档对象无法下载，请恢复到 Standard 存储类。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Yusuke Suzuki",
+                    "target": "Yusuke Suzuki"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Convert default export to named export",
+                    "target": "将默认导出转换为命名导出"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Convert named export to default export",
+                    "target": "将命名导出转换为默认导出"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Convert namespace import to named imports",
+                    "target": "将命名空间导入转换为命名导入"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Convert named imports to namespace import",
+                    "target": "将命名导入转换为命名空间导入"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Convert named imports to default import",
+                    "target": "将命名导入转换为默认导入"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Extract Constant",
+                    "target": "提取常量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Extract Function",
+                    "target": "提取函数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Extract to type alias",
+                    "target": "提取为类型别名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Extract to interface",
+                    "target": "提取为接口"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Extract to typedef",
+                    "target": "提取为 typedef"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add braces to arrow function",
+                    "target": "为箭头函数添加大括号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Convert to anonymous function",
+                    "target": "转换为匿名函数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Convert to named function",
+                    "target": "转换为命名函数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Convert to arrow function",
+                    "target": "转换为箭头函数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Samsung Internet for Android",
+                    "target": "Android 版 Samsung Internet"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "NAVER Whale browser",
+                    "target": "NAVER Whale 浏览器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "MZ Browser",
+                    "target": "MZ 浏览器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Opera Coast",
+                    "target": "Opera Coast"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Yandex Browser",
+                    "target": "Yandex 浏览器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "UC Browser",
+                    "target": "UC 浏览器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Windows Phone",
+                    "target": "Windows Phone"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Internet Explorer",
+                    "target": "Internet Explorer"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Microsoft Edge",
+                    "target": "Microsoft Edge"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Amazon Silk",
+                    "target": "Amazon Silk"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Xu Shiwei",
+                    "target": "Xu Shiwei"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Publish Page",
+                    "target": "发布页面"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n            var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {\n                var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;\n                if (typeof Reflect === \"object\" && typeof Reflect.decorate === \"function\") r = Reflect.decorate(decorators, target, key, desc);\n                else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;\n                return c > 3 && r && Object.defineProperty(target, key, r), r;\n            };",
+                    "target": "\n            var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {\n                var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;\n                if (typeof Reflect === \"object\" && typeof Reflect.decorate === \"function\") r = Reflect.decorate(decorators, target, key, desc);\n                else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;\n                return c > 3 && r && Object.defineProperty(target, key, r), r;\n            };"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n            var __metadata = (this && this.__metadata) || function (k, v) {\n                if (typeof Reflect === \"object\" && typeof Reflect.metadata === \"function\") return Reflect.metadata(k, v);\n            };",
+                    "target": "\n            var __metadata = (this && this.__metadata) || function (k, v) {\n                if (typeof Reflect === \"object\" && typeof Reflect.metadata === \"function\") return Reflect.metadata(k, v);\n            };"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n            var __param = (this && this.__param) || function (paramIndex, decorator) {\n                return function (target, key) { decorator(target, key, paramIndex); }\n            };",
+                    "target": "\n            var __param = (this && this.__param) || function (paramIndex, decorator) {\n                return function (target, key) { decorator(target, key, paramIndex); }\n            };"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n            var __assign = (this && this.__assign) || function () {\n                __assign = Object.assign || function(t) {\n                    for (var s, i = 1, n = arguments.length; i < n; i++) {\n                        s = arguments[i];\n                        for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))\n                            t[p] = s[p];\n                    }\n                    return t;\n                };\n                return __assign.apply(this, arguments);\n            };",
+                    "target": "\n            var __assign = (this && this.__assign) || function () {\n                __assign = Object.assign || function(t) {\n                    for (var s, i = 1, n = arguments.length; i < n; i++) {\n                        s = arguments[i];\n                        for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))\n                            t[p] = s[p];\n                    }\n                    return t;\n                };\n                return __assign.apply(this, arguments);\n            };"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n            var __await = (this && this.__await) || function (v) { return this instanceof __await ? (this.v = v, this) : new __await(v); }",
+                    "target": "\n            var __await = (this && this.__await) || function (v) { return this instanceof __await ? (this.v = v, this) : new __await(v); }"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n            var __asyncGenerator = (this && this.__asyncGenerator) || function (thisArg, _arguments, generator) {\n                if (!Symbol.asyncIterator) throw new TypeError(\"Symbol.asyncIterator is not defined.\");\n                var g = generator.apply(thisArg, _arguments || []), i, q = [];\n                return i = {}, verb(\"next\"), verb(\"throw\"), verb(\"return\"), i[Symbol.asyncIterator] = function () { return this; }, i;\n                function verb(n) { if (g[n]) i[n] = function (v) { return new Promise(function (a, b) { q.push([n, v, a, b]) > 1 || resume(n, v); }); }; }\n                function resume(n, v) { try { step(g[n](v)); } catch (e) { settle(q[0][3], e); } }\n                function step(r) { r.value instanceof __await ? Promise.resolve(r.value.v).then(fulfill, reject) : settle(q[0][2], r); }\n                function fulfill(value) { resume(\"next\", value); }\n                function reject(value) { resume(\"throw\", value); }\n                function settle(f, v) { if (f(v), q.shift(), q.length) resume(q[0][0], q[0][1]); }\n            };",
+                    "target": "\n            var __asyncGenerator = (this && this.__asyncGenerator) || function (thisArg, _arguments, generator) {\n                if (!Symbol.asyncIterator) throw new TypeError(\"Symbol.asyncIterator is not defined.\");\n                var g = generator.apply(thisArg, _arguments || []), i, q = [];\n                return i = {}, verb(\"next\"), verb(\"throw\"), verb(\"return\"), i[Symbol.asyncIterator] = function () { return this; }, i;\n                function verb(n) { if (g[n]) i[n] = function (v) { return new Promise(function (a, b) { q.push([n, v, a, b]) > 1 || resume(n, v); }); }; }\n                function resume(n, v) { try { step(g[n](v)); } catch (e) { settle(q[0][3], e); } }\n                function step(r) { r.value instanceof __await ? Promise.resolve(r.value.v).then(fulfill, reject) : settle(q[0][2], r); }\n                function fulfill(value) { resume(\"next\", value); }\n                function reject(value) { resume(\"throw\", value); }\n                function settle(f, v) { if (f(v), q.shift(), q.length) resume(q[0][0], q[0][1]); }\n            };"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n            var __asyncDelegator = (this && this.__asyncDelegator) || function (o) {\n                var i, p;\n                return i = {}, verb(\"next\"), verb(\"throw\", function (e) { throw e; }), verb(\"return\"), i[Symbol.iterator] = function () { return this; }, i;\n                function verb(n, f) { i[n] = o[n] ? function (v) { return (p = !p) ? { value: __await(o[n](v)), done: n === \"return\" } : f ? f(v) : v; } : f; }\n            };",
+                    "target": "\n            var __asyncDelegator = (this && this.__asyncDelegator) || function (o) {\n                var i, p;\n                return i = {}, verb(\"next\"), verb(\"throw\", function (e) { throw e; }), verb(\"return\"), i[Symbol.iterator] = function () { return this; }, i;\n                function verb(n, f) { i[n] = o[n] ? function (v) { return (p = !p) ? { value: __await(o[n](v)), done: n === \"return\" } : f ? f(v) : v; } : f; }\n            };"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n            var __asyncValues = (this && this.__asyncValues) || function (o) {\n                if (!Symbol.asyncIterator) throw new TypeError(\"Symbol.asyncIterator is not defined.\");\n                var m = o[Symbol.asyncIterator], i;\n                return m ? m.call(o) : (o = typeof __values === \"function\" ? __values(o) : o[Symbol.iterator](), i = {}, verb(\"next\"), verb(\"throw\"), verb(\"return\"), i[Symbol.asyncIterator] = function () { return this; }, i);\n                function verb(n) { i[n] = o[n] && function (v) { return new Promise(function (resolve, reject) { v = o[n](v), settle(resolve, reject, v.done, v.value); }); }; }\n                function settle(resolve, reject, d, v) { Promise.resolve(v).then(function(v) { resolve({ value: v, done: d }); }, reject); }\n            };",
+                    "target": "\n            var __asyncValues = (this && this.__asyncValues) || function (o) {\n                if (!Symbol.asyncIterator) throw new TypeError(\"Symbol.asyncIterator is not defined.\");\n                var m = o[Symbol.asyncIterator], i;\n                return m ? m.call(o) : (o = typeof __values === \"function\" ? __values(o) : o[Symbol.iterator](), i = {}, verb(\"next\"), verb(\"throw\"), verb(\"return\"), i[Symbol.asyncIterator] = function () { return this; }, i);\n                function verb(n) { i[n] = o[n] && function (v) { return new Promise(function (resolve, reject) { v = o[n](v), settle(resolve, reject, v.done, v.value); }); }; }\n                function settle(resolve, reject, d, v) { Promise.resolve(v).then(function(v) { resolve({ value: v, done: d }); }, reject); }\n            };"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n            var __rest = (this && this.__rest) || function (s, e) {\n                var t = {};\n                for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0)\n                    t[p] = s[p];\n                if (s != null && typeof Object.getOwnPropertySymbols === \"function\")\n                    for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) {\n                        if (e.indexOf(p[i]) < 0 && Object.prototype.propertyIsEnumerable.call(s, p[i]))\n                            t[p[i]] = s[p[i]];\n                    }\n                return t;\n            };",
+                    "target": "\n            var __rest = (this && this.__rest) || function (s, e) {\n                var t = {};\n                for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0)\n                    t[p] = s[p];\n                if (s != null && typeof Object.getOwnPropertySymbols === \"function\")\n                    for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) {\n                        if (e.indexOf(p[i]) < 0 && Object.prototype.propertyIsEnumerable.call(s, p[i]))\n                            t[p[i]] = s[p[i]];\n                    }\n                return t;\n            };"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n            var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {\n                function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }\n                return new (P || (P = Promise))(function (resolve, reject) {\n                    function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }\n                    function rejected(value) { try { step(generator[\"throw\"](value)); } catch (e) { reject(e); } }\n                    function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }\n                    step((generator = generator.apply(thisArg, _arguments || [])).next());\n                });\n            };",
+                    "target": "\n            var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {\n                function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }\n                return new (P || (P = Promise))(function (resolve, reject) {\n                    function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }\n                    function rejected(value) { try { step(generator[\"throw\"](value)); } catch (e) { reject(e); } }\n                    function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }\n                    step((generator = generator.apply(thisArg, _arguments || [])).next());\n                });\n            };"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n            var __extends = (this && this.__extends) || (function () {\n                var extendStatics = function (d, b) {\n                    extendStatics = Object.setPrototypeOf ||\n                        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||\n                        function (d, b) { for (var p in b) if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p]; };\n                    return extendStatics(d, b);\n                };\n\n                return function (d, b) {\n                    if (typeof b !== \"function\" && b !== null)\n                        throw new TypeError(\"Class extends value \" + String(b) + \" is not a constructor or null\");\n                    extendStatics(d, b);\n                    function __() { this.constructor = d; }\n                    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());\n                };\n            })();",
+                    "target": "\n            var __extends = (this && this.__extends) || (function () {\n                var extendStatics = function (d, b) {\n                    extendStatics = Object.setPrototypeOf ||\n                        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||\n                        function (d, b) { for (var p in b) if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p]; };\n                    return extendStatics(d, b);\n                };\n\n                return function (d, b) {\n                    if (typeof b !== \"function\" && b !== null)\n                        throw new TypeError(\"Class extends value \" + String(b) + \" is not a constructor or null\");\n                    extendStatics(d, b);\n                    function __() { this.constructor = d; }\n                    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());\n                };\n            })();"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n            var __read = (this && this.__read) || function (o, n) {\n                var m = typeof Symbol === \"function\" && o[Symbol.iterator];\n                if (!m) return o;\n                var i = m.call(o), r, ar = [], e;\n                try {\n                    while ((n === void 0 || n-- > 0) && !(r = i.next()).done) ar.push(r.value);\n                }\n                catch (error) { e = { error: error }; }\n                finally {\n                    try {\n                        if (r && !r.done && (m = i[\"return\"])) m.call(i);\n                    }\n                    finally { if (e) throw e.error; }\n                }\n                return ar;\n            };",
+                    "target": "\n            var __read = (this && this.__read) || function (o, n) {\n                var m = typeof Symbol === \"function\" && o[Symbol.iterator];\n                if (!m) return o;\n                var i = m.call(o), r, ar = [], e;\n                try {\n                    while ((n === void 0 || n-- > 0) && !(r = i.next()).done) ar.push(r.value);\n                }\n                catch (error) { e = { error: error }; }\n                finally {\n                    try {\n                        if (r && !r.done && (m = i[\"return\"])) m.call(i);\n                    }\n                    finally { if (e) throw e.error; }\n                }\n                return ar;\n            };"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n            var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {\n                if (pack || arguments.length === 2) for (var i = 0, l = from.length, ar; i < l; i++) {\n                    if (ar || !(i in from)) {\n                        if (!ar) ar = Array.prototype.slice.call(from, 0, i);\n                        ar[i] = from[i];\n                    }\n                }\n                return to.concat(ar || Array.prototype.slice.call(from));\n            };",
+                    "target": "\n            var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {\n                if (pack || arguments.length === 2) for (var i = 0, l = from.length, ar; i < l; i++) {\n                    if (ar || !(i in from)) {\n                        if (!ar) ar = Array.prototype.slice.call(from, 0, i);\n                        ar[i] = from[i];\n                    }\n                }\n                return to.concat(ar || Array.prototype.slice.call(from));\n            };"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n            var __values = (this && this.__values) || function(o) {\n                var s = typeof Symbol === \"function\" && Symbol.iterator, m = s && o[s], i = 0;\n                if (m) return m.call(o);\n                if (o && typeof o.length === \"number\") return {\n                    next: function () {\n                        if (o && i >= o.length) o = void 0;\n                        return { value: o && o[i++], done: !o };\n                    }\n                };\n                throw new TypeError(s ? \"Object is not iterable.\" : \"Symbol.iterator is not defined.\");\n            };",
+                    "target": "\n            var __values = (this && this.__values) || function(o) {\n                var s = typeof Symbol === \"function\" && Symbol.iterator, m = s && o[s], i = 0;\n                if (m) return m.call(o);\n                if (o && typeof o.length === \"number\") return {\n                    next: function () {\n                        if (o && i >= o.length) o = void 0;\n                        return { value: o && o[i++], done: !o };\n                    }\n                };\n                throw new TypeError(s ? \"Object is not iterable.\" : \"Symbol.iterator is not defined.\");\n            };"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n            var __generator = (this && this.__generator) || function (thisArg, body) {\n                var _ = { label: 0, sent: function() { if (t[0] & 1) throw t[1]; return t[1]; }, trys: [], ops: [] }, f, y, t, g;\n                return g = { next: verb(0), \"throw\": verb(1), \"return\": verb(2) }, typeof Symbol === \"function\" && (g[Symbol.iterator] = function() { return this; }), g;\n                function verb(n) { return function (v) { return step([n, v]); }; }\n                function step(op) {\n                    if (f) throw new TypeError(\"Generator is already executing.\");\n                    while (g && (g = 0, op[0] && (_ = 0)), _) try {\n                        if (f = 1, y && (t = op[0] & 2 ? y[\"return\"] : op[0] ? y[\"throw\"] || ((t = y[\"return\"]) && t.call(y), 0) : y.next) && !(t = t.call(y, op[1])).done) return t;\n                        if (y = 0, t) op = [op[0] & 2, t.value];\n                        switch (op[0]) {\n                            case 0: case 1: t = op; break;\n                            case 4: _.label++; return { value: op[1], done: false };\n                            case 5: _.label++; y = op[1]; op = [0]; continue;\n                            case 7: op = _.ops.pop(); _.trys.pop(); continue;\n                            default:\n                                if (!(t = _.trys, t = t.length > 0 && t[t.length - 1]) && (op[0] === 6 || op[0] === 2)) { _ = 0; continue; }\n                                if (op[0] === 3 && (!t || (op[1] > t[0] && op[1] < t[3]))) { _.label = op[1]; break; }\n                                if (op[0] === 6 && _.label < t[1]) { _.label = t[1]; t = op; break; }\n                                if (t && _.label < t[2]) { _.label = t[2]; _.ops.push(op); break; }\n                                if (t[2]) _.ops.pop();\n                                _.trys.pop(); continue;\n                        }\n                        op = body.call(thisArg, _);\n                    } catch (e) { op = [6, e]; y = 0; } finally { f = t = 0; }\n                    if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };\n                }\n            };",
+                    "target": "\n            var __generator = (this && this.__generator) || function (thisArg, body) {\n                var _ = { label: 0, sent: function() { if (t[0] & 1) throw t[1]; return t[1]; }, trys: [], ops: [] }, f, y, t, g;\n                return g = { next: verb(0), \"throw\": verb(1), \"return\": verb(2) }, typeof Symbol === \"function\" && (g[Symbol.iterator] = function() { return this; }), g;\n                function verb(n) { return function (v) { return step([n, v]); }; }\n                function step(op) {\n                    if (f) throw new TypeError(\"Generator is already executing.\");\n                    while (g && (g = 0, op[0] && (_ = 0)), _) try {\n                        if (f = 1, y && (t = op[0] & 2 ? y[\"return\"] : op[0] ? y[\"throw\"] || ((t = y[\"return\"]) && t.call(y), 0) : y.next) && !(t = t.call(y, op[1])).done) return t;\n                        if (y = 0, t) op = [op[0] & 2, t.value];\n                        switch (op[0]) {\n                            case 0: case 1: t = op; break;\n                            case 4: _.label++; return { value: op[1], done: false };\n                            case 5: _.label++; y = op[1]; op = [0]; continue;\n                            case 7: op = _.ops.pop(); _.trys.pop(); continue;\n                            default:\n                                if (!(t = _.trys, t = t.length > 0 && t[t.length - 1]) && (op[0] === 6 || op[0] === 2)) { _ = 0; continue; }\n                                if (op[0] === 3 && (!t || (op[1] > t[0] && op[1] < t[3]))) { _.label = op[1]; break; }\n                                if (op[0] === 6 && _.label < t[1]) { _.label = t[1]; t = op; break; }\n                                if (t && _.label < t[2]) { _.label = t[2]; _.ops.push(op); break; }\n                                if (t[2]) _.ops.pop();\n                                _.trys.pop(); continue;\n                        }\n                        op = body.call(thisArg, _);\n                    } catch (e) { op = [6, e]; y = 0; } finally { f = t = 0; }\n                    if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };\n                }\n            };"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n            var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\n                if (k2 === undefined) k2 = k;\n                var desc = Object.getOwnPropertyDescriptor(m, k);\n                if (!desc || (\"get\" in desc ? !m.__esModule : desc.writable || desc.configurable)) {\n                  desc = { enumerable: true, get: function() { return m[k]; } };\n                }\n                Object.defineProperty(o, k2, desc);\n            }) : (function(o, m, k, k2) {\n                if (k2 === undefined) k2 = k;\n                o[k2] = m[k];\n            }));",
+                    "target": "\n            var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\n                if (k2 === undefined) k2 = k;\n                var desc = Object.getOwnPropertyDescriptor(m, k);\n                if (!desc || (\"get\" in desc ? !m.__esModule : desc.writable || desc.configurable)) {\n                  desc = { enumerable: true, get: function() { return m[k]; } };\n                }\n                Object.defineProperty(o, k2, desc);\n            }) : (function(o, m, k, k2) {\n                if (k2 === undefined) k2 = k;\n                o[k2] = m[k];\n            }));"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n            var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {\n                Object.defineProperty(o, \"default\", { enumerable: true, value: v });\n            }) : function(o, v) {\n                o[\"default\"] = v;\n            });",
+                    "target": "\n            var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {\n                Object.defineProperty(o, \"default\", { enumerable: true, value: v });\n            }) : function(o, v) {\n                o[\"default\"] = v;\n            });"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n            var __importStar = (this && this.__importStar) || function (mod) {\n                if (mod && mod.__esModule) return mod;\n                var result = {};\n                if (mod != null) for (var k in mod) if (k !== \"default\" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);\n                __setModuleDefault(result, mod);\n                return result;\n            };",
+                    "target": "\n            var __importStar = (this && this.__importStar) || function (mod) {\n                if (mod && mod.__esModule) return mod;\n                var result = {};\n                if (mod != null) for (var k in mod) if (k !== \"default\" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);\n                __setModuleDefault(result, mod);\n                return result;\n            };"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n            var __importDefault = (this && this.__importDefault) || function (mod) {\n                return (mod && mod.__esModule) ? mod : { \"default\": mod };\n            };",
+                    "target": "\n            var __importDefault = (this && this.__importDefault) || function (mod) {\n                return (mod && mod.__esModule) ? mod : { \"default\": mod };\n            };"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n            var __exportStar = (this && this.__exportStar) || function(m, exports) {\n                for (var p in m) if (p !== \"default\" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);\n            };",
+                    "target": "\n            var __exportStar = (this && this.__exportStar) || function(m, exports) {\n                for (var p in m) if (p !== \"default\" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);\n            };"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n            var __classPrivateFieldIn = (this && this.__classPrivateFieldIn) || function(state, receiver) {\n                if (receiver === null || (typeof receiver !== \"object\" && typeof receiver !== \"function\")) throw new TypeError(\"Cannot use 'in' operator on non-object\");\n                return typeof state === \"function\" ? receiver === state : state.has(receiver);\n            };",
+                    "target": "\n            var __classPrivateFieldIn = (this && this.__classPrivateFieldIn) || function(state, receiver) {\n                if (receiver === null || (typeof receiver !== \"object\" && typeof receiver !== \"function\")) throw new TypeError(\"Cannot use 'in' operator on non-object\");\n                return typeof state === \"function\" ? receiver === state : state.has(receiver);\n            };"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n            var __syncRequire = typeof module === \"object\" && typeof module.exports === \"object\";",
+                    "target": "\n            var __syncRequire = typeof module === \"object\" && typeof module.exports === \"object\";"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Upload Settings",
+                    "target": "上传设置"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
