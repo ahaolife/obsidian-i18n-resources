@@ -1,0 +1,745 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "sync-db-os",
+        "version": "1.0.0",
+        "title": "sync-db-os",
+        "description": "sync-db-os Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "本地文件",
+                    "target": "本地文件"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "云端文件",
+                    "target": "云端文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "600 秒",
+                    "target": "600 秒"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "300 秒",
+                    "target": "300 秒"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "100 秒",
+                    "target": "100 秒"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "60 秒",
+                    "target": "60 秒"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "30 秒",
+                    "target": "30 秒"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "10 秒",
+                    "target": "10 秒"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "5 秒",
+                    "target": "5 秒"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "腾讯云",
+                    "target": "腾讯云"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "invalid doc source",
+                    "target": "无效的文档来源"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "unexpected end of input",
+                    "target": "输入意外结束"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unclosed comment",
+                    "target": "未闭合的注释"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "error: Local time is too skewed.",
+                    "target": "错误：本地时间偏差过大。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "error: SecretId格式错误，请检查",
+                    "target": "error: SecretId格式错误，请检查"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "error: SecretId format is incorrect. Please check",
+                    "target": "错误：SecretId 格式不正确。请检查"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "error: SecretKey格式错误，请检查",
+                    "target": "error: SecretKey格式错误，请检查"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "error: SecretKey format is incorrect. Please check",
+                    "target": "错误：SecretKey 格式不正确。请检查"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "FileReader not support readAsBinaryString",
+                    "target": "FileReader 不支持 readAsBinaryString"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error pulling from cloud:",
+                    "target": "从云端拉取出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Tip: Next.js、Nuxt.js 等服务端渲染技术可正常使用JavaScript SDK，请忽略下方 nodejs 环境警告",
+                    "target": "提示：Next.js、Nuxt.js 等服务端渲染技术可正常使用 JavaScript SDK，请忽略下方 nodejs 环境警告"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "修改",
+                    "target": "修改"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "保存",
+                    "target": "保存"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "测试连接",
+                    "target": "测试连接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "是否上传笔记到云端数据库",
+                    "target": "是否上传笔记到云端数据库"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "目前支持MongoDB和CouchDB",
+                    "target": "目前支持 MongoDB 和 CouchDB"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "选择修改后触发同步的时间间隔，默认为5秒",
+                    "target": "选择修改后触发同步的时间间隔，默认为 5 秒"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "此选项将拦截默认粘贴插入图片，直接使用对象存储作为图床,需确保对象存储可用",
+                    "target": "此选项将拦截默认粘贴插入图片，直接使用对象存储作为图床，需确保对象存储可用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "选择你购买的对象存储服务提供商,比如阿里云，腾讯云等",
+                    "target": "选择你购买的对象存储服务提供商，比如阿里云、腾讯云等"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "此选项会设置插入图片是否保存到本地备份，别担心文件名与云端文件同名",
+                    "target": "此选项会设置插入图片是否保存到本地备份，别担心文件名与云端文件同名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "如果当前文件在\"vault/folder\"中，而设置子文件夹名称为\"img\"，则附件将被保存至\"vault/folder/img\" 路径下。",
+                    "target": "如果当前文件在\"vault/folder\"中，而设置子文件夹名称为\"img\"，则附件将被保存至\"vault/folder/img\" 路径下。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "开启自动保存",
+                    "target": "开启自动保存"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "创建新文件自动上传",
+                    "target": "创建新文件自动上传"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "默认为27017",
+                    "target": "默认为27017"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "默认为5984",
+                    "target": "默认为5984"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "填入您自己的存储桶",
+                    "target": "填入您自己的存储桶"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "存储桶所在地域，例如ap-beijing，必须字段",
+                    "target": "存储桶所在地域，例如ap-beijing，必须字段"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "同步插件配置",
+                    "target": "同步插件配置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "默认插入配置",
+                    "target": "默认插入配置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "是否上传笔记到云端数据库",
+                    "target": "是否上传笔记到云端数据库"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "数据库配置",
+                    "target": "数据库配置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "选择数据库",
+                    "target": "选择数据库"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "定时同步时间间隔",
+                    "target": "定时同步时间间隔"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "节流时间间隔",
+                    "target": "节流时间间隔"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "替换默认插入，直接使用图床",
+                    "target": "替换默认插入，直接使用图床"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "对象存储配置",
+                    "target": "对象存储配置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "选择对象存储服务商",
+                    "target": "选择对象存储服务商"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "其他配置",
+                    "target": "其他配置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "是否保存到本地",
+                    "target": "是否保存到本地"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "子文件夹名称",
+                    "target": "子文件夹名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "是否自动保存",
+                    "target": "是否自动保存"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "创建新文件自动上传",
+                    "target": "创建新文件自动上传"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "MongoDB配置",
+                    "target": "MongoDB配置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "主机",
+                    "target": "主机"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "端口",
+                    "target": "端口"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "数据库名",
+                    "target": "数据库名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "集合名",
+                    "target": "集合名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "CouchDB配置",
+                    "target": "CouchDB配置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "腾讯云COS对象存储配置",
+                    "target": "腾讯云COS对象存储配置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "阿里云OSS对象存储配置",
+                    "target": "阿里云OSS对象存储配置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "输入数据库地址",
+                    "target": "输入数据库地址"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "请输入端口",
+                    "target": "请输入端口"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "输入数据库用户名",
+                    "target": "输入数据库用户名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "输入密码",
+                    "target": "输入密码"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "数据库名",
+                    "target": "数据库名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "集合名",
+                    "target": "集合名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter your SecretId",
+                    "target": "输入您的 SecretId"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter your SecretKey",
+                    "target": "输入您的 SecretKey"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "填入您自己的存储桶",
+                    "target": "填入您自己的存储桶"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "存储桶所在地域，例如ap-beijing，必须字段",
+                    "target": "存储桶所在地域，例如ap-beijing，必须字段"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter your AccessKeyID",
+                    "target": "请输入你的 AccessKeyID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter your AccessKeySecret",
+                    "target": "请输入你的 AccessKeySecret"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Status Bar Text",
+                    "target": "状态栏文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Possible Unhandled Promise Rejection:",
+                    "target": "可能存在未处理的 Promise 拒绝："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "warning: AppId has been deprecated, Please put it at the end of parameter Bucket(E.g: \"test-1250000000\").",
+                    "target": "警告：AppId 已弃用，请将其放在参数 Bucket 的末尾（例如：\"test-1250000000\"）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "warning: cos-js-sdk-v5 不支持 nodejs 环境使用，请改用 cos-nodejs-sdk-v5，参考文档： https://cloud.tencent.com/document/product/436/8629",
+                    "target": "warning: cos-js-sdk-v5 不支持 nodejs 环境使用，请改用 cos-nodejs-sdk-v5，参考文档： https://cloud.tencent.com/document/product/436/8629"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "warning: cos-js-sdk-v5 does not support nodejs environment. Please use cos-nodejs-sdk-v5 instead. See: https://cloud.tencent.com/document/product/436/8629",
+                    "target": "警告：cos-js-sdk-v5 不支持 nodejs 环境，请改用 cos-nodejs-sdk-v5。参见：https://cloud.tencent.com/document/product/436/8629"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "cos-js-sdk-v5不再支持使用path-style，仅支持使用virtual-hosted-style，参考文档：https://cloud.tencent.com/document/product/436/96243",
+                    "target": "cos-js-sdk-v5不再支持使用path-style，仅支持使用virtual-hosted-style，参考文档：https://cloud.tencent.com/document/product/436/96243"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "warning: Param \"TaskReady\" has been deprecated. Please use \"onTaskReady\" instead.",
+                    "target": "警告：参数 \"TaskReady\" 已弃用，请改用 \"onTaskReady\"。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "warning: param Region format error, find help here: https://cloud.tencent.com/document/product/436/6224",
+                    "target": "警告：参数 Region 格式错误，请在此查看帮助：https://cloud.tencent.com/document/product/436/6224"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "warning: AppId has been deprecated, Please put it at the end of parameter Bucket(E.g Bucket:\"test-1250000000\" ).",
+                    "target": "警告：AppId 已被弃用，请将其放在参数 Bucket 的末尾（例如 Bucket:\"test-1250000000\"）。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "MongoDB连接成功",
+                    "target": "MongoDB连接成功"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "MongoDB连接失败",
+                    "target": "MongoDB连接失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to create a new game.",
+                    "target": "创建新游戏失败。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "文档删除成功",
+                    "target": "文档删除成功"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "文档删除失败",
+                    "target": "文档删除失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "CouchDB连接成功",
+                    "target": "CouchDB连接成功"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "CouchDB连接失败",
+                    "target": "CouchDB连接失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "文档保存成功!!",
+                    "target": "文档保存成功!!"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "文档保存冲突!!",
+                    "target": "文档保存冲突!!"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "文档保存失败!!",
+                    "target": "文档保存失败!!"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "获取文档失败",
+                    "target": "获取文档失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "获取所有文档ID失败",
+                    "target": "获取所有文档ID失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "切换数据源成功",
+                    "target": "切换数据源成功"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "无效的选择",
+                    "target": "无效的选择"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "保存成功",
+                    "target": "保存成功"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请打开一个文件",
+                    "target": "请打开一个文件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "图片链接已更新为云端地址",
+                    "target": "图片链接已更新为云端地址"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "未找到需要替换的图片链接",
+                    "target": "未找到需要替换的图片链接"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "本地文件已被云端文件覆盖",
+                    "target": "本地文件已被云端文件覆盖"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "云端文件已被本地文件覆盖",
+                    "target": "云端文件已被本地文件覆盖"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "拉取云端成功!",
+                    "target": "拉取云端成功!"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "全部笔记已推送完成!",
+                    "target": "全部笔记已推送完成!"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "手动同步成功!",
+                    "target": "手动同步成功!"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "拉取云端失败!",
+                    "target": "拉取云端失败!"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "User input for mongodbLogPath is now invalid. Logging is halted.",
+                    "target": "mongodbLogPath 的用户输入现已无效。日志记录已停止。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "There is no index available for this selector.",
+                    "target": "没有可用于此选择器的索引。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Could not find that index or could not use that index for the query",
+                    "target": "无法找到该索引或无法使用该索引进行查询。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "The MongoDB NodeJS Team",
+                    "target": "MongoDB NodeJS 团队"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "如何获取",
+                    "target": "如何获取"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "SECRETID 和 SECRETKEY 请登录 https://console.cloud.tencent.com/cam/capi 进行查看和管理",
+                    "target": "SECRETID 和 SECRETKEY 请登录 https://console.cloud.tencent.com/cam/capi 进行查看和管理"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "AccessKeyID 和 AccessKeySecret 请登录 https://usercenter.console.aliyun.com/ 进行查看和管理",
+                    "target": "AccessKeyID 和 AccessKeySecret 请登录 https://usercenter.console.aliyun.com/ 进行查看和管理"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "拉取云端",
+                    "target": "拉取云端"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "覆盖云端",
+                    "target": "覆盖云端"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "全选",
+                    "target": "全选"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "确认推送",
+                    "target": "确认推送"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "取消",
+                    "target": "取消"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "重命名此pdf为副本，并且将此pdf上传至云端，同时下载云端同名pdf",
+                    "target": "重命名此pdf为副本，并且将此pdf上传至云端，同时下载云端同名pdf"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "覆盖云端pdf",
+                    "target": "覆盖云端pdf"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "替换当前文件夹",
+                    "target": "替换当前文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "替换全部",
+                    "target": "替换全部"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
