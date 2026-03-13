@@ -1,0 +1,121 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "highlight-active-folder-section",
+        "version": "1.0.0",
+        "title": "Highlight active folder section",
+        "description": "Highlight active folder section Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.5.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error processing operation queue:",
+                    "target": "处理操作队列时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error in executeSequentially:",
+                    "target": "executeSequentially 中出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Disable visual styling (shadows, animations, border radius, font weight, etc.) while keeping basic highlighting colors and core functionality like auto-collapse and center active file.",
+                    "target": "禁用视觉样式（阴影、动画、圆角、字重等），同时保留基础高亮颜色和自动折叠、居中活动文件等核心功能。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Use !important for style definitions",
+                    "target": "在样式定义中使用 !important"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Additionally scrolls the active file to the center of the explorer. Works best with Obsidian's native 'Auto-reveal current file' setting enabled.",
+                    "target": "另外将活动文件滚动到文件浏览器的中心。配合启用 Obsidian 原生“自动显示当前文件”设置效果最佳。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Collapse all folders not in the path to the active file. Works best with Obsidian's native 'Auto-reveal current file' setting enabled.",
+                    "target": "折叠所有不在活动文件路径中的文件夹。配合启用 Obsidian 原生“自动显示当前文件”设置效果最佳。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Minimal mode",
+                    "target": "简约模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Center active file on scroll",
+                    "target": "滚动时居中活动文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Auto-collapse other folders",
+                    "target": "自动折叠其他文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Active Folder",
+                    "target": "活动文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable title background",
+                    "target": "启用标题背景"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Font weight",
+                    "target": "字体粗细"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Border radius",
+                    "target": "圆角半径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Root Folder",
+                    "target": "根文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Highlight root folders",
+                    "target": "高亮根文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Root font weight",
+                    "target": "根字体粗细"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Root border radius",
+                    "target": "根圆角半径"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
