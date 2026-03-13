@@ -1,0 +1,325 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "auto-mover",
+        "version": "1.0.0",
+        "title": "AutoMover",
+        "description": "AutoMover Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.7",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to export settings:",
+                    "target": "导出设置失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to export to vault:",
+                    "target": "导出到存储库失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to import settings:",
+                    "target": "导入设置失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to import from vault:",
+                    "target": "从存储库导入失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Folder already exists",
+                    "target": "文件夹已存在"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Rule does not have a regex: ",
+                    "target": "规则缺少正则表达式："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Rule does not have a destination folder: ",
+                    "target": "规则缺少目标文件夹："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Rule has an invalid regex: ",
+                    "target": "规则的正则表达式无效："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Tag Rule does not have a regex: ",
+                    "target": "标签规则缺少正则表达式："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Tag Rule does not have a destination folder: ",
+                    "target": "标签规则缺少目标文件夹："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Tag Rule has an invalid regex: ",
+                    "target": "标签规则的正则表达式无效："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "No rules defined, moving to project root",
+                    "target": "未定义规则，正在移动到项目根目录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "No matching rule or './' destination, moving to project root",
+                    "target": "无匹配规则或“./”目标，正在移动到项目根目录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Export settings",
+                    "target": "导出设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Import settings",
+                    "target": "导入设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Move files",
+                    "target": "移动文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Import will replace the current settings.\n         If you aren't prompted to choose a location, then the file will be exported to/imported from the vault root as AutoMover_settings.json (json files aren't visible in the vault by default).",
+                    "target": "导入将替换当前设置。\n         如果未提示选择位置，则文件会导出到/从库根目录导入为 AutoMover_settings.json（json 文件默认在库中不可见）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Should the file be moved when it is opened?",
+                    "target": "打开文件时应移动它吗？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Automatic moving",
+                    "target": "自动移动"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Export/Import of settings",
+                    "target": "设置的导出/导入"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Move on open",
+                    "target": "打开时移动"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Manually move",
+                    "target": "手动移动"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Settings exported successfully",
+                    "target": "设置导出成功"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to export settings",
+                    "target": "设置导出失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to export settings to vault",
+                    "target": "将设置导出到保险库失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Invalid settings file format",
+                    "target": "设置文件格式无效"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Settings imported successfully",
+                    "target": "设置导入成功"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to import settings",
+                    "target": "设置导入失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Settings imported from vault successfully",
+                    "target": "从保险库导入设置成功"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to import settings from vault",
+                    "target": "从保险库导入设置失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Folder already exists",
+                    "target": "文件夹已存在"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "All files moved!",
+                    "target": "所有文件已移动！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "JSON Files",
+                    "target": "JSON 文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Move files",
+                    "target": "移动文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Exclusion rules",
+                    "target": "排除规则"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Excluded folders or files (string or regex)",
+                    "target": "排除的文件夹或文件（字符串或正则）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Moving rules",
+                    "target": "移动规则"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Search criteria (string or regex)",
+                    "target": "搜索条件（字符串或正则）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Folder (can contain regex groups)",
+                    "target": "文件夹（可包含正则分组）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Tag rules",
+                    "target": "标签规则"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Tag search criteria (string or regex)",
+                    "target": "标签搜索条件（字符串或正则）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Project rules",
+                    "target": "项目规则"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Project name",
+                    "target": "项目名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "This plugin allows you to move files to a specified folder based on the file name.",
+                    "target": "此插件允许你根据文件名将文件移动到指定文件夹。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "If you have multiple rules referencing the same file, the first rule will be applied.",
+                    "target": "如果有多条规则引用同一文件，将应用第一条规则。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Examples: ",
+                    "target": "示例："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "To move files containing 'Scroll' to a folder named 'Scrolls': ",
+                    "target": "将包含“Scroll”的文件移动到名为“Scrolls”的文件夹："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "To move files containing the word 'Scroll' and a number to space -> to a folder named 'Scrolls' under the subfolder of the scroll number: ",
+                    "target": "将包含单词“Scroll”和数字的文件移动到空格 -> 移动到名为“Scrolls”的文件夹，并放入以卷轴编号命名的子文件夹下："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Scroll (\\d+)",
+                    "target": "Scroll (\\d+)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Export AutoMover Settings",
+                    "target": "导出 AutoMover 设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Import AutoMover Settings",
+                    "target": "导入 AutoMover 设置"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
