@@ -1,0 +1,295 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "ticktick-quickadd-task",
+        "version": "1.0.0",
+        "title": "TickTick Quick Add Task",
+        "description": "TickTick Quick Add Task Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.8",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Token exchange error (status):",
+                    "target": "令牌交换错误（状态）："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error during token exchange:",
+                    "target": "令牌交换过程中出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Refresh token error:",
+                    "target": "刷新令牌错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error refreshing access token:",
+                    "target": "刷新访问令牌时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "TickTick API error (status):",
+                    "target": "TickTick API 错误（状态）："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "TickTick API error:",
+                    "target": "TickTick API 错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Loading TickTick Plugin",
+                    "target": "正在加载 TickTick 插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Unloading TickTick Plugin",
+                    "target": "正在卸载 TickTick 插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "response.json:",
+                    "target": "response.json:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "response.text:",
+                    "target": "response.text:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enter your TickTick Client ID from the Developer Console.",
+                    "target": "请输入在开发者控制台获取的 TickTick Client ID。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enter your TickTick Client Secret (input is masked).",
+                    "target": "请输入你的 TickTick Client Secret（输入内容会被遮罩）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enter the Redirect URI registered in your TickTick Developer Portal. (Default: https://ticktick-quick-add-obsidian-6yawfmvnj-mooshs-projects-0635287d.vercel.app)",
+                    "target": "请输入在 TickTick 开发者门户中注册的 Redirect URI。（默认： https://ticktick-quick-add-obsidian-6yawfmvnj-mooshs-projects-0635287d.vercel.app）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Your current access token (read-only).",
+                    "target": "你当前的访问令牌（只读）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Stored refresh token (for debugging purposes).",
+                    "target": "已存储的刷新令牌（用于调试）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Click to open the OAuth authorization URL in your browser.",
+                    "target": "点击在浏览器中打开 OAuth 授权 URL。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Paste the authorization code from TickTick here to obtain an access token.",
+                    "target": "在此粘贴来自 TickTick 的授权码以获取访问令牌。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Client ID",
+                    "target": "客户端 ID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Client Secret",
+                    "target": "客户端密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Redirect URI",
+                    "target": "重定向 URI"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Access Token",
+                    "target": "访问令牌"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Refresh Token",
+                    "target": "刷新令牌"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Connect to TickTick",
+                    "target": "连接到 TickTick"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Authorization Code",
+                    "target": "授权码"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Your Client ID",
+                    "target": "您的客户端 ID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "••••••••••",
+                    "target": "••••••••••"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Access token will appear here",
+                    "target": "访问令牌将显示在此处"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Refresh token",
+                    "target": "刷新令牌"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter authorization code",
+                    "target": "输入授权码"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Refresh token not received during token exchange.",
+                    "target": "令牌交换过程中未收到刷新令牌。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No file found for the current view!",
+                    "target": "当前视图未找到文件！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No paragraph text found!",
+                    "target": "未找到段落文本！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "TickTick task created successfully!",
+                    "target": "TickTick 任务创建成功！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to create TickTick task.",
+                    "target": "创建 TickTick 任务失败。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please enter your Client ID in the settings.",
+                    "target": "请在设置中输入您的客户端 ID。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "OAuth flow initiated. Please complete it in your browser.",
+                    "target": "OAuth 流程已启动。请在浏览器中完成。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Missing required credentials. Please update your settings.",
+                    "target": "缺少必需的凭据。请更新您的设置。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Refresh token not received. Re-authentication may be required more often.",
+                    "target": "未收到刷新令牌。可能需要更频繁地重新认证。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "TickTick access token obtained successfully!",
+                    "target": "TickTick 访问令牌获取成功！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to obtain access token.",
+                    "target": "获取访问令牌失败。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error during token exchange.",
+                    "target": "令牌交换期间出错。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Access token refreshed successfully!",
+                    "target": "访问令牌刷新成功！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Reauthentication required. Please reconnect to TickTick.",
+                    "target": "需要重新认证。请重新连接 TickTick。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No access token found. Please connect to TickTick in the settings.",
+                    "target": "未找到访问令牌。请在设置中连接 TickTick。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Create TickTick Task from Paragraph",
+                    "target": "从段落创建 TickTick 任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "TickTick API Settings",
+                    "target": "TickTick API 设置"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
