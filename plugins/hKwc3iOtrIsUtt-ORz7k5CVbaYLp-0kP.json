@@ -1,0 +1,319 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-languagetool-plugin",
+        "version": "1.0.0",
+        "title": "LanguageTool Integration",
+        "description": "LanguageTool Integration Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.3.8",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Auto Detect",
+                    "target": "自动检测"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Preconditions were not successfull to apply LT-suggestions.",
+                    "target": "未满足应用 LT 建议的前置条件。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Endpoint that will be used to make requests to",
+                    "target": "用于发送请求的端点"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enter an API Key",
+                    "target": "输入 API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Check text as you type",
+                    "target": "输入时检查文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Length of time to wait for AutoCheck after last key press",
+                    "target": "最后一次按键后等待自动检查的时间长度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set a static language that will always be used (LanguageTool tries to auto detect the language, this is usually not necessary)",
+                    "target": "设置始终使用的固定语言（LanguageTool 会尝试自动检测语言，通常不需要）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set the language you are most comfortable with. This will be used to interpret the language you are writing in",
+                    "target": "设置你最熟悉的语言。将用于识别你正在写的语言"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Provides more style and tonality suggestions, detects long or complex sentences, recognizes colloquialism and redundancies, proactively suggests synonyms for commonly overused words",
+                    "target": "提供更多风格和语气建议，检测冗长或复杂的句子，识别口语化和冗余，并主动为常被过度使用的词提供同义词建议"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enter a comma-separated list of categories",
+                    "target": "输入以逗号分隔的类别列表"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enter a comma-separated list of rules",
+                    "target": "输入以逗号分隔的规则列表"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "API Username",
+                    "target": "API 用户名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "API Key",
+                    "target": "API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Autocheck Text",
+                    "target": "自动检查文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "AutoCheck Delay (ms)",
+                    "target": "自动检查延迟（毫秒）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Glass Background",
+                    "target": "玻璃背景"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Static Language",
+                    "target": "静态语言"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Mother Tongue",
+                    "target": "母语"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Interpret English as",
+                    "target": "将英语解释为"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Interpret German as",
+                    "target": "将德语解释为"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Interpret Portuguese as",
+                    "target": "将葡萄牙语解释为"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Interpret Catalan as",
+                    "target": "将加泰罗尼亚语解释为"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Picky Mode",
+                    "target": "挑剔模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Other rule categories",
+                    "target": "其他规则类别"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable Specific Rules",
+                    "target": "启用特定规则"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Disable Specific Rules",
+                    "target": "禁用特定规则"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Eg. CATEGORY_1,CATEGORY_2",
+                    "target": "例如 CATEGORY_1,CATEGORY_2"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Eg. RULE_1,RULE_2",
+                    "target": "例如 RULE_1,RULE_2"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Check current document",
+                    "target": "检查当前文档"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Clear suggestions",
+                    "target": "清除建议"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Request to LanguageTool server failed. Please check your connection and LanguageTool server URL",
+                    "target": "向 LanguageTool 服务器发送请求失败。请检查你的连接和 LanguageTool 服务器 URL"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error processing response from LanguageTool server",
+                    "target": "处理来自 LanguageTool 服务器的响应时出错"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "LanguageTool detection restored",
+                    "target": "LanguageTool 检测已恢复"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Logs copied to clipboard",
+                    "target": "日志已复制到剪贴板"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "updated LanguageTool Settings, please confirm your server URL in the settings tab",
+                    "target": "LanguageTool 设置已更新，请在设置选项卡中确认你的服务器 URL"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "invalid or outdated LanguageTool Settings, I'm trying to fix it.\nIf it does not work, simply reinstall the plugin",
+                    "target": "LanguageTool 设置无效或已过期，我正在尝试修复。\n如果无效，请重新安装插件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Check Text",
+                    "target": "检查文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle Automatic Checking",
+                    "target": "切换自动检查"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Clear Suggestions",
+                    "target": "清除建议"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Jump to next Suggestion",
+                    "target": "跳转到下一个建议"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Jump to previous Suggestion",
+                    "target": "跳转到上一个建议"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Settings for LanguageTool",
+                    "target": "LanguageTool 设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Copy failed Request Logs",
+                    "target": "复制失败的请求日志"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "I know what I'm doing",
+                    "target": "我知道自己在做什么"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Language Varieties",
+                    "target": "语言变体"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Some languages have varieties depending on the country they are spoken in.",
+                    "target": "某些语言会根据使用国家的不同而有变体。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Rule Categories",
+                    "target": "规则分类"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Click here for a list of rules and categories",
+                    "target": "点击此处查看规则和分类列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Add to personal dictionary",
+                    "target": "添加到个人词典"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Ignore suggestion",
+                    "target": "忽略建议"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
