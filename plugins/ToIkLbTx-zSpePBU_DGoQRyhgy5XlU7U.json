@@ -1,0 +1,325 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "ii-quicker",
+        "version": "1.0.0",
+        "title": "ii",
+        "description": "ii Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.6",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please set up the submenu first",
+                    "target": "请先设置子菜单"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "标题1",
+                    "target": "标题1"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "标题2",
+                    "target": "标题2"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "标题3",
+                    "target": "标题3"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "标题4",
+                    "target": "标题4"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "标题5",
+                    "target": "标题5"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "标题6",
+                    "target": "标题6"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "标签",
+                    "target": "标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "加粗",
+                    "target": "加粗"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "斜体",
+                    "target": "斜体"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "删除线",
+                    "target": "删除线"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "高亮",
+                    "target": "高亮"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "下划线",
+                    "target": "下划线"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "分割线",
+                    "target": "分割线"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "日期",
+                    "target": "日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "时间",
+                    "target": "时间"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "颜色",
+                    "target": "颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "背景色",
+                    "target": "背景色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "缩进",
+                    "target": "缩进"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "上标",
+                    "target": "上标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "下标",
+                    "target": "下标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "无序列表",
+                    "target": "无序列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "有序列表",
+                    "target": "有序列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "任务列表",
+                    "target": "任务列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "引用",
+                    "target": "引用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "行内代码",
+                    "target": "行内代码"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "代码块",
+                    "target": "代码块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "链接",
+                    "target": "链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "图片",
+                    "target": "图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "表格",
+                    "target": "表格"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "音频",
+                    "target": "音频"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "视频",
+                    "target": "视频"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "嵌入网页",
+                    "target": "嵌入网页"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "左对齐",
+                    "target": "左对齐"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "右对齐",
+                    "target": "右对齐"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "居中对齐",
+                    "target": "居中对齐"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "两端对齐",
+                    "target": "两端对齐"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "锚点",
+                    "target": "锚点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "变量",
+                    "target": "变量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "脚注",
+                    "target": "脚注"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Html注释",
+                    "target": "Html注释"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ob注释",
+                    "target": "Ob注释"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "行内公式",
+                    "target": "行内公式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "公式块",
+                    "target": "公式块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Wiki链接",
+                    "target": "Wiki链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Wiki图片",
+                    "target": "Wiki图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "块引用",
+                    "target": "块引用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "全局块引用",
+                    "target": "全局块引用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "图片链接",
+                    "target": "图片链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "🎨",
+                    "target": "🎨"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " x ",
+                    "target": " x "
+                }
+            ],
+            "regex": []
+        }
+    }
+}
