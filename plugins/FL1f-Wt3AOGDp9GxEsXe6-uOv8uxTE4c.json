@@ -1,0 +1,97 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "code-blocks-commands",
+        "version": "1.0.0",
+        "title": "Code Blocks commands",
+        "description": "Code Blocks commands Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "replaceRange",
+                    "source": "\n```",
+                    "target": "\n```"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "empty",
+                    "source": "No languages found.",
+                    "target": "未找到语言。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "empty",
+                    "source": "未找到语言。",
+                    "target": "未找到语言。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "empty",
+                    "source": "未找到語言。",
+                    "target": "未找到语言。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Language:",
+                    "target": "语言："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "语言：",
+                    "target": "语言："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "語言：",
+                    "target": "语言："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Type the search term",
+                    "target": "输入搜索词"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "输入搜索词",
+                    "target": "输入搜索词"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "輸入搜尋詞",
+                    "target": "输入搜索词"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Kotlin Script",
+                    "target": "Kotlin 脚本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Object Pascal",
+                    "target": "Object Pascal"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Web App Manifest",
+                    "target": "Web 应用清单"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
