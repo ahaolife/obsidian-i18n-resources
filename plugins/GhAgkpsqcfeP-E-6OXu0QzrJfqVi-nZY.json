@@ -1,0 +1,97 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "aprils-automatic-timelines",
+        "version": "1.0.0",
+        "title": "April's Automatic Timelines",
+        "description": "April's Automatic Timelines Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.13.10",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Hydration completed but contains mismatches.",
+                    "target": "水合已完成但包含不匹配。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Vue warn] Invalid value used for CSS binding. Expected a string or a finite number but received:",
+                    "target": "[Vue warn] 用于 CSS 绑定的值无效。期望字符串或有限数字，但收到："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[HMR] Root or manually mounted instance modified. Full reload required.",
+                    "target": "[HMR] 根或手动挂载的实例已修改。需要完全重新加载。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[HMR] Something went wrong during Vue component hot-reload. Full reload required.",
+                    "target": "[HMR] 在 Vue 组件热重载期间出了问题。需要完全重新加载。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "feather.toSvg() is deprecated. Please use feather.icons[name].toSvg() instead.",
+                    "target": "feather.toSvg() 已弃用。请改用 feather.icons[name].toSvg()。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "info",
+                    "source": "<circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"12\" y1=\"16\" x2=\"12\" y2=\"12\"></line><line x1=\"12\" y1=\"8\" x2=\"12.01\" y2=\"8\"></line>",
+                    "target": "<circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"12\" y1=\"16\" x2=\"12\" y2=\"12\"></line><line x1=\"12\" y1=\"8\" x2=\"12.01\" y2=\"8\"></line>"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Global Scope",
+                    "target": "全局作用域"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "link",
+                    "source": "Span Events",
+                    "target": "Span 事件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "link",
+                    "source": "<path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71\"></path><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71\"></path>",
+                    "target": "<path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71\"></path><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71\"></path>"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Unexpected block-seq-ind on same line with key",
+                    "target": "与键同一行出现意外的 block-seq-ind"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "v-bind=\"obj\" usage is now order sensitive and behaves like JavaScript object spread: it will now overwrite an existing non-mergeable attribute that appears before v-bind in the case of conflict. To retain 2.x behavior, move v-bind to make it the first attribute. You can also suppress this warning if the usage is intended.",
+                    "target": "v-bind=\"obj\" 的用法现在对顺序敏感，行为类似于 JavaScript 对象展开：在发生冲突时，它将覆盖出现在 v-bind 之前的现有不可合并属性。要保留 2.x 的行为，请移动 v-bind 使其成为第一个属性。如果这是有意为之，你也可以抑制此警告。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "search",
+                    "source": "<circle cx=\"11\" cy=\"11\" r=\"8\"></circle><line x1=\"21\" y1=\"21\" x2=\"16.65\" y2=\"16.65\"></line>",
+                    "target": "<circle cx=\"11\" cy=\"11\" r=\"8\"></circle><line x1=\"21\" y1=\"21\" x2=\"16.65\" y2=\"16.65\"></line>"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Look for {link}",
+                    "target": "查找 {link}"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
