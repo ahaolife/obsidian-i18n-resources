@@ -1,0 +1,115 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-siteswap",
+        "version": "1.0.0",
+        "title": "Siteswap",
+        "description": "Siteswap Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.1.8",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Detailed documentation can be found at ",
+                    "target": "详细文档可在以下位置找到："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "????",
+                    "target": "????"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "loading siteswap plugin",
+                    "target": "正在加载 siteswap 插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "unloading siteswap plugin",
+                    "target": "正在卸载 siteswap 插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Width of the animation, in pixels.",
+                    "target": "动画宽度，以像素为单位。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Height of the animation, in pixels.",
+                    "target": "动画高度，以像素为单位。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Scaling factor for the generated GIF. 1.0 performs no scaling.",
+                    "target": "生成的 GIF 的缩放系数。1.0 表示不缩放。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Number of frames per second in the generated GIF.",
+                    "target": "生成的 GIF 每秒帧数。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Defines an overall time slowdown factor (e.g., slowdown: 1.0 is actual speed, slowdown: 2.0 is half actual speed).",
+                    "target": "定义整体时间减速系数（例如，slowdown: 1.0 为实际速度，slowdown: 2.0 为实际速度的一半）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Whether to display the ground.",
+                    "target": "是否显示地面。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Camera angles in degrees, given as one or a pair of angles. Example: camangle: (0,90). The first angle describes rotation of the camera around the juggler, and the second angle is the elevation angle given as degrees from directly overhead (i.e., 90 puts the camera on the same level as the juggler). Default value depends on the pattern.",
+                    "target": "以度为单位的相机角度，给出一个或一对角度。例如：camangle: (0,90)。第一个角度描述相机绕杂耍者的旋转，第二个角度是以正上方为基准的仰角（即 90 会让相机与杂耍者处于同一水平）。默认值取决于图案。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "List of one or more jugglers to hide (i.e., not render) during animation. Examples: hidejugglers=1 or hidejugglers=(1,3).",
+                    "target": "在动画期间要隐藏（即不渲染）的一个或多个杂耍者列表。示例：hidejugglers=1 或 hidejugglers=(1,3)。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Whether to display the pattern as a cross-eyed stereogram.",
+                    "target": "是否将图案显示为交叉视立体图。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Siteswap Settings",
+                    "target": "Siteswap 设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "These settings apply to all generated siteswap \n\t\t\t\t\tanimations, but can be overridden by specifying these parameters in the pattern \n\t\t\t\t\tconfiguration.",
+                    "target": "这些设置适用于所有生成的 siteswap \n\t\t\t\t\t动画，但可通过在图案 \n\t\t\t\t\t配置中指定这些参数来覆盖。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Note that existing animations won't update automatically after updating settings. \n\t\t\tTurning the plugin off and on again is the easiest way to update everything.",
+                    "target": "请注意，更新设置后现有动画不会自动更新。\n\t\t\t关闭并重新开启插件是更新所有内容的最简单方式。"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
