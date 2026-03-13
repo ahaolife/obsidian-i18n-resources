@@ -1,0 +1,637 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "statblock-sidekick",
+        "version": "1.0.0",
+        "title": "Statblock Sidekick",
+        "description": "Statblock Sidekick Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.3",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "placeholder",
+                    "source": "Enter folder path...",
+                    "target": "输入文件夹路径..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Default folder",
+                    "target": "默认文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Same as original file",
+                    "target": "与原始文件相同"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to parse YAML:",
+                    "target": "解析 YAML 失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "No statblock found",
+                    "target": "未找到属性块"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to save the file:",
+                    "target": "保存文件失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose how to save the sidekick files",
+                    "target": "选择保存 sidekick 文件的方式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Select the folder where sidekick files should be saved when 'Save mode' is set to 'Default folder'",
+                    "target": "当“保存模式”设为“默认文件夹”时，选择保存 sidekick 文件的文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Save mode",
+                    "target": "保存模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default folder",
+                    "target": "默认文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Select level",
+                    "target": "选择等级"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Select class",
+                    "target": "选择职业"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter or select a folder...",
+                    "target": "输入或选择文件夹..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Invalid save mode setting.",
+                    "target": "保存模式设置无效。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error saving the sidekick",
+                    "target": "保存随从时出错"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No valid statblock found!",
+                    "target": "未找到有效的属性块！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "CR must be ≤ 1/2",
+                    "target": "CR必须≤1/2"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "The sidekick gains proficiency in one saving throw of your choice",
+                    "target": "随从获得你所选择的一种豁免熟练。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "The sidekick gains proficiency in five skills of your choice.",
+                    "target": "随从获得你所选择的五项技能熟练。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "light armor",
+                    "target": "轻甲"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "all simple weapons",
+                    "target": "所有简单武器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "The sidekick can take the Help action as a bonus action.",
+                    "target": "随从可以将协助动作作为奖励动作来执行。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "On its turn in combat, the sidekick can take the Dash, Disengage, or Hide action as a bonus action.",
+                    "target": "在战斗中自己的回合，随从可以将疾走、脱离或躲藏动作作为奖励动作来执行。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Choose two of the sidekick's skill proficiencies. The sidekick's proficiency bonus is doubled for any ability check it makes that uses any of the chosen proficiencies.",
+                    "target": "选择随从的两项技能熟练项。随从在进行使用所选熟练项的任何属性检定时，其熟练加值翻倍。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "The sidekick increases one ability score of your choice by 2, or the sidekick increases two ability scores of your choice by 1. The sidekick can't increase an ability score above 20 using this feature.",
+                    "target": "随从将你选择的一项属性值提高2，或将你选择的两项属性值各提高1。随从不能通过此特性将属性值提高到20以上。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "The sidekick can take the Help action as a bonus action. When using this feature to aid an ally in attacking a creature, that target can be up to 30 feet away from the sidekick, and the sidekick can deal an extra 2d6 damage to it the next time the sidekick hits it with an attack roll before the end of the current turn. The extra damage is the same type of damage dealt by the attack.",
+                    "target": "随从可以将协助动作作为奖励动作来执行。使用此特性协助盟友攻击一名生物时，该目标最多可离随从30英尺，并且在当前回合结束前，随从下一次以攻击掷骰命中该目标时可对其造成额外2d6伤害。额外伤害的类型与该次攻击造成的伤害类型相同。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "When the sidekick is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it failed. The sidekick doesn't benefit from this feature while incapacitated.",
+                    "target": "当随从受到允许进行敏捷豁免以仅承受一半伤害的效果时，若豁免成功则不受伤害，若豁免失败则仅承受一半伤害。随从在失能时无法从此特性中受益。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "When the sidekick takes the Help action, the creature who receives the help also gains a 1d6 bonus to the d20 roll. If that roll is an attack roll, the creature can forgo adding the bonus to it, and then if the attack hits, the creature can add the bonus to the attack's damage roll against one target.",
+                    "target": "当随从执行协助动作时，接受协助的生物的d20掷骰也获得1d6加值。若该次掷骰为攻击掷骰，该生物可以放弃将该加值加在攻击掷骰上，若攻击命中，则该生物可将该加值加到针对一个目标的攻击伤害掷骰上。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Whenever the sidekick makes an ability check that includes its whole proficiency bonus, it can treat a d20 roll of 9 or lower as a 10.",
+                    "target": "每当随从进行包含其完整熟练加值的属性检定时，它可以将d20掷骰结果为9或更低视为10。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Sharp Mind: The sidekick gains proficiency in one saving throw of your choice.",
+                    "target": "敏锐心智：随从获得你选择的一项豁免检定的熟练项。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "When the sidekick takes the Help action, the creature who receives the help also gains a 2d6 bonus to the d20 roll. If that roll is an attack roll, the creature can forgo adding the bonus to it, and then if the attack hits, the creature can add the bonus to the attack's damage roll against one target.",
+                    "target": "当随从采取帮助动作时，受到帮助的生物还会在d20检定上获得2d6加值。如果该检定是攻击检定，生物可以放弃将该加值加到检定上，然后若攻击命中，生物可以将该加值加到该次攻击对一个目标的伤害掷骰上。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "The sidekick gains gain proficiency in one saving throw of your choice",
+                    "target": "随从获得你选择的一项豁免检定的熟练项。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "The sidekick gains the ability to cast spells. Choose the Spellcaster's role: Mage, Healer, or Prodigy. This choice determines the spell list and spellcasting ability used by the sidekick.",
+                    "target": "随从获得施法能力。选择施法者的角色：法师、治疗者或神童。该选择决定随从使用的法术列表和施法属性。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Spell List: Wizard - Spellcasting Ability: Intelligence",
+                    "target": "法术列表：法师 - 施法属性：智力"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Spell Lists: Cleric and Druid - Spellcasting Ability: Wisdom",
+                    "target": "法术列表：牧师与德鲁伊 - 施法属性：感知"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Spell Lists: Bard and Warlock - Spellcasting Ability: Charisma",
+                    "target": "法术列表：吟游诗人与邪术师 - 施法属性：魅力"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "The sidekick can add its spellcasting ability modifier to the damage it deals with any cantrip.",
+                    "target": "随从可以将其施法属性调整值加到其任意戏法造成的伤害上。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Choose one school of magic. Whenever the sidekick casts a spell of that school by expending a spell slot, the sidekick can add its spellcasting ability modifier to the spell's damage roll or healing roll, if any.",
+                    "target": "选择一个魔法学派。每当随从通过消耗法术位施放该学派的法术时，若有，则随从可以将其施法属性调整值加到该法术的伤害掷骰或治疗掷骰上。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Taking damage can't break the sidekick's concentration on a spell.",
+                    "target": "受到伤害不会打断随从对法术的专注。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "The sidekick gains proficiency in two skills of your choice",
+                    "target": "随从获得你选择的两项技能的熟练项。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "all armor",
+                    "target": "所有护甲"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "all simple and martial weapons",
+                    "target": "所有简易和军用武器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Each warrior focuses on offense or defense in their training. Choose one of the following options:",
+                    "target": "每位战士在训练中专注于进攻或防御。选择以下选项之一："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "The sidekick gains a + 2 bonus to all attack rolls (already included).",
+                    "target": "随从的所有攻击检定获得 +2 加值（已包含）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "The sidekick can use its reaction to impose disadvantage on the attack roll of a creature within 5 feet of it whose target isn't the sidekick, provided the sidekick can see the attacker.",
+                    "target": "如果随从能看见攻击者，它可以用其反应使 5 英尺内目标不是随从的生物的攻击检定具有劣势。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Once per short or long rest, the sidekick can use a bonus action on its turn to regain hit points equal to 1d10 + its level in this class.",
+                    "target": "每次短休或长休后一次，随从可以在其回合用一个附赠动作恢复等于 1d10 + 它在该职业等级的生命值。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "The sidekick's attack rolls score a critical hit on a roll of 19 or 20 on the d20.",
+                    "target": "随从的攻击检定在 d20 掷出 19 或 20 时造成重击。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "The sidekick can attack twice, instead of once, whenever it takes the Attack action on its turn. If the sidekick has the Multiattack action, it can use Extra Attack or Multiattack on a turn, not both.",
+                    "target": "随从在其回合进行攻击动作时可攻击两次，而非一次。如果随从拥有多重攻击动作，则其在一个回合中可使用额外攻击或多重攻击，不能同时使用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "The sidekick has advantage on initiative rolls.",
+                    "target": "随从的先攻检定具有优势。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "The sidekick's Armor Class increases by 1 (already iuncluded).",
+                    "target": "随从的护甲等级提高 1（已包含）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Once per long rest, the sidekick can reroll a saving throw that it fails, but it must use the new roll.",
+                    "target": "每次长休后一次，随从可以重掷一次失败的豁免检定，但必须使用新的结果。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "The sidekick can attack three times, instead of once, whenever it takes the Attack action on its turn. If the sidekick has the Multiattack action, it can use Extra Attack or Multiattack on a turn, not both.",
+                    "target": "随从在自己的回合采取攻击动作时，可以攻击三次而非一次。如果随从具有多重攻击动作，则它在一个回合中可以使用额外攻击或多重攻击，但不能同时使用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Twice per long rest, the sidekick can reroll a saving throw that it fails, but it must use the new roll.",
+                    "target": "每次长休后两次，随从可以重掷一次失败的豁免检定，但必须使用新的结果。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Twice per short or long rest, the sidekick can use a bonus action on its turn to regain hit points equal to 1d10 + its level in this class.",
+                    "target": "每次短休或长休后两次，随从可以在自己的回合使用一个附赠动作，恢复等于 1d10 + 其在该职业中的等级的生命值。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Saving Throw Proficiency",
+                    "target": "豁免熟练项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Skill Proficiencies",
+                    "target": "技能熟练项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Animal Handling",
+                    "target": "驯养动物"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sleight of Hand",
+                    "target": "巧手"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Armor Proficiency",
+                    "target": "护甲熟练项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Weapon Proficiency",
+                    "target": "武器熟练项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Tool Proficiencies",
+                    "target": "工具熟练项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Brewer's supplies",
+                    "target": "酿酒师用品"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Calligrapher's supplies",
+                    "target": "书法师用品"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Carpenter's tools",
+                    "target": "木匠工具"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Cartographer's tools",
+                    "target": "制图师工具"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Cobbler's tools",
+                    "target": "鞋匠工具"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Cook's utensils",
+                    "target": "厨师用具"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Disguise kit",
+                    "target": "易容工具包"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Forgery kit",
+                    "target": "伪造工具包"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Glassblower's tools",
+                    "target": "玻璃匠工具"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Herbalism kit",
+                    "target": "草药学工具包"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Jeweler's tools",
+                    "target": "珠宝匠工具"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Leatherworker's tools",
+                    "target": "皮匠工具"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Mason's tools",
+                    "target": "石匠工具"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Navigator's tools",
+                    "target": "航海员工具"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Painter's supplies",
+                    "target": "画家用品"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Poisoner's kit",
+                    "target": "制毒者工具包"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Potter's tools",
+                    "target": "陶工工具"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Smith's tools",
+                    "target": "铁匠工具"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Tinker's tools",
+                    "target": "修补匠工具"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Thieves' tools",
+                    "target": "盗贼工具"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Weaver's tools",
+                    "target": "织工工具"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Woodcarver's tools",
+                    "target": "木雕工具"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Cunning Action",
+                    "target": "狡诈行动"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Will be determined based on the sidekick's skill proficiencies",
+                    "target": "将根据随从的技能熟练项确定"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Will be determined based on the sidekick's current abilities",
+                    "target": "将根据随从的当前能力确定"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Inspiring Help",
+                    "target": "鼓舞援助"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Reliable Talent",
+                    "target": "稳健天赋"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Spellcaster Role",
+                    "target": "施法者角色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Potent Cantrips",
+                    "target": "强效戏法"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Focused Casting",
+                    "target": "专注施法"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Weapon Proficiencies",
+                    "target": "武器熟练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Shield Proficiency",
+                    "target": "盾牌熟练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Martial Role",
+                    "target": "武斗职责"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Second Wind",
+                    "target": "喘息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Improved Critical",
+                    "target": "强化重击"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Extra Attack",
+                    "target": "额外攻击"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Battle Readiness",
+                    "target": "战斗准备"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Improved Defense",
+                    "target": "强化防御"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Equipment Proficiencies",
+                    "target": "装备熟练"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Create sidekick",
+                    "target": "创建助手"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Enter name...",
+                    "target": "输入名称..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Enter a name for the sidekick",
+                    "target": "为助手输入名称"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
