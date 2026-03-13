@@ -1,0 +1,121 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "come-down",
+        "version": "1.0.0",
+        "title": "Come Down",
+        "description": "Come Down Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error clearing cache:",
+                    "target": "清除缓存时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Microtask failed:",
+                    "target": "微任务失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Delete all cached files",
+                    "target": "删除所有缓存文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Confirm cache delete",
+                    "target": "确认删除缓存"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Refresh metadata",
+                    "target": "刷新元数据"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Let’s you know when files are downloaded and how many.",
+                    "target": "让你知道文件何时下载以及下载数量。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Shortens the message to make it less distracting.",
+                    "target": "缩短消息以减少干扰。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Failed to count cached files.",
+                    "target": "统计缓存文件失败。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Use a `.gitignore` file to prevent cached files from being visible to Git. Note that this option cannot be disabled here.",
+                    "target": "使用 `.gitignore` 文件防止缓存文件对 Git 可见。请注意，此选项无法在此处禁用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Display a message on download",
+                    "target": "下载时显示消息"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use compact download message",
+                    "target": "使用简洁的下载消息"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Number of files cached",
+                    "target": "缓存的文件数量"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Exclude cache from Git",
+                    "target": "将缓存排除在 Git 之外"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Total number of files cached",
+                    "target": "缓存的文件总数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Debug info",
+                    "target": "调试信息"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "cancelImageLoading: Setting dataset to blob.",
+                    "target": "cancelImageLoading：将 dataset 设置为 blob。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Delete cache and reload",
+                    "target": "删除缓存并重新加载"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
