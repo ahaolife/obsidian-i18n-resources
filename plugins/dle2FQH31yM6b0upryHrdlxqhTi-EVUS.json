@@ -1,0 +1,61 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "superstition",
+        "version": "1.0.0",
+        "title": "Superstition",
+        "description": "Superstition Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Add New Activity",
+                    "target": "添加新活动"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Activity name",
+                    "target": "活动名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Period (days)",
+                    "target": "周期（天）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show today's routines",
+                    "target": "显示今天的日程"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Today's routines",
+                    "target": "今天的日程"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "宜 (Suitable)",
+                    "target": "宜（适宜）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "忌 (Unsuitable)",
+                    "target": "忌（不宜）"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
