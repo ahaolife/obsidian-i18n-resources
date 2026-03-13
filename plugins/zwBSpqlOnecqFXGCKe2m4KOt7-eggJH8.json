@@ -1,0 +1,55 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "remember-cursor-position",
+        "version": "1.0.0",
+        "title": "Remember cursor position",
+        "description": "Remember cursor position Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.9",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Save positions to this file",
+                    "target": "将位置保存到此文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "This plugin shouldn't scroll if you used a link to the note header like [link](note.md#header). If it did, then increase the delay until everything works. If you are not using links to page sections, set the delay to zero (slider to the left). Slider values: 0-300 ms (default value: 100 ms).",
+                    "target": "如果你使用了指向笔记标题的链接，如 [link](note.md#header)，此插件不应滚动。如果发生滚动，请增大延迟直到一切正常。如果你不使用指向页面部分的链接，将延迟设为 0（滑块向左）。滑块取值：0-300 ms（默认值：100 ms）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Useful for multi-device users. If you don't want to wait until closing Obsidian to the cursor position been saved.",
+                    "target": "对多设备用户很有用。如果你不想等到关闭 Obsidian 才保存光标位置。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Data file name",
+                    "target": "数据文件名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Delay after opening a new note",
+                    "target": "打开新笔记后的延迟"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Delay between saving the cursor position to file",
+                    "target": "保存光标位置到文件之间的延迟"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
