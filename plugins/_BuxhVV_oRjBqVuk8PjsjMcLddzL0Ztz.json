@@ -1,0 +1,127 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "geocoding-properties",
+        "version": "1.0.0",
+        "title": "Geocoding Properties",
+        "description": "Geocoding Properties Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.1.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Whether to override existing properties with the same name",
+                    "target": "是否覆盖同名的现有属性"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Provider for the map_link property, if enabled",
+                    "target": "启用时用于 map_link 属性的提供商"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Properties to use when querying the geocoding API. Use \"name\" to fall back to the note name.",
+                    "target": "查询地理编码 API 时使用的属性。使用 \"name\" 以回退到笔记名称。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Override existing properties",
+                    "target": "覆盖现有属性"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Map link provider",
+                    "target": "地图链接提供商"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Search property order",
+                    "target": "搜索属性顺序"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "API provider",
+                    "target": "API 提供商"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "API key",
+                    "target": "API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Select result",
+                    "target": "选择结果"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Property name",
+                    "target": "属性名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Confirm search term",
+                    "target": "确认搜索词"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "Format varies by provider",
+                    "target": "格式因提供商而异"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "Coordinates in [lat, lng] format",
+                    "target": "坐标格式为 [lat, lng]"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "A link in [](geo:lat,lng) format",
+                    "target": "一个 [](geo:lat,lng) 格式的链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Map link",
+                    "target": "地图链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Map view link",
+                    "target": "地图视图链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert properties into current note",
+                    "target": "将属性插入当前笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert properties into current note (no confirmation)",
+                    "target": "将属性插入当前笔记（无需确认）"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
