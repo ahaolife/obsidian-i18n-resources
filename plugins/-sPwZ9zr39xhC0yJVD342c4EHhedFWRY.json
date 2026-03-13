@@ -1,0 +1,799 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "hi-note",
+        "version": "1.0.0",
+        "title": "HiNote",
+        "description": "HiNote Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.5.5",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"loading-spinner\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><path d=\"M12 6v6l4 2\"></path></svg>",
+                    "target": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"loading-spinner\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><path d=\"M12 6v6l4 2\"></path></svg>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Add answer",
+                    "target": "添加答案"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "No orphaned data found.",
+                    "target": "未发现孤立数据。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "2000 chars",
+                    "target": "2000 个字符"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "3 lines",
+                    "target": "3 行"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unable to access cssRules property",
+                    "target": "无法访问 cssRules 属性"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Cannot detach cloned iframe as it is not in the DOM anymore",
+                    "target": "无法分离已克隆的 iframe，因为它已不在 DOM 中"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Delete group failed:",
+                    "target": "删除组失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Group manager is not available",
+                    "target": "组管理器不可用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error rendering markdown in flashcard:",
+                    "target": "在闪卡中渲染 Markdown 时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Update group failed:",
+                    "target": "更新分组失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error rendering highlight content:",
+                    "target": "渲染高亮内容时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error rendering markdown in highlight:",
+                    "target": "渲染高亮中的 Markdown 时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error rendering comments:",
+                    "target": "渲染评论时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error rendering markdown in comment:",
+                    "target": "渲染评论中的 Markdown 时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "创建闪卡时出错:",
+                    "target": "创建闪卡时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "删除闪卡时出错:",
+                    "target": "删除闪卡时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "自定义正则表达式错误:",
+                    "target": "自定义正则表达式错误:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "删除高亮时出错:",
+                    "target": "删除高亮时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "完全删除高亮时出错:",
+                    "target": "完全删除高亮时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[HighlightCard] Error pre-generating block ID:",
+                    "target": "[HighlightCard] 预生成块 ID 时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[HighlightCard] SelectionManager 未传入，无法进行选择操作",
+                    "target": "[HighlightCard] SelectionManager 未传入，无法进行选择操作"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[HighlightCard] Error during drag start:",
+                    "target": "[HighlightCard] 开始拖动时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "复制内容失败:",
+                    "target": "复制内容失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "复制高亮内容时出错:",
+                    "target": "复制高亮内容时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "处理闪卡操作时出错:",
+                    "target": "处理闪卡操作时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[ExportService] Error creating block ID:",
+                    "target": "[ExportService] 创建块 ID 时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[搜索 UI 管理器] 搜索过程中出错:",
+                    "target": "[搜索 UI 管理器] 搜索过程中出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error parsing highlight data:",
+                    "target": "解析高亮数据时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to export highlights:",
+                    "target": "导出高亮失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Create HiCard failed:",
+                    "target": "创建 HiCard 失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to delete HiCard:",
+                    "target": "删除 HiCard 失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[BatchDelete] 删除闪卡失败:",
+                    "target": "[BatchDelete] 删除闪卡失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[BatchDelete] 从 HighlightManager 删除失败:",
+                    "target": "[BatchDelete] 从 HighlightManager 删除失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[BatchDelete] 处理文件失败:",
+                    "target": "[BatchDelete] 处理文件失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[BatchDelete] 清理卡片实例失败:",
+                    "target": "[BatchDelete] 清理卡片实例失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[BatchDelete] 批量删除过程出错:",
+                    "target": "[BatchDelete] 批量删除过程出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "删除评论失败:",
+                    "target": "删除评论失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "AI内联生成失败:",
+                    "target": "AI内联生成失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[CommentInput] 安全销毁时出错:",
+                    "target": "[CommentInput] 安全销毁时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "处理 Canvas 文件失败:",
+                    "target": "处理 Canvas 文件失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[ExportManager] Error exporting as image:",
+                    "target": "[ExportManager] 导出为图片时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[InfiniteScrollManager] Error loading highlights:",
+                    "target": "[InfiniteScrollManager] 加载高亮时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[CommentView] Error in updateAllHighlights:",
+                    "target": "[CommentView] updateAllHighlights 出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[高亮搜索] 搜索过程中出错:",
+                    "target": "[高亮搜索] 搜索过程中出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[HiNote] Error updating orphaned data count:",
+                    "target": "[HiNote] 更新孤立数据计数时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[HiNote] Error cleaning orphaned data:",
+                    "target": "[HiNote] 清理孤立数据时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[HiNote] Error checking orphaned data:",
+                    "target": "[HiNote] 检查孤立数据时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Test connection error:",
+                    "target": "测试连接出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error rendering markdown in chat:",
+                    "target": "在聊天中渲染 markdown 时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "发送消息时出错:",
+                    "target": "发送消息时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error rendering markdown:",
+                    "target": "渲染 Markdown 时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error rendering markdown in tooltip:",
+                    "target": "在工具提示中渲染 Markdown 时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "创建卡片时出错:",
+                    "target": "创建卡片时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "第二次尝试创建卡片失败:",
+                    "target": "第二次尝试创建卡片失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "保存卡片时出错:",
+                    "target": "保存卡片时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "删除卡片时出错:",
+                    "target": "删除卡片时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "保存分组数据时出错:",
+                    "target": "保存分组数据时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Loading storage data failed:",
+                    "target": "加载存储数据失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Saving data failed:",
+                    "target": "保存数据失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "事件管理器不存在，无法注册事件监听器",
+                    "target": "事件管理器不存在，无法注册事件监听器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "解析 Canvas 文件失败:",
+                    "target": "解析 Canvas 文件失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[HighlightRepository] 加载高亮文件列表失败:",
+                    "target": "[HighlightRepository] 加载高亮文件列表失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[HiNote] 加载高亮数据失败:",
+                    "target": "[HiNote] 加载高亮数据失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Unable to inline canvas contents, canvas is tainted",
+                    "target": "无法内联画布内容，画布已被污染"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Unable to clone canvas as it is tainted",
+                    "target": "无法克隆画布，因为已被污染"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Unable to clone video as it is tainted",
+                    "target": "无法克隆视频，因为已被污染"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "AI service",
+                    "target": "AI 服务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Example: folder 1/folder 2",
+                    "target": "示例：文件夹 1/文件夹 2"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "> [!quote] HiNote\n> {{highlightText}}\n> \n>> [!note]+ {{commentDate}}\n>> {{commentContent}}",
+                    "target": "> [!quote] HiNote\n> {{highlightText}}\n> \n>> [!note]+ {{commentDate}}\n>> {{commentContent}}"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "[0.4872, 1.4003, ...]",
+                    "target": "[0.4872, 1.4003, ...]"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Unable to restore scroll position for cloned document",
+                    "target": "无法恢复克隆文档的滚动位置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Unable to clone WebGL context as it has preserveDrawingBuffer=false",
+                    "target": "无法克隆 WebGL 上下文，因为其 preserveDrawingBuffer=false"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "高亮缺少 ID，正在生成...",
+                    "target": "高亮缺少 ID，正在生成..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[FSRS]Invalid parameters length, using default parameters",
+                    "target": "[FSRS]参数长度无效，使用默认参数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "文件映射数据验证失败:",
+                    "target": "文件映射数据验证失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "保存文件映射失败:",
+                    "target": "保存文件映射失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "扫描高亮目录失败:",
+                    "target": "扫描高亮目录失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "闪卡数据验证失败:",
+                    "target": "闪卡数据验证失败:"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Ollama service is not running. Please start the service.",
+                    "target": "Ollama 服务未运行。请启动该服务。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to copy content",
+                    "target": "复制内容失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "未找到文件",
+                    "target": "未找到文件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "打开文件失败",
+                    "target": "打开文件失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "未找到高亮内容",
+                    "target": "未找到高亮内容"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "加载高亮内容时出错",
+                    "target": "加载高亮内容时出错"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No orphaned data found.",
+                    "target": "未找到孤立数据。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error cleaning orphaned data. Check console for details.",
+                    "target": "清理孤立数据时出错。详情请查看控制台。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error checking orphaned data. Check console for details.",
+                    "target": "检查孤立数据时出错。详情请查看控制台。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "获取 AI 响应失败，请检查服务配置和网络连接",
+                    "target": "获取 AI 响应失败，请检查服务配置和网络连接"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to send message, please try again",
+                    "target": "发送消息失败，请重试"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "没有高亮内容可预览",
+                    "target": "没有高亮内容可预览"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Context settings applied",
+                    "target": "上下文设置已应用"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Reset to default settings",
+                    "target": "已重置为默认设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Smart Context - Auto-select best strategy",
+                    "target": "智能上下文 - 自动选择最佳策略"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Paragraph Context - Get complete paragraphs",
+                    "target": "段落上下文 - 获取完整段落"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Section Context - Get entire sections",
+                    "target": "章节上下文 - 获取完整章节"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Surrounding Lines - Specify before/after lines",
+                    "target": "周边行 - 指定前后行数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Claude Opus 4.1",
+                    "target": "Claude Opus 4.1"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Claude Opus 4",
+                    "target": "Claude Opus 4"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Claude Sonnet 4",
+                    "target": "Claude Sonnet 4"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Claude 3.7 Sonnet",
+                    "target": "Claude 3.7 Sonnet"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Claude 3.5 Haiku",
+                    "target": "Claude 3.5 Haiku"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Claude 3 Haiku",
+                    "target": "Claude 3 Haiku"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Deepseek Chat",
+                    "target": "Deepseek Chat"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Deepseek Reasoner",
+                    "target": "Deepseek Reasoner"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "GPT-4o Mini",
+                    "target": "GPT-4o Mini"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "GPT-4 Turbo",
+                    "target": "GPT-4 Turbo"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "GPT-3.5 Turbo",
+                    "target": "GPT-3.5 Turbo"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Claude Sonnet 3.7",
+                    "target": "Claude Sonnet 3.7"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Claude Haiku 3.5",
+                    "target": "Claude Haiku 3.5"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Claude Haiku 3",
+                    "target": "Claude Haiku 3"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "DeepSeek V3",
+                    "target": "DeepSeek V3"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Qwen2.5 7B",
+                    "target": "Qwen2.5 7B"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Qwen2.5 14B",
+                    "target": "Qwen2.5 14B"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Qwen2 7B",
+                    "target": "Qwen2 7B"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "GLM-4 9B",
+                    "target": "GLM-4 9B"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Default Highlight",
+                    "target": "默认高亮"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Mark format",
+                    "target": "标记格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Span format",
+                    "target": "Span 格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Double click to edit",
+                    "target": "双击编辑"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Context Preview & Settings",
+                    "target": "上下文预览与设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Preview Content (Auto-update)",
+                    "target": "预览内容（自动更新）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Generating preview...",
+                    "target": "正在生成预览..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Preview generation failed",
+                    "target": "预览生成失败"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Context Strategy",
+                    "target": "上下文策略"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Context Length",
+                    "target": "上下文长度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Surrounding Lines",
+                    "target": "周围行数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Other Options",
+                    "target": "其他选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " Include section titles",
+                    "target": " 包含章节标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Reset to defaults",
+                    "target": "恢复默认设置"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
