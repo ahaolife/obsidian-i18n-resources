@@ -1,0 +1,31 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "ruby-wasm",
+        "version": "1.0.0",
+        "title": "ruby.wasm",
+        "description": "ruby.wasm Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.0.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Run in Modal",
+                    "target": "在模态窗口中运行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Run in Editor",
+                    "target": "在编辑器中运行"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
