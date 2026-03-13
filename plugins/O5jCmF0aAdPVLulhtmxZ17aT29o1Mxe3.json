@@ -1,0 +1,55 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "google-contacts",
+        "version": "1.0.0",
+        "title": "Google Contacts",
+        "description": "Google Contacts Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.8",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to exchange code:",
+                    "target": "无法交换代码："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to refresh access token",
+                    "target": "无法刷新访问令牌"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to fetch Google contacts",
+                    "target": "无法获取 Google 联系人"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to fetch Other contacts",
+                    "target": "无法获取其他联系人"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to fetch Google groups",
+                    "target": "无法获取 Google 群组"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Audit Contacts",
+                    "target": "审核联系人"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
