@@ -1,0 +1,18 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-frontmatter-tag-suggest",
+        "version": "1.0.0",
+        "title": "Frontmatter Tag Suggest",
+        "description": "Frontmatter Tag Suggest Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.4.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [],
+            "regex": []
+        }
+    }
+}
