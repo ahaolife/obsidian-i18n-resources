@@ -1,0 +1,2323 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "media-extended",
+        "version": "1.0.0",
+        "title": "Media Extended",
+        "description": "Media Extended Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "4.1.5",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Continue with Google",
+                    "target": "使用 Google 继续"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Continue with GitHub",
+                    "target": "使用 GitHub 继续"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "By continuing, you agree to our ",
+                    "target": "继续即表示您同意我们的"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " and ",
+                    "target": " 和 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Edit hash properties",
+                    "target": "编辑哈希属性"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Opening URL from browser: ",
+                    "target": "从浏览器打开 URL："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Cannot capture screenshot from this media due to CORS security policy, ",
+                    "target": "由于 CORS 安全策略，无法从此媒体捕获截图，"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "See the troubleshooting guide for possible solutions",
+                    "target": "查看故障排除指南以获取可能的解决方案"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Controls when media files start loading in your notes.",
+                    "target": "控制媒体文件在笔记中开始加载的时间。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Media starts loading immediately when you open the note.",
+                    "target": "打开笔记时媒体会立即开始加载。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Recommended for notes with few videos/audio files as it keeps Obsidian fast.",
+                    "target": "推荐用于视频/音频文件较少的笔记，可保持 Obsidian 的运行速度。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Choose browser to open with browser companion extension to access more features.",
+                    "target": "选择用于打开的浏览器，以配合浏览器伴侣扩展访问更多功能。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Choose the format of the saved screenshot",
+                    "target": "选择保存截图的格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "WEBP has better compression ratio, but would fallback to JPEG in unsupported browsers like iOS or iPadOS",
+                    "target": "WEBP 具有更好的压缩率，但在不支持的浏览器（如 iOS 或 iPadOS）中会回退为 JPEG。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "A list of languages to show subtitles/captions for by default.",
+                    "target": "默认显示字幕/说明的语言列表。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Each language code should be on a new line.",
+                    "target": "每个语言代码应单独占一行。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "confirm",
+                    "source": "Export password manager data? Keep in mind that the credentials will be saved in plain text and is not secure and can be easily read by anyone.",
+                    "target": "导出密码管理器数据？请注意，凭据将以纯文本保存，不安全且任何人都可轻易读取。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "confirm",
+                    "source": "Are you sure you want to clear all credentials? This action cannot be undone.",
+                    "target": "确定要清除所有凭据吗？此操作无法撤销。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "forceFrameRate takes a positive int between 0 and 125, forcing frame rates higher than 125 fps is not supported",
+                    "target": "forceFrameRate 接受 0 到 125 的正整数，不支持强制高于 125 fps 的帧率。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to create a new BroadcastChannel, multi-tab state changes will not be available",
+                    "target": "无法创建新的 BroadcastChannel，多标签页状态更改将不可用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Auto refresh tick failed with error. This is likely a transient error.",
+                    "target": "自动刷新失败并出现错误。这可能是暂时性错误。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error in detectVolumeSetter:",
+                    "target": "detectVolumeSetter 中出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "`persistent` option is only available in Deno",
+                    "target": "`persistent` 选项仅在 Deno 中可用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Please add a BigInt polyfill.",
+                    "target": "请添加 BigInt Polyfill。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to deserialize media view state",
+                    "target": "反序列化媒体视图状态失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "onOpenFile error in openFile, fallback to default",
+                    "target": "openFile 中出现 onOpenFile 错误，回退到默认值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "failed to insert timestamp",
+                    "target": "插入时间戳失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "unexpected folder",
+                    "target": "意外的文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error signing in with GitHub:",
+                    "target": "使用 GitHub 登录时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "No code provided from PKCE callback",
+                    "target": "PKCE 回调未提供代码"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error exchanging code for session",
+                    "target": "交换代码以获取会话时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error signing out",
+                    "target": "退出登录时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to get media file path",
+                    "target": "无法获取媒体文件路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to get image from cache:",
+                    "target": "无法从缓存获取图片："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to set image in cache:",
+                    "target": "无法将图片设置到缓存中："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to delete image from cache:",
+                    "target": "无法从缓存中删除图片："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to clear cache:",
+                    "target": "无法清除缓存："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to get total cache size:",
+                    "target": "无法获取缓存总大小："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to reset cache database:",
+                    "target": "无法重置缓存数据库："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to evict cache entries:",
+                    "target": "无法清除缓存条目："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "onInternalLinkClick error in editor, fallback to default",
+                    "target": "编辑器中 onInternalLinkClick 出错，回退为默认"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "onExternalLinkClick error in editor, fallback to default",
+                    "target": "编辑器中 onExternalLinkClick 出错，回退为默认"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "onInternalLinkClick error in openLinktext, fallback to default",
+                    "target": "openLinktext 中 onInternalLinkClick 出错，回退为默认"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to patch preview click",
+                    "target": "补丁预览点击失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "onExternalLinkClick error in preview, fallback to default",
+                    "target": "预览中 onExternalLinkClick 出错，回退为默认"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "onInternalLinkClick error in preview, fallback to default",
+                    "target": "预览中 onInternalLinkClick 出错，回退为默认"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "open external link fallback error",
+                    "target": "打开外部链接回退出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "open external link error",
+                    "target": "打开外部链接出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Retrying failed fetch. Error:",
+                    "target": "正在重试失败的获取。错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Invalid SPS NAL unit type",
+                    "target": "无效的 SPS NAL 单元类型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error building AVC Decoder Configuration Record:",
+                    "target": "构建 AVC 解码器配置记录时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error building HEVC Decoder Configuration Record:",
+                    "target": "构建 HEVC 解码器配置记录时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error during decodability check:",
+                    "target": "可解码性检查期间出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to get input",
+                    "target": "获取输入失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to load plugin data:",
+                    "target": "加载插件数据失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to find related media from fs for",
+                    "target": "未能从 fs 找到相关媒体用于"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to open electron file picker",
+                    "target": "打开 Electron 文件选择器失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "error loading media tracks",
+                    "target": "加载媒体轨道时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "jump to timestamp error",
+                    "target": "跳转到时间戳时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "seek to beginning of the clip error",
+                    "target": "定位到片段开头时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "reset time range error",
+                    "target": "重置时间范围出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "media error",
+                    "target": "媒体错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to resolve file",
+                    "target": "解析文件失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to access file",
+                    "target": "访问文件失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to import password manager data",
+                    "target": "导入密码管理器数据失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error checking auth state:",
+                    "target": "检查认证状态出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error signing out:",
+                    "target": "退出登录出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to dispose container",
+                    "target": "释放容器失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to initialize main process service",
+                    "target": "初始化主进程服务失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error pasting track",
+                    "target": "粘贴轨道出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "recorder not found, skip patching for recorder note",
+                    "target": "未找到录音器，跳过对录音器备注的补丁"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Media Extended: User logged in via OAuth",
+                    "target": "Media Extended：用户通过 OAuth 登录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "starting default worker",
+                    "target": "正在启动默认 worker"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "worker error",
+                    "target": "worker 错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "@supabase/gotrue-js: navigatorLock: acquire lock",
+                    "target": "@supabase/gotrue-js: navigatorLock: 获取锁"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "@supabase/gotrue-js: navigatorLock acquire timed out",
+                    "target": "@supabase/gotrue-js: navigatorLock 获取锁超时"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "@supabase/gotrue-js: navigatorLock: acquired",
+                    "target": "@supabase/gotrue-js: navigatorLock: 已获取"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "@supabase/gotrue-js: navigatorLock: released",
+                    "target": "@supabase/gotrue-js: navigatorLock: 已释放"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "@supabase/gotrue-js: navigatorLock: not immediately available",
+                    "target": "@supabase/gotrue-js: navigatorLock: 无法立即获取"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "@supabase/gotrue-js: Navigator LockManager state",
+                    "target": "@supabase/gotrue-js: Navigator LockManager 状态"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Google login clicked",
+                    "target": "已点击 Google 登录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "waiting for connector ready",
+                    "target": "正在等待连接器就绪"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "connector ready",
+                    "target": "连接器已就绪"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "connected to main process",
+                    "target": "已连接到主进程"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Hello from Media Extended",
+                    "target": "来自 Media Extended 的问候"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Continue with Google",
+                    "target": "使用 Google 继续"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "View Release Notes",
+                    "target": "查看发布说明"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Open guide",
+                    "target": "打开指南"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Sign out",
+                    "target": "退出登录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Sign in",
+                    "target": "登录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Where newly created screenshots will be saved. You can go to \"Files and links\" to change the default location of new attachments.",
+                    "target": "新创建的截图将保存到此处。你可以前往“文件与链接”更改新附件的默认位置。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Place newly created screenshots in this folder.",
+                    "target": "将新创建的截图放在此文件夹中。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Sign in to access online features like YouTube transcript fetching, AI transcript & summary, and more.",
+                    "target": "登录以使用在线功能，如获取 YouTube 转录、AI 转录与摘要等。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Let media extended handle link to YouTube, Vimeo, bilibili, etc",
+                    "target": "让 media extended 处理指向 YouTube、Vimeo、bilibili 等的链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Configure how links to media are opened",
+                    "target": "配置媒体链接的打开方式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Behavior when clicking on a link",
+                    "target": "点击链接时的行为"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Folder path for media library (relative to vault root)",
+                    "target": "媒体库文件夹路径（相对于库根目录）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Configure where timestamps and screenshots are inserted",
+                    "target": "配置插入时间戳和截图的位置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Offset in seconds to add to the timestamp",
+                    "target": "要加到时间戳的秒数偏移"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The default volume for media files",
+                    "target": "媒体文件的默认音量"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Preserve audio pitch to compensate for playback rate changes. Won't work on video hosted in YouTube and Vimeo",
+                    "target": "保持音频音高以补偿播放速度变化。对托管在 YouTube 和 Vimeo 上的视频无效"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show subtitles/captions whenever available.",
+                    "target": "有字幕/说明时显示。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Where text tracks (subtitles/captions) will be searched for. You can go to \"Files and links\" to change the default location of new attachments.",
+                    "target": "文本轨道（字幕/说明）的搜索位置。你可以前往“文件和链接”更改新附件的默认位置。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Search for text tracks in this folder.",
+                    "target": "在此文件夹中搜索文本轨道。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default location for new screenshots",
+                    "target": "新截图的默认位置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Screenshot folder path",
+                    "target": "截图文件夹路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Login passwords",
+                    "target": "登录密码"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Your account",
+                    "target": "你的账户"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Load strategy",
+                    "target": "加载策略"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Handle link to hosted media",
+                    "target": "处理托管媒体链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Open hosted media in...",
+                    "target": "在...中打开托管媒体"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Link behavior",
+                    "target": "链接行为"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Alternative click",
+                    "target": "替代点击"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Media Library",
+                    "target": "媒体库"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Media folder path",
+                    "target": "媒体文件夹路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Note taking",
+                    "target": "笔记记录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Insert location",
+                    "target": "插入位置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Timestamp offset",
+                    "target": "时间戳偏移"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default volume",
+                    "target": "默认音量"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Preserve pitch",
+                    "target": "保留音高"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Fine-tune speed adjustment",
+                    "target": "微调速度调整"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Save screenshot as",
+                    "target": "截图另存为"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Text tracks",
+                    "target": "文本轨道"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable text tracks by default",
+                    "target": "默认启用文本轨道"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default languages",
+                    "target": "默认语言"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default location for text tracks",
+                    "target": "文本轨道默认位置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Text track folder path",
+                    "target": "文本轨道文件夹路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter file path, URL or media id, or drop a media file here",
+                    "target": "输入文件路径、URL 或媒体 ID，或将媒体文件拖放到此处"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Playback Speed",
+                    "target": "播放速度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Audio Gain",
+                    "target": "音频增益"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Select Transcript",
+                    "target": "选择转录文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Open dialog to edit all hash parameters",
+                    "target": "打开对话框以编辑所有哈希参数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Edit Media Metadata",
+                    "target": "编辑媒体元数据"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Clip Image",
+                    "target": "裁剪图片"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Import Text Track File",
+                    "target": "导入文本轨道文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Import Text Track from URL",
+                    "target": "从 URL 导入文本轨道"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Import YouTube Subtitle",
+                    "target": "导入 YouTube 字幕"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Open local file",
+                    "target": "打开本地文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Password Manager",
+                    "target": "密码管理器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Media starts loading immediately when you open the note.",
+                    "target": "打开笔记时媒体会立即开始加载。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Copy file path",
+                    "target": "复制文件路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Stop syncing with player",
+                    "target": "停止与播放器同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Sync with active player",
+                    "target": "与当前播放器同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Flip video",
+                    "target": "翻转视频"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Horizontal (Mirror)",
+                    "target": "水平（镜像）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Vertical (Upside down)",
+                    "target": "垂直（上下颠倒）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Extract text from screenshot",
+                    "target": "从截图中提取文字"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Preserve pitch",
+                    "target": "保持音高"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Open transcript",
+                    "target": "打开转录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Edit hash properties",
+                    "target": "编辑哈希属性"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Open related media",
+                    "target": "打开相关媒体"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Copy URL with timestamp",
+                    "target": "复制带时间戳的 URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Update metadata",
+                    "target": "更新元数据"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Edit media metadata",
+                    "target": "编辑媒体元数据"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Open media properties",
+                    "target": "打开媒体属性"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Add to media library",
+                    "target": "添加到媒体库"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Open in Media Extended",
+                    "target": "在 Media Extended 中打开"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Open in default browser",
+                    "target": "在默认浏览器中打开"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Copy URL",
+                    "target": "复制 URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Select video file from vault",
+                    "target": "从库中选择视频文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Open external media",
+                    "target": "打开外部媒体"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Add text track",
+                    "target": "添加文本轨道"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "from local file",
+                    "target": "从本地文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "from YouTube",
+                    "target": "来自 YouTube"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Add new credential",
+                    "target": "添加新凭据"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Import credentials",
+                    "target": "导入凭据"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Export credentials",
+                    "target": "导出凭据"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Clear all credentials",
+                    "target": "清除所有凭据"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Open password manager",
+                    "target": "打开密码管理器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "WebCrypto API is not supported. Code challenge method will default to use plain instead of sha256.",
+                    "target": "不支持 WebCrypto API。代码挑战方法将默认使用 plain 而非 sha256。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "@supabase/gotrue-js: Error when querying Navigator LockManager state",
+                    "target": "@supabase/gotrue-js: 查询 Navigator LockManager 状态时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "@supabase/gotrue-js: Navigator LockManager returned a null lock when using #request without ifAvailable set to true, it appears this browser is not following the LockManager spec https://developer.mozilla.org/en-US/docs/Web/API/LockManager/request",
+                    "target": "@supabase/gotrue-js: 在未将 ifAvailable 设为 true 的情况下使用 #request 时，Navigator LockManager 返回了空锁，似乎该浏览器未遵循 LockManager 规范 https://developer.mozilla.org/en-US/docs/Web/API/LockManager/request"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Multiple GoTrueClient instances detected in the same browser context. It is not an error, but this should be avoided as it may produce undefined behavior when used concurrently under the same storage key.",
+                    "target": "在同一浏览器上下文中检测到多个 GoTrueClient 实例。这不是错误，但应避免这种情况，因为在同一存储键下并发使用可能会产生未定义行为。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Using the user object as returned from supabase.auth.getSession() or from some supabase.auth.onAuthStateChange() events could be insecure! This value comes directly from the storage medium (usually cookies on the server) and may not be authentic. Use supabase.auth.getUser() instead which authenticates the data by contacting the Supabase Auth server.",
+                    "target": "使用 supabase.auth.getSession() 返回的用户对象或某些 supabase.auth.onAuthStateChange() 事件中的用户对象可能不安全！该值直接来自存储介质（通常是服务器上的 Cookie），可能不可信。请改用 supabase.auth.getUser()，它会通过联系 Supabase Auth 服务器来验证数据。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "@supabase/gotrue-js: Session as retrieved from URL was issued over 120s ago, URL could be stale",
+                    "target": "@supabase/gotrue-js: 从 URL 获取的会话在 120 秒前已签发，URL 可能已过期"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "@supabase/gotrue-js: Session as retrieved from URL was issued in the future? Check the device clock for skew",
+                    "target": "@supabase/gotrue-js: 从 URL 获取的会话似乎是在未来签发的？请检查设备时钟是否有偏差"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "setSelf function cannot be used with read-only atom",
+                    "target": "setSelf 函数不能用于只读 atom"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "setSelf function cannot be called in sync",
+                    "target": "setSelf 函数不能在同步情况下调用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Detected multiple Jotai instances. It may cause unexpected behavior with the default store. https://github.com/pmndrs/jotai/discussions/2044",
+                    "target": "检测到多个 Jotai 实例。使用默认 store 时可能会导致意外行为。https://github.com/pmndrs/jotai/discussions/2044"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "fallback parsing failed for hash fields",
+                    "target": "对哈希字段的回退解析失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "fallback parsing failed for fm control",
+                    "target": "fm 控制的回退解析失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "fallback parsing failed for fm metadata",
+                    "target": "fm 元数据的回退解析失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "polyfill for input cancel event only works on focused windows, fallback to timeout",
+                    "target": "输入取消事件的 polyfill 仅在聚焦窗口中生效，回退到超时"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "input cancel event timeout, dispatch cancel event",
+                    "target": "输入取消事件超时，派发取消事件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Received non-IPC message, ignoring",
+                    "target": "收到非 IPC 消息，已忽略"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Error deserializing SuperJSON payload",
+                    "target": "反序列化 SuperJSON 负载时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Unsupported edit list: multiple edits are not currently supported. Only using first edit.",
+                    "target": "不支持的编辑列表：当前不支持多个编辑。仅使用第一个编辑。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Unsupported edit list entry: media rate must be 1.",
+                    "target": "不支持的编辑列表条目：媒体速率必须为 1。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Unsupported PCM format.",
+                    "target": "不支持的 PCM 格式。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Can't have two trun boxes for the same track in one fragment. Ignoring...",
+                    "target": "同一片段中不能为同一轨道包含两个 trun box。已忽略..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to extract metadata",
+                    "target": "无法提取元数据"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to deserialize media view state",
+                    "target": "无法反序列化媒体视图状态"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "File path copied to clipboard",
+                    "target": "文件路径已复制到剪贴板"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No track opened",
+                    "target": "未打开任何曲目"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No linked media found",
+                    "target": "未找到关联媒体"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Video flip reset to default",
+                    "target": "视频翻转已重置为默认"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Video flipped to horizontal (mirror)",
+                    "target": "视频水平翻转（镜像）"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Video flipped to vertical (Upside down)",
+                    "target": "视频垂直翻转（倒置）"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Video flipped to both ways (upside down and mirror)",
+                    "target": "视频双向翻转（倒置和镜像）"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Invalid playback rate",
+                    "target": "无效的播放速率"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Cannot increase speed further",
+                    "target": "无法再提高速度"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Cannot decrease speed further",
+                    "target": "无法再降低速度"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "YouTube cookies cleared",
+                    "target": "YouTube Cookie 已清除"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to clear YouTube cookies, see console for details",
+                    "target": "清除 YouTube Cookie 失败，详情请查看控制台"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Invalid audio gain value. Please enter a number between 0.1 and 10.",
+                    "target": "音频增益值无效。请输入 0.1 到 10 之间的数字。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "URL copied to clipboard",
+                    "target": "URL 已复制到剪贴板"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "One of the note with timestamp is closed, the timestamp will not be updated",
+                    "target": "带时间戳的笔记之一已关闭，时间戳将不会更新"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "You've taken a timestamp for the recording, probably in canvas node, keep editor in foreground and in live preview mode. Otherwise, the dummy timestamp cannot be updated when recording is saved.",
+                    "target": "你已为录音添加时间戳，可能在画布节点中，请保持编辑器在前台并处于实时预览模式。否则，保存录音时虚拟时间戳无法更新。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error logging in, see console for details",
+                    "target": "登录出错，详情请查看控制台"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error signing in with GitHub",
+                    "target": "使用 GitHub 登录出错"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "You have been signed out",
+                    "target": "你已退出登录"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to save changes, fix errors before confirm",
+                    "target": "保存更改失败，请先修复错误再确认"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Link has been modified externally, edit cancelled",
+                    "target": "链接已在外部被修改，编辑已取消"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No browser session connected to obsidian, go to browser companion to connect",
+                    "target": "没有浏览器会话连接到 Obsidian，请前往浏览器伴侣进行连接"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Metadata update not supported for this media.",
+                    "target": "此媒体不支持更新元数据。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error loading media, see console for details",
+                    "target": "加载媒体出错，详情请查看控制台"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No media is opened",
+                    "target": "未打开任何媒体"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No media is playing",
+                    "target": "没有正在播放的媒体"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please open a note before taking timestamp",
+                    "target": "请先打开笔记再获取时间戳"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Subtitle not found",
+                    "target": "未找到字幕"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to pick media file",
+                    "target": "选择媒体文件失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "None of the dropped files are supported media files",
+                    "target": "拖放的文件中没有受支持的媒体文件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to import password manager data, invalid data format",
+                    "target": "导入密码管理器数据失败，数据格式无效"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Cleared all credentials",
+                    "target": "已清除所有凭据"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Added credential",
+                    "target": "已添加凭据"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Invalid value",
+                    "target": "无效值"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Languages cleared",
+                    "target": "已清除语言设置"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Languages saved",
+                    "target": "语言设置已保存"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "You need to login to get latest YouTube metadata",
+                    "target": "你需要登录以获取最新的 YouTube 元数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "You need to login to fetch YouTube metadata",
+                    "target": "你需要登录以获取 YouTube 元数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "You need to login to import YouTube subtitles",
+                    "target": "你需要登录才能导入 YouTube 字幕"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "You need to login to extract text from screenshot",
+                    "target": "你需要登录才能从截图中提取文字"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Clip the media to a specific time range",
+                    "target": "将媒体剪辑到特定时间范围"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Set the timestamp for the media",
+                    "target": "为媒体设置时间戳"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Mute the media",
+                    "target": "将媒体静音"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Volume level",
+                    "target": "音量级别"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Start playing automatically",
+                    "target": "自动开始播放"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Restart playback when it ends",
+                    "target": "播放结束时重新开始"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Display player controls",
+                    "target": "显示播放器控件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Custom title for the media",
+                    "target": "媒体的自定义标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Audio amplification multiplier",
+                    "target": "音频放大倍数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Playback speed multiplier",
+                    "target": "播放速度倍数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Maintain audio pitch when changing speed",
+                    "target": "变速时保持音高"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Video aspect ratio (e.g., 16:9)",
+                    "target": "视频宽高比（例如：16:9）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Mirror video horizontally or vertically",
+                    "target": "水平或垂直镜像视频"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "CORS policy for media loading",
+                    "target": "媒体加载的 CORS 策略"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Force media type interpretation",
+                    "target": "强制媒体类型解析"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "When to start loading the media",
+                    "target": "开始加载媒体的时机"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Subtitles uploaded by the video creator",
+                    "target": "视频创作者上传的字幕"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Auto-generated with precise word timing, may contain errors",
+                    "target": "自动生成，精确到词级时间，可能包含错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Control playback while taking notes",
+                    "target": "记笔记时控制播放"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Capture screenshots with timestamp links",
+                    "target": "用时间戳链接捕获截图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Quick navigation using transcript and subtitles",
+                    "target": "使用转录和字幕快速导航"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Customize timestamp and screenshot formats",
+                    "target": "自定义时间戳和截图格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Take notes while recording media",
+                    "target": "录制媒体时记笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Dive deep into tutorials, guides, and tips to master Media Extended",
+                    "target": "深入学习教程、指南和技巧，掌握 Media Extended"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Override title specified in note or media",
+                    "target": "覆盖在笔记或媒体中指定的标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Start playback when link is opened or seeked to. Disable this will make sure media keep play/paused.",
+                    "target": "打开链接或跳转到该位置时开始播放。禁用此项将确保媒体保持播放/暂停状态。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Mute the media by default.",
+                    "target": "默认将媒体静音。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Amplify audio above maximum volume level by default.",
+                    "target": "默认将音量放大到高于最大音量级别。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Default volume level when link is opened.",
+                    "target": "链接打开时的默认音量级别。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Default playback rate when link is opened.",
+                    "target": "链接打开时的默认播放速度。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Timestamp or clip time range",
+                    "target": "时间戳或片段时间范围"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Volume level (0-100)",
+                    "target": "音量级别（0-100）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Do not autoplay when opened",
+                    "target": "打开时不自动播放"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Mute the media when opened",
+                    "target": "打开时静音媒体"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Do not mute when opened",
+                    "target": "打开时不静音"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Disable looping",
+                    "target": "禁用循环播放"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Hide player controls",
+                    "target": "隐藏播放器控件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Do not preserve audio pitch",
+                    "target": "不保留音频音高"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Start playback by default when media is opened. Disable this will make sure media keep play/paused.",
+                    "target": "媒体打开时默认开始播放。禁用此项将确保媒体保持播放/暂停状态。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Amplify audio above maximum volume level.",
+                    "target": "将音频放大到超过最大音量级别。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Password Export JSON",
+                    "target": "密码导出 JSON"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "New pane on the right",
+                    "target": "在右侧新建窗格"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "New pane on the bottom",
+                    "target": "在底部新建窗格"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "In current pane",
+                    "target": "在当前窗格中"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Default obsidian behavior",
+                    "target": "Obsidian 默认行为"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "New window",
+                    "target": "新窗口"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "New tab",
+                    "target": "新标签页"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Failed to open transcript, see console for details",
+                    "target": "无法打开转录内容，详情请查看控制台"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Subtitle not found",
+                    "target": "未找到字幕"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Media Clip",
+                    "target": "媒体片段"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Auto Play",
+                    "target": "自动播放"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Audio Gain",
+                    "target": "音频增益"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Playback Rate",
+                    "target": "播放速率"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Preserve Pitch",
+                    "target": "保留音高"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Aspect Ratio",
+                    "target": "宽高比"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Cross Origin",
+                    "target": "跨域"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Use Credentials",
+                    "target": "使用凭据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Media Type",
+                    "target": "媒体类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Auto detect",
+                    "target": "自动检测"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Load Strategy",
+                    "target": "加载策略"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "On Play",
+                    "target": "播放时"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "No Auto Play",
+                    "target": "不自动播放"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "No Mute",
+                    "target": "不静音"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "No Loop",
+                    "target": "不循环"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "No Controls",
+                    "target": "不显示控件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "No Preserve Pitch",
+                    "target": "不保留音高"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "link",
+                    "source": "text-primary underline-offset-4 hover:underline",
+                    "target": "text-primary underline-offset-4 hover:underline"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "link",
+                    "source": "rounded-lg py-4 px-5 space-y-3 hover:bg-accent/30",
+                    "target": "rounded-lg py-4 px-5 space-y-3 hover:bg-accent/30"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "JSON object requested, multiple (or no) rows returned",
+                    "target": "请求 JSON 对象，但返回了多行（或无行）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Failed to load resource.",
+                    "target": "加载资源失败。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Aspect ratio must be in the format of <width>/<height>",
+                    "target": "宽高比必须为 <width>/<height> 格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Aspect ratio x or y must be a number",
+                    "target": "宽高比 x 或 y 必须为数字"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Aspect ratio cannot be reduced to lowest terms",
+                    "target": "宽高比无法化为最简比"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Select a subtitle file to import",
+                    "target": "选择要导入的字幕文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Pick a media file to open",
+                    "target": "选择要打开的媒体文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Reset video flip",
+                    "target": "重置视频翻转"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Flip video horizontally (mirror)",
+                    "target": "水平翻转视频（镜像）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Flip video vertically (upside down)",
+                    "target": "垂直翻转视频（上下颠倒）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Flip video both ways (upside down and mirror)",
+                    "target": "双向翻转视频（上下颠倒和镜像）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Take timestamp",
+                    "target": "记录时间戳"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Reset media clip",
+                    "target": "重置媒体片段"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Extract text from screenshot",
+                    "target": "从截图中提取文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Enter/exit fullscreen",
+                    "target": "进入/退出全屏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Increase playback speed",
+                    "target": "提高播放速度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Decrease playback speed",
+                    "target": "降低播放速度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Set playback speed to custom value",
+                    "target": "将播放速度设为自定义值"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Fine-tune increase playback speed",
+                    "target": "微调提高播放速度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Fine-tune decrease playback speed",
+                    "target": "微调降低播放速度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Update media metadata",
+                    "target": "更新媒体元数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Edit media metadata",
+                    "target": "编辑媒体元数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Migrate media notes from old format",
+                    "target": "从旧格式迁移媒体笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show password manager",
+                    "target": "显示密码管理器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Clear YouTube cookies",
+                    "target": "清除 YouTube Cookie"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Take timestamp on current recording",
+                    "target": "为当前录制添加时间戳"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show release note of the current version",
+                    "target": "显示当前版本的发布说明"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show welcome page",
+                    "target": "显示欢迎页"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Subtitle files",
+                    "target": "字幕文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert clipped screenshot to note",
+                    "target": "将裁剪的截图插入笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert screenshot to note",
+                    "target": "插入截图到笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Media files",
+                    "target": "媒体文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open external media",
+                    "target": "打开外部媒体"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "notice",
+                    "source": "Failed to open file in file explorer",
+                    "target": "在文件资源管理器中打开文件失败"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "notice",
+                    "source": "Failed to copy file path",
+                    "target": "复制文件路径失败"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Enter title",
+                    "target": "输入标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Enter password",
+                    "target": "输入密码"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "e.g., en, en-US, zh-CN",
+                    "target": "例如：en、en-US、zh-CN"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Label will show up in the track selector",
+                    "target": "标签将显示在音轨选择器中"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Search languages...",
+                    "target": "搜索语言..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Enter a number between 0 and 10",
+                    "target": "输入0到10之间的数字"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "e.g., 1.5 for +50% volume",
+                    "target": "例如：1.5 表示音量 +50%"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "Text extracted from screenshot and copied to clipboard",
+                    "target": "已从截图提取文字并复制到剪贴板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "Screenshot saved and set as media cover",
+                    "target": "截图已保存并设为媒体封面"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "Screenshot copied to clipboard",
+                    "target": "截图已复制到剪贴板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "Timestamped URL copied to clipboard",
+                    "target": "带时间戳的 URL 已复制到剪贴板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Adjust the audio gain (volume amplification) for this media. The gain value is a multiplier applied to the audio output.",
+                    "target": "调整此媒体的音频增益（音量放大）。增益值是应用于音频输出的倍率。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Examples:",
+                    "target": "示例："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "1.0 = Normal volume (100%)",
+                    "target": "1.0 = 正常音量（100%）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "1.5 = 50% louder (+50%)",
+                    "target": "1.5 = 音量提高 50%（+50%）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "2.0 = Double volume (+100%)",
+                    "target": "2.0 = 双倍音量（+100%）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "0.5 = Half volume (50%)",
+                    "target": "0.5 = 半音量（50%）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Note: Values above 1.0 may cause audio distortion at high levels.",
+                    "target": "注意：高于 1.0 的值在高音量下可能会导致音频失真。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Audio Gain Value:",
+                    "target": "音频增益值："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Apply Audio Gain",
+                    "target": "应用音频增益"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Connect to Media Extended",
+                    "target": "连接到 Media Extended"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Sign in or create an account to access online features",
+                    "target": "登录或创建账户以访问在线功能"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Terms of Service",
+                    "target": "服务条款"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Privacy Policy",
+                    "target": "隐私政策"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Manage login credentials for accessing content from password-protected sources like cloud storage (WebDAV, Nextcloud) and private file servers. These credentials are securely stored locally and used to stream media and files.",
+                    "target": "管理用于访问受密码保护来源（如云存储 WebDAV、Nextcloud 和私有文件服务器）的登录凭据。这些凭据会安全地存储在本地，并用于流式播放媒体和文件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Manage login credentials for streaming media from password-protected sources like WebDAV servers, Nextcloud, private file servers, and other authenticated media sources.",
+                    "target": "管理用于从受密码保护的来源（如 WebDAV 服务器、Nextcloud、私有文件服务器及其他需要身份验证的媒体源）流媒体播放的登录凭据。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "This feature is only available on desktop.",
+                    "target": "此功能仅在桌面端可用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Modified from default",
+                    "target": "已从默认值修改"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Reset to default",
+                    "target": "重置为默认值"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Media Clip",
+                    "target": "媒体片段"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Reset clip",
+                    "target": "重置片段"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Open in Obsidian",
+                    "target": "在 Obsidian 中打开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Import to Obsidian",
+                    "target": "导入到 Obsidian"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Retry import",
+                    "target": "重试导入"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Creator uploaded",
+                    "target": "创作者上传"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Word-level timing available",
+                    "target": "可用的逐词时间轴"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Creator Provided",
+                    "target": "创作者提供"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Word-Level Timing",
+                    "target": "逐词时间轴"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Load media",
+                    "target": "加载媒体"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Capture screenshots",
+                    "target": "截取屏幕截图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Explore all features",
+                    "target": "探索所有功能"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "What's new in v4",
+                    "target": "v4 有什么新功能"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "View all updates",
+                    "target": "查看所有更新"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Get help & report bugs",
+                    "target": "获取帮助并报告漏洞"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Open to the right",
+                    "target": "在右侧打开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Open in new tab",
+                    "target": "在新标签页中打开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Open in new window",
+                    "target": "在新窗口中打开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Pick a media file",
+                    "target": "选择媒体文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Open external media",
+                    "target": "打开外部媒体"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
