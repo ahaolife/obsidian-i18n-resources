@@ -1,0 +1,187 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "image-classify-paste",
+        "version": "1.0.0",
+        "title": "Image Classify Paste",
+        "description": "Image Classify Paste Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.1.4",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "not exist, will create",
+                    "target": "不存在，将创建"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "new:",
+                    "target": "新建："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "不用迁移: ",
+                    "target": "不用迁移: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When enabled, Typora will use pattern like ./assets/image.png instead ofassets/imagepng when generating relative path for inserted images.",
+                    "target": "启用后，Typora 在为插入的图片生成相对路径时将使用类似 ./assets/image.png 的模式，而不是 assets/imagepng。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "For example, if you insert a file at 'img/example file.png', it will become\"img/example%20file.png' Enable this for better compatibility with otherMarkdown engines, or disable this for better readability. ItWill affect formatting/restructuring commands",
+                    "target": "例如，如果你插入的文件路径为 'img/example file.png'，它将变为 \"img/example%20file.png'。启用此项可获得与其他 Markdown 引擎更好的兼容性，或关闭以获得更好的可读性。它会影响格式化/重构命令。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show a confirmation modal before creating a new note",
+                    "target": "在创建新笔记前显示确认弹窗"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Select Image Save Path",
+                    "target": "选择图片保存路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Apply Rule To Online Image Setting",
+                    "target": "应用规则到在线图片设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Apply Rule To Local Image Setting",
+                    "target": "应用规则到本地图片设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use relative path if possible",
+                    "target": "尽可能使用相对路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Add ./ for relative path",
+                    "target": "为相对路径添加 ./"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Auto escape image URL when insert",
+                    "target": "插入时自动转义图片 URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Confirm before creating new note",
+                    "target": "创建新笔记前确认"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "解析图片名失败，使用随机名",
+                    "target": "解析图片名失败，使用随机名"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Resolve Images Link Completed",
+                    "target": "解析图片链接完成"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "reconstrut-image: Make images placed using standard markdown syntax, Be sure to back up your files before performing this operation",
+                    "target": "reconstrut-image: 使用标准 Markdown 语法放置图片，请在执行此操作前备份您的文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Paste Image Option",
+                    "target": "粘贴图片选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Github repo link: ",
+                    "target": "Github 仓库链接："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Paste Image Plugin🎅",
+                    "target": "粘贴图片插件🎅"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "When Insert",
+                    "target": "插入时"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Positions and rules saved when pasting or inserting",
+                    "target": "粘贴或插入时保存的位置和规则"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Preferred lmage Syntax",
+                    "target": "首选图片语法"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "You can find following options to config which pattern of markdown source will be generated when insert images.",
+                    "target": "您可以在以下选项中配置插入图片时将生成哪种 Markdown 源格式。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Advanced Settings",
+                    "target": "高级设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "This ",
+                    "target": "此 "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " modify notes. Use at your own risk and please make backups. Custom Path Please Use `${filename}` or ${filepath}",
+                    "target": " 修改笔记。使用风险自负，请做好备份。自定义路径请使用 `${filename}` 或 ${filepath}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "IF set path start with './', it will set a relative current MDFile path.",
+                    "target": "若设置路径以 './' 开头，将设置为相对于当前 MDFile 的路径。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "IF set path start without './, it will set a relative workspace root path.",
+                    "target": "若设置路径不以 './' 开头，将设置为相对于工作区根目录的路径。"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
