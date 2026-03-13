@@ -1,0 +1,18 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-relativenumber",
+        "version": "1.0.0",
+        "title": "Relativenumber (relative line numbers)",
+        "description": "Relativenumber (relative line numbers) Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [],
+            "regex": []
+        }
+    }
+}
