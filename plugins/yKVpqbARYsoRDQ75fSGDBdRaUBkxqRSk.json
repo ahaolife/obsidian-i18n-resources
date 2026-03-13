@@ -1,0 +1,67 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "mini-rag",
+        "version": "1.0.0",
+        "title": "Mini-Rag",
+        "description": "Mini-Rag Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The local URL of the model you want to chat with",
+                    "target": "你要聊天的模型的本地 URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The model you want to chat with",
+                    "target": "你要聊天的模型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Add the option for LLM chats without the context of a note or folder",
+                    "target": "添加无笔记或文件夹上下文的 LLM 聊天选项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Ollama URL",
+                    "target": "Ollama URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable context-free chats",
+                    "target": "启用无上下文聊天"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Message Copied",
+                    "target": "消息已复制"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Type your question here",
+                    "target": "在此输入你的问题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Ask a question...",
+                    "target": "提问..."
+                }
+            ],
+            "regex": []
+        }
+    }
+}
