@@ -1,0 +1,427 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "flomo-importer",
+        "version": "1.0.0",
+        "title": "Flomo Importer",
+        "description": "Flomo Importer Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.3.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "body {}",
+                    "target": "body {}"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Skip Moments",
+                    "target": "跳过 Moments"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Generate Moments",
+                    "target": "生成 Moments"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Skip Canvas",
+                    "target": "跳过 Canvas"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Generate Canvas (with content)",
+                    "target": "生成 Canvas（含内容）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Generate Canvas",
+                    "target": "生成 Canvas"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Using RetryOperation.try() is deprecated",
+                    "target": "使用 RetryOperation.try() 已弃用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Using RetryOperation.start() is deprecated",
+                    "target": "使用 RetryOperation.start() 已弃用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "closing websocket server",
+                    "target": "正在关闭 websocket 服务器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "closing http server",
+                    "target": "正在关闭 http 服务器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "closed server",
+                    "target": "已关闭服务器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Installing dependencies...",
+                    "target": "正在安装依赖项..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Switching to root user to install dependencies...",
+                    "target": "正在切换到 root 用户以安装依赖项..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "running download:",
+                    "target": "正在运行下载："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "  did not find some options",
+                    "target": "  未找到某些选项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "  scrolling into view if needed",
+                    "target": "  如有需要滚动到视图中"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "  done scrolling",
+                    "target": "  滚动完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "  forcing action",
+                    "target": "  正在强制操作"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "  waiting for scheduled navigations to finish",
+                    "target": "  正在等待计划的导航完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "  navigations have finished",
+                    "target": "  导航已完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "  selected specified option(s)",
+                    "target": "  已选择指定选项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "  \"networkidle\" event fired",
+                    "target": "  \"networkidle\" 事件已触发"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "taking page screenshot",
+                    "target": "正在截取页面截图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "  disabled all CSS animations",
+                    "target": "  已禁用所有 CSS 动画"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "waiting for fonts to load...",
+                    "target": "等待字体加载..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "fonts loaded",
+                    "target": "字体已加载"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "  interception handler has finished, continuing",
+                    "target": "  拦截处理程序已完成，继续"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "  verifying given screenshot expectation",
+                    "target": "  正在验证给定的截图期望"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "  generating new stable screenshot expectation",
+                    "target": "  正在生成新的稳定截图期望"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "captured a stable screenshot",
+                    "target": "已捕获稳定截图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "screenshot matched expectation",
+                    "target": "截图符合预期"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Closing stdin...",
+                    "target": "正在关闭 stdin..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "ffmpeg finished input.",
+                    "target": "ffmpeg 输入已完成。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "ffmpeg error.",
+                    "target": "ffmpeg 错误。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "<restarting browser due to hitting race condition in glibc>",
+                    "target": "<由于在 glibc 中遇到竞态条件，正在重启浏览器>"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "<selenium> using selenium v4",
+                    "target": "<selenium> 使用 selenium v4"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "<selenium> using selenium v3",
+                    "target": "<selenium> 使用 selenium v3"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "closing browsers",
+                    "target": "正在关闭浏览器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "closed browsers",
+                    "target": "已关闭浏览器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Exporting from Flomo ...",
+                    "target": "正在从 Flomo 导出..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Auto Sync 🤗",
+                    "target": "自动同步 🤗"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "enter your flomo credential",
+                    "target": "输入你的 flomo 凭据"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Prerequisite: 👉 npx playwright@1.43.1 install 👈",
+                    "target": "前提条件：👉 npx playwright@1.43.1 install 👈"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "set the flomo home location",
+                    "target": "设置 flomo 主页位置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "set moments style: flow(default) | skip",
+                    "target": "设置 moments 样式：flow(默认) | skip"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "set canvas options: link | content(default) | skip",
+                    "target": "设置 canvas 选项：link | content(默认) | skip"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "set experimental options",
+                    "target": "设置实验选项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Flomo Signin",
+                    "target": "Flomo 登录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Flomo Home",
+                    "target": "Flomo 主页"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Experimental Options",
+                    "target": "实验选项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Your userid",
+                    "target": "您的用户ID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "WARNING: running on unsupported windows version!",
+                    "target": "警告：正在不受支持的 Windows 版本上运行！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please Enter Your Flomo Username & Password.",
+                    "target": "请输入您的 Flomo 用户名和密码。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No File Selected.",
+                    "target": "未选择文件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "A high-level API to automate web browsers",
+                    "target": "用于自动化网页浏览器的高级 API"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "a pure-JavaScript Node.JS module for random-access decoding bzip2 data",
+                    "target": "用于随机访问解码 bzip2 数据的纯 JavaScript Node.JS 模块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Specified archive does not have a .har file",
+                    "target": "指定的归档中没有 .har 文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "header",
+                    "source": ":is(h1, h2, h3, h4, h5, h6)",
+                    "target": ":is(h1, h2, h3, h4, h5, h6)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Expect failed",
+                    "target": "Expect 失败"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Internal error: har was not opened",
+                    "target": "内部错误：har 未打开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Microsoft Corporation",
+                    "target": "微软公司"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "登录",
+                    "target": "登录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "开始导出",
+                    "target": "开始导出"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open Flomo Importer",
+                    "target": "打开 Flomo 导入器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Your password please",
+                    "target": "请输入密码"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "input:is(:not([type!='']), [type=text])",
+                    "target": "input:is(:not([type!='']), [type=text])"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Connecting to Flomo",
+                    "target": "正在连接到 Flomo"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Flomo Importer",
+                    "target": "Flomo 导入器"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
