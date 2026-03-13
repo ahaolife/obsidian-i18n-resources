@@ -1,0 +1,451 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "simple-code-formatter",
+        "version": "1.0.0",
+        "title": "Simple Code Formatter",
+        "description": "Simple Code Formatter Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.2.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Double colon",
+                    "target": "双冒号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unclosed block",
+                    "target": "未闭合的块"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unclosed bracket",
+                    "target": "未闭合的括号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unexpected }",
+                    "target": "意外的 }"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unknown word",
+                    "target": "未知词"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "At-rule without name",
+                    "target": "缺少名称的 at-rule"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Expected a closing square bracket.",
+                    "target": "应有一个右方括号。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Expected opening parenthesis.",
+                    "target": "应有左圆括号。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Expected opening square bracket.",
+                    "target": "应有左方括号。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Expected closing parenthesis.",
+                    "target": "应有右圆括号。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Misplaced parenthesis.",
+                    "target": "括号位置错误。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Syntax Error",
+                    "target": "语法错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Expected closing parenthesis",
+                    "target": "缺少右括号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Expected opening parenthesis",
+                    "target": "缺少左括号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Simple Code Formatter Error:",
+                    "target": "简单代码格式化器错误："
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No code block found!",
+                    "target": "未找到代码块！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Code block formatted!",
+                    "target": "代码块已格式化！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to format code block! Maybe the code block contains syntax errors.\nSee the console for more information.",
+                    "target": "代码块格式化失败！可能代码块包含语法错误。\n更多信息请查看控制台。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Print spaces between brackets.",
+                    "target": "在括号之间输出空格。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Use single quotes instead of double quotes.",
+                    "target": "使用单引号替代双引号。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "How to wrap prose.",
+                    "target": "如何换行正文。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wrap prose if it exceeds the print width.",
+                    "target": "当正文超过打印宽度时换行。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Do not wrap prose.",
+                    "target": "不换行正文。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wrap prose as-is.",
+                    "target": "按原样换行正文。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Put > of opening tags on the last line instead of on a new line.",
+                    "target": "将开始标签的 > 放在最后一行，而不是新行。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Enforce single attribute per line in HTML, Vue and JSX.",
+                    "target": "在 HTML、Vue 和 JSX 中强制每行仅一个属性。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "How to handle whitespaces in HTML.",
+                    "target": "如何处理 HTML 中的空白字符。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Respect the default value of CSS display property.",
+                    "target": "遵循 CSS display 属性的默认值。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Whitespaces are considered sensitive.",
+                    "target": "空白字符被视为敏感。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Whitespaces are considered insensitive.",
+                    "target": "空白字符被视为不敏感。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Indent script and style tags in Vue files.",
+                    "target": "在 Vue 文件中缩进 script 和 style 标签。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Print (to stderr) where a cursor at the given position would move to after formatting.",
+                    "target": "打印（到 stderr）在给定位置的光标格式化后会移动到的位置。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Which end of line characters to apply.",
+                    "target": "应用哪种行尾字符。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Line Feed only (\\n), common on Linux and macOS as well as inside git repos",
+                    "target": "仅换行符（\\n），常见于 Linux 和 macOS，以及 git 仓库中"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Carriage Return + Line Feed characters (\\r\\n), common on Windows",
+                    "target": "回车 + 换行符（\\r\\n），常见于 Windows"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Carriage Return character only (\\r), used very rarely",
+                    "target": "仅回车符（\\r），使用非常少见"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Maintain existing\n(mixed values within one file are normalised by looking at what's used after the first line)",
+                    "target": "保持现有\n（单个文件内的混合值会根据第一行之后使用的内容进行规范化）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Specify the input filepath. This will be used to do parser inference.",
+                    "target": "指定输入文件路径。这将用于进行解析器推断。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Insert @format pragma into file's first docblock comment.",
+                    "target": "将 @format 注释插入到文件的第一个 docblock 注释中。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Which parser to use.",
+                    "target": "使用哪个解析器。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "JSON with Comments",
+                    "target": "带注释的 JSON"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Lightning Web Components",
+                    "target": "Lightning Web 组件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Add a plugin. Multiple plugins can be passed as separate `--plugin`s.",
+                    "target": "添加插件。多个插件可作为单独的 `--plugin` 传入。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The line length where Prettier will try wrap.",
+                    "target": "Prettier 尝试换行的行长度。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Require either '@prettier' or '@format' to be present in the file's first docblock comment\nin order for it to be formatted.",
+                    "target": "要求在文件的首个 docblock 注释中包含 '@prettier' 或 '@format'\n才能进行格式化。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Number of spaces per indentation level.",
+                    "target": "每级缩进的空格数。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Indent with tabs instead of spaces.",
+                    "target": "使用制表符缩进而非空格。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "This Object indicates the Parser is during Recording Phase",
+                    "target": "此对象表示解析器处于录制阶段"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Prettify from the entrypoint, allowing to use prettier on snippet.",
+                    "target": "从入口点进行美化，允许对代码片段使用 prettier。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Print trailing commas wherever possible when multi-line.",
+                    "target": "多行时尽可能打印尾随逗号。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Include parentheses around a sole arrow function parameter.",
+                    "target": "为单个箭头函数参数添加括号。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Always include parens. Example: `(x) => x`",
+                    "target": "始终包含括号。示例：`(x) => x`"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Omit parens when possible. Example: `x => x`",
+                    "target": "在可能时省略括号。示例：`x => x`"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Put > on the last line instead of at a new line.",
+                    "target": "将 > 放在最后一行，而不是另起一行。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Use curious ternaries, with the question mark after the condition.",
+                    "target": "使用“curious”三元表达式，问号放在条件之后。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Use single quotes in JSX.",
+                    "target": "在 JSX 中使用单引号。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Change when properties in objects are quoted.",
+                    "target": "更改对象属性何时加引号。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Only add quotes around object properties where required.",
+                    "target": "仅在需要时为对象属性加引号。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "If at least one property in an object requires quotes, quote all properties.",
+                    "target": "如果对象中至少有一个属性需要引号，则为所有属性加引号。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Respect the input use of quotes in object properties.",
+                    "target": "遵循输入中对象属性的引号使用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Trailing commas wherever possible (including function arguments).",
+                    "target": "在尽可能的地方使用尾随逗号（包括函数参数）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Trailing commas where valid in ES5 (objects, arrays, etc.)",
+                    "target": "在 ES5 允许的位置使用尾随逗号（对象、数组等）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "No trailing commas.",
+                    "target": "不使用尾随逗号。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "import.meta may appear only with 'sourceType: \"module\"'",
+                    "target": "import.meta 只能在 'sourceType: \"module\"' 下出现"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "'import' and 'export' may appear only with 'sourceType: \"module\"'",
+                    "target": "'import' 和 'export' 只能在 'sourceType: \"module\"' 下出现"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Warning: No LINE_BREAKS Found.\n\tThis Lexer has been defined to track line and column information,\n\tBut none of the Token Types can be identified as matching a line terminator.\n\tSee https://chevrotain.io/docs/guide/resolving_lexer_errors.html#LINE_BREAKS \n\tfor details.",
+                    "target": "警告：未找到 LINE_BREAKS。\n\t此词法分析器被定义为跟踪行和列信息，\n\t但没有任何 Token 类型可识别为匹配行终止符。\n\t详情请见 https://chevrotain.io/docs/guide/resolving_lexer_errors.html#LINE_BREAKS \n\t。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Lightning Web Components",
+                    "target": "Lightning Web Components"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "This CSTNode indicates the Parser is in Recording Phase\n\tSee: https://chevrotain.io/docs/guide/internals.html#grammar-recording for details",
+                    "target": "此 CSTNode 表示解析器处于记录阶段\n\t详情请见：https://chevrotain.io/docs/guide/internals.html#grammar-recording"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "JSON with Comments",
+                    "target": "带注释的 JSON"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Format current code block.",
+                    "target": "格式化当前代码块。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "an array of the following values",
+                    "target": "包含以下值的数组"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "one of the following values",
+                    "target": "以下值之一"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
