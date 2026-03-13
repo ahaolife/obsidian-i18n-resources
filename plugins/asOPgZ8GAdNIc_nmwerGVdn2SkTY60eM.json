@@ -1,0 +1,49 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "days-since",
+        "version": "1.0.0",
+        "title": "Days Since",
+        "description": "Days Since Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.0.3",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "\n      .plugin-tooltip {\n        position: absolute;\n        background-color: var(--background-primary);\n        color: var(--text-normal);\n        padding: 5px;\n        border-radius: 5px;\n        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);\n        border: 1px solid var(--background-modifier-border);\n        font-family: var(--font-family);\n        z-index: 1000;\n      }\n    ",
+                    "target": "\n      .plugin-tooltip {\n        position: absolute;\n        background-color: var(--background-primary);\n        color: var(--text-normal);\n        padding: 5px;\n        border-radius: 5px;\n        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);\n        border: 1px solid var(--background-modifier-border);\n        font-family: var(--font-family);\n        z-index: 1000;\n      }\n    "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error parsing date:",
+                    "target": "解析日期时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Selected date format:",
+                    "target": "已选择的日期格式："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose your preferred date format",
+                    "target": "选择你偏好的日期格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Date Format",
+                    "target": "日期格式"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
