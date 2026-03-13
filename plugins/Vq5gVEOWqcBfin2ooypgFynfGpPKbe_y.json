@@ -1,0 +1,79 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "whatsapp-backup",
+        "version": "1.0.0",
+        "title": "Whatsapp backup importer",
+        "description": "Whatsapp backup importer Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Choose file",
+                    "target": "选择文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Pick the ZIP file that you want to import.",
+                    "target": "选择要导入的 ZIP 文件。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Output folder",
+                    "target": "输出文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Backup file to import",
+                    "target": "要导入的备份文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Import Whatsapp backup into Obsidian",
+                    "target": "将 WhatsApp 备份导入 Obsidian"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please insert the required parameters",
+                    "target": "请填写必填参数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ZIP Files",
+                    "target": "ZIP 文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Import whatsapp backup",
+                    "target": "导入 WhatsApp 备份"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Wait while I import...",
+                    "target": "正在导入，请稍候..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Pick files to import",
+                    "target": "选择要导入的文件"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
