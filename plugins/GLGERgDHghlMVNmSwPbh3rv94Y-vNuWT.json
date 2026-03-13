@@ -1,0 +1,199 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "whisper",
+        "version": "1.0.0",
+        "title": "Whisper",
+        "description": "Whisper Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.5.5",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Processing audio...",
+                    "target": "正在处理音频..."
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Whisper Idle",
+                    "target": "Whisper 空闲"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error saving audio file:",
+                    "target": "保存音频文件时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error parsing audio:",
+                    "target": "解析音频时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error initializing recorder:",
+                    "target": "初始化录音器时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "pausing recording...",
+                    "target": "正在暂停录音..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "stopping recording...",
+                    "target": "正在停止录音..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Stop recording (no active recorder):",
+                    "target": "停止录音（无活动录音器）："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Stop recording (active recorder):",
+                    "target": "停止录音（活动录音器）："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": " Record",
+                    "target": " 录音"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": " Pause",
+                    "target": " 暂停"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": " Stop",
+                    "target": " 停止"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Turn on to save the audio file after sending it to the Whisper API",
+                    "target": "开启后在发送到 Whisper API 后保存音频文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Specify the path in the vault where to save the audio files",
+                    "target": "指定在库中保存音频文件的路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Turn on to create a new file for each recording, or leave off to add transcriptions at your cursor",
+                    "target": "开启后为每次录音创建新文件，或关闭以在光标处添加转写"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Specify the path in the vault where to save the transcription files",
+                    "target": "指定在库中保存转写文件的路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Turn on to increase the plugin's verbosity for troubleshooting.",
+                    "target": "开启后提高插件的详细程度以便排错。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Save recording",
+                    "target": "保存录音"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Recordings folder",
+                    "target": "录音文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Save transcription",
+                    "target": "保存转写"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Transcriptions folder",
+                    "target": "转录文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Debug Mode",
+                    "target": "调试模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Example: folder/audio",
+                    "target": "示例：folder/audio"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Example: folder/note",
+                    "target": "示例：folder/note"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "API key is missing. Please add your API key in the settings.",
+                    "target": "缺少 API 密钥。请在设置中添加您的 API 密钥。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Audio saved successfully.",
+                    "target": "音频保存成功。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Audio parsed successfully.",
+                    "target": "音频解析成功。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Start/stop recording",
+                    "target": "开始/停止录音"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Upload audio file",
+                    "target": "上传音频文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Settings for Whisper.",
+                    "target": "Whisper 设置。"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
