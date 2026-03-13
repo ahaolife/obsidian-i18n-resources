@@ -1,0 +1,103 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "vika-sync",
+        "version": "1.0.0",
+        "title": "Vika Sync",
+        "description": "Vika Sync Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.2.12",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "请求发生错误：",
+                    "target": "请求发生错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Token: 从 vika 的 API 页面获取",
+                    "target": "Token: 从 vika 的 API 页面获取"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Datasheet: 从 vika 的行链接中获取, 形如 dstbcfEH6FLs45VZfi",
+                    "target": "Datasheet: 从 vika 的行链接中获取, 形如 dstbcfEH6FLs45VZfi"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "View: 从 vika 的行链接中获取, 形如 viwayRfjHdoW1",
+                    "target": "View: 从 vika 的行链接中获取, 形如 viwayRfjHdoW1"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "自定义上传字段: 字段会从 frontmatter 上传至 vika, 同时具有默认值",
+                    "target": "自定义上传字段: 字段会从 frontmatter 上传至 vika, 同时具有默认值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "自定义下载字段: 字段会被下载到 frontmatter",
+                    "target": "自定义下载字段: 字段会被下载到 frontmatter"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Create New Record for this Note",
+                    "target": "为此笔记创建新记录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Update this Note",
+                    "target": "更新此笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Update Note in this Folder",
+                    "target": "更新此文件夹中的笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Update Note in this Vault",
+                    "target": "更新此知识库中的笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Delete this Note & Record",
+                    "target": "删除此笔记和记录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Download this Note from Record",
+                    "target": "从记录下载此笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Download Note in this Folder",
+                    "target": "下载此文件夹中的笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Vika Sync Settings",
+                    "target": "Vika 同步设置"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
