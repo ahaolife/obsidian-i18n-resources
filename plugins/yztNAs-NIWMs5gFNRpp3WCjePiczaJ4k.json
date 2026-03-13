@@ -1,0 +1,97 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "tab-group-arrangement",
+        "version": "1.0.0",
+        "title": "Tab Group Arrangement",
+        "description": "Tab Group Arrangement Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Auto expand active tab group",
+                    "target": "自动展开活动选项卡组"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Minimum width for inactive tab groups of a tab node when expanding active group",
+                    "target": "展开活动组时选项卡节点中非活动选项卡组的最小宽度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Minimum height for inactive tab groups of a tab node when expanding active group",
+                    "target": "展开活动组时选项卡节点中非活动选项卡组的最小高度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Minimum width for inactive tab groups",
+                    "target": "非活动选项卡组的最小宽度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Minimum height for inactive tab groups",
+                    "target": "非活动选项卡组的最小高度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Arrange Evenly",
+                    "target": "均匀排列"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Expand active tab group",
+                    "target": "展开活动选项卡组"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Auto expand active tab group",
+                    "target": "自动展开活动选项卡组"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Reset to default",
+                    "target": "重置为默认值"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Should focus on an editor or tab to expand",
+                    "target": "应聚焦到要展开的编辑器或选项卡"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Arrange evenly",
+                    "target": "均匀排列"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Expand active tab group",
+                    "target": "展开活动标签组"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle mode between manual and auto expand",
+                    "target": "在手动与自动展开模式间切换"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
