@@ -1,0 +1,349 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "simple-note-review",
+        "version": "1.0.0",
+        "title": "Simple Note Review",
+        "description": "Simple Note Review Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.2.6",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "all of the tags",
+                    "target": "所有标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "any of the tags",
+                    "target": "任意标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "specified tags AND in these folders",
+                    "target": "指定标签且位于这些文件夹中"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "specified tags OR in these folders",
+                    "target": "指定标签或位于这些文件夹中"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Add Note Set",
+                    "target": "添加笔记集"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If omitted, the name will be created from tags, folders, or dataviewJS query (if these are set).",
+                    "target": "若省略，名称将根据标签、文件夹或 dataviewJS 查询（如果已设置）生成。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "One or more folder paths relative to vault root, surrounded by quotes and separated by comma. Note set will contain notes located in any of these. Top-level folders must not contain slash in their path.  Example: \"notes\", \"notes/programming\"",
+                    "target": "相对于库根目录的一个或多个文件夹路径，用引号包围并用逗号分隔。笔记集将包含位于这些路径中的任意笔记。顶层文件夹路径中不得包含斜杠。  示例：\"notes\", \"notes/programming\""
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Number of days",
+                    "target": "天数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "DataviewJS-style query for more flexible control over the note set. If used, *overrides* Tags & Folders. Example: \"(#knowledge and #review) or ('./notes')\"",
+                    "target": "DataviewJS 风格的查询，用于更灵活地控制笔记集。若使用，将*覆盖*“标签和文件夹”。示例：\"(#knowledge and #review) or ('./notes')\""
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "After marking note as reviewed, automatically open next note in the note set.",
+                    "target": "将笔记标记为已复习后，自动打开笔记集中的下一条笔记。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set review frequency level (high, normal, low, ignore) for each note. Notes with higher review frequency will be presented for review more often. Default is 'normal'.",
+                    "target": "为每条笔记设置复习频率等级（高、正常、低、忽略）。复习频率更高的笔记将更频繁地出现在复习中。默认值为“正常”。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Start review with notes that have no review date. If turned off, notes without the review date will have lower priority than notes with early review dates.",
+                    "target": "优先从没有复习日期的笔记开始复习。若关闭，未设置复习日期的笔记将比复习日期较早的笔记优先级更低。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "general actions:",
+                    "target": "通用操作："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "current file actions:",
+                    "target": "当前文件操作："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "current note set",
+                    "target": "当前笔记集"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Created in last N days",
+                    "target": "最近 N 天内创建"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Modified in last N days",
+                    "target": "最近 N 天内修改"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Advanced Settings",
+                    "target": "高级设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "If tags are specified, match notes with:",
+                    "target": "如果指定了标签，匹配的笔记为："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "If folders *and* tags are specified, match notes with: ",
+                    "target": "如果同时指定了文件夹*和*标签，匹配的笔记为： "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "DataviewJS query",
+                    "target": "DataviewJS 查询"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Open next note in the note set after reviewing a note",
+                    "target": "复习一条笔记后打开该笔记集中的下一条笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use review frequency",
+                    "target": "使用复习频率"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Start with unreviewed notes",
+                    "target": "从未复习的笔记开始"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Select a note set to start reviewing notes",
+                    "target": "选择一个笔记集开始复习笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "DataviewJS query",
+                    "target": "DataviewJS 查询"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Note set info & stats",
+                    "target": "笔记集信息与统计"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Reset review queue and update stats for this note set",
+                    "target": "重置复习队列并更新此笔记集的统计"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Edit Note set",
+                    "target": "编辑笔记集"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Delete note set",
+                    "target": "删除笔记集"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "refresh sidebar",
+                    "target": "刷新侧边栏"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "open plugin settings",
+                    "target": "打开插件设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "ignore this note in all reviews",
+                    "target": "在所有复习中忽略此笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "set review frequency to low",
+                    "target": "将复习频率设为低"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "set review frequency to normal",
+                    "target": "将复习频率设为正常"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "set review frequency to high",
+                    "target": "将复习频率设为高"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "skip note for current review",
+                    "target": "当前复习跳过此笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "mark current note as reviewed & go to the next file",
+                    "target": "将当前笔记标记为已复习并转到下一个文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "view note set info & stats",
+                    "target": "查看笔记集信息和统计"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "open random note from this note set",
+                    "target": "从此笔记集中打开随机笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "reset review queue for this note set",
+                    "target": "重置此笔记集的复习队列"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "review this note set",
+                    "target": "复习此笔记集"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Start reviewing notes in current note set",
+                    "target": "开始复习当前笔记集中的笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open Sidebar View",
+                    "target": "打开侧边栏视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open random note from the current note set",
+                    "target": "从当前笔记集中打开随机笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "reset queue for the current note set",
+                    "target": "重置当前笔记集的队列"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Select note set for reviewing",
+                    "target": "选择要复习的笔记集"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Mark current note as reviewed",
+                    "target": "将当前笔记标记为已复习"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Set review frequency to high",
+                    "target": "将复习频率设为高"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Set review frequency to normal",
+                    "target": "将复习频率设为正常"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Set review frequency to low",
+                    "target": "将复习频率设为低"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Set review frequency to none (ignore this note in all reviews)",
+                    "target": "将复习频率设为无（在所有复习中忽略此笔记）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Skip note from current review",
+                    "target": "从当前复习中跳过该笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Simple Note Review Settings",
+                    "target": "简易笔记复习设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Note Sets",
+                    "target": "笔记集合"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
