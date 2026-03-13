@@ -1,0 +1,97 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "advanced-canvas-filter",
+        "version": "1.0.0",
+        "title": "Advanced Сanvas Filter",
+        "description": "Advanced Сanvas Filter Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.0.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "placeholder",
+                    "source": "Enter JSON for checkbox groups",
+                    "target": "输入复选框组的 JSON"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Any Tag Inclusion",
+                    "target": "包含任意标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "All Tags Inclusion",
+                    "target": "包含所有标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Select this check box to add the \"Other Tags\" group. This group will contain tags that are not included in other groups.",
+                    "target": "选中此复选框以添加“其他标签”组。此组将包含未包含在其他组中的标签。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "\"Any Tag Inclusion\" means that nodes will be shown if they contain at least one of the selected tags. \"All Tags Inclusion\" means that nodes will only be shown if they contain all of the selected tags.",
+                    "target": "“包含任意标签”表示只要节点包含所选标签中的至少一个就会显示。“包含所有标签”表示只有当节点包含所选的全部标签时才会显示。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Add \"Other tags\" group",
+                    "target": "添加“其他标签”组"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Hidden opacity",
+                    "target": "隐藏透明度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Filter mode",
+                    "target": "筛选模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "between 0 and 1",
+                    "target": "介于 0 和 1 之间"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Refresh groups",
+                    "target": "刷新组"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "JSON saved successfully",
+                    "target": "JSON 保存成功"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error parsing JSON",
+                    "target": "解析 JSON 时出错"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Json structure",
+                    "target": "Json 结构"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
