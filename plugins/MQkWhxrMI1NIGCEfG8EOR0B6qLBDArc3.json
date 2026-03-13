@@ -1,0 +1,307 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "color-palette",
+        "version": "1.0.0",
+        "title": "Color Palette",
+        "description": "Color Palette Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.15.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Prefer Alias",
+                    "target": "优先使用别名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "What will be shown when aliases option is set in local palette options. Defaults to showing both color and alias.",
+                    "target": "当在本地调色板选项中设置别名选项时将显示的内容。默认同时显示颜色和别名。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Minor aesthetic change which toggles whether the corners on palettes are rounded.",
+                    "target": "小幅外观调整，用于切换调色板边角是否圆角。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Keeps the palette from moving while in edit mode.",
+                    "target": "在编辑模式下防止调色板移动。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "How long it takes in milliseconds for palettes to be updated after changes have been made (Larger values are less responsive).",
+                    "target": "更改后调色板更新所需时间（毫秒）（数值越大响应越慢）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choice of format when copying colors.",
+                    "target": "复制颜色时的格式选择。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Caution - Might cause palettes to display incorrectly.",
+                    "target": "注意 - 可能导致调色板显示不正确。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Toggles whether palettes can be hovered",
+                    "target": "切换调色板是否可悬停"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Disables color and alias visibility",
+                    "target": "禁用颜色和别名可见性"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Disables color validation for full control (advanced)",
+                    "target": "禁用颜色验证以获得完全控制（高级）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Whether the affected palette should pulse when encountering an error.",
+                    "target": "遇到错误时，受影响的调色板是否应闪烁。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "How long palette error messages are show for in seconds (0 for indefinite).",
+                    "target": "调色板错误信息显示时长（秒，0 为无限期）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If you like this plugin, consider donating to support continued development.",
+                    "target": "如果你喜欢这个插件，请考虑捐赠以支持持续开发。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Use handpicked colors",
+                    "target": "使用手选颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Generate colors based on color theory",
+                    "target": "基于色彩理论生成颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Convert image into palette",
+                    "target": "将图像转换为调色板"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set the number of colors to generate from the image.",
+                    "target": "设置从图像生成的颜色数量。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Only coolors.co & colorhunt.co are currently supported.",
+                    "target": "目前仅支持 coolors.co 和 colorhunt.co。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Caution - Might cause palette to display incorrectly.",
+                    "target": "注意：可能导致调色板显示不正确。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Alias Mode",
+                    "target": "别名模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Palette Corners",
+                    "target": "调色板圆角"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Stability While Editing",
+                    "target": "编辑时稳定性"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Reload Delay",
+                    "target": "重新加载延迟"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Copy Format",
+                    "target": "复制格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Hide Text",
+                    "target": "隐藏文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Palette Error Pulse",
+                    "target": "调色板错误脉冲"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Notice Duration",
+                    "target": "通知时长"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Color Picker",
+                    "target": "颜色选择器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter URL or select file",
+                    "target": "输入 URL 或选择文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter URL",
+                    "target": "输入 URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Choose a space to reorder palette",
+                    "target": "选择一个空位以重新排序调色板"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Invalid Colors",
+                    "target": "无效的颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Invalid Settings",
+                    "target": "无效的设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Invalid Colors & Settings",
+                    "target": "无效的颜色和设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Invalid Gradient",
+                    "target": "无效的渐变"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Edit Mode",
+                    "target": "编辑模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Quick Edit",
+                    "target": "快速编辑"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Convert to RGB",
+                    "target": "转换为 RGB"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Convert to HSL",
+                    "target": "转换为 HSL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Convert to HEX",
+                    "target": "转换为 HEX"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Color Picker",
+                    "target": "颜色选择器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Loads the generated colors",
+                    "target": "加载生成的颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Right click to clear URL",
+                    "target": "右键单击以清除URL"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "The URL provided could not be loaded.",
+                    "target": "提供的URL无法加载。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Converted codeblock link to hex",
+                    "target": "已将代码块链接转换为十六进制"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Convert link",
+                    "target": "转换链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Convert codeblock link to hex",
+                    "target": "将代码块链接转换为十六进制"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Generate random palette",
+                    "target": "生成随机调色板"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
