@@ -1,0 +1,145 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "wucai-highlights-official",
+        "version": "1.0.0",
+        "title": "WuCai highlights Official",
+        "description": "WuCai highlights Official Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "25.10.22",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "Question? Please see our <a href='https://feedback.dotalk.cn/note/AAbe7f4782.html'>feedback</a> or view <a href='https://feedback.dotalk.cn/note/OlA9f2ef3ee.html'>changelog</a></b>",
+                    "target": "有问题？请查看我们的 <a href='https://feedback.dotalk.cn/note/AAbe7f4782.html'>反馈</a> 或查看 <a href='https://feedback.dotalk.cn/note/OlA9f2ef3ee.html'>更新日志</a></b>"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "WuCai sync already in progress",
+                    "target": "WuCai 同步已在进行中"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Logout success",
+                    "target": "退出登录成功"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please input your token",
+                    "target": "请输入你的令牌"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error Sync Token",
+                    "target": "同步令牌错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "annotation",
+                    "source": "好的",
+                    "target": "好的"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Anno Domini",
+                    "target": "公元"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Before Christ",
+                    "target": "公元前"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Asia - 亚洲",
+                    "target": "亚洲 - 亚洲"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sync your data now",
+                    "target": "立即同步你的数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Migrate title to new format",
+                    "target": "将标题迁移到新格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open this Note in WuCai",
+                    "target": "在 WuCai 中打开此笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Turn off sync for this file",
+                    "target": "关闭此文件的同步"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Turn on sync for this file",
+                    "target": "开启此文件的同步"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Archive this file",
+                    "target": "归档此文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Delete this file from server",
+                    "target": "从服务器删除此文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "WuCai Highlights Official",
+                    "target": "WuCai Highlights 官方版"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Created by WuCai",
+                    "target": "由 WuCai 创建"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "test title 2",
+                    "target": "测试标题 2"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "网页标题",
+                    "target": "网页标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Logout Account",
+                    "target": "退出账户"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
