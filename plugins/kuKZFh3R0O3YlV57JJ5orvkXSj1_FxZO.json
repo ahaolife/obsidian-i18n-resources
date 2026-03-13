@@ -1,0 +1,553 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "chem",
+        "version": "1.0.0",
+        "title": "Chem",
+        "description": "Chem Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.4.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "accessing an object - but returnObjects options is not enabled!",
+                    "target": "正在访问对象——但未启用 returnObjects 选项！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "This means something IS WRONG in your setup. You access the t function before i18next.init / i18next.loadNamespace / i18next.changeLanguage was done. Wait for the callback or Promise to resolve before accessing it!!!",
+                    "target": "这意味着你的配置有问题。你在 i18next.init / i18next.loadNamespace / i18next.changeLanguage 完成之前访问了 t 函数。请等待回调或 Promise 解决后再访问它！！！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "No backend was added via i18next.use. Will not load resources.",
+                    "target": "未通过 i18next.use 添加后端。将不会加载资源。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "init: no languageDetector is used and no lng is defined",
+                    "target": "init：未使用 languageDetector 且未定义 lng"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "init: i18next is already initialized. You should call init just once!",
+                    "target": "init：i18next 已初始化。你应只调用一次 init！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "hasLoadedNamespace: i18next was not initialized",
+                    "target": "hasLoadedNamespace：i18next 未初始化"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Fetching RDKit.js from unpkg...",
+                    "target": "正在从 unpkg 获取 RDKit.js…"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "RDKit.js has been successfully loaded.",
+                    "target": "RDKit.js 已成功加载。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Adjust the global molecule scale. If set to zero, the image widths will be unified. Otherwise, the structures will share the same bond length, but the image widths will vary.",
+                    "target": "调整全局分子缩放比例。若设置为零，图像宽度将统一。否则，结构将共享相同键长，但图像宽度会不同。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Crop structure images that are too large in a multiline block.",
+                    "target": "裁剪在多行块中过大的结构图像。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Adjust the width of the molecule images. Only valid when 'scale' is set to zero.",
+                    "target": "调整分子图像的宽度。仅当“scale”设置为零时有效。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Active when Obsidian is under light mode.",
+                    "target": "Obsidian 处于浅色模式时启用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Active when Obsidian is under dark mode.",
+                    "target": "Obsidian 处于深色模式时启用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Input SMILES strings to see the styled structures.",
+                    "target": "输入 SMILES 字符串以查看样式化结构。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Select render core.",
+                    "target": "选择渲染核心。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Linearize simple structures and functional groups.",
+                    "target": "线性化简单结构和官能团。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Explictly draw terminal carbons like methyl or methylene.",
+                    "target": "明确绘制末端碳，如甲基或亚甲基。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Enable to show explicit hydrogen.",
+                    "target": "启用以显示显式氢。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Scaling the copied image. Larger scale will yield images with better resolution.",
+                    "target": "缩放复制的图像。比例越大，图像分辨率越高。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Enable to yield a copied image with transparent background.",
+                    "target": "启用以生成透明背景的复制图像。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "In smiles block, recognize and get return values from Dataview queries and DataviewJS lines as rendering source according to Dataview settings.",
+                    "target": "在 smiles 代码块中，根据 Dataview 设置识别并获取 Dataview 查询和 DataviewJS 行的返回值作为渲染源。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Render SMILES code lines.",
+                    "target": "渲染 SMILES 代码行。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The prefix to inline SMILES.",
+                    "target": "内联 SMILES 的前缀。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "调整全局图像比例。该值为 0 时，所有图像将具有相同的大小；若非 0，所有结构将具有相同的键长，图像尺寸将适应结构式的大小。",
+                    "target": "调整全局图像比例。该值为 0 时，所有图像将具有相同的大小；若非 0，所有结构将具有相同的键长，图像尺寸将适应结构式的大小。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "代码块中有多行 SMILES 字符串时，结构图像的最大宽度。",
+                    "target": "代码块中有多行 SMILES 字符串时，结构图像的最大宽度。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "调整全局图像宽度。仅在'图像比例'值为 0 时生效。",
+                    "target": "调整全局图像宽度。仅在'图像比例'值为 0 时生效。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "调整结构式配色方案，在浅色模式下生效。",
+                    "target": "调整结构式配色方案，在浅色模式下生效。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "调整结构式配色方案，在深色模式下生效。",
+                    "target": "调整结构式配色方案，在深色模式下生效。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "输入 SMILES 字符串以预览渲染效果。",
+                    "target": "输入 SMILES 字符串以预览渲染效果。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "选择渲染器。",
+                    "target": "选择渲染器。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "简化羧基、硝基、磺酸基等简单官能团的绘制。",
+                    "target": "简化羧基、硝基、磺酸基等简单官能团的绘制。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "显式绘出末端甲基、亚甲基等端基碳。",
+                    "target": "显式绘出末端甲基、亚甲基等端基碳。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "启用以绘制显式氢原子。",
+                    "target": "启用以绘制显式氢原子。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "调整复制所得图像的缩放比例，更大的比例对应更高的分辨率。",
+                    "target": "调整复制所得图像的缩放比例，更大的比例对应更高的分辨率。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "启用以透明化复制所得图像。",
+                    "target": "启用以透明化复制所得图像。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "设置复制所得图像的颜色主题",
+                    "target": "设置复制所得图像的颜色主题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "根据 Dataview 插件设置，识别并执行 smiles 代码块中的 Dataview 查询式 (Queries) 和 DataviewJS 代码，依查询结果渲染结构。",
+                    "target": "根据 Dataview 插件设置，识别并执行 smiles 代码块中的 Dataview 查询式 (Queries) 和 DataviewJS 代码，依查询结果渲染结构。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "渲染行内代码形式的 SMILES 字符串。",
+                    "target": "渲染行内代码形式的 SMILES 字符串。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "行内 SMILES 的前缀。",
+                    "target": "行内 SMILES 的前缀。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Copy failed",
+                    "target": "复制失败"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "复制失败",
+                    "target": "复制失败"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Failed to switch to the target package, and will fallback to the default Smiles Drawer core.",
+                    "target": "无法切换到目标包，将回退到默认的 Smiles Drawer 核心。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "切换目标渲染器失败，将回退为默认渲染器 Smiles Drawer。",
+                    "target": "切换目标渲染器失败，将回退为默认渲染器 Smiles Drawer。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Maximum width",
+                    "target": "最大宽度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Image width",
+                    "target": "图像宽度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sample SMILES strings",
+                    "target": "示例 SMILES 字符串"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Core configuration",
+                    "target": "核心配置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Compact drawing",
+                    "target": "紧凑绘制"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show terminal carbons",
+                    "target": "显示末端碳原子"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Explicit hydrogen",
+                    "target": "显式氢"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Scale factor",
+                    "target": "缩放比例"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Parse Dataview",
+                    "target": "解析 Dataview"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Enable inline SMILES",
+                    "target": "启用内联 SMILES"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Inline SMILES Prefix",
+                    "target": "内联 SMILES 前缀"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "图像比例",
+                    "target": "图像比例"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "最大宽度",
+                    "target": "最大宽度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "图像宽度",
+                    "target": "图像宽度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "浅色主题",
+                    "target": "浅色主题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "深色主题",
+                    "target": "深色主题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "示例 SMILES 字符串",
+                    "target": "示例 SMILES 字符串"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "渲染器",
+                    "target": "渲染器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "紧凑绘制",
+                    "target": "紧凑绘制"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "端基碳",
+                    "target": "端基碳"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "显式氢",
+                    "target": "显式氢"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "缩放比例",
+                    "target": "缩放比例"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "透明背景",
+                    "target": "透明背景"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "颜色主题",
+                    "target": "颜色主题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "解析 Dataview",
+                    "target": "解析 Dataview"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "启用行内 SMILES",
+                    "target": "启用行内 SMILES"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "前缀",
+                    "target": "前缀"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "复制成功",
+                    "target": "复制成功"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Source SMILES: \"{{source}}\"",
+                    "target": "源 SMILES：\"{{source}}\""
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Dataview plugin is missing or disabled.",
+                    "target": "Dataview 插件缺失或已禁用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "RDKit failed to parse the SMILES.",
+                    "target": "RDKit 无法解析该 SMILES。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Live Preview",
+                    "target": "实时预览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Inline SMILES",
+                    "target": "行内 SMILES"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Switch core failed",
+                    "target": "切换核心失败"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "原始 SMILES ： {{source}}",
+                    "target": "原始 SMILES ： {{source}}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Dataview 插件未启用。",
+                    "target": "Dataview 插件未启用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "RDKit 无法识别该 SMILES 字符串",
+                    "target": "RDKit 无法识别该 SMILES 字符串"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "复制",
+                    "target": "复制"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "实时预览",
+                    "target": "实时预览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "高级",
+                    "target": "高级"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "复制选项",
+                    "target": "复制选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Dataview 集成",
+                    "target": "Dataview 集成"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "行内 SMILES 渲染",
+                    "target": "行内 SMILES 渲染"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "切换渲染器失败",
+                    "target": "切换渲染器失败"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Restore default",
+                    "target": "恢复默认"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "恢复默认",
+                    "target": "恢复默认"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
