@@ -1,0 +1,253 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "super-duper-audio-recorder",
+        "version": "1.0.0",
+        "title": "Super Duper Audio Recorder",
+        "description": "Super Duper Audio Recorder Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Multiple Files",
+                    "target": "多个文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Single File",
+                    "target": "单个文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Configure the settings for the Audio Recorder Plus plugin.",
+                    "target": "配置 Audio Recorder Plus 插件的设置。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Select the audio recording format.",
+                    "target": "选择音频录制格式。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Select the audio sample rate.",
+                    "target": "选择音频采样率。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Specify the folder to save recordings. Auto-complete enabled.",
+                    "target": "指定保存录音的文件夹。已启用自动完成。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Use the File prefix setting to customize the naming of your audio files. The final file name will include this prefix followed by a timestamp. For example, if your prefix is \"meeting\", the file name will look like \"meeting-2023-07-21T15-30-00.ogg\"",
+                    "target": "使用“文件前缀”设置自定义音频文件的命名。最终文件名将包含此前缀并附加时间戳。例如，前缀为“meeting”，文件名将显示为“meeting-2023-07-21T15-30-00.ogg”。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set a prefix for the audio file names.",
+                    "target": "为音频文件名设置前缀。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable debug logging",
+                    "target": "启用调试日志"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Configure settings for multi-track recording.",
+                    "target": "配置多轨录音设置。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Toggle to activate or deactivate multi-track recording.",
+                    "target": "切换以启用或停用多轨录音。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set the number of simultaneous tracks (1-8).",
+                    "target": "设置同时录制的轨道数量（1-8）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose between single combined file or separate files for each track.",
+                    "target": "在单一合并文件或每条轨道单独文件之间选择。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "File Prefix: Customize the prefix for your audio files. The final filename includes this prefix and a timestamp.\n\nRecording Format: Choose between OGG, WEBM, MP3, or M4A for your audio recordings.\n\nSave Folder: Specify where recordings will be saved. Autocomplete suggestions are available.\n\nAudio Input Device: Select the microphone for recording.\n\nSample Rate: Set the sample rate for your audio recordings.\n\nHotkeys:\n- Start/Stop: Set a hotkey to quickly start and stop recordings.\n- Pause: Set a hotkey to pause recordings.\n- Resume: Set a hotkey to resume recordings.\n\nBitrate: Adjust to control quality and file size of your recordings.\n\nVisual Indicators: The status bar displays when recording is active.\n\nMulti-track Recording:\n- Enable to record multiple audio sources simultaneously.\n- Maximum Tracks: Set the number of simultaneous tracks (1-8).\n- Output Mode: Choose between a single combined file or separate files for each track.\n- Use Source Names: Option to use audio source names for individual track filenames.\n- Audio Source Selection: Choose specific audio input devices for each track.",
+                    "target": "文件前缀：自定义音频文件的前缀。最终文件名包含此前缀和时间戳。\n\n录制格式：在 OGG、WEBM、MP3 或 M4A 之间选择你的音频录制格式。\n\n保存文件夹：指定录音保存位置。提供自动完成建议。\n\n音频输入设备：选择用于录音的麦克风。\n\n采样率：设置音频录制的采样率。\n\n快捷键：\n- 开始/停止：设置快捷键以快速开始和停止录音。\n- 暂停：设置快捷键以暂停录音。\n- 继续：设置快捷键以继续录音。\n\n比特率：调整以控制录音的质量和文件大小。\n\n视觉指示：录音激活时状态栏会显示。\n\n多轨录音：\n- 启用以同时录制多个音频源。\n- 最大轨道数：设置同时录制的轨道数量（1-8）。\n- 输出模式：在单一合并文件或每条轨道单独文件之间选择。\n- 使用源名称：可使用音频源名称作为各轨道文件名。\n- 音频源选择：为每条轨道选择特定的音频输入设备。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Audio recorder plus",
+                    "target": "音频录制增强版"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Recording format",
+                    "target": "录制格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Sample rate",
+                    "target": "采样率"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Save folder",
+                    "target": "保存文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "File naming",
+                    "target": "文件命名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "File prefix",
+                    "target": "文件前缀"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Debug mode",
+                    "target": "调试模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Multi-track recording",
+                    "target": "多轨录音"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable multi-track recording",
+                    "target": "启用多轨录音"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Maximum tracks",
+                    "target": "最大轨道数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Output mode",
+                    "target": "输出模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Select audio input device",
+                    "target": "选择音频输入设备"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter file prefix",
+                    "target": "输入文件前缀"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Recording 🎙️...",
+                    "target": "正在录音 🎙️..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Recording paused 🎙️",
+                    "target": "录音已暂停 🎙️"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Recording started",
+                    "target": "录音已开始"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Recording stopped",
+                    "target": "录音已停止"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Recording paused",
+                    "target": "录音已暂停"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Recording resumed",
+                    "target": "录音已恢复"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No active recording to pause or resume",
+                    "target": "没有可暂停或恢复的活动录音"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No audio data recorded",
+                    "target": "未录制到音频数据"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No audio input devices found",
+                    "target": "未找到音频输入设备"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Start/Stop Recording",
+                    "target": "开始/停止录音"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Pause/Resume Recording",
+                    "target": "暂停/恢复录音"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Select Audio Input Device",
+                    "target": "选择音频输入设备"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
