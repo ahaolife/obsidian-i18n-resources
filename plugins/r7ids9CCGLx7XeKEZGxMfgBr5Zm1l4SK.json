@@ -1,0 +1,2245 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "sqlseal",
+        "version": "1.0.0",
+        "title": "SQLSeal",
+        "description": "SQLSeal Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.39.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Foreign Keys",
+                    "target": "外键"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "On Update",
+                    "target": "更新时"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "On Delete",
+                    "target": "删除时"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Markdown Table",
+                    "target": "Markdown 表"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "HTML Table",
+                    "target": "HTML 表"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "%s %d: %s",
+                    "target": "%s %d: %s"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Invalid icon loader:",
+                    "target": "无效的图标加载器："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Bailing out",
+                    "target": "中止"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "An error occurred during validation:",
+                    "target": "验证期间发生错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "error while parsing gitGraph options",
+                    "target": "解析 gitGraph 选项时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "error while parsing actor link text",
+                    "target": "解析参与者链接文本时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "error while parsing actor properties text",
+                    "target": "解析参与者属性文本时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "error while parsing actor details text",
+                    "target": "解析参与者详细信息文本时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "error while drawing message",
+                    "target": "绘制消息时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "❌ Error injecting clickable links:",
+                    "target": "❌ 注入可点击链接时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Karger-Stein must be run on a connected (sub)graph",
+                    "target": "Karger-Stein 必须在连通的（子）图上运行"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "At least 2 nodes are required for Karger-Stein algorithm",
+                    "target": "Karger-Stein 算法至少需要 2 个节点"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "A selector must be created from a string; found ",
+                    "target": "必须从字符串创建选择器；找到 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "A collection must have a reference to the core",
+                    "target": "集合必须有对核心的引用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Layout options must be specified to make a layout",
+                    "target": "必须指定布局选项才能创建布局"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "A `name` must be specified to make a layout",
+                    "target": "必须指定 `name` 才能创建布局"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "A style must have a core reference",
+                    "target": "样式必须有核心引用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Priority is not optional for beforeRender",
+                    "target": "beforeRender 的优先级不是可选的"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Can not get id list for null key",
+                    "target": "无法为 null 键获取 id 列表"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Invalid extension access syntax",
+                    "target": "无效的扩展访问语法"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error creating format function:",
+                    "target": "创建格式函数时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error parsing JSON:",
+                    "target": "解析 JSON 时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Use the suppressErrors option to suppress these errors",
+                    "target": "使用 suppressErrors 选项来抑制这些错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Mermaid failed to initialize",
+                    "target": "Mermaid 初始化失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error executing queue",
+                    "target": "执行队列时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error parsing",
+                    "target": "解析出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error details:",
+                    "target": "错误详情："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to connect to database:",
+                    "target": "连接数据库失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error parsing cell with data:",
+                    "target": "解析包含数据的单元格时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Missing required checkbox data",
+                    "target": "缺少必需的复选框数据"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "File not found:",
+                    "target": "未找到文件："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error updating task:",
+                    "target": "更新任务时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Parsing error:",
+                    "target": "解析错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error creating CSV file:",
+                    "target": "创建 CSV 文件时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to create CSV file:",
+                    "target": "创建 CSV 文件失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "unable to write to indexedDb",
+                    "target": "无法写入 indexedDb"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error while setting up database",
+                    "target": "设置数据库时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "our points",
+                    "target": "我们的点"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Circle intersect",
+                    "target": "圆相交"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "crossedCircle intersect",
+                    "target": "crossedCircle 相交"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "DoubleCircle intersect",
+                    "target": "DoubleCircle 相交"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "filledCircle intersect",
+                    "target": "filledCircle 相交"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Triangle intersect",
+                    "target": "三角形相交"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Pill intersect",
+                    "target": "Pill 相交"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "iconSquare intersect",
+                    "target": "iconSquare 相交"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "lightningBolt intersect",
+                    "target": "lightningBolt 相交"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Text 2",
+                    "target": "文本 2"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Creating subgraph rect for ",
+                    "target": "正在为其创建子图矩形 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "abc88 checking point",
+                    "target": "abc88 检查点"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "to cluster abc88",
+                    "target": "到集群 abc88"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Descendants of ",
+                    "target": "后代："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": " is ",
+                    "target": " 是 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Edge is ",
+                    "target": "边是 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "cp ",
+                    "target": "cp "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": " to ",
+                    "target": " 到 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": " with parent ",
+                    "target": " 与父节点 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "In copy ",
+                    "target": "在复制中 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Edge data",
+                    "target": "边数据"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Copying as ",
+                    "target": "复制为 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "newGraph edges ",
+                    "target": "newGraph 边 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Skipping copy of edge ",
+                    "target": "跳过复制边 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": " rootId: ",
+                    "target": " rootId: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": " clusterId:",
+                    "target": " clusterId:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No nodes found for",
+                    "target": "未找到节点："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Recursive render XXX",
+                    "target": "递归渲染 XXX"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Recursive edges",
+                    "target": "递归边"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Cluster identified XBX",
+                    "target": "已识别集群 XBX"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "New compound node after recursive render XAX",
+                    "target": "递归渲染后新的复合节点 XAX"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "ids:",
+                    "target": "ids:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Translating: ",
+                    "target": "正在翻译："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Graph before layout:",
+                    "target": "布局前的图："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "############################################# XXX",
+                    "target": "############################################# XXX"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "###                Layout                 ### XXX",
+                    "target": "###                布局                 ### XXX"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Graph after layout:",
+                    "target": "布局后的图："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": ") width: ",
+                    "target": ") 宽度："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": " height: ",
+                    "target": " 高度："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "A tainted cluster node XBX1",
+                    "target": "一个被污染的集群节点 XBX1"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "A pure cluster node XBX1",
+                    "target": "一个纯净的集群节点 XBX1"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "A regular node XBX1 - using the padding",
+                    "target": "一个常规节点 XBX1 - 使用内边距"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "abc78 Got edge...",
+                    "target": "abc78 获取到边..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Pushing edge...",
+                    "target": "正在推送边..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "REF0:",
+                    "target": "REF0:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Drawing state diagram (v2)",
+                    "target": "正在绘制状态图（v2）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Added new entity :",
+                    "target": "已添加新实体："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Drawing er diagram (unified)",
+                    "target": "正在绘制 ER 图（统一）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "main branch",
+                    "target": "主分支"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "clear called",
+                    "target": "已调用 clear"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Drawing class diagram (v3)",
+                    "target": "正在绘制类图（v3）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "🔗 Wrapped node in <a> tag for:",
+                    "target": "🔗 将节点包裹在 <a> 标签中用于："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Setting cluster for XCX",
+                    "target": "为 XCX 设置集群"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Setting root doc",
+                    "target": "设置根文档"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Adding state ",
+                    "target": "正在添加状态 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Setting state description",
+                    "target": "设置状态描述"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Setting state classes",
+                    "target": "设置状态类"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Setting state styles",
+                    "target": "设置状态样式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Documents = ",
+                    "target": "文档 = "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Title height",
+                    "target": "标题高度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "id:",
+                    "target": "id:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Position: (",
+                    "target": "位置：（"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": ", ",
+                    "target": ", "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Node: ",
+                    "target": "节点："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Classes = ",
+                    "target": "类 = "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Question main (Circle)",
+                    "target": "问题主项（圆）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Label text abc79",
+                    "target": "标签文本 abc79"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Circle main",
+                    "target": "圆形主项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "DoubleCircle main",
+                    "target": "双圆主项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "%s - %s",
+                    "target": "%s - %s"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Totals:",
+                    "target": "总计："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Texture Atlases Used:",
+                    "target": "使用的纹理图集："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Garbage Collect!",
+                    "target": "垃圾回收！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "webgl rendering enabled",
+                    "target": "已启用 webgl 渲染"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "nothing to garbage collect",
+                    "target": "没有需要回收的垃圾"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "garbage collect flag set",
+                    "target": "已设置垃圾回收标志"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "If randomize option is set to false, then quality option must be 'default' or 'proof'.",
+                    "target": "如果 randomize 选项设为 false，则 quality 选项必须为 'default' 或 'proof'。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Generated Mermaid ERD Code:",
+                    "target": "生成的 Mermaid ERD 代码："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "closing because version changed",
+                    "target": "由于版本更改而关闭"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "prompt",
+                    "source": "Input: ",
+                    "target": "输入："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Copy to Clipboard",
+                    "target": "复制到剪贴板"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Add Row",
+                    "target": "添加行"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Add Column",
+                    "target": "添加列"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Generate SQLSeal Code",
+                    "target": "生成 SQLSeal 代码"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "SQLSeal will refresh your tables when underlying data changes.",
+                    "target": "当底层数据发生变化时，SQLSeal 会刷新你的表格。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Syntax will get highlighted when editing SQLSeal code",
+                    "target": "编辑 SQLSeal 代码时将高亮语法"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "This view will be used by default when you don't provide any view definition in your query",
+                    "target": "当你的查询未提供任何视图定义时，将默认使用此视图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enter the new name for this column",
+                    "target": "输入此列的新名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enables SQL, SQLSeal, SQLite and DB files in your vault to preview then and execture queries.",
+                    "target": "启用以在你的库中预览 SQL、SQLSeal、SQLite 和 DB 文件并执行查询。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable Dynamic Updates",
+                    "target": "启用动态更新"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable Syntax Highlighting",
+                    "target": "启用语法高亮"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default View",
+                    "target": "默认视图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "New column name",
+                    "target": "新列名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable CSV Viewer",
+                    "target": "启用 CSV 查看器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable CSV Editing",
+                    "target": "启用 CSV 编辑"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable JSON Viewer",
+                    "target": "启用 JSON 查看器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Table Name",
+                    "target": "表名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Source Type",
+                    "target": "源类型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable SQL Explorer",
+                    "target": "启用 SQL 浏览器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "eg. Data",
+                    "target": "例如：Data"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Rename Column",
+                    "target": "重命名列"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Delete Column",
+                    "target": "删除列"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Data Type",
+                    "target": "数据类型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Delete Row",
+                    "target": "删除行"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Save and Run Query",
+                    "target": "保存并运行查询"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Run Query",
+                    "target": "运行查询"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "New CSV file",
+                    "target": "新建 CSV 文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Run (CMD+R)",
+                    "target": "运行（CMD+R）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Global Tables",
+                    "target": "全局表"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Duplicate headers found and renamed.",
+                    "target": "发现重复的表头并已重命名。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Warning: KaTeX doesn't work in quirks mode. Make sure your website has a suitable doctype.",
+                    "target": "警告：KaTeX 在怪癖模式下无法工作。请确保你的网站具有合适的 doctype。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "abc88 cutPathAtIntersect",
+                    "target": "abc88 cutPathAtIntersect"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "abc88 no intersect",
+                    "target": "abc88 无交点"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "abc88 outside",
+                    "target": "abc88 在外部"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Copying children of ",
+                    "target": "正在复制以下对象的子项："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Copying (nodes) clusterId",
+                    "target": "正在复制（节点）clusterId"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Setting parent",
+                    "target": "正在设置父级"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Cluster identified",
+                    "target": "已识别集群"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Edge: ",
+                    "target": "边："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": " leaves cluster ",
+                    "target": " 离开集群 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Descendants of XXX ",
+                    "target": "XXX 的后代 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": ": ",
+                    "target": ": "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Fix XXX",
+                    "target": "修复 XXX"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "ids:",
+                    "target": "ids:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Translating: ",
+                    "target": "正在翻译："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": " --- ",
+                    "target": " --- "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Fix Replacing with XXX",
+                    "target": "修复：替换为 XXX"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Adjusted Graph",
+                    "target": "已调整的图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "extractor - ",
+                    "target": "提取器 - "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Cluster without external connections, without a parent and with children",
+                    "target": "没有外部连接、没有父级且有子项的集群"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Fixing dir",
+                    "target": "正在修复 dir"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Old graph before copy",
+                    "target": "复制前的旧图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "New graph after copy node: (",
+                    "target": "复制节点后的新图：（"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Cluster ** ",
+                    "target": "簇 ** "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": " **not meeting the criteria !externalConnections:",
+                    "target": " **不符合条件 !externalConnections:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": " no parent: ",
+                    "target": " 无父节点: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": " children ",
+                    "target": " 子节点 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "New list of nodes",
+                    "target": "新的节点列表"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": " Now next level",
+                    "target": " 现在下一层级"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Graph in recursive render:XAX",
+                    "target": "递归渲染中的图形：XAX"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Returning from recursive render XAX",
+                    "target": "从递归渲染返回 XAX"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Graph at first:",
+                    "target": "初始图形："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Graph after XAX:",
+                    "target": "XAX 之后的图形："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "flowchart-elk was moved to an external package in Mermaid v11. Please refer [release notes](https://github.com/mermaid-js/mermaid/releases/tag/v11.0.0) for more details. This diagram will be rendered using `dagre` layout as a fallback.",
+                    "target": "flowchart-elk 在 Mermaid v11 中已移至外部包。请参阅[发布说明](https://github.com/mermaid-js/mermaid/releases/tag/v11.0.0)了解更多详情。此图将使用 `dagre` 布局作为回退进行渲染。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "The difference between the min and max time is more than 5 years. This will cause performance issues. Skipping drawing exclude days.",
+                    "target": "最小时间与最大时间的差异超过 5 年。这将导致性能问题。跳过绘制排除的日期。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "⚠️ Invalid or missing stateId from key:",
+                    "target": "⚠️ 来自键的 stateId 无效或缺失："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "⚠️ Could not find node matching text:",
+                    "target": "⚠️ 找不到匹配文本的节点："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "⚠️ Node has no parent, cannot wrap:",
+                    "target": "⚠️ 节点没有父节点，无法包裹："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Adding link",
+                    "target": "正在添加链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Graph contains a negative weight cycle for Bellman-Ford",
+                    "target": "图中包含 Bellman-Ford 的负权重环"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "You have set a custom wheel sensitivity.  This will make your app zoom unnaturally when using mainstream mice.  You should change this value from the default only if you can guarantee that all your users will use the same hardware and OS configuration as your current machine.",
+                    "target": "你设置了自定义滚轮灵敏度。这将导致在使用主流鼠标时应用缩放不自然。只有在你能保证所有用户都使用与当前机器相同的硬件和操作系统配置时，才应更改此默认值。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "The `cutrectangle` node shape can not be used at small sizes so `rectangle` is used instead",
+                    "target": "`cutrectangle` 节点形状无法用于小尺寸，因此改用 `rectangle`"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "A Cytoscape container has style position:static and so can not use UI extensions properly",
+                    "target": "Cytoscape 容器的样式为 position:static，因此无法正确使用 UI 扩展"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Intersect called",
+                    "target": "已调用 Intersect"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "mermaid.init is deprecated. Please use run instead.",
+                    "target": "mermaid.init 已弃用。请改用 run。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[SQLSeal Variables] Failed to parse variable JSON:",
+                    "target": "[SQLSeal Variables] 解析变量 JSON 失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[SQLSeal Variables] OHM parsing failed, using raw content:",
+                    "target": "[SQLSeal Variables] OHM 解析失败，使用原始内容："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[SQLSeal Variables] Failed to parse variables, keeping previous values:",
+                    "target": "[SQLSeal Variables] 解析变量失败，保留之前的值："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[SQLSeal] Prevented saving database file:",
+                    "target": "[SQLSeal] 已阻止保存数据库文件："
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Copied to clipboard!",
+                    "target": "已复制到剪贴板！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No file available for code generation",
+                    "target": "没有可用于代码生成的文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "body",
+                    "source": "<g><rect width=\"80\" height=\"80\" style=\"fill: #087ebf; stroke-width: 0px;\"/><text transform=\"translate(21.16 64.67)\" style=\"fill: #fff; font-family: ArialMT, Arial; font-size: 67.75px;\"><tspan x=\"0\" y=\"0\">?</tspan></text></g>",
+                    "target": "<g><rect width=\"80\" height=\"80\" style=\"fill: #087ebf; stroke-width: 0px;\"/><text transform=\"translate(21.16 64.67)\" style=\"fill: #fff; font-family: ArialMT, Arial; font-size: 67.75px;\"><tspan x=\"0\" y=\"0\">?</tspan></text></g>"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "<path d=\"M12 5v14\"/><path d=\"m19 12-7 7-7-7\"/>",
+                    "target": "<path d=\"M12 5v14\"/><path d=\"m19 12-7 7-7-7\"/>"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Render math in display mode, which puts the math in display style (so \\int and \\sum are large, for example), and centers the math on the page on its own line.",
+                    "target": "以显示模式渲染数学公式，将公式置于显示样式（例如 \\int 和 \\sum 会变大），并在页面上单独成行居中显示。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Determines the markup language of the output.",
+                    "target": "确定输出的标记语言。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Render display math in leqno style (left-justified tags).",
+                    "target": "以 leqno 样式渲染显示公式（左对齐编号）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Render display math flush left.",
+                    "target": "将显示公式左对齐渲染。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Makes \\color behave like LaTeX's 2-argument \\textcolor, instead of LaTeX's one-argument \\color mode change.",
+                    "target": "使 \\color 的行为类似 LaTeX 的双参数 \\textcolor，而不是 LaTeX 的单参数 \\color 模式切换。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Turn on strict / LaTeX faithfulness mode, which throws an error if the input uses features that are not supported by LaTeX.",
+                    "target": "开启严格/LaTeX 忠实模式，如果输入使用了 LaTeX 不支持的特性则抛出错误。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Trust the input, enabling all HTML features such as \\url.",
+                    "target": "信任输入，启用所有 HTML 特性，如 \\url。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Limit the number of macro expansions to the specified number, to prevent e.g. infinite macro loops. If set to Infinity, the macro expander will try to fully expand as in LaTeX.",
+                    "target": "将宏展开次数限制为指定数量，以防止例如无限宏循环。如果设置为 Infinity，宏展开器将像在 LaTeX 中一样尝试完全展开。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Standard process shape",
+                    "target": "标准流程形状"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Represents an event",
+                    "target": "表示一个事件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Terminal point",
+                    "target": "终止点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Database storage",
+                    "target": "数据库存储"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Starting point",
+                    "target": "起始点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Decision-making step",
+                    "target": "决策步骤"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Preparation or condition step",
+                    "target": "准备或条件步骤"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Represents input or output",
+                    "target": "表示输入或输出"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Represents output or input",
+                    "target": "表示输出或输入"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Priority action",
+                    "target": "优先操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Represents a manual task",
+                    "target": "表示手动任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Represents a stop point",
+                    "target": "表示停止点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Text block",
+                    "target": "文本块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Represents a card",
+                    "target": "表示一张卡片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Lined process shape",
+                    "target": "带线的流程形状"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Small starting point",
+                    "target": "小型起点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Stop point",
+                    "target": "终止点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Fork or join in process flow",
+                    "target": "流程中的分叉或汇合"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Represents a collate operation",
+                    "target": "表示整理操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Adds a comment",
+                    "target": "添加注释"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Communication link",
+                    "target": "通信链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Represents a document",
+                    "target": "表示文档"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Represents a delay",
+                    "target": "表示延迟"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Direct access storage",
+                    "target": "直接访问存储"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Disk storage",
+                    "target": "磁盘存储"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Represents a display",
+                    "target": "表示显示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Divided process shape",
+                    "target": "分隔流程形状"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Extraction process",
+                    "target": "抽取流程"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Internal storage",
+                    "target": "内部存储"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Junction point",
+                    "target": "连接点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Loop limit step",
+                    "target": "循环限制步骤"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Manual file operation",
+                    "target": "手动文件操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Manual input step",
+                    "target": "手动输入步骤"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Multiple documents",
+                    "target": "多个文档"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Multiple processes",
+                    "target": "多个流程"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Stored data",
+                    "target": "已存储数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Tagged document",
+                    "target": "带标签的文档"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Tagged process",
+                    "target": "标记过程"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Paper tape",
+                    "target": "纸带"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Odd shape",
+                    "target": "不规则形状"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Lined document",
+                    "target": "带横线文档"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Markdown-ish syntax for generating flowcharts, mindmaps, sequence diagrams, class diagrams, gantt charts, git graphs and more.",
+                    "target": "用于生成流程图、思维导图、时序图、类图、甘特图、Git 图等的类 Markdown 语法。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "This Object indicates the Parser is during Recording Phase",
+                    "target": "此对象表示解析器处于记录阶段"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "any character",
+                    "target": "任意字符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "end of input",
+                    "target": "输入结束"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "a lowercase letter",
+                    "target": "小写字母"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "an uppercase letter",
+                    "target": "大写字母"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "a Unicode character in Lt, Lm, or Lo",
+                    "target": "属于 Lt、Lm 或 Lo 的 Unicode 字符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "a space",
+                    "target": "空格"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "empty",
+                    "source": "Choose one",
+                    "target": "选择一个"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Quoted field unterminated",
+                    "target": "带引号的字段未终止"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Trailing quote on quoted field is malformed",
+                    "target": "带引号字段的末尾引号格式错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Warning: No LINE_BREAKS Found.\n\tThis Lexer has been defined to track line and column information,\n\tBut none of the Token Types can be identified as matching a line terminator.\n\tSee https://chevrotain.io/docs/guide/resolving_lexer_errors.html#LINE_BREAKS \n\tfor details.",
+                    "target": "警告：未找到 LINE_BREAKS。\n\t该词法分析器被定义为跟踪行和列信息，\n\t但没有任何 Token 类型可被识别为匹配行终止符。\n\t详见 https://chevrotain.io/docs/guide/resolving_lexer_errors.html#LINE_BREAKS \n\t了解详情。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "merged branch feature into main",
+                    "target": "已将分支 feature 合并到 main"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "cherry-picked [object Object] into release",
+                    "target": "已将 [object Object] 拣选到 release"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Use `rowSelection.checkboxes` in `GridOptions` instead.",
+                    "target": "请改用 `GridOptions` 中的 `rowSelection.checkboxes`。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Use `rowSelection.headerCheckbox = true` in `GridOptions` instead.",
+                    "target": "请改用 `GridOptions` 中的 `rowSelection.headerCheckbox = true`。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Use `rowSelection.selectAll = \"filtered\"` in `GridOptions` instead.",
+                    "target": "请改用 `GridOptions` 中的 `rowSelection.selectAll = \"filtered\"`。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Use `rowSelection.selectAll = \"currentPage\"` in `GridOptions` instead.",
+                    "target": "请改用 `GridOptions` 中的 `rowSelection.selectAll = \"currentPage\"`。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Use `rowSelection.hideDisabledCheckboxes = true` in `GridOptions` instead.",
+                    "target": "请改用 `GridOptions` 中的 `rowSelection.hideDisabledCheckboxes = true`。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Use `loading`=false instead.",
+                    "target": "请改用 `loading`=false。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Use `cellSelection.handle` instead.",
+                    "target": "请改用 `cellSelection.handle`。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Use `cellSelection = true` instead.",
+                    "target": "请改用 `cellSelection = true`。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Use `cellSelection.suppressMultiRanges` instead.",
+                    "target": "请改用 `cellSelection.suppressMultiRanges`。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Use `cellSelection.handle.suppressClearOnFillReduction` instead.",
+                    "target": "请改用 `cellSelection.handle.suppressClearOnFillReduction`。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Use `cellSelection.handle.direction` instead.",
+                    "target": "请改用 `cellSelection.handle.direction`。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Use `cellSelection.handle.setFillValue` instead.",
+                    "target": "请改用 `cellSelection.handle.setFillValue`。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Use `rowSelection.enableClickSelection` instead.",
+                    "target": "请改用 `rowSelection.enableClickSelection`。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Use `rowSelection.enableSelectionWithoutKeys` instead.",
+                    "target": "请改用 `rowSelection.enableSelectionWithoutKeys`。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Use `rowSelection.groupSelects = \"descendants\"` instead.",
+                    "target": "请改用 `rowSelection.groupSelects = \"descendants\"`。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Use `rowSelection.groupSelects = \"filteredDescendants\"` instead.",
+                    "target": "请改用 `rowSelection.groupSelects = \"filteredDescendants\"`。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Use `selectionOptions.isRowSelectable` instead.",
+                    "target": "请改用 `selectionOptions.isRowSelectable`。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Use `rowSelection.copySelectedRows` instead.",
+                    "target": "请改用 `rowSelection.copySelectedRows`。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Use `onCellSelectionChanged` instead.",
+                    "target": "请改用 `onCellSelectionChanged`。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Use `onCellSelectionDeleteStart` instead.",
+                    "target": "请改用 `onCellSelectionDeleteStart`。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Use `onCellSelectionDeleteEnd` instead.",
+                    "target": "请改用 `onCellSelectionDeleteEnd`。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "The grid always uses the browser's ResizeObserver, this grid option has no effect.",
+                    "target": "该网格始终使用浏览器的 ResizeObserver，此网格选项无效。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Either use `onDisplayedColumnsChanged` which is fired at the same time, or use one of the more specific column events.",
+                    "target": "请使用同时触发的 `onDisplayedColumnsChanged`，或使用更具体的列事件之一。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Use `groupHideParentOfSingleChild` instead.",
+                    "target": "请改用 `groupHideParentOfSingleChild`。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Use `groupHideParentOfSingleChild: \"leafGroupsOnly\"` instead.",
+                    "target": "请改用 `groupHideParentOfSingleChild: \"leafGroupsOnly\"`。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Use `suppressGroupChangesColumnVisibility: \"suppressHideOnGroup\"` instead.",
+                    "target": "请改用 `suppressGroupChangesColumnVisibility: \"suppressHideOnGroup\"`。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Use `suppressGroupChangesColumnVisibility: \"suppressShowOnUngroup\"` instead.",
+                    "target": "请改用 `suppressGroupChangesColumnVisibility: \"suppressShowOnUngroup\"`。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Use `defaultColDef.unSortIcon` instead.",
+                    "target": "请改用 `defaultColDef.unSortIcon`。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Use `defaultColDef.sortingOrder` instead.",
+                    "target": "请改用 `defaultColDef.sortingOrder`。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "`gridOptions` and `columnDefs` both have a `context` property that should be used for arbitrary user data. This means that column definitions and gridOptions should only contain valid properties making this property redundant.",
+                    "target": "`gridOptions` 和 `columnDefs` 都有 `context` 属性，应用于任意用户数据。这意味着列定义和 gridOptions 只应包含有效属性，因此该属性是冗余的。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Advanced filter no longer uses function evaluation, so this option has no effect.",
+                    "target": "高级筛选不再使用函数求值，因此此选项无效。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "`showLoadingOverlay` is deprecated. Use the grid option \"loading\"=true instead or setGridOption(\"loading\", true).",
+                    "target": "`showLoadingOverlay` 已弃用。请改用网格选项 \"loading\"=true，或使用 setGridOption(\"loading\", true)。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Use `clearCellSelection` instead.",
+                    "target": "请改用 `clearCellSelection`。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Rounded Rectangle",
+                    "target": "圆角矩形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Framed Rectangle",
+                    "target": "框线矩形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Lean Right",
+                    "target": "向右倾斜"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Lean Left",
+                    "target": "向左倾斜"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Trapezoid Base Bottom",
+                    "target": "梯形下底"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Trapezoid Base Top",
+                    "target": "梯形上底"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Double Circle",
+                    "target": "双圆"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Text Block",
+                    "target": "文本块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Notched Rectangle",
+                    "target": "缺口矩形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Lined Rectangle",
+                    "target": "带线矩形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Small Circle",
+                    "target": "小圆"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Framed Circle",
+                    "target": "框线圆"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Filled Rectangle",
+                    "target": "实心矩形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Curly Brace",
+                    "target": "花括号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Curly Braces",
+                    "target": "花括号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Lightning Bolt",
+                    "target": "闪电"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Half-Rounded Rectangle",
+                    "target": "半圆角矩形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Horizontal Cylinder",
+                    "target": "水平圆柱"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Lined Cylinder",
+                    "target": "带线圆柱"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Curved Trapezoid",
+                    "target": "曲边梯形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Divided Rectangle",
+                    "target": "分隔矩形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Window Pane",
+                    "target": "窗格"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Filled Circle",
+                    "target": "实心圆"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Trapezoidal Pentagon",
+                    "target": "梯形五边形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Flipped Triangle",
+                    "target": "翻转三角形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sloped Rectangle",
+                    "target": "斜矩形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Stacked Document",
+                    "target": "堆叠文档"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Stacked Rectangle",
+                    "target": "堆叠矩形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Bow Tie Rectangle",
+                    "target": "蝴蝶结矩形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Crossed Circle",
+                    "target": "交叉圆形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Tagged Document",
+                    "target": "标记文档"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Tagged Rectangle",
+                    "target": "标记矩形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Lined Document",
+                    "target": "带线文档"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "This CSTNode indicates the Parser is in Recording Phase\n\tSee: https://chevrotain.io/docs/guide/internals.html#grammar-recording for details",
+                    "target": "此 CSTNode 表示解析器处于记录阶段\n\t详见：https://chevrotain.io/docs/guide/internals.html#grammar-recording"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "SQLSeal Database",
+                    "target": "SQLSeal 数据库"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Reload vault database",
+                    "target": "重新加载保险库数据库"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open global tables configuration",
+                    "target": "打开全局表配置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open SQLSeal Explorer",
+                    "target": "打开 SQLSeal 资源管理器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "args (backend)",
+                    "target": "args（后端）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Enter value...",
+                    "target": "输入值..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Grid View",
+                    "target": "网格视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "SQLSeal Code",
+                    "target": "SQLSeal 代码"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Rename Column",
+                    "target": "重命名列"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "CSV File Viewer",
+                    "target": "CSV 文件查看器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "CSV files are already handled by different plugin. To enable SQLSeal CSV editor, disable other plugin that handles it",
+                    "target": "CSV 文件已由其他插件处理。要启用 SQLSeal CSV 编辑器，请禁用处理它的其他插件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "JSONPath result is not an array. Table preview requires array data.",
+                    "target": "JSONPath 结果不是数组。表格预览需要数组数据。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No data matches the JSONPath query.",
+                    "target": "没有数据匹配该 JSONPath 查询。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "JSONPath Query Error",
+                    "target": "JSONPath 查询错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Common JSONPath examples:",
+                    "target": "常见的 JSONPath 示例："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "$ - Root object",
+                    "target": "$ - 根对象"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "$.users[0] - First user",
+                    "target": "$.users[0] - 第一个用户"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "$.users[?(@.active)] - Users where active is true",
+                    "target": "$.users[?(@.active)] - active 为 true 的用户"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Data contains no object properties to display in table.",
+                    "target": "数据中没有可在表格中显示的对象属性。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Analyze File (may take time)",
+                    "target": "分析文件（可能需要一些时间）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "JSONPath Query:",
+                    "target": "JSONPath 查询："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Click \"Analyze File\" above to parse and display the JSON content.",
+                    "target": "点击上方的\"Analyze File\"以解析并显示 JSON 内容。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Table preview will be available after analysis.",
+                    "target": "分析完成后将提供表格预览。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Processing JSONPath query...",
+                    "target": "正在处理 JSONPath 查询..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "JSON File Viewer",
+                    "target": "JSON 文件查看器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "JSON files are already handled by different plugin. To enable SQLSeal JSON preview, disable other plugin that handles it",
+                    "target": "JSON 文件已由其他插件处理。要启用 SQLSeal JSON 预览，请禁用处理它的其他插件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No tables found in the database.",
+                    "target": "数据库中未找到表。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Foreign Keys",
+                    "target": "外键"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "New Table Modal",
+                    "target": "新建表弹窗"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Query Variables",
+                    "target": "查询变量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "SQL Explorer",
+                    "target": "SQL 浏览器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "SQL files are already handled by different plugin. To enable SQLSeal SQL viewer, disable other plugin that handles it",
+                    "target": "SQL 文件已由其他插件处理。要启用 SQLSeal SQL 查看器，请禁用处理它的其他插件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Parsing error",
+                    "target": "解析错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Reset View",
+                    "target": "重置视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Zoom In",
+                    "target": "放大"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Zoom Out",
+                    "target": "缩小"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
