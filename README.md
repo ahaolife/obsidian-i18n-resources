@@ -1,2 +1,3 @@
 # obsidian-i18n-resources
-My Obsidian plugin translations (created by obsidian-i18n)
+
+社区插件的ai汉化，会出现一些中译中的情况，所以请先确认一下插件是是否自带中文，另外有部分插件暂时汉化不全。
