@@ -1,0 +1,451 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "openwords",
+        "version": "1.0.0",
+        "title": "OpenWords",
+        "description": "OpenWords Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.10",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "返回",
+                    "target": "返回"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "缓存过程中发生错误:",
+                    "target": "缓存过程中发生错误:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "生成索引过程中发生错误:",
+                    "target": "生成索引过程中发生错误:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "恢复默认设置失败:",
+                    "target": "恢复默认设置失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "重置过程中发生错误:",
+                    "target": "重置过程中发生错误:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Reset card error:",
+                    "target": "重置卡片错误:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "添加",
+                    "target": "添加"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "扫描",
+                    "target": "扫描"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "处理中...",
+                    "target": "处理中..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "索引",
+                    "target": "索引"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "生成",
+                    "target": "生成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "恢复默认设置",
+                    "target": "恢复默认设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "重置单词属性",
+                    "target": "重置单词属性"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "开始",
+                    "target": "开始"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "指定存放单词文件的文件夹路径，默认为 \"仓库:/\"",
+                    "target": "指定存放单词文件的文件夹路径，默认为 \"仓库:/\""
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "指定存放索引文件的文件夹路径，默认为 \"仓库:索引\"",
+                    "target": "指定存放索引文件的文件夹路径，默认为 \"仓库:索引\""
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "选择要启用的标签，点击下方按钮可添加更多标签",
+                    "target": "选择要启用的标签，点击下方按钮可添加更多标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "输入新的标签名称，例如 \"级别/小学\"",
+                    "target": "输入新的标签名称，例如 \"级别/小学\""
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "按路径和级别设置扫描并缓存单词",
+                    "target": "按路径和级别设置扫描并缓存单词"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "按标签生成所有单词的首字母索引文件",
+                    "target": "按标签生成所有单词的首字母索引文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "设置每次抽卡时随机调度的概率，其余为优先调度概率",
+                    "target": "设置每次抽卡时随机调度的概率，其余为优先调度概率"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "易记因子小于等于该值的单词可添加双链",
+                    "target": "易记因子小于等于该值的单词可添加双链"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "将所有插件设置恢复为默认值",
+                    "target": "将所有插件设置恢复为默认值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "重置作用域单词的易记因子、重复次数、间隔和到期日",
+                    "target": "重置作用域单词的易记因子、重复次数、间隔和到期日"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "单词文件夹路径",
+                    "target": "单词文件夹路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "索引文件夹路径",
+                    "target": "索引文件夹路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "启用的标签",
+                    "target": "启用的标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "添加标签",
+                    "target": "添加标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "扫描单词",
+                    "target": "扫描单词"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "生成索引",
+                    "target": "生成索引"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "随机调度概率",
+                    "target": "随机调度概率"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "最大双链因子",
+                    "target": "最大双链因子"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "恢复默认设置",
+                    "target": "恢复默认设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "重置单词属性",
+                    "target": "重置单词属性"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "学习新词",
+                    "target": "学习新词"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "复习旧词",
+                    "target": "复习旧词"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "默写单词",
+                    "target": "默写单词"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "输入标签名称",
+                    "target": "输入标签名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "未找到词义",
+                    "target": "未找到词义"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "正确！",
+                    "target": "正确！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "错误，请重试！",
+                    "target": "错误，请重试！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "该标签已存在！",
+                    "target": "该标签已存在！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请输入标签名称！",
+                    "target": "请输入标签名称！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "缓存失败，请检查控制台日志！",
+                    "target": "缓存失败，请检查控制台日志！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "生成索引失败，请检查控制台日志！",
+                    "target": "生成索引失败，请检查控制台日志！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "已恢复默认设置",
+                    "target": "已恢复默认设置"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "恢复失败，请检查控制台日志！",
+                    "target": "恢复失败，请检查控制台日志！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "重置失败，请检查控制台日志！",
+                    "target": "重置失败，请检查控制台日志！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "没有新词可学了！",
+                    "target": "没有新词可学了！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "没有需要复习的单词！",
+                    "target": "没有需要复习的单词！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "没有需要默写的单词！",
+                    "target": "没有需要默写的单词！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "已完成所有单词！",
+                    "target": "已完成所有单词！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "当前单词不属于本模式范围, 评分无效并跳过",
+                    "target": "当前单词不属于本模式范围, 评分无效并跳过"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "已完成所有新词！",
+                    "target": "已完成所有新词！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "没有需要复习的卡片！",
+                    "target": "没有需要复习的卡片！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "无法加载单词的 Markdown 文件！",
+                    "target": "无法加载单词的 Markdown 文件！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "单词状态文件不存在，请先生成索引",
+                    "target": "单词状态文件不存在，请先生成索引"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "指定的文件夹下没有 Markdown 文件！",
+                    "target": "指定的文件夹下没有 Markdown 文件！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "没有单词需要重置！",
+                    "target": "没有单词需要重置！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "重置中...",
+                    "target": "重置中..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "已添加双链！",
+                    "target": "已添加双链！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "索引中...",
+                    "target": "索引中..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "评分 1: 回答错误, 完全不会",
+                    "target": "评分 1: 回答错误, 完全不会"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "评分 2: 回答错误, 看到正确答案后感觉很熟悉",
+                    "target": "评分 2: 回答错误, 看到正确答案后感觉很熟悉"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "评分 3: 回答错误, 看到正确答案后感觉很容易记住",
+                    "target": "评分 3: 回答错误, 看到正确答案后感觉很容易记住"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "评分 4: 回答正确, 需要花费很大力气才能回忆起来",
+                    "target": "评分 4: 回答正确, 需要花费很大力气才能回忆起来"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "评分 5: 回答正确, 需要经过一番犹豫才做出反应",
+                    "target": "评分 5: 回答正确, 需要经过一番犹豫才做出反应"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "评分 6: 回答正确, 完美响应",
+                    "target": "评分 6: 回答正确, 完美响应"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "学习视图",
+                    "target": "学习视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "添加双链",
+                    "target": "添加双链"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "删除",
+                    "target": "删除"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "暂无启用的标签",
+                    "target": "暂无启用的标签"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
