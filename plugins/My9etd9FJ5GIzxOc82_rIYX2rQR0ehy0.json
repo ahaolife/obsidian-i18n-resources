@@ -1,0 +1,307 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "side-note",
+        "version": "1.0.0",
+        "title": "SideNote",
+        "description": "SideNote Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.5",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "placeholder",
+                    "source": "Enter your comment...",
+                    "target": "输入你的评论..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "By position in file",
+                    "target": "按文件中的位置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "By timestamp",
+                    "target": "按时间戳"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error creating split leaf:",
+                    "target": "创建拆分叶时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error in onSubmit:",
+                    "target": "onSubmit 中出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error reloading plugin data:",
+                    "target": "重新加载插件数据时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error updating comment coordinates:",
+                    "target": "更新评论坐标时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Migrated comments: backfilled ids/hashes and initialized flags",
+                    "target": "已迁移评论：回填了 id/哈希并初始化标记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Create Backup",
+                    "target": "创建备份"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose how comments are sorted in the custom view.",
+                    "target": "选择在自定义视图中对评论的排序方式。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Display highlights for commented text in the editor. After changing this setting, please restart Obsidian to see the effect.",
+                    "target": "在编辑器中显示已评论文本的高亮。更改此设置后，请重启 Obsidian 以生效。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Display resolved comments in the sidebar (shown dimmed). Uncheck to hide resolved comments entirely.",
+                    "target": "在侧边栏中显示已解决的评论（以暗色显示）。取消勾选以完全隐藏已解决的评论。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose the color for highlighted comments in the editor",
+                    "target": "选择编辑器中高亮评论的颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set the transparency of the highlight (0 = transparent, 1 = opaque)",
+                    "target": "设置高亮的透明度（0 = 透明，1 = 不透明）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Folder (relative to vault) where sidenote markdown backup files are stored",
+                    "target": "用于存储旁注 Markdown 备份文件的文件夹（相对于库）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Export all comments to markdown files in the configured folder",
+                    "target": "将所有评论导出为配置文件夹中的 Markdown 文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Comment sort order",
+                    "target": "评论排序方式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show highlights in editor",
+                    "target": "在编辑器中显示高亮"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show resolved comments",
+                    "target": "显示已解决的评论"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Highlight color",
+                    "target": "高亮颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Highlight opacity",
+                    "target": "高亮不透明度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Markdown comments folder",
+                    "target": "Markdown 注释文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Create Markdown Backup",
+                    "target": "创建 Markdown 备份"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Orphaned comments",
+                    "target": "孤立的注释"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Add comment to selection",
+                    "target": "将注释添加到选区"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Web Crypto API failed, using simple hash",
+                    "target": "Web Crypto API 失败，使用简单哈希"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to refresh decorations on editor-change",
+                    "target": "在编辑器变更时刷新装饰失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to wrap preview highlight",
+                    "target": "包裹预览高亮失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to create decoration for comment:",
+                    "target": "为注释创建装饰失败："
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Warning: Could not generate proper hash, using fallback",
+                    "target": "警告：无法生成正确的哈希，使用回退方案"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to jump to Markdown view.",
+                    "target": "无法跳转到 Markdown 视图。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No active Markdown file found.",
+                    "target": "未找到活动的 Markdown 文件。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to create a new split view for comments.",
+                    "target": "无法为评论创建新的分屏视图。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to create or find a leaf for the comment view.",
+                    "target": "无法创建或找到评论视图的叶节点。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error: Failed to save comment",
+                    "target": "错误：保存评论失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Markdown backup created successfully!",
+                    "target": "Markdown 备份创建成功！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please select some text to add a comment.",
+                    "target": "请先选择一些文本以添加评论。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open in Split View",
+                    "target": "在分屏视图中打开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open in Sidebar",
+                    "target": "在侧边栏中打开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "View all comments",
+                    "target": "查看所有评论"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add comment to selection",
+                    "target": "为选中内容添加评论"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No comments for this file yet.",
+                    "target": "此文件暂无评论。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Select text in your note and use the 'add comment to selection' command to get started.",
+                    "target": "在笔记中选择文本并使用“为选中内容添加评论”命令开始。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No file selected.",
+                    "target": "未选择文件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Open a file to see its comments.",
+                    "target": "打开文件查看其评论。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No comments found across all notes.",
+                    "target": "所有笔记中未找到评论。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Delete comment",
+                    "target": "删除评论"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Are you sure you want to delete this comment? This action cannot be undone.",
+                    "target": "确定要删除这条评论吗？此操作无法撤销。"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
