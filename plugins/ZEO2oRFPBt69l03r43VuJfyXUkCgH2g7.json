@@ -1,0 +1,25 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "masking-type",
+        "version": "1.0.0",
+        "title": "Masking Type",
+        "description": "Masking Type Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.2.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "ObjectProperty",
+                    "name": "hint",
+                    "source": "ヒント",
+                    "target": "提示"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
