@@ -1,0 +1,307 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "llm-workspace",
+        "version": "1.0.0",
+        "title": "LLM workspace",
+        "description": "LLM workspace Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Last ten effects were: ",
+                    "target": "最近的十个效果是："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed request's response body",
+                    "target": "失败请求的响应正文"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Could not parse message into JSON:",
+                    "target": "无法将消息解析为 JSON："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "From chunk:",
+                    "target": "来自分块："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Workspace not found",
+                    "target": "未找到工作区"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to build questions",
+                    "target": "无法生成问题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to rebuild linked files",
+                    "target": "无法重新构建关联文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to rebuild linked file",
+                    "target": "无法重新构建关联文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The model used to answer questions in the LLM workspace view",
+                    "target": "LLM 工作区视图中用于回答问题的模型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The model used to generate note context (summary, key topics)",
+                    "target": "用于生成笔记上下文（摘要、关键主题）的模型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Files in the folder will be available as prompts. Type @ to the chat input to open the prompt selector.",
+                    "target": "文件夹中的文件将作为提示可用。在聊天输入中输入 @ 以打开提示选择器。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Don't create note context (summary, key topics) for notes shorter than this many characters.",
+                    "target": "对少于此字符数的笔记不要创建笔记上下文（摘要、关键主题）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The instructions and extra context included in all LLM queries.",
+                    "target": "包含在所有 LLM 查询中的说明和额外上下文。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Notes are chunked into smaller parts before indexing and during retrieval. This setting controls the maximum size of a chunk (in characters).",
+                    "target": "笔记在索引前和检索时会被分割成更小的部分。此设置控制单个块的最大大小（按字符计）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "In workspace chat mode, the most relevant notes are added to the LLM context. This setting controls the number of chunks to include.\nNote: one note does not necessarily equal one chunk, as notes are split into smaller chunks.",
+                    "target": "在工作区聊天模式下，最相关的笔记会被添加到 LLM 上下文中。此设置控制要包含的块数。\n注意：一条笔记不一定等于一个块，因为笔记会被拆分成更小的块。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "General settings",
+                    "target": "常规设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Model for conversationss",
+                    "target": "对话模型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Model for note context",
+                    "target": "笔记上下文模型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Prompt folder location",
+                    "target": "提示文件夹位置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Note context minimum length",
+                    "target": "笔记上下文最小长度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Prune database",
+                    "target": "清理数据库"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "API keys",
+                    "target": "API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "OpenAI API key",
+                    "target": "OpenAI API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Anthropic API key",
+                    "target": "Anthropic API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Retrieval parameters",
+                    "target": "检索参数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Chunk size",
+                    "target": "分块大小"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Number of chunks in context",
+                    "target": "上下文中的分块数量"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Select a folder",
+                    "target": "选择文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Number of characters",
+                    "target": "字符数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Number of chunks",
+                    "target": "分块数量"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Select a workspace to open",
+                    "target": "选择要打开的工作区"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Chat with note",
+                    "target": "与笔记聊天"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Open as LLM workspace",
+                    "target": "作为 LLM 工作区打开"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Dexie: Need to reopen db",
+                    "target": "Dexie：需要重新打开数据库"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Dexie: Workaround for Chrome UnknownError on open()",
+                    "target": "Dexie：针对 Chrome 在 open() 上 UnknownError 的变通方案"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to add workspace property to frontmatter",
+                    "target": "无法将工作区属性添加到 frontmatter"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Chunk size must be a number",
+                    "target": "分块大小必须是数字"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Chunk count must be a number",
+                    "target": "分块数量必须是数字"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Copied to clipboard",
+                    "target": "已复制到剪贴板"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Workspace has no linked notes",
+                    "target": "工作区没有关联的笔记"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Open a note first and try again",
+                    "target": "请先打开笔记后再试"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Chunk size",
+                    "target": "分块大小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Number of chunks in context",
+                    "target": "上下文中的分块数量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Conversation grounded in",
+                    "target": "对话基于"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open context panel",
+                    "target": "打开上下文面板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open active note as LLM workspace",
+                    "target": "将当前笔记作为 LLM 工作区打开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Chat with active note",
+                    "target": "与当前笔记聊天"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open existing workspace",
+                    "target": "打开现有工作区"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
