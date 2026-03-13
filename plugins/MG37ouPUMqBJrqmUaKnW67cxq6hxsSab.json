@@ -1,0 +1,223 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-paste-to-current-indentation",
+        "version": "1.0.0",
+        "title": "Paste Mode",
+        "description": "Paste Mode Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "5.0.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Markdown (Blockquote)",
+                    "target": "Markdown（引用）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Plain Text (Blockquote)",
+                    "target": "纯文本（引用）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Plain Text",
+                    "target": "纯文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Paste Mode: Waiting for pasted file to become available...",
+                    "target": "粘贴模式：正在等待粘贴的文件可用..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Add attachment override location",
+                    "target": "添加附件覆盖位置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Mode that the paste attachmentLocation will invoke.",
+                    "target": "粘贴 attachmentLocation 将调用的模式。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When pasting in Text, Text (Blockquote), Markdown, or Markdown (Blockquote) mode, save any base64-encoded text as a file, and replace it in the pasted text with a reference to that saved file.",
+                    "target": "在文本、文本（引用）、Markdown 或 Markdown（引用）模式下粘贴时，将任何 base64 编码的文本保存为文件，并在粘贴的文本中用对该已保存文件的引用替换它。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Markdown syntax to signify that a line is part of a blockquote.",
+                    "target": "用于表示某行属于引用的 Markdown 语法。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When pasting in Text (Blockquote), Code Block (Blockquote), or Markdown (Blockquote) mode, add a backslash escape character to the beginning of specific characters.",
+                    "target": "在文本（引用）、代码块（引用）或 Markdown（引用）模式下粘贴时，在特定字符前添加反斜杠转义字符。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "A Regular Expression expressing which characters to escape when pasting in Text (Blockquote), Code Block (Blockquote), or Markdown (Blockquote) mode.",
+                    "target": "用于表示在文本（引用）、代码块（引用）或 Markdown（引用）模式下粘贴时应转义哪些字符的正则表达式。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If the current file is in this directory...",
+                    "target": "如果当前文件在此目录中..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Paste Mode",
+                    "target": "粘贴模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Save base64-encoded files",
+                    "target": "保存 base64 编码的文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Blockquote Prefix",
+                    "target": "块引用前缀"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Escape characters in blockquotes",
+                    "target": "转义块引用中的字符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Escape characters regex",
+                    "target": "转义字符正则表达式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "src attribute copy regex",
+                    "target": "src 属性复制正则表达式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default attachment folder path",
+                    "target": "默认附件文件夹路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Current file directory",
+                    "target": "当前文件目录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Saved file target location",
+                    "target": "已保存文件的目标位置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Delete location rule",
+                    "target": "删除位置规则"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": ">•",
+                    "target": ">•"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Delete override location",
+                    "target": "删除覆盖位置"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Paste Mode: Waiting for pasted file to become available...",
+                    "target": "粘贴模式：正在等待粘贴的文件可用..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Anno Domini",
+                    "target": "公元"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Before Christ",
+                    "target": "公元前"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Cycle Paste Mode",
+                    "target": "循环粘贴模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle blockquote at current indentation",
+                    "target": "在当前缩进切换块引用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Set paste mode",
+                    "target": "设置粘贴模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Paste in Mode (Interactive)",
+                    "target": "按模式粘贴（交互式）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Paste Mode",
+                    "target": "粘贴模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Notice: ",
+                    "target": "注意："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "The \"Paste in Markdown Mode\" and \"Paste in Markdown (Blockquote) Mode\" attachmentOverrideLocations have been disabled, because reading non-text data from the clipboad does not work with this version of Obsidian.",
+                    "target": "\"Markdown 模式粘贴\" 和 \"Markdown（引用块）模式粘贴\" 的 attachmentOverrideLocations 已被禁用，因为从 clipboad 读取非文本数据在此版本的 Obsidian 中不起作用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Attachment overrides",
+                    "target": "附件覆盖"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
