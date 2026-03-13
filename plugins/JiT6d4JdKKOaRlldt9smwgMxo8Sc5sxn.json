@@ -1,0 +1,247 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "occura-word-highlighter",
+        "version": "1.0.0",
+        "title": "Occura",
+        "description": "Occura Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.5.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Add Class",
+                    "target": "添加类别"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Import Words",
+                    "target": "导入词语"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Export Words",
+                    "target": "导出词语"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Add Word",
+                    "target": "添加词语"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set the color used to highlight all occurrences.",
+                    "target": "设置用于高亮所有匹配项的颜色。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Match only exact-case when finding all selected-text occurrences.",
+                    "target": "查找所选文本的所有匹配项时仅匹配大小写完全一致。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Click and press the desired hotkey combination.",
+                    "target": "点击并按下所需的快捷键组合。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show the total count of occurrences in the status bar.",
+                    "target": "在状态栏中显示匹配项总数。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Highlight keywords automatically as you type.",
+                    "target": "输入时自动高亮关键词。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Each class has a color and its own word list.",
+                    "target": "每个类别都有一种颜色和自己的词列表。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Turn this class on or off.",
+                    "target": "启用或禁用此类。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set the color used to highlight all words occurrences.",
+                    "target": "设置用于高亮所有单词出现位置的颜色。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Match words with exact case.",
+                    "target": "按精确大小写匹配单词。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Highlight color (occurrences)",
+                    "target": "高亮颜色（出现次数）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Case sensitive (occurrences)",
+                    "target": "区分大小写（出现次数）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Display the number of occurrences",
+                    "target": "显示出现次数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Automatic keywords highlighting",
+                    "target": "自动关键字高亮"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Word classes",
+                    "target": "单词类"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Class name",
+                    "target": "类名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Case sensitive",
+                    "target": "区分大小写"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Reset to defaults",
+                    "target": "重置为默认值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Click and press hotkey",
+                    "target": "点击并按下热键"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter word",
+                    "target": "输入单词"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No active editor",
+                    "target": "没有活动编辑器"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Select some text first.",
+                    "target": "请先选择一些文本。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No occurrences found.",
+                    "target": "未找到匹配项。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Select text to un-highlight.",
+                    "target": "选择文本以取消高亮。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No highlighted occurrences found.",
+                    "target": "未找到高亮匹配项。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Select one word to tag.",
+                    "target": "选择一个单词进行标记。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Select the tagged word.",
+                    "target": "选择已标记的单词。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No tagged occurrences found.",
+                    "target": "未找到已标记的出现项。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please enable Occura",
+                    "target": "请启用 Occura"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "New class",
+                    "target": "新建类"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle highlight occurrences",
+                    "target": "切换高亮出现项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle keyword highlighting",
+                    "target": "切换关键词高亮"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Set permanently highlight for occurrences",
+                    "target": "将出现项设为永久高亮"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Create Tag for occurrences",
+                    "target": "为出现项创建标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Keyword Highlighting",
+                    "target": "关键词高亮"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
