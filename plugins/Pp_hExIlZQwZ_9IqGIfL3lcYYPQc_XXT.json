@@ -1,0 +1,397 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "simple-file-info",
+        "version": "1.0.0",
+        "title": "Simple File Info",
+        "description": "Simple File Info Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.3",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "This file uses an 8-bit offset which is currently not supported by ExifReader. Contact the maintainer to get it fixed.",
+                    "target": "此文件使用了 8 位偏移量，当前 ExifReader 不支持。请联系维护者修复。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Warning: DOMParser is not available. It is needed to be able to parse XMP tags.",
+                    "target": "警告：DOMParser 不可用。解析 XMP 标签需要它。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<24-bit RGB pixel data>",
+                    "target": "<24 位 RGB 像素数据>"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Closed subpath length",
+                    "target": "闭合子路径长度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Closed subpath Bezier knot, linked",
+                    "target": "闭合子路径贝塞尔控制点，已链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Closed subpath Bezier knot, unlinked",
+                    "target": "闭合子路径贝塞尔控制点，未链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Open subpath length",
+                    "target": "开放子路径长度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Open subpath Bezier knot, linked",
+                    "target": "开放子路径贝塞尔控制点，已链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Open subpath Bezier knot, unlinked",
+                    "target": "开放子路径贝塞尔控制点，未链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Path fill rule",
+                    "target": "路径填充规则"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Initial fill rule",
+                    "target": "初始填充规则"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Model Version",
+                    "target": "模型版本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File Format",
+                    "target": "文件格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File Format Version",
+                    "target": "文件格式版本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Date Sent",
+                    "target": "发送日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Time Sent",
+                    "target": "发送时间"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Coded Character Set",
+                    "target": "编码字符集"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ARM Identifier",
+                    "target": "ARM 标识符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ARM Version",
+                    "target": "ARM 版本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Record Version",
+                    "target": "记录版本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Editorial Update",
+                    "target": "编辑更新"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Subject Reference",
+                    "target": "主题参考"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Content Location Code",
+                    "target": "内容位置代码"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Content Location Name",
+                    "target": "内容位置名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Action Advised",
+                    "target": "建议措施"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Reference Service",
+                    "target": "参考服务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Reference Date",
+                    "target": "参考日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Reference Number",
+                    "target": "参考编号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Date Created",
+                    "target": "创建日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Time Created",
+                    "target": "创建时间"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Digital Creation Date",
+                    "target": "数字创建日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Digital Creation Time",
+                    "target": "数字创建时间"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Object Cycle",
+                    "target": "对象周期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "By-line Title",
+                    "target": "署名标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Rasterized Caption",
+                    "target": "栅格化说明文字"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Image Orientation",
+                    "target": "图像方向"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Audio Type",
+                    "target": "音频类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Audio Sampling Rate",
+                    "target": "音频采样率"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Audio Sampling Resolution",
+                    "target": "音频采样分辨率"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Audio Duration",
+                    "target": "音频时长"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ObjectData Preview File Format Version",
+                    "target": "ObjectData 预览文件格式版本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Size Mode",
+                    "target": "大小模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Max Subfile Size",
+                    "target": "最大子文件大小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ObjectData Size Announced",
+                    "target": "已声明的 ObjectData 大小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Maximum ObjectData Size",
+                    "target": "最大 ObjectData 大小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ICC Description",
+                    "target": "ICC 描述"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ICC Copyright",
+                    "target": "ICC 版权"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ICC Device Model Description",
+                    "target": "ICC 设备型号描述"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ICC Viewing Conditions Description",
+                    "target": "ICC 观察条件描述"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ICC Device Manufacturer for Display",
+                    "target": "显示用 ICC 设备制造商"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Preferred CMM type",
+                    "target": "首选 CMM 类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Profile Version",
+                    "target": "配置文件版本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Profile/Device class",
+                    "target": "配置文件/设备类别"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Color Space",
+                    "target": "颜色空间"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Connection Space",
+                    "target": "连接空间"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ICC Profile Date",
+                    "target": "ICC 配置文件日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ICC Signature",
+                    "target": "ICC 签名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Primary Platform",
+                    "target": "主要平台"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Device Manufacturer",
+                    "target": "设备制造商"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Device Model Number",
+                    "target": "设备型号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Rendering Intent",
+                    "target": "渲染意图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Profile Creator",
+                    "target": "配置文件创建者"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show file info",
+                    "target": "显示文件信息"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
