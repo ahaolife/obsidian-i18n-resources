@@ -1,0 +1,295 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "note-chain",
+        "version": "1.0.0",
+        "title": "Note Chain",
+        "description": "Note Chain Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.2.5",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Server error:",
+                    "target": "服务器错误:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "HTTP Server error:",
+                    "target": "HTTP 服务器错误:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "✗ Request error:",
+                    "target": "✗ 请求错误:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "✗ Response error:",
+                    "target": "✗ 响应错误:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "✗ Parse error",
+                    "target": "✗ 解析错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "✗ Error listing tools:",
+                    "target": "✗ 列出工具时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "✗ Error calling tool:",
+                    "target": "✗ 调用工具时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "✗ Failed to send via SSE:",
+                    "target": "✗ 通过 SSE 发送失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "✗ Error:",
+                    "target": "✗ 错误:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to start HTTP Server:",
+                    "target": "启动 HTTP 服务器失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "当前Textarea为：",
+                    "target": "当前Textarea为："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "HTTP Server is already running",
+                    "target": "HTTP 服务器已在运行"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "\n=== SSE Connection ===",
+                    "target": "\n=== SSE 连接 ==="
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "User-Agent:",
+                    "target": "User-Agent:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "✓ SSE connected, endpoint sent:",
+                    "target": "✓ SSE 已连接，已发送端点："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "✓ Connection ID:",
+                    "target": "✓ 连接 ID："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "✓ Active connections:",
+                    "target": "✓ 活动连接数："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "✗ SSE closed:",
+                    "target": "✗ SSE 已关闭："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "✓ SSE ready, waiting for messages at:",
+                    "target": "✓ SSE 就绪，正在等待消息于："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "\n=== MCP Message ===",
+                    "target": "\n=== MCP 消息 ==="
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Session ID:",
+                    "target": "会话 ID:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "→ Request:",
+                    "target": "→ 请求:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "✓ Tool executed",
+                    "target": "✓ 工具已执行"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "✓ Received initialized notification from client",
+                    "target": "✓ 已接收来自客户端的初始化通知"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "✓ Response sent via SSE",
+                    "target": "✓ 已通过 SSE 发送响应"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "✓ Sent notifications/initialized",
+                    "target": "✓ 已发送 notifications/initialized"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "✓ Response sent via SSE (fallback):",
+                    "target": "✓ 已通过 SSE 发送响应（回退）:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "HTTP Server stopped",
+                    "target": "HTTP 服务器已停止"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "list_tools script returned invalid JSON",
+                    "target": "list_tools 脚本返回了无效的 JSON"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "✗ Invalid JSON-RPC",
+                    "target": "✗ 无效的 JSON-RPC"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "✗ Invalid JSON from list_tools",
+                    "target": "✗ 来自 list_tools 的 JSON 无效"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "✗ Unknown method:",
+                    "target": "✗ 未知方法："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "⚠ No SSE connection, sending via HTTP",
+                    "target": "⚠ 无 SSE 连接，通过 HTTP 发送"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Not in edit mode.",
+                    "target": "不在编辑模式。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Not Found",
+                    "target": "未找到"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Failed to list tools",
+                    "target": "列出工具失败"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Invalid JSON in request body",
+                    "target": "请求体中的 JSON 无效"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Tool name is required",
+                    "target": "需要工具名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Failed to call tool",
+                    "target": "调用工具失败"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Parse error",
+                    "target": "解析错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Invalid Request",
+                    "target": "无效请求"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Internal error",
+                    "target": "内部错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Invalid params: tool name is required",
+                    "target": "参数无效：需要工具名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Notification received",
+                    "target": "已收到通知"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Response sent via SSE",
+                    "target": "通过 SSE 发送了响应"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "NoteChain MCP Server",
+                    "target": "NoteChain MCP Server"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
