@@ -1,0 +1,18 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "simple-focus",
+        "version": "1.0.0",
+        "title": "Simple Focus",
+        "description": "Simple Focus Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.0.4",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [],
+            "regex": []
+        }
+    }
+}
