@@ -1,0 +1,607 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-audio-notes",
+        "version": "1.0.0",
+        "title": "Audio Notes",
+        "description": "Audio Notes Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.7.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<p class=\"svelte-16617kv\">Save Audio In:</p> \n\t\t\t\t\t<span class=\"svelte-16617kv\">Default is /audio</span>",
+                    "target": "<p class=\"svelte-16617kv\">音频保存到：</p> \n\t\t\t\t\t<span class=\"svelte-16617kv\">默认是 /audio</span>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "UPDATE: More accurate and cheaper <a href=\"https://blog.deepgram.com/nova-speech-to-text-whisper-api/\">Nova model</a> now\n\t\t\t\t\t\t\tavailable",
+                    "target": "更新：更准确且更便宜的 <a href=\"https://blog.deepgram.com/nova-speech-to-text-whisper-api/\">Nova 模型</a> 现已\n\t\t\t\t\t\t\t可用"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Click the microphone button to start recording.",
+                    "target": "点击麦克风按钮开始录音。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Recording paused. Resume recording by clicking the\r\n\t\t\t\t\t\tmicrophone.",
+                    "target": "录音已暂停。点击麦克风继续录音。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Recording in progress...",
+                    "target": "正在录音..."
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Recording finished.",
+                    "target": "录音完成。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Quick Audio Note",
+                    "target": "快速语音笔记"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Transcription Settings:",
+                    "target": "转写设置："
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Spanish-Latin America",
+                    "target": "西班牙语（拉丁美洲）"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Model Tier",
+                    "target": "模型等级"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Nova (Most accurate) (~$0.26/hr)",
+                    "target": "Nova（最准确）（约$0.26/小时）"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Enhanced (~$0.87/hr)",
+                    "target": "增强（约$0.87/小时）"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Base (~$0.75/hr)",
+                    "target": "基础（约$0.75/小时）"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Punctuation\r\n\t\t\t\t\t\t\t",
+                    "target": "标点\r\n\t\t\t\t\t\t\t"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Profanity Filter",
+                    "target": "脏话过滤器"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Audio Note Title:",
+                    "target": "语音笔记标题："
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Submit for transcription?",
+                    "target": "提交转写？"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Submit for transcription using Deepgram?",
+                    "target": "使用 Deepgram 提交转写？"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Submit for transcription using Audio Note API key?",
+                    "target": "使用 Audio Note API key 提交转写？"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Local File",
+                    "target": "本地文件"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Podcast Search",
+                    "target": "播客搜索"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "MP3 files added for transcription:",
+                    "target": "已添加用于转写的 MP3 文件："
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "???",
+                    "target": "???"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Could not transcribe audio:",
+                    "target": "无法转写音频："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Audio Notes: Could not find line numbers of audio-note...? This should be impossible.",
+                    "target": "音频笔记：找不到 audio-note 的行号……这不应该发生。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Audio Notes: getUserMedia() success, stream created, initializing MediaRecorder",
+                    "target": "音频笔记：getUserMedia() 成功，已创建流，正在初始化 MediaRecorder"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Audio Notes: Folder exists. Skipping creation.",
+                    "target": "音频笔记：文件夹已存在，跳过创建。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Audio Notes: Obsidian Audio Notes loaded",
+                    "target": "音频笔记：Obsidian Audio Notes 已加载"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Add to Queue",
+                    "target": "加入队列"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Transcribe using Deepgram",
+                    "target": "使用 Deepgram 转写"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The .mp3 must be publicly available, so it cannot require a login or other authentication to access. The .mp3 file cannot be on your computer, it must be online.",
+                    "target": ".mp3 必须公开可访问，因此不能要求登录或其他身份验证。该 .mp3 文件不能在你的电脑上，必须在线。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The amount of time to add from the current time when creating new audio notes",
+                    "target": "创建新的音频笔记时从当前时间增加的时长"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The amount of time to subtract from the current time when creating new audio notes",
+                    "target": "创建新的音频笔记时从当前时间减去的时长"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The amount of time to skip backward when pressing the backward button on the audio player",
+                    "target": "在音频播放器上按下后退按钮时向后跳过的时长"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The amount of time to skip forward when pressing the forward button on the audio player",
+                    "target": "在音频播放器上按下前进按钮时向前跳过的时长"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Provided by the library maintainer to work with transcripts online. Go to github.com/jjmaldonis/obsidian-audio-notes for info about how to join the early beta.",
+                    "target": "由库维护者提供以便在线使用转录。前往 github.com/jjmaldonis/obsidian-audio-notes 获取如何加入早期内测的信息。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Turn on to log console messages to log.txt in the plugin folder (requires restart).",
+                    "target": "开启后将控制台消息记录到插件文件夹中的 log.txt（需要重启）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Visit https://dpgr.am/obsidian to get your free API key.",
+                    "target": "访问 https://dpgr.am/obsidian 获取你的免费 API 密钥。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The folder your transcripts will be saved in when transcribing audio files.",
+                    "target": "转录音频文件时保存转录文本的文件夹。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "URL to .mp3 file:",
+                    "target": ".mp3 文件的 URL："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "+ duration (seconds) when generating new notes",
+                    "target": "+ 生成新笔记时的时长（秒）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "- duration (seconds) when generating new notes",
+                    "target": "- 生成新笔记时的时长（秒）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Skip backward (seconds)",
+                    "target": "向后跳过（秒）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Skip forward (seconds)",
+                    "target": "向前跳过（秒）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Audio Notes API Key",
+                    "target": "音频笔记 API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Debugging mode",
+                    "target": "调试模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Deepgram API Key",
+                    "target": "Deepgram API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Deepgram Transcript Folder",
+                    "target": "Deepgram 转录文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "or select an mp3 file from your vault using the dropdown below:",
+                    "target": "或使用下方下拉菜单从你的库中选择一个 mp3 文件："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "<your api key>",
+                    "target": "<your api key>"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter your API key here...",
+                    "target": "在此输入你的 API 密钥..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Audio Notes: The user's cursor is not inside an audio note",
+                    "target": "音频笔记：用户的光标不在音频笔记内"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Audio Notes: The user tried to generate an audio note with an existing quote",
+                    "target": "音频笔记：用户尝试使用已有引用生成音频笔记"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Transcript file does not have start or end times for at least one text entry.",
+                    "target": "转录文件中至少有一个文本条目缺少开始或结束时间。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Successfully queued .mp3 file for transcription",
+                    "target": "已成功将 .mp3 文件加入转录队列"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Make sure your URL is an .mp3, .m4b, or .m4a file. It should end in one of those extensions (excluding everything after an optional question mark).",
+                    "target": "请确保你的 URL 是 .mp3、.m4b 或 .m4a 文件。它应以这些扩展名之一结尾（不包括可选问号后的所有内容）。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please specify a .mp3 URL, an accuracy level, and a language.",
+                    "target": "请指定一个 .mp3 URL、准确度级别和语言。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Transcribing audio using Deepgram...",
+                    "target": "正在使用 Deepgram 转录音频..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Transcript filename copied to clipboard",
+                    "target": "转录文件名已复制到剪贴板"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Must be a number",
+                    "target": "必须是数字"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No audio file defined for audio note.",
+                    "target": "未为音频笔记定义音频文件。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "An audio note has a start time that is after the end time. Fix it!",
+                    "target": "某条音频笔记的开始时间在结束时间之后。请修正！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please set your Deepgram API key in the settings tab.",
+                    "target": "请在设置选项卡中设置你的 Deepgram API 密钥。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Coud not create audio note at end of file.",
+                    "target": "无法在文件末尾创建音频笔记。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Could not find audio note.",
+                    "target": "未找到音频笔记。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Currently, only YouTube videos are supported.",
+                    "target": "目前仅支持 YouTube 视频。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please focus your cursor on a markdown window.",
+                    "target": "请将光标聚焦在 Markdown 窗口中。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Use the command `Media Extended: Open Media from Link` to open a YouTube video.",
+                    "target": "使用命令 `Media Extended: Open Media from Link` 来打开 YouTube 视频。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Could not generate audio notes.",
+                    "target": "无法生成音频笔记。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Created new audio note",
+                    "target": "已创建新的音频笔记"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Regenerating All Audio Notes...",
+                    "target": "正在重新生成所有音频笔记..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No transcript file defined for audio note.",
+                    "target": "未为音频笔记定义转录文件。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Audio Note generation complete!",
+                    "target": "音频笔记生成完成！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Regenerating Current Audio Note...",
+                    "target": "正在重新生成当前音频笔记..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please place your cursor inside the Audio Note you want to generate",
+                    "target": "请将光标放在你要生成的音频笔记内"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please delete the quote for the audio note before regenerating it",
+                    "target": "请在重新生成之前删除该音频笔记的引用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Regenerate Current Audio Note",
+                    "target": "重新生成当前音频笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Regenerate All Audio Notes",
+                    "target": "重新生成所有音频笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Create new Audio Note in new file",
+                    "target": "在新文件中创建新的音频笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle Play/Pause",
+                    "target": "切换播放/暂停"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Skip Backward",
+                    "target": "后退"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Skip Forward",
+                    "target": "前进"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Slow Down Playback",
+                    "target": "降低播放速度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Speed Up Playback",
+                    "target": "加快播放速度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Reset Audio to Start",
+                    "target": "将音频重置到开头"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Transcribe mp3 file online",
+                    "target": "在线转写 mp3 文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Generate quick audio recording with transcription",
+                    "target": "生成带转写的快速音频录制"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Paste a URL to an online mp3 file...",
+                    "target": "粘贴在线 mp3 文件的 URL..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Create Audio Note in new file",
+                    "target": "在新文件中创建音频笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Create new note from URL",
+                    "target": "从 URL 创建新笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Search for a podcast:",
+                    "target": "搜索播客："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Choose a podcast:",
+                    "target": "选择播客："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Choose an episode:",
+                    "target": "选择单集："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Create new note from Podcast",
+                    "target": "从播客创建新笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Add an mp3 file to transcribe",
+                    "target": "添加要转录的 mp3 文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Please set a valid Audio Notes API key in the settings.",
+                    "target": "请在设置中设置有效的 Audio Notes API 密钥。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "If you do not have an API key, contact the maintainer of this plugin. See the README at https://github.com/jjmaldonis/obsidian-audio-notes for more information.",
+                    "target": "如果你没有 API 密钥，请联系此插件的维护者。更多信息请参阅 https://github.com/jjmaldonis/obsidian-audio-notes 的 README。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Deepgram Settings",
+                    "target": "Deepgram 设置"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
