@@ -1,0 +1,115 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "cut-the-fluff",
+        "version": "1.0.0",
+        "title": "Cut The Fluff",
+        "description": "Cut The Fluff Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.1.6",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Wavy underline",
+                    "target": "波浪下划线"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "You can also toggle on and off from the command palette",
+                    "target": "你也可以在命令面板中开启或关闭"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Selecting none will add CSS classes to matches but no formatting to allow you to format from your user stylesheet",
+                    "target": "选择“无”会为匹配项添加 CSS 类但不进行格式化，以便你可通过用户样式表进行格式设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "eg. very, quite, really",
+                    "target": "例如：very，quite，really"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "eg. move the needle, double-edged sword, paradigm shift",
+                    "target": "例如：move the needle，double-edged sword，paradigm shift"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "eg. erroneous (wrong), pertaining to (about), utalize (use), due to the fact that (due to)",
+                    "target": "例如：erroneous (wrong)，pertaining to (about)，utalize (use)，due to the fact that (due to)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "eg. combine together, basic fundamentals, critically important, final conclusion",
+                    "target": "例如：combine together，basic fundamentals，critically important，final conclusion"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable highlighting",
+                    "target": "启用高亮"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Highlight style",
+                    "target": "高亮样式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Built-in rulesets",
+                    "target": "内置规则集"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Weak qualifiers",
+                    "target": "弱限定词"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Clichés, jargon and metaphors",
+                    "target": "陈词滥调、行话和隐喻"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Unnecessary complexity or clutter",
+                    "target": "不必要的复杂性或杂乱"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Custom rules",
+                    "target": "自定义规则"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "one rule\nper line\n-exception",
+                    "target": "每行一条规则\n-例外"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle highlighting",
+                    "target": "切换高亮显示"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
