@@ -1,0 +1,355 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "weather-widget",
+        "version": "1.0.0",
+        "title": "Weather Widget",
+        "description": "Weather Widget Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.1.10",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "WeatherSettingsTab: failed to persist settings",
+                    "target": "WeatherSettingsTab: 持久化设置失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "WeatherService: failed to fetch from Open-Meteo",
+                    "target": "WeatherService: 从 Open-Meteo 获取失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "WeatherService: failed to fetch from OpenWeatherMap",
+                    "target": "WeatherService: 从 OpenWeatherMap 获取失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "WeatherPlugin: failed to refresh inline city",
+                    "target": "WeatherPlugin: 刷新内联城市失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "WeatherPlugin: initial weather refresh failed",
+                    "target": "WeatherPlugin: 初次天气刷新失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "WeatherPlugin: failed to refresh weather data",
+                    "target": "WeatherPlugin: 刷新天气数据失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "WeatherPlugin: widget minute tick failed",
+                    "target": "WeatherPlugin: 小组件分钟更新失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "WeatherPlugin: unexpected error refreshing weather data for city",
+                    "target": "WeatherPlugin: 刷新城市天气数据时发生意外错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "WeatherWidget: failed to format time in timezone",
+                    "target": "WeatherWidget: 在时区中格式化时间失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "WeatherWidget: failed to format time with timezone",
+                    "target": "WeatherWidget: 使用时区格式化时间失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "WeatherService: invalid coordinates provided",
+                    "target": "WeatherService：提供的坐标无效"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "WeatherService: OpenWeatherMap API key is missing",
+                    "target": "WeatherService：缺少 OpenWeatherMap API 密钥"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Configure the data source and when cached data expires.",
+                    "target": "配置数据源以及缓存数据的过期时间。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Adjust sample conditions to see how gradients blend together.",
+                    "target": "调整示例条件以查看渐变如何融合。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Add the places you want to monitor. Use decimal degrees for coordinates.",
+                    "target": "添加要监测的地点。坐标请使用十进制度。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Tune base color used for sunrise, day, evening, and night.",
+                    "target": "调整用于日出、白天、傍晚和夜间的基础颜色。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Assign colors and icons to each condition and tune the alpha gradient.",
+                    "target": "为每种天气条件分配颜色和图标，并调整透明度渐变。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Configure the gradient, opacity, and icon that follow the sun's path.",
+                    "target": "配置沿太阳路径变化的渐变、透明度和图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Fine tune how each background layer blends across the row. The shared preview bar above updates instantly.",
+                    "target": "微调每个背景层在整行中的融合方式。上方共享预览条会即时更新。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Miscellaneous options for the widget.",
+                    "target": "小组件的其他选项。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Restore every option to the default configuration.",
+                    "target": "将每个选项恢复为默认配置。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Выберите источник данных и настройте обновление кеша.",
+                    "target": "选择数据源并配置缓存更新。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Проверьте, как градиенты взаимодействуют при разных условиях.",
+                    "target": "检查渐变在不同条件下如何交互。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Добавьте интересующие вас города. Координаты указывайте в градусах с десятичной частью.",
+                    "target": "添加你感兴趣的城市。坐标请以带小数的度数填写。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Настройте основной цвет для рассвета, дня, вечера и ночи.",
+                    "target": "为清晨、白天、傍晚和夜晚设置主色。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Настройте цвета, иконки и форму альфа-градиента для погодных состояний.",
+                    "target": "设置天气状态的颜色、图标和透明度渐变形状。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Поддерживайте таблицу цветов и настраивайте альфа-градиент температурного слоя.",
+                    "target": "维护色表并配置温度图层的透明度渐变。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Настройте цвета, непрозрачность и значок, отображающие траекторию солнца.",
+                    "target": "设置颜色、不透明度和表示太阳轨迹的图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Настройте переходы фоновых слоев. Общая панель предпросмотра выше обновляется мгновенно.",
+                    "target": "设置背景图层过渡。上方的整体预览面板会立即更新。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Дополнительные опции виджета.",
+                    "target": "小部件的附加选项。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Вернуть все параметры к значениям по умолчанию.",
+                    "target": "将所有参数恢复为默认值。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Widget updates",
+                    "target": "小部件更新"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Preview widget",
+                    "target": "预览小部件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Time-of-day colors",
+                    "target": "一天中不同时间的颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Layer gradients",
+                    "target": "图层渐变"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Reset settings",
+                    "target": "重置设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Локализация",
+                    "target": "本地化"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Обновления виджета",
+                    "target": "小部件更新"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Виртуальный виджет",
+                    "target": "虚拟小部件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Локации",
+                    "target": "位置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Цвета по времени суток",
+                    "target": "按时间段颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Погода",
+                    "target": "天气"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Температура",
+                    "target": "温度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Солнце",
+                    "target": "太阳"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Градиенты слоёв",
+                    "target": "图层渐变"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Прочее",
+                    "target": "其他"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Сброс настроек",
+                    "target": "重置设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Название",
+                    "target": "名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "```weather-widget\n```\n",
+                    "target": "```weather-widget\n```\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Time layer",
+                    "target": "时间图层"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Weather layer",
+                    "target": "天气图层"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Weather widget",
+                    "target": "天气小部件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Слой времени",
+                    "target": "时间图层"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Слой погоды",
+                    "target": "天气图层"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Слой температуры",
+                    "target": "温度图层"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Погодный виджет",
+                    "target": "天气小部件"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
