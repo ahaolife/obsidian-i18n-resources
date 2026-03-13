@@ -1,0 +1,967 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "typst-mate",
+        "version": "1.0.0",
+        "title": "Typst Mate",
+        "description": "Typst Mate Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.3.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Snippets are managed in a separate leaf. ",
+                    "target": "代码片段在单独的叶面板中管理。 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Typst SVG",
+                    "target": "Typst SVG"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Markup Document",
+                    "target": "标记文档"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Math Equation",
+                    "target": "数学公式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Not recommended for performance reasons. When enabled, ",
+                    "target": "出于性能原因不推荐。启用后，"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Adds a line at the beginning of the code declaring length: ",
+                    "target": "在代码开头添加一行以声明长度："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " For more details, see ",
+                    "target": "更多详情请参见"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " can be used as an internal length value. In inline mode, separate the id and the code with a colon ",
+                    "target": "可用作内部长度值。在内联模式下，用冒号分隔 id 和代码 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " can be used (only the first occurrence is replaced), and ",
+                    "target": "可使用（仅替换第一次出现），并且"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " (Disabled automatically when exporting to PDF via Markdown menu)",
+                    "target": "（通过 Markdown 菜单导出为 PDF 时会自动禁用）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "it may conflict with plugins related to export or rendering.",
+                    "target": "可能与导出或渲染相关的插件发生冲突。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "The UI will no longer freeze, but ",
+                    "target": "界面将不再卡死，但"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " to use this.",
+                    "target": "以使用此功能。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "typstmate-settings-table typstmate-hidden",
+                    "target": "typstmate-settings-table typstmate-hidden"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "unexpected end of block comment",
+                    "target": "块注释意外结束"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "unclosed Unicode escape sequence",
+                    "target": "未闭合的 Unicode 转义序列"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "automatic links cannot contain unbalanced brackets, use the `link` function instead",
+                    "target": "自动链接不能包含不匹配的括号，请改用 `link` 函数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "unclosed label",
+                    "target": "未闭合的标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "the character `!` is not valid in code",
+                    "target": "字符 `!` 在代码中无效"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "unclosed string",
+                    "target": "未闭合的字符串"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "connectedCallback error during reload:",
+                    "target": "重载期间 connectedCallback 出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "attributeChangedCallback error during reload:",
+                    "target": "重载期间 attributeChangedCallback 出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to add Typst to Excalidraw:",
+                    "target": "将 Typst 添加到 Excalidraw 失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Open as Markdown failed:",
+                    "target": "以 Markdown 打开失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to parse viewer state:",
+                    "target": "解析查看器状态失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "PDF.js rendering failed:",
+                    "target": "PDF.js 渲染失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to render all PDF pages:",
+                    "target": "渲染所有 PDF 页面失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to render text layer:",
+                    "target": "渲染文本层失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[TypstMate] PDF updatePDF failed:",
+                    "target": "[TypstMate] PDF updatePDF 失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Open with default app failed:",
+                    "target": "使用默认应用打开失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Reload Plugin",
+                    "target": "重新加载插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Add Profile",
+                    "target": "添加配置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Open Typst tools in side panel when launching Obsidian.",
+                    "target": "启动 Obsidian 时在侧边栏中打开 Typst 工具。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Desktop App only. Typst supports ttf/otf/ttc/otc.",
+                    "target": "仅限桌面应用。Typst 支持 ttf/otf/ttc/otc。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The string next to the font name is used to identify fonts that share the same PostScript name.",
+                    "target": "字体名称旁的字符串用于识别共享相同 PostScript 名称的字体。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Desktop App only.",
+                    "target": "仅限桌面应用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Defers initialization at startup (Unstable on mobile). Reduces startup time but delays first render.",
+                    "target": "启动时延迟初始化（移动端不稳定）。可减少启动时间，但会延迟首次渲染。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When a package is imported, the cache is used instead of the actual files for faster performance. If you make changes directly, please click the package icon to refresh the cache (plugin reload is required.)",
+                    "target": "导入包时使用缓存而非实际文件以提升性能。如果直接修改了文件，请点击包图标刷新缓存（需要重载插件）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Conceal math symbols (e.g. integral to ∫) in the editor.",
+                    "target": "在编辑器中隐藏数学符号（例如将 integral 显示为 ∫）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable delay before revealing concealed math symbols when cursor is nearby.",
+                    "target": "当光标靠近时，启用显示隐藏数学符号前的延迟。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Milliseconds to wait before revealing the symbol text.",
+                    "target": "显示符号文本前等待的毫秒数。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Automatically replaces typed symbols with Unicode equivalents.",
+                    "target": "自动将输入的符号替换为对应的 Unicode。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Disable highlighting of matching brackets.",
+                    "target": "禁用匹配括号高亮。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show live preview for inline math.",
+                    "target": "显示行内数学的实时预览。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Reverts the Tab key behavior to the default indentation instead of jumping to the next placeholder.",
+                    "target": "将 Tab 键行为恢复为默认缩进，而不是跳转到下一个占位符。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Allow the cursor to jump outside the current bracket pair.",
+                    "target": "允许光标跳出当前括号对。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When exiting math, first move the cursor to the end of the block.",
+                    "target": "退出数学时，先将光标移动到块末尾。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If a display math block fits on a single line, exit inline instead of creating a new line.",
+                    "target": "若显示数学块可放在一行内，则以内联方式退出而不创建新行。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Disable default macros like mk and dm.",
+                    "target": "禁用默认宏，如 mk 和 dm。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Specifies the syntax tree parsing mode. Select None to completely bypass AST parsing and syntax highlighting.",
+                    "target": "指定语法树解析模式。选择 None 可完全跳过 AST 解析和语法高亮。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Preamble can be turned on or off by toggling each processor.",
+                    "target": "可通过切换每个处理器来开启或关闭导言区。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Uses Obsidian's text color as the base color automatically.",
+                    "target": "自动使用 Obsidian 的文本颜色作为基色。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Offset for inline math. The appearance may look unappealing depending on the font used in Obsidian. Please adjust it here if necessary.",
+                    "target": "行内数学的偏移量。外观可能会因 Obsidian 使用的字体而不够美观。如有需要请在此调整。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Profile to use when calculating \"fit to note width\". Select a preset or Live to detect editor width.",
+                    "target": "用于计算“适配笔记宽度”的配置。选择预设或 Live 以检测编辑器宽度。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "processor id",
+                    "target": "处理器 id"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Typst file import path",
+                    "target": "Typst 文件导入路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable Debugger",
+                    "target": "启用调试器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Open Typst Tools on Startup",
+                    "target": "启动时打开 Typst 工具"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable MathJax Fallback",
+                    "target": "启用 MathJax 备用方案"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Apply Processor to MathJax",
+                    "target": "将处理器应用于 MathJax"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Reload Plugin",
+                    "target": "重新加载插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Import Font",
+                    "target": "导入字体"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Imported Fonts",
+                    "target": "已导入字体"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Import Local Package",
+                    "target": "导入本地包"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Cached Packages",
+                    "target": "已缓存包"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Skip Preparation Waiting",
+                    "target": "跳过准备等待"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Disable Package Cache",
+                    "target": "禁用包缓存"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Conceal Math Symbols",
+                    "target": "隐藏数学符号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable Math Symbol Reveal Delay",
+                    "target": "启用数学符号显示延迟"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Conceal Math Symbol Reveal Delay Duration (ms)",
+                    "target": "隐藏数学符号显示延迟时长（ms）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Disable Bracket Highlight",
+                    "target": "禁用括号高亮"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Inline Preview",
+                    "target": "行内预览"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable Inline Preview",
+                    "target": "启用行内预览"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Tab Jump",
+                    "target": "Tab 跳转"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Revert Tab to Default",
+                    "target": "将 Tab 恢复为默认"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Jump Outside Bracket",
+                    "target": "跳到括号外"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Move to End of Math Block Before Exiting",
+                    "target": "退出前移到数学块末尾"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Prefer Inline Exit for Single Line Display Math",
+                    "target": "单行显示数学优先行内退出"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Disable Macro",
+                    "target": "禁用宏"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use preamble",
+                    "target": "使用导言"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Disable symbol suggest",
+                    "target": "禁用符号建议"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Fit to note width",
+                    "target": "适应笔记宽度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Syntax mode",
+                    "target": "语法模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use replace all",
+                    "target": "使用全部替换"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable Background Rendering",
+                    "target": "启用后台渲染"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Patch PDF Export",
+                    "target": "修补 PDF 导出"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Base Color",
+                    "target": "基础颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Fit Note Width Profiles",
+                    "target": "适应笔记宽度配置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Fit To Note Width Profile",
+                    "target": "适应笔记宽度配置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Rename Category",
+                    "target": "重命名类别"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Processor Kind",
+                    "target": "处理器类型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Script Mode",
+                    "target": "脚本模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "New Category",
+                    "target": "新建类别"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Filter Font Name",
+                    "target": "筛选字体名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Type in the input above to see the preview",
+                    "target": "在上方输入以查看预览"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Copy as script",
+                    "target": "复制为脚本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Copy as SVG (Typst Default)",
+                    "target": "复制为 SVG（Typst 默认）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Copy as PNG (Transparent)",
+                    "target": "复制为 PNG（透明）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Copy as PNG (Opaque)",
+                    "target": "复制为 PNG（不透明）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Open as text",
+                    "target": "以文本打开"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Open with default app",
+                    "target": "使用默认应用打开"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Open as PDF",
+                    "target": "以 PDF 打开"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "New typst file",
+                    "target": "新建 typst 文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Copy Font Family Name",
+                    "target": "复制字体家族名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Get Font List",
+                    "target": "获取字体列表"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Open Folder",
+                    "target": "打开文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Get Info",
+                    "target": "获取信息"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Import Font",
+                    "target": "导入字体"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Import Local Package",
+                    "target": "导入本地包"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Open more settings",
+                    "target": "打开更多设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Delete Profile",
+                    "target": "删除配置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "再読み込み",
+                    "target": "重新加载"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "disconnectedCallback error during reload:",
+                    "target": "重新加载期间的 disconnectedCallback 错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "TypstMate: Reparse failed, falling back to full parse.",
+                    "target": "TypstMate：重新解析失败，回退到完整解析。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "using deprecated parameters for the initialization function; pass a single object instead",
+                    "target": "初始化函数使用了已弃用的参数；请改为传入单个对象"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Copied to clipboard!",
+                    "target": "已复制到剪贴板！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to convert SVG to PNG",
+                    "target": "将 SVG 转换为 PNG 失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "There is no active region",
+                    "target": "没有活动区域"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Files updated.",
+                    "target": "文件已更新。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Plugin reloaded.",
+                    "target": "插件已重新加载。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Copied!",
+                    "target": "已复制！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Font already imported!",
+                    "target": "字体已导入！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Imported successfully!",
+                    "target": "导入成功！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Cached successfully!",
+                    "target": "缓存成功！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to cache",
+                    "target": "缓存失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Invalid number for Reveal Delay",
+                    "target": "Reveal Delay 的数字无效"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Reveal Delay must be greater than 0",
+                    "target": "Reveal Delay 必须大于 0"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "ID is duplicate",
+                    "target": "ID 重复"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "[Typst Mate] The plugin has been automatically turned off due to three consecutive crashes",
+                    "target": "[Typst Mate] 由于连续崩溃三次，插件已自动关闭"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to initialize Typst. Please check that the processor ID does not contain any symbols, try clearing the package cache, and ensure that there are no invalid fonts installed.",
+                    "target": "初始化 Typst 失败。请检查处理器 ID 是否包含任何符号，尝试清除包缓存，并确保未安装无效字体。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Downloading latest wasm...",
+                    "target": "正在下载最新 wasm..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Wasm downloaded!",
+                    "target": "Wasm 下载完成！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Active view is not found.",
+                    "target": "未找到活动视图。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "const parts = input.split(\",\").map(s => s.trim());\n\nconst [x, y] = parts.map(Number)\n\nconst rowText = `${(\"#CURSOR, \".repeat(x)).slice(0, -2)} ;\\n`;\nconst contentText = `  ${rowText}`.repeat(y);\n\nreturn `mat(\\n${contentText})`;",
+                    "target": "const parts = input.split(\",\").map(s => s.trim());\n\nconst [x, y] = parts.map(Number)\n\nconst rowText = `${(\"#CURSOR, \".repeat(x)).slice(0, -2)} ;\\n`;\nconst contentText = `  ${rowText}`.repeat(y);\n\nreturn `mat(\\n${contentText})`;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "const parts = input.split(\",\").map(s => s.trim());\n\nconst [x, y] = parts.map(Number)\n\nconst rowText = `${(\"#CURSOR, \".repeat(x)).slice(0, -2)} ;`;\nconst contentText = `${rowText}`.repeat(y);\n\nreturn `mat(${contentText})`;",
+                    "target": "const parts = input.split(\",\").map(s => s.trim());\n\nconst [x, y] = parts.map(Number)\n\nconst rowText = `${(\"#CURSOR, \".repeat(x)).slice(0, -2)} ;`;\nconst contentText = `${rowText}`.repeat(y);\n\nreturn `mat(${contentText})`;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "cases(#CURSOR \"if\" #CURSOR, #CURSOR \"else\")",
+                    "target": "cases(#CURSOR \"if\" #CURSOR, #CURSOR \"else\")"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "const n = Number(input);\nreturn `cases(\\n${(`  #CURSOR \"if\" #CURSOR,\\n`).repeat(n-1)}  #CURSOR \"else\"\\n)`",
+                    "target": "const n = Number(input);\nreturn `cases(\\n${(`  #CURSOR \"if\" #CURSOR,\\n`).repeat(n-1)}  #CURSOR \"else\"\\n)`"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "underbrace($1, \"\")",
+                    "target": "underbrace($1, \"\")"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "overbrace($1, \"\")",
+                    "target": "overbrace($1, \"\")"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "root(3, $1)",
+                    "target": "root(3, $1)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "root(4, $1)",
+                    "target": "root(4, $1)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "root(5, $1)",
+                    "target": "root(5, $1)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "root(6, $1)",
+                    "target": "root(6, $1)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "root(7, $1)",
+                    "target": "root(7, $1)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "root(8, $1)",
+                    "target": "root(8, $1)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "root(9, $1)",
+                    "target": "root(9, $1)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "e.g. mat(3,3)@",
+                    "target": "例如 mat(3,3)@"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "e.g. casesn(3)@",
+                    "target": "例如 casesn(3)@"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "New Profile",
+                    "target": "新建配置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open Typst Tools",
+                    "target": "打开 Typst 工具"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle Background Rendering",
+                    "target": "切换后台渲染"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Replace tex in markdown content or selection to typst",
+                    "target": "将 Markdown 内容或所选内容中的 tex 替换为 typst"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Box current equation",
+                    "target": "为当前公式加框"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Select current equation",
+                    "target": "选择当前公式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Reload tag files",
+                    "target": "重新加载标签文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Render to Excalidraw",
+                    "target": "渲染到 Excalidraw"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Open Details",
+                    "target": "打开详情"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Open Snippet Manager",
+                    "target": "打开代码片段管理器"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
