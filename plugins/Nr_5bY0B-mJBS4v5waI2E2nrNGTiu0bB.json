@@ -1,0 +1,1393 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "local-llm-helper",
+        "version": "1.0.0",
+        "title": "Local LLM Helper",
+        "description": "Local LLM Helper Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.4.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "Searching notes<span class=\"dots\"><span class=\"dot\"></span><span class=\"dot\"></span><span class=\"dot\"></span></span>",
+                    "target": "正在搜索笔记<span class=\"dots\"><span class=\"dot\"></span><span class=\"dot\"></span><span class=\"dot\"></span></span>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "LLM Helper: Generating response...",
+                    "target": "LLM Helper：正在生成回复..."
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "LLM Helper: Ready",
+                    "target": "LLM Helper：就绪"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "OpenAI / LM Studio / vLLM",
+                    "target": "OpenAI / LM Studio / vLLM"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Append after selected text",
+                    "target": "在所选文本后追加"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Replace selected text",
+                    "target": "替换所选文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error exporting batch:",
+                    "target": "导出批次出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error generating tags:",
+                    "target": "生成标签出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Could not parse message into JSON:",
+                    "target": "无法将消息解析为 JSON："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "From chunk:",
+                    "target": "来自分块："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error parsing function arguments",
+                    "target": "解析函数参数出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "RAG Error:",
+                    "target": "RAG 错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error in findSimilarNotes:",
+                    "target": "findSimilarNotes 出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to get storage stats:",
+                    "target": "获取存储统计失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "RAG Chat Error:",
+                    "target": "RAG 聊天错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error indexing notes:",
+                    "target": "笔记索引出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "❌ Error getting storage stats:",
+                    "target": "❌ 获取存储统计出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error showing storage notification:",
+                    "target": "显示存储通知出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to fetch models:",
+                    "target": "获取模型失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Indexing error:",
+                    "target": "索引错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Reader not found",
+                    "target": "未找到读取器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error parsing JSON chunk:",
+                    "target": "解析 JSON 块时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error during request:",
+                    "target": "请求过程中出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Web search error:",
+                    "target": "网络搜索错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "News search error:",
+                    "target": "新闻搜索错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Using RetryOperation.try() is deprecated",
+                    "target": "使用 RetryOperation.try() 已弃用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Using RetryOperation.start() is deprecated",
+                    "target": "使用 RetryOperation.start() 已弃用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[WARNING]: Received non-string content from OpenAI. This is currently not supported.",
+                    "target": "[WARNING]: 收到来自 OpenAI 的非字符串内容。目前不支持。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "🔄 RAGManager: Starting initialization...",
+                    "target": "🔄 RAGManager：开始初始化..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "✅ RAGManager initialized",
+                    "target": "✅ RAGManager 已初始化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "📚 Starting indexing process...",
+                    "target": "📚 正在开始索引过程..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "No markdown files found in vault.",
+                    "target": "在库中未找到 Markdown 文件。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Similar notes:",
+                    "target": "相似笔记："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Processing note entry:",
+                    "target": "正在处理笔记条目："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "File found:",
+                    "target": "已找到文件："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "File not found or not a TFile:",
+                    "target": "文件未找到或不是 TFile："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Generated backlinks:",
+                    "target": "已生成反向链接："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "🔌 LLM Helper: Plugin loading...",
+                    "target": "🔌 LLM Helper：插件正在加载..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "⚙️ LLM Helper: Settings loaded:",
+                    "target": "⚙️ LLM Helper：设置已加载："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "🧠 LLM Helper: Initializing RAGManager...",
+                    "target": "🧠 LLM Helper：正在初始化 RAGManager..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "📂 LLM Helper: Loading plugin settings...",
+                    "target": "📂 LLM Helper: 正在加载插件设置..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "💾 LLM Helper: Raw saved data:",
+                    "target": "💾 LLM Helper: 原始保存数据："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "✅ LLM Helper: Final settings after merge:",
+                    "target": "✅ LLM Helper: 合并后的最终设置："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "🔍 === RAG STORAGE DIAGNOSTICS ===",
+                    "target": "🔍 === RAG 存储诊断 ==="
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "📋 Plugin Settings:",
+                    "target": "📋 插件设置："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "  Provider:",
+                    "target": "  提供商："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "  Server:",
+                    "target": "  服务器："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "  LLM Model:",
+                    "target": "  LLM 模型："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "💾 RAG Storage Stats:",
+                    "target": "💾 RAG 存储统计："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "  Indexed Files:",
+                    "target": "  已索引文件："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "  Last Indexed:",
+                    "target": "  上次索引："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "  Storage Used:",
+                    "target": "  已用存储："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "  Current Indexed Count:",
+                    "target": "  当前索引数量："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "📁 Vault Stats:",
+                    "target": "📁 库统计："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "  Total Markdown Files:",
+                    "target": "  Markdown 文件总数："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "  Plugin Settings Path:",
+                    "target": "  插件设置路径："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "🔍 === END DIAGNOSTICS ===",
+                    "target": "🔍 === 诊断结束 ==="
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "📊 Settings: Updated indexed files count to",
+                    "target": "📊 设置：已将已索引文件数量更新为"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "View on GitHub",
+                    "target": "在 GitHub 上查看"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Got it",
+                    "target": "知道了"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Apply custom prompt",
+                    "target": "应用自定义提示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Save persona prompt",
+                    "target": "保存角色提示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Add persona",
+                    "target": "添加角色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Delete selected persona",
+                    "target": "删除选定角色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Restore defaults",
+                    "target": "恢复默认值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Save markers",
+                    "target": "保存标记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Add prompt",
+                    "target": "添加提示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Start indexing",
+                    "target": "开始索引"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Run diagnostics",
+                    "target": "运行诊断"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "View changelog",
+                    "target": "查看更新日志"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "All providers use OpenAI-compatible API format",
+                    "target": "所有提供方均使用兼容 OpenAI 的 API 格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Ollama: localhost:11434 | LM Studio: localhost:1234 | vLLM: localhost:8000",
+                    "target": "Ollama: localhost:11434 | LM Studio: localhost:1234 | vLLM: localhost:8000"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Required for OpenAI. For local servers, use 'not-needed'",
+                    "target": "OpenAI 必填。本地服务器请使用“not-needed”"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Model for chat and text processing — type a name or browse from server",
+                    "target": "用于聊天和文本处理的模型——输入名称或从服务器浏览"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Model for RAG indexing — type a name or browse from server",
+                    "target": "用于 RAG 索引的模型——输入名称或从服务器浏览"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "0 = deterministic, 1 = creative",
+                    "target": "0 = 确定性，1 = 创意"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Maximum response length (typically 1-4000)",
+                    "target": "最大回复长度（通常为 1-4000）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "AI personality for responses",
+                    "target": "回复的 AI 风格"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Number of previous messages to include (0-3)",
+                    "target": "要包含的历史消息数量（0-3）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show response word by word as it generates. Your server must have CORS enabled for streaming to work.",
+                    "target": "生成时逐词显示回复。要使流式传输工作，服务器必须启用 CORS。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "How to insert generated text",
+                    "target": "如何插入生成的文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Wrap response in custom text (e.g., code blocks)",
+                    "target": "用自定义文本包裹响应（例如代码块）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Text before response",
+                    "target": "响应前的文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Text after response",
+                    "target": "响应后的文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Strip <think>, <reasoning>, <thought> blocks from output (useful for Qwen, DeepSeek)",
+                    "target": "从输出中移除 <think>、<reasoning>、<thought> 块（对 Qwen、DeepSeek 有用）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "JSON array of marker pairs to strip from responses",
+                    "target": "用于从响应中移除的标记对 JSON 数组"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Used by 'Text: Run custom prompt' command",
+                    "target": "由“Text: Run custom prompt”命令使用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Build searchable index of all notes in vault",
+                    "target": "为库中的所有笔记构建可搜索索引"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Number of files in current index",
+                    "target": "当前索引中的文件数量"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Check index storage status",
+                    "target": "检查索引存储状态"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Required for web search features",
+                    "target": "网页搜索功能所需"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Required for web search features (tavily.com)",
+                    "target": "网页搜索功能所需（tavily.com）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose which search API to use for web and news search",
+                    "target": "选择用于网页和新闻搜索的搜索 API"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Server URL",
+                    "target": "服务器 URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "API Key",
+                    "target": "API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Chat model",
+                    "target": "聊天模型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Max tokens",
+                    "target": "最大令牌数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Conversation history",
+                    "target": "对话历史"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Output mode",
+                    "target": "输出模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Response formatting",
+                    "target": "响应格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Prepend text",
+                    "target": "前置文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Append text",
+                    "target": "追加文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Extract reasoning",
+                    "target": "提取推理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Reasoning markers",
+                    "target": "推理标记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Your prompt",
+                    "target": "你的提示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Index notes",
+                    "target": "索引备注"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Indexed files",
+                    "target": "已索引文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Brave Search API key",
+                    "target": "Brave Search API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Tavily API key",
+                    "target": "Tavily API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Search provider",
+                    "target": "搜索提供商"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Ask about your notes...",
+                    "target": "询问你的笔记..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Search saved prompts...",
+                    "target": "搜索已保存的提示..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Search models...",
+                    "target": "搜索模型..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "``` LLM Helper\n\n",
+                    "target": "``` LLM 助手\n\n"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "\n\n```",
+                    "target": "\n\n```"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter API key",
+                    "target": "输入 API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Type your question here...",
+                    "target": "在此输入你的问题..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "LLM Helper: Ready",
+                    "target": "LLM 助手：就绪"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Chat with notes (RAG)",
+                    "target": "与笔记聊天（RAG）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Edit with prompt...",
+                    "target": "使用提示编辑..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Make professional",
+                    "target": "专业化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Generate tags",
+                    "target": "生成标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Use as prompt",
+                    "target": "用作提示词"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Custom prompt",
+                    "target": "自定义提示词"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Run saved prompt...",
+                    "target": "运行已保存的提示词..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Web search",
+                    "target": "网页搜索"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "News search",
+                    "target": "新闻搜索"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Stop generation",
+                    "target": "停止生成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Clear conversation",
+                    "target": "清除对话"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "You have enabled OTEL export via the `OTEL_ENABLED` or `LANGSMITH_OTEL_ENABLED` environment variable, but have not initialized the required OTEL instances. Please add:\n```\nimport { initializeOTEL } from \"langsmith/experimental/otel/setup\";\ninitializeOTEL();\n```\nat the beginning of your code.",
+                    "target": "你已通过 `OTEL_ENABLED` 或 `LANGSMITH_OTEL_ENABLED` 环境变量启用 OTEL 导出，但尚未初始化所需的 OTEL 实例。请在代码开头添加：\n```\nimport { initializeOTEL } from \"langsmith/experimental/otel/setup\";\ninitializeOTEL();\n```\n"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[WARNING]: When tracing in manual flush mode, you must call `await client.flush()` manually to submit trace batches.",
+                    "target": "[WARNING]: 在手动刷新模式下进行追踪时，必须手动调用 `await client.flush()` 以提交追踪批次。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Invalid LANGSMITH_RUNS_ENDPOINTS – must be valid JSON array of objects with api_url and api_key properties, or object mapping url->apiKey",
+                    "target": "无效的 LANGSMITH_RUNS_ENDPOINTS——必须是包含 api_url 和 api_key 属性的对象的有效 JSON 数组，或将 url 映射到 apiKey 的对象"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to calculate number of tokens, falling back to approximate count",
+                    "target": "无法计算 token 数量，回退为近似计数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Server address is not configured.",
+                    "target": "未配置服务器地址。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No active Markdown view",
+                    "target": "没有活动的 Markdown 视图"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Tags generated and appended",
+                    "target": "标签已生成并追加"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error generating tags. Check the console for details.",
+                    "target": "生成标签出错。请查看控制台了解详情。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Copied to clipboard",
+                    "target": "已复制到剪贴板"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Make sure you have indexed your notes before using this feature.",
+                    "target": "使用此功能前请确保已为笔记建立索引。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please select some text first",
+                    "target": "请先选择一些文本"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No saved prompts yet. Add some in settings.",
+                    "target": "暂无已保存的提示词。请在设置中添加。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Generating tags...",
+                    "target": "正在生成标签..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Generation stopped",
+                    "target": "生成已停止"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No active view",
+                    "target": "没有活动视图"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Does not work in preview preview",
+                    "target": "在预览中无法使用"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Unknown view mode",
+                    "target": "未知视图模式"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Indexing notes for RAG...",
+                    "target": "正在为 RAG 索引笔记..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Notes indexed successfully!",
+                    "target": "笔记索引成功！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to index notes. Check console for details.",
+                    "target": "笔记索引失败。请查看控制台了解详情。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No text selected",
+                    "target": "未选择文本"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Generating backlinks...",
+                    "target": "正在生成反向链接..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No relevant backlinks found",
+                    "target": "未找到相关的反向链接"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error getting storage stats. Check console for details.",
+                    "target": "获取存储统计信息出错。请查看控制台了解详情。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No models found on server",
+                    "target": "服务器上未找到模型"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Could not fetch models. Check server URL and connection.",
+                    "target": "无法获取模型。请检查服务器 URL 和连接。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Persona prompt saved",
+                    "target": "人设提示已保存"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please enter a persona name",
+                    "target": "请输入人设名称"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Invalid persona name",
+                    "target": "人设名称无效"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Cannot delete a built-in persona",
+                    "target": "无法删除内置人设"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Persona deleted",
+                    "target": "人设已删除"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Personas restored to defaults",
+                    "target": "人格已恢复为默认设置"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Reasoning markers saved",
+                    "target": "推理标记已保存"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Prompt updated",
+                    "target": "提示词已更新"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Prompt deleted",
+                    "target": "提示词已删除"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please enter a title",
+                    "target": "请输入标题"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please enter a prompt",
+                    "target": "请输入提示词"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Indexing complete!",
+                    "target": "索引完成！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error during indexing. Check console for details.",
+                    "target": "索引时出错。请查看控制台了解详情。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Generating response. This takes a few seconds..",
+                    "target": "正在生成回复。这需要几秒钟.."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Text generation stopped by kill switch",
+                    "target": "文本生成已被终止开关停止"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Text generation complete. Voila!",
+                    "target": "文本生成完成。瞧！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Text generated. Voila!",
+                    "target": "文本已生成。瞧！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Authentication failed (401). Check your API key in plugin settings.",
+                    "target": "身份验证失败（401）。请在插件设置中检查你的 API 密钥。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error generating text. Check plugin console for details.",
+                    "target": "生成文本时出错。请在插件控制台查看详情。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Cannot summarize in preview",
+                    "target": "无法在预览中总结"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Copied to clipboard!",
+                    "target": "已复制到剪贴板！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error communicating with LLM server. Check plugin console for details.",
+                    "target": "与 LLM 服务器通信出错。请在插件控制台查看详情。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Title and prompt are required",
+                    "target": "标题和提示为必填项"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please set your Tavily API key in settings",
+                    "target": "请在设置中设置你的 Tavily API 密钥"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please set your Brave Search API key in settings",
+                    "target": "请在设置中设置你的 Brave Search API 密钥"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Searching the web...",
+                    "target": "正在搜索网页..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Web search failed. Check console for details.",
+                    "target": "网页搜索失败。请查看控制台了解详情。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Searching for news...",
+                    "target": "正在搜索新闻..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "News search failed. Check console for details.",
+                    "target": "新闻搜索失败。请查看控制台了解详情。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "You are a helpful assistant that generates relevant hashtags.",
+                    "target": "你是一个能生成相关话题标签的有用助手。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "You are a helpful writing assistant. Provide clear, concise responses. When editing text, preserve the author's voice unless asked to change it.",
+                    "target": "你是一个有用的写作助手。请提供清晰、简洁的回复。编辑文本时，请保留作者的语气，除非被要求更改。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Malformed args.",
+                    "target": "参数格式错误。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "String does not match pattern.",
+                    "target": "字符串与模式不匹配。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Fix grammar & spelling",
+                    "target": "修正语法和拼写"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Make it concise",
+                    "target": "使其简洁"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Expand with more detail",
+                    "target": "展开更多细节"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Simplify language",
+                    "target": "简化语言"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Make it formal",
+                    "target": "使其正式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Make it casual",
+                    "target": "使其随意"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Convert to bullet points",
+                    "target": "转换为项目符号列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Improve clarity",
+                    "target": "提高清晰度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Notes: Generate backlinks",
+                    "target": "笔记：生成反向链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Settings: RAG diagnostics",
+                    "target": "设置：RAG 诊断"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Chat: Notes (RAG)",
+                    "target": "聊天：笔记（RAG）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Text: Summarize",
+                    "target": "文本：摘要"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Text: Make professional",
+                    "target": "文本：专业化"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Text: Run custom prompt",
+                    "target": "文本：运行自定义提示词"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Text: Use as prompt",
+                    "target": "文本：用作提示词"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Text: Edit with prompt...",
+                    "target": "文本：使用提示词编辑..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Text: Run saved prompt...",
+                    "target": "文本：运行已保存的提示词..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Chat: General",
+                    "target": "聊天：通用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Text: Generate tags",
+                    "target": "文本：生成标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Web: Search",
+                    "target": "网页：搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Web: Search news",
+                    "target": "网页：搜索新闻"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "New persona name",
+                    "target": "新角色名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "JSON array of {start, end} marker pairs",
+                    "target": "包含 {start, end} 标记对的 JSON 数组"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Prompt title (e.g., Translate to Spanish)",
+                    "target": "提示标题（例如：翻译成西班牙语）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Prompt text (e.g., Translate the following text to Spanish:)",
+                    "target": "提示文本（例如：将以下文本翻译成西班牙语：）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Previous versions",
+                    "target": "之前的版本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Chat with Notes",
+                    "target": "与笔记聊天"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Ask questions about your notes. I'll find relevant content and answer based on what's in your vault.",
+                    "target": "针对你的笔记提问。我会找到相关内容并根据你的知识库进行回答。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Try asking:",
+                    "target": "试着问："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Sources:",
+                    "target": "来源："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Edit with prompt",
+                    "target": "使用提示编辑"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Choose a preset or write your own instruction:",
+                    "target": "选择预设或编写你自己的指令："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Or write a custom instruction:",
+                    "target": "或编写自定义指令："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Custom Prompt",
+                    "target": "自定义提示词"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Saved Prompts",
+                    "target": "已保存的提示词"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No saved prompts yet. Add one below.",
+                    "target": "尚无已保存的提示词。请在下方添加。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Notes Index (RAG)",
+                    "target": "笔记索引（RAG）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Processing: 0/?",
+                    "target": "处理中：0/?"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Chat with your Local LLM",
+                    "target": "与本地 LLM 聊天"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Ask:",
+                    "target": "提问："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Edit Prompt",
+                    "target": "编辑提示词"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
