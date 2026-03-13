@@ -1,0 +1,85 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "simple-archiver",
+        "version": "1.0.0",
+        "title": "Simple Archiver",
+        "description": "Simple Archiver Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.5.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The folder to use as the Archive. If the folder doesn't exist, it will be created when archiving a note. Folder names must not contain \"\\\\\", \"/\" or \":\" and must not start with \".\".",
+                    "target": "用作归档的文件夹。如果文件夹不存在，归档笔记时将会创建。文件夹名称不得包含“\\\\”、“/”或“:”，且不得以“.”开头。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Archive folder",
+                    "target": "归档文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Archive folder",
+                    "target": "归档文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Move to archive",
+                    "target": "移至归档"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Move all to archive",
+                    "target": "全部移至归档"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Move out of archive",
+                    "target": "移出归档"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Move all out of archive",
+                    "target": "全部移出归档"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Archive operation cancelled",
+                    "target": "归档操作已取消"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Unarchive operation cancelled",
+                    "target": "取消归档操作已取消"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Move to archive",
+                    "target": "移至归档"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Move out of archive",
+                    "target": "移出归档"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
