@@ -1,0 +1,121 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "cmd-search",
+        "version": "1.0.0",
+        "title": "CmdSearch",
+        "description": "CmdSearch Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.08",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<svg viewBox=\"0 0 20 20\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"m 10,0 c 5.523,0 10,4.59 10,10.253 0,4.529 -2.862,8.371 -6.833,9.728 -0.507,0.101 -0.687,-0.219 -0.687,-0.492 0,-0.338 0.012,-1.442 0.012,-2.814 0,-0.956 -0.32,-1.58 -0.679,-1.898 2.227,-0.254 4.567,-1.121 4.567,-5.059 0,-1.12 -0.388,-2.034 -1.03,-2.752 0.104,-0.259 0.447,-1.302 -0.098,-2.714 0,0 -0.838,-0.275 -2.747,1.051 C 11.706,5.076 10.85,4.962 10,4.958 9.15,4.958 8.295,5.076 7.497,5.303 5.586,3.977 4.746,4.252 4.746,4.252 4.203,5.664 4.546,6.707 4.649,6.966 4.01,7.684 3.619,8.598 3.619,9.718 c 0,3.928 2.335,4.808 4.556,5.067 -0.286,0.256 -0.545,0.708 -0.635,1.371 -0.57,0.262 -2.018,0.715 -2.91,-0.852 0,0 -0.529,-0.985 -1.533,-1.057 0,0 -0.975,-0.013 -0.068,0.623 0,0 0.655,0.315 1.11,1.5 0,0 0.587,1.83 3.369,1.21 0.005,0.857 0.014,1.665 0.014,1.909 0,0.271 -0.184,0.588 -0.683,0.493 C 2.865,18.627 0,14.783 0,10.253 0,4.59 4.478,0 10,0\"/></svg>Issues",
+                    "target": "<svg viewBox=\"0 0 20 20\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"m 10,0 c 5.523,0 10,4.59 10,10.253 0,4.529 -2.862,8.371 -6.833,9.728 -0.507,0.101 -0.687,-0.219 -0.687,-0.492 0,-0.338 0.012,-1.442 0.012,-2.814 0,-0.956 -0.32,-1.58 -0.679,-1.898 2.227,-0.254 4.567,-1.121 4.567,-5.059 0,-1.12 -0.388,-2.034 -1.03,-2.752 0.104,-0.259 0.447,-1.302 -0.098,-2.714 0,0 -0.838,-0.275 -2.747,1.051 C 11.706,5.076 10.85,4.962 10,4.958 9.15,4.958 8.295,5.076 7.497,5.303 5.586,3.977 4.746,4.252 4.746,4.252 4.203,5.664 4.546,6.707 4.649,6.966 4.01,7.684 3.619,8.598 3.619,9.718 c 0,3.928 2.335,4.808 4.556,5.067 -0.286,0.256 -0.545,0.708 -0.635,1.371 -0.57,0.262 -2.018,0.715 -2.91,-0.852 0,0 -0.529,-0.985 -1.533,-1.057 0,0 -0.975,-0.013 -0.068,0.623 0,0 0.655,0.315 1.11,1.5 0,0 0.587,1.83 3.369,1.21 0.005,0.857 0.014,1.665 0.014,1.909 0,0.271 -0.184,0.588 -0.683,0.493 C 2.865,18.627 0,14.783 0,10.253 0,4.59 4.478,0 10,0\"/></svg>问题"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<svg viewBox=\"-1.5 0 20 20\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 16.47546,5.9 C 15.2608,11.117 11.55564,12 6.57866,12 L 5.07814,20 H 7.82541 C 8.32592,20 8.53555,19.659 8.62783,19.179 9.31289,14.848 9.2166,15.557 9.27879,14.879 9.33799,14.501 9.66495,14 10.04911,14 13.6981,14 16.11839,12.945 16.85761,9.158 17.1204,7.811 17.03414,6.772 16.47546,5.9 M 5.13431,11.86 4.01193,18 H 0.53546 c -0.329,0 -0.58075,-0.402 -0.5286,-0.726 L 2.60268,0.751 C 2.67088,0.319 3.04501,0 3.48434,0 h 6.23377 c 3.69112,0 6.1766,1.401 5.60187,5.054 C 14.31395,11.56 8.73716,11 6.19951,11 c -0.43932,0 -0.996,0.428 -1.0652,0.86\"/></svg>Donations",
+                    "target": "<svg viewBox=\"-1.5 0 20 20\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 16.47546,5.9 C 15.2608,11.117 11.55564,12 6.57866,12 L 5.07814,20 H 7.82541 C 8.32592,20 8.53555,19.659 8.62783,19.179 9.31289,14.848 9.2166,15.557 9.27879,14.879 9.33799,14.501 9.66495,14 10.04911,14 13.6981,14 16.11839,12.945 16.85761,9.158 17.1204,7.811 17.03414,6.772 16.47546,5.9 M 5.13431,11.86 4.01193,18 H 0.53546 c -0.329,0 -0.58075,-0.402 -0.5286,-0.726 L 2.60268,0.751 C 2.67088,0.319 3.04501,0 3.48434,0 h 6.23377 c 3.69112,0 6.1766,1.401 5.60187,5.054 C 14.31395,11.56 8.73716,11 6.19951,11 c -0.43932,0 -0.996,0.428 -1.0652,0.86\"/></svg>捐赠"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Copied!",
+                    "target": "已复制！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Links open in a split view beside the current window. Subsequent links will group.",
+                    "target": "链接会在当前窗口旁的分屏视图中打开。后续链接将分组显示。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If you have text selected when executing a search command, it will use that selection as the search query.",
+                    "target": "执行搜索命令时若选中了文本，将使用该选中文本作为搜索查询。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Shows up to seven of your most recent queries for that command. Clear History is in the CmdSearch palette.",
+                    "target": "最多显示该命令最近的七条查询记录。“清除历史记录”在 CmdSearch 面板中。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Add new command",
+                    "target": "添加新命令"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Command information",
+                    "target": "命令信息"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Open links to the right",
+                    "target": "在右侧打开链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Search selected text",
+                    "target": "搜索所选文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter search query...",
+                    "target": "输入搜索查询..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Search CmdSearch Links...",
+                    "target": "搜索 CmdSearch 链接..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter name",
+                    "target": "输入名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter URL",
+                    "target": "输入 URL"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "CmdSearch: History Cleared",
+                    "target": "CmdSearch：历史记录已清除"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open CmdSearch palette",
+                    "target": "打开 CmdSearch 面板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "CmdSearch: Clear History",
+                    "target": "CmdSearch：清除历史记录"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
