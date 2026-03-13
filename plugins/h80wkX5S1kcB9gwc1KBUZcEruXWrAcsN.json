@@ -1,0 +1,91 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-crypto-lookup",
+        "version": "1.0.0",
+        "title": "Crypto Lookup",
+        "description": "Crypto Lookup Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.0.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Default currency we want the price of",
+                    "target": "我们希望获取价格的默认货币"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Default target currency to convert base currency into",
+                    "target": "将基础货币转换为的默认目标货币"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Base Currency",
+                    "target": "基础货币"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Target Currency",
+                    "target": "目标货币"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Numeral.js: Value is not string. It has been co-erced to: ",
+                    "target": "Numeral.js：值不是字符串。已被强制转换为："
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Cannot use this command without default base and target in settings",
+                    "target": "未在设置中配置默认基础货币和目标货币，无法使用此命令"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert Default Crypto Ticker",
+                    "target": "插入默认加密货币代码"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert Default Crypto Ticker Extended",
+                    "target": "插入默认加密货币代码（扩展）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert Selected Crypto Ticker",
+                    "target": "插入选定的加密货币代码"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert Selected Crypto Ticker Extended",
+                    "target": "插入选定的加密货币代码（扩展）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Select crypto base and target",
+                    "target": "选择加密货币基准和目标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Crypto Lookup Defaults",
+                    "target": "加密货币查询默认值"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
