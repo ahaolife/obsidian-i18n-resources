@@ -1,0 +1,265 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "lunar-calendar",
+        "version": "1.0.0",
+        "title": "Lunar Calendar",
+        "description": "Lunar Calendar Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.2.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "load Lunar Calendar",
+                    "target": "加载农历"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "日历生成的日记保存的路径。默认为`日历`",
+                    "target": "日历生成的日记保存的路径。默认为`日历`"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "参考moment的时间格式。默认为`YYYY-MM-DD`",
+                    "target": "参考moment的时间格式。默认为`YYYY-MM-DD`"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "日记保存路径",
+                    "target": "日记保存路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "日记名保存格式",
+                    "target": "日记名保存格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "输入要保存的日记路径",
+                    "target": "输入要保存的日记路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "时间格式",
+                    "target": "时间格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "cannot run an inactive effect scope.",
+                    "target": "无法运行非活动的 effect scope。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Write operation failed: computed value is readonly",
+                    "target": "写入操作失败：computed 值为只读"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "provide() can only be used inside setup().",
+                    "target": "provide() 只能在 setup() 内使用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "inject() can only be used inside setup() or functional components.",
+                    "target": "inject() 只能在 setup() 或函数式组件内部使用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "\\`watch(fn, options?)\\` signature has been moved to a separate API. Use \\`watchEffect(fn, options?)\\` instead. \\`watch\\` now only supports \\`watch(source, cb, options?) signature.",
+                    "target": "\\`watch(fn, options?)\\` 签名已移动到单独的 API。请改用 \\`watchEffect(fn, options?)\\`。\\`watch\\` 现在仅支持 \\`watch(source, cb, options?)\\` 签名。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "watch() \"immediate\" option is only respected when using the watch(source, callback, options?) signature.",
+                    "target": "watch() 的 \"immediate\" 选项仅在使用 watch(source, callback, options?) 签名时生效。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "watch() \"deep\" option is only respected when using the watch(source, callback, options?) signature.",
+                    "target": "watch() 的 \"deep\" 选项仅在使用 watch(source, callback, options?) 签名时生效。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Invalid watch source: ",
+                    "target": "无效的 watch 源："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "A watch source can only be a getter/effect function, a ref, a reactive object, or an array of these types.",
+                    "target": "watch 源只能是 getter/effect 函数、ref、响应式对象，或由这些类型组成的数组。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "The data option must be a function. Plain object usage is no longer supported.",
+                    "target": "data 选项必须是函数。不再支持使用普通对象。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "data() returned a Promise - note data() cannot be async; If you intend to perform data fetching before component renders, use async setup() + <Suspense>.",
+                    "target": "data() 返回了 Promise —— 注意 data() 不能是 async；如果你想在组件渲染前进行数据获取，请使用 async setup() + <Suspense>。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "props must be strings when using array syntax.",
+                    "target": "使用数组语法时，props 必须是字符串。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "invalid props options",
+                    "target": "无效的 props 选项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Non-function value encountered for default slot. Prefer function slots for better performance.",
+                    "target": "默认插槽遇到非函数值。为获得更好的性能，优先使用函数插槽。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "app.config cannot be replaced. Modify individual options instead.",
+                    "target": "app.config 不能被替换。请改为修改各个选项。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "A plugin must either be a function or an object with an \"install\" function.",
+                    "target": "插件必须是函数或包含 \"install\" 函数的对象。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Mixins are only available in builds supporting Options API",
+                    "target": "Mixins 仅在支持 Options API 的构建版本中可用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "There is already an app instance mounted on the host container.\n If you want to mount another app on the same host container, you need to unmount the previous app by calling \\`app.unmount()\\` first.",
+                    "target": "宿主容器上已挂载一个应用实例。\n 如果你想在同一宿主容器上挂载另一个应用，需要先调用 \\`app.unmount()\\` 卸载之前的应用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Cannot unmount an app that is not mounted.",
+                    "target": "无法卸载未挂载的应用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Missing ref owner context. ref cannot be used on hoisted vnodes. A vnode with ref must be created inside the render function.",
+                    "target": "缺少 ref 所有者上下文。ref 不能用于提升的 vnode。带有 ref 的 vnode 必须在渲染函数中创建。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Invalid VNode type:",
+                    "target": "无效的 VNode 类型："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Duplicate keys found during update:",
+                    "target": "更新过程中发现重复的 key："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Make sure keys are unique.",
+                    "target": "请确保 key 是唯一的。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "VNode created with invalid key (NaN). VNode type:",
+                    "target": "使用无效的 key (NaN) 创建了 VNode。VNode 类型："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Vue received a Component which was made a reactive object. This can lead to unnecessary performance overhead, and should be avoided by marking the component with \\`markRaw\\` or using \\`shallowRef\\` instead of \\`ref\\`.",
+                    "target": "Vue 接收到一个被做成响应式对象的组件。这会导致不必要的性能开销，应通过用 \\`markRaw\\` 标记该组件，或使用 \\`shallowRef\\` 替代 \\`ref\\` 来避免。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "\nComponent that was made reactive: ",
+                    "target": "\n被做成响应式的组件："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "\"compilerOptions\" is only supported when using a build of Vue that includes the runtime compiler. Since you are using a runtime-only build, the options should be passed via your build tool config instead.",
+                    "target": "只有在使用包含运行时编译器的 Vue 构建版本时才支持 \"compilerOptions\"。由于你使用的是仅运行时版本，应通过构建工具配置传递这些选项。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "setup() should not return VNodes directly - return a render function instead.",
+                    "target": "setup() 不应直接返回 VNode——请改为返回渲染函数。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "setupContext.attrs is readonly.",
+                    "target": "setupContext.attrs 是只读的。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "expose() should be called only once per setup().",
+                    "target": "expose() 在每次 setup() 中只能调用一次。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "mounting on a ShadowRoot with \\`{mode: \"closed\"}\\` may lead to unpredictable bugs",
+                    "target": "在带有 \\`{mode: \"closed\"}\\` 的 ShadowRoot 上挂载可能导致不可预测的 bug"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "打开农历",
+                    "target": "打开农历"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "打开农历二",
+                    "target": "打开农历二"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "打开日历",
+                    "target": "打开日历"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
