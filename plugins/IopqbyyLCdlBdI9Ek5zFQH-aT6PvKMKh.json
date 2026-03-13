@@ -1,0 +1,43 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "fix-math",
+        "version": "1.0.0",
+        "title": "Fix Math",
+        "description": "Fix Math Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.16",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No active Markdown file",
+                    "target": "没有活动的 Markdown 文件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No changes required",
+                    "target": "无需更改"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error: failed to process file",
+                    "target": "错误：无法处理文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Current file",
+                    "target": "当前文件"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
