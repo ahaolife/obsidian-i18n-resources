@@ -1,0 +1,31 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-open-file-by-magic-date",
+        "version": "1.0.0",
+        "title": "Open File by Magic Date",
+        "description": "Open File by Magic Date Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.1.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "\n\t\t<p>Use curly brackets to add date formats. eg: \"{YYYY-MM-DD}\".</p>\n\t\t<p>Any syntax from the <a href=\"https://momentjscom.readthedocs.io/en/latest/moment/04-displaying/01-format/\">moment.js</a> library will work.</p>\n\t\t<p>Additionally,  accepts a special format to indicate \"prior monday\". eg: \"{mon:YYYY-MM-DD}\"</p>\n\t\t<p>Include the '.md' extension in your filename if you use that.</p>\n\t\t",
+                    "target": "\n\t\t<p>使用花括号添加日期格式，例如：\"{YYYY-MM-DD}\"。</p>\n\t\t<p><a href=\"https://momentjscom.readthedocs.io/en/latest/moment/04-displaying/01-format/\">moment.js</a> 库中的任何语法都可以使用。</p>\n\t\t<p>此外，支持一种特殊格式来表示“上一个周一”，例如：\"{mon:YYYY-MM-DD}\"</p>\n\t\t<p>如果使用该格式，请在文件名中包含“.md”扩展名。</p>\n\t\t"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Add another file",
+                    "target": "再添加一个文件"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
