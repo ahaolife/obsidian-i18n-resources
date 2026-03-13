@@ -1,0 +1,181 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "cm-chs-patch",
+        "version": "1.0.0",
+        "title": "Word Splitting for Simplified Chinese in Edit Mode and Vim Mode",
+        "description": "Word Splitting for Simplified Chinese in Edit Mode and Vim Mode Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.12.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "新版分词插件需要安装 jieba-wasm，请按照下面的步骤安装：",
+                    "target": "新版分词插件需要安装 jieba-wasm，请按照下面的步骤安装："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "点击链接手动下载",
+                    "target": "点击链接手动下载"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "在弹出的窗口选择下载好的 ",
+                    "target": "在弹出的窗口选择下载好的 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "重新加载分词插件:  ",
+                    "target": "重新加载分词插件:  "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "通过用户自定义词典来增强歧义纠错能力",
+                    "target": "通过用户自定义词典来增强歧义纠错能力"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "词典格式：一个词占一行；每一行分三部分：词语、词频（可省略）、词性（可省略），用空格隔开，顺序不可颠倒",
+                    "target": "词典格式：一个词占一行；每一行分三部分：词语、词频（可省略）、词性（可省略），用空格隔开，顺序不可颠倒"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "按下按钮生效",
+                    "target": "按下按钮生效"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "editor word splitting patched",
+                    "target": "编辑器分词已修补"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "window.Intl.Segmenter loaded",
+                    "target": "window.Intl.Segmenter 已加载"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Jieba loaded",
+                    "target": "Jieba 已加载"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "支持新词发现、自定义词典，需要额外下载，重启 Obsidian 生效",
+                    "target": "支持新词发现、自定义词典，需要额外下载，重启 Obsidian 生效"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "采用基于汉字成词能力的 HMM 模型，使用 Viterbi 算法推算未存在于词库内的词。若效果不理想，可选择关闭此选项",
+                    "target": "采用基于汉字成词能力的 HMM 模型，使用 Viterbi 算法推算未存在于词库内的词。若效果不理想，可选择关闭此选项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Motion w/e/b/ge 使用结巴分词移动光标 in Vim Normal Mode, 重启Obsidian生效",
+                    "target": "Motion w/e/b/ge 使用结巴分词移动光标 in Vim Normal Mode, 重启Obsidian生效"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Motion f/t<character> 支持输入英文标点跳转到中文标点 in Vim Normal Mode, 重启Obsidian生效",
+                    "target": "Motion f/t<character> 支持输入英文标点跳转到中文标点 in Vim Normal Mode, 重启Obsidian生效"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "使用结巴分词",
+                    "target": "使用结巴分词"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "新词发现功能",
+                    "target": "新词发现功能"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "用户自定义词典",
+                    "target": "用户自定义词典"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "【Vim Mode】使用结巴分词移动光标",
+                    "target": "【Vim Mode】使用结巴分词移动光标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "【Vim Mode】f/t<character> 支持输入英文标点跳转到中文标点",
+                    "target": "【Vim Mode】f/t<character> 支持输入英文标点跳转到中文标点"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "结巴分词插件导入成功",
+                    "target": "结巴分词插件导入成功"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "重新加载词典",
+                    "target": "重新加载词典"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "✔️ 安装结巴分词插件成功",
+                    "target": "✔️ 安装结巴分词插件成功"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "❌ 安装结巴分词插件失败",
+                    "target": "❌ 安装结巴分词插件失败"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "安装结巴分词",
+                    "target": "安装结巴分词"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "自动下载",
+                    "target": "自动下载"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "选择文件",
+                    "target": "选择文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "重新加载",
+                    "target": "重新加载"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
