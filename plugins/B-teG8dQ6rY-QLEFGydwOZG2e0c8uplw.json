@@ -1,0 +1,85 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "lazy-plugins",
+        "version": "1.0.0",
+        "title": "Lazy Plugin Loader",
+        "description": "Lazy Plugin Loader Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.21",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Nothing configured",
+                    "target": "未配置任何内容"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Set all plugins to be:",
+                    "target": "将所有插件设置为："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Filter by: ",
+                    "target": "筛选条件： "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Separate desktop/mobile configuration",
+                    "target": "分别配置桌面/移动端"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Lazy Loader settings",
+                    "target": "延迟加载器设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default startup type for new plugins",
+                    "target": "新插件的默认启动类型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show plugin descriptions",
+                    "target": "显示插件描述"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Set the delay for all plugins at once",
+                    "target": "一次性设置所有插件的延迟"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Type to filter list",
+                    "target": "输入以筛选列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Load plugins with a delay on startup, so that you can get your app startup down into the sub-second loading time.",
+                    "target": "在启动时延迟加载插件，从而将应用启动时间缩短到亚秒级。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Lazy Plugin Loader",
+                    "target": "懒加载插件加载器"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
