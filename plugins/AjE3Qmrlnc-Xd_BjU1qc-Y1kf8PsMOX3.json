@@ -1,0 +1,607 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "notes-explorer",
+        "version": "1.0.0",
+        "title": "Notes Explorer",
+        "description": "Notes Explorer Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.7.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "No files found !<br/><br/>Please check if you have applied any other\n      filters and make sure the notes you are searching are not in the Excluded\n      folders from setting.",
+                    "target": "未找到文件！<br/><br/>请检查是否应用了其他\n      过滤器，并确保您正在搜索的笔记不在设置中的排除\n      文件夹中。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "No files found. <br/><br/>Verify your filters again and check if you\n      have applied any folder tag or search query and also make sure the notes\n      you are looking for are not in the Excluded folders in setting.",
+                    "target": "未找到文件。<br/><br/>请再次核对过滤器，并检查是否\n      应用了任何文件夹标签或搜索查询，同时确保您要找的笔记\n      不在设置中的排除文件夹内。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<div class=\"loading-spinner\"></div> <div class=\"loading-message\">Loading your files...</div>",
+                    "target": "<div class=\"loading-spinner\"></div> <div class=\"loading-message\">正在加载您的文件...</div>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Error rendering markdown content.",
+                    "target": "渲染 Markdown 内容时出错。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "No Filters Applied",
+                    "target": "未应用过滤器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Container not found",
+                    "target": "未找到容器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error rendering markdown:",
+                    "target": "渲染 Markdown 时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "trashFile : Error deleting the file:",
+                    "target": "trashFile : 删除文件时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to copy view link: ",
+                    "target": "复制查看链接失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "cardsContainer is undefined",
+                    "target": "cardsContainer 未定义"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "containerEl : ",
+                    "target": "containerEl : "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Notes Explorer : Loading plugin ...",
+                    "target": "Notes Explorer：正在加载插件..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Notes Explorer : Unloading plugin ...",
+                    "target": "Notes Explorer：正在卸载插件..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Error fetching the viewShareLink from localStorage.",
+                    "target": "从 localStorage 获取 viewShareLink 时出错。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Add tag color",
+                    "target": "添加标签颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Open the notes explorer board when Obsidian starts",
+                    "target": "Obsidian 启动时打开笔记浏览器面板"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show cards into multiple pages instead of contineous scrolling.",
+                    "target": "将卡片分页显示，而不是连续滚动。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enter the number of cards you want to see on per page. Find the best number which gives you smooth experience.",
+                    "target": "输入每页要显示的卡片数量。找到能让体验更流畅的最佳数量。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Select whether to use single click or double click on the card to open the note.",
+                    "target": "选择在卡片上使用单击或双击来打开笔记。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Select how should the parent note be opened from the card.",
+                    "target": "选择从卡片打开父笔记的方式。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "What happens to a file after you delete it.",
+                    "target": "删除文件后会发生什么。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable this feature if you like to have in-card interactions, such as opening internal links and getting hover preview. \nNOTE : Obsidian restart required for this setting to take effect.",
+                    "target": "如果你希望在卡片内进行交互（如打开内部链接并获得悬停预览），请启用此功能。\n注意：需要重启 Obsidian 此设置才会生效。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable this if you want to open the notes explorer board with all the notes from a folder, when you will click on the folder from file explorer. You also have same option using right-click menu, if you dont like this feature.\nNOTE : Obsidian restart required for this setting to take effect.",
+                    "target": "如果你希望在文件浏览器中点击文件夹时打开包含该文件夹所有笔记的笔记浏览板，请启用此项。如果你不喜欢此功能，也可以使用右键菜单中的相同选项。\n注意：需要重启 Obsidian 此设置才会生效。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Configure the look of your notes explorer view.",
+                    "target": "配置笔记浏览视图的外观。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set the size of the gutter between cards",
+                    "target": "设置卡片之间的间距大小"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable this option to have gutters on the left and right side of the board, in addition to the gutters between cards.",
+                    "target": "启用此选项可在看板左右两侧添加间距，除卡片之间的间距外。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Select what you want to see at the top of each card.",
+                    "target": "选择你希望在每张卡片顶部看到的内容。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Cards will not be smaller than this width (in pixels)",
+                    "target": "卡片宽度不会小于此值（像素）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set a fixed height for the card in pixels (leave blank for no restriction). All cards will take a fixed height regardless of how many maximum lines you have set or if the note contains any image, etc. This setting will help you to get a gallery view instead of a masonry view.",
+                    "target": "为卡片设置固定高度（像素，留空表示不限制）。无论你设置了多少最大行数或笔记是否包含图片，所有卡片都会使用固定高度。此设置有助于获得画廊视图而非瀑布流视图。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set the maximum number of lines to be rendered in card from the note. Default : 20 lines",
+                    "target": "设置从笔记中渲染到卡片的最大行数。默认：20 行。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Select the property of the note that you want to see in the cards footer. If selected the 'frontmatter' option, enter the frontmatter-tag in the below text input box.",
+                    "target": "选择要在卡片页脚中显示的笔记属性。如果选择“frontmatter”选项，请在下方文本输入框中输入 frontmatter-tag。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enter the name of the frontmatter tag to display its value.",
+                    "target": "输入 frontmatter 标签的名称以显示其值。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Disable this option to hide the note's metadata from showing in the card's footer. Visible only on mouse hover.",
+                    "target": "禁用此选项可隐藏卡片页脚中显示的笔记元数据。仅在鼠标悬停时可见。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Whether to read the tags from content or frontmatter. If selected frontmatter then create a property 'tags'.",
+                    "target": "选择从内容还是 frontmatter 读取标签。如果选择 frontmatter，则创建属性“tags”。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enter the complete folder path and click on save to exclude all notes from this folder from the board. You can also apply filters to board notes from sub-folders from the board filter menu.",
+                    "target": "输入完整的文件夹路径并点击保存，以从看板中排除该文件夹的所有笔记。你还可以在看板筛选菜单中对来自子文件夹的看板笔记应用筛选。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Notes explorer settings",
+                    "target": "笔记浏览器设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Launch on start",
+                    "target": "启动时打开"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Page view mode",
+                    "target": "页面视图模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Cards per page",
+                    "target": "每页卡片数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Click mode",
+                    "target": "点击模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Open note layout",
+                    "target": "打开笔记布局"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Deleted files",
+                    "target": "已删除文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Note's content interactions",
+                    "target": "笔记内容交互"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Open board on folder click",
+                    "target": "点击文件夹时打开看板"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Cards ui",
+                    "target": "卡片界面"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Gutter size",
+                    "target": "间距大小"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Surrounding gutters",
+                    "target": "周围间距"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Title display mode",
+                    "target": "标题显示模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Minimum card width",
+                    "target": "最小卡片宽度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Fixed card height",
+                    "target": "固定卡片高度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Maximum number of lines",
+                    "target": "最大行数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show delete button",
+                    "target": "显示删除按钮"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Note's metadata",
+                    "target": "笔记元数据"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Frontmatter tag",
+                    "target": "Frontmatter 标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Footer always visible",
+                    "target": "页脚始终可见"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Tag color indicator",
+                    "target": "标签颜色指示器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Which tags to read",
+                    "target": "要读取的标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Indicator type",
+                    "target": "指示器类型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Exclude folders",
+                    "target": "排除文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Folder name",
+                    "target": "文件夹名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "eg.: 100",
+                    "target": "例： 100"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "eg.: 20",
+                    "target": "例： 20"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "eg.: 200",
+                    "target": "例： 200"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "eg.: 500",
+                    "target": "例： 500"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "eg.: author",
+                    "target": "例： author"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Tag Name",
+                    "target": "标签名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "RGBA color",
+                    "target": "RGBA 颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter folder path",
+                    "target": "输入文件夹路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Sorting filters",
+                    "target": "排序筛选"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Filename (A-Z)",
+                    "target": "文件名（A-Z）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Edited (newest first)",
+                    "target": "已编辑（最新优先）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Edited (oldest first)",
+                    "target": "已编辑（最早优先）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Created (newest first)",
+                    "target": "已创建（最新优先）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Created (oldest first)",
+                    "target": "已创建（最早优先）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "File filters",
+                    "target": "文件筛选器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Folder filters",
+                    "target": "文件夹筛选器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Enable folder view",
+                    "target": "启用文件夹视图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Read sub-folders",
+                    "target": "读取子文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Open folder in notes explorer",
+                    "target": "在笔记资源管理器中打开文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Hold and drag",
+                    "target": "按住并拖动"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Unsupported file type for rendering:",
+                    "target": "不支持的渲染文件类型："
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Invalid number",
+                    "target": "无效数字"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "The filter is already added to the view.",
+                    "target": "该筛选器已添加到视图中。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Invalid regular expression in filter.",
+                    "target": "筛选器中的正则表达式无效。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "The tag is already added to the view.",
+                    "target": "该标签已添加到视图中。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Notes Explorer view link copied to clipboard!",
+                    "target": "Notes Explorer 视图链接已复制到剪贴板！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to copy view link.",
+                    "target": "复制视图链接失败。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "In content",
+                    "target": "在内容中"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open in main window",
+                    "target": "在主窗口中打开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tab",
+                    "source": "Open note in new tab",
+                    "target": "在新标签页中打开笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "This plugin is developed by ",
+                    "target": "此插件由 "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Atmanand Gauns",
+                    "target": "Atmanand Gauns"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Open Note",
+                    "target": "打开笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Unsupported file type",
+                    "target": "不支持的文件类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Notes Statistics",
+                    "target": "笔记统计"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Total notes in vault: ",
+                    "target": "库中的笔记总数："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Total notes allowed for Notes Explorer to fetch: ",
+                    "target": "Notes Explorer 允许获取的笔记总数："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Total filtered notes from the folder-tag, search-query or search-filters: ",
+                    "target": "从文件夹标签、搜索查询或搜索过滤器中过滤出的笔记总数："
+                }
+            ],
+            "regex": []
+        }
+    }
+}
