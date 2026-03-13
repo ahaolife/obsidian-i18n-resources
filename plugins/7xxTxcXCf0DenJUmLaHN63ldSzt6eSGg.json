@@ -1,0 +1,427 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "mrdoc",
+        "version": "1.0.0",
+        "title": "MrDoc",
+        "description": "MrDoc Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error during API request:",
+                    "target": "API 请求期间出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "图片上传异常:",
+                    "target": "图片上传异常:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "附件上传异常:",
+                    "target": "附件上传异常:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "附件上传处理错误:",
+                    "target": "附件上传处理错误:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "上传附件请求出错：",
+                    "target": "上传附件请求出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "检查",
+                    "target": "检查"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "刷新",
+                    "target": "刷新"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "新建",
+                    "target": "新建"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "重置",
+                    "target": "重置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "提交",
+                    "target": "提交"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "请输入你的 MrDoc URL 地址",
+                    "target": "请输入你的 MrDoc URL 地址"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "请输入你的 MrDoc 用户 Token",
+                    "target": "请输入你的 MrDoc 用户 Token"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "检查填写的配置是否可连接",
+                    "target": "检查填写的配置是否可连接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "从列表中选择一个文集",
+                    "target": "从列表中选择一个文集"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "重置本地文档与 MrDoc 文档的映射关系",
+                    "target": "重置本地文档与 MrDoc 文档的映射关系"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "当你修改文档/文件夹时，实时地将其变动更新到 MrDoc。你还可以通过文件菜单「同步至 MrDoc」进行文档同步更新。",
+                    "target": "当你修改文档/文件夹时，实时地将其变动更新到 MrDoc。你还可以通过文件菜单「同步至 MrDoc」进行文档同步更新。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "文档编辑器中粘贴、拖入本地和网络图片时，将图片转存至 MrDoc",
+                    "target": "文档编辑器中粘贴、拖入本地和网络图片时，将图片转存至 MrDoc"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "如果剪切板文本中包含图片链接，将这些图片转存至 MrDoc",
+                    "target": "如果剪切板文本中包含图片链接，将这些图片转存至 MrDoc"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "不需要转存的域名，多个用逗号分隔，图片转存时将跳过",
+                    "target": "不需要转存的域名，多个用逗号分隔，图片转存时将跳过"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "文集权限为私密，文集信息配置请前往MrDoc进行修改",
+                    "target": "文集权限为私密，文集信息配置请前往MrDoc进行修改"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "MrDoc URL",
+                    "target": "MrDoc URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "用户 Token",
+                    "target": "用户 Token"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "检查可否连接",
+                    "target": "检查是否可连接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "功能",
+                    "target": "功能"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "MrDoc 目标文集",
+                    "target": "MrDoc 目标文集"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "重置文档映射",
+                    "target": "重置文档映射"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "实时更新文档内容",
+                    "target": "实时更新文档内容"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "转存图片",
+                    "target": "转存图片"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "转存剪切板文本中的图片",
+                    "target": "转存剪切板文本中的图片"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "图片转存白名单",
+                    "target": "图片转存白名单"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "名称",
+                    "target": "名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "例如：https://doc.mrdoc.pro",
+                    "target": "例如：https://doc.mrdoc.pro"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "请输入你的 MrDoc 用户 Token",
+                    "target": "请输入你的 MrDoc 用户 Token"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "例如：oss2.mrdoc.pro,cdn.example.com",
+                    "target": "例如：oss2.mrdoc.pro,cdn.example.com"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "同步到 MrDoc",
+                    "target": "同步到 MrDoc"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "无法解析 MrDoc 域名:",
+                    "target": "无法解析 MrDoc 域名:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "URL 解析失败:",
+                    "target": "URL 解析失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "图片上传失败:",
+                    "target": "图片上传失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "附件上传失败:",
+                    "target": "附件上传失败:"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "正在测试连接……",
+                    "target": "正在测试连接……"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "测试连接成功！",
+                    "target": "测试连接成功！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "文档映射重置完成！",
+                    "target": "文档映射重置完成！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "正在获取文集列表……",
+                    "target": "正在获取文集列表……"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "获取文集列表成功！",
+                    "target": "获取文集列表成功！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "新建文集异常！",
+                    "target": "新建文集异常！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "无效的输入值！",
+                    "target": "无效的输入值！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "文档已同步删除！",
+                    "target": "文档已同步删除！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "文档同步删除失败，请前往MrDoc自行删除！",
+                    "target": "文档同步删除失败，请前往MrDoc自行删除！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "外链图片转存中……",
+                    "target": "外链图片转存中……"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "外链图片转存完成！",
+                    "target": "外链图片转存完成！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "粘贴图片上传失败",
+                    "target": "粘贴图片上传失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "拖入图片上传失败",
+                    "target": "拖入图片上传失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "附件上传处理失败",
+                    "target": "附件上传处理失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "文档同步至MrDoc失败！",
+                    "target": "文档同步至MrDoc失败！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "文档已同步至 MrDoc",
+                    "target": "文档已同步至 MrDoc"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "创建一个新的觅思文档文集",
+                    "target": "创建一个新的觅思文档文集"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "拉取 MrDoc 文档到本地",
+                    "target": "拉取 MrDoc 文档到本地"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "此操作将会从指定的 MrDoc 文集中拉取文档到本地 Vault 仓库。",
+                    "target": "此操作将会从指定的 MrDoc 文集中拉取文档到本地 Vault 仓库。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Vault 内存在的同名文件，将会跳过！",
+                    "target": "Vault 内存在的同名文件，将会跳过！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Vault 同层级下不支持同名文件/文件夹，故 MrDoc 的同层级同名文档只同步其中一个！",
+                    "target": "Vault 同层级下不支持同名文件/文件夹，故 MrDoc 的同层级同名文档只同步其中一个！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "拉取的文件将与 MrDoc 文档建立映射关系，在 Vault 内对文件进行的操作将同步至 MrDoc！",
+                    "target": "拉取的文件将与 MrDoc 文档建立映射关系，在 Vault 内对文件进行的操作将同步至 MrDoc！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "请谨慎进行此操作，确保没有重要文件在 Vault仓库内！",
+                    "target": "请谨慎进行此操作，确保没有重要文件在 Vault仓库内！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "已知晓风险，确认拉取",
+                    "target": "已知晓风险，确认拉取"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "取消",
+                    "target": "取消"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "任务进行中...",
+                    "target": "任务进行中..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "已完成拉取！",
+                    "target": "已完成拉取！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "已完成从 MrDoc 拉取文档到本地，详情如下：",
+                    "target": "已完成从 MrDoc 拉取文档到本地，详情如下："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "好的",
+                    "target": "好的"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
