@@ -1,0 +1,409 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "memos-ai-sync",
+        "version": "1.0.0",
+        "title": "Memos AI Sync",
+        "description": "Memos AI Sync Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.4",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "自动同步",
+                    "target": "自动同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "手动同步",
+                    "target": "手动同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Anthropic Claude",
+                    "target": "Anthropic Claude"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "韩文",
+                    "target": "韩文"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "日文",
+                    "target": "日文"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "英文",
+                    "target": "英文"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "中文",
+                    "target": "中文"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "自定义模型 - 自定义模型名称",
+                    "target": "自定义模型 - 自定义模型名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Claude 3 Haiku",
+                    "target": "Claude 3 Haiku"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Claude 3 Sonnet",
+                    "target": "Claude 3 Sonnet"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Claude 3 Opus",
+                    "target": "Claude 3 Opus"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Could not parse message into JSON:",
+                    "target": "无法将消息解析为 JSON:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "From chunk:",
+                    "target": "来自分块:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "OpenAI 服务初始化失败:",
+                    "target": "OpenAI 服务初始化失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Ollama API error:",
+                    "target": "Ollama API 错误:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "下载资源时出错:",
+                    "target": "下载资源时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Sync failed:",
+                    "target": "同步失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to initialize AI service:",
+                    "target": "初始化 AI 服务失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "同步失败:",
+                    "target": "同步失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "选择手动同步或自动同步",
+                    "target": "选择手动同步或自动同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "自动同步的时间间隔（分钟）",
+                    "target": "自动同步的时间间隔（分钟）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "每次同步的最大条目数",
+                    "target": "每次同步的最大条目数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "开启或关闭 AI 增强功能",
+                    "target": "开启或关闭 AI 增强功能"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "选择要使用的 AI 模型",
+                    "target": "选择要使用的 AI 模型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "您的 AI 服务 API 密钥",
+                    "target": "您的 AI 服务 API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "自动生成每周内容汇总",
+                    "target": "自动生成每周内容汇总"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "根据内容自动生成标签",
+                    "target": "根据内容自动生成标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "自动生成内容摘要",
+                    "target": "自动生成内容摘要"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "选择摘要生成的语言",
+                    "target": "选择摘要生成的语言"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "输入要使用的自定义模型名称",
+                    "target": "输入要使用的自定义模型名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "选择要使用的 OpenAI 模型",
+                    "target": "选择要使用的 OpenAI 模型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "如果使用自定义 API 服务，请设置对应的基础链接",
+                    "target": "如果使用自定义 API 服务，请设置对应的基础链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "选择要使用的 Claude 模型",
+                    "target": "选择要使用的 Claude 模型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "设置 Ollama 服务的地址（默认为 http://localhost:11434）",
+                    "target": "设置 Ollama 服务的地址（默认为 http://localhost:11434）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "选择要使用的 Ollama 模型",
+                    "target": "选择要使用的 Ollama 模型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "访问令牌",
+                    "target": "访问令牌"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "同步目录",
+                    "target": "同步目录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "同步模式",
+                    "target": "同步模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "同步间隔",
+                    "target": "同步间隔"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "同步条数",
+                    "target": "同步条数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "启用 AI 功能",
+                    "target": "启用 AI 功能"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "AI 模型",
+                    "target": "AI 模型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "API 密钥",
+                    "target": "API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "每周汇总",
+                    "target": "每周汇总"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "自动标签",
+                    "target": "自动标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "智能摘要",
+                    "target": "智能摘要"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "摘要语言",
+                    "target": "摘要语言"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "自定义模型名称",
+                    "target": "自定义模型名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "OpenAI 模型",
+                    "target": "OpenAI 模型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "OpenAI API 基础链接",
+                    "target": "OpenAI API 基础链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Claude 模型",
+                    "target": "Claude 模型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Ollama 服务地址",
+                    "target": "Ollama 服务地址"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Ollama 模型",
+                    "target": "Ollama 模型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "输入访问令牌",
+                    "target": "输入访问令牌"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "例如：30",
+                    "target": "例如：30"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "例如：100",
+                    "target": "例如：100"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "输入 API 密钥",
+                    "target": "输入 API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "例如：gpt-4-1106-preview",
+                    "target": "例如：gpt-4-1106-preview"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "例如：claude-3-opus-next",
+                    "target": "例如：claude-3-opus-next"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "例如：llama2:13b",
+                    "target": "例如：llama2:13b"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setWarning",
+                    "source": "AI 服务需要配置 API 密钥，请在设置中完成配置",
+                    "target": "AI 服务需要配置 API 密钥，请在设置中完成配置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setWarning",
+                    "source": "AI 服务初始化失败，请检查配置",
+                    "target": "AI 服务初始化失败，请检查配置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "response.functionCall() is deprecated. Use response.functionCalls() instead.",
+                    "target": "response.functionCall() 已弃用。请改用 response.functionCalls()。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Warning:",
+                    "target": "警告："
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "AI \\u670D\\u52A1\\u521D\\u59CB\\u5316\\u6210\\u529F",
+                    "target": "AI \\u670D\\u52A1\\u521D\\u59CB\\u5316\\u6210\\u529F"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
