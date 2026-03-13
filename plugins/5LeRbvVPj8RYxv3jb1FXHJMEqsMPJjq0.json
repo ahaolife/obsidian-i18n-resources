@@ -1,0 +1,109 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "codestats",
+        "version": "1.0.0",
+        "title": "Code::Stats",
+        "description": "Code::Stats Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.3",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Code::Stats: API Key needed",
+                    "target": "Code::Stats：需要 API Key"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Code::Stats: Connected",
+                    "target": "Code::Stats：已连接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Code::Stats Pulse Network Error:",
+                    "target": "Code::Stats Pulse 网络错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Get your API key from your Code::Stats profile page.",
+                    "target": "从你的 Code::Stats 个人资料页面获取 API key。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "It can be found or created on https://codestats.net/my/machines page",
+                    "target": "可在 https://codestats.net/my/machines 页面找到或创建"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "API Key",
+                    "target": "API Key"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Code::stats API key",
+                    "target": "Code::stats API key"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter your API key",
+                    "target": "输入你的 API key"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Code::Stats API Key saved.",
+                    "target": "Code::Stats API Key 已保存。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Code::Stats: Invalid API Key. Please update it in settings.",
+                    "target": "Code::Stats：无效的 API Key。请在设置中更新。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Code::Stats: Network error during pulse. Check console.",
+                    "target": "Code::Stats：脉冲期间网络错误。请检查控制台。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Code::Stats API Key needed. Please configure it in settings or use the command.",
+                    "target": "需要 Code::Stats API Key。请在设置中配置或使用该命令。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Code::Stats: Enter API key",
+                    "target": "Code::Stats：输入 API key"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Enter Code::Stats API Key",
+                    "target": "输入 Code::Stats API Key"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Code::Stats Settings",
+                    "target": "Code::Stats 设置"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
