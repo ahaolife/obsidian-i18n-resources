@@ -1,0 +1,607 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-plotly",
+        "version": "1.0.0",
+        "title": "Plotly",
+        "description": "Plotly Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.0.6",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "&#215;",
+                    "target": "&#215;"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "WebGL is not supported by your browser - visit https://get.webgl.org for more info",
+                    "target": "您的浏览器不支持 WebGL - 访问 https://get.webgl.org 获取更多信息"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "%s %d: %s",
+                    "target": "%s %d: %s"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "This browser lacks typed array (Uint8Array) support which is required by `buffer` v5.x. Use `buffer` v4.x if you require old browser support.",
+                    "target": "该浏览器缺少 `buffer` v5.x 所需的类型化数组（Uint8Array）支持。如需支持旧版浏览器，请使用 `buffer` v4.x。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "invalid value",
+                    "target": "无效值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Expected at least one argument.",
+                    "target": "至少需要一个参数。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "The length argument to \"array\" must be a positive integer literal",
+                    "target": "“array”的 length 参数必须是正整数字面量"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "First argument must be an image or text section.",
+                    "target": "第一个参数必须是图像或文本段。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Formatted text type must be 'string', 'value', 'image' or 'null'.",
+                    "target": "格式化文本类型必须为 'string'、'value'、'image' 或 'null'。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Expected two arguments.",
+                    "target": "需要两个参数。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "No image name provided.",
+                    "target": "未提供图像名称。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Expected one argument.",
+                    "target": "需要一个参数。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Collator options argument must be an object.",
+                    "target": "Collator 选项参数必须是对象。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "'within' expression requires valid geojson object that contains polygon geometry type.",
+                    "target": "“within”表达式需要包含多边形几何类型的有效 geojson 对象。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "'var' expression requires exactly one string literal argument.",
+                    "target": "“var”表达式需要且仅需要一个字符串字面量参数。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "'undefined' value invalid. Use null instead.",
+                    "target": "“undefined”值无效。请改用 null。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Bare objects invalid. Use [\"literal\", {...}] instead.",
+                    "target": "裸对象无效。请改用 [\"literal\", {...}]。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Expected an even number of arguments.",
+                    "target": "需要偶数个参数。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Input/output pairs for \"step\" expressions must be defined using literal numeric values (not computed expressions) for the input values.",
+                    "target": "“step”表达式的输入/输出对必须使用字面量数值（非计算表达式）作为输入值。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Input/output pairs for \"step\" expressions must be arranged with input values in strictly ascending order.",
+                    "target": "“step”表达式的输入/输出对必须按输入值严格升序排列。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Expected an interpolation type expression.",
+                    "target": "应为插值类型表达式。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Exponential interpolation requires a numeric base.",
+                    "target": "指数插值需要数值基数。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Cubic bezier interpolation requires four numeric arguments with values between 0 and 1.",
+                    "target": "三次贝塞尔插值需要四个数值参数，取值介于 0 和 1 之间。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Input/output pairs for \"interpolate\" expressions must be defined using literal numeric values (not computed expressions) for the input values.",
+                    "target": "“interpolate”表达式的输入/输出对必须使用字面数值（非计算表达式）定义输入值。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Input/output pairs for \"interpolate\" expressions must be arranged with input values in strictly ascending order.",
+                    "target": "“interpolate”表达式的输入/输出对必须按输入值严格递增顺序排列。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Expectected at least one argument.",
+                    "target": "应至少包含一个参数。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Variable names must contain only alphanumeric characters or '_'.",
+                    "target": "变量名只能包含字母、数字或“_”。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Expected at least one branch label.",
+                    "target": "应至少包含一个分支标签。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Branch labels must be numbers or strings.",
+                    "target": "分支标签必须为数字或字符串。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Numeric branch labels must be integer values.",
+                    "target": "数字分支标签必须为整数。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Branch labels must be unique.",
+                    "target": "分支标签必须唯一。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Expected an odd number of arguments.",
+                    "target": "预期参数数量为奇数。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Expected two or three arguments.",
+                    "target": "预期两个或三个参数。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Cannot use collator to compare non-string types.",
+                    "target": "不能使用排序器比较非字符串类型。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "NumberFormat options argument must be an object.",
+                    "target": "NumberFormat 的 options 参数必须是对象。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "JS Dates and milliseconds are incompatible with world calendars",
+                    "target": "JS 日期和毫秒与世界历法不兼容"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "unrecognized date",
+                    "target": "无法识别的日期"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "tickFirst did not converge",
+                    "target": "tickFirst 未收敛"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Catastrophic and unrecoverable WebGL error. Context lost.",
+                    "target": "灾难性且不可恢复的 WebGL 错误。上下文已丢失。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Uses Mapbox map style, but did not set an access token.",
+                    "target": "使用了 Mapbox 地图样式，但未设置访问令牌。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error hovering on heatmap, pointNumber must be [row,col], found:",
+                    "target": "悬停热力图出错，pointNumber 必须是 [row,col]，发现："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Something went wrong with computing the violin span",
+                    "target": "计算小提琴跨度时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "%s - %s",
+                    "target": "%s - %s"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "found best %d after %d probes",
+                    "target": "经过 %d 次探测找到最佳值 %d"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "index: maxZoom: %d, maxPoints: %d",
+                    "target": "索引：maxZoom：%d，maxPoints：%d"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "features: %d, points: %d",
+                    "target": "要素：%d，点：%d"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "tiles generated:",
+                    "target": "已生成的瓦片："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "z%d: %d clusters in %dms",
+                    "target": "z%d：%d 个聚类，用时 %dms"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "tile z%d-%d-%d (features: %d, points: %d, simplified: %d)",
+                    "target": "瓦片 z%d-%d-%d（要素：%d，点：%d，简化：%d）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "drilling down to z%d-%d-%d",
+                    "target": "下钻到 z%d-%d-%d"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "found parent tile z%d-%d-%d",
+                    "target": "找到父级瓦片 z%d-%d-%d"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Unrecognized trace type in hover:",
+                    "target": "悬停中未识别的跟踪类型："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Constrain legend.x to make legend fit inside graph",
+                    "target": "约束 legend.x 使图例适配图内"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Constrain legend.y to make legend fit inside graph",
+                    "target": "约束 legend.y 使图例适配图内"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Long binary search...",
+                    "target": "长时间二分搜索..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "There was an error in the tex syntax.",
+                    "target": "tex 语法有错误。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Clearing previous rejected promises from queue.",
+                    "target": "正在从队列中清除之前被拒绝的 Promise。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Did not find wheel motion attributes: ",
+                    "target": "未找到滚轮运动属性： "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Unable to automatically bind plot updates to API command",
+                    "target": "无法将绘图更新自动绑定到 API 命令"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Source types *raster* and *image* must drawn *raster* layer type.",
+                    "target": "源类型 *raster* 和 *image* 必须绘制为 *raster* 图层类型。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Polar plots do not support date angular axes yet.",
+                    "target": "极坐标图尚不支持日期角轴。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Smoother converged to",
+                    "target": "平滑器收敛到"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Found bad marching index:",
+                    "target": "发现无效的步进索引："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Infinite loop in contour?",
+                    "target": "等高线中出现死循环？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Unclosed interior contour?",
+                    "target": "内部等高线未闭合？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Missing end?",
+                    "target": "缺少结束点？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "endpt to newendpt is not vert. or horz.",
+                    "target": "endpt 到 newendpt 不是竖直或水平。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "unclosed perimeter path",
+                    "target": "未闭合的边界路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "interp2d didn't converge quickly",
+                    "target": "interp2d 未快速收敛"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "loading Plotly plugin",
+                    "target": "正在加载 Plotly 插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "unloading Plotly plugin",
+                    "target": "正在卸载 Plotly 插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Unable to compute style diff:",
+                    "target": "无法计算样式差异："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "PolyBool: Warning: Zero-length segment detected; your epsilon is probably too small or too large",
+                    "target": "PolyBool：警告：检测到零长度线段；你的 epsilon 可能太小或太大"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Fx.hover failed",
+                    "target": "Fx.hover 失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "addStyleRule failed",
+                    "target": "addStyleRule 失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "randstr failed uniqueness",
+                    "target": "randstr 唯一性失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "trace index (",
+                    "target": "trace 索引（"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": ") is not a number or is out of bounds",
+                    "target": "）不是数字或超出范围"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Full array edits are incompatible with other edits",
+                    "target": "完整数组编辑与其他编辑不兼容"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Unrecognized full array edit value",
+                    "target": "无法识别的完整数组编辑值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "index out of range",
+                    "target": "索引超出范围"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Unrecognized full object edit value",
+                    "target": "无法识别的完整对象编辑值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Restyle fail.",
+                    "target": "重设样式失败。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Relayout fail.",
+                    "target": "重新布局失败。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "unrecognized full object value",
+                    "target": "无法识别的完整对象值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "addFrames: This API call has yielded too many of these warnings. For the rest of this call, further warnings about numeric frame names will be suppressed.",
+                    "target": "addFrames：此 API 调用已产生过多此类警告。本次调用的其余部分将抑制关于数字帧名称的进一步警告。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Warning: addFrames accepts frames with numeric names, but the numbers areimplicitly cast to strings",
+                    "target": "警告：addFrames 接受数字名称的帧，但这些数字会被隐式转换为字符串"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Calling _doPlot as if redrawing but this container doesn't yet have a plot.",
+                    "target": "调用 _doPlot 时似乎在重绘，但该容器尚未有图表。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Too many auto-margin redraws.",
+                    "target": "自动边距重绘次数过多。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Contour data invalid for the specified inequality operation.",
+                    "target": "等值线数据不适用于指定的不等式运算。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Contour data invalid for the specified inequality range operation.",
+                    "target": "指定不等式范围操作的等高线数据无效。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Too many contours, clipping at 1000",
+                    "target": "等高线过多，截断为 1000"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "node.pad was reduced to ",
+                    "target": "node.pad 被减小为 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": " to fit within the figure.",
+                    "target": " 以适应图形内。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Encountered arbitrary coordinates! Unable to input data grid.",
+                    "target": "遇到任意坐标！无法输入数据网格。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "WeakMap should be invoked as new WeakMap(), not WeakMap(). This will be an error in the future.",
+                    "target": "应使用 new WeakMap() 调用 WeakMap，而不是 WeakMap()。这在未来会成为错误。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Umm al-Qura",
+                    "target": "Umm al-Qura"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "text texts chars characters value values symbols",
+                    "target": "文本 文本 字符 字符 值 值 符号"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
