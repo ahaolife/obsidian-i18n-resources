@@ -1,0 +1,235 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "flashcards-llm",
+        "version": "1.0.0",
+        "title": "Flashcards LLM",
+        "description": "Flashcards LLM Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.0.13",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Could not parse message into JSON:",
+                    "target": "无法将消息解析为 JSON："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "From chunk:",
+                    "target": "来自分块："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error generating flashcards:",
+                    "target": "生成抽认卡出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enter your OpenAI API key",
+                    "target": "输入你的 OpenAI API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Which language model to use",
+                    "target": "选择要使用的语言模型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Constrains effort on reasoning for reasoning models.",
+                    "target": "限制推理模型的推理工作量。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Note that after changing this you have to manually edit any flashcards you already have",
+                    "target": "注意，修改后你需要手动编辑已有的抽认卡"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set which tag to append upon flashcards generation. See the Spaced Repetition plugin for details",
+                    "target": "设置生成抽认卡时要追加的标签。详情请参见 Spaced Repetition 插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set this to the total number of flashcards the model should generate each time a new `Generate Flashcards` command is issued",
+                    "target": "设置每次发出新的 `Generate Flashcards` 命令时模型应生成的抽认卡总数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Provide additional instructions to the language model",
+                    "target": "向语言模型提供额外指令"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set this to the total number of tokens the model can generate",
+                    "target": "将其设置为模型可生成的令牌总数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable/Disable streaming text completion",
+                    "target": "启用/禁用流式文本补全"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Reasoning Effort",
+                    "target": "推理力度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Number of flashcards to generate",
+                    "target": "要生成的闪卡数量"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Flashcards tag",
+                    "target": "闪卡标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Additional prompt",
+                    "target": "附加提示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "OpenAI API key",
+                    "target": "OpenAI API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Separator for inline flashcards",
+                    "target": "内联闪卡分隔符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Separator for multi-line flashcards",
+                    "target": "多行闪卡分隔符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Maximum output tokens",
+                    "target": "最大输出令牌数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Hide flashcards in preview mode",
+                    "target": "在预览模式下隐藏抽认卡"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "API key",
+                    "target": "API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "::",
+                    "target": "::"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Additional instructions",
+                    "target": "附加说明"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "API key is not set in plugin settings",
+                    "target": "插件设置中未设置 API 密钥"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please select a model to use in the plugin settings",
+                    "target": "请在插件设置中选择要使用的模型"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please provide a correct number of flashcards to generate. Defaulting to 3",
+                    "target": "请提供正确的生成抽认卡数量。将默认使用 3"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please provide a correct number of maximum tokens to generate. Defaulting to 300",
+                    "target": "请提供正确的最大生成 token 数量。将默认使用 300"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Generating flashcards...",
+                    "target": "正在生成抽认卡..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Flashcards succesfully generated!",
+                    "target": "抽认卡已成功生成！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error generating flashcards. Please check the plugin console for details.",
+                    "target": "生成闪卡时出错。请查看插件控制台了解详情。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Generate Inline Flashcards",
+                    "target": "生成内联闪卡"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Generate Multiline Flashcards",
+                    "target": "生成多行闪卡"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Generate flashcards with new settings",
+                    "target": "使用新设置生成闪卡"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Prompt configuration",
+                    "target": "提示词配置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Model settings",
+                    "target": "模型设置"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
