@@ -1,0 +1,355 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "deepseek-ai-assistant",
+        "version": "1.0.0",
+        "title": "deepseek-ai-assistant",
+        "description": "deepseek-ai-assistant Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.1.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Could not parse message into JSON:",
+                    "target": "无法将消息解析为 JSON："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "From chunk:",
+                    "target": "来自片段："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Please add a BigInt polyfill.",
+                    "target": "请添加 BigInt polyfill。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "could not download file",
+                    "target": "无法下载文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "🍍 debuggerEvents should be an array. This is most likely an internal Pinia bug.",
+                    "target": "🍍 debuggerEvents 应为数组。这很可能是 Pinia 的内部错误。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Add Model",
+                    "target": "添加模型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Add a new configuration for an AI model.",
+                    "target": "为 AI 模型添加新配置。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Name shown in the chat dropdown.",
+                    "target": "在聊天下拉菜单中显示的名称。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The internal model string used by the API (e.g., deepseek-chat, gpt-4).",
+                    "target": "API 使用的内部模型字符串（例如 deepseek-chat、gpt-4）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Base URL for the API.",
+                    "target": "API 的基础 URL。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Your secret API Key.",
+                    "target": "您的秘密 API 密钥。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Link to the provider's console for managing keys/billing.",
+                    "target": "链接到提供商控制台以管理密钥/计费。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Add New Model",
+                    "target": "添加新模型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Display Name",
+                    "target": "显示名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Model ID",
+                    "target": "模型 ID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "API URL",
+                    "target": "API URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "API Key",
+                    "target": "API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Provider Dashboard URL (Optional)",
+                    "target": "提供商控制台 URL（可选）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Edit Model Configuration",
+                    "target": "编辑模型配置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Edit Model",
+                    "target": "编辑模型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "cannot run an inactive effect scope.",
+                    "target": "无法运行处于非活动状态的 effect scope。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "onScopeDispose() is called when there is no active effect scope to be associated with.",
+                    "target": "在没有可关联的活动 effect scope 时调用了 onScopeDispose()。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Active effect was not restored correctly - this is likely a Vue internal bug.",
+                    "target": "活动 effect 未能正确恢复——这可能是 Vue 的内部 bug。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "toRefs() expects a reactive object but received a plain one.",
+                    "target": "toRefs() 期望接收一个响应式对象，但收到的是普通对象。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Write operation failed: computed value is readonly",
+                    "target": "写入操作失败：computed 值为只读"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "onWatcherCleanup() was called when there was no active watcher to associate with.",
+                    "target": "在没有可关联的活动 watcher 时调用了 onWatcherCleanup()。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[HMR] Root or manually mounted instance modified. Full reload required.",
+                    "target": "[HMR] 根实例或手动挂载的实例已被修改。需要完全重载。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[HMR] Something went wrong during Vue component hot-reload. Full reload required.",
+                    "target": "[HMR] Vue 组件热重载期间发生错误。需要完全重载。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Name and Model ID are required.",
+                    "target": "名称和模型 ID 为必填项。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "API Key is missing for the selected model. Please configure it in the settings.",
+                    "target": "所选模型缺少 API Key。请在设置中配置。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "DeepSeek API Error: Invalid API Key (401)",
+                    "target": "DeepSeek API 错误：无效的 API 密钥 (401)"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "DeepSeek API Error: Rate Limit Exceeded (429)",
+                    "target": "DeepSeek API 错误：超出速率限制 (429)"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Chat link copied to clipboard!",
+                    "target": "聊天链接已复制到剪贴板！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "无法找到视图",
+                    "target": "无法找到视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "你是一个AI助手，请根据用户的问题给出回答",
+                    "target": "你是一个AI助手，请根据用户的问题给出回答"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Pinia 🍍",
+                    "target": "Pinia 🍍"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Pinia \\u{1F34D}",
+                    "target": "Pinia \\u{1F34D}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Notify about new/deleted stores",
+                    "target": "通知新增/删除的 store"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "New Model",
+                    "target": "新模型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "DeepSeek R1",
+                    "target": "DeepSeek R1"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "DeepSeek V3",
+                    "target": "DeepSeek V3"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open deepseek AI assistant",
+                    "target": "打开 deepseek AI 助手"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Ask anything...",
+                    "target": "随便问点什么..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Search prompts...",
+                    "target": "搜索提示词..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "subtitle",
+                    "source": "HMR update",
+                    "target": "HMR 更新"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "AI Assistant Models",
+                    "target": "AI 助手模型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Configure different AI models with their specific settings.",
+                    "target": "为不同的 AI 模型配置其特定设置。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " · ",
+                    "target": " · "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Copy Link to Note",
+                    "target": "复制笔记链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Serialize and copy the state",
+                    "target": "序列化并复制状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Replace the state with the content of your clipboard",
+                    "target": "用剪贴板内容替换状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Save the state as a JSON file",
+                    "target": "将状态保存为 JSON 文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Import the state from a JSON file",
+                    "target": "从 JSON 文件导入状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Reset the state (with \"$reset\")",
+                    "target": "重置状态（使用 \"$reset\"）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Reset the state of this store",
+                    "target": "重置此 store 的状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "raw DebuggerEvent[]",
+                    "target": "原始 DebuggerEvent[]"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
