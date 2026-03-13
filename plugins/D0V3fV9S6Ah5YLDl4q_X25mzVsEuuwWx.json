@@ -1,0 +1,361 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-plugin-dynamodb",
+        "version": "1.0.0",
+        "title": "AWS DynamoDb For Obsidian",
+        "description": "AWS DynamoDb For Obsidian Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Your AWS Access ID and Secret Key",
+                    "target": "您的 AWS 访问 ID 和密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The region for AWS DynamoDB",
+                    "target": "AWS DynamoDB 的区域"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "AWS Profile",
+                    "target": "AWS 配置文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "AWS Region",
+                    "target": "AWS 区域"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "AWS Access ID",
+                    "target": "AWS 访问 ID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "AWS Secret Key",
+                    "target": "AWS 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Error: AWS credentials not set",
+                    "target": "错误：未设置 AWS 凭证"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Error: query or params must be set",
+                    "target": "错误：必须设置 query 或 params"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "AWS SDK for JavaScript Dynamodb Client for Node.js, Browser and React Native",
+                    "target": "适用于 Node.js、浏览器和 React Native 的 AWS SDK for JavaScript DynamoDB 客户端"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Invalid Configuration: FIPS and custom endpoint are not supported",
+                    "target": "配置无效：不支持 FIPS 和自定义端点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Invalid Configuration: Dualstack and custom endpoint are not supported",
+                    "target": "配置无效：不支持 Dualstack 和自定义端点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "FIPS and DualStack are enabled, but this partition does not support one or both",
+                    "target": "已启用 FIPS 和 DualStack，但该分区不支持其中一个或两个"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "FIPS is enabled but this partition does not support FIPS",
+                    "target": "已启用 FIPS，但该分区不支持 FIPS"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "DualStack is enabled but this partition does not support DualStack",
+                    "target": "已启用 DualStack，但该分区不支持 DualStack"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Samsung Internet for Android",
+                    "target": "Samsung Internet 适用于 Android"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "NAVER Whale Browser",
+                    "target": "NAVER Whale Browser"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "MZ Browser",
+                    "target": "MZ Browser"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Opera Coast",
+                    "target": "Opera Coast"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Opera Touch",
+                    "target": "Opera Touch"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Yandex Browser",
+                    "target": "Yandex Browser"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "UC Browser",
+                    "target": "UC浏览器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Internet Explorer",
+                    "target": "Internet Explorer"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Microsoft Edge",
+                    "target": "Microsoft Edge"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Amazon Silk",
+                    "target": "Amazon Silk浏览器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "WebOS Browser",
+                    "target": "WebOS 浏览器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Google Search",
+                    "target": "Google 搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Android Browser",
+                    "target": "Android 浏览器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "PlayStation 4",
+                    "target": "PlayStation 4"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "US East (N. Virginia)",
+                    "target": "美国东部（北弗吉尼亚州）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "US East (Ohio)",
+                    "target": "美国东部（俄亥俄州）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "US West (N. California)",
+                    "target": "美国西部（北加利福尼亚）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "US West (Oregon)",
+                    "target": "美国西部（俄勒冈）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Asia Pacific (Mumbai)",
+                    "target": "亚太地区（孟买）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Asia Pacific (Seoul)",
+                    "target": "亚太地区（首尔）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Asia Pacific (Singapore)",
+                    "target": "亚太地区（新加坡）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Asia Pacific (Sydney)",
+                    "target": "亚太地区（悉尼）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Asia Pacific (Tokyo)",
+                    "target": "亚太地区（东京）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Canada (Central)",
+                    "target": "加拿大（中部）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "China (Beijing)",
+                    "target": "中国（北京）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "China (Ningxia)",
+                    "target": "中国（宁夏）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "EU (Frankfurt)",
+                    "target": "欧盟（法兰克福）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "EU (Ireland)",
+                    "target": "欧盟（爱尔兰）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "EU (London)",
+                    "target": "欧盟（伦敦）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "EU (Paris)",
+                    "target": "欧盟（巴黎）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "EU (Stockholm)",
+                    "target": "欧盟（斯德哥尔摩）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Middle East (Bahrain)",
+                    "target": "中东（巴林）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "South America (São Paulo)",
+                    "target": "南美洲（圣保罗）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "AWS GovCloud (US-East)",
+                    "target": "AWS GovCloud（美国东部）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "AWS GovCloud (US-West)",
+                    "target": "AWS GovCloud（美国西部）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "AWS SDK for JavaScript Team",
+                    "target": "JavaScript 版 AWS SDK 团队"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Search for a DynamoDB Table and get some info",
+                    "target": "搜索 DynamoDB 表并获取一些信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Set the default region for AWS DynamoDB",
+                    "target": "设置 AWS DynamoDB 的默认区域"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Table Arn:",
+                    "target": "表 Arn："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Table Size:",
+                    "target": "表大小："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Global Secondary Indexes",
+                    "target": "全局二级索引"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Local Secondary Indexes",
+                    "target": "本地二级索引"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Settings for AWS access",
+                    "target": "AWS 访问设置"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
