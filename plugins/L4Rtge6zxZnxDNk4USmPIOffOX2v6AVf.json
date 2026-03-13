@@ -1,0 +1,3337 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "gemini-scribe",
+        "version": "1.0.0",
+        "title": "Gemini Scribe",
+        "description": "Gemini Scribe Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "4.5.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "▶️",
+                    "target": "▶️"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Copied!",
+                    "target": "已复制！"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Skip Archiving",
+                    "target": "跳过归档"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Stdio (local process)",
+                    "target": "Stdio（本地进程）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Use default",
+                    "target": "使用默认值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Use default prompt",
+                    "target": "使用默认提示词"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Could not parse message into JSON:",
+                    "target": "无法将消息解析为 JSON："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "From chunk:",
+                    "target": "来自分块："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Web fetch error:",
+                    "target": "网页抓取错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Fallback fetch error:",
+                    "target": "备用抓取错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "RAG Search failed:",
+                    "target": "RAG 搜索失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "MCP settings rendering error:",
+                    "target": "MCP 设置渲染错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error loading prompt file:",
+                    "target": "加载提示词文件出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error applying custom prompt:",
+                    "target": "应用自定义提示词出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error applying prompt to file:",
+                    "target": "将提示词应用到文件时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error creating prompt file:",
+                    "target": "创建提示文件出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error creating new custom prompt:",
+                    "target": "创建新自定义提示出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error applying prompt:",
+                    "target": "应用提示出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to copy to clipboard",
+                    "target": "复制到剪贴板失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to open documentation link:",
+                    "target": "打开文档链接失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Invalid documentation URL",
+                    "target": "文档 URL 无效"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to create agent session:",
+                    "target": "创建代理会话失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to load session history:",
+                    "target": "加载会话历史失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to update session metadata:",
+                    "target": "更新会话元数据失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to load session:",
+                    "target": "加载会话失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to auto-label session:",
+                    "target": "自动标记会话失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error in auto-labeling:",
+                    "target": "自动标记出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to process tool results:",
+                    "target": "处理工具结果失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to get resource path for image:",
+                    "target": "获取图像资源路径失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Upload failed:",
+                    "target": "上传失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to process dropped image:",
+                    "target": "处理拖入的图片失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to process pasted image:",
+                    "target": "处理粘贴的图片失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to load sessions:",
+                    "target": "加载会话失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to delete session:",
+                    "target": "删除会话失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to save attachment to vault:",
+                    "target": "将附件保存到库中失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error loading custom prompt:",
+                    "target": "加载自定义提示时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to send message:",
+                    "target": "发送消息失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to generate image:",
+                    "target": "生成图片失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error listing agent sessions:",
+                    "target": "列出智能体会话时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error setting up completion commands:",
+                    "target": "设置补全命令时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to rewrite text:",
+                    "target": "重写文本失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to rewrite file:",
+                    "target": "重写文件失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "History archive error:",
+                    "target": "历史归档错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Archive failed:",
+                    "target": "归档失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to read AGENTS.md:",
+                    "target": "读取 AGENTS.md 失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to write AGENTS.md:",
+                    "target": "写入 AGENTS.md 失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to append to AGENTS.md:",
+                    "target": "追加到 AGENTS.md 失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to read example-prompts.json:",
+                    "target": "读取 example-prompts.json 失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to write example-prompts.json:",
+                    "target": "写入 example-prompts.json 失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to parse analysis response:",
+                    "target": "解析 analysis 响应失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to initialize AGENTS.md:",
+                    "target": "初始化 AGENTS.md 失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to parse example prompts response:",
+                    "target": "解析示例提示响应失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "DeepResearch: Research started but no interaction ID was returned",
+                    "target": "DeepResearch：研究已开始，但未返回交互 ID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "DeepResearch: Failed to save report:",
+                    "target": "DeepResearch：保存报告失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "RAG Indexing: Initial indexing failed",
+                    "target": "RAG 索引：初始索引失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "RAG Indexing: Failed to initialize",
+                    "target": "RAG 索引：初始化失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "RAG Indexing: Error while waiting for indexing during destroy",
+                    "target": "RAG 索引：销毁期间等待索引时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "RAG Indexing: Error in progress listener",
+                    "target": "RAG 索引：进度监听器出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "RAG Indexing: Failed to load cache",
+                    "target": "RAG 索引：加载缓存失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "RAG Indexing: Failed to save cache",
+                    "target": "RAG 索引：保存缓存失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "RAG Indexing: Failed to verify store",
+                    "target": "RAG 索引：验证存储失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "RAG Indexing: Failed to create store",
+                    "target": "RAG 索引：创建存储失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "RAG Indexing: Failed to delete store",
+                    "target": "RAG 索引：删除存储失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "RAG Indexing: Resume indexing failed",
+                    "target": "RAG 索引：恢复索引失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "RAG Indexing: Failed to start fresh",
+                    "target": "RAG 索引：重新开始失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "RAG Indexing: Error in debounced flush",
+                    "target": "RAG 索引：防抖刷新出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "RAG Indexing: Failed to process changes",
+                    "target": "RAG 索引：处理更改失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to load prompt:",
+                    "target": "加载提示词失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to copy to clipboard:",
+                    "target": "复制到剪贴板失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error generating response:",
+                    "target": "生成响应出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to initialize RAG indexing:",
+                    "target": "初始化 RAG 索引失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Could not find a leaf to open the agent view",
+                    "target": "找不到可打开代理视图的叶节点"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error checking for archiving:",
+                    "target": "检查归档时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error checking for updates:",
+                    "target": "检查更新时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "API key migration failed: verification mismatch, keeping key in settings",
+                    "target": "API 密钥迁移失败：验证不匹配，保留设置中的密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to re-initialize after settings change:",
+                    "target": "设置更改后重新初始化失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error disconnecting MCP servers:",
+                    "target": "断开 MCP 服务器连接时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error unregistering RAG tools:",
+                    "target": "注销 RAG 工具时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error destroying RAG indexing service:",
+                    "target": "销毁 RAG 索引服务时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Using RetryOperation.try() is deprecated",
+                    "target": "使用 RetryOperation.try() 已弃用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Using RetryOperation.start() is deprecated",
+                    "target": "使用 RetryOperation.start() 已弃用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Web fetch - sending prompt:",
+                    "target": "Web fetch - 正在发送提示："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Web fetch - received result:",
+                    "target": "Web fetch - 已收到结果："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "URL Context Metadata:",
+                    "target": "URL 上下文元数据："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "First metadata entry:",
+                    "target": "第一条元数据条目："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Checking URL status:",
+                    "target": "正在检查 URL 状态："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Table formatting debug:",
+                    "target": "表格格式调试："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Original message:",
+                    "target": "原始消息："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Formatted message:",
+                    "target": "格式化后的消息："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Tool result is object for:",
+                    "target": "工具结果为对象："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Result data keys:",
+                    "target": "结果数据键："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Handling google_search result with citations",
+                    "target": "正在处理带引用的 google_search 结果"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Available tools from registry:",
+                    "target": "注册表中的可用工具："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Number of tools:",
+                    "target": "工具数量："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Tool names:",
+                    "target": "工具名称："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Agent view using non-streaming API",
+                    "target": "使用非流式 API 的代理视图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "VaultAnalyzer: Using cached vault information",
+                    "target": "VaultAnalyzer：使用缓存的 vault 信息"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "VaultAnalyzer: Cached vault information for large vault",
+                    "target": "VaultAnalyzer：大型 vault 的缓存 vault 信息"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[DeepResearch] Injecting proxyFetch into interactions client",
+                    "target": "[DeepResearch] 正在将 proxyFetch 注入到 interactions 客户端"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "DeepResearch: Using web search only",
+                    "target": "DeepResearch：仅使用网页搜索"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "DeepResearch: Research completed, generating report",
+                    "target": "DeepResearch：研究完成，正在生成报告"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "RAG Indexing: Initialized successfully",
+                    "target": "RAG 索引：初始化成功"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "RAG Indexing: Detected interrupted indexing, prompting user",
+                    "target": "RAG 索引：检测到索引中断，正在提示用户"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "RAG Indexing: Cancellation requested",
+                    "target": "RAG 索引：已请求取消"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "RAG Indexing: Paused",
+                    "target": "RAG 索引：已暂停"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "RAG Indexing: Resumed",
+                    "target": "RAG 索引：已恢复"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "RAG Indexing: Rate limit cooldown complete, resuming...",
+                    "target": "RAG 索引：速率限制冷却完成，正在恢复..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "RAG Indexing: Deleted store and cache",
+                    "target": "RAG 索引：已删除存储和缓存"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "RAG Indexing: Cancelled by user",
+                    "target": "RAG 索引：已被用户取消"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "MCP: No enabled servers to connect",
+                    "target": "MCP：没有可连接的已启用服务器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Migrated API key from settings to secure storage",
+                    "target": "已将 API 密钥从设置迁移到安全存储"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Model settings updated:",
+                    "target": "模型设置已更新："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Clear credentials",
+                    "target": "清除凭据"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Test Connection",
+                    "target": "测试连接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Enable Trusted Mode",
+                    "target": "启用可信模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Keep Data",
+                    "target": "保留数据"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Delete Permanently",
+                    "target": "永久删除"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Run in Background",
+                    "target": "在后台运行"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Sync Now",
+                    "target": "立即同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Reindex All",
+                    "target": "重新索引全部"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Start Fresh",
+                    "target": "重新开始"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Add Server",
+                    "target": "添加服务器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "View Documentation",
+                    "target": "查看文档"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Learn More",
+                    "target": "了解更多"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Refresh models",
+                    "target": "刷新模型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "✓ Refreshed",
+                    "target": "✓ 已刷新"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "✗ Failed",
+                    "target": "✗ 失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "✗ Error",
+                    "target": "✗ 错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Reindex Vault",
+                    "target": "重新索引 Vault"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Delete Index",
+                    "target": "删除索引"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Generate Prompt from Page",
+                    "target": "从页面生成提示词"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Generate Image",
+                    "target": "生成图像"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "A unique, friendly name for this server",
+                    "target": "此服务器的唯一友好名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The HTTP endpoint of the MCP server",
+                    "target": "MCP 服务器的 HTTP 端点"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Server has stored OAuth tokens",
+                    "target": "服务器已存储 OAuth 令牌"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The command to spawn the MCP server process",
+                    "target": "用于启动 MCP 服务器进程的命令"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Command arguments, one per line",
+                    "target": "命令参数，每行一个"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Optional KEY=VALUE pairs, one per line",
+                    "target": "可选的 KEY=VALUE 对，每行一个"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Connect to this server when the plugin loads",
+                    "target": "插件加载时连接到此服务器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Connecting to server...",
+                    "target": "正在连接到服务器..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Model discovery is disabled",
+                    "target": "模型发现已禁用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "View the complete plugin documentation and guides",
+                    "target": "查看完整的插件文档和指南"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Frontmatter property name where summaries are stored when using \"Summarize Active File\" command.",
+                    "target": "使用“Summarize Active File”命令时存储摘要的 Frontmatter 属性名称。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Folder where plugin data is stored. Agent sessions are saved in Agent-Sessions/, custom prompts in Prompts/.",
+                    "target": "存储插件数据的文件夹。代理会话保存在 Agent-Sessions/，自定义提示保存在 Prompts/。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Store agent session history as markdown files in your vault. Sessions are automatically saved in the Agent-Sessions subfolder with auto-generated titles based on conversation content.",
+                    "target": "将代理会话历史以 Markdown 文件形式存储在你的库中。会话会自动保存到 Agent-Sessions 子文件夹，并根据对话内容自动生成标题。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Stream AI responses word-by-word as they are generated for a more interactive chat experience.",
+                    "target": "按生成过程逐词流式输出 AI 回复，带来更具交互性的聊天体验。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable debug logging to the console. Useful for troubleshooting.",
+                    "target": "启用控制台调试日志。便于排查问题。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Reveal advanced settings for power users.",
+                    "target": "显示高级用户设置。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Maximum number of retries when a model request fails.",
+                    "target": "模型请求失败时的最大重试次数。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Initial delay in milliseconds before the first retry. Subsequent retries will use exponential backoff.",
+                    "target": "首次重试前的初始延迟（毫秒）。后续重试将采用指数退避。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "How often to check for new models (0 to disable auto-update)",
+                    "target": "检查新模型的频率（0 表示禁用自动更新）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Use built-in model list when API discovery fails",
+                    "target": "当 API 发现失败时使用内置模型列表"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Current status of model discovery",
+                    "target": "模型发现的当前状态"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Stop agent execution when a tool call fails. If disabled, the agent will continue executing subsequent tools.",
+                    "target": "当工具调用失败时停止代理执行。若禁用，代理将继续执行后续工具。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Allow the agent to create and edit files without confirmation. Destructive operations (delete, move) always require confirmation.",
+                    "target": "允许代理在无需确认的情况下创建和编辑文件。破坏性操作（删除、移动）始终需要确认。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Prevent the AI from repeatedly calling the same tool with identical parameters",
+                    "target": "防止 AI 使用相同参数重复调用同一工具"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Number of identical tool calls before considering it a loop (default: 3)",
+                    "target": "在视为循环前允许的相同工具调用次数（默认：3）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Time window to check for repeated calls (default: 30 seconds)",
+                    "target": "用于检查重复调用的时间窗口（默认：30 秒）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Automatically update the index when files are created, modified, or deleted.",
+                    "target": "在文件创建、修改或删除时自动更新索引。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Index PDFs and other supported file types in addition to markdown notes. Requires reindexing.",
+                    "target": "除 Markdown 笔记外还索引 PDF 和其他受支持的文件类型。需要重新索引。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Select the AI model for this session",
+                    "target": "为此会话选择 AI 模型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Controls randomness (0 = deterministic, 2 = very creative)",
+                    "target": "控制随机性（0 = 确定性，2 = 非常有创意）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Nucleus sampling threshold (0 = only top token, 1 = all tokens)",
+                    "target": "核采样阈值（0 = 仅顶部 token，1 = 所有 token）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Describe the image you want to generate",
+                    "target": "描述你想生成的图像"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Let AI suggest an image prompt based on this page's content",
+                    "target": "让 AI 基于此页面内容建议图像提示词"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Server name",
+                    "target": "服务器名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Server URL",
+                    "target": "服务器 URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "OAuth credentials",
+                    "target": "OAuth 凭据"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Environment variables",
+                    "target": "环境变量"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Test connection",
+                    "target": "测试连接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Top P",
+                    "target": "Top P"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "MCP Servers",
+                    "target": "MCP 服务器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable MCP servers",
+                    "target": "启用 MCP 服务器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "API Key",
+                    "target": "API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Model Versions",
+                    "target": "模型版本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Summary Frontmatter Key",
+                    "target": "摘要 Frontmatter 键"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Your Name",
+                    "target": "您的姓名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Plugin State Folder",
+                    "target": "插件状态文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Session History",
+                    "target": "会话历史"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable Session History",
+                    "target": "启用会话历史"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "UI Settings",
+                    "target": "界面设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable Streaming",
+                    "target": "启用流式传输"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Advanced Settings",
+                    "target": "高级设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Debug Mode",
+                    "target": "调试模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show Advanced Settings",
+                    "target": "显示高级设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Custom Prompts",
+                    "target": "自定义提示词"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "API Configuration",
+                    "target": "API 配置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Maximum Retries",
+                    "target": "最大重试次数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Initial Backoff Delay (ms)",
+                    "target": "初始退避延迟（毫秒）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Model Discovery",
+                    "target": "模型发现"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable dynamic model discovery",
+                    "target": "启用动态模型发现"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Auto-update interval (hours)",
+                    "target": "自动更新间隔（小时）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Fallback to static models",
+                    "target": "回退到静态模型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Discovery status",
+                    "target": "发现状态"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Tool Execution",
+                    "target": "工具执行"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Stop on tool error",
+                    "target": "工具出错时停止"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Trusted Mode",
+                    "target": "可信模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Tool Loop Detection",
+                    "target": "工具循环检测"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable loop detection",
+                    "target": "启用循环检测"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Loop threshold",
+                    "target": "循环阈值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Time window (seconds)",
+                    "target": "时间窗口（秒）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Vault Search Index (Experimental)",
+                    "target": "Vault 搜索索引（实验性）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable vault indexing",
+                    "target": "启用 Vault 索引"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Index status",
+                    "target": "索引状态"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Search index name",
+                    "target": "搜索索引名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Auto-sync changes",
+                    "target": "自动同步更改"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Include attachments",
+                    "target": "包含附件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Exclude folders",
+                    "target": "排除文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Image description",
+                    "target": "图像描述"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Generate prompt from current page",
+                    "target": "从当前页面生成提示词"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "e.g., http://localhost:3000/mcp",
+                    "target": "例如，http://localhost:3000/mcp"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "e.g., npx, python, /usr/local/bin/mcp-server",
+                    "target": "例如，npx, python, /usr/local/bin/mcp-server"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "e.g., API_KEY=abc123",
+                    "target": "例如，API_KEY=abc123"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter your name",
+                    "target": "输入您的姓名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "e.g., 3",
+                    "target": "例如，3"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "e.g., 1000",
+                    "target": "例如，1000"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Additional folders to exclude...",
+                    "target": "要排除的其他文件夹..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Select a custom prompt to apply...",
+                    "target": "选择要应用的自定义提示词..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Search files to add as context...",
+                    "target": "搜索要添加为上下文的文件..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Select a file or folder to mention...",
+                    "target": "选择要提及的文件或文件夹..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "A serene landscape with mountains and a lake...",
+                    "target": "一幅宁静的山水湖泊风景..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Select a prompt to explain the selection...",
+                    "target": "选择一个提示词来解释该选择..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Scanning vault...",
+                    "target": "正在扫描仓库..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Explain Selection",
+                    "target": "解释所选内容"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Ask about Selection",
+                    "target": "询问所选内容"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Manually refresh the model list from Google API",
+                    "target": "从 Google API 手动刷新模型列表"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Copy store name to clipboard",
+                    "target": "将商店名称复制到剪贴板"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Reset to default",
+                    "target": "重置为默认值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "includeExtraBodyToRequestInit: extraBody provided but current request body is a Blob. extraBody will be ignored as merging is not supported for Blob bodies.",
+                    "target": "includeExtraBodyToRequestInit: 已提供 extraBody，但当前请求体是 Blob。由于 Blob 请求体不支持合并，extraBody 将被忽略。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "includeExtraBodyToRequestInit: Original request body is valid JSON but not a non-array object. Skip applying extraBody to the request body.",
+                    "target": "includeExtraBodyToRequestInit: 原始请求体是有效的 JSON，但不是非数组对象。跳过将 extraBody 应用于请求体。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "includeExtraBodyToRequestInit: Original request body is not valid JSON. Skip applying extraBody to the request body.",
+                    "target": "includeExtraBodyToRequestInit: 原始请求体不是有效的 JSON。跳过将 extraBody 应用于请求体。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "there are multiple candidates in the response, returning text from the first one.",
+                    "target": "响应中有多个候选项，返回第一个的文本。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "there are multiple candidates in the response, returning data from the first one.",
+                    "target": "响应中有多个候选项，返回第一个的数据。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "there are multiple candidates in the response, returning function calls from the first one.",
+                    "target": "响应中有多个候选项，返回第一个的函数调用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "there are multiple candidates in the response, returning executable code from the first one.",
+                    "target": "响应中有多个候选项，返回第一个的可执行代码。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "there are multiple candidates in the response, returning code execution result from the first one.",
+                    "target": "响应中有多个候选项，返回第一个的代码执行结果。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Live music generation is experimental and may change in future versions.",
+                    "target": "实时音乐生成是实验性的，未来版本可能会更改。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Setting `LiveConnectConfig.generation_config` is deprecated, please set the fields on `LiveConnectConfig` directly. This will become an error in a future version (not before Q3 2025).",
+                    "target": "设置 `LiveConnectConfig.generation_config` 已被弃用，请直接在 `LiveConnectConfig` 上设置字段。此行为将在未来版本中变为错误（不早于 2025 年第三季度）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "GoogleGenAI.interactions: Interactions usage is experimental and may change in future versions.",
+                    "target": "GoogleGenAI.interactions: Interactions 的使用是实验性的，未来版本可能会更改。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "GoogleGenAI.interactions: Client level httpOptions.extraBody is not supported by the interactions client and will be ignored.",
+                    "target": "GoogleGenAI.interactions: interactions 客户端不支持客户端级别的 httpOptions.extraBody，将被忽略。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "these parameters are deprecated, see docs for addKeyword",
+                    "target": "这些参数已弃用，请参阅 addKeyword 文档"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "keywords option as map is deprecated, pass array",
+                    "target": "将 keywords 选项作为 map 已弃用，请传入数组"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to get text from result:",
+                    "target": "无法从结果中获取文本："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to load AGENTS.md:",
+                    "target": "无法加载 AGENTS.md："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to load skill summaries:",
+                    "target": "无法加载技能摘要："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "No agent view available for confirmation",
+                    "target": "没有可用于确认的代理视图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to load example prompts, using defaults:",
+                    "target": "无法加载示例提示，使用默认值："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Error serializing parameter value:",
+                    "target": "序列化参数值时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "All paste methods failed:",
+                    "target": "所有粘贴方法均失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Custom prompt file not found or failed to load:",
+                    "target": "未找到自定义提示文件或加载失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Model discovery failed, falling back to static models:",
+                    "target": "模型发现失败，回退到静态模型："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "All dynamic image models were filtered out, falling back to static models",
+                    "target": "所有动态图像模型已被过滤，回退到静态模型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to get parameter ranges from discovered models:",
+                    "target": "无法从发现的模型中获取参数范围："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to get discovered models:",
+                    "target": "无法获取已发现的模型："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to create archive README:",
+                    "target": "无法创建归档 README："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to create archive marker:",
+                    "target": "创建归档标记失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Invalid example prompts structure in file",
+                    "target": "文件中的示例提示结构无效"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to generate example prompts, skipping save",
+                    "target": "生成示例提示失败，跳过保存"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Could not find JSON array in AI response for example prompts",
+                    "target": "在 AI 对示例提示的响应中未找到 JSON 数组"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Invalid example prompt structure - missing or invalid fields",
+                    "target": "示例提示结构无效 - 字段缺失或无效"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Example prompts response is not an array",
+                    "target": "示例提示响应不是数组"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "RAG Indexing: No API key configured",
+                    "target": "RAG 索引：未配置 API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "RAG Indexing: Store no longer exists, creating new store",
+                    "target": "RAG 索引：存储已不存在，正在创建新存储"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "MCP: Stdio server connections are not supported on mobile",
+                    "target": "MCP：移动端不支持 Stdio 服务器连接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to update models during auto-update:",
+                    "target": "自动更新期间更新模型失败："
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "OAuth credentials cleared. You will need to re-authorize.",
+                    "target": "OAuth 凭据已清除。您需要重新授权。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please enter a URL first",
+                    "target": "请先输入 URL"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please enter a command first",
+                    "target": "请先输入命令"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Server name is required",
+                    "target": "服务器名称为必填项"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Server URL is required for HTTP transport",
+                    "target": "HTTP 传输需要服务器 URL"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Invalid URL format",
+                    "target": "无效的 URL 格式"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Command is required for stdio transport",
+                    "target": "stdio 传输需要命令"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "RAG indexing service not initialized",
+                    "target": "RAG 索引服务未初始化"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Index deleted. Use \"Reindex Vault\" to rebuild.",
+                    "target": "索引已删除。使用“Reindex Vault”重新构建。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Store name copied to clipboard",
+                    "target": "存储名称已复制到剪贴板"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Store name set. Will be used when indexing starts.",
+                    "target": "存储名称已设置。索引开始时将使用。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Attachment setting changed. Reindex vault to apply changes.",
+                    "target": "附件设置已更改。重新索引 vault 以应用更改。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No active file to apply prompt to",
+                    "target": "没有可应用提示的活动文件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Custom prompts can only be applied to markdown files",
+                    "target": "自定义提示仅可应用于 Markdown 文件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No custom prompts found. Create prompts in the Prompts folder first.",
+                    "target": "未找到自定义提示。请先在 Prompts 文件夹中创建提示。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to apply custom prompt",
+                    "target": "应用自定义提示失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to apply custom prompt to note",
+                    "target": "将自定义提示应用到笔记失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No custom prompt is applied to this note",
+                    "target": "此笔记未应用自定义提示"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Invalid prompt name. Please use alphanumeric characters, spaces, hyphens, or underscores.",
+                    "target": "提示名称无效。请使用字母数字、空格、连字符或下划线。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to create prompt file",
+                    "target": "创建提示文件失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to create new custom prompt",
+                    "target": "无法创建新的自定义提示词"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Message copied to clipboard.",
+                    "target": "消息已复制到剪贴板。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Could not copy message to clipboard. Try selecting and copying manually.",
+                    "target": "无法将消息复制到剪贴板。请尝试手动选择并复制。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to open documentation. Please check your browser settings.",
+                    "target": "无法打开文档。请检查浏览器设置。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Confirmation request timed out. The agent has returned to ready state.",
+                    "target": "确认请求超时。智能体已返回就绪状态。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to create agent session",
+                    "target": "无法创建智能体会话"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to load session",
+                    "target": "无法加载会话"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Unsupported image format. Please use PNG, JPEG, GIF, or WebP.",
+                    "target": "不支持的图片格式。请使用 PNG、JPEG、GIF 或 WebP。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Attachment size limit (20 MB) reached. Some images were skipped.",
+                    "target": "已达到附件大小限制（20 MB）。已跳过部分图片。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to attach image",
+                    "target": "无法附加图片"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Unable to paste in popout window. Try pasting in the main window.",
+                    "target": "无法在弹出窗口中粘贴。请尝试在主窗口中粘贴。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to load agent sessions",
+                    "target": "无法加载智能体会话"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to delete session",
+                    "target": "无法删除会话"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No active session",
+                    "target": "没有活动会话"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Agent execution cancelled",
+                    "target": "已取消智能体执行"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Summary added to frontmatter successfully!",
+                    "target": "摘要已成功添加到 frontmatter！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No active editor. Please open a note first.",
+                    "target": "没有活动的编辑器。请先打开一个笔记。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Generating image...",
+                    "target": "正在生成图像..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Image generated and inserted successfully!",
+                    "target": "图像已成功生成并插入！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Prompt generated! Feel free to edit it before generating the image.",
+                    "target": "提示词已生成！生成图像前可随意编辑。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Rewriting selected text...",
+                    "target": "正在重写所选文本..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Text rewritten successfully",
+                    "target": "文本重写成功"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Rewriting entire file...",
+                    "target": "正在重写整个文件..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "File rewritten successfully",
+                    "target": "文件重写成功"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Archiving history...",
+                    "target": "正在归档历史记录..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Archive failed. Your history is safe and unchanged.",
+                    "target": "归档失败。你的历史记录安全且未更改。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to parse AI response. Check console for details.",
+                    "target": "解析 AI 响应失败。请查看控制台获取详细信息。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to initialize AGENTS.md. Check console for details.",
+                    "target": "初始化 AGENTS.md 失败。请查看控制台获取详细信息。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "RAG Indexing: Starting initial vault indexing...",
+                    "target": "RAG 索引：正在开始初始库索引..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "RAG Index: Syncing pending changes...",
+                    "target": "RAG 索引：正在同步待处理更改..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "RAG Indexing: Resuming interrupted indexing...",
+                    "target": "RAG 索引：正在恢复中断的索引..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "RAG Indexing: Starting fresh...",
+                    "target": "RAG 索引：正在重新开始..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Response inserted as callout",
+                    "target": "回复已插入为标注"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Clipboard not available",
+                    "target": "剪贴板不可用"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Response copied to clipboard",
+                    "target": "回复已复制到剪贴板"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please select some text first",
+                    "target": "请先选择一些文本"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No selection action prompts found. Create prompts with the \"selection-action\" tag.",
+                    "target": "未找到选区动作提示。请使用 \"selection-action\" 标签创建提示。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "RAG indexing is not enabled",
+                    "target": "未启用 RAG 索引"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "RAG sync is already paused",
+                    "target": "RAG 同步已暂停"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Cannot pause while indexing is in progress",
+                    "target": "索引进行中，无法暂停"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "RAG sync paused",
+                    "target": "RAG 同步已暂停"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "RAG sync is not paused",
+                    "target": "RAG 同步未暂停"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "RAG sync resumed",
+                    "target": "RAG 同步已恢复"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to initialize vault search index. Check console for details.",
+                    "target": "初始化库搜索索引失败。请查看控制台获取详情。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Elapsed time",
+                    "target": "用时"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Send message to agent",
+                    "target": "向代理发送消息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Path to the file relative to vault root (e.g., \"folder/note.md\", \"folder/note\", or \"note\"). Extension is optional.",
+                    "target": "相对于 vault 根目录的文件路径（例如：“folder/note.md”、“folder/note”或“note”）。扩展名可选。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The property key to update",
+                    "target": "要更新的属性键"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The new value for the property (string, number, boolean, or array)",
+                    "target": "该属性的新值（字符串、数字、布尔值或数组）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The text content to append (automatically adds newline if needed)",
+                    "target": "要追加的文本内容（如有需要会自动添加换行）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The search query to send to Google",
+                    "target": "发送给 Google 的搜索查询"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The URL to fetch and analyze",
+                    "target": "要获取并分析的 URL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "What information to extract or questions to answer about the content",
+                    "target": "要从内容中提取的信息或需要回答的问题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The research topic or question",
+                    "target": "研究主题或问题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Research scope: vault_only (your notes), web_only (internet), or both (default)",
+                    "target": "研究范围：vault_only（你的笔记）、web_only（互联网）或 both（默认）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Path for the output report file (optional)",
+                    "target": "输出报告文件的路径（可选）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Detailed description of the image to generate",
+                    "target": "要生成图像的详细描述"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Optional: The path of the note to use for determining the attachment folder location where the image file will be saved. This does NOT insert the image into the note - it only affects where the image file is stored. If not provided, uses the currently active note to determine the attachment folder.",
+                    "target": "可选：用于确定附件文件夹位置的笔记路径，图像文件将保存在该位置。这不会将图像插入笔记，只会影响图像文件的存储位置。若未提供，将使用当前活动笔记来确定附件文件夹。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The name of the skill to activate (e.g., \"code-review\", \"data-analysis\")",
+                    "target": "要激活的技能名称（例如：“code-review”、“data-analysis”）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The name of the skill (1-64 chars, lowercase alphanumeric and hyphens only, e.g., \"code-review\", \"meeting-notes\")",
+                    "target": "技能名称（1-64 个字符，仅限小写字母、数字和连字符，例如：“code-review”、“meeting-notes”）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "A description of what this skill does and when to use it. Should include keywords that help identify relevant tasks.",
+                    "target": "对该技能作用及使用时机的描述。应包含有助于识别相关任务的关键词。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The full markdown body content of the SKILL.md file. Should include step-by-step instructions, examples, and edge cases.",
+                    "target": "SKILL.md 文件的完整 Markdown 正文内容。应包含分步说明、示例和边界情况。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The search query. Can be a question, topic, or concept to search for.",
+                    "target": "搜索查询。可以是要搜索的问题、主题或概念。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Maximum number of results to return (default: 5, max: 20)",
+                    "target": "返回的最大结果数（默认：5，最大：20）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Limit search to files in this folder path (e.g., \"projects\" or \"projects/2024\")",
+                    "target": "将搜索限制为此文件夹路径中的文件（例如，“projects”或“projects/2024”）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Filter by tags. Multiple tags use OR logic (matches any tag).",
+                    "target": "按标签筛选。多个标签使用 OR 逻辑（匹配任一标签）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Path to the file to write",
+                    "target": "要写入的文件路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Content to write to the file",
+                    "target": "要写入文件的内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Whether to list files recursively",
+                    "target": "是否递归列出文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Path of the folder to create",
+                    "target": "要创建的文件夹路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Path of the file or folder to delete",
+                    "target": "要删除的文件或文件夹路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Current path of the file or folder to move",
+                    "target": "要移动的文件或文件夹的当前路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "New path for the file or folder (including filename for files)",
+                    "target": "文件或文件夹的新路径（文件需包含文件名）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Search pattern (supports wildcards: * matches any characters, ? matches single character)",
+                    "target": "搜索模式（支持通配符：* 匹配任意字符，? 匹配单个字符）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Maximum number of results to return",
+                    "target": "返回的最大结果数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Text or regex pattern to search for within file contents",
+                    "target": "在文件内容中搜索的文本或正则表达式模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Whether search should be case-sensitive (default: false)",
+                    "target": "搜索是否区分大小写（默认：false）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Whether to treat query as a regular expression (default: false). When false, searches for literal text.",
+                    "target": "是否将查询视为正则表达式（默认：false）。为 false 时，搜索字面文本。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Maximum number of files with matches to return (default: 50)",
+                    "target": "返回包含匹配项的最大文件数（默认：50）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Number of lines before and after each match to include for context (default: 2, max: 5)",
+                    "target": "每个匹配项前后用于上下文的行数（默认：2，最大：5）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Google API key not configured",
+                    "target": "未配置 Google API 密钥"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "API key not configured",
+                    "target": "未配置 API 密钥"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Only HTTP and HTTPS URLs are supported",
+                    "target": "仅支持 HTTP 和 HTTPS URL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "No response generated from URL content",
+                    "target": "未从 URL 内容生成响应"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "URL not found (404)",
+                    "target": "未找到 URL（404）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Access forbidden to this URL (403)",
+                    "target": "禁止访问此 URL（403）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "API quota exceeded",
+                    "target": "API 配额已超出"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "No analysis generated from page content",
+                    "target": "未从页面内容生成分析"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Deep research service not available",
+                    "target": "深度研究服务不可用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Image generation service not available",
+                    "target": "图像生成服务不可用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Skill manager service not available",
+                    "target": "技能管理器服务不可用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Skill name is required",
+                    "target": "需要技能名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "RAG indexing service is not ready. Please wait for initialization to complete.",
+                    "target": "RAG 索引服务尚未就绪。请等待初始化完成。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "No File Search Store configured. Please reindex your vault.",
+                    "target": "未配置文件搜索存储。请重新索引你的保管库。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "RAG API client not available. Please wait for service initialization.",
+                    "target": "RAG API 客户端不可用。请等待服务初始化。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "User declined tool execution",
+                    "target": "用户已拒绝执行工具"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "No file is currently active in the editor",
+                    "target": "编辑器中当前没有活动文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Skill name must not contain consecutive hyphens (--)",
+                    "target": "技能名称不得包含连续的连字符（--）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Skill name must contain only lowercase alphanumeric characters and hyphens, and must not start or end with a hyphen",
+                    "target": "技能名称只能包含小写字母数字和连字符，且不能以连字符开头或结尾"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "מחרוזת",
+                    "target": "字符串"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "מספר",
+                    "target": "数字"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "ערך בוליאני",
+                    "target": "布尔值"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "תאריך",
+                    "target": "日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "מערך",
+                    "target": "数组"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "אובייקט",
+                    "target": "对象"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "ערך ריק (null)",
+                    "target": "空值（null）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "ערך לא מוגדר (undefined)",
+                    "target": "未定义值（undefined）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "סימבול (Symbol)",
+                    "target": "符号（Symbol）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "פונקציה",
+                    "target": "函数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "מפה (Map)",
+                    "target": "映射（Map）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "קבוצה (Set)",
+                    "target": "集合（Set）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "קובץ",
+                    "target": "文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "ערך לא ידוע",
+                    "target": "未知值"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "ערך",
+                    "target": "值"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "קלט",
+                    "target": "输入"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "כתובת אימייל",
+                    "target": "电子邮件地址"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "כתובת רשת",
+                    "target": "网址"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "אימוג'י",
+                    "target": "表情符号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "תאריך וזמן ISO",
+                    "target": "ISO 日期和时间"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "תאריך ISO",
+                    "target": "ISO 日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "זמן ISO",
+                    "target": "ISO 时间"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "משך זמן ISO",
+                    "target": "ISO 时长"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "כתובת IPv4",
+                    "target": "IPv4 地址"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "כתובת IPv6",
+                    "target": "IPv6 地址"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "טווח IPv4",
+                    "target": "IPv4 范围"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "טווח IPv6",
+                    "target": "IPv6 范围"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "מחרוזת בבסיס 64",
+                    "target": "Base64 字符串"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "מחרוזת בבסיס 64 לכתובות רשת",
+                    "target": "用于网络地址的 Base64 字符串"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "מחרוזת JSON",
+                    "target": "JSON 字符串"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "מספר E.164",
+                    "target": "E.164 号码"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Invalid Base64 string",
+                    "target": "无效的 Base64 字符串"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "must be equal to constant",
+                    "target": "必须等于常量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "must be equal to one of the allowed values",
+                    "target": "必须等于允许的值之一"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "property name must be valid",
+                    "target": "属性名称必须有效"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "must NOT have additional properties",
+                    "target": "不得有额外属性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "must NOT be valid",
+                    "target": "必须无效"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "No skills are currently installed",
+                    "target": "当前未安装任何技能"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Continuing with additional tool calls...",
+                    "target": "继续进行其他工具调用..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Method not found",
+                    "target": "未找到方法"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "URL must be parseable",
+                    "target": "URL 必须可解析"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Apply Custom Prompt to Current Note",
+                    "target": "将自定义提示应用到当前笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Create New Custom Prompt",
+                    "target": "创建新的自定义提示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Summarize Active File",
+                    "target": "总结活动文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Generate Image",
+                    "target": "生成图像"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle completions",
+                    "target": "切换补全"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Initialize/Update Vault Context (AGENTS.md)",
+                    "target": "初始化/更新知识库上下文 (AGENTS.md)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Rewrite text with AI",
+                    "target": "用 AI 重写文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Explain selection with AI",
+                    "target": "用 AI 解释选中内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ask about selection",
+                    "target": "询问选中内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "View Release Notes",
+                    "target": "查看发布说明"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Pause RAG Sync",
+                    "target": "暂停 RAG 同步"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Resume RAG Sync",
+                    "target": "恢复 RAG 同步"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show RAG Status",
+                    "target": "显示 RAG 状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Search files...",
+                    "target": "搜索文件..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Enter a name for your custom prompt...",
+                    "target": "为你的自定义提示词输入名称..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "What would you like to know about this text?",
+                    "target": "你想了解这段文本的什么内容？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Tool Trust Settings",
+                    "target": "工具信任设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Trusted tools skip the confirmation dialog. Untrusted tools require approval before each execution.",
+                    "target": "受信任的工具会跳过确认对话框。不受信任的工具在每次执行前需要批准。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Enable Trusted Mode?",
+                    "target": "启用信任模式？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Trusted Mode allows the AI agent to create and edit files in your vault without asking for confirmation. Destructive operations (delete, move) will still require confirmation.",
+                    "target": "信任模式允许 AI 代理在你的库中创建和编辑文件而无需确认。破坏性操作（删除、移动）仍需要确认。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "This grants the AI write access to your vault. While convenient, it carries risks if the model hallucinates or makes mistakes.",
+                    "target": "这将授予 AI 对你的库的写入权限。虽方便，但如果模型产生幻觉或出错，会带来风险。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Delete Vault Index?",
+                    "target": "删除库索引？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Your vault index is stored in Google Cloud. Do you want to delete it?",
+                    "target": "你的库索引存储在 Google Cloud。要删除吗？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "If you keep the data, re-enabling will be faster.",
+                    "target": "如果保留数据，重新启用会更快。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Indexing Vault",
+                    "target": "正在索引库"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Currently processing:",
+                    "target": "当前处理中："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Elapsed: ",
+                    "target": "已用时间："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " | ",
+                    "target": " | "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Estimated: ",
+                    "target": "预计："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "RAG Index Status",
+                    "target": "RAG 索引状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Files indexed",
+                    "target": "已索引文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Last sync",
+                    "target": "上次同步"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No files indexed yet",
+                    "target": "尚未索引任何文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No files match your search",
+                    "target": "没有文件匹配你的搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No failures recorded",
+                    "target": "未记录失败"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Resume Indexing?",
+                    "target": "恢复索引？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "A previous indexing operation was interrupted. Would you like to resume or start fresh?",
+                    "target": "之前的索引操作被中断。你想要恢复还是重新开始？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Files indexed:",
+                    "target": "已索引文件："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Interrupted:",
+                    "target": "已中断："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Last file:",
+                    "target": "上次文件："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Resume will continue from where you left off, skipping already-indexed files.",
+                    "target": "恢复将从你上次中断的位置继续，跳过已索引的文件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No MCP servers configured. Click \"Add Server\" to get started.",
+                    "target": "未配置 MCP 服务器。点击“添加服务器”开始。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Create New Custom Prompt",
+                    "target": "创建新的自定义提示词"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Prompt Name:",
+                    "target": "提示词名称："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Search and read files in your vault",
+                    "target": "在你的库中搜索并阅读文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Create, modify, and organize notes",
+                    "target": "创建、修改并整理笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Search the web and fetch information",
+                    "target": "搜索网页并获取信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Execute multi-step tasks autonomously",
+                    "target": "自主执行多步骤任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Find all notes tagged with #important",
+                    "target": "查找所有带有 #important 标签的笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Create a weekly summary of my meeting notes",
+                    "target": "创建我的会议笔记周总结"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Research productivity methods and create notes",
+                    "target": "研究提升效率的方法并创建笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Organize my research notes by topic",
+                    "target": "按主题整理我的研究笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Start a conversation",
+                    "target": "开始对话"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Your AI assistant that can actively work with your vault.",
+                    "target": "能主动与你的库协作的 AI 助手。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "What can the Agent do?",
+                    "target": "Agent 能做什么？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "📖 Learn more about Agent Mode",
+                    "target": "📖 了解更多关于代理模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Update Vault Context",
+                    "target": "更新库上下文"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Refresh my understanding of your vault",
+                    "target": "刷新我对你的库的理解"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Initialize Vault Context",
+                    "target": "初始化库上下文"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Help me understand your vault structure and organization",
+                    "target": "帮助我了解你的库结构和组织方式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Recent sessions:",
+                    "target": "最近会话："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Try these examples:",
+                    "target": "试试这些示例："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Permission Required",
+                    "target": "需要权限"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Parameters:",
+                    "target": "参数："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Don't ask again this session",
+                    "target": "本次会话不再询问"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No context files",
+                    "target": "没有上下文文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Show full content",
+                    "target": "显示完整内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No results found",
+                    "target": "未找到结果"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Answer:",
+                    "target": "答案："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Sources:",
+                    "target": "来源："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Generated Image:",
+                    "target": "生成的图像："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Failed to load image preview",
+                    "target": "无法加载图像预览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Path: ",
+                    "target": "路径： "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Wikilink: ",
+                    "target": "Wiki链接： "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "File: ",
+                    "target": "文件： "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " Add Files",
+                    "target": " 添加文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Agent Sessions",
+                    "target": "代理会话"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No agent sessions found",
+                    "target": "未找到代理会话"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "New Session",
+                    "target": "新建会话"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Session Settings",
+                    "target": "会话设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "These settings override the global defaults for this session only. Changes are saved automatically.",
+                    "target": "这些设置仅覆盖本会话的全局默认值。更改将自动保存。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Generate Image",
+                    "target": "生成图像"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Instructions:",
+                    "target": "说明："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "This is a major update focused entirely on the powerful Agent Mode.",
+                    "target": "这是一次重大更新，完全聚焦于强大的代理模式。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "What's New in 4.0:",
+                    "target": "4.0 新增内容："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "🤖 Unified agent-first interface - one powerful chat mode",
+                    "target": "🤖 统一的智能体优先界面 - 一个强大的聊天模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "🔧 Tool calling built-in to every conversation",
+                    "target": "🔧 每次对话内置工具调用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "💾 Persistent agent sessions with full history",
+                    "target": "💾 具有完整历史记录的持久智能体会话"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "⚡ Smarter, more capable AI assistance",
+                    "target": "⚡ 更智能、更强大的 AI 助手"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Your Old Chat History",
+                    "target": "你的旧聊天记录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "📦 Archiving will:",
+                    "target": "📦 归档将："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Move your History/ folder to History-Archive/",
+                    "target": "将你的 History/ 文件夹移动到 History-Archive/"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Keep all your old conversations as readable markdown files",
+                    "target": "将所有旧对话保留为可读的 markdown 文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Let you start fresh with the new agent sessions",
+                    "target": "让你用新的智能体会话重新开始"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Start Using Agent Mode",
+                    "target": "开始使用智能体模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Archive Old History",
+                    "target": "归档旧历史记录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "📦 Archiving History...",
+                    "target": "📦 正在归档历史记录..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Please wait while your old history is being archived...",
+                    "target": "正在归档你的旧历史记录，请稍候..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "❌ Archive Failed",
+                    "target": "❌ 归档失败"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "An error occurred while archiving:",
+                    "target": "归档时发生错误："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Your old history is still in the History/ folder and has not been modified.",
+                    "target": "你的旧历史仍在 History/ 文件夹中，且未被修改。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "✅ Archive Complete!",
+                    "target": "✅ 归档完成！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Your history was already archived.",
+                    "target": "你的历史已归档。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No old history found - you're ready to start fresh!",
+                    "target": "未找到旧历史 - 你已准备好重新开始！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Next Steps:",
+                    "target": "下一步："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Your archived conversations are still readable markdown files",
+                    "target": "你的已归档对话仍是可读的 markdown 文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Open the Agent Mode panel to start using v4.0",
+                    "target": "打开 Agent Mode 面板以开始使用 v4.0"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Try asking the agent to search your vault or create notes",
+                    "target": "试着让代理搜索你的 vault 或创建笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "What's New:",
+                    "target": "新功能："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Get Started",
+                    "target": "开始使用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "📖 View Full Release Notes",
+                    "target": "📖 查看完整发布说明"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "🔍 Analyzing Vault",
+                    "target": "🔍 正在分析 Vault"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Generating context for AGENTS.md...",
+                    "target": "正在为 AGENTS.md 生成上下文..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "AI Response",
+                    "target": "AI 回复"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Selected text",
+                    "target": "选中文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Generating response...",
+                    "target": "正在生成响应..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Insert as Callout",
+                    "target": "作为标注插入"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Ask about Selection",
+                    "target": "询问所选内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Selected text:",
+                    "target": "已选文本："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Your question:",
+                    "target": "你的问题："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "This is the currently open file",
+                    "target": "这是当前打开的文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Toggle context panel",
+                    "target": "切换上下文面板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Session Settings",
+                    "target": "会话设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "New Session",
+                    "target": "新建会话"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Browse Sessions",
+                    "target": "浏览会话"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Add context files",
+                    "target": "添加上下文文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Open session",
+                    "target": "打开会话"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Delete session",
+                    "target": "删除会话"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
