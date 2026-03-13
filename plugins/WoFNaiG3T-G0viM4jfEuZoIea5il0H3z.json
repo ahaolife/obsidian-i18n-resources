@@ -1,0 +1,43 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "last-position",
+        "version": "1.0.0",
+        "title": "Last Position",
+        "description": "Last Position Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.2.6",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "滚动(scroll)",
+                    "target": "滚动(scroll)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "鼠标点击(click)",
+                    "target": "鼠标点击(click)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "鼠标悬停(mouseover)",
+                    "target": "鼠标悬停(mouseover)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Import error:",
+                    "target": "导入错误："
+                }
+            ],
+            "regex": []
+        }
+    }
+}
