@@ -1,0 +1,937 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "quartz-syncer",
+        "version": "1.0.0",
+        "title": "Quartz Syncer",
+        "description": "Quartz Syncer Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.9.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerText",
+                    "source": "successful!",
+                    "target": "成功！"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerText",
+                    "source": "failed!",
+                    "target": "失败！"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "placeholder",
+                    "source": "oauth2 or username",
+                    "target": "oauth2 或用户名"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "placeholder",
+                    "source": "x-token-auth or username",
+                    "target": "x-token-auth 或用户名"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "placeholder",
+                    "source": "Enter new token to replace",
+                    "target": "输入新令牌以替换"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "placeholder",
+                    "source": "Enter token",
+                    "target": "输入令牌"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Publishing Notes",
+                    "target": "发布说明"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "PUBLISH SELECTED CHANGES",
+                    "target": "发布所选更改"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "- PUBLISHED",
+                    "target": "- 已发布"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "- DELETED",
+                    "target": "- 已删除"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Local (Current)",
+                    "target": "本地（当前）"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Differences between your local file and the published file. Content may\n\t\tdiffer slightly due to plugin processing.",
+                    "target": "本地文件与已发布文件之间的差异。由于插件处理，内容可能会\n\t\t略有不同。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Custom / Self-hosted",
+                    "target": "自定义 / 自托管"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Gitea / Codeberg",
+                    "target": "Gitea / Codeberg"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "None (public repos)",
+                    "target": "无（公开仓库）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Bearer Token",
+                    "target": "Bearer 令牌"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Username & Token/Password",
+                    "target": "用户名与令牌/密码"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Always Unified (single column)",
+                    "target": "始终统一（单列）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Always Split (side-by-side)",
+                    "target": "始终分栏（并排）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Auto (Split on desktop, Unified on mobile)",
+                    "target": "自动（桌面分栏，移动端统一）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " (status: connection ",
+                    "target": "（状态：连接 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "confirm",
+                    "source": "Are you sure you want to clear the Quartz Syncer cache for all files? This action cannot be undone.",
+                    "target": "确定要清除所有文件的 Quartz Syncer 缓存吗？此操作无法撤销。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Couldn't convert value into a JSON string: ",
+                    "target": "无法将值转换为 JSON 字符串："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to collect integration assets",
+                    "target": "收集集成资产失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to check custom.scss",
+                    "target": "检查 custom.scss 失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to create Excalidraw SVGs:",
+                    "target": "创建 Excalidraw SVGs 失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Code Block: cardlink unknown error",
+                    "target": "代码块：cardlink 未知错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "HTTP request failed",
+                    "target": "HTTP 请求失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to initialize LightningFS",
+                    "target": "初始化 LightningFS 失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to clone repository",
+                    "target": "克隆仓库失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Could not get repository content",
+                    "target": "无法获取仓库内容"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Could not get latest commit",
+                    "target": "无法获取最新提交"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to delete files",
+                    "target": "删除文件失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to update files",
+                    "target": "更新文件失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to write raw files",
+                    "target": "写入原始文件失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Connection test failed",
+                    "target": "连接测试失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to clear local cache",
+                    "target": "清除本地缓存失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unable to load generateSyncerSnapshot",
+                    "target": "无法加载 generateSyncerSnapshot"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Will add syncer import to custom.scss",
+                    "target": "将添加 syncer 导入到 custom.scss"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Local git cache cleared",
+                    "target": "本地 git 缓存已清除"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Git authentication token stored in secure storage",
+                    "target": "Git 身份验证令牌已存储在安全存储中"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Git authentication token cleared from secure storage",
+                    "target": "Git 身份验证令牌已从安全存储中清除"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Cleared legacy token from settings (secure storage already has token)",
+                    "target": "已从设置中清除旧版令牌（安全存储中已有令牌）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Successfully migrated Git authentication token from settings to secure storage",
+                    "target": "已成功将 Git 身份验证令牌从设置迁移到安全存储"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "External settings change detected, reloading settings.",
+                    "target": "检测到外部设置更改，正在重新加载设置。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Migrating legacy GitHub settings to generic Git settings",
+                    "target": "正在将旧版 GitHub 设置迁移到通用 Git 设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Developer tools enabled",
+                    "target": "开发者工具已启用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Cache clearing cancelled by user.",
+                    "target": "用户已取消清除缓存。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Cache cleared for all files.",
+                    "target": "已清除所有文件的缓存。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Clear cache",
+                    "target": "清除缓存"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The full URL of your Git repository (e.g., https://github.com/username/quartz.git)",
+                    "target": "你的 Git 仓库的完整 URL（例如：https://github.com/username/quartz.git）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The branch to sync with",
+                    "target": "要同步的分支"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Select your Git provider for optimized authentication hints",
+                    "target": "选择你的 Git 提供商以获得优化的认证提示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "How to authenticate with the Git server",
+                    "target": "如何与 Git 服务器进行认证"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The folder in your Obsidian vault to sync. Use \"/\" for the entire vault.",
+                    "target": "要同步的 Obsidian 仓库中的文件夹。使用“/”表示整个仓库。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Quartz Syncer will apply these settings to your Quartz notes.",
+                    "target": "Quartz Syncer 会将这些设置应用到你的 Quartz 笔记。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "By default, Quartz Syncer will use lower resolution images to save space. If you want to use the full resolution blob, enable this setting.",
+                    "target": "默认情况下，Quartz Syncer 会使用较低分辨率的图片以节省空间。如果你想使用全分辨率的 blob，请启用此设置。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The folder in your Quartz repository where Quartz Syncer should store your notes. By default \"content\"",
+                    "target": "Quartz Syncer 在你的 Quartz 仓库中存放笔记的文件夹。默认是“content”。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Quartz Syncer will apply these settings to your Quartz notes' properties or frontmatter.",
+                    "target": "Quartz Syncer 会将这些设置应用到你的 Quartz 笔记属性或 frontmatter。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Output format for frontmatter in published notes. YAML is more readable, JSON is supported in case you need it.",
+                    "target": "已发布笔记的 frontmatter 输出格式。YAML 更易读，若有需要也支持 JSON。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Note property key used to mark a note as eligible to publish. Quartz Syncer will ignore all notes without this property. By default \"publish\".",
+                    "target": "用于标记笔记可发布的属性键。Quartz Syncer 将忽略所有没有此属性的笔记。默认是“publish”。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Make all notes publishable by default. This will override the publish key setting and make all notes eligible for publication.",
+                    "target": "默认使所有笔记可发布。这将覆盖发布键设置，并使所有笔记都符合发布条件。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Include all note properties in the Quartz Syncer note. Enabling this will overrides other property settings to include all properties keys and values. Even note properties that are not used by Quartz will be included in the note's frontmatter. You shouldn't need this setting unless you have Quartz components that require non-standard properties.",
+                    "target": "在 Quartz Syncer 笔记中包含所有笔记属性。启用此项将覆盖其他属性设置，包含所有属性键和值。即使是 Quartz 未使用的笔记属性也会包含在笔记的 frontmatter 中。除非你有需要非标准属性的 Quartz 组件，否则不应使用此设置。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Include the created timestamp in your note's properties.",
+                    "target": "在笔记属性中包含创建时间戳。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Comma-separated list of keys to look for to determine the created timestamp. By default, Quartz Syncer will look for 'created', 'created_at', and 'date'.",
+                    "target": "用于确定创建时间戳的键的逗号分隔列表。默认情况下，Quartz Syncer 会查找 'created'、'created_at' 和 'date'。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Include the modified timestamp in your note's properties.",
+                    "target": "在笔记属性中包含修改时间戳。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Comma-separated list of keys to look for to determine the modified timestamp. By default, Quartz Syncer will look for 'modified', 'lastmod', 'updated', and 'last-modified'.",
+                    "target": "用于确定修改时间戳的键的逗号分隔列表。默认情况下，Quartz Syncer 会查找 'modified'、'lastmod'、'updated' 和 'last-modified'。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Include the published timestamp in your note's properties.",
+                    "target": "在笔记属性中包含发布时间戳。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Comma-separated list of keys to look for to determine the published timestamp. By default, Quartz Syncer will look for 'published', 'publishDate', and 'date'.",
+                    "target": "用于确定发布时间戳的键的逗号分隔列表。默认情况下，Quartz Syncer 会查找 'published'、'publishDate' 和 'date'。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Use the note's permalink as the Quartz note's URL if \"permalink\" is not in the frontmatter. This will override the default Quartz URL.",
+                    "target": "如果 frontmatter 中没有“permalink”，则使用笔记的永久链接作为 Quartz 笔记的 URL。这将覆盖默认的 Quartz URL。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Quartz Syncer will use these Obsidian plugins with your Quartz notes.",
+                    "target": "Quartz Syncer 将使用这些 Obsidian 插件处理你的 Quartz 笔记。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Settings for managing integration styles in your Quartz project.",
+                    "target": "用于管理 Quartz 项目中集成样式的设置。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Quartz Syncer will use these settings to improve performance.",
+                    "target": "Quartz Syncer 将使用这些设置来提升性能。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable or disable the Quartz Syncer cache. This can improve performance by storing compiled files locally.",
+                    "target": "启用或禁用 Quartz Syncer 缓存。通过在本地存储编译后的文件可提升性能。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Whether to write the cache to `data.json`. This is useful for syncing the cache across devices. It is recommended to enable this setting if you are using Quartz Syncer on multiple devices.",
+                    "target": "是否将缓存写入 `data.json`。这有助于在设备之间同步缓存。如果你在多台设备上使用 Quartz Syncer，建议启用此设置。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Whether to persist the cache when the plugin is unloaded. This is useful for users that start Obsidian with the plugin disabled.",
+                    "target": "插件卸载时是否保留缓存。这对以禁用插件方式启动 Obsidian 的用户很有用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Customize the appearance and behavior of Quartz Syncer.",
+                    "target": "自定义 Quartz Syncer 的外观和行为。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose how differences are displayed when comparing local and published files.",
+                    "target": "选择在比较本地与已发布文件时差异的显示方式。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Git Repository",
+                    "target": "Git 仓库"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Authentication Type",
+                    "target": "认证类型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "CORS Proxy (optional)",
+                    "target": "CORS 代理（可选）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Vault root folder",
+                    "target": "库根文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use full image resolution",
+                    "target": "使用完整图像分辨率"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Content folder",
+                    "target": "内容文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Note properties (frontmatter)",
+                    "target": "笔记属性（frontmatter）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Frontmatter format",
+                    "target": "Frontmatter 格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Publish key",
+                    "target": "发布密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "All notes publishable by default",
+                    "target": "默认所有笔记可发布"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Include all properties",
+                    "target": "包含所有属性"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Include created timestamp",
+                    "target": "包含创建时间戳"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Created timestamp keys",
+                    "target": "创建时间戳键"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Include modified timestamp",
+                    "target": "包含修改时间戳"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Modified timestamp keys",
+                    "target": "修改时间戳键"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Include published timestamp",
+                    "target": "包含发布时间戳"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Published timestamp keys",
+                    "target": "发布时间戳键"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable permalinks",
+                    "target": "启用固定链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Plugin integration",
+                    "target": "插件集成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Integration styles",
+                    "target": "集成样式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Manage integration styles",
+                    "target": "管理集成样式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable caching",
+                    "target": "启用缓存"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Synchronize cache between devices",
+                    "target": "在设备间同步缓存"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Persist cache after unload",
+                    "target": "卸载后保留缓存"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Clear cache",
+                    "target": "清除缓存"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "User Interface",
+                    "target": "用户界面"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Diff view style",
+                    "target": "差异视图样式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "created, created_at, date",
+                    "target": "created, created_at, date"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "modified, lastmod, updated, last-modified",
+                    "target": "modified, lastmod, updated, last-modified"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "published, publishDate, date",
+                    "target": "published, publishDate, date"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Retrieving publish status...",
+                    "target": "正在获取发布状态..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Finishing up...",
+                    "target": "即将完成..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Token stored securely",
+                    "target": "Token 已安全存储"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "No token set",
+                    "target": "未设置 Token"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "dvapi.tryEvaluate did not yield any result",
+                    "target": "dvapi.tryEvaluate 未产生任何结果"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "eval did not yield any result",
+                    "target": "eval 未产生任何结果"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Excalidraw files are not supported yet.",
+                    "target": "尚不支持 Excalidraw 文件。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Cache is disabled, no action taken.",
+                    "target": "缓存已禁用，未执行任何操作。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "devPluginPath missing, run generateSyncerSettings.mjs",
+                    "target": "缺少 devPluginPath，请运行 generateSyncerSettings.mjs"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Check snapshot to make sure nothing has accidentally changed",
+                    "target": "检查快照以确保未发生意外更改"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Quartz Syncer: Note does not have the publish: true set. Please add this and try again.",
+                    "target": "Quartz Syncer：笔记未设置 publish: true。请添加后再试。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Quartz Syncer: Failed to collect integration styles. Check console for details.",
+                    "target": "Quartz Syncer：收集集成样式失败。请查看控制台了解详情。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Quartz Syncer: Unable to render dataview query. Please update the dataview plugin to the latest version.",
+                    "target": "Quartz Syncer：无法渲染 dataview 查询。请将 dataview 插件更新到最新版本。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Quartz Syncer: Unable to render Excalidraw drawing. Check console for details.",
+                    "target": "Quartz Syncer：无法渲染 Excalidraw 绘图。请查看控制台以获取详细信息。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Quartz Syncer: Cache disabled. All cached data will be cleared.",
+                    "target": "Quartz Syncer：缓存已禁用。将清除所有缓存数据。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Quartz Syncer: cache cleared.",
+                    "target": "Quartz Syncer：缓存已清除。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Quartz Syncer: No file is open/active. Please open a file and try again.",
+                    "target": "Quartz Syncer：没有打开/激活的文件。请打开文件后重试。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Quartz Syncer: Cache is disabled, no action taken.",
+                    "target": "Quartz Syncer：缓存已禁用，未执行任何操作。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Quartz Syncer: Cache clearing cancelled.",
+                    "target": "Quartz Syncer：缓存清除已取消。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Quartz Syncer: Cache cleared for all files.",
+                    "target": "Quartz Syncer：已清除所有文件的缓存。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Toggle token visibility",
+                    "target": "切换令牌可见性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Cache metadata about files and sections in the quartz syncer index.",
+                    "target": "缓存 quartz syncer 索引中文件和章节的元数据。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Note added by 'isomorphic-git addNote'\n",
+                    "target": "由 'isomorphic-git addNote' 添加的备注\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Deleted multiple files",
+                    "target": "已删除多个文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Published multiple files",
+                    "target": "已发布多个文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Updated integration styles",
+                    "target": "已更新集成样式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Fantasy Statblocks",
+                    "target": "奇幻属性块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Auto Card Link",
+                    "target": "自动卡片链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Quartz Syncer",
+                    "target": "Quartz 同步器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Generate snapshot",
+                    "target": "生成快照"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open publication center",
+                    "target": "打开发布中心"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add publication flag",
+                    "target": "添加发布标志"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle publication flag",
+                    "target": "切换发布标志"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Clear cache for active file",
+                    "target": "清除活动文件的缓存"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Clear cache for all files",
+                    "target": "清除所有文件的缓存"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Publication center",
+                    "target": "发布中心"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "A CORS proxy URL for browser environments. Required on mobile/web if your Git server doesn't support CORS. ",
+                    "target": "用于浏览器环境的 CORS 代理 URL。如果你的 Git 服务器不支持 CORS，在移动端/网页端为必需。 "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Learn more",
+                    "target": "了解更多"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " if you haven't already. A ",
+                    "target": " 如果你还没有完成。一个 "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "setup guide",
+                    "target": "设置指南"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " and a ",
+                    "target": " 以及一个 "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "usage guide",
+                    "target": "使用指南"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " are also available. If you encounter any issues, please see the ",
+                    "target": " 也可用。如遇到任何问题，请参阅"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "troubleshooting section",
+                    "target": "故障排查部分"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " for help.",
+                    "target": " 以获取帮助。"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
