@@ -1,0 +1,991 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "large-language-models",
+        "version": "1.0.0",
+        "title": "Large Language Models",
+        "description": "Large Language Models Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.22.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Create assistant",
+                    "target": "创建助手"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Update assistant",
+                    "target": "更新助手"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "---Assistant options---",
+                    "target": "---助手选项---"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Create an assistant",
+                    "target": "创建助手"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Update an assistant",
+                    "target": "更新助手"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Delete an assistant",
+                    "target": "删除助手"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "---Vector storage options---",
+                    "target": "---向量存储选项---"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Create vector storage",
+                    "target": "创建向量存储"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Update vector storage",
+                    "target": "更新向量存储"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Delete vector storage",
+                    "target": "删除向量存储"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "---Select an assistant---",
+                    "target": "---选择一个助手---"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "---Select model---",
+                    "target": "---选择模型---"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "---Tool type---",
+                    "target": "---工具类型---"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "File Search",
+                    "target": "文件搜索"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "---Select vector store---",
+                    "target": "---选择向量存储---"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "---Select assistant---",
+                    "target": "---选择助手---"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Select a Format",
+                    "target": "选择格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Base64 JSON",
+                    "target": "Base64 JSON"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Select a size",
+                    "target": "选择尺寸"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Select quality",
+                    "target": "选择质量"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Select API to configure",
+                    "target": "选择要配置的 API"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Select default model",
+                    "target": "选择默认模型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "LLM Gal",
+                    "target": "LLM Gal"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "LLM Guy",
+                    "target": "LLM Guy"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Zen Kid",
+                    "target": "禅意小孩"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Ninja Cat",
+                    "target": "忍者猫"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Add Linear workspaces with their ",
+                    "target": "添加 Linear 工作区及其 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Could not parse message into JSON:",
+                    "target": "无法将消息解析为 JSON："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "From chunk:",
+                    "target": "来自分块："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error reading active file:",
+                    "target": "读取活动文件时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error building vault context:",
+                    "target": "构建 vault 上下文时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to fetch Ollama models:",
+                    "target": "获取 Ollama 模型失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "An error occurred:",
+                    "target": "发生错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "New chat",
+                    "target": "新建聊天"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Select Files",
+                    "target": "选择文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Reset history",
+                    "target": "重置历史"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "+ Add Linear workspace",
+                    "target": "+ 添加 Linear 工作区"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Generate token",
+                    "target": "生成令牌"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "What do you want to do?",
+                    "target": "你想做什么？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Which assistant do you want to update?",
+                    "target": "你想更新哪个助手？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The name for your new vector storage",
+                    "target": "你的新向量存储的名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The name to be attributed to the new assistant",
+                    "target": "分配给新助手的名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Which LLM you want your assistant to use",
+                    "target": "你希望助手使用的 LLM"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "File search or code review",
+                    "target": "文件搜索或代码审查"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "A set of resources that are used by the assistant's tools. The resources are specific to the type of tool. For example, the code_interpreter tool requires a list of file IDs, while the file_search tool requires a list of vector store IDs.",
+                    "target": "一组由助手工具使用的资源。资源取决于工具类型。例如，code_interpreter 工具需要文件 ID 列表，而 file_search 工具需要向量存储 ID 列表。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The new vector store id to attach to ths assistant",
+                    "target": "要附加到该助手的新向量存储 ID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Filter files by name or path",
+                    "target": "按名称或路径筛选文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The model you want to use to generate a chat response.",
+                    "target": "你要用来生成聊天回复的模型。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The number of images generated by the model. Must be between 1 and 10.",
+                    "target": "模型生成的图片数量。必须在 1 到 10 之间。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The format in which the generated images are returned. Must be one of url or b64_json. URLs are only valid for 60 minutes after the image has been generated.",
+                    "target": "生成的图片返回格式。必须是 url 或 b64_json 之一。URL 仅在图片生成后 60 分钟内有效。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The size of the generated images. Must be one of 1024x1024, 1536x1024, 1024x1536, or auto.",
+                    "target": "生成图像的尺寸。必须为 1024x1024、1536x1024、1024x1536 或 auto 之一。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The quality of the image that will be generated. Higher quality takes longer and costs more.",
+                    "target": "生成图像的质量。质量越高，耗时越长且成本越高。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Maximum number of tokens in the response. Set to 0 to use the model's default. Higher values allow longer responses.",
+                    "target": "响应中的最大 token 数。设为 0 使用模型默认值。数值越高，可生成更长的响应。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Defaults to 0. Number between -2.0 and 2.0. Positive values penalize new tokens based on their existing frequency in the text so far, decreasing the model's likelihood to repeat the same line verbatim.",
+                    "target": "默认值为 0。取值范围为 -2.0 到 2.0。正值会根据新 token 在当前文本中的已有频率进行惩罚，从而降低模型逐字重复同一行的可能性。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Defaults to false. Whether to return log probabilities of the output tokens or not. If true, returns the log probabilities of each output token returned in the content of message.",
+                    "target": "默认值为 false。是否返回输出 token 的对数概率。若为 true，则在 message 的内容中返回每个输出 token 的对数概率。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "An integer between 0 and 5 specifying the number of most likely tokens to return at each token position, each with an associated log probability. logprobs must be set to true if this parameter is used.",
+                    "target": "一个介于 0 到 5 的整数，用于指定在每个 token 位置返回的最可能 token 数量，每个都带有关联的对数概率。使用此参数时必须将 logprobs 设为 true。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Defaults to 0. Number between -2.0 and 2.0. Positive values penalize new tokens based on whether they appear in the text so far, increasing the model's likelihood to talk about new topics.",
+                    "target": "默认值为 0。取值范围为 -2.0 到 2.0。正值会根据新 token 是否出现在当前文本中进行惩罚，从而提高模型谈论新话题的可能性。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "An object specifying the format that the model must output. Compatible with GPT-4 turbo and all GPT-3.5 turbo models newer than gpt-3.5-turbo-1106. Setting to { \"type\": \"json_object\" } enables JSON mode, which guarantees the message the model generates is valid JSON.",
+                    "target": "一个对象，用于指定模型必须输出的格式。兼容 GPT-4 turbo 以及所有新版（晚于 gpt-3.5-turbo-1106）的 GPT-3.5 turbo 模型。设置为 { \"type\": \"json_object\" } 可启用 JSON 模式，保证模型生成的消息是有效的 JSON。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Automatically include the content of the currently active file in the context sent to the AI.",
+                    "target": "自动将当前活动文件的内容包含在发送给 AI 的上下文中。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Automatically include any text selected in the editor in the context sent to the AI.",
+                    "target": "自动将编辑器中选中的任何文本包含在发送给 AI 的上下文中。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Select additional files from your vault to include in the context.",
+                    "target": "从你的知识库中选择要纳入上下文的其他文件。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "This will delete previous prompts and chat contexts",
+                    "target": "这将删除之前的提示和聊天上下文。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Select which API key you want to view or modify",
+                    "target": "选择要查看或修改的 API 密钥。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Sets the default LLM you want to use for the plugin",
+                    "target": "设置该插件要使用的默认 LLM。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Toggles the LLM floating action button",
+                    "target": "切换 LLM 浮动操作按钮。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show the 'Ask a question' icon in the ribbon bar",
+                    "target": "在功能区栏显示“提问”图标。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "URL of your Ollama server (default: http://localhost:11434)",
+                    "target": "你的 Ollama 服务器 URL（默认：http://localhost:11434）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Fetch available models from your Ollama server",
+                    "target": "从你的 Ollama 服务器获取可用模型。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "OAuth token for authenticating with Claude Code (CLAUDE_CODE_OAUTH_TOKEN).",
+                    "target": "用于与 Claude Code 进行身份验证的 OAuth 令牌（CLAUDE_CODE_OAUTH_TOKEN）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable the file context feature that allows AI to access vault files. When disabled, AI will not have access to any files from your vault.",
+                    "target": "启用文件上下文功能，使 AI 可以访问知识库文件。禁用后，AI 将无法访问你知识库中的任何文件。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Consider donating to support development.",
+                    "target": "考虑捐赠以支持开发。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Assistants options",
+                    "target": "助手选项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Vector storage name",
+                    "target": "向量存储名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Assistant name",
+                    "target": "助手名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Assistant instructions",
+                    "target": "助手说明"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Assistant model",
+                    "target": "助手模型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Assistant tool type",
+                    "target": "助手工具类型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Tool resources",
+                    "target": "工具资源"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Vector store",
+                    "target": "向量存储"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Top p",
+                    "target": "Top p"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Search files",
+                    "target": "搜索文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Number of images",
+                    "target": "图像数量"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Response format",
+                    "target": "响应格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Image size",
+                    "target": "图像尺寸"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Frequency penalty",
+                    "target": "频率惩罚"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Log probs",
+                    "target": "日志概率"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Top log probs",
+                    "target": "最高日志概率"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Presence penalty",
+                    "target": "存在惩罚"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Include active file",
+                    "target": "包含活动文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Include selected text",
+                    "target": "包含所选文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Context token budget (%)",
+                    "target": "上下文令牌预算（%）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Additional files",
+                    "target": "附加文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Reset chat history",
+                    "target": "重置聊天记录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Manage API keys",
+                    "target": "管理 API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Set default model",
+                    "target": "设置默认模型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Toggle FAB",
+                    "target": "切换 FAB"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show ribbon icon",
+                    "target": "显示功能区图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Ollama host",
+                    "target": "Ollama 主机"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Refresh models",
+                    "target": "刷新模型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Claude Code OAuth token",
+                    "target": "Claude Code OAuth 令牌"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Add workspace",
+                    "target": "添加工作区"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable file context",
+                    "target": "启用文件上下文"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Send a message...",
+                    "target": "发送消息..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Workspace name",
+                    "target": "工作区名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "API key",
+                    "target": "API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Send prompt",
+                    "target": "发送提示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Copy to clipboard",
+                    "target": "复制到剪贴板"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Chat settings",
+                    "target": "聊天设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "New chat",
+                    "target": "新建聊天"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "The `parsed` property on `text` blocks is deprecated, please use `parsed_output` instead.",
+                    "target": "`text` 块上的 `parsed` 属性已弃用，请改用 `parsed_output`。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "these parameters are deprecated, see docs for addKeyword",
+                    "target": "这些参数已弃用，参见 addKeyword 的文档"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "keywords option as map is deprecated, pass array",
+                    "target": "将 keywords 选项作为 map 已弃用，请传入数组"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "there are multiple candidates in the response, returning text from the first one.",
+                    "target": "响应中有多个候选项，返回第一个的文本。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "there are multiple candidates in the response, returning data from the first one.",
+                    "target": "响应中有多个候选项，返回第一个的数据。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "there are multiple candidates in the response, returning function calls from the first one.",
+                    "target": "响应中有多个候选项，返回第一个的函数调用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "there are multiple candidates in the response, returning executable code from the first one.",
+                    "target": "响应中有多个候选项，返回第一个的可执行代码。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "there are multiple candidates in the response, returning code execution result from the first one.",
+                    "target": "响应中有多个候选项，返回第一个的代码执行结果。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "includeExtraBodyToRequestInit: extraBody provided but current request body is a Blob. extraBody will be ignored as merging is not supported for Blob bodies.",
+                    "target": "includeExtraBodyToRequestInit: 已提供 extraBody，但当前请求体是 Blob。由于 Blob 请求体不支持合并，extraBody 将被忽略。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "includeExtraBodyToRequestInit: Original request body is valid JSON but not a non-array object. Skip applying extraBody to the request body.",
+                    "target": "includeExtraBodyToRequestInit: 原始请求体是有效 JSON，但不是非数组对象。跳过将 extraBody 应用于请求体。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "includeExtraBodyToRequestInit: Original request body is not valid JSON. Skip applying extraBody to the request body.",
+                    "target": "includeExtraBodyToRequestInit: 原始请求体不是有效 JSON。跳过将 extraBody 应用于请求体。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Live music generation is experimental and may change in future versions.",
+                    "target": "实时音乐生成处于实验阶段，未来版本可能会更改。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Setting `LiveConnectConfig.generation_config` is deprecated, please set the fields on `LiveConnectConfig` directly. This will become an error in a future version (not before Q3 2025).",
+                    "target": "设置 `LiveConnectConfig.generation_config` 已弃用，请直接在 `LiveConnectConfig` 上设置字段。此项将在未来版本中变为错误（不早于 2025 年第三季度）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "GoogleGenAI.interactions: Interactions usage is experimental and may change in future versions.",
+                    "target": "GoogleGenAI.interactions：Interactions 用法处于实验阶段，未来版本可能会更改。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "GoogleGenAI.interactions: Client level httpOptions.extraBody is not supported by the interactions client and will be ignored.",
+                    "target": "GoogleGenAI.interactions：交互客户端不支持客户端级别的 httpOptions.extraBody，将被忽略。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Claude Code] Could not find node binary, falling back to 'node'",
+                    "target": "[Claude Code] 未找到 node 可执行文件，将回退到 'node'"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Installing Claude Code runtime (~69 MB). This is a one-time setup...",
+                    "target": "正在安装 Claude Code 运行时（约 69 MB）。这是一次性设置..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Claude Code runtime installed successfully!",
+                    "target": "Claude Code 运行时安装成功！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Assistant created successfully",
+                    "target": "助手创建成功"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "You must have GPT4All open with the API Server enabled",
+                    "target": "你必须打开 GPT4All 并启用 API Server"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "You must have an API key to access OpenAI models",
+                    "target": "你必须有 API 密钥才能访问 OpenAI 模型"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "GPT4All is already working on another request. Please wait until that request is done to submit another prompt.",
+                    "target": "GPT4All 已在处理另一个请求。请等待该请求完成后再提交新的提示。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Claude Code requires a one-time download of the runtime SDK (~69 MB). Please ensure npm is installed and you have an internet connection, then try again.",
+                    "target": "Claude Code 需要一次性下载运行时 SDK（约 69 MB）。请确保已安装 npm 并且有网络连接，然后重试。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Text copied to clipboard",
+                    "target": "文本已复制到剪贴板"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Regenerating response...",
+                    "target": "正在重新生成回复..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Prompt length must be greater than 0",
+                    "target": "提示长度必须大于 0"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "Reply 'a'",
+                    "target": "回复“a”"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Claude models require an API key for authentication.",
+                    "target": "Claude 模型需要 API 密钥进行身份验证。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "OpenAI models require an API key for authentication.",
+                    "target": "OpenAI 模型需要 API 密钥进行身份验证。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Mistral AI models require an API key for authentication.",
+                    "target": "Mistral AI 模型需要 API 密钥进行身份验证。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "must be equal to constant",
+                    "target": "必须等于常量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "must be equal to one of the allowed values",
+                    "target": "必须等于允许的值之一"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "property name must be valid",
+                    "target": "属性名称必须有效"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "must NOT have additional properties",
+                    "target": "不得有额外属性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "must NOT be valid",
+                    "target": "不得为有效"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Invalid Base64 string",
+                    "target": "无效的 Base64 字符串"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Assistant Files",
+                    "target": "助手文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Claude API key",
+                    "target": "Claude API 密钥"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "OpenAI API key",
+                    "target": "OpenAI API 密钥"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Mistral API key",
+                    "target": "Mistral API 密钥"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open modal",
+                    "target": "打开模态框"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open chat in tab",
+                    "target": "在标签页中打开聊天"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle FAB",
+                    "target": "切换 FAB"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No assistants found",
+                    "target": "未找到助手"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Select Files for Context",
+                    "target": "选择用于上下文的文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No files found",
+                    "target": "未找到文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Context Settings",
+                    "target": "上下文设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Failed to connect to Ollama. Is it running?",
+                    "target": "无法连接到 Ollama。它在运行吗？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Claude Code",
+                    "target": "Claude Code"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Linear Workspaces (Claude Code only)",
+                    "target": "Linear 工作区（仅限 Claude Code）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "API keys",
+                    "target": "API 密钥"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "LLM plugin",
+                    "target": "LLM 插件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "By Johnny✨, Ryan Mahoney, and Evan Harris",
+                    "target": "作者：Johnny✨、Ryan Mahoney 和 Evan Harris"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
