@@ -1,0 +1,391 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "taskrobin",
+        "version": "1.0.0",
+        "title": "Sync Emails",
+        "description": "Sync Emails Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.2.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " Configure advanced options in the plugin settings",
+                    "target": " 在插件设置中配置高级选项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " Use the command palette to access TaskRobin features",
+                    "target": " 使用命令面板访问 TaskRobin 功能"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Visit ",
+                    "target": "访问 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " for pricing details and more information.",
+                    "target": " 了解定价详情和更多信息。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " To forwarding address: ",
+                    "target": " 转发至地址："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " Saved to vault location: ",
+                    "target": " 已保存到库位置："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Sync error:",
+                    "target": "同步错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to copy to clipboard:",
+                    "target": "复制到剪贴板失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error checking directory:",
+                    "target": "检查目录出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Delete error:",
+                    "target": "删除错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Integration creation failed:",
+                    "target": "集成创建失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to create integration:",
+                    "target": "创建集成失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error during setup:",
+                    "target": "设置过程中出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error creating directory:",
+                    "target": "创建目录时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Command sync failed:",
+                    "target": "命令同步失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error creating welcome note:",
+                    "target": "创建欢迎提示时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Welcome note already exists",
+                    "target": "欢迎提示已存在"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Welcome note created successfully",
+                    "target": "欢迎提示创建成功"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Show me",
+                    "target": "显示给我"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Setup TaskRobin",
+                    "target": "设置 TaskRobin"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Create directory",
+                    "target": "创建目录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Welcome information",
+                    "target": "欢迎信息"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "TaskRobin setup",
+                    "target": "TaskRobin 设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Download attachments",
+                    "target": "下载附件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Sync now",
+                    "target": "立即同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Creating integration...",
+                    "target": "正在创建集成..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Create integration",
+                    "target": "创建集成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Only letters, numbers, hyphens, and underscores are allowed",
+                    "target": "仅允许字母、数字、连字符和下划线"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Forwarding address is required",
+                    "target": "转发地址为必填项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Confirm settings",
+                    "target": "确认设置"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to sync. Check console for details.",
+                    "target": "同步失败。请查看控制台获取详情。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Folder does not exist yet. It will be created when syncing.",
+                    "target": "文件夹尚不存在。同步时将会创建。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Integration successfully deleted!",
+                    "target": "集成已成功删除！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to delete integration. Check console for details.",
+                    "target": "删除集成失败。请查看控制台获取详情。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Integration created successfully!",
+                    "target": "集成创建成功！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to create integration. Please check your network connection and try again.",
+                    "target": "创建集成失败。请检查网络连接后重试。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please fill in all required fields correctly.",
+                    "target": "请正确填写所有必填项。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to save settings. Please try again.",
+                    "target": "保存设置失败。请重试。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Forwarding alias can only contain letters, numbers, hyphens, and underscores",
+                    "target": "转发别名只能包含字母、数字、连字符和下划线"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error creating directory. Check console for details.",
+                    "target": "创建目录出错。请查看控制台获取详情。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open TaskRobin window",
+                    "target": "打开 TaskRobin 窗口"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Create a readme note about this plugin",
+                    "target": "创建关于此插件的 readme 笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "How TaskRobin Works",
+                    "target": "TaskRobin 如何工作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Automatic Processing: ",
+                    "target": "自动处理： "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Obsidian Integration: ",
+                    "target": "Obsidian 集成： "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Getting Started",
+                    "target": "快速开始"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Subscription Information",
+                    "target": "订阅信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "TaskRobin offers a 7-day free trial for all new users",
+                    "target": "TaskRobin 为所有新用户提供 7 天免费试用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No payment information required during the trial",
+                    "target": "试用期间无需提供付款信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Subscription plans start at $2.49/month after the trial period",
+                    "target": "试用期结束后，订阅计划起价为 $2.49/月"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Set Up TaskRobin",
+                    "target": "设置 TaskRobin"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Warning: Directory does not exist. It will be created when syncing.",
+                    "target": "警告：目录不存在。同步时将创建。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Sync now",
+                    "target": "立即同步"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Visit TaskRobin.io for more information",
+                    "target": "访问 TaskRobin.io 了解更多信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Add integration",
+                    "target": "添加集成"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Open settings",
+                    "target": "打开设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Add new integration",
+                    "target": "添加新集成"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Choose your forwarding address:",
+                    "target": "选择你的转发地址："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Folder will be created if it doesn't exist",
+                    "target": "如果文件夹不存在将创建"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Please note that TaskRobin is a paid service. 7-day free trial is available to all new users. Paid plan starts at $2.49/month.",
+                    "target": "请注意 TaskRobin 是付费服务。所有新用户均可享受 7 天免费试用。付费计划起价为 $2.49/月。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Confirm settings",
+                    "target": "确认设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Advanced settings",
+                    "target": "高级设置"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
