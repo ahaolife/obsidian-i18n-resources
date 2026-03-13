@@ -1,0 +1,367 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "inlineai",
+        "version": "1.0.0",
+        "title": "InlineAI",
+        "description": "InlineAI Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.2.4",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Azure OpenAI",
+                    "target": "Azure OpenAI"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error calling AI:",
+                    "target": "调用 AI 出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Could not parse message into JSON:",
+                    "target": "无法将消息解析为 JSON："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "From chunk:",
+                    "target": "来自分块："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error parsing function arguments",
+                    "target": "解析函数参数出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error initializing chat client:",
+                    "target": "初始化聊天客户端出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error calling the chat model:",
+                    "target": "调用聊天模型出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error processing request:",
+                    "target": "处理请求出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error generating diff view:",
+                    "target": "生成差异视图出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error applying diff changes:",
+                    "target": "应用差异更改出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Using RetryOperation.try() is deprecated",
+                    "target": "使用 RetryOperation.try() 已弃用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Using RetryOperation.start() is deprecated",
+                    "target": "使用 RetryOperation.start() 已弃用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[WARNING]: Received non-string content from OpenAI. This is currently not supported.",
+                    "target": "[WARNING]: 从 OpenAI 收到非字符串内容。目前不支持。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Failed to parse error response as JSON",
+                    "target": "无法将错误响应解析为 JSON"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Getting text from response",
+                    "target": "正在从响应中获取文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Failed to get text from error response",
+                    "target": "无法从错误响应中获取文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Add Command",
+                    "target": "添加命令"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Specify the model to use.",
+                    "target": "指定要使用的模型。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enter your API key.",
+                    "target": "输入你的 API 密钥。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enter your OpenAI-compatible base URL (e.g. https://api.groq.com/openai/v1).",
+                    "target": "输入你的兼容 OpenAI 的基础 URL（例如 https://api.groq.com/openai/v1）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enter your Azure OpenAI endpoint URL (e.g. https://your-resource.openai.azure.com).",
+                    "target": "请输入你的 Azure OpenAI 终端 URL（例如：https://your-resource.openai.azure.com）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enter the Azure OpenAI API version to use.",
+                    "target": "请输入要使用的 Azure OpenAI API 版本。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable message history, you can navigate through the history using the up/down arrow keys.",
+                    "target": "启用消息历史记录，你可以使用上下方向键浏览历史记录。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The prefix used to trigger custom commands (e.g., /, !, #)",
+                    "target": "用于触发自定义命令的前缀（例如：/、!、#）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Edit the command prompt.",
+                    "target": "编辑命令提示。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "API key",
+                    "target": "API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Custom endpoint",
+                    "target": "自定义终端"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Azure endpoint",
+                    "target": "Azure 终端"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Azure API version",
+                    "target": "Azure API 版本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Selection prompt",
+                    "target": "选择提示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Cursor prompt",
+                    "target": "光标提示词"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Message History",
+                    "target": "消息历史"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Command Prefix",
+                    "target": "命令前缀"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "e.g., gpt-4o-mini",
+                    "target": "例如：gpt-4o-mini"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "e.g., Summarize the selected text.",
+                    "target": "例如：总结选中的文本。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "e.g., Generate text based on cursor position.",
+                    "target": "例如：根据光标位置生成文本。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Command name",
+                    "target": "命令名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Command prompt",
+                    "target": "命令提示词"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Delete this command",
+                    "target": "删除此命令"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[WARNING]: LangSmith received unserializable value.",
+                    "target": "[WARNING]: LangSmith 收到无法序列化的值。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[WARNING]: LangSmith received circular JSON. This will decrease tracer performance.",
+                    "target": "[WARNING]: LangSmith 收到了循环 JSON。这将降低跟踪器性能。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[WARNING]: LangSmith failed to fetch info on supported operations. Falling back to batch operations and default limits.",
+                    "target": "[WARNING]: LangSmith 未能获取支持的操作信息。将回退到批量操作和默认限制。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[WARNING]: When tracing in manual flush mode, you must call `await client.flush()` manually to submit trace batches.",
+                    "target": "[WARNING]: 在手动 flush 模式下进行跟踪时，必须手动调用 `await client.flush()` 以提交跟踪批次。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to calculate number of tokens, falling back to approximate count",
+                    "target": "无法计算 token 数量，将回退到近似计数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "invalid json: ",
+                    "target": "无效的 json: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "response.functionCall() is deprecated. Use response.functionCalls() instead.",
+                    "target": "response.functionCall() 已弃用。请改用 response.functionCalls()。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "⚠️ OpenAI API key is required. Please check your settings.",
+                    "target": "⚠️ 需要 OpenAI API key。请检查你的设置。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "⚠️ API key and Azure endpoint are required for Azure provider.",
+                    "target": "⚠️ Azure 提供商需要 API key 和 Azure 端点。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "⚠️ Invalid Azure endpoint format. Expected: https://your-resource.openai.azure.com",
+                    "target": "⚠️ Azure 端点格式无效。期望： https://your-resource.openai.azure.com"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "⚠️ API key and custom base URL are required for custom providers.",
+                    "target": "⚠️ 自定义提供商需要 API key 和自定义基础 URL。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "⚠️ Chat client is not initialized. Please check your settings.",
+                    "target": "⚠️ 聊天客户端未初始化。请检查你的设置。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "⚠️ No active Markdown editor found.",
+                    "target": "⚠️ 未找到活动的 Markdown 编辑器。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Malformed args.",
+                    "target": "参数格式错误。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show cursor tooltip",
+                    "target": "显示光标提示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Accept tooltip suggestion",
+                    "target": "接受提示建议"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Discard tooltip suggestion",
+                    "target": "丢弃提示建议"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Custom Commands",
+                    "target": "自定义命令"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Add your own custom commands. Triggered with the prefix defined in the Command Prefix setting.",
+                    "target": "添加你自己的自定义命令。使用在“命令前缀”设置中定义的前缀触发。"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
