@@ -1,0 +1,43 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "wrangle-todos",
+        "version": "1.0.0",
+        "title": "TODO Wrangler",
+        "description": "TODO Wrangler Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.4",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Editor is not defined",
+                    "target": "未定义 Editor"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Specify the keyword you want to extract (e.g., TODO, DONE, etc.)",
+                    "target": "指定要提取的关键词（例如：TODO、DONE 等）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter a keyword to wrangle",
+                    "target": "输入要整理的关键词"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Wrangle Todos",
+                    "target": "整理待办事项"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
