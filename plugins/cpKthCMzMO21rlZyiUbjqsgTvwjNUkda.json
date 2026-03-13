@@ -1,0 +1,313 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "voicenotes-sync",
+        "version": "1.0.0",
+        "title": "Voicenotes Sync",
+        "description": "Voicenotes Sync Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.15",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "confirm",
+                    "source": "Are you sure you want to delete this note from Voicenotes?",
+                    "target": "确定要从 Voicenotes 中删除这条笔记吗？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to get signed URL:",
+                    "target": "获取签名 URL 失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to download file:",
+                    "target": "下载文件失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to get recordings from link:",
+                    "target": "从链接获取录音失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to get recordings:",
+                    "target": "获取录音失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to get user info:",
+                    "target": "获取用户信息失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error formatting date:",
+                    "target": "格式化日期出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Invalid URL:",
+                    "target": "无效的 URL："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error deleting recording:",
+                    "target": "删除录音出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable automatic syncing of voice notes at regular intervals",
+                    "target": "启用语音笔记的定期自动同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Directory within your vault where notes will be synced",
+                    "target": "笔记同步到你仓库中的目录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When syncing a note add an optional tag to the todo",
+                    "target": "同步笔记时为待办添加可选标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Store and download the audio associated with the transcript",
+                    "target": "存储并下载与转录相关的音频"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Sync Settings",
+                    "target": "同步设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Automatic sync",
+                    "target": "自动同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Sync directory",
+                    "target": "同步目录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Tag Filter",
+                    "target": "标签筛选"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Notes Settings",
+                    "target": "笔记设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Add a tag to todos",
+                    "target": "为待办添加标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Download audio",
+                    "target": "下载音频"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Date Format",
+                    "target": "日期格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Filename Date Format",
+                    "target": "文件名日期格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Notes Formatting",
+                    "target": "笔记格式设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use custom frontmatter property for date sorting",
+                    "target": "使用自定义 frontmatter 属性进行日期排序"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "{{date}} {{title}}",
+                    "target": "{{date}} {{title}}"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Custom setting value",
+                    "target": "自定义设置值"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please provide a token first.",
+                    "target": "请先提供令牌。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Logged in successfully",
+                    "target": "登录成功"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to log in with provided token. Please check and try again.",
+                    "target": "使用提供的令牌登录失败。请检查后重试。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Successfully logged out.",
+                    "target": "已成功退出登录。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No access available, please login in plugin settings",
+                    "target": "无法访问，请在插件设置中登录"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No recordings from today found",
+                    "target": "未找到今天的录音"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Login token was invalid, please try logging in again.",
+                    "target": "登录令牌无效，请重新登录。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error occurred syncing some notes to this vault.",
+                    "target": "同步部分笔记到此库时出错。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Creating sync directory for Voice Notes Sync plugin",
+                    "target": "正在为 Voice Notes Sync 插件创建同步目录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Authentication failed - token invalid or expired",
+                    "target": "身份验证失败 - 令牌无效或已过期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Resource not found, Please try again later",
+                    "target": "资源未找到，请稍后再试"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Rate limit exceeded. Please try again later.",
+                    "target": "超出速率限制。请稍后再试。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Something went wrong, Please try again later",
+                    "target": "出现问题，请稍后再试"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Manual Sync Voicenotes",
+                    "target": "手动同步语音笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert Today's Voicenotes",
+                    "target": "插入今天的 Voicenotes"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Enter your Voicenotes Auth Token",
+                    "target": "输入你的 Voicenotes 身份验证令牌"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Voicenotes Settings",
+                    "target": "Voicenotes 设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Connect your account",
+                    "target": "连接你的账户"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Start syncing your voice notes by connecting your account using an authentication token.",
+                    "target": "使用身份验证令牌连接你的账户以开始同步语音笔记。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Get your token",
+                    "target": "获取你的令牌"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Sync Now",
+                    "target": "立即同步"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Manually sync your voice notes now",
+                    "target": "立即手动同步你的语音笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Logout from VoiceNotes",
+                    "target": "退出 VoiceNotes"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
