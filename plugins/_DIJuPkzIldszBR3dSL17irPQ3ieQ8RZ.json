@@ -1,0 +1,355 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "cooklang-obsidian",
+        "version": "1.0.0",
+        "title": "Cooklang Editor",
+        "description": "Cooklang Editor Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.6.3",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "abc def ghi jkl mno pqr stu",
+                    "target": "abc def ghi jkl mno pqr stu"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " (",
+                    "target": " ("
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to initialize Cooklang parser:",
+                    "target": "初始化 Cooklang 解析器失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "An array of source files must be passed with any new Howl.",
+                    "target": "创建任何新 Howl 时必须传入源文件数组。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Rendering ingredient:",
+                    "target": "正在渲染配料："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "isChecked:",
+                    "target": "已选中："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Unchecked:",
+                    "target": "未选中："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Set now has:",
+                    "target": "Set 现在包含："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Checked:",
+                    "target": "已选中："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Current checked ingredients:",
+                    "target": "当前已选中的配料："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show images in the recipe (see https://cooklang.org/docs/spec/#adding-pictures)",
+                    "target": "在食谱中显示图片（参见 https://cooklang.org/docs/spec/#adding-pictures）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Wrap long lines",
+                    "target": "长行自动换行"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show the list of ingredients at the top of the recipe",
+                    "target": "在食谱顶部显示配料清单"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show the list of cookware at the top of the recipe",
+                    "target": "在食谱顶部显示厨具清单"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show the ingredient quantities inline in the recipe method",
+                    "target": "在食谱步骤中内联显示配料用量"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show the list of timers at the top of the recipe",
+                    "target": "在食谱顶部显示计时器列表"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Allow clicking on a time in a recipe method to start a timer",
+                    "target": "允许点击食谱步骤中的时间以启动计时器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show the total of all timers at the top of the recipe",
+                    "target": "在食谱顶部显示所有计时器总时长"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Play a ticking sound while a timer is running",
+                    "target": "计时器运行时播放滴答声"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Play a ring sound when a running timer finishes",
+                    "target": "计时器结束时播放铃声"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose your label for the metadata",
+                    "target": "为元数据选择你的标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose your label for the ingredients",
+                    "target": "为食材选择你的标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose your label for cookware",
+                    "target": "为厨具选择你的标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose your label for timers",
+                    "target": "为计时器选择你的标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose your label for the cooking method",
+                    "target": "为烹饪方法选择你的标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose your label(s) for minutes (comma separated)",
+                    "target": "为分钟选择你的标签（逗号分隔）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose your label(s) for hours (comma separated)",
+                    "target": "为小时选择你的标签（逗号分隔）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Preview Options",
+                    "target": "预览选项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show images",
+                    "target": "显示图片"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Line Wrap",
+                    "target": "自动换行"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show ingredient list",
+                    "target": "显示食材列表"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show cookware list",
+                    "target": "显示厨具列表"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show quantities inline",
+                    "target": "内联显示数量"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show timers list",
+                    "target": "显示计时器列表"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Inline interactive timers",
+                    "target": "内联交互式计时器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show total time",
+                    "target": "显示总时间"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Running Timers Tick",
+                    "target": "运行中计时器计数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Alarm When Timers End",
+                    "target": "计时结束时报警"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Custom Labels",
+                    "target": "自定义标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Metadata Label",
+                    "target": "元数据标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Ingredient Label",
+                    "target": "配料标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Cookware Label",
+                    "target": "厨具标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Timer Label",
+                    "target": "计时器标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Method Label",
+                    "target": "方法标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Minutes Label",
+                    "target": "分钟标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Hours Label",
+                    "target": "小时标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Toggle Source/Preview",
+                    "target": "切换源代码/预览"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Create Recipe",
+                    "target": "创建食谱"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Open as Recipe",
+                    "target": "作为食谱打开"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "HTML5 Audio pool exhausted, returning potentially locked audio object.",
+                    "target": "HTML5 音频池已耗尽，返回可能被锁定的音频对象。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "No file extension was found. Consider using the \"format\" property or specify an extension.",
+                    "target": "未找到文件扩展名。请考虑使用 \"format\" 属性或指定扩展名。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Create new recipe",
+                    "target": "创建新食谱"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Create recipe in new pane",
+                    "target": "在新窗格中创建食谱"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Convert recipe file extension (.md ↔ .cook)",
+                    "target": "转换食谱文件扩展名（.md ↔ .cook）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle preview recipe",
+                    "target": "切换预览食谱"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open current file as recipe",
+                    "target": "将当前文件作为食谱打开"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
