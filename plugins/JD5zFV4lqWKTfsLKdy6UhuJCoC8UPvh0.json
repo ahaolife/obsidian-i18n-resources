@@ -1,0 +1,163 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "github-stars",
+        "version": "1.0.0",
+        "title": "GitHub Stars",
+        "description": "GitHub Stars Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Abbreviated (e.g., 1.2k)",
+                    "target": "缩写形式（例如：1.2k）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Full numbers (e.g., 1,234)",
+                    "target": "完整数字（例如：1,234）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error loading cache:",
+                    "target": "加载缓存出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Time in minutes before the GitHub star count cache expires",
+                    "target": "GitHub 星标计数缓存过期前的时间（分钟）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Format for displaying star counts. Use {stars} as a placeholder for the number.",
+                    "target": "用于显示星标数量的格式。使用 {stars} 作为数字占位符。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "How to format star counts",
+                    "target": "星标数量的格式方式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Personal access token for GitHub API to increase rate limits",
+                    "target": "用于提高速率限制的 GitHub API 个人访问令牌"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Clear the GitHub stars cache",
+                    "target": "清除 GitHub 星标缓存"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Cache expiry",
+                    "target": "缓存过期"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Display format",
+                    "target": "显示格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Number format",
+                    "target": "数字格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "GitHub API token (optional)",
+                    "target": "GitHub API 令牌（可选）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Clear cache",
+                    "target": "清除缓存"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "⭐ {stars}",
+                    "target": "⭐ {stars}"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "⭐ ...",
+                    "target": "⭐ ..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "⭐ ?",
+                    "target": "⭐ ?"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Processing GitHub stars...",
+                    "target": "正在处理 GitHub 星标..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "GitHub star counts refreshed!",
+                    "target": "GitHub 星标计数已刷新！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No active markdown view found",
+                    "target": "未找到活动的 Markdown 视图"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "GitHub stars cache cleared",
+                    "target": "GitHub 星标缓存已清除"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Refreshing GitHub star counts...",
+                    "target": "正在刷新 GitHub 星标数量..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Display format must include {stars} placeholder",
+                    "target": "显示格式必须包含 {stars} 占位符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Clear cache",
+                    "target": "清除缓存"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Refresh for current note",
+                    "target": "刷新当前笔记"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
