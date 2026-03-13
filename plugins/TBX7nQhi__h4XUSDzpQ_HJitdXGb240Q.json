@@ -1,0 +1,79 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "gemini-assistant",
+        "version": "1.0.0",
+        "title": "Gemini Assistant",
+        "description": "Gemini Assistant Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.4",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-corner-down-left svelte-477m8o\"><polyline points=\"9 10 4 15 9 20\"></polyline><path d=\"M20 4v7a4 4 0 0 1-4 4H4\"></path></svg>",
+                    "target": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-corner-down-left svelte-477m8o\"><polyline points=\"9 10 4 15 9 20\"></polyline><path d=\"M20 4v7a4 4 0 0 1-4 4H4\"></path></svg>"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Max output tokens",
+                    "target": "最大输出 Tokens"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Top P",
+                    "target": "Top P"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Top K",
+                    "target": "Top K"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "API Key",
+                    "target": "API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Chat Setting",
+                    "target": "聊天设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Harm Content Block Threshold",
+                    "target": "有害内容拦截阈值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Model Setting",
+                    "target": "模型设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Add prompt",
+                    "target": "添加提示词"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open assistant",
+                    "target": "打开助手"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
