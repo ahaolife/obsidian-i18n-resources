@@ -1,0 +1,175 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "para-shortcuts",
+        "version": "1.0.0",
+        "title": "PARA Shortcuts",
+        "description": "PARA Shortcuts Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.6",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "the folder name for your \"Projects\"",
+                    "target": "你的“Projects”文件夹名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "the folder name for your \"Area of Resposibility\"",
+                    "target": "你的“Area of Resposibility”文件夹名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "the folder name for your \"Resources\"",
+                    "target": "你的“Resources”文件夹名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "the folder name for your \"Archive\"",
+                    "target": "你的“Archive”文件夹名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Project folder",
+                    "target": "Projects 文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Area of Resposibility folder",
+                    "target": "Area of Resposibility 文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Resources folder",
+                    "target": "Resources 文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Archive folder",
+                    "target": "Archive 文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "eg. Projects",
+                    "target": "例如 Projects"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "eg. Area",
+                    "target": "例如 Area"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "eg. Resources",
+                    "target": "例如：资源"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "eg. Archive",
+                    "target": "例如：归档"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Create a new entry in:",
+                    "target": "在以下位置创建新条目："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Move to archive",
+                    "target": "移至归档"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Restore from archive",
+                    "target": "从归档恢复"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "PARA already initialized!",
+                    "target": "PARA 已初始化！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Vault successfuly initialized!",
+                    "target": "库初始化成功！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error creating PARA folders",
+                    "target": "创建 PARA 文件夹出错"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Unable to resotre file",
+                    "target": "无法恢复文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Create new entry",
+                    "target": "创建新条目"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Init vault with PARA folders",
+                    "target": "用 PARA 文件夹初始化库"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Move current file to archive",
+                    "target": "将当前文件移至归档"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Restore entry from archive",
+                    "target": "从归档恢复条目"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Postpone this entry",
+                    "target": "推迟此条目"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Reschedule this entry",
+                    "target": "重新安排此条目"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Settings for PARA-Shortcuts.",
+                    "target": "PARA-快捷方式的设置。"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
