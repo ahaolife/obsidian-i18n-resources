@@ -1,0 +1,349 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "shell-path-copy",
+        "version": "1.0.0",
+        "title": "Shell Path Copy",
+        "description": "Shell Path Copy Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.16.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Backticks - `/path with spaces/file.md`",
+                    "target": "反引号 - `/path with spaces/file.md`"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Single quotes - '/path with spaces/file.md'",
+                    "target": "单引号 - '/path with spaces/file.md'"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Double quotes - \"/path with spaces/file.md\"",
+                    "target": "双引号 - \"/path with spaces/file.md\""
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Show Linux/Mac options only",
+                    "target": "仅显示 Linux/Mac 选项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Show Windows options only",
+                    "target": "仅显示 Windows 选项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Show both Windows and Linux/Mac options",
+                    "target": "同时显示 Windows 和 Linux/Mac 选项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Standard markdown - [filename](path)",
+                    "target": "标准 Markdown - [filename](path)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Wiki-style - [[filename]]",
+                    "target": "Wiki 风格 - [[filename]]"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Shell Path Copy: Failed to copy path:",
+                    "target": "Shell 路径复制：复制路径失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Shell Path Copy: Failed to copy absolute path:",
+                    "target": "Shell 路径复制：复制绝对路径失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Shell Path Copy: Failed to copy file URL:",
+                    "target": "Shell Path Copy：复制文件 URL 失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Shell Path Copy: Failed to copy markdown link:",
+                    "target": "Shell Path Copy：复制 Markdown 链接失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Shell Path Copy: Failed to copy Obsidian URL:",
+                    "target": "Shell Path Copy：复制 Obsidian URL 失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose how paths are wrapped when copied to clipboard (useful for paths with spaces)",
+                    "target": "选择将路径复制到剪贴板时的包裹方式（对含空格的路径很有用）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Control which path formats appear in the context menu",
+                    "target": "控制在上下文菜单中显示哪些路径格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Display absolute path copy options in menus (Desktop only). Absolute paths will use the path wrapping setting above.",
+                    "target": "在菜单中显示复制绝对路径选项（仅限桌面端）。绝对路径将使用上方的路径包裹设置。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Display the file:// URL copy option in menus (Desktop only)",
+                    "target": "在菜单中显示复制 file:// URL 的选项（仅限桌面端）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Display the Obsidian URL copy option in menus",
+                    "target": "在菜单中显示复制 Obsidian URL 的选项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Display the markdown link copy option in menus",
+                    "target": "在菜单中显示复制 Markdown 链接的选项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose the format for markdown links",
+                    "target": "选择 Markdown 链接的格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Display a notification when a path is copied",
+                    "target": "复制路径时显示通知"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Path wrapping",
+                    "target": "路径换行"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Menu display",
+                    "target": "菜单显示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show absolute path options",
+                    "target": "显示绝对路径选项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show file:// URL option",
+                    "target": "显示 file:// URL 选项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show Obsidian URL option",
+                    "target": "显示 Obsidian URL 选项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show markdown link option",
+                    "target": "显示 Markdown 链接选项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Markdown link format",
+                    "target": "Markdown 链接格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show notifications",
+                    "target": "显示通知"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Copy as file:// URL",
+                    "target": "复制为 file:// URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Copy as Obsidian URL",
+                    "target": "复制为 Obsidian URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Copy as Markdown Link",
+                    "target": "复制为 Markdown 链接"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error: Clipboard API is not available in this environment.",
+                    "target": "错误：此环境中剪贴板 API 不可用。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to copy path. See console for details.",
+                    "target": "复制路径失败。详见控制台。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Absolute paths are not available on mobile devices.",
+                    "target": "移动设备上不支持绝对路径。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Absolute path copied!",
+                    "target": "绝对路径已复制！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to copy absolute path. See console for details.",
+                    "target": "复制绝对路径失败。详见控制台。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "File URLs are not available on mobile devices.",
+                    "target": "移动设备上不支持文件 URL。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "File URL copied!",
+                    "target": "文件 URL 已复制！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to copy file URL. See console for details.",
+                    "target": "复制文件 URL 失败。详见控制台。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to copy markdown link. See console for details.",
+                    "target": "复制 Markdown 链接失败。查看控制台了解详情。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Obsidian URL copied!",
+                    "target": "已复制 Obsidian URL！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to copy Obsidian URL. See console for details.",
+                    "target": "复制 Obsidian URL 失败。查看控制台了解详情。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No file selected. Open a file or right-click it in the file explorer.",
+                    "target": "未选择文件。打开文件或在文件资源管理器中右键单击它。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please reload Obsidian for command palette changes to take effect",
+                    "target": "请重新加载 Obsidian 以使命令面板更改生效"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Copy as Linux/Mac path",
+                    "target": "复制为 Linux/Mac 路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Copy as Windows path",
+                    "target": "复制为 Windows 路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Copy as file:// URL",
+                    "target": "复制为 file:// URL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Copy as Obsidian URL",
+                    "target": "复制为 Obsidian URL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Copy as markdown link",
+                    "target": "复制为 Markdown 链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Path format examples:",
+                    "target": "路径格式示例："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "• File URL: file:///C:/Users/name/vault/folder/file.md (Windows) or file:///home/user/vault/folder/file.md (Linux/Mac)",
+                    "target": "• 文件 URL：file:///C:/Users/name/vault/folder/file.md（Windows）或 file:///home/user/vault/folder/file.md（Linux/Mac）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "• Obsidian URL: obsidian://open?vault=MyVault&file=folder/file",
+                    "target": "• Obsidian URL：obsidian://open?vault=MyVault&file=folder/file"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "• Markdown Link: [[filename]] (wiki-style) or [filename.md](./path/filename.md) (standard)",
+                    "target": "• Markdown 链接：[[filename]]（wiki 风格）或 [filename.md](./path/filename.md)（标准）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " | ",
+                    "target": " | "
+                }
+            ],
+            "regex": []
+        }
+    }
+}
