@@ -1,0 +1,133 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "day-one-importer",
+        "version": "1.0.0",
+        "title": "Day One Importer",
+        "description": "Day One Importer Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.3.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Update Frontmatter",
+                    "target": "更新 Frontmatter"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Location where you extracted the zip file from Day One",
+                    "target": "从 Day One 解压 zip 文件的位置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Directory to create imported files in",
+                    "target": "创建导入文件的目录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If disabled then conflicting file names will be logged as failures, otherwise they will be ignored",
+                    "target": "若禁用，则冲突的文件名将记录为失败；否则将被忽略"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Use entry's creation date as the file name. This may cause collisions and files to be overwritten if two entries have the same creation date/time.If this option is disabled then the entry's UUID will be used as the file name. This guarantees no collisions.",
+                    "target": "使用条目的创建日期作为文件名。如果两个条目的创建日期/时间相同，可能会发生冲突并导致文件被覆盖。如果禁用此选项，则使用条目的 UUID 作为文件名。这可确保无冲突。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If enabled then latitude and longitude will be stored in separate fields in the frontmatter, otherwise they will be combined into a single field.",
+                    "target": "若启用，经纬度将分别存储在 frontmatter 的单独字段中；否则将合并为一个字段。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "You must use the same file name settings as you did when doing the initial import.",
+                    "target": "你必须使用与初始导入时相同的文件名设置。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Day One files",
+                    "target": "Day One 文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Out directory",
+                    "target": "输出目录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Ignore existing files",
+                    "target": "忽略已有文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "File name",
+                    "target": "文件名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Date-based file names (may cause collisions)",
+                    "target": "基于日期的文件名（可能发生冲突）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Date-based file name format",
+                    "target": "基于日期的文件名格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Date-based file name format (all day entries)",
+                    "target": "基于日期的文件名格式（全天条目）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Separate co-ordinate fields",
+                    "target": "分离坐标字段"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Update FrontMatter",
+                    "target": "更新 FrontMatter"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "IMPORTANT: This is a destructive operation and will overwrite any existing FrontMatter in previously imported entries.",
+                    "target": "重要：这是破坏性操作，会覆盖先前导入条目中的所有现有 FrontMatter。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Journal JSON file",
+                    "target": "日记 JSON 文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "YYYY-MM-DD HH:mm:ss",
+                    "target": "YYYY-MM-DD HH:mm:ss"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
