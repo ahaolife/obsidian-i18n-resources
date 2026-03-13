@@ -1,0 +1,61 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "json-table",
+        "version": "1.0.0",
+        "title": "JSON table",
+        "description": "JSON table Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.4",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "JSON Table Selection:",
+                    "target": "JSON 表选择："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "JSON Table fetch response:",
+                    "target": "JSON 表获取响应："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If enabled, more will be logged in the console.",
+                    "target": "启用后，控制台将记录更多信息。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable debug logging",
+                    "target": "启用调试日志"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Generate table from selected JSON",
+                    "target": "从所选 JSON 生成表格"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Generate table from selected JSON URL",
+                    "target": "从所选 JSON URL 生成表格"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Generate JSON from selected table",
+                    "target": "从所选表格生成 JSON"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
