@@ -1,0 +1,85 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "heading-level-indent",
+        "version": "1.0.0",
+        "title": "Heading Level Indent",
+        "description": "Heading Level Indent Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.1.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Content under H1",
+                    "target": "H1 下的内容"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Content under H2",
+                    "target": "H2 下的内容"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Content under H3",
+                    "target": "H3 下的内容"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Content under H4",
+                    "target": "H4 下的内容"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Content under H5",
+                    "target": "H5 下的内容"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Content under H6",
+                    "target": "H6 下的内容"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Treat the highest present heading in the document as H1 (editing mode only)",
+                    "target": "将文档中最高级别的标题视为 H1（仅编辑模式）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enabled in editing mode (reload required)",
+                    "target": "编辑模式下启用（需重新加载）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enabled in reading view",
+                    "target": "阅读视图下启用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Set indentation for the content of each heading in pixels",
+                    "target": "设置每个标题内容的缩进（像素）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Indentation applied for the heading lines itself will be the same as the\n\t\t\t\t\t\tcontent of inmediately previous heading. For example, if the indentation \n\t\t\t\t\t\tfor the content of H3 is set to 70 pixels, H2 heading line itself\n\t\t\t\t\t\twill be indented the same",
+                    "target": "标题行本身应用的缩进将与紧接前一个标题的\n\t\t\t\t\t\t内容相同。例如，如果 H3 内容的缩进\n\t\t\t\t\t\t设置为 70 像素，H2 标题行本身\n\t\t\t\t\t\t也将缩进相同"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
