@@ -1,0 +1,49 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "bujo-bullets",
+        "version": "1.0.0",
+        "title": "BuJo Bullets",
+        "description": "BuJo Bullets Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.2.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Bullet not found",
+                    "target": "未找到子弹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Add new signifier",
+                    "target": "添加新的标记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter signifier",
+                    "target": "输入标记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter name",
+                    "target": "输入名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Warning: ",
+                    "target": "警告："
+                }
+            ],
+            "regex": []
+        }
+    }
+}
