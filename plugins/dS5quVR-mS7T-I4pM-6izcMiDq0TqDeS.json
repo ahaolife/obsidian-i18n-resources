@@ -1,0 +1,67 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-regex-pipeline",
+        "version": "1.0.0",
+        "title": "Regex Pipeline",
+        "description": "Regex Pipeline Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.4.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The first N rulesets in your index file will be available in right click menu and as commands.",
+                    "target": "索引文件中的前 N 个规则集将在右键菜单中可用，并作为命令提供。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Reads rulesets from \".obsidian/regex-rulesets\" when off, \"./regex-ruleset\" when on (useful if you are user of ObsidianSync). ",
+                    "target": "关闭时从“.obsidian/regex-rulesets”读取规则集，开启时从“./regex-ruleset”读取（如果你是 ObsidianSync 用户很有用）。 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Quick Rules",
+                    "target": "快速规则"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Quick Rule Commands",
+                    "target": "快速规则命令"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Save Rules In Vault",
+                    "target": "在仓库中保存规则"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No active Markdown file!",
+                    "target": "没有活动的 Markdown 文件！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to create the ruleset! Please check if the file already exist.",
+                    "target": "创建规则集失败！请检查文件是否已存在。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Apply Ruleset",
+                    "target": "应用规则集"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
