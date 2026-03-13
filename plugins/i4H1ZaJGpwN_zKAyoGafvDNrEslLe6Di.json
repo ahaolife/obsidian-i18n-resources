@@ -1,0 +1,109 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "paste-link",
+        "version": "1.0.0",
+        "title": "Paste Link",
+        "description": "Paste Link Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "3.3.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Check the provided URL against the configured page title regexes",
+                    "target": "根据配置的页面标题正则表达式检查提供的 URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "How many milliseconds to wait to fetch page titles before timing out",
+                    "target": "在超时前等待获取页面标题的毫秒数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Regular expressions used to clean page titles before pasting (see documentation)",
+                    "target": "用于在粘贴前清理页面标题的正则表达式（见文档）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Check URL",
+                    "target": "检查 URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Override paste handler",
+                    "target": "覆盖粘贴处理程序"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Fetch page titles on paste",
+                    "target": "粘贴时获取页面标题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Fetch page timeout",
+                    "target": "获取页面超时"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Page title regexes",
+                    "target": "页面标题正则表达式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Page regex",
+                    "target": "页面正则表达式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Title regex",
+                    "target": "标题正则表达式"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Paste handler settings changed. Restart Obsidian.",
+                    "target": "粘贴处理程序设置已更改。请重启 Obsidian。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Paste Markdown link",
+                    "target": "粘贴 Markdown 链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Paste URL as plain text",
+                    "target": "将 URL 作为纯文本粘贴"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Paste link and fetch page title",
+                    "target": "粘贴链接并获取页面标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Paste link and fetch full page title",
+                    "target": "粘贴链接并获取完整页面标题"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
