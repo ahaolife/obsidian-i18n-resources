@@ -1,0 +1,61 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "mermaid-icons",
+        "version": "1.0.0",
+        "title": "Mermaid Icons",
+        "description": "Mermaid Icons Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.3",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Supported icons",
+                    "target": "支持的图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Search icons...",
+                    "target": "搜索图标..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Filter icons...",
+                    "target": "筛选图标..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "├─ @fortawesome/fontawesome-free@7.0.0\n│  ├─ licenses: (CC-BY-4.0 AND OFL-1.1 AND MIT)\n│  ├─ repository: https://github.com/FortAwesome/Font-Awesome\n│  ├─ publisher: The Font Awesome Team\n│  ├─ url: https://github.com/orgs/FortAwesome/people\n│  ├─ path: /home/runner/work/obsidian-mermaid-icons/obsidian-mermaid-icons/node_modules/@fortawesome/fontawesome-free\n│  └─ licenseFile: node_modules/@fortawesome/fontawesome-free/LICENSE.txt\n├─ @iconify-json/logos@1.2.9\n│  ├─ licenses: CC0-1.0\n│  ├─ path: /home/runner/work/obsidian-mermaid-icons/obsidian-mermaid-icons/node_modules/@iconify-json/logos\n│  └─ licenseFile: node_modules/@iconify-json/logos/README.md\n├─ @iconify-json/lucide@1.2.72\n│  ├─ licenses: ISC\n│  ├─ path: /home/runner/work/obsidian-mermaid-icons/obsidian-mermaid-icons/node_modules/@iconify-json/lucide\n│  └─ licenseFile: node_modules/@iconify-json/lucide/README.md\n├─ @iconify/types@2.0.0\n│  ├─ licenses: MIT\n│  ├─ repository: https://github.com/iconify/iconify\n│  ├─ publisher: Vjacheslav Trushkin\n│  ├─ path: /home/runner/work/obsidian-mermaid-icons/obsidian-mermaid-icons/node_modules/@iconify/types\n│  └─ licenseFile: node_modules/@iconify/types/license.txt\n└─ obsidian-mermaid-icons@1.1.3\n   ├─ licenses: ISC*\n   ├─ path: /home/runner/work/obsidian-mermaid-icons/obsidian-mermaid-icons\n   └─ licenseFile: LICENSE\n",
+                    "target": "├─ @fortawesome/fontawesome-free@7.0.0\n│  ├─ 许可证: (CC-BY-4.0 AND OFL-1.1 AND MIT)\n│  ├─ 仓库: https://github.com/FortAwesome/Font-Awesome\n│  ├─ 发布者: The Font Awesome Team\n│  ├─ 网址: https://github.com/orgs/FortAwesome/people\n│  ├─ 路径: /home/runner/work/obsidian-mermaid-icons/obsidian-mermaid-icons/node_modules/@fortawesome/fontawesome-free\n│  └─ 许可证文件: node_modules/@fortawesome/fontawesome-free/LICENSE.txt\n├─ @iconify-json/logos@1.2.9\n│  ├─ 许可证: CC0-1.0\n│  ├─ 路径: /home/runner/work/obsidian-mermaid-icons/obsidian-mermaid-icons/node_modules/@iconify-json/logos\n│  └─ 许可证文件: node_modules/@iconify-json/logos/README.md\n├─ @iconify-json/lucide@1.2.72\n│  ├─ 许可证: ISC\n│  ├─ 路径: /home/runner/work/obsidian-mermaid-icons/obsidian-mermaid-icons/node_modules/@iconify-json/lucide\n│  └─ 许可证文件: node_modules/@iconify-json/lucide/README.md\n├─ @iconify/types@2.0.0\n│  ├─ 许可证: MIT\n│  ├─ 仓库: https://github.com/iconify/iconify\n│  ├─ 发布者: Vjacheslav Trushkin\n│  ├─ 路径: /home/runner/work/obsidian-mermaid-icons/obsidian-mermaid-icons/node_modules/@iconify/types\n│  └─ 许可证文件: node_modules/@iconify/types/license.txt\n└─ obsidian-mermaid-icons@1.1.3\n   ├─ 许可证: ISC*\n   ├─ 路径: /home/runner/work/obsidian-mermaid-icons/obsidian-mermaid-icons\n   └─ 许可证文件: LICENSE\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert Mermaid icon",
+                    "target": "插入 Mermaid 图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Load more",
+                    "target": "加载更多"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "This plugin uses the following third-party libraries:",
+                    "target": "此插件使用以下第三方库："
+                }
+            ],
+            "regex": []
+        }
+    }
+}
