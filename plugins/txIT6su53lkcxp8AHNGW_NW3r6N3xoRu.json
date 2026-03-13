@@ -1,0 +1,175 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-daily-notes-opener",
+        "version": "1.0.0",
+        "title": "Daily notes opener",
+        "description": "Daily notes opener Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.0.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom daily note settings found!",
+                    "target": "未找到自定义每日笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom weekly note settings found!",
+                    "target": "未找到自定义每周笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom monthly note settings found!",
+                    "target": "未找到自定义每月笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom quarterly note settings found!",
+                    "target": "未找到自定义每季度笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom yearly note settings found!",
+                    "target": "未找到自定义每年笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set true to always open new pane even if the daily note is already opened, otherwise the plugin will try to find the existing daily note and focus on it",
+                    "target": "设为 true 时，即使每日笔记已打开也始终在新窗格中打开；否则插件会尝试找到现有的每日笔记并将焦点移到它。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Daily notes new pane plugin adds support for colorizing today's periodic note, this functionality relies on another plugin called \"Style Settings\", please install and enable it so that you can adjust background colors for periodic notes",
+                    "target": "每日笔记新窗格插件支持为今天的周期性笔记着色，此功能依赖另一个名为“Style Settings”的插件，请安装并启用它以便调整周期性笔记的背景色。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If set, the new line will be appended to the content of target header.",
+                    "target": "若启用，新行将追加到目标标题的内容中。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable customize background color for daily notes in Style Settings",
+                    "target": "在 Style Settings 中启用每日笔记的自定义背景色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable customize background color for weekly notes in Style Settings",
+                    "target": "在 Style Settings 中启用每周笔记的自定义背景色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "End of day time",
+                    "target": "一天结束时间"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Always open new pane",
+                    "target": "始终打开新窗格"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Background colors",
+                    "target": "背景颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Append line prefix",
+                    "target": "追加行前缀"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Append line target header",
+                    "target": "追加行目标标题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Customize background color",
+                    "target": "自定义背景颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "- HH:mm",
+                    "target": "- HH:mm"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Unable to create new file.",
+                    "target": "无法创建新文件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Easily open daily/periodic notes in new pane, and much more!",
+                    "target": "轻松在新窗格中打开每日/周期性笔记，还有更多功能！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open today's daily note in new pane",
+                    "target": "在新窗格中打开今天的每日笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open today's daily note in new pane and append line",
+                    "target": "在新窗格中打开今天的日记并追加一行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open today's weekly note in new pane",
+                    "target": "在新窗格中打开今天的周记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Append line",
+                    "target": "追加一行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Control how \"Append line\" commands behave, note that this functionality is only avaliable for daily notes",
+                    "target": "控制“追加一行”命令的行为，注意此功能仅适用于日记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Periodic notes",
+                    "target": "周期性笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Daily notes new pane plugin adds support for colorizing today's periodic note, this functionality relies on another plugin called \"Style Settings\", please install and enable it so that you can adjust background colors for periodic notes",
+                    "target": "“日记新窗格”插件新增对今天的周期性笔记着色的支持，此功能依赖另一个名为“Style Settings”的插件，请安装并启用它，以便你可以调整周期性笔记的背景颜色"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
