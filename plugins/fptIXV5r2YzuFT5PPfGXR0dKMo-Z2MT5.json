@@ -1,0 +1,18 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "gdscript-syntax-highlighting",
+        "version": "1.0.0",
+        "title": "GDScript Syntax Highlighting",
+        "description": "GDScript Syntax Highlighting Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [],
+            "regex": []
+        }
+    }
+}
