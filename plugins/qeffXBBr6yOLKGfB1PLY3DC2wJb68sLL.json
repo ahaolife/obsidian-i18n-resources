@@ -1,0 +1,1039 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "gamified-pkm",
+        "version": "1.0.0",
+        "title": "Gamificate your PKM",
+        "description": "Gamificate your PKM Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.0.97",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "\n        <p><strong>Level:</strong> <span id=\"level-value\"></span></p>\n        <p><strong>Points:</strong> <span id=\"points-value\"></span></p>\n    ",
+                    "target": "\n        <p><strong>等级：</strong> <span id=\"level-value\"></span></p>\n        <p><strong>积分：</strong> <span id=\"points-value\"></span></p>\n    "
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "\n        <p><strong>Booster Factor:</strong> <span id=\"booster-factor-value\"></span></p>\n    ",
+                    "target": "\n        <p><strong>加成系数：</strong> <span id=\"booster-factor-value\"></span></p>\n    "
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "\n        <p><strong>Daily Notes:</strong> <span id=\"daily-notes-value\"></span></p>\n    ",
+                    "target": "\n        <p><strong>每日笔记：</strong> <span id=\"daily-notes-value\"></span></p>\n    "
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "\n        <p><strong>Weekly Notes:</strong> <span id=\"weekly-notes-value\"></span></p>\n    ",
+                    "target": "\n        <p><strong>每周笔记：</strong> <span id=\"weekly-notes-value\"></span></p>\n    "
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "\n\t\t\t<table class=\"maturity-table\">\n\t\t\t\t<thead>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<th>Level</th>\n\t\t\t\t\t\t<th>Count</th>\n\t\t\t\t\t</tr>\n\t\t\t\t</thead>\n\t\t\t\t<tbody>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Majurity 5</td>\n\t\t\t\t\t\t<td id=\"maturity-5-count\"></td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Majurity 4</td>\n\t\t\t\t\t\t<td id=\"maturity-4-count\"></td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Majurity 3</td>\n\t\t\t\t\t\t<td id=\"maturity-3-count\"></td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Majurity 2</td>\n\t\t\t\t\t\t<td id=\"maturity-2-count\"></td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Majurity 1</td>\n\t\t\t\t\t\t<td id=\"maturity-1-count\"></td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Majurity 0</td>\n\t\t\t\t\t\t<td id=\"maturity-0-count\"></td>\n\t\t\t\t\t</tr>\n\t\t\t\t</tbody>\n\t\t\t</table>\n\t\t",
+                    "target": "\n\t\t\t<table class=\"maturity-table\">\n\t\t\t\t<thead>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<th>等级</th>\n\t\t\t\t\t\t<th>数量</th>\n\t\t\t\t\t</tr>\n\t\t\t\t</thead>\n\t\t\t\t<tbody>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>成熟度 5</td>\n\t\t\t\t\t\t<td id=\"maturity-5-count\"></td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>成熟度 4</td>\n\t\t\t\t\t\t<td id=\"maturity-4-count\"></td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>成熟度 3</td>\n\t\t\t\t\t\t<td id=\"maturity-3-count\"></td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>成熟度 2</td>\n\t\t\t\t\t\t<td id=\"maturity-2-count\"></td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>成熟度 1</td>\n\t\t\t\t\t\t<td id=\"maturity-1-count\"></td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>成熟度 0</td>\n\t\t\t\t\t\t<td id=\"maturity-0-count\"></td>\n\t\t\t\t\t</tr>\n\t\t\t\t</tbody>\n\t\t\t</table>\n\t\t"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Dataview plugin is not enabled.",
+                    "target": "未启用 Dataview 插件。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to get canvas context",
+                    "target": "无法获取画布上下文"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error during post-layout initialization:",
+                    "target": "布局后初始化时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to get a right leaf. Cannot open the profile view.",
+                    "target": "未能获取右侧叶子面板。无法打开个人资料视图。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "got no file, probably none is active",
+                    "target": "未获取到文件，可能没有活动文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "File name is null or undefined. Stopping further processing.",
+                    "target": "文件名为空或未定义。停止进一步处理。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "file was not found to calculate maturity. Make sure one is active.",
+                    "target": "未找到用于计算成熟度的文件。请确保有一个处于活动状态。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "No active Markdown view found.",
+                    "target": "未找到活动的 Markdown 视图。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "No text selected (for progressive summarization switch Layer 2 & 3).",
+                    "target": "未选择文本（用于渐进式摘要切换第 2 和第 3 层）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "dataview plugin is not available to update maturity counts",
+                    "target": "dataview 插件不可用，无法更新成熟度计数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Resolved Links Data:",
+                    "target": "解析后的链接数据："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "obsidian-pkm-gamification loaded!",
+                    "target": "obsidian-pkm-gamification 已加载！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "show release note",
+                    "target": "显示发行说明"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Debug Help Function accessibility is called",
+                    "target": "已调用调试帮助功能的可访问性"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Profile updated successfully",
+                    "target": "个人资料更新成功"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Profile view activated",
+                    "target": "已激活个人资料视图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Note Maturity calculated",
+                    "target": "已计算笔记成熟度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Format Strings replaced for prog. sum.",
+                    "target": "已为进度总和替换格式字符串。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Daily Goals resetted",
+                    "target": "每日目标已重置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Daily Goal status bar resettet",
+                    "target": "每日目标状态栏已重置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "gamified-pkm-profile is not loaded yet.",
+                    "target": "gamified-pkm-profile 尚未加载。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "obsidian-pkm-gamification unloaded!",
+                    "target": "obsidian-pkm-gamification 已卸载！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When on, you get informed at startup if there is a newer version.",
+                    "target": "开启后，如有新版本会在启动时提醒。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enter tags without # and separate with \", \". Include nested tags.",
+                    "target": "输入不含 # 的标签，并用 \", \" 分隔。包括嵌套标签。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enter folders whose content shall be ignored. Separate with \", \".",
+                    "target": "输入要忽略其内容的文件夹。用 \", \" 分隔。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "You can switch on the leaf for the profile.",
+                    "target": "你可以在配置文件中打开该叶子。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "You can point here to a picture you would like to use as avatar. Include your vault path.",
+                    "target": "你可以在此指向想用作头像的图片。包含你的库路径。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "you can enable here an automatic trigger to rate a note when changed/created",
+                    "target": "你可以在此启用自动触发器，在笔记更改/创建时进行评分"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enter in seconds how long to wait after a change before automatic note rating will be done",
+                    "target": "以秒为单位输入更改后等待多久才会进行自动笔记评分"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enter in seconds to delay the load time. e.g. when GIT pull is performed before and settings get merge conflicts. Without GIT usage, keep it to 0.",
+                    "target": "以秒为单位输入加载延迟时间。例如在先执行 GIT pull 且设置发生合并冲突时。不使用 GIT 时，保持为 0。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enter in seconds. 4 seconds or more is a good value",
+                    "target": "以秒为单位输入。4 秒或以上是个不错的值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "You can change which formatting you use for Layer 2 and 3.",
+                    "target": "你可以更改用于第 2 层和第 3 层的格式。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "`Toggle ON`: Display release notes each time you update the plugin\n`Toggle OFF`: Silent mode. You can still read release notes on [GitHub](https://github.com/saertna/obsidian-gamified-pkm)",
+                    "target": "`Toggle ON`: 每次更新插件时显示发行说明\n`Toggle OFF`: 静默模式。你仍可在 [GitHub](https://github.com/saertna/obsidian-gamified-pkm) 上阅读发行说明"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Plugin Update Notification",
+                    "target": "插件更新通知"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "#tags to ignore",
+                    "target": "要忽略的 #tags"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Folder to ignore",
+                    "target": "要忽略的文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show profile leaf",
+                    "target": "显示个人资料叶子"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "color bar received",
+                    "target": "已接收颜色条"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "color bar to go",
+                    "target": "待处理颜色条"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Path to profile picture",
+                    "target": "个人头像路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Disable init command",
+                    "target": "禁用初始化命令"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "enable auto rate after change",
+                    "target": "更改后启用自动评分"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Wait time for automatic note rating",
+                    "target": "自动笔记评分等待时间"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Delay load settings at startup",
+                    "target": "启动时延迟加载设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Time how long notices are shown",
+                    "target": "通知显示时长"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Progressive Summarization",
+                    "target": "渐进式总结"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Display release notes after update",
+                    "target": "更新后显示发行说明"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter your tag1, tag2/subtag, …",
+                    "target": "输入你的 tag1、tag2/subtag、…"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter your folder1, folder2, …",
+                    "target": "输入你的 folder1、folder2、…"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Layer 2 is usually **",
+                    "target": "第 2 层通常是 **"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Layer 3 is usually ==",
+                    "target": "第 3 层通常是 =="
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Select image / Paste URL...",
+                    "target": "选择图片 / 粘贴 URL..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Welcome to the Gamified PKM",
+                    "target": "欢迎使用游戏化 PKM"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Starting with v2.0.0-beta.1 date-fns doesn't accept strings as date arguments. Please use `parseISO` to parse strings. See: https://github.com/date-fns/date-fns/blob/master/docs/upgradeGuide.md#string-arguments",
+                    "target": "从 v2.0.0-beta.1 开始，date-fns 不再接受字符串作为日期参数。请使用 `parseISO` 解析字符串。参见：https://github.com/date-fns/date-fns/blob/master/docs/upgradeGuide.md#string-arguments"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Tried to use the 'fill' option without the 'Filler' plugin enabled. Please import and register the 'Filler' plugin and make sure it is not disabled in the options",
+                    "target": "在未启用“Filler”插件的情况下尝试使用“fill”选项。请导入并注册“Filler”插件，并确保它未在选项中被禁用"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "You didn't find any ingredients this time, but better luck next time!",
+                    "target": "这次你没有找到任何材料，下次祝你好运！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "This time you didn't earn an ingredient.",
+                    "target": "这次你没有获得材料。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "note maturity updated!",
+                    "target": "笔记成熟度已更新！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Use URL",
+                    "target": "使用 URL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Perpetual Progress: get 3 times points an all your actions for the next 4 hours. You can use Perpetual Progress every three days, if you have the ingredients to craft it.",
+                    "target": "永续进步：接下来的 4 小时内，你的所有操作获得 3 倍积分。如果你有材料制作它，每三天可使用一次永续进步。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Strategic Synapses: gain 3 times EP for all actions on Map Of Content ratings for the next 4 hours. This booster has a cooldown time of 5 days.",
+                    "target": "战略突触：接下来的 4 小时内，在内容地图评级上的所有操作获得 3 倍 EP。此增益的冷却时间为 5 天。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Accelerated Acquisition: Use Accelerated Acquisition and collect much faster for the next 12 hours all sorts of ingredients when creating and improving notes",
+                    "target": "加速获取：使用加速获取，在接下来的 12 小时内创建和改进笔记时可更快收集各类材料。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Linkers Lode: collect extra points when creating chain of thoughts for the next 3 hours. (cooldown 2 days)",
+                    "target": "链接者宝藏：接下来的 3 小时内在创建思维链时可获得额外积分。（冷却 2 天）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Effortless Expansion: Cast \"Effortless Expansion\" and lower the cap to the next level about 20% in the next 5 days. (Cooldown 20 days)",
+                    "target": "轻松扩展：施放“轻松扩展”，在接下来的 5 天内将升至下一级的上限降低约 20%。（冷却 20 天）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Recursive Reflection: Improve your notes and get 5 times the points you get on normal condition for the next 5 hours. Cooldown 3 days.",
+                    "target": "递归反思：接下来的 5 小时内改进笔记可获得正常条件下 5 倍积分。冷却 3 天。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Synaptic Surge: Link your ideas together, every increase in \"linking maturity\" pays out 20 times for the next 2 hours.",
+                    "target": "突触激增：把你的想法连接起来，每次提升“链接成熟度”在接下来的2小时内收益提升20倍。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Title Titan: Quadro your points when making your note title more to the point expressing the idea of your note for the next 3 hours.",
+                    "target": "标题泰坦：在接下来的3小时内，将笔记标题更明确地表达笔记主题时，积分变为4倍。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Precision Prism: 4 times the points when increasing the \"note length majurity\" for a note the next 3 hours.",
+                    "target": "精准棱镜：在接下来的3小时内，提高某条笔记的“笔记长度成熟度”时积分提升4倍。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Impressive! You're now a 'Scholarly Trailblazer,' boldly venturing through a sea of knowledge with a compass of curiosity and a map of intellect!",
+                    "target": "令人惊叹！你现在是“学术开拓者”，以好奇心为指南针、以智慧为地图，勇敢穿越知识之海！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Whoo-hoo! You've achieved 'Wise Owl Guru' status. Your wisdom is legendary, and your hoots of knowledge echo through the forest of ignorance!",
+                    "target": "哇哦！你已获得“睿智猫头鹰导师”称号。你的智慧堪称传奇，知识的回响在无知之林中回荡！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Eureka! You've become an 'Einstein Incarnate,' pushing the boundaries of understanding and bending the fabric of knowledge to your will!",
+                    "target": "尤里卡！你已化身“爱因斯坦再世”，不断突破理解的边界，随心所欲地扭转知识的织锦！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Magnificent! You've ascended to the rank of 'Mastermind Sage,' guiding the rivers of information and enlightening all who seek wisdom!",
+                    "target": "壮丽非凡！你已晋升为“智谋贤者”，引领信息之河，启迪所有求知者！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Bravissimo! You're now a 'Cerebral Maestro,' conducting the symphony of knowledge with the finesse of a virtuoso conductor!",
+                    "target": "太精彩了！你现在是“脑力大师”，以大师级指挥的细腻技艺，指挥知识交响！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Serenity achieved! As a 'Zen Knowledge Keeper,' you maintain a tranquil mind while managing vast pools of knowledge with grace and poise.",
+                    "target": "宁静已达成！作为“禅意知识守护者”，你在管理浩瀚知识池的同时，依然保持内心平和、从容优雅。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "All hail the 'Grand Archivist Overlord!' You wield the knowledge of ages and hold the keys to unlock the gates of wisdom!",
+                    "target": "向“档案大总管”致敬！你掌握千古智慧，并持有开启智慧之门的钥匙！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Congratulations, oh wise one! You've attained the highest level of enlightenment as the 'Omniscient Sage of Everything.' Your understanding knows no bounds, and your wisdom is as vast as the cosmos itself!",
+                    "target": "恭喜你，睿智之人！你已达到最高境界，成为“全知万物的智者”。你的理解无边无际，你的智慧如同宇宙般浩瀚！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Welcome to the journey of knowledge! As a 'Lore Seeker Initiate,' you've taken your first steps into the world of organized wisdom. Your quest has just begun, and with each note you make, you lay the foundation for a future rich with insights and understanding. Your journey starts here, and the path ahead is filled with potential and discovery.",
+                    "target": "欢迎踏上知识之旅！作为“传说探寻者·入门者”，你已迈出通往有序智慧世界的第一步。你的探索刚刚开始，每一条笔记都在为充满洞见与理解的未来奠基。你的旅程从这里启航，前方之路充满潜力与发现。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "You've hit the ground running with your existing knowledge treasures! You're already an 'Lore Apprentice,' armed with a wealth of wisdom and ready to shape it further.",
+                    "target": "凭借现有的知识宝藏，你一出发就已疾驰！你已经是“传说学徒”，手握丰富智慧，准备继续锤炼它。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Your existing notes have given you a head start! You're now a 'Savvy Scholar,' confidently diving into the sea of information with a treasure trove of insights.",
+                    "target": "你的现有笔记让你先人一步！你现在是“精明学者”，带着满满的洞见宝库，自信地潜入信息之海。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Building upon your pre-existing notes, you're establishing the 'Sage's Foundation' for an even grander edifice of knowledge. Your groundwork is impressive!",
+                    "target": "在既有笔记之上，你正在建立“智者之基”，为更宏伟的知识殿堂打下基础。你的底蕴令人赞叹！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Your existing notes have nurtured the growth of a 'Wisdom Seedling.' You're cultivating your garden of knowledge with care and patience.",
+                    "target": "你的现有笔记滋养了“智慧幼苗”的成长。你正以细心与耐心培育你的知识花园。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Thanks to your prior efforts, you're a 'Prodigious Preparer,' standing tall among your notes and ready to conquer new realms of understanding.",
+                    "target": "得益于你此前的努力，你成为“卓越筹备者”，在笔记中挺立，准备征服新的理解疆域。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Your past notes have led you to the grand 'Epic Epiphany Explorer' status! You've already been down a few rabbit holes and come out with dazzling discoveries.",
+                    "target": "你的过往笔记让你跻身“史诗顿悟探险家”的崇高之境！你已经钻过不少“兔子洞”，带回令人目眩的发现。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "With your existing notes illuminating your path, you've become a 'Lore Luminary,' shining light on the mysteries of the universe, one idea at a time.",
+                    "target": "在现有笔记照亮道路的指引下，你已成为“传说之光”，一次一个想法，照亮宇宙的奥秘。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Armed with your existing notes, you're the 'Eureka Maestro,' composing a symphony of insights that harmonize with the melody of discovery.",
+                    "target": "有了现有笔记作伴，你就是“尤里卡大师”，谱写与发现旋律相和的洞见交响曲。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "With your existing notes standing as a testament, you've ascended to the illustrious 'Chronicles Champion' level. Your journey through time's tapestry has brought forth a symphony of insights that harmonize past and present.",
+                    "target": "凭借你已有的笔记作为见证，你已晋升至卓越的“编年史冠军”级别。你穿梭于时间织锦的旅程，奏响了洞见的交响曲，使过去与现在和谐共鸣。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "As 'The Curious Cartographer,' your existing notes have mapped out uncharted territories of understanding. Your curiosity knows no bounds, and your notes are the compass guiding your exploration.",
+                    "target": "作为“好奇的制图师”，你现有的笔记绘制出了未被探索的理解疆域。你的好奇心没有边界，而你的笔记就是引导探索的罗盘。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Your existing notes have made you the 'Sultan of Synthesis.' You're the master weaver, threading together threads of information into a rich tapestry of insight.",
+                    "target": "你现有的笔记让你成为“综合苏丹”。你是编织大师，将信息的丝线交织成丰厚的洞见织锦。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "At the pinnacle of personal knowledge mastery, you're now revered as the 'Eternal Archivist.' Your existing notes, carefully curated and nurtured, stand as immortal beacons, guiding seekers through the labyrinth of knowledge across ages.",
+                    "target": "在个人知识掌握的巅峰，你如今被尊称为“永恒档案师”。你精心整理与培育的既有笔记如不朽灯塔般矗立，指引求知者穿越历代的知识迷宫。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Congratulations! You've woven a tapestry of knowledge for 30 consecutive days. As a 'Consistent Lore Weaver,' your daily contributions have become the threads that enrich the fabric of your growing wisdom.",
+                    "target": "恭喜！你连续30天编织了知识的织锦。作为“持续传说编织者”，你的每日贡献已成为丰富你不断增长智慧纹理的丝线。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "You've forged a robust foundation with 90 consecutive days of dedicated note crafting. As a 'Knowledge Artisan Stalwart,' your commitment has sculpted your repository into a work of art, a testament to your persistent curiosity.",
+                    "target": "你以连续90天的专注笔记打造出坚实的基础。作为“知识工匠坚守者”，你的投入将你的知识库雕琢成艺术之作，见证你持久的好奇心。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "With each passing day, you've laid down the blueprints of a profound structure. As a 'Wisdom Architect Virtuoso' at 180 days, your continuous efforts have transformed your knowledge space into an architectural marvel, a testament to your enduring passion for learning.",
+                    "target": "日复一日，你铺就了一座深邃结构的蓝图。到第180天，作为“智慧建筑师大师”，你的持续努力已将知识空间化为建筑奇观，见证你对学习的恒久热情。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "A year of unwavering dedication! You've earned the title of 'Eternal Scholar Maestro' by contributing daily for 365 days. Your commitment has created a masterpiece of continuous learning, setting you apart as a true maestro of personal knowledge.",
+                    "target": "一年如一日的坚定投入！你通过连续365天每日贡献，赢得了“永恒学者大师”的称号。你的承诺铸就了持续学习的杰作，使你成为真正的个人知识大师。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Precision Prism: 4 times the points when increasing the \"note length maturity\" for a note the next 3 hours.",
+                    "target": "精准棱镜：在接下来的3小时内提升笔记的“长度成熟度”时，积分获得4倍。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Points Reached",
+                    "target": "已达积分"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Points to Earn to Level Up",
+                    "target": "升级所需积分"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "days done",
+                    "target": "已完成天数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "days to do",
+                    "target": "待完成天数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Connection Crystal",
+                    "target": "连接水晶"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insight Prism",
+                    "target": "洞察棱镜"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Creative Catalyst",
+                    "target": "创意催化剂"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Precision Lens",
+                    "target": "精准透镜"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Nexus Node",
+                    "target": "枢纽节点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Mastery Scroll",
+                    "target": "精通卷轴"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Reflective Essence",
+                    "target": "反思精华"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Amplification Crystal",
+                    "target": "增幅水晶"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Perpetual Progress",
+                    "target": "永恒进展"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Strategic Synapses",
+                    "target": "战略突触"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Accelerated Acquisition",
+                    "target": "加速获取"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Linkers Lode",
+                    "target": "连接矿脉"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Effortless Expansion",
+                    "target": "轻松扩展"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Recursive Reflection",
+                    "target": "递归映照"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Synaptic Surge",
+                    "target": "突触涌动"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Inspiration Infusion",
+                    "target": "灵感灌注"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Title Titan",
+                    "target": "头衔泰坦"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Precision Prism",
+                    "target": "精准棱镜"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Hyperlink Harmony",
+                    "target": "超链接和声"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Fortune Infusion",
+                    "target": "幸运注入"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Enlightened Novice",
+                    "target": "开悟新手"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Curious Connoisseur",
+                    "target": "好奇鉴赏家"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Brainiac Trailblazer",
+                    "target": "天才开拓者"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Scholarly Trailblazer",
+                    "target": "学者开拓者"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Info Ninja Master",
+                    "target": "信息忍者大师"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Wise Owl Guru",
+                    "target": "智慧猫头鹰导师"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Einstein Incarnate",
+                    "target": "爱因斯坦化身"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Mastermind Sage",
+                    "target": "智谋圣者"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Cerebral Maestro",
+                    "target": "智识大师"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Zen Knowledge Keeper",
+                    "target": "禅意知识守护者"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Grand Archivist Overlord",
+                    "target": "大档案主宰"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Omniscient Sage of Everything",
+                    "target": "万知圣者"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Lore Seeker Initiate",
+                    "target": "传说寻觅者学徒"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Lore Apprentice",
+                    "target": "传说学徒"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Savvy Scholar",
+                    "target": "精明学者"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sage's Foundation",
+                    "target": "圣者之基"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Wisdom Seedling",
+                    "target": "智慧幼苗"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Prodigious Preparer",
+                    "target": "卓越筹备者"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Epic Epiphany Explorer",
+                    "target": "史诗顿悟探索者"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Lore Luminary",
+                    "target": "传说先驱"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Scribe of the Ancients",
+                    "target": "古代记述者"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Eureka Maestro",
+                    "target": "灵感大师"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Chronicles Champion",
+                    "target": "编年史冠军"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "The Curious Cartographer",
+                    "target": "好奇的制图师"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sultan of Synthesis",
+                    "target": "综合之王"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Eternal Archivist",
+                    "target": "永恒档案员"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Consistent Lore Weaver",
+                    "target": "稳健传说编织者"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Knowledge Artisan Stalwart",
+                    "target": "知识工匠中坚"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Wisdom Architect Virtuoso",
+                    "target": "智慧架构师大师"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Eternal Scholar Maestro",
+                    "target": "永恒学者大师"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Divine Omniscience Overlord",
+                    "target": "神圣全知霸主"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open Profile Leaf",
+                    "target": "打开个人资料叶片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Close Profile Leaf",
+                    "target": "关闭个人资料叶片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open booster pallete",
+                    "target": "打开加速器调色板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Initialize gamification ratings",
+                    "target": "初始化游戏化评分"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Reset game",
+                    "target": "重置游戏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Rate note majurity",
+                    "target": "评分笔记成熟度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle progressive summarization formatting",
+                    "target": "切换渐进式摘要格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Like the plugin? High five me on Ko-fi! No account needed!",
+                    "target": "喜欢这个插件？来 Ko-fi 给我击掌！无需账号！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Your Ingredients",
+                    "target": "你的材料"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Craft Boosters",
+                    "target": "制作增益"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "(Free every 22h)",
+                    "target": "（每 22 小时免费）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "(1000 total from all pots)",
+                    "target": "（所有锅总计 1000）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Gamified PKM Adventure",
+                    "target": "游戏化的 PKM 冒险"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Choose your path to power up!",
+                    "target": "选择你的升级之路！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Crafting Station",
+                    "target": "制作站"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Booster Hub",
+                    "target": "增益中心"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
