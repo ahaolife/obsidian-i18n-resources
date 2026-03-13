@@ -1,0 +1,301 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "generic-initiative-tracker",
+        "version": "1.0.0",
+        "title": "Generic Initiative Tracker",
+        "description": "Generic Initiative Tracker Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.3.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<h4 class=\"svelte-u7pobm\">No Players</h4>",
+                    "target": "<h4 class=\"svelte-u7pobm\">没有玩家</h4>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<p>Add a creature to get started!</p> \n            <small>Players may be created in settings.</small>",
+                    "target": "<p>添加一个生物以开始！</p> \n            <small>玩家可在设置中创建。</small>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "No creatures",
+                    "target": "没有生物"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Apply status:",
+                    "target": "应用状态："
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Apply damage(+) or healing(-):",
+                    "target": "应用伤害(+)或治疗(-)："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "initiative-tracker-player headers",
+                    "target": "initiative-tracker-player headers"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Initiative Tracker unloaded",
+                    "target": "先攻追踪器已卸载"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Homebrew creatures saved to the 5e Statblocks plugin will be available in the quick-add.",
+                    "target": "保存到 5e Statblocks 插件的自制生物将在快速添加中可用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "These players will always be added to new encounters.",
+                    "target": "这些玩家将始终添加到新遭遇中。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Player name. Must be unique!",
+                    "target": "玩家名称。必须唯一！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "This will be added to randomly-rolled initiatives.",
+                    "target": "这将添加到随机掷出的先攻中。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Sync Monsters from 5e Statblocks",
+                    "target": "从 5e 属性块同步怪物"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Initiative Formula",
+                    "target": "先攻公式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Add New Player",
+                    "target": "添加新玩家"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Max Hit Points",
+                    "target": "最大生命值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Armor Class",
+                    "target": "护甲等级"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Initiative Modifier",
+                    "target": "先攻修正"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Add Status",
+                    "target": "添加状态"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Add Player",
+                    "target": "添加玩家"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Max HP",
+                    "target": "最大 HP"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Armor Class",
+                    "target": "护甲等级"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Initiative Modifier",
+                    "target": "先攻修正"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Begin Encounter",
+                    "target": "开始遭遇"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Reset HP & Status",
+                    "target": "重置生命值与状态"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "New Encounter",
+                    "target": "新建遭遇"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Re-roll Initiatives",
+                    "target": "重新掷先攻"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Add Status",
+                    "target": "添加状态"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Add Creature",
+                    "target": "添加生物"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Roll Initiative",
+                    "target": "掷先攻"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Copy Initiative Order",
+                    "target": "复制先攻顺序"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "There was an error displaying the settings tab for Obsidian Initiative Tracker.",
+                    "target": "显示 Obsidian Initiative Tracker 的设置选项卡时出错。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Fix errors before saving.",
+                    "target": "保存前请修复错误。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Enter a valid initiative.",
+                    "target": "请输入有效的先攻值。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Enter a name!",
+                    "target": "请输入名称！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Could not find the Initiative Tracker. Try reloading the note!",
+                    "target": "未找到 Initiative Tracker。请尝试重新加载笔记！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open Initiative Tracker",
+                    "target": "打开 Initiative Tracker"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle Encounter",
+                    "target": "切换遭遇"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Next Combatant",
+                    "target": "下一个战斗者"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Previous Combatant",
+                    "target": "上一个战斗者"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Initiative Tracker Settings",
+                    "target": "Initiative Tracker 设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Initiative formula to use when calculating initiative. Use ",
+                    "target": "计算先攻时使用的公式。使用 "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " for the modifier placeholder.",
+                    "target": " 作为修正值占位符。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Requires the ",
+                    "target": "需要 "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Dice Roller",
+                    "target": "掷骰器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " plugin to modify.",
+                    "target": " 插件才能修改。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No saved players! Create one to see it here.",
+                    "target": "没有已保存的玩家！创建一个即可在此查看。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No encounters created. Please check your syntax and try again.",
+                    "target": "未创建遭遇。请检查语法后重试。"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
