@@ -1,0 +1,397 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "text-finder",
+        "version": "1.0.0",
+        "title": "Text Finder",
+        "description": "Text Finder Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.3.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Finder match error!",
+                    "target": "Finder 匹配错误！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "accessing an object - but returnObjects options is not enabled!",
+                    "target": "正在访问对象 - 但未启用 returnObjects 选项！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "This means something IS WRONG in your setup. You access the t function before i18next.init / i18next.loadNamespace / i18next.changeLanguage was done. Wait for the callback or Promise to resolve before accessing it!!!",
+                    "target": "这表示你的设置有问题。你在 i18next.init / i18next.loadNamespace / i18next.changeLanguage 完成之前访问了 t 函数。请等待回调或 Promise 解决后再访问！！！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "No backend was added via i18next.use. Will not load resources.",
+                    "target": "未通过 i18next.use 添加后端。将不会加载资源。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "init: no languageDetector is used and no lng is defined",
+                    "target": "init：未使用 languageDetector 且未定义 lng"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "init: i18next is already initialized. You should call init just once!",
+                    "target": "init：i18next 已经初始化。你应该只调用一次 init！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "hasLoadedNamespace: i18next was not initialized",
+                    "target": "hasLoadedNamespace：i18next 未初始化"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "When closing the search box, the search text will be cleared.",
+                    "target": "关闭搜索框时，搜索文本将被清除。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Force the use of source code mode during the search process (some search results cannot be directly displayed in live preview, such as images and hyperlinks).",
+                    "target": "在搜索过程中强制使用源代码模式（某些搜索结果无法在实时预览中直接显示，例如图片和超链接）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Move the cursor and select the current match when searching.",
+                    "target": "搜索时移动光标并选中当前匹配项。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Use the selected text as the search text.",
+                    "target": "将所选文本用作搜索文本。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "In reading mode, using the command  \"{{name}}\"  will invoke Obsidian's native search function(The search and replace provided by the plugin are only applicable to editing mode)",
+                    "target": "在阅读模式下，使用命令  \"{{name}}\"  将会调用 Obsidian 原生的搜索功能（插件提供的搜索与替换仅适用于编辑模式）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Enable navigating search history with Up/Down keys",
+                    "target": "启用使用 上/下 键浏览搜索历史"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Choose the sort order for history list",
+                    "target": "选择历史列表的排序方式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在关闭搜索窗口后清空搜索文本",
+                    "target": "在关闭搜索窗口后清空搜索文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "为输入框添加快捷键（Enter）。搜索：到下一个匹配项，替换：替换一次",
+                    "target": "为输入框添加快捷键（Enter）。搜索：到下一个匹配项，替换：替换一次"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在搜索过程中强制使用源代码模式（某些搜索结果无法直接显示在实时预览中，如图像和超链接）",
+                    "target": "在搜索过程中强制使用源代码模式（某些搜索结果无法直接显示在实时预览中，如图像和超链接）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "搜索时移动光标并选择当前匹配项",
+                    "target": "搜索时移动光标并选择当前匹配项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "将所选文本用作搜索文本",
+                    "target": "将所选文本用作搜索文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在阅读模式下，使用命令 \"{{name}}\" 将会调用Obsidian原生的搜索功能(插件提供的搜索与替换仅适用于编辑模式)",
+                    "target": "在阅读模式下，使用命令 \"{{name}}\" 将会调用Obsidian原生的搜索功能(插件提供的搜索与替换仅适用于编辑模式)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在正则表达式模式下，替换输入框中可以使用换行(LF)和水平制表符(HT)的转义字符",
+                    "target": "在正则表达式模式下，替换输入框中可以使用换行(LF)和水平制表符(HT)的转义字符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "启用后，可以通过上下键切换搜索历史",
+                    "target": "启用后，可以通过上下键切换搜索历史"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "保存的搜索历史记录的最大数量",
+                    "target": "保存的搜索历史记录的最大数量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "选择历史记录列表的排序顺序",
+                    "target": "选择历史记录列表的排序顺序"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Text Finder",
+                    "target": "文本查找器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open search in current file",
+                    "target": "在当前文件中打开搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open search & replace in current file",
+                    "target": "在当前文件中打开搜索和替换"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Hide finder",
+                    "target": "隐藏查找器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle replacer",
+                    "target": "切换替换器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle finder",
+                    "target": "切换查找器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Previous match",
+                    "target": "上一个匹配"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Next match",
+                    "target": "下一个匹配"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Replace in current file",
+                    "target": "在当前文件中替换"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Replace all in current file",
+                    "target": "在当前文件中全部替换"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show search history",
+                    "target": "显示搜索历史"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Clear search text",
+                    "target": "清除搜索文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Enable input box hotkey",
+                    "target": "启用输入框快捷键"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Force source code mode during search",
+                    "target": "搜索时强制源代码模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Use selected text as search text",
+                    "target": "使用选中文本作为搜索文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Using Obsidian's native search in reading",
+                    "target": "阅读时使用 Obsidian 原生搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Enable Search History",
+                    "target": "启用搜索历史"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Max History Count",
+                    "target": "最大历史数量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "History Sort Order",
+                    "target": "历史排序顺序"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "在当前文件中：打开查找",
+                    "target": "在当前文件中：打开查找"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "在当前文件中：打开查找与替换",
+                    "target": "在当前文件中：打开查找与替换"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "关闭查找窗口",
+                    "target": "关闭查找窗口"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "切换替换窗口",
+                    "target": "切换替换窗口"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "切换查找窗口",
+                    "target": "切换查找窗口"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "上一个匹配",
+                    "target": "上一个匹配"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "下一个匹配",
+                    "target": "下一个匹配"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "在当前文件中：替换",
+                    "target": "在当前文件中：替换"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "在当前文件中：替换所有",
+                    "target": "在当前文件中：替换所有"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "显示搜索历史",
+                    "target": "显示搜索历史"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "清空搜索文本",
+                    "target": "清空搜索文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "启用输入框的快捷键",
+                    "target": "启用输入框的快捷键"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "搜索时强制源代码模式",
+                    "target": "搜索时强制源代码模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "将光标移动至匹配项",
+                    "target": "将光标移动至匹配项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "将所选内容用作搜索文本",
+                    "target": "将所选内容用作搜索文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "阅读模式下使用Obsidian搜索",
+                    "target": "阅读模式下使用Obsidian搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "支持替换输入框中使用转义字符",
+                    "target": "支持替换输入框中使用转义字符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "启用搜索历史",
+                    "target": "启用搜索历史"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "历史记录最大数量",
+                    "target": "历史记录最大数量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "历史记录排序方式",
+                    "target": "历史记录排序方式"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
