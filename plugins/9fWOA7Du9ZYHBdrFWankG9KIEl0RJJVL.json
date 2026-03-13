@@ -1,0 +1,241 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-plugin-groups",
+        "version": "1.0.0",
+        "title": "Plugin Groups",
+        "description": "Plugin Groups Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.1.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Editing Plugin: ",
+                    "target": "正在编辑插件："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createSpan",
+                    "source": "No Plugins loaded, please contact Dev",
+                    "target": "未加载任何插件，请联系开发人员"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createSpan",
+                    "source": "Plugins Not Loaded, please contact Dev.",
+                    "target": "插件未加载，请联系开发人员。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to create Group, please choose a different Name as there have been to many groups with the same name",
+                    "target": "创建组失败，请选择不同的名称，因为已有过多同名组"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Set as Current",
+                    "target": "设为当前"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Add Commands to enable/disable this group",
+                    "target": "添加命令以启用/禁用此组"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Automatically add new Plugins to this group",
+                    "target": "自动将新插件添加到此组"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Current Device",
+                    "target": "当前设备"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Auto Add",
+                    "target": "自动添加"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Load on Startup",
+                    "target": "启动时加载"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Add Group",
+                    "target": "添加组"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Development Logs",
+                    "target": "开发日志"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Load Synchronously",
+                    "target": "同步加载"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Generate Commands for Groups",
+                    "target": "为组生成命令"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Notice upon un-/loading groups",
+                    "target": "组加载/卸载时通知"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Statusbar Menu",
+                    "target": "状态栏菜单"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "New Device",
+                    "target": "新设备"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Search for Plugin...",
+                    "target": "搜索插件..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Search for Groups...",
+                    "target": "搜索组..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter group name...",
+                    "target": "输入组名..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Device Name",
+                    "target": "设备名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Duplicate this group",
+                    "target": "复制此组"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Refresh list for changes to the plugins and assigned groups.",
+                    "target": "刷新列表以更新插件和分配组的更改。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Couldn't add this group, it would create a loop of group activations:\n Group A → Group B → Group A",
+                    "target": "无法添加此组，这将创建组激活的循环：\n Group A → Group B → Group A"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Name already in use for other device",
+                    "target": "名称已被其他设备使用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "All groups",
+                    "target": "所有组"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Filter Groups",
+                    "target": "筛选组"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Bulk Select",
+                    "target": "批量选择"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Select all",
+                    "target": "全选"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Deselect all",
+                    "target": "取消全选"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Time on Load",
+                    "target": "加载时长"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Filters:",
+                    "target": "筛选器："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Existing Devices",
+                    "target": "现有设备"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Startup: ",
+                    "target": "启动： "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Inactive: ",
+                    "target": "未激活： "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Not enabled for current Device",
+                    "target": "当前设备未启用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Advanced Settings",
+                    "target": "高级设置"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
