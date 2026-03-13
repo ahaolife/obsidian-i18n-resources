@@ -1,0 +1,607 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "wayback-archiver",
+        "version": "1.0.0",
+        "title": "Wayback Archiver",
+        "description": "Wayback Archiver Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.3",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "This is used globally across all profiles. ",
+                    "target": "这会在所有配置文件中全局使用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "These options correspond to parameters available in the Archive.org SPN API v2. ",
+                    "target": "这些选项对应于 Archive.org SPN API v2 中可用的参数。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error creating failed_logs folder:",
+                    "target": "创建 failed_logs 文件夹时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error exporting failed archive log:",
+                    "target": "导出失败的归档日志时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Create profile",
+                    "target": "创建配置文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Rename profile",
+                    "target": "重命名配置文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Delete profile",
+                    "target": "删除配置文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Add substitution rule",
+                    "target": "添加替换规则"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Your S3-like access key for the SPN API v2.",
+                    "target": "用于 SPN API v2 的 S3 类访问密钥。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Your S3-like secret key for the SPN API v2.",
+                    "target": "用于 SPN API v2 的 S3 类秘密密钥。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Select the settings profile to use.",
+                    "target": "选择要使用的设置配置文件。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Format for the {date} placeholder in the archive link text (using date-fns format).",
+                    "target": "归档链接文本中 {date} 占位符的格式（使用 date-fns 格式）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Text used for the inserted archive link. Use {date} as a placeholder.",
+                    "target": "用于插入的归档链接的文本。使用 {date} 作为占位符。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "URLs matching these patterns (one per line, regex or simple text) will be ignored. Example: youtube\\.com or internal-wiki",
+                    "target": "匹配这些模式的 URL（每行一个，正则或纯文本）将被忽略。示例：youtube\\.com 或 internal-wiki"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Delay between API calls (initiate, status check, next link) in milliseconds.",
+                    "target": "API 调用（启动、状态检查、下一个链接）之间的延迟（毫秒）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Maximum number of times to check the status of a pending archive job.",
+                    "target": "检查待处理归档任务状态的最大次数。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Only archive if the URL has not been archived within this many days (0 = always archive if not present). Uses SPN API `if_not_archived_within`.",
+                    "target": "仅当该 URL 在指定天数内未被归档时才归档（0 = 若不存在则始终归档）。使用 SPN API `if_not_archived_within`。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Automatically clear failed logs after successful retries without confirmation.",
+                    "target": "成功重试后自动清除失败日志，无需确认。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Request a screenshot of the page during archiving (SPN option).",
+                    "target": "归档时请求页面截图（SPN 选项）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Max time (milliseconds) to allow JS execution during capture (0 = default). (SPN option)",
+                    "target": "捕获期间允许 JS 执行的最长时间（毫秒）（0 = 默认）。（SPN 选项）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Force the archiver to use a GET request (SPN option).",
+                    "target": "强制归档器使用 GET 请求（SPN 选项）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Archive.org API keys (global)",
+                    "target": "Archive.org API 密钥（全局）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Archive.org SPN access key",
+                    "target": "Archive.org SPN 访问密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Archive.org SPN secret key",
+                    "target": "Archive.org SPN 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Active profile",
+                    "target": "当前配置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Archive link format",
+                    "target": "归档链接格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Date format",
+                    "target": "日期格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Archive link text",
+                    "target": "归档链接文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Filtering rules (optional)",
+                    "target": "过滤规则（可选）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Ignore URL patterns",
+                    "target": "忽略 URL 模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Path patterns",
+                    "target": "路径模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "URL patterns",
+                    "target": "URL 模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Word/phrase patterns",
+                    "target": "单词/短语模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "URL substitution rules",
+                    "target": "URL 替换规则"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "API request delay (ms)",
+                    "target": "API 请求延迟（毫秒）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Max status check retries",
+                    "target": "状态检查最大重试次数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Archive freshness (days)",
+                    "target": "归档新鲜度（天）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Auto clear failed logs",
+                    "target": "自动清除失败日志"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "SPN API v2 options",
+                    "target": "SPN API v2 选项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Capture screenshot",
+                    "target": "截图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Capture all resources (capture_all=1)",
+                    "target": "捕获所有资源 (capture_all=1)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "JS behavior timeout (ms)",
+                    "target": "JS 行为超时 (ms)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Force GET request (force_get=1)",
+                    "target": "强制 GET 请求 (force_get=1)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Capture outlinks (capture_outlinks=1)",
+                    "target": "捕获外链 (capture_outlinks=1)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter your access key",
+                    "target": "输入你的访问密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter your secret key",
+                    "target": "输入你的密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "(Archived on {date})",
+                    "target": "（归档于 {date}）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "example\\.com\ninternal-server",
+                    "target": "example\\.com\ninternal-server"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "^Journal/.*\nProjects/MyProject/",
+                    "target": "^Journal/.*\nProjects/MyProject/"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "^https://specific-domain\\.com/\nnews-site",
+                    "target": "^https://specific-domain\\.com/\nnews-site"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Project Alpha\n#research-topic",
+                    "target": "项目 Alpha\n#research-topic"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter number of days (e.g., 90)",
+                    "target": "输入天数（例如 90）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Error parsing adjacent link timestamp:",
+                    "target": "解析相邻链接时间戳时出错："
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error: Archive.org SPN API keys not configured in settings.",
+                    "target": "错误：未在设置中配置 Archive.org SPN API 密钥。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Daily capture limit likely reached. No recent snapshot found, using wildcard URL.",
+                    "target": "可能已达到每日捕获上限。未找到最近的快照，使用通配符 URL。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error: Could not get the current file.",
+                    "target": "错误：无法获取当前文件。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No suitable links found in selection.",
+                    "target": "所选内容中未找到合适的链接。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Starting vault-wide link archiving... This may take time.",
+                    "target": "开始对整个库进行链接归档……这可能需要一些时间。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No suitable links found in selection to force re-archive.",
+                    "target": "所选内容中未找到可强制重新归档的合适链接。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Starting vault-wide force re-archiving... This may take time.",
+                    "target": "开始对整个库进行强制重新归档……这可能需要一些时间。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No failed log files found in folder.",
+                    "target": "文件夹中未找到失败日志文件。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Retry cancelled.",
+                    "target": "已取消重试。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Unsupported file format.",
+                    "target": "不支持的文件格式。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No failed archives found in selected file.",
+                    "target": "所选文件中未找到失败归档。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "All failed entries retried successfully. Log file deleted.",
+                    "target": "所有失败条目已成功重试。日志文件已删除。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error loading failed log file.",
+                    "target": "加载失败日志文件时出错。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please open a markdown file first.",
+                    "target": "请先打开一个 Markdown 文件。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Vault-wide archiving cancelled.",
+                    "target": "已取消全库归档。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Vault-wide force re-archiving cancelled.",
+                    "target": "已取消全库强制重新归档。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No failed archives to export.",
+                    "target": "没有可导出的失败归档。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Export cancelled.",
+                    "target": "导出已取消。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed archive log cleared.",
+                    "target": "失败的归档日志已清除。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Profile creation cancelled.",
+                    "target": "配置文件创建已取消。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Cannot rename the default profile.",
+                    "target": "无法重命名默认配置文件。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "New name is the same as the current name.",
+                    "target": "新名称与当前名称相同。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Profile rename cancelled.",
+                    "target": "配置文件重命名已取消。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Cannot delete the default profile.",
+                    "target": "无法删除默认配置文件。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Profile deletion cancelled.",
+                    "target": "配置文件删除已取消。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Archive links in current note",
+                    "target": "归档当前笔记中的链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Archive all links in vault",
+                    "target": "归档库中的所有链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Force re-archive links in current note",
+                    "target": "强制重新归档当前笔记中的链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Force re-archive all links in vault",
+                    "target": "强制重新归档库中的所有链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Export failed archive log",
+                    "target": "导出失败归档日志"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Clear failed archive log",
+                    "target": "清除失败归档日志"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Enter profile name",
+                    "target": "输入配置名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Find (text or regex)",
+                    "target": "查找（文本或正则）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Replace with",
+                    "target": "替换为"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Do you want to proceed?",
+                    "target": "是否继续？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Enter profile name",
+                    "target": "输入配置名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Choose export format",
+                    "target": "选择导出格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Select the format for the failed archive log:",
+                    "target": "选择失败归档日志的格式："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Select failed log file",
+                    "target": "选择失败日志文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Choose a failed archive log file to retry:",
+                    "target": "选择一个失败的归档日志文件以重试："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "You can generate your API keys here.",
+                    "target": "你可以在此生成你的 API 密钥。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Define patterns to ONLY archive links within notes matching these criteria. If multiple filter types are used, the note/link must match ALL active filter types.",
+                    "target": "定义模式以仅归档符合这些条件的笔记内链接。如果使用多个筛选类型，笔记/链接必须匹配所有已启用的筛选类型。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "See documentation for details.",
+                    "target": "详情请参阅文档。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No substitution rules defined.",
+                    "target": "未定义替换规则。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Regex?",
+                    "target": "正则表达式？"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
