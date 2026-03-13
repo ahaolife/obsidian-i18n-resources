@@ -1,0 +1,18 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "markdown-sync-scroll",
+        "version": "1.0.0",
+        "title": "Markdown Sync Scroll",
+        "description": "Markdown Sync Scroll Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.1.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [],
+            "regex": []
+        }
+    }
+}
