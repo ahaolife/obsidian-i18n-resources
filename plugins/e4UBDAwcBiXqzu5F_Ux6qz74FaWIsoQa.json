@@ -1,0 +1,151 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "dangerzone-writing-plugin",
+        "version": "1.0.0",
+        "title": "Dangerzone Writing",
+        "description": "Dangerzone Writing Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.0.11",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Found existing settings file for Dangerzone Writing",
+                    "target": "已找到 Dangerzone Writing 的现有设置文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "No settings file found, creating for Dangerzone Writing",
+                    "target": "未找到设置文件，正在为 Dangerzone Writing 创建"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "How many seconds you want your Dangerzone Writing session to last",
+                    "target": "你希望 Dangerzone Writing 会话持续多少秒"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "How many seconds until your text is deleted",
+                    "target": "多少秒后你的文本会被删除"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Countdown Seconds",
+                    "target": "倒计时秒数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Dangerzone Seconds",
+                    "target": "危险区秒数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Session Font-Size",
+                    "target": "会话字体大小"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Session Background Color",
+                    "target": "会话背景颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "black, maroon, #CCC",
+                    "target": "black, maroon, #CCC"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Dangerzone session finished!",
+                    "target": "Dangerzone 会话已结束！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Dangerzone Writing session started!",
+                    "target": "Dangerzone 写作会话已开始！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No editor active",
+                    "target": "没有活动的编辑器"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No file open.",
+                    "target": "未打开文件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Shortcut for starting a Dangerzone Writing session",
+                    "target": "启动 Dangerzone 写作会话的快捷方式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Dangerzone Writing Plugin",
+                    "target": "Dangerzone 写作插件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Your Writing Stats",
+                    "target": "你的写作统计"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Writing Session Timing Settings",
+                    "target": "写作会话计时设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Immersive Writing Settings",
+                    "target": "沉浸式写作设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Thank You",
+                    "target": "谢谢"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Thank you ryanjamurphy, roberthaisfield, macedotavares, afokapu, tristanbailey, lukeleppan, AutonomyGaps and hicsuntdragons for your feedback and support.",
+                    "target": "感谢 ryanjamurphy、roberthaisfield、macedotavares、afokapu、tristanbailey、lukeleppan、AutonomyGaps 和 hicsuntdragons 的反馈与支持。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Visit the forum for feedback",
+                    "target": "访问论坛以提供反馈"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "This plugin is provided as-is with NO warranty that it'll work exactly as you expect. It's made to DELETE text in a note after X seconds of inactivity when you're start a session. Please do not hold me responsible if it does, in fact, DELETE your text. That's what it does. On the other hand there is always the possibility of a bug that makes this plugin behave unexpectedly.",
+                    "target": "此插件按原样提供，不保证能完全按你的预期工作。它用于在你开始会话后，笔记在 X 秒无操作时删除文本。若它确实删除了你的文本，请不要追究我的责任。这就是它的功能。另一方面，也始终可能存在导致此插件行为异常的漏洞。"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
