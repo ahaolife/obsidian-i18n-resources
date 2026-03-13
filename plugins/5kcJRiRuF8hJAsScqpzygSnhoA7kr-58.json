@@ -1,0 +1,61 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "checkbox-styling-helper",
+        "version": "1.0.0",
+        "title": "Checkbox styling helper",
+        "description": "Checkbox styling helper Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.3.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Loading IconCheckboxPlugin",
+                    "target": "正在加载 IconCheckboxPlugin"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Unloading IconCheckboxPlugin",
+                    "target": "正在卸载 IconCheckboxPlugin"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set custom word to trigger the icon picker",
+                    "target": "设置自定义词以触发图标选择器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Custom Modal Trigger",
+                    "target": "自定义弹窗触发词"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter a custom trigger",
+                    "target": "输入自定义触发词"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Clue / Find",
+                    "target": "线索 / 查找"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open icon picker",
+                    "target": "打开图标选择器"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
