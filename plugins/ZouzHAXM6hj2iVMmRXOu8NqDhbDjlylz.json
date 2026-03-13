@@ -1,0 +1,18 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "attachment-manager",
+        "version": "1.0.0",
+        "title": "Attachment Manager",
+        "description": "Attachment Manager Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.2.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [],
+            "regex": []
+        }
+    }
+}
