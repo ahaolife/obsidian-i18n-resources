@@ -1,0 +1,73 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-enhancing-mindmap",
+        "version": "1.0.0",
+        "title": "Enhancing Mindmap",
+        "description": "Enhancing Mindmap Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.2.5",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "mind map",
+                    "target": "思维导图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error: kanban locale not found",
+                    "target": "错误：未找到看板语言环境"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error creating mindmap board:",
+                    "target": "创建思维导图板时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "stroke array is error",
+                    "target": "stroke 数组错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Example: black|white|#ccc",
+                    "target": "示例：black|white|#ccc"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Example: 16",
+                    "target": "示例：16"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Example: red,orange,blue ...",
+                    "target": "示例：red,orange,blue ..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Use of TBox is deprecated and mapped to RBox. Use .rbox() instead.",
+                    "target": "TBox 已弃用并映射到 RBox。请使用 .rbox() 代替。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Parse xmind error",
+                    "target": "解析 xmind 出错"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
