@@ -1,0 +1,37 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "fountain-editor",
+        "version": "1.0.0",
+        "title": "Fountain Editor",
+        "description": "Fountain Editor Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.4.3",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Character regex broken; char ext segment should exist",
+                    "target": "字符正则损坏；应存在字符扩展段"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Prefer Obsidian's blockquote over Fountain's forced Transition",
+                    "target": "优先使用 Obsidian 的块引用而非 Fountain 强制的转场"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Fountain Editor Settings",
+                    "target": "Fountain 编辑器设置"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
