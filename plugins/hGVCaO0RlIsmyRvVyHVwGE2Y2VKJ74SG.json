@@ -1,0 +1,193 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "card-viewer",
+        "version": "1.0.0",
+        "title": "Card Viewer",
+        "description": "Card Viewer Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.12",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "未找到图片",
+                    "target": "未找到图片"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "图片加载失败",
+                    "target": "图片加载失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "HTML渲染失败:",
+                    "target": "HTML渲染失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to reopen settings:",
+                    "target": "无法重新打开设置："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Plugin restart failed:",
+                    "target": "插件重启失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "CardViewer: Failed to save settings:",
+                    "target": "CardViewer：无法保存设置："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "是否启用 HTML 代码块的解析和渲染功能",
+                    "target": "是否启用 HTML 代码块的解析和渲染功能"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "启用后，仅当 ```html 代码块开头包含 <!-- html-preview -->（允许空行/空白）时才渲染；否则保持原始代码显示。",
+                    "target": "启用后，仅当 ```html 代码块开头包含 <!-- html-preview -->（允许空行/空白）时才渲染；否则保持原始代码显示。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "启用 HTML 解析",
+                    "target": "启用 HTML 解析"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "使用预览标记精确控制 HTML 渲染",
+                    "target": "使用预览标记精确控制 HTML 渲染"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "CardViewer: Post processor error:",
+                    "target": "CardViewer：后处理器错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "CardViewer: Failed to load settings:",
+                    "target": "CardViewer：加载设置失败："
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "HTML解析已禁用，正在重启插件...",
+                    "target": "HTML解析已禁用，正在重启插件..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "HTML解析已启用",
+                    "target": "HTML解析已启用"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "HTML 预览标记控制已启用，正在重启插件...",
+                    "target": "HTML 预览标记控制已启用，正在重启插件..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "已禁用 HTML 预览标记控制",
+                    "target": "已禁用 HTML 预览标记控制"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "插件重启完成，设置页面已重新打开",
+                    "target": "插件重启完成，设置页面已重新打开"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "插件重启完成",
+                    "target": "插件重启完成"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "插件重启失败，请手动重启",
+                    "target": "插件重启失败，请手动重启"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Card Processors",
+                    "target": "卡片处理器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "HTML Processor",
+                    "target": "HTML 处理器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Post Processor",
+                    "target": "后处理器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Invalid card format",
+                    "target": "卡片格式无效"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "📷",
+                    "target": "📷"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "图片加载失败",
+                    "target": "图片加载失败"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "暂无图片",
+                    "target": "暂无图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Failed to load image",
+                    "target": "图片加载失败"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Card Viewer 设置",
+                    "target": "卡片查看器设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "空的HTML内容",
+                    "target": "空的HTML内容"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
