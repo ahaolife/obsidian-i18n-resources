@@ -1,0 +1,97 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "hash-pasted-image",
+        "version": "1.0.0",
+        "title": "Hash Pasted Image",
+        "description": "Hash Pasted Image Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.3.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Base64 URL",
+                    "target": "Base64 URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Algorithm to hash the pasted image name.",
+                    "target": "用于对粘贴的图片名称进行哈希的算法。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Binary-to-text encoding.",
+                    "target": "二进制转文本编码。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Turn on to rename image files (not copy from clipboard) copied to the vault. Support formats: jpg, jpeg, png, gif, bmp, tiff, tif, webp, heif, heic, svg, ico.",
+                    "target": "开启后将复制到库中的图片文件重命名（不是从剪贴板复制）。支持格式：jpg、jpeg、png、gif、bmp、tiff、tif、webp、heif、heic、svg、ico。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Turn on to rename other files (video, audio, document) copied to the vault. See supported formats in the code.",
+                    "target": "开启后将复制到库中的其他文件（视频、音频、文档）重命名。支持格式请见代码。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show a notification when a pasted image is renamed.",
+                    "target": "当粘贴的图片被重命名时显示通知。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Gen hash by filename or file context",
+                    "target": "按文件名或文件内容生成哈希"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Hash Algorithm",
+                    "target": "哈希算法"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Encoding Digest",
+                    "target": "编码摘要"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Copy Image File Support",
+                    "target": "复制图片文件支持"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Others File Support",
+                    "target": "其他文件支持"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Hash Pasted Image Settings",
+                    "target": "哈希粘贴图片设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Auto rename pasted images added to the vault via hash algorithm SHA-512",
+                    "target": "通过哈希算法 SHA-512 自动重命名添加到库中的粘贴图片"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
