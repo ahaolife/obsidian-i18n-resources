@@ -1,0 +1,115 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "webdav-file-explorer",
+        "version": "1.0.0",
+        "title": "Webdav File Explorer",
+        "description": "Webdav File Explorer Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.3.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Data not ready.",
+                    "target": "数据尚未就绪。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Error: webdav client is not initialized!",
+                    "target": "错误：webdav 客户端未初始化！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "already exists",
+                    "target": "已存在"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "WebDAV 服务器的端口",
+                    "target": "WebDAV 服务器的端口"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "WebDAV 服务器的用户名",
+                    "target": "WebDAV 服务器的用户名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "WebDAV 服务器的密码",
+                    "target": "WebDAV 服务器的密码"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "WebDAV 根路径",
+                    "target": "WebDAV 根路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The path to the root folder to display in the file explorer",
+                    "target": "在文件资源管理器中显示的根文件夹路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "WebDAV: address",
+                    "target": "WebDAV：地址"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "WebDAV: user",
+                    "target": "WebDAV：用户"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "WebDAV: password",
+                    "target": "WebDAV：密码"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Root folder path",
+                    "target": "根文件夹路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Copy Path",
+                    "target": "复制路径"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Cannot find a file with that name",
+                    "target": "无法找到该名称的文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open Webdav File Explorer",
+                    "target": "打开 Webdav 文件资源管理器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Webdav File Explorer Settings",
+                    "target": "Webdav 文件资源管理器设置"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
