@@ -1,0 +1,2431 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "infio-copilot",
+        "version": "1.0.0",
+        "title": "Infio Copilot",
+        "description": "Infio Copilot Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.8.6",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "移动端需要会员才能使用，需要填入 API Key 然后点击升级Pro按钮 ",
+                    "target": "移动端需要会员才能使用，需要填入 API Key 然后点击升级Pro按钮 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "datafile-source-view mod-cm6",
+                    "target": "datafile-source-view mod-cm6"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Invalid icon loader:",
+                    "target": "无效的图标加载器："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Bailing out",
+                    "target": "退出处理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "error while parsing gitGraph options",
+                    "target": "解析 gitGraph 选项时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "error while parsing actor link text",
+                    "target": "解析 actor 链接文本时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "error while parsing actor properties text",
+                    "target": "解析 actor 属性文本时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "error while parsing actor details text",
+                    "target": "解析 actor 详情文本时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "error while drawing message",
+                    "target": "绘制消息时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "❌ Error injecting clickable links:",
+                    "target": "❌ 注入可点击链接时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error creating format function:",
+                    "target": "创建格式化函数时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Use the suppressErrors option to suppress these errors",
+                    "target": "使用 suppressErrors 选项来抑制这些错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Mermaid failed to initialize",
+                    "target": "Mermaid 初始化失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error executing queue",
+                    "target": "执行队列时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error parsing",
+                    "target": "解析错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "our points",
+                    "target": "我们的点"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Circle intersect",
+                    "target": "圆形 相交"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "crossedCircle intersect",
+                    "target": "crossedCircle 相交"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "DoubleCircle intersect",
+                    "target": "DoubleCircle 相交"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "filledCircle intersect",
+                    "target": "filledCircle 相交"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Triangle intersect",
+                    "target": "三角形 相交"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Pill intersect",
+                    "target": "药丸形 相交"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "iconSquare intersect",
+                    "target": "iconSquare 相交"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "lightningBolt intersect",
+                    "target": "lightningBolt 相交"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Text 2",
+                    "target": "文本 2"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Creating subgraph rect for ",
+                    "target": "正在为以下对象创建子图矩形 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "abc88 checking point",
+                    "target": "abc88 检查点"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "to cluster abc88",
+                    "target": "到集群 abc88"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Descendants of ",
+                    "target": "的后代 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": " is ",
+                    "target": " 是 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Edge is ",
+                    "target": "边是 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "cp ",
+                    "target": "cp "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": " to ",
+                    "target": " 到 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": " with parent ",
+                    "target": " 具有父级 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "In copy ",
+                    "target": "在复制中 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Edge data",
+                    "target": "边数据"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Copying as ",
+                    "target": "复制为 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "newGraph edges ",
+                    "target": "newGraph 边 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Skipping copy of edge ",
+                    "target": "跳过复制边 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": " rootId: ",
+                    "target": " rootId: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": " clusterId:",
+                    "target": " clusterId:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Recursive render XXX",
+                    "target": "递归渲染 XXX"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No nodes found for",
+                    "target": "未找到节点用于"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Recursive edges",
+                    "target": "递归边"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Cluster identified XBX",
+                    "target": "识别到集群 XBX"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "New compound node after recursive render XAX",
+                    "target": "递归渲染后新的复合节点 XAX"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "ids:",
+                    "target": "ID："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Translating: ",
+                    "target": "正在翻译："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Graph before layout:",
+                    "target": "布局前的图："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "############################################# XXX",
+                    "target": "############################################# XXX"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "###                Layout                 ### XXX",
+                    "target": "###                布局                 ### XXX"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Graph after layout:",
+                    "target": "布局后的图："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": ") width: ",
+                    "target": ") 宽度："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": " height: ",
+                    "target": " 高度："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "A tainted cluster node XBX1",
+                    "target": "一个被污染的集群节点 XBX1"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "A pure cluster node XBX1",
+                    "target": "一个纯净的集群节点 XBX1"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "A regular node XBX1 - using the padding",
+                    "target": "一个常规节点 XBX1 - 使用内边距"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "abc78 Got edge...",
+                    "target": "abc78 获取到边..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Pushing edge...",
+                    "target": "正在推送边..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "REF0:",
+                    "target": "REF0:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Drawing state diagram (v2)",
+                    "target": "正在绘制状态图（v2）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Added new entity :",
+                    "target": "已添加新实体："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Drawing er diagram (unified)",
+                    "target": "正在绘制 ER 图（统一版）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "main branch",
+                    "target": "主分支"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "clear called",
+                    "target": "调用了 clear"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Drawing class diagram (v3)",
+                    "target": "正在绘制类图（v3）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "🔗 Wrapped node in <a> tag for:",
+                    "target": "🔗 已为以下内容将节点包裹在 <a> 标签中："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Setting cluster for XCX",
+                    "target": "为 XCX 设置集群"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Setting root doc",
+                    "target": "设置根文档"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Adding state ",
+                    "target": "正在添加状态 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Setting state description",
+                    "target": "设置状态描述"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Setting state classes",
+                    "target": "设置状态类"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Setting state styles",
+                    "target": "设置状态样式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Documents = ",
+                    "target": "文档 = "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Title height",
+                    "target": "标题高度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "id:",
+                    "target": "id:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Position: (",
+                    "target": "位置: ("
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": ", ",
+                    "target": ", "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Node: ",
+                    "target": "节点: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Classes = ",
+                    "target": "类 = "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Question main (Circle)",
+                    "target": "问题主（圆形）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Label text abc79",
+                    "target": "标签文本 abc79"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Circle main",
+                    "target": "主圆形"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "DoubleCircle main",
+                    "target": "主双圆形"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "升级到Pro",
+                    "target": "升级到Pro"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "加载中...",
+                    "target": "加载中..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Open settings",
+                    "target": "打开设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "用于验证并下载移动端正式版本",
+                    "target": "用于验证并下载移动端正式版本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "填写 API Key 后点击下载并升级到正式移动版",
+                    "target": "填写 API Key 后点击下载并升级到正式移动版"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Infio API Key",
+                    "target": "Infio API Key"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "升级到Pro",
+                    "target": "升级到Pro"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "本地嵌入测试结果",
+                    "target": "本地嵌入测试结果"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "abc88 cutPathAtIntersect",
+                    "target": "abc88 cutPathAtIntersect"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "abc88 no intersect",
+                    "target": "abc88 无交点"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "abc88 outside",
+                    "target": "abc88 在外部"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Copying children of ",
+                    "target": "正在复制子项： "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Copying (nodes) clusterId",
+                    "target": "正在复制（节点）clusterId"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Setting parent",
+                    "target": "设置父级"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Cluster identified",
+                    "target": "已识别集群"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Edge: ",
+                    "target": "边: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": " leaves cluster ",
+                    "target": " 离开集群 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Descendants of XXX ",
+                    "target": "XXX 的后代 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": ": ",
+                    "target": ": "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Fix XXX",
+                    "target": "修复 XXX"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "ids:",
+                    "target": "ids:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Translating: ",
+                    "target": "正在转换： "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": " --- ",
+                    "target": " --- "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Fix Replacing with XXX",
+                    "target": "修复：替换为 XXX"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Adjusted Graph",
+                    "target": "已调整的图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "extractor - ",
+                    "target": "提取器 - "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Cluster without external connections, without a parent and with children",
+                    "target": "没有外部连接、没有父级且有子级的集群"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Fixing dir",
+                    "target": "正在修复 dir"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Old graph before copy",
+                    "target": "复制前的旧图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "New graph after copy node: (",
+                    "target": "复制节点后的新图：（"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Cluster ** ",
+                    "target": "集群 ** "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": " **not meeting the criteria !externalConnections:",
+                    "target": " **不符合条件 !externalConnections:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": " no parent: ",
+                    "target": " 无父级： "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": " children ",
+                    "target": " 子级 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "New list of nodes",
+                    "target": "新的节点列表"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": " Now next level",
+                    "target": " 现在进入下一层级"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Graph in recursive render:XAX",
+                    "target": "递归渲染中的图：XAX"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Returning from recursive render XAX",
+                    "target": "从递归渲染 XAX 返回"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Graph at first:",
+                    "target": "初始图："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Graph after XAX:",
+                    "target": "XAX 后的图："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "flowchart-elk was moved to an external package in Mermaid v11. Please refer [release notes](https://github.com/mermaid-js/mermaid/releases/tag/v11.0.0) for more details. This diagram will be rendered using `dagre` layout as a fallback.",
+                    "target": "flowchart-elk 在 Mermaid v11 中已移至外部包。更多详情请参阅[发布说明](https://github.com/mermaid-js/mermaid/releases/tag/v11.0.0)。该图将使用 `dagre` 布局作为回退渲染。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "The difference between the min and max time is more than 5 years. This will cause performance issues. Skipping drawing exclude days.",
+                    "target": "最小和最大时间的差值超过 5 年。这将导致性能问题。跳过绘制排除日期。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "⚠️ Invalid or missing stateId from key:",
+                    "target": "⚠️ 键中的 stateId 无效或缺失："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "⚠️ Could not find node matching text:",
+                    "target": "⚠️ 未找到匹配文本的节点："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "⚠️ Node has no parent, cannot wrap:",
+                    "target": "⚠️ 节点没有父级，无法包裹："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Adding link",
+                    "target": "正在添加链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Intersect called",
+                    "target": "调用了 Intersect"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "mermaid.init is deprecated. Please use run instead.",
+                    "target": "mermaid.init 已弃用。请改用 run。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "正在加载...",
+                    "target": "正在加载..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "加载完成，成功升级",
+                    "target": "加载完成，成功升级"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "插件重载完成",
+                    "target": "插件重载完成"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "插件重载失败，请手动重启插件",
+                    "target": "插件重载失败，请手动重启插件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请先在Infio Provider设置中配置 Infio API Key",
+                    "target": "请先在Infio Provider设置中配置 Infio API Key"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "您的账户不是会员用户, 请先购买会员",
+                    "target": "您的账户不是会员用户, 请先购买会员"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "无法获取下载地址，请稍后再试",
+                    "target": "无法获取下载地址，请稍后再试"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "升级过程中发生错误",
+                    "target": "升级过程中发生错误"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "切换工作区失败",
+                    "target": "切换工作区失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to save chat history",
+                    "target": "无法保存聊天记录"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Copilot is now disabled.",
+                    "target": "Copilot 已被禁用。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Copilot: Something went wrong cannot make a prediction. Full error is available in the dev console. Please check your settings. ",
+                    "target": "Copilot：出现错误，无法进行预测。完整错误信息可在开发者控制台中查看。请检查你的设置。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "无法获取插件实例",
+                    "target": "无法获取插件实例"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "DataviewManager 未初始化",
+                    "target": "DataviewManager 未初始化"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Dataview 插件未安装或未启用",
+                    "target": "Dataview 插件未安装或未启用"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Dataview 查询成功！结果已在控制台输出",
+                    "target": "Dataview 查询成功！结果已在控制台输出"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "执行测试查询时发生错误",
+                    "target": "执行测试查询时发生错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Close preview",
+                    "target": "关闭预览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "body",
+                    "source": "<g><rect width=\"80\" height=\"80\" style=\"fill: #087ebf; stroke-width: 0px;\"/><text transform=\"translate(21.16 64.67)\" style=\"fill: #fff; font-family: ArialMT, Arial; font-size: 67.75px;\"><tspan x=\"0\" y=\"0\">?</tspan></text></g>",
+                    "target": "<g><rect width=\"80\" height=\"80\" style=\"fill: #087ebf; stroke-width: 0px;\"/><text transform=\"translate(21.16 64.67)\" style=\"fill: #fff; font-family: ArialMT, Arial; font-size: 67.75px;\"><tspan x=\"0\" y=\"0\">?</tspan></text></g>"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "内容",
+                    "target": "内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "echo hi",
+                    "target": "echo hi"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Manage your conversation history and switch between different chats",
+                    "target": "管理您的对话历史并在不同聊天之间切换"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Click + to create a new mode",
+                    "target": "点击 + 创建新模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Manage and switch between different workspaces (note vaults)",
+                    "target": "管理并切换不同的工作区（笔记库）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "管理您的对话历史，并在不同聊天之间切换",
+                    "target": "管理您的对话历史，并在不同聊天之间切换"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "点击 + 创建新模式",
+                    "target": "点击 + 创建新模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "管理和切换不同的工作区（笔记库）",
+                    "target": "管理和切换不同的工作区（笔记库）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "支持50+主流语种，包括中文、英语、西班牙语、法语、葡萄牙语、印尼语、日语、韩语、德语、俄罗斯语等。最大行数20，单行最大处理8,192 Token。支持可选维度：1,024（默认）、768或512。单价：0.0007元/千Token。免费额度：50万Token（有效期180天）。",
+                    "target": "支持50+主流语种，包括中文、英语、西班牙语、法语、葡萄牙语、印尼语、日语、韩语、德语、俄罗斯语等。最大行数20，单行最大处理8,192 Token。支持可选维度：1,024（默认）、768或512。单价：0.0007元/千Token。免费额度：50万Token（有效期180天）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "支持多种语言，包括中文、英语、西班牙语、法语、葡萄牙语、印尼语、日语、韩语、德语、俄罗斯语。最大行数25，单行最大处理2,048 Token。",
+                    "target": "支持多种语言，包括中文、英语、西班牙语、法语、葡萄牙语、印尼语、日语、韩语、德语、俄罗斯语。最大行数25，单行最大处理2,048 Token。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "支持中文、英语、西班牙语、法语、葡萄牙语、印尼语。",
+                    "target": "支持中文、英语、西班牙语、法语、葡萄牙语、印尼语。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "异步处理大规模文本。支持中文、英语、西班牙语、法语、葡萄牙语、印尼语、日语、韩语、德语、俄罗斯语。",
+                    "target": "异步处理大规模文本。支持中文、英语、西班牙语、法语、葡萄牙语、印尼语、日语、韩语、德语、俄罗斯语。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "异步处理大规模文本。支持中文、英语、西班牙语、法语、葡萄牙语、印尼语。",
+                    "target": "异步处理大规模文本。支持中文、英语、西班牙语、法语、葡萄牙语、印尼语。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "BGE-M3 是一个多功能、多语言、多粒度的文本嵌入模型。它支持三种常见的检索功能：密集检索、多向量检索和稀疏检索。该模型可以处理超过100种语言，并且能够处理从短句到长达8192个词元的长文档等不同粒度的输入。BGE-M3在多语言和跨语言检索任务中表现出色，在 MIRACL 和 MKQA 等基准测试中取得了领先结果。它还具有处理长文档检索的能力，在 MLDR 和 NarritiveQA 等数据集上展现了优秀性能",
+                    "target": "BGE-M3 是一个多功能、多语言、多粒度的文本嵌入模型。它支持三种常见的检索功能：密集检索、多向量检索和稀疏检索。该模型可以处理超过100种语言，并且能够处理从短句到长达8192个词元的长文档等不同粒度的输入。BGE-M3在多语言和跨语言检索任务中表现出色，在 MIRACL 和 MKQA 等基准测试中取得了领先结果。它还具有处理长文档检索的能力，在 MLDR 和 NarritiveQA 等数据集上展现了优秀性能"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "128k context length MoE architecture foundation model with strong coding and Agent capabilities, total parameters 1T, active parameters 32B",
+                    "target": "128k 上下文长度的 MoE 架构基础模型，具备强大的编码和 Agent 能力，总参数 1T，激活参数 32B"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Latest Kimi model version with 128k context length and image understanding capabilities",
+                    "target": "最新 Kimi 模型版本，具备 128k 上下文长度和图像理解能力"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Multimodal reasoning model with 128k context length, excels at deep reasoning tasks",
+                    "target": "128k 上下文长度的多模态推理模型，擅长深度推理任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "8k context length model optimized for short text generation",
+                    "target": "8k 上下文长度模型，针对短文本生成优化"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "32k context length model optimized for longer text generation",
+                    "target": "32k 上下文长度模型，针对更长文本生成优化"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "128k context length model optimized for very long text generation",
+                    "target": "128k 上下文长度模型，针对超长文本生成优化"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "8k context length vision model with image understanding capabilities",
+                    "target": "8k 上下文长度视觉模型，具备图像理解能力"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "32k context length vision model with image understanding capabilities",
+                    "target": "32k 上下文长度视觉模型，具备图像理解能力"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "128k context length vision model with image understanding capabilities",
+                    "target": "128k 上下文长度视觉模型，具备图像理解能力"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "BGE-micro-v2 (本地，512令牌，384维)",
+                    "target": "BGE-micro-v2 (本地，512令牌，384维)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "All-MiniLM-L6-v2 (推荐，轻量级)",
+                    "target": "All-MiniLM-L6-v2（推荐，轻量级）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "BGE-base-en-v1.5 (更高质量)",
+                    "target": "BGE-base-en-v1.5（更高质量）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Jina-v2-base-zh (中英双语)",
+                    "target": "Jina-v2-base-zh（中英双语）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "E5-small (多语言)",
+                    "target": "E5-small（多语言）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "E5-base (多语言，更高质量)",
+                    "target": "E5-base（多语言，更高质量）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "E5-base-v2 (更高质量)",
+                    "target": "E5-base-v2（更高质量）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "GTE-tiny (本地，512令牌，384维)",
+                    "target": "GTE-tiny（本地，512令牌，384维）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Ivysaur (本地，512令牌，384维)",
+                    "target": "Ivysaur（本地，512令牌，384维）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "BGE-small-4K (本地，4096令牌，384维)",
+                    "target": "BGE-small-4K（本地，4096令牌，384维）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "all vault as workspace",
+                    "target": "将所有 vault 作为工作区"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Extract key insights",
+                    "target": "提取关键洞见"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Create information-dense summary",
+                    "target": "生成信息密集型摘要"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Generate deep reflections",
+                    "target": "生成深度反思"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Generate table of contents structure",
+                    "target": "生成目录结构"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Create readable summary",
+                    "target": "生成易读摘要"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Process document",
+                    "target": "处理文档"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Render math in display mode, which puts the math in display style (so \\int and \\sum are large, for example), and centers the math on the page on its own line.",
+                    "target": "以显示模式渲染数学公式，将公式以展示样式显示（例如 \\int 和 \\sum 会变大），并在页面上独占一行居中显示。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Determines the markup language of the output.",
+                    "target": "确定输出的标记语言。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Render display math in leqno style (left-justified tags).",
+                    "target": "以 leqno 样式渲染显示公式（左对齐编号）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Render display math flush left.",
+                    "target": "左对齐渲染显示公式。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Makes \\color behave like LaTeX's 2-argument \\textcolor, instead of LaTeX's one-argument \\color mode change.",
+                    "target": "让 \\color 的行为与 LaTeX 的双参数 \\textcolor 一致，而不是 LaTeX 的单参数 \\color 模式切换。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Turn on strict / LaTeX faithfulness mode, which throws an error if the input uses features that are not supported by LaTeX.",
+                    "target": "开启严格 / LaTeX 兼容模式，当输入使用 LaTeX 不支持的特性时会报错。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Trust the input, enabling all HTML features such as \\url.",
+                    "target": "信任输入，启用所有 HTML 功能（如 \\url）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Limit the number of macro expansions to the specified number, to prevent e.g. infinite macro loops. If set to Infinity, the macro expander will try to fully expand as in LaTeX.",
+                    "target": "将宏展开次数限制为指定数量，以防止例如无限宏循环。如果设为 Infinity，宏展开器将像 LaTeX 一样尝试完全展开。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Standard process shape",
+                    "target": "标准流程形状"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Represents an event",
+                    "target": "表示一个事件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Terminal point",
+                    "target": "终点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Database storage",
+                    "target": "数据库存储"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Starting point",
+                    "target": "起点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Decision-making step",
+                    "target": "决策步骤"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Preparation or condition step",
+                    "target": "准备或条件步骤"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Represents input or output",
+                    "target": "表示输入或输出"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Represents output or input",
+                    "target": "表示输出或输入"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Priority action",
+                    "target": "优先动作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Represents a manual task",
+                    "target": "表示手动任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Represents a stop point",
+                    "target": "表示停止点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Text block",
+                    "target": "文本块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Represents a card",
+                    "target": "表示卡片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Lined process shape",
+                    "target": "带线流程形状"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Small starting point",
+                    "target": "小型起点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Stop point",
+                    "target": "停止点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Fork or join in process flow",
+                    "target": "流程中的分叉或汇合"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Represents a collate operation",
+                    "target": "表示整理操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Adds a comment",
+                    "target": "添加注释"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Communication link",
+                    "target": "通信链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Represents a document",
+                    "target": "表示文档"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Represents a delay",
+                    "target": "表示延迟"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Direct access storage",
+                    "target": "直接存取存储"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Disk storage",
+                    "target": "磁盘存储"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Represents a display",
+                    "target": "表示显示器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Divided process shape",
+                    "target": "分割流程形状"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Extraction process",
+                    "target": "提取过程"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Internal storage",
+                    "target": "内部存储"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Junction point",
+                    "target": "连接点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Loop limit step",
+                    "target": "循环限制步骤"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Manual file operation",
+                    "target": "手动文件操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Manual input step",
+                    "target": "手动输入步骤"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Multiple documents",
+                    "target": "多个文档"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Multiple processes",
+                    "target": "多个流程"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Stored data",
+                    "target": "已存储数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Tagged document",
+                    "target": "已标记文档"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Tagged process",
+                    "target": "已标记流程"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Paper tape",
+                    "target": "纸带"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Odd shape",
+                    "target": "不规则形状"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Lined document",
+                    "target": "有线条文档"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Markdown-ish syntax for generating flowcharts, mindmaps, sequence diagrams, class diagrams, gantt charts, git graphs and more.",
+                    "target": "用于生成流程图、思维导图、时序图、类图、甘特图、Git 图等的类 Markdown 语法。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "This Object indicates the Parser is during Recording Phase",
+                    "target": "此对象表示解析器处于记录阶段"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Terminal closed",
+                    "target": "终端已关闭"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "User interruption with CTRL-C",
+                    "target": "用户通过 CTRL-C 中断"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "User interruption with CTRL-\\",
+                    "target": "用户通过 CTRL-\\ 中断"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Invalid machine instruction",
+                    "target": "无效的机器指令"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Debugger breakpoint",
+                    "target": "调试器断点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Bus error due to misaligned, non-existing address or paging error",
+                    "target": "由于地址未对齐、地址不存在或分页错误导致的总线错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Floating point arithmetic error",
+                    "target": "浮点运算错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Forced termination",
+                    "target": "强制终止"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Application-specific signal",
+                    "target": "应用程序特定信号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Segmentation fault",
+                    "target": "段错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Broken pipe or socket",
+                    "target": "管道或套接字断开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Timeout or timer",
+                    "target": "超时或计时器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Child process terminated, paused or unpaused",
+                    "target": "子进程已终止、暂停或恢复"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Paused using CTRL-Z or \"suspend\"",
+                    "target": "使用 CTRL-Z 或“suspend”暂停"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Background process cannot read terminal input",
+                    "target": "后台进程无法读取终端输入"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "User interruption with CTRL-BREAK",
+                    "target": "用户使用 CTRL-BREAK 中断"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Background process cannot write to terminal output",
+                    "target": "后台进程无法写入终端输出"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Socket received out-of-band data",
+                    "target": "套接字收到带外数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Process timed out",
+                    "target": "进程超时"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "File too big",
+                    "target": "文件过大"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Terminal window size changed",
+                    "target": "终端窗口大小已更改"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "I/O is available",
+                    "target": "I/O 可用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Watched event",
+                    "target": "监视事件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Request for process information",
+                    "target": "请求进程信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Device running out of power",
+                    "target": "设备电量不足"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Application-specific signal (realtime)",
+                    "target": "应用程序特定信号（实时）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "empty",
+                    "source": "空工作区",
+                    "target": "空工作区"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "缺少必要的组件：嵌入模型或洞察管理器",
+                    "target": "缺少必要的组件：嵌入模型或洞察管理器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Invalid diff format - missing required sections\n\nDebug Info:\n- Expected Format: <<<<<<< SEARCH\\\\n:start_line: start line\\\\n:end_line: end line\\\\n-------\\\\n[search content]\\\\n=======\\\\n[replace content]\\\\n>>>>>>> REPLACE\n- Tip: Make sure to include start_line/end_line/SEARCH/REPLACE sections with correct markers",
+                    "target": "无效的 diff 格式 - 缺少必需的部分\n\n调试信息：\n- 期望格式：<<<<<<< SEARCH\\\\n:start_line: start line\\\\n:end_line: end line\\\\n-------\\\\n[search content]\\\\n=======\\\\n[replace content]\\\\n>>>>>>> REPLACE\n- 提示：请确保包含 start_line/end_line/SEARCH/REPLACE 部分，并使用正确的标记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Malformed args.",
+                    "target": "参数格式错误。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Dataview 插件未安装或未启用",
+                    "target": "Dataview 插件未安装或未启用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "header",
+                    "source": "LLM response information",
+                    "target": "LLM 响应信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "header",
+                    "source": "LLM 响应信息",
+                    "target": "LLM 响应信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "hint",
+                    "source": "Please try running transformation tools on documents to generate AI insights",
+                    "target": "请尝试在文档上运行转换工具以生成 AI 洞察"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "hint",
+                    "source": "请尝试在文档上运行转换工具来生成 AI 洞察",
+                    "target": "请尝试在文档上运行转换工具来生成 AI 洞察"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Api provider:",
+                    "target": "API 提供商："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "LLM 提供商：",
+                    "target": "LLM 提供商："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "The input must be at least 3 characters long",
+                    "target": "输入内容长度至少为 3 个字符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "The answer must be at least 3 characters long",
+                    "target": "答案长度至少为 3 个字符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Trigger value must be at least 1 character long",
+                    "target": "触发值长度至少为 1 个字符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Regex triggers must end with a $.",
+                    "target": "正则触发器必须以 $ 结尾。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Delay must be between 0ms and 2000ms",
+                    "target": "延迟必须在 0ms 到 2000ms 之间"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Invalid regex",
+                    "target": "无效的正则表达式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Invalid ignore pattern",
+                    "target": "无效的忽略模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Tags cannot contain spaces",
+                    "target": "标签不能包含空格"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Enter tags without the # symbol",
+                    "target": "输入标签时不要包含 # 符号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Enter each tag on a new line without commas",
+                    "target": "每个标签占一行输入，不要使用逗号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "加载完成",
+                    "target": "加载完成"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "This will clear all vector index data for the current workspace.",
+                    "target": "这将清除当前工作区的所有向量索引数据。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Are you sure you want to delete all insights for the current workspace?",
+                    "target": "您确定要删除当前工作区的所有洞察吗？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "将清除当前工作区的所有向量索引数据。",
+                    "target": "将清除当前工作区的所有向量索引数据。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "您确定要删除当前工作区的所有洞察吗？",
+                    "target": "您确定要删除当前工作区的所有洞察吗？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Invalid regular expression pattern",
+                    "target": "无效的正则表达式模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Duplicate groups are not allowed",
+                    "target": "不允许重复的组"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Warning: No LINE_BREAKS Found.\n\tThis Lexer has been defined to track line and column information,\n\tBut none of the Token Types can be identified as matching a line terminator.\n\tSee https://chevrotain.io/docs/guide/resolving_lexer_errors.html#LINE_BREAKS \n\tfor details.",
+                    "target": "警告：未找到 LINE_BREAKS。\n\t此 Lexer 已被定义为跟踪行和列信息，\n\t但没有任何 Token Types 可被识别为匹配行终止符。\n\t详情请参见 https://chevrotain.io/docs/guide/resolving_lexer_errors.html#LINE_BREAKS \n\t。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Method not found",
+                    "target": "未找到方法"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "redirect_uris must contain valid URLs",
+                    "target": "redirect_uris 必须包含有效的 URL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "名称",
+                    "target": "名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "New Workspace",
+                    "target": "新建工作区"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Rounded Rectangle",
+                    "target": "圆角矩形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Framed Rectangle",
+                    "target": "框线矩形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Lean Right",
+                    "target": "向右倾斜"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Lean Left",
+                    "target": "向左倾斜"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Trapezoid Base Bottom",
+                    "target": "梯形底边在下"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Trapezoid Base Top",
+                    "target": "梯形底边在上"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Double Circle",
+                    "target": "双圆"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Text Block",
+                    "target": "文本块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Notched Rectangle",
+                    "target": "缺口矩形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Lined Rectangle",
+                    "target": "带线矩形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Small Circle",
+                    "target": "小圆"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Framed Circle",
+                    "target": "框线圆"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Filled Rectangle",
+                    "target": "填充矩形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Curly Brace",
+                    "target": "大括号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Curly Braces",
+                    "target": "大括号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Lightning Bolt",
+                    "target": "闪电"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Half-Rounded Rectangle",
+                    "target": "半圆角矩形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Horizontal Cylinder",
+                    "target": "水平圆柱体"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Lined Cylinder",
+                    "target": "带线圆柱体"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Curved Trapezoid",
+                    "target": "曲边梯形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Divided Rectangle",
+                    "target": "分割矩形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Window Pane",
+                    "target": "窗格"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Filled Circle",
+                    "target": "填充圆"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Trapezoidal Pentagon",
+                    "target": "梯形五边形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Flipped Triangle",
+                    "target": "翻转三角形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sloped Rectangle",
+                    "target": "倾斜矩形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Stacked Document",
+                    "target": "堆叠文档"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Stacked Rectangle",
+                    "target": "堆叠矩形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Bow Tie Rectangle",
+                    "target": "蝴蝶结矩形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Crossed Circle",
+                    "target": "交叉圆形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Tagged Document",
+                    "target": "带标签文档"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Tagged Rectangle",
+                    "target": "带标签矩形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Lined Document",
+                    "target": "带线条文档"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "This CSTNode indicates the Parser is in Recording Phase\n\tSee: https://chevrotain.io/docs/guide/internals.html#grammar-recording for details",
+                    "target": "此 CSTNode 表示解析器处于记录阶段\n\t参见：https://chevrotain.io/docs/guide/internals.html#grammar-recording 了解详情"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Roo Code",
+                    "target": "Roo 代码"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Live Queries",
+                    "target": "实时查询"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "测试 Dataview（简单查询）",
+                    "target": "测试 Dataview（简单查询）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "测试本地嵌入模型",
+                    "target": "测试本地嵌入模型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Input instruction, Enter to submit, Esc to close",
+                    "target": "输入指令，Enter 提交，Esc 关闭"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "输入指令，Enter 提交，Esc 关闭",
+                    "target": "输入指令，Enter 提交，Esc 关闭"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Search images in vault...",
+                    "target": "在库中搜索图像..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "search model...",
+                    "target": "搜索模型..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "input custom model name",
+                    "target": "输入自定义模型名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "search",
+                    "source": "语义搜索",
+                    "target": "语义搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "search",
+                    "source": "搜索",
+                    "target": "搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "subtitle",
+                    "source": "Explore different modes to enhance your productivity",
+                    "target": "探索不同模式以提升您的生产力"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "subtitle",
+                    "source": "探索不同模式来提升您的生产力",
+                    "target": "探索不同模式来提升您的生产力"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "成功",
+                    "target": "成功"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Infio Mobile",
+                    "target": "Infio Mobile"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "获取 API Key",
+                    "target": "获取 API Key"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Welcome to Infio Copilot",
+                    "target": "欢迎使用 Infio Copilot"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Chat History",
+                    "target": "聊天记录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Model parameters",
+                    "target": "模型参数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "File search",
+                    "target": "文件搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Chat behavior",
+                    "target": "聊天行为"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Web search",
+                    "target": "网页搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Danger zone",
+                    "target": "危险区域"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "MCP Servers",
+                    "target": "MCP 服务器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Clear workspace index",
+                    "target": "清除工作区索引"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "AI Insights",
+                    "target": "AI 洞察"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Confirm Delete",
+                    "target": "确认删除"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "No insight data found in the current scope",
+                    "target": "当前范围内未找到洞察数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "欢迎使用 Infio Copilot",
+                    "target": "欢迎使用 Infio Copilot"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "聊天记录",
+                    "target": "聊天记录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "模型提示词设置",
+                    "target": "模型提示词设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "模型参数",
+                    "target": "模型参数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "文件搜索",
+                    "target": "文件搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "聊天行为",
+                    "target": "聊天行为"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "网页搜索",
+                    "target": "网页搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "RAG(高级)",
+                    "target": "RAG(高级)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "自动补全(高级)",
+                    "target": "自动补全(高级)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "预处理",
+                    "target": "预处理"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "后处理",
+                    "target": "后处理"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "触发",
+                    "target": "触发"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "隐私",
+                    "target": "隐私"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "危险区域",
+                    "target": "危险区域"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "高级",
+                    "target": "高级"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "MCP 服务器",
+                    "target": "MCP 服务器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "语义索引",
+                    "target": "语义索引"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "清除工作区索引",
+                    "target": "清除工作区索引"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "AI 洞察",
+                    "target": "AI 洞察"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "确认删除",
+                    "target": "确认删除"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "当前范围内没有找到洞察数据",
+                    "target": "当前范围内没有找到洞察数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "工作区管理",
+                    "target": "工作区管理"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "New chat",
+                    "target": "新建聊天"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Analyze Paper",
+                    "target": "分析论文"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Key Insights",
+                    "target": "关键洞察"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Dense Summary",
+                    "target": "精简总结"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Deep Reflections",
+                    "target": "深度反思"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Table of Contents",
+                    "target": "目录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Simple Summary",
+                    "target": "简要总结"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Document Processing",
+                    "target": "文档处理"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Mermaid 图表预览",
+                    "target": "Mermaid 图表预览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "编辑消息",
+                    "target": "编辑消息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "切换到此工作区",
+                    "target": "切换到此工作区"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "取消编辑",
+                    "target": "取消编辑"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "warning",
+                    "source": "This operation may take several minutes, depending on the number and size of files.",
+                    "target": "此操作可能需要几分钟，取决于文件数量和大小。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "warning",
+                    "source": "⚠️ This action cannot be undone and will delete all generated transformation and insight data.",
+                    "target": "⚠️ 此操作无法撤销，并将删除所有生成的转换和洞察数据。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "warning",
+                    "source": "此操作无法撤销，清除后需要重新初始化索引才能进行语义搜索。",
+                    "target": "此操作无法撤销，清除后需要重新初始化索引才能进行语义搜索。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "warning",
+                    "source": "此操作可能需要几分钟时间，具体取决于文件数量和大小。",
+                    "target": "此操作可能需要几分钟时间，具体取决于文件数量和大小。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "warning",
+                    "source": "⚠️ 这个操作不可撤销，将删除所有生成的转换和洞察数据。",
+                    "target": "⚠️ 这个操作不可撤销，将删除所有生成的转换和洞察数据。"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
