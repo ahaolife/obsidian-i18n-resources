@@ -1,0 +1,103 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "customjs",
+        "version": "1.0.0",
+        "title": "CustomJS",
+        "description": "CustomJS Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.21",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "Allows you to bind an <dfn title=\"the class with `async invoke()` method\">invocable script</dfn> to a hotkey",
+                    "target": "允许你将<dfn title=\"the class with `async invoke()` method\">可调用脚本</dfn>绑定到热键"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<dfn title=\"the class with `async invoke()` method\">Invocable scripts</dfn> executed when the plugin is loaded",
+                    "target": "插件加载时执行的<dfn title=\"the class with `async invoke()` method\">可调用脚本</dfn>"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Loading CustomJS",
+                    "target": "正在加载 CustomJS"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Register invocable script",
+                    "target": "注册可调用脚本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Add startup script",
+                    "target": "添加启动脚本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Comma-separated list of files to load",
+                    "target": "要加载的文件列表（逗号分隔）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Path to folder containing JS files to load",
+                    "target": "包含要加载的 JS 文件的文件夹路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Decides whether the startup scripts should be executed again after reloading the scripts",
+                    "target": "决定在重新加载脚本后是否再次执行启动脚本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Individual files",
+                    "target": "单个文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Registered invocable scripts",
+                    "target": "已注册的可调用脚本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Startup scripts",
+                    "target": "启动脚本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Re-execute the start scripts when reloading",
+                    "target": "重新加载时重新执行启动脚本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Configure Hotkey",
+                    "target": "配置快捷键"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Invoke Script",
+                    "target": "调用脚本"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
