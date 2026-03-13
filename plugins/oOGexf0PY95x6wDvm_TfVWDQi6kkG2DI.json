@@ -1,0 +1,31 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "japanese-manuscript-counter",
+        "version": "1.0.0",
+        "title": "Japanese Manuscript Counter",
+        "description": "Japanese Manuscript Counter Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "原稿用紙カウント詳細",
+                    "target": "稿纸计数详情"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "カウント詳細を表示（デバッグ）",
+                    "target": "显示计数详情（调试）"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
