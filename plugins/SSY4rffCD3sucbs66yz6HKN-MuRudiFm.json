@@ -1,0 +1,18 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "docusaurus-style-admonitions",
+        "version": "1.0.0",
+        "title": "Docusaurus Style Admonitions",
+        "description": "Docusaurus Style Admonitions Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.1.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [],
+            "regex": []
+        }
+    }
+}
