@@ -1,0 +1,181 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "excalibrain",
+        "version": "1.0.0",
+        "title": "ExcaliBrain",
+        "description": "ExcaliBrain Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.2.17",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addText",
+                    "source": "🚀 To get started\nselect a document using the search in the top left or\nopen a document in another pane.\n\n✨ For the best experience enable 'Open in adjacent pane'\nin Excalidraw settings under 'Links and Transclusion'.\n\n⚠ ExcaliBrain may need to wait for DataView to initialize its index.\nThis can take up to a few minutes after starting Obsidian.",
+                    "target": "🚀 开始使用\n请使用左上角的搜索选择文档，或\n在另一个窗格中打开文档。\n\n✨ 为获得最佳体验，请在 Excalidraw 设置中的“链接与嵌入”下启用“在相邻窗格打开”。\n\n⚠ ExcaliBrain 可能需要等待 DataView 初始化索引。\n这在启动 Obsidian 后可能需要几分钟。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom daily note settings found!",
+                    "target": "未找到自定义每日笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Show/Hide Inherited Properties",
+                    "target": "显示/隐藏继承属性"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Could not start ExcaliBrain. Please change the ExcaliBrain file path in plugin settings.",
+                    "target": "无法启动 ExcaliBrain。请在插件设置中更改 ExcaliBrain 文件路径。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error initializing Excalidraw view",
+                    "target": "初始化 Excalidraw 视图时出错"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "ExcaliBrain On",
+                    "target": "ExcaliBrain 已开启"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Brain Graph Off",
+                    "target": "脑图已关闭"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Disabling ExcaliBrain Plugin",
+                    "target": "正在禁用 ExcaliBrain 插件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "ExcaliBrain is waiting for Dataview to update its index",
+                    "target": "ExcaliBrain 正在等待 Dataview 更新索引"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "ExcaliBrain is waiting for URLParser to finish indexing",
+                    "target": "ExcaliBrain 正在等待 URLParser 完成索引"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "ExcaliBrain: Please start Excalidraw and try again.",
+                    "target": "ExcaliBrain：请启动 Excalidraw 并重试。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Could not load custom node label function. See Developer console for details",
+                    "target": "无法加载自定义节点标签函数。详情请查看开发者控制台"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Wrong view type. Cannot start ExcaliBrain.",
+                    "target": "视图类型错误。无法启动 ExcaliBrain。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "ExcaliBrain plugin did not load - aborting start()",
+                    "target": "ExcaliBrain 插件未加载——正在中止 start()"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Error decoding link in readLinksFromString",
+                    "target": "在 readLinksFromString 中解码链接时出错"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "objectLinks is undefined which is unexpected",
+                    "target": "objectLinks 未定义，情况异常"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Excalidraw not available",
+                    "target": "Excalidraw 不可用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Error: locale not found",
+                    "target": "错误：未找到语言区域"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "ExcaliBrain requires a new version of Excalidraw",
+                    "target": "ExcaliBrain 需要新版 Excalidraw"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Excalidraw not found",
+                    "target": "未找到 Excalidraw"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Dataview not found",
+                    "target": "未找到 Dataview"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "error processing custom node label script",
+                    "target": "处理自定义节点标签脚本时出错"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "ExcaliBrain did not load. Aborting after 5000ms of trying",
+                    "target": "ExcaliBrain 未加载。尝试 5000ms 后中止"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "filter links and tags",
+                    "target": "筛选链接和标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "color:",
+                    "target": "颜色："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "opacity:",
+                    "target": "不透明度："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Show inherited",
+                    "target": "显示继承项"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
