@@ -1,0 +1,265 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "task-status",
+        "version": "1.0.0",
+        "title": "Task Status",
+        "description": "Task Status Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.2.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "start transformLine",
+                    "target": "开始 transformLine"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "detected other",
+                    "target": "检测到其他"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "transforming task(s)",
+                    "target": "正在转换任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "transforming non-task(s)",
+                    "target": "正在转换非任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "transforming blank line(s)",
+                    "target": "正在转换空行"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "start transformSelection",
+                    "target": "开始 transformSelection"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "loading Obsidian Task Status",
+                    "target": "正在加载 Obsidian Task Status"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "unloading Obsidian Task Status",
+                    "target": "正在卸载 Obsidian Task Status"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Clear list",
+                    "target": "清空列表"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Reset to default",
+                    "target": "恢复默认"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Add new status",
+                    "target": "添加新状态"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Status List Actions",
+                    "target": "状态列表操作"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Move to top",
+                    "target": "移到顶部"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Move up",
+                    "target": "上移"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Move down",
+                    "target": "下移"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "change task status",
+                    "target": "更改任务状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "In Progress",
+                    "target": "进行中"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Speech bubble 0",
+                    "target": "对话气泡 0"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Speech bubble 1",
+                    "target": "对话气泡 1"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Speech bubble 2",
+                    "target": "对话气泡 2"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Speech bubble 3",
+                    "target": "对话气泡 3"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Speech bubble 4",
+                    "target": "对话气泡 4"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Speech bubble 5",
+                    "target": "对话气泡 5"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Speech bubble 6",
+                    "target": "对话气泡 6"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Speech bubble 7",
+                    "target": "对话气泡 7"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Speech bubble 8",
+                    "target": "对话气泡 8"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Speech bubble 9",
+                    "target": "对话气泡 9"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "complete / done",
+                    "target": "完成 / 已完成"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "in progress, or half-done",
+                    "target": "进行中，或半完成"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Inbox / task that should be processed later",
+                    "target": "收件箱 / 稍后处理的任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "deferred or scheduled",
+                    "target": "延期或已排期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "win / success / reward",
+                    "target": "胜利 / 成功 / 奖励"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Half Done",
+                    "target": "完成一半"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Character / Person",
+                    "target": "角色 / 人物"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Outline / Plot",
+                    "target": "大纲 / 情节"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Clue / Find",
+                    "target": "线索 / 发现"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Favorite / Health",
+                    "target": "偏好 / 健康"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "To Do",
+                    "target": "待办"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "draft pull request",
+                    "target": "草稿拉取请求"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "open pull request",
+                    "target": "打开的拉取请求"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "merged pull request",
+                    "target": "已合并的拉取请求"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
