@@ -1,0 +1,1165 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "imgur-tencent-cos",
+        "version": "1.0.0",
+        "title": "Tencent COS for Imgur",
+        "description": "Tencent COS for Imgur Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.2.6",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "暂无图片",
+                    "target": "暂无图片"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "此操作不可撤销，图片将从COS存储中永久删除。",
+                    "target": "此操作不可撤销，图片将从COS存储中永久删除。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "重庆",
+                    "target": "重庆"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "南京",
+                    "target": "南京"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "香港",
+                    "target": "香港"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "成都",
+                    "target": "成都"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "上海",
+                    "target": "上海"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "北京",
+                    "target": "北京"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "广州",
+                    "target": "广州"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "永久",
+                    "target": "永久"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "50年",
+                    "target": "50年"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "20年",
+                    "target": "20年"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "5年",
+                    "target": "5年"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "3年",
+                    "target": "3年"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "1年",
+                    "target": "1年"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "半年",
+                    "target": "半年"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "1个月",
+                    "target": "1个月"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "error: Local time is too skewed.",
+                    "target": "error: 本地时间偏差过大。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "error: SecretId格式错误，请检查",
+                    "target": "error: SecretId格式错误，请检查"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "error: SecretId format is incorrect. Please check",
+                    "target": "error: SecretId格式错误，请检查"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "error: SecretKey格式错误，请检查",
+                    "target": "error: SecretKey格式错误，请检查"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "error: SecretKey format is incorrect. Please check",
+                    "target": "error: SecretKey 格式不正确。请检查"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "FileReader not support readAsBinaryString",
+                    "target": "FileReader 不支持 readAsBinaryString"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "COSUploader初始化失败:",
+                    "target": "COSUploader 初始化失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Plugin initialization error:",
+                    "target": "插件初始化错误:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Uploader not initialized",
+                    "target": "上传器未初始化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Upload error:",
+                    "target": "上传错误:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Process error:",
+                    "target": "处理错误:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Online backup error:",
+                    "target": "在线备份错误:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Refresh error:",
+                    "target": "刷新错误:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "创建备份根文件夹失败:",
+                    "target": "创建备份根文件夹失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "创建笔记备份子文件夹失败:",
+                    "target": "创建笔记备份子文件夹失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "备份笔记内容失败:",
+                    "target": "备份笔记内容失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "备份笔记失败:",
+                    "target": "备份笔记失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "COS实例创建失败:",
+                    "target": "COS实例创建失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "COS连接测试失败:",
+                    "target": "COS连接测试失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "错误详情:",
+                    "target": "错误详情:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "COS连接测试异常:",
+                    "target": "COS连接测试异常:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "上传错误:",
+                    "target": "上传错误:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "获取签名URL失败:",
+                    "target": "获取签名URL失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "获取签名URL错误:",
+                    "target": "获取签名URL错误:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Load images error:",
+                    "target": "加载图片错误:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Delete errors:",
+                    "target": "删除错误:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Delete error:",
+                    "target": "删除错误:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Tip: Next.js、Nuxt.js 等服务端渲染技术可正常使用JavaScript SDK，请忽略下方 nodejs 环境警告",
+                    "target": "提示：Next.js、Nuxt.js 等服务端渲染技术可正常使用JavaScript SDK，请忽略下方 nodejs 环境警告"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "=== ImgurPlugin 开始加载 ===",
+                    "target": "=== ImgurPlugin 开始加载 ==="
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "插件设置状态:",
+                    "target": "插件设置状态:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "初始化COS上传器，配置检查:",
+                    "target": "初始化COS上传器，配置检查:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "开始创建COSUploader实例...",
+                    "target": "开始创建COSUploader实例..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "COSUploader实例创建成功",
+                    "target": "COSUploader实例创建成功"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "开始测试COS连接...",
+                    "target": "开始测试COS连接..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "COS连接测试通过",
+                    "target": "COS连接测试通过"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "COS连接测试失败",
+                    "target": "COS连接测试失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "COS配置不完整，跳过初始化",
+                    "target": "COS配置不完整，跳过初始化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "检测到拖拽事件",
+                    "target": "检测到拖拽事件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "拖拽的文件数量:",
+                    "target": "拖拽的文件数量:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "没有检测到文件，退出处理",
+                    "target": "没有检测到文件，退出处理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "处理拖拽文件:",
+                    "target": "处理拖拽文件:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "类型:",
+                    "target": "类型:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "大小:",
+                    "target": "大小:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "跳过非图片文件:",
+                    "target": "跳过非图片文件:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "开始处理拖拽的图片文件:",
+                    "target": "开始处理拖拽的图片文件:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "拖拽图片上传完成，获得URL:",
+                    "target": "拖拽图片上传完成，获得URL:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "已插入图片链接到编辑器",
+                    "target": "已插入图片链接到编辑器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "检测到粘贴事件",
+                    "target": "检测到粘贴事件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "粘贴的文件数量:",
+                    "target": "粘贴的文件数量:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "处理粘贴文件:",
+                    "target": "处理粘贴文件:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "开始处理粘贴的图片文件:",
+                    "target": "开始处理粘贴的图片文件:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "粘贴图片上传完成，获得URL:",
+                    "target": "粘贴图片上传完成，获得URL:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "右键上传完成，开始同步备份笔记...",
+                    "target": "右键上传完成，开始同步备份笔记..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "=== ImgurPlugin 加载完成 ===",
+                    "target": "=== ImgurPlugin 加载完成 ==="
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "开始创建备份文件...",
+                    "target": "开始创建备份文件..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "使用编辑器传入的最新内容进行备份",
+                    "target": "使用编辑器传入的最新内容进行备份"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "读取当前笔记内容，准备同步到备份",
+                    "target": "读取当前笔记内容，准备同步到备份"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "备份文件已存在，尝试更新",
+                    "target": "备份文件已存在，尝试更新"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "开始更新图片大小:",
+                    "target": "开始更新图片大小:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "提取的图片信息:",
+                    "target": "提取的图片信息:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "开始匹配 Markdown 图片语法",
+                    "target": "开始匹配 Markdown 图片语法"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "图片匹配成功，开始更新宽度",
+                    "target": "图片匹配成功，开始更新宽度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "未找到 Markdown 格式匹配，尝试 Wiki 链接格式",
+                    "target": "未找到 Markdown 格式匹配，尝试 Wiki 链接格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Wiki 图片匹配成功，保持 Wiki 格式添加宽度",
+                    "target": "Wiki 图片匹配成功，保持 Wiki 格式添加宽度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "未找到匹配的图片引用",
+                    "target": "未找到匹配的图片引用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "提取图片信息，源URL:",
+                    "target": "提取图片信息，源URL:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "URL解析结果:",
+                    "target": "URL解析结果:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "URL解析失败，尝试提取文件名",
+                    "target": "URL解析失败，尝试提取文件名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "文件名提取结果:",
+                    "target": "文件名提取结果:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "URL匹配检查:",
+                    "target": "URL匹配检查:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "URL直接匹配",
+                    "target": "URL直接匹配"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "URL域名和路径匹配",
+                    "target": "URL域名和路径匹配"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "URL文件名匹配",
+                    "target": "URL文件名匹配"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "URL解析失败:",
+                    "target": "URL解析失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "URL包含文件名匹配",
+                    "target": "URL包含文件名匹配"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "URL包含解码后的文件名匹配",
+                    "target": "URL包含解码后的文件名匹配"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "提取的文件名匹配成功",
+                    "target": "提取的文件名匹配成功"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "URL匹配失败",
+                    "target": "URL匹配失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "文件名匹配检查:",
+                    "target": "文件名匹配检查:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "文件名匹配结果:",
+                    "target": "文件名匹配结果:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "比较文件名:",
+                    "target": "比较文件名:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "直接匹配",
+                    "target": "直接匹配"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "无扩展名匹配",
+                    "target": "无扩展名匹配"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "清理时间戳后匹配",
+                    "target": "清理时间戳后匹配"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "编码后匹配",
+                    "target": "编码后匹配"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "解码后匹配",
+                    "target": "解码后匹配"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "清理时间戳解码后匹配",
+                    "target": "清理时间戳解码后匹配"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "编码解码失败",
+                    "target": "编码解码失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "所有比较都失败",
+                    "target": "所有比较都失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "开始手动测试COS连接...",
+                    "target": "开始手动测试COS连接..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "COSUploader构造函数被调用，设置:",
+                    "target": "COSUploader构造函数被调用，设置:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "开始创建COS实例...",
+                    "target": "开始创建COS实例..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "COS实例创建成功",
+                    "target": "COS实例创建成功"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "COS配置验证结果:",
+                    "target": "COS配置验证结果:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "COS连接测试成功:",
+                    "target": "COS连接测试成功:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "开始上传文件:",
+                    "target": "开始上传文件:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "存储桶配置:",
+                    "target": "存储桶配置:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "使用自定义命名:",
+                    "target": "使用自定义命名:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "上传路径:",
+                    "target": "上传路径:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "上传成功，响应数据:",
+                    "target": "上传成功，响应数据:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "开始获取签名URL...",
+                    "target": "开始获取签名URL..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "获取到签名URL:",
+                    "target": "获取到签名URL:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "获取URL参数:",
+                    "target": "获取URL参数:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "公有读URL生成成功:",
+                    "target": "公有读URL生成成功:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "签名URL生成成功:",
+                    "target": "签名URL生成成功:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "测试连接",
+                    "target": "测试连接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "打开图片管理",
+                    "target": "打开图片管理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "全选",
+                    "target": "全选"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "取消全选",
+                    "target": "取消全选"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "删除选中",
+                    "target": "删除选中"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "刷新",
+                    "target": "刷新"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "加载更多",
+                    "target": "加载更多"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "取消",
+                    "target": "取消"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "确认删除",
+                    "target": "确认删除"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "腾讯云 API 密钥 Secret Id",
+                    "target": "腾讯云 API 密钥 Secret Id"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "腾讯云 API 密钥 Secret Key",
+                    "target": "腾讯云 API 密钥 Secret Key"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "COS 存储桶名称",
+                    "target": "COS 存储桶名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "存储桶所在地域",
+                    "target": "存储桶所在地域"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "设置文件在 COS 中的存储路径前缀，例如：images",
+                    "target": "设置文件在 COS 中的存储路径前缀，例如：images"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "设置备份文件的存储路径，默认为空则备份到当前笔记同级目录的备份文件夹",
+                    "target": "设置备份文件的存储路径，默认为空则备份到当前笔记同级目录的备份文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "设置图片链接的有效期",
+                    "target": "设置图片链接的有效期"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "开启后使用干净的无签名URL（需将COS存储桶设置为公有读）。关闭则使用带签名的临时URL（更安全，但URL较长）",
+                    "target": "开启后使用干净的无签名URL（需将COS存储桶设置为公有读）。关闭则使用带签名的临时URL（更安全，但URL较长）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "测试COS连接和上传功能",
+                    "target": "测试COS连接和上传功能"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "查看和管理已上传到COS的图片",
+                    "target": "查看和管理已上传到COS的图片"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Secret Id",
+                    "target": "密钥 ID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Secret Key",
+                    "target": "密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "存储路径前缀",
+                    "target": "存储路径前缀"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "备份路径",
+                    "target": "备份路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "图片有效期",
+                    "target": "图片有效期"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "公有读存储桶",
+                    "target": "公有读存储桶"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "启用规则图片命名",
+                    "target": "启用规则图片命名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "测试上传",
+                    "target": "测试上传"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "图片管理",
+                    "target": "图片管理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "输入 Secret Id",
+                    "target": "输入 Secret Id"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "输入 Secret Key",
+                    "target": "输入 Secret Key"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "例如：my-bucket-1250000000",
+                    "target": "例如：my-bucket-1250000000"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "例如：images",
+                    "target": "例如：images"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "留空则使用默认路径",
+                    "target": "留空则使用默认路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "图片同步COS",
+                    "target": "图片同步COS"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "本地笔记备份",
+                    "target": "本地笔记备份"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "在线笔记备份",
+                    "target": "在线笔记备份"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "刷新图片有效期",
+                    "target": "刷新图片有效期"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "warning: AppId has been deprecated, Please put it at the end of parameter Bucket(E.g: \"test-1250000000\").",
+                    "target": "警告：AppId 已弃用，请将其放在参数 Bucket 的末尾（例如：\"test-1250000000\"）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "warning: cos-js-sdk-v5 不支持 nodejs 环境使用，请改用 cos-nodejs-sdk-v5，参考文档： https://cloud.tencent.com/document/product/436/8629",
+                    "target": "warning: cos-js-sdk-v5 不支持 nodejs 环境使用，请改用 cos-nodejs-sdk-v5，参考文档： https://cloud.tencent.com/document/product/436/8629"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "warning: cos-js-sdk-v5 does not support nodejs environment. Please use cos-nodejs-sdk-v5 instead. See: https://cloud.tencent.com/document/product/436/8629",
+                    "target": "warning: cos-js-sdk-v5 不支持 nodejs 环境使用。请改用 cos-nodejs-sdk-v5。参见：https://cloud.tencent.com/document/product/436/8629"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "cos-js-sdk-v5不再支持使用path-style，仅支持使用virtual-hosted-style，参考文档：https://cloud.tencent.com/document/product/436/96243",
+                    "target": "cos-js-sdk-v5不再支持使用path-style，仅支持使用virtual-hosted-style，参考文档：https://cloud.tencent.com/document/product/436/96243"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "warning: Param \"TaskReady\" has been deprecated. Please use \"onTaskReady\" instead.",
+                    "target": "warning: 参数 \"TaskReady\" 已弃用。请改用 \"onTaskReady\"。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "warning: param Region format error, find help here: https://cloud.tencent.com/document/product/436/6224",
+                    "target": "warning: 参数 Region 格式错误，帮助请见：https://cloud.tencent.com/document/product/436/6224"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "warning: AppId has been deprecated, Please put it at the end of parameter Bucket(E.g Bucket:\"test-1250000000\" ).",
+                    "target": "warning: AppId 已弃用，请将其放在参数 Bucket 的末尾（例如 Bucket:\"test-1250000000\"）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "备份原始图片失败:",
+                    "target": "备份原始图片失败:"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "腾讯云 COS 配置已完成！",
+                    "target": "腾讯云 COS 配置已完成！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "COS连接测试失败，请检查配置",
+                    "target": "COS连接测试失败，请检查配置"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请先在设置中配置腾讯云 COS 信息！",
+                    "target": "请先在设置中配置腾讯云 COS 信息！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "未找到当前文件",
+                    "target": "未找到当前文件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "COS上传器未初始化，请检查配置",
+                    "target": "COS上传器未初始化，请检查配置"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "图片上传成功！",
+                    "target": "图片上传成功！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "未找到本地图片",
+                    "target": "未找到本地图片"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "未找到图片链接",
+                    "target": "未找到图片链接"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "所有图片链接有效期已刷新",
+                    "target": "所有图片链接有效期已刷新"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请先配置COS设置",
+                    "target": "请先配置COS设置"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "你的图床插件已卸载!",
+                    "target": "你的图床插件已卸载!"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "未找到在线图片链接",
+                    "target": "未找到在线图片链接"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "未处理任何图片",
+                    "target": "未处理任何图片"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "无法识别图片信息",
+                    "target": "无法识别图片信息"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "未能更新图片大小到 Markdown 源码",
+                    "target": "未能更新图片大小到 Markdown 源码"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请选择有效的时间选项",
+                    "target": "请选择有效的时间选项"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "已开启公有读模式，请确保COS存储桶已设置为公有读权限",
+                    "target": "已开启公有读模式，请确保COS存储桶已设置为公有读权限"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "已开启规则图片命名",
+                    "target": "已开启规则图片命名"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "COS连接测试成功！",
+                    "target": "COS连接测试成功！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "COS连接测试失败，请检查控制台日志",
+                    "target": "COS连接测试失败，请检查控制台日志"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请先选择要删除的图片",
+                    "target": "请先选择要删除的图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "管理COS图片",
+                    "target": "管理COS图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "COS 图片管理",
+                    "target": "COS 图片管理"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "确认删除",
+                    "target": "确认删除"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
