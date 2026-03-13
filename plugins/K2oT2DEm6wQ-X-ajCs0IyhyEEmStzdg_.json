@@ -1,0 +1,2725 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "iconic",
+        "version": "1.0.0",
+        "title": "Iconic",
+        "description": "Iconic Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.8",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Edit rule...",
+                    "target": "编辑规则..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "All conditions must match",
+                    "target": "所有条件必须匹配"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "At least 1 condition must match",
+                    "target": "至少有 1 个条件必须匹配"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "All conditions must fail",
+                    "target": "所有条件必须不匹配"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "اختر عدد الشروط التي تحتاج إلى المطابقة",
+                    "target": "选择需要匹配的条件数量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "إعداد قواعد تلقائية لأيقونات الملفات والمجلدات.",
+                    "target": "为文件和文件夹图标设置自动规则。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "إظهار أيقونات أكبر من واجهة المستخدم الافتراضية.",
+                    "target": "显示比默认用户界面更大的图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "إظهار أيقونات الملفات التي لا تحتوي على أيقونة مخصصة.",
+                    "target": "显示没有自定义图标的文件图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "إظهار أيقونات المجلدات التي لا تحتوي على أيقونة مخصصة.",
+                    "target": "显示没有自定义图标的文件夹图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "استبدل أسهم المجلد بأيقونات المجلد الخاصة بك.",
+                    "target": "用你的文件夹图标替换文件夹箭头。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "إظهار أيقونات علامات تبويب ملفات Markdown.",
+                    "target": "显示 Markdown 文件标签页图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "إظهار الأيقونات في عناوين الملاحظات إذا تم تمكين العناوين.",
+                    "target": "如果启用标题，则在笔记标题中显示图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "إظهار الأيقونات في #الوسوم وفي خاصية tags.",
+                    "target": "在 #标签 和 tags 属性中显示图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "إظهار الإجراءات المتعلقة بالأيقونات في قوائم السياق.",
+                    "target": "在上下文菜单中显示与图标相关的操作。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "إظهار الأيقونات في النوافذ المنبثقة للاقتراحات الخاصة بالروابط والعلامات والخصائص.",
+                    "target": "在链接、标签和属性的建议弹窗中显示图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "الانتقال السريع إظهار الأيقونات في نتائج بحث.",
+                    "target": "在快速切换的搜索结果中显示图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "إظهار أيقونات المجلدات في مربعات حوار \"نقل الملف\".",
+                    "target": "在“移动文件”对话框中显示文件夹图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "إظهار اسم العنصر الذي يتم تحريره.",
+                    "target": "显示正在编辑的项目名称。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "إظهار أيقونات أكبر في نتائج البحث.",
+                    "target": "在搜索结果中显示更大的图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "اختر عدد الرموز التي تريد عرضها مرة واحدة.",
+                    "target": "选择一次要显示的图标数量。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "تعطيل لون الرمز أثناء التمرير فوق عنصر.",
+                    "target": "在将鼠标悬停在项目上时禁用图标颜色。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "تعطيل لون الرمز أثناء سحب عنصر.",
+                    "target": "在拖动项目时禁用图标颜色。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "تعطيل لون الرمز أثناء تحديد عنصر.",
+                    "target": "在选择项目时禁用图标颜色。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "تعطيل لون الرمز لزر الشريط للوصول السريع على الهاتف المحمول.",
+                    "target": "在移动设备上禁用快速访问栏按钮的图标颜色。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "ستظهر أية رموز مخصصة مرة أخرى عند وجود العنصر الخاص بها مرة أخرى.",
+                    "target": "当对应项目再次出现时，任何自定义图标将再次显示。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "اختر عدد النسخ الاحتياطية التي ترغب في الاحتفاظ بها لإعدادات أيقوناتك. يتم إنشاء النسخ الاحتياطية بفارق 3 ساعات.",
+                    "target": "选择要为图标设置保留的备份数量。备份每隔3小时创建一次。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Wählen Sie aus, wie viele Bedingungen übereinstimmen müssen.",
+                    "target": "选择需要满足多少个条件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Automatisierte Regeln für Datei- und Ordnersymbole einrichten.",
+                    "target": "为文件和文件夹图标设置自动化规则。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Größere Symbole als die Standard-Benutzeroberfläche anzeigen.",
+                    "target": "显示比标准界面更大的图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Symbole für Dateien anzeigen, die kein benutzerdefiniertes Symbol haben.",
+                    "target": "显示没有自定义图标的文件的图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Symbole für Ordner anzeigen, die kein benutzerdefiniertes Symbol haben.",
+                    "target": "为没有自定义图标的文件夹显示图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Ordnerpfeile durch Ihre Ordnersymbole ersetzen.",
+                    "target": "用你的文件夹图标替换文件夹箭头。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Tabsymbole für Markdown-Dateien anzeigen.",
+                    "target": "为 Markdown 文件显示标签页图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Symbole in Notiztiteln anzeigen, wenn Titel in Notiz aktiviert sind.",
+                    "target": "当“标题在笔记中”启用时，在笔记标题中显示图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Symbole in #Hashtags und der Tags-Property anzeigen.",
+                    "target": "在 #Hashtags 和 Tags 属性中显示图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Symbolbezogene Aktionen in Kontextmenüs anzeigen.",
+                    "target": "在上下文菜单中显示与图标相关的操作。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Symbole in Vorschlags-Pop-ups für Links, Tags und Eigenschaften anzeigen.",
+                    "target": "在链接、标签和属性的建议弹窗中显示图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Symbole in den Suchergebnissen von Schnellauswahl anzeigen.",
+                    "target": "在快速选择的搜索结果中显示图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Ordnersymbole in \"Datei verschieben\"-Dialogen anzeigen.",
+                    "target": "在“移动文件”对话框中显示文件夹图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Größere Symbole in Suchergebnissen anzeigen.",
+                    "target": "在搜索结果中显示更大的图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Wählen Sie aus, wie viele Symbole gleichzeitig angezeigt werden sollen.",
+                    "target": "选择同时显示的图标数量。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Symbolfarbe deaktivieren, für die Schnellzugriff zu Ribbon-Schaltfläche auf Mobilgeräten.",
+                    "target": "在移动设备上为快速访问功能区按钮禁用图标颜色。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Wählen Sie, wie viele Backups Ihrer Symboleinstellungen gespeichert werden sollen. Backups werden im Abstand von 3 Stunden erstellt.",
+                    "target": "选择要保存的图标设置备份数量。备份每 3 小时创建一次。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Disable icon colour for the quick access ribbon button on mobile.",
+                    "target": "在移动端为快速访问功能区按钮禁用图标颜色。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Elige cuántas condiciones deben coincidir",
+                    "target": "选择需要匹配的条件数量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Configurar reglas automatizadas para los íconos de archivos y carpetas",
+                    "target": "为文件和文件夹图标配置自动化规则"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Mostrar íconos más grandes que la interfaz de usuario predeterminada.",
+                    "target": "显示比默认界面更大的图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Mostrar íconos para archivos sin un ícono personalizado.",
+                    "target": "为没有自定义图标的文件显示图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Mostrar íconos para carpetas que no tienen íconos personalizados.",
+                    "target": "为没有自定义图标的文件夹显示图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Mostrar íconos de pestañas para archivos Markdown.",
+                    "target": "为 Markdown 文件显示标签页图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Mostrar íconos en títulos de notas, si los títulos en una línea están activados.",
+                    "target": "如果启用了单行标题，则在笔记标题中显示图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Mostrar íconos en #etiquetas y en la propiedad tags.",
+                    "target": "在 #标签 和 tags 属性中显示图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Mostrar acciones relacionadas con íconos en los menús contextuales.",
+                    "target": "在右键菜单中显示与图标相关的操作。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Mostrar íconos en los resultados de búsqueda de los selectores rápidos.",
+                    "target": "在快速选择器的搜索结果中显示图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Mostrar los íconos de carpetas en los diálogos de \"Mover archivo\".",
+                    "target": "在“移动文件”对话框中显示文件夹图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Mostrar íconos más grandes en los resultados de búsqueda.",
+                    "target": "在搜索结果中显示更大的图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Elige cuántos íconos quieres mostrar a la vez.",
+                    "target": "选择一次要显示多少个图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Desactivar el color del ícono para el botón de cinta de acceso rápido en móvile.",
+                    "target": "在移动端禁用快速访问工具栏按钮的图标颜色。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Elige cuántas copias de seguridad quieres conservar de la configuración de tus íconos. Las copias de seguridad se realizan con un intervalo de 3 horas.",
+                    "target": "选择要保留多少份图标设置的备份。备份每 3 小时进行一次。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Choisissez le nombre de conditions à respecter.",
+                    "target": "选择需要满足的条件数量。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Configurer des règles automatisées pour les icônes de fichiers et de dossiers.",
+                    "target": "为文件和文件夹图标配置自动化规则。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Afficher des icônes plus grandes que l'interface utilisateur par défaut.",
+                    "target": "显示比默认界面更大的图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Afficher les icônes des fichiers qui n'ont pas d'icône personnalisée.",
+                    "target": "显示没有自定义图标的文件的图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Afficher les icônes des dossiers qui n'ont pas d'icône personnalisée.",
+                    "target": "显示没有自定义图标的文件夹的图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Afficher les icônes des onglets pour les fichiers Markdown.",
+                    "target": "为 Markdown 文件的标签页显示图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Afficher les icônes dans les titres de note, si l'option titre comme entête est activée.",
+                    "target": "若启用“标题作为页眉”选项，则在笔记标题中显示图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Afficher les icônes dans les #mots-clés et la propriété \"tags\".",
+                    "target": "在 #mots-clés 和 \"tags\" 属性中显示图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Afficher les actions liées aux icônes dans les menus contextuels.",
+                    "target": "在上下文菜单中显示与图标相关的操作。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Afficher les icônes dans les fenêtres de suggestion pour les liens, les mots-clés et les propriétés.",
+                    "target": "在链接、关键词和属性的建议窗口中显示图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Afficher les icônes dans les résultats de recherche des sélecteurs rapides.",
+                    "target": "在快速选择器的搜索结果中显示图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Afficher les icônes des dossiers dans les boîtes de dialogue \"Déplacer le fichier\".",
+                    "target": "在“移动文件”对话框中显示文件夹图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Afficher le nom de l'élément en cours de modification.",
+                    "target": "显示正在修改的项目名称。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Afficher des icônes plus grandes dans les résultats de recherche.",
+                    "target": "在搜索结果中显示更大的图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Choisissez le nombre d'icônes à afficher simultanément.",
+                    "target": "选择同时显示的图标数量。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Désactiver la couleur de l'icône lorsque vous survolez un élément.",
+                    "target": "在悬停于项目时禁用图标颜色。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Désactiver la couleur de l'icône lorsque vous faites glisser un élément.",
+                    "target": "在拖动项目时禁用图标颜色。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Désactiver la couleur de l'icône lorsque l'élément est sélectionné.",
+                    "target": "在项目被选中时禁用图标颜色。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Désactiver la couleur de l'icône pour le bouton de ruban d'accès rapide sur mobile.",
+                    "target": "在移动端禁用快速访问工具栏按钮的图标颜色。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Toutes les icônes personnalisées réapparaîtront lorsque leur élément existera à nouveau.",
+                    "target": "当对应项目再次存在时，所有自定义图标将重新出现。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Choisissez le nombre de sauvegardes de vos paramètres d'icônes à conserver. Les sauvegardes sont espacées de 3 heures.",
+                    "target": "选择要保留的图标设置备份数量。备份间隔为 3 小时。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Pilih berapa banyak kondisi yang perlu dicocokkan.",
+                    "target": "选择需要匹配的条件数量。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Siapkan aturan otomatis untuk ikon berkas dan folder.",
+                    "target": "为文件和文件夹图标设置自动规则。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Tampilkan ikon yang lebih besar daripada UI default.",
+                    "target": "显示比默认 UI 更大的图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Ganti tanda panah folder dengan ikon folder Anda.",
+                    "target": "用你的文件夹图标替换文件夹箭头。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Tampilkan ikon tab untuk file Markdown.",
+                    "target": "为 Markdown 文件显示标签页图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Tampilkan ikon di judul catatan jika judul sebaris diaktifkan.",
+                    "target": "在启用行内标题时在笔记标题中显示图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Tampilkan ikon di #hashtags dan properti tags.",
+                    "target": "在 #hashtags 和 tags 属性中显示图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Tampilkan tindakan terkait ikon dalam menu konteks.",
+                    "target": "在上下文菜单中显示与图标相关的操作。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Tampilkan ikon di jendela pop-up saran untuk tautan, tag, dan properti.",
+                    "target": "在链接、标签和属性的建议弹窗中显示图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Tampilkan ikon dalam hasil pencarian peralih cepat.",
+                    "target": "在快速切换搜索结果中显示图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Tampilkan ikon folder di dialog \"Pindahkan berkas\".",
+                    "target": "在“移动文件”对话框中显示文件夹图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Tampilkan ikon yang lebih besar dalam hasil pencarian.",
+                    "target": "在搜索结果中显示更大的图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Pilih berapa banyak ikon yang akan ditampilkan sekaligus.",
+                    "target": "选择一次显示多少个图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Nonaktifkan warna ikon untuk akses cepat tombol ribbon di ponsel.",
+                    "target": "在手机上禁用功能区按钮快捷访问的图标颜色。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Pilih berapa banyak cadangan pengaturan ikon yang ingin Anda simpan. Cadangan disimpan dengan jarak 3 jam.",
+                    "target": "选择要保留多少个图标设置备份。备份每隔3小时保存一次。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "一致する必要がある条件の数を選択します。",
+                    "target": "选择需要匹配的条件数量。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "ファイルとフォルダのアイコンの自動ルールを設定します。",
+                    "target": "设置文件和文件夹图标的自动规则。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "デフォルトの UI よりも大きなアイコンを表示します。",
+                    "target": "显示比默认 UI 更大的图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "カスタムアイコンのないファイルのアイコンを表示します。",
+                    "target": "显示没有自定义图标的文件图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "カスタムアイコンのないフォルダのアイコンを表示します。",
+                    "target": "显示没有自定义图标的文件夹图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "フォルダの矢印をフォルダアイコンに置き換えます。",
+                    "target": "将文件夹的箭头替换为文件夹图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "マークダウンファイルのタブアイコンを表示します。",
+                    "target": "显示 Markdown 文件的标签页图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "ノートタイトルのアイコンを表示します（インラインタイトルが有効な場合）。",
+                    "target": "显示笔记标题的图标（当内联标题启用时）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "#hashtags と tags プロパティ内のアイコンを表示します。",
+                    "target": "在 #hashtags 和 tags 属性中显示图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "コンテキストメニューにアイコン関連のアクションを表示します。",
+                    "target": "在上下文菜单中显示与图标相关的操作。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "リンク、タグ、プロパティの候補ポップアップにアイコンを表示します。",
+                    "target": "在链接、标签和属性的候选弹窗中显示图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "クイックスイッチャーの検索結果にアイコンを表示します。",
+                    "target": "在快速切换器的搜索结果中显示图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "「ファイルを移動」ダイアログ内のフォルダアイコンを表示。",
+                    "target": "在“移动文件”对话框中显示文件夹图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "編集中のアイテムの名前を表示します。",
+                    "target": "显示正在编辑的项目名称。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "検索結果に大きいアイコンを表示します。",
+                    "target": "在搜索结果中显示大图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "一度に表示するアイコンの数を選択します。",
+                    "target": "选择一次显示的图标数量。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "アイテムをホバーしている間はアイコンの色を無効にします。",
+                    "target": "在悬停项目时禁用图标颜色。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "アイテムをドラッグしている間はアイコンの色を無効にします。",
+                    "target": "在拖动项目时禁用图标颜色。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "アイテムが選択されている間はアイコンの色を無効にします。",
+                    "target": "在选中项目时禁用图标颜色。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "モバイルのクイック アクセス リボン ボタンのアイコンの色を無効にします。",
+                    "target": "禁用移动端快速访问功能区按钮的图标颜色。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "カスタムアイコンは、そのアイテムが再び存在するときに再表示されます。",
+                    "target": "当该项目再次存在时，将重新显示自定义图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "アイコン設定のバックアップを何個保存するか選択してください。バックアップは3時間間隔で保存されます。",
+                    "target": "请选择要保存多少个图标设置的备份。备份每3小时保存一次。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Выберите, сколько условий должно совпасть.",
+                    "target": "选择需要匹配的条件数量。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Настройте автоматизированные правила для значков файлов и папок.",
+                    "target": "为文件和文件夹图标设置自动化规则。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Показывать значки большего размера, чем в пользовательском интерфейсе по умолчанию.",
+                    "target": "显示比默认用户界面更大的图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Показать значки файлов, у которых нет настраиваемого значка.",
+                    "target": "显示没有自定义图标的文件图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Показать значки папок, у которых нет настраиваемого значка.",
+                    "target": "显示没有自定义图标的文件夹图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Заменить стрелки папок на ваши значки папок.",
+                    "target": "用你的文件夹图标替换文件夹箭头。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Показать значки вкладок для файлов Markdown.",
+                    "target": "显示 Markdown 文件的标签页图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Показать значки в заголовках заметок, если включён встроенный заголовок.",
+                    "target": "启用内置标题时，在笔记标题中显示图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Показать значки в #хештегах и свойстве tags.",
+                    "target": "在 #标签和 tags 属性中显示图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Показать действия, связанные со значками, в контекстных меню.",
+                    "target": "在上下文菜单中显示与图标相关的操作。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Показать значки во всплывающих окнах при автозаполнении для ссылок, тегов и свойств.",
+                    "target": "在链接、标签和属性的自动完成弹窗中显示图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Показать значки в результатах поиска быстрых переключателей.",
+                    "target": "在快速切换器搜索结果中显示图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Показывать значки папок в диалогах \"Переместить файл\".",
+                    "target": "在“移动文件”对话框中显示文件夹图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Показывать имя редактируемого элемента.",
+                    "target": "显示正在编辑的项目名称。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Показывать большие значки в результатах поиска.",
+                    "target": "在搜索结果中显示大图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Выберите, сколько значков показывать одновременно",
+                    "target": "选择同时显示多少个图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Отключить цвет значка при наведении на элемент.",
+                    "target": "禁用将鼠标悬停在项目上时的图标颜色。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Отключить цвет значка при перетаскивании элемента.",
+                    "target": "禁用拖动项目时的图标颜色。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Отключить цвет значка при выборе элемента.",
+                    "target": "禁用选择项目时的图标颜色。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Отключить цвет значка для кнопки ленты быстрого доступа на мобильных устройстве.",
+                    "target": "禁用移动设备上快速访问栏按钮的图标颜色。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Любые пользовательские значки появятся снова, когда их элемент снова появится.",
+                    "target": "任何自定义图标将在其项目再次出现时重新显示。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Выберите, сколько резервных копий настроек значков хранить. Резервные копии создаются с интервалом в 3 часа.",
+                    "target": "选择要保留多少个图标设置的备份。备份每 3 小时创建一次。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Виберіть, скільки умов має виконуватися.",
+                    "target": "选择要满足的条件数量。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Налаштування автоматичних правил для значків файлів та тек.",
+                    "target": "为文件和文件夹图标配置自动规则。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Показувати більші значки, ніж у стандартному інтерфейсі.",
+                    "target": "显示比默认界面更大的图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Показувати значки для файлів, які не мають користувацького значка.",
+                    "target": "为没有自定义图标的文件显示图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Показувати значки для тек, які не мають користувацького значка.",
+                    "target": "为没有自定义图标的文件夹显示图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Замінити стрілки тек вашими значками.",
+                    "target": "用你的图标替换文件夹箭头。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Показувати значки вкладок для файлів Markdown.",
+                    "target": "为 Markdown 文件显示标签页图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Показувати значки в заголовках нотаток, якщо увімкнено назву на початку.",
+                    "target": "如果启用了开头标题，在笔记标题中显示图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Показувати значки в #хештегах і у властивості tags.",
+                    "target": "在 #标签 和 tags 属性中显示图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Показувати дії, пов’язані зі значками, у контекстних меню.",
+                    "target": "在上下文菜单中显示与图标相关的操作。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Показувати значки у спливаючих вікнах автозаповнення для посилань, міток і властивостей.",
+                    "target": "在链接、标签和属性的自动补全弹窗中显示图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Показувати значки в результатах пошуку швидкий перехід.",
+                    "target": "在搜索结果快速跳转中显示图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Показувати значки тек у діалогових вікнах \"Перемістити файл\".",
+                    "target": "在“移动文件”对话框中显示图标打勾。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Показувати назву елементу, що редагується.",
+                    "target": "显示正在编辑的项目名称。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Показати більші значки в результатах пошуку.",
+                    "target": "在搜索结果中显示更大的图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Виберіть кількість значків для одночасного показу.",
+                    "target": "选择同时显示的图标数量。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Вимкнути колір значків при наведенні на елемент.",
+                    "target": "在悬停元素时禁用图标颜色。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Вимкнути колір значків при перетягуванні елементу.",
+                    "target": "在拖拽元素时禁用图标颜色。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Вимкнути колір значків у обраних елементів.",
+                    "target": "在选中元素时禁用图标颜色。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Вимкнути колір значків для кнопки швидкого доступу на панелі на мобільному телефоні.",
+                    "target": "在手机面板上为快速访问按钮禁用图标颜色。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "При появі відповідного елементу будь-який користувацький значок буде відновлено.",
+                    "target": "当相应元素出现时，将恢复任何自定义图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Виберіть, скільки резервних копій налаштувань значків зберігати. Резервні копії створюються з інтервалом у 3 години.",
+                    "target": "选择要保留多少个图标设置的备份。备份每 3 小时创建一次。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "选择需要匹配的条件数量。",
+                    "target": "选择需要匹配的条件数量。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "为文件和文件夹图标设置自动规则。",
+                    "target": "为文件和文件夹图标设置自动规则。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "显示比默认 UI 更大的图标。",
+                    "target": "显示比默认 UI 更大的图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "显示没有自定义图标的文件图标。",
+                    "target": "显示没有自定义图标的文件图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "显示没有自定义图标的文件夹图标。",
+                    "target": "显示没有自定义图标的文件夹图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "用您的文件夹图标替换文件夹箭头。",
+                    "target": "用您的文件夹图标替换文件夹箭头。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "显示 Markdown 文件的标签图标。",
+                    "target": "显示 Markdown 文件的标签图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "如果启用了页内标题，则显示笔记标题中的图标。",
+                    "target": "如果启用了页内标题，则显示笔记标题中的图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "显示 #标签 和 tags 属性中的图标。",
+                    "target": "显示 #标签 和 tags 属性中的图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在上下文菜单中显示与图标相关的操作。",
+                    "target": "在上下文菜单中显示与图标相关的操作。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在链接、标签和属性的建议弹出窗口中显示图标。",
+                    "target": "在链接、标签和属性的建议弹出窗口中显示图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在快速切换器的搜索结果中显示图标。",
+                    "target": "在快速切换器的搜索结果中显示图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在\"将文件移动\"对话框中显示文件夹图标",
+                    "target": "在\"将文件移动\"对话框中显示文件夹图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "显示正在编辑的项目的名称。",
+                    "target": "显示正在编辑的项目的名称。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在搜索结果中显示更大的图标。",
+                    "target": "在搜索结果中显示更大的图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "选择一次显示多少个图标。",
+                    "target": "选择一次显示多少个图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "悬停项目时禁用图标颜色。",
+                    "target": "悬停项目时禁用图标颜色。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "拖动项目时禁用图标颜色。",
+                    "target": "拖动项目时禁用图标颜色。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "选择项目时禁用图标颜色。",
+                    "target": "选择项目时禁用图标颜色。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "禁用移动设备上快速访问功能区按钮的图标颜色。",
+                    "target": "禁用移动设备上快速访问功能区按钮的图标颜色。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "当项目再次存在时，任何自定义图标都会重新出现。",
+                    "target": "当项目再次存在时，任何自定义图标都会重新出现。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "选择要保留的图标设置备份数量。备份间隔为 3 小时。",
+                    "target": "选择要保留的图标设置备份数量。备份间隔为 3 小时。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Choose how many conditions need to match.",
+                    "target": "选择需要匹配的条件数量。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Set up automated rules for file and folder icons.",
+                    "target": "为文件和文件夹图标设置自动化规则。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Show bigger icons than the default UI.",
+                    "target": "显示比默认界面更大的图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Show icons for files that have no custom icon.",
+                    "target": "为没有自定义图标的文件显示图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Show icons for folders that have no custom icon.",
+                    "target": "为没有自定义图标的文件夹显示图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Replace folder arrows with your folder icons.",
+                    "target": "用你的文件夹图标替换文件夹箭头。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Show tab icons for Markdown files.",
+                    "target": "为 Markdown 文件显示标签图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Show icons in note titles, if inline titles are enabled.",
+                    "target": "如果启用了行内标题，则在笔记标题中显示图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Show icons in #hashtags and the tags property.",
+                    "target": "在 #hashtags 和标签属性中显示图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Show icon-related actions in context menus.",
+                    "target": "在上下文菜单中显示与图标相关的操作。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Show icons in suggestion pop-ups for links, tags, and properties.",
+                    "target": "在链接、标签和属性的建议弹窗中显示图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Show icons in search results of quick switchers.",
+                    "target": "在快速切换器的搜索结果中显示图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Show folder icons in \"Move file\" dialogs.",
+                    "target": "在“移动文件”对话框中显示文件夹图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Show bigger icons in search results.",
+                    "target": "在搜索结果中显示更大的图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Choose how many icons to show at once.",
+                    "target": "选择一次显示多少个图标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Disable icon color for the quick access ribbon button on mobile.",
+                    "target": "在移动端禁用快速访问功能区按钮的图标颜色。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Choose how many backups to keep of your icon settings. Backups are spaced 3 hours apart.",
+                    "target": "选择保留多少个图标设置的备份。备份间隔为 3 小时。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "مطابقة الشروط",
+                    "target": "匹配条件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "الاسم",
+                    "target": "名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "كتاب القواعد",
+                    "target": "规则书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "أيقونات أكبر",
+                    "target": "更大的图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "إظهار جميع أيقونات الملفات",
+                    "target": "显示所有文件图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "إظهار جميع أيقونات المجلد",
+                    "target": "显示所有文件夹图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "أيقونات المجلد البسيطة",
+                    "target": "简洁的文件夹图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "إظهار أيقونات علامات تبويب Markdown",
+                    "target": "显示 Markdown 标签页图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "إظهار أيقونات العنوان",
+                    "target": "显示标题图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "إظهار أيقونات حبوب الوسوم",
+                    "target": "显示标签胶囊图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "إظهار إجراءات القائمة",
+                    "target": "显示菜单操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "إظهار أيقونات الاقتراحات",
+                    "target": "显示建议图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "الانتقال السريع إظهار أيقونات",
+                    "target": "快速切换显示图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "إظهار أيقونات \"نقل الملف\"",
+                    "target": "显示“文件传输”图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "إظهار اسم العنصر",
+                    "target": "显示项目名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "نتائج بحث أكبر",
+                    "target": "更大的搜索结果"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "الحد الأقصى لنتائج البحث",
+                    "target": "搜索结果上限"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "أداة اختيار الألوان الرئيسية",
+                    "target": "主颜色选择器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "أداة اختيار الألوان الثانية",
+                    "target": "辅助颜色选择器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "تحوم عديمة اللون",
+                    "target": "悬停无颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "سحب عديم اللون",
+                    "target": "无色拖动"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "اختيار عديم اللون",
+                    "target": "无色选择"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "زر شريط عديم اللون",
+                    "target": "无色条按钮"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "تذكر رموز العناصر المحذوفة",
+                    "target": "记住已删除项目的图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "الحد الأقصى للنسخ الاحتياطية التلقائية",
+                    "target": "自动备份最大数量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Übereinstimmungsbedingungen",
+                    "target": "匹配条件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Größere Symbole",
+                    "target": "更大的图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Alle Dateisymbole anzeigen",
+                    "target": "显示所有文件图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Alle Ordnersymbole anzeigen",
+                    "target": "显示所有文件夹图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Minimale Ordnersymbole",
+                    "target": "最小文件夹图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Markdown-Tabsymbole anzeigen",
+                    "target": "显示 Markdown 标签页图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Titelsymbole anzeigen",
+                    "target": "显示标题图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Tag-Pillensymbole anzeigen",
+                    "target": "显示标签胶囊图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Menüaktionen anzeigen",
+                    "target": "显示菜单操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Vorschlagsymbole anzeigen",
+                    "target": "显示建议图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Schnellauswahlsymbole anzeigen",
+                    "target": "显示快速选择图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "\"Datei verschieben\"-Symbole anzeigen",
+                    "target": "显示“移动文件”图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Größere Suchergebnisse",
+                    "target": "更大的搜索结果"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Maximale Suchergebnisse",
+                    "target": "最大搜索结果"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Zweiter Farbwähler",
+                    "target": "第二个颜色选择器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Farbloses Hovern",
+                    "target": "无色悬停"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Farbloses Ziehen",
+                    "target": "无色拖动"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Farblose Auswahl",
+                    "target": "无色选择"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Farblose Ribbon-Schaltfläche",
+                    "target": "无色功能区按钮"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Maximale Anzahl automatischer Backups",
+                    "target": "自动备份的最大数量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Main colour picker",
+                    "target": "主颜色选择器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Second colour picker",
+                    "target": "第二颜色选择器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Colourless hover",
+                    "target": "无色悬停"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Colourless drag",
+                    "target": "无色拖动"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Colourless ribbon button",
+                    "target": "无色功能区按钮"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Colourless selection",
+                    "target": "无颜色选择"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Condiciones de coincidencia",
+                    "target": "匹配条件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Libro de reglas",
+                    "target": "规则手册"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Íconos más grandes",
+                    "target": "更大的图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Mostrar todos los íconos de archivos",
+                    "target": "显示所有文件图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Mostrar todos los íconos de carpetas",
+                    "target": "显示所有文件夹图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Íconos de carpeta mínimos",
+                    "target": "最小文件夹图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Mostrar íconos de pestañas de Markdown",
+                    "target": "显示 Markdown 标签页图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Mostrar íconos de título",
+                    "target": "显示标题图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Mostrar íconos de píldoras de etiquetas",
+                    "target": "显示标签药丸图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Mostrar acciones de menú",
+                    "target": "显示菜单操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Mostrar íconos de sugerencias",
+                    "target": "显示建议图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Mostrar íconos de selector rápido",
+                    "target": "显示快速选择器图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Mostrar los íconos de \"Mover archivo\"",
+                    "target": "显示“移动文件”图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Resultados de búsqueda más grandes",
+                    "target": "更大的搜索结果"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Resultados de búsqueda máximos",
+                    "target": "最大搜索结果数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Selector de color principal",
+                    "target": "主色选择器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Segundo selector de color",
+                    "target": "第二颜色选择器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Flotador incoloro",
+                    "target": "无色浮点数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Arrastre incolora",
+                    "target": "无色拖动"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Selección incolora",
+                    "target": "无色选择"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Botón de cinta incolora",
+                    "target": "无色丝带按钮"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Copias de seguridad automáticas máximas",
+                    "target": "最大自动备份数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Conditions de correspondance",
+                    "target": "匹配条件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Livre de règles",
+                    "target": "规则书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Icônes plus grandes",
+                    "target": "更大的图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Afficher toutes les icônes de fichiers",
+                    "target": "显示所有文件图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Afficher toutes les icônes de dossiers",
+                    "target": "显示所有文件夹图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Icônes de dossier minimales",
+                    "target": "最小文件夹图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Afficher les icônes des onglets Markdown",
+                    "target": "显示 Markdown 选项卡图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Afficher les icônes de titre",
+                    "target": "显示标题图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Afficher les icônes des pastilles de mots-clé",
+                    "target": "显示关键词徽章图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Afficher les actions des menus",
+                    "target": "显示菜单操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Afficher les icônes des suggestions",
+                    "target": "显示建议图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Afficher les icônes des sélecteurs rapides",
+                    "target": "显示快速选择器图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Afficher les icônes de \"Déplacer le fichier\"",
+                    "target": "显示“移动文件”的图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Afficher le nom de l'élément",
+                    "target": "显示元素名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Résultats de recherche plus grands.",
+                    "target": "更大的搜索结果。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Résultats de recherche maximaux",
+                    "target": "最大搜索结果数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sélecteur de couleurs principal",
+                    "target": "主颜色选择器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Deuxième sélecteur de couleurs",
+                    "target": "第二个颜色选择器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Survol incolore",
+                    "target": "无色悬停"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sélection incolore",
+                    "target": "无色选择"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Bouton de ruban incolore",
+                    "target": "无色功能区按钮"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Mémoriser les icônes des éléments supprimés",
+                    "target": "记住已删除项目的图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Nombre maximal de sauvegardes automatiques",
+                    "target": "自动保存的最大数量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Kecocokan kondisi",
+                    "target": "条件匹配"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Buku aturan",
+                    "target": "规则手册"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ikon yang lebih besar",
+                    "target": "更大的图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ikon folder minimal",
+                    "target": "最小文件夹图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Tampilkan ikon tab Markdown",
+                    "target": "显示 Markdown 选项卡图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Tampilkan ikon judul",
+                    "target": "显示标题图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Tampilkan ikon pil tag",
+                    "target": "显示标签胶囊图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Tampilkan tindakan menu",
+                    "target": "显示菜单操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Tampilkan ikon saran",
+                    "target": "显示建议图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Tampilkan ikon peralih cepat",
+                    "target": "显示快速切换图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Tampilkan ikon \"Pindahkan berkas\"",
+                    "target": "显示“移动文件”图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Hasil pencarian yang lebih besar",
+                    "target": "更大的搜索结果"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Hasil pencarian maksimal",
+                    "target": "最大搜索结果"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Arahkan tanpa warna",
+                    "target": "悬停无颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Seret tanpa warna",
+                    "target": "无色拖动"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Pilihan tanpa warna",
+                    "target": "无色选择"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Tombol ribbon tanpa warna",
+                    "target": "无色功能区按钮"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Jumlah maksimum cadangan otomatis",
+                    "target": "自动备份最大数量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "一致条件",
+                    "target": "一致条件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "名前",
+                    "target": "名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ルールブック",
+                    "target": "规则手册"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "大きいアイコン",
+                    "target": "大图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "すべてのファイルアイコンを表示する",
+                    "target": "显示所有文件图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "すべてのフォルダアイコンを表示する",
+                    "target": "显示所有文件夹图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "最小限のフォルダアイコン",
+                    "target": "最简文件夹图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "マークダウンタブアイコンを表示",
+                    "target": "显示 Markdown 选项卡图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "タイトルアイコンを表示する",
+                    "target": "显示标题图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "タグピルアイコンを表示する",
+                    "target": "显示标签丸图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "メニューアクションを表示",
+                    "target": "显示菜单操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "サジェストアイコンを表示する",
+                    "target": "显示建议图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "クイックスイッチャーアイコンを表示",
+                    "target": "显示快速切换器图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "「ファイルを移動」のアイコンを表示",
+                    "target": "显示“移动文件”图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "アイテム名を表示します",
+                    "target": "显示项目名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "検索結果を大きくする",
+                    "target": "放大搜索结果"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "検索結果の最大数",
+                    "target": "搜索结果的最大数量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "メイン カラー ピッカー",
+                    "target": "主颜色选择器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "2 番目のカラー ピッカー",
+                    "target": "第二个颜色选择器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "無色のホバー",
+                    "target": "无色悬停"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "無色のドラッグ",
+                    "target": "无色拖拽"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "無色の選択",
+                    "target": "无色选择"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "無色のリボン ボタン",
+                    "target": "无色功能区按钮"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "削除したアイテムのアイコンを記憶する",
+                    "target": "记住已删除项目的图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "自動バックアップの最大数",
+                    "target": "自动备份的最大数量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Условия соответствия",
+                    "target": "匹配条件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Имя",
+                    "target": "名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Свод правил",
+                    "target": "规则集"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Большие значки",
+                    "target": "大图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Показать все значки файлов",
+                    "target": "显示所有文件图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Показать все значки папок",
+                    "target": "显示所有文件夹图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Минимальные значки папок",
+                    "target": "最小化文件夹图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Показать значки вкладок Markdown",
+                    "target": "显示 Markdown 标签页图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Показать значки заголовков",
+                    "target": "显示标题图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Показать значки тегов-капсул",
+                    "target": "显示胶囊标签图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Показать действия меню",
+                    "target": "显示菜单操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Показать значки автозаполнения",
+                    "target": "显示自动填充图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Показать значки быстрого переключения",
+                    "target": "显示快速切换图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Показывать значки \"Переместить файл\"",
+                    "target": "显示“移动文件”图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Показывать имя элемента",
+                    "target": "显示元素名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Большие результаты поиска",
+                    "target": "大搜索结果"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Максимум результатов поиска",
+                    "target": "搜索结果最大值"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Основной выбор цвета",
+                    "target": "主颜色选择"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Второй выбор цвета",
+                    "target": "第二颜色选择"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Бесцветный наведение",
+                    "target": "无色悬停"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Бесцветное перетаскивание",
+                    "target": "无色拖动"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Бесцветный выделение",
+                    "target": "无色高亮"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Бесцветная кнопка ленты",
+                    "target": "无色功能区按钮"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Запоминать значки удаленных элементов",
+                    "target": "记住已删除项的图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Максимальное количество автоматических резервных копий",
+                    "target": "自动备份的最大数量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Виконання умов",
+                    "target": "执行条件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ім'я",
+                    "target": "名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Звід правил",
+                    "target": "规则集"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Великі значки",
+                    "target": "大图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Показувати усі значки файлів",
+                    "target": "显示所有文件图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Показувати усі значки тек",
+                    "target": "显示所有文件夹图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Найменші значки тек",
+                    "target": "最小的文本图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Показувати значки вкладок Markdown",
+                    "target": "显示 Markdown 标签图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Показувати значки заголовків",
+                    "target": "显示标题图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Показувати значки тегів-капсул",
+                    "target": "显示胶囊标签图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Показувати дії меню",
+                    "target": "显示菜单操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Показувати значки автозаповнення",
+                    "target": "显示自动补全图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Показувати значки швидкий перехід",
+                    "target": "显示快速切换图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Показувати значки \"Перемістити файл\"",
+                    "target": "显示“移动文件”图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Показати назву елемента",
+                    "target": "显示元素名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Більші результати пошуку",
+                    "target": "更大的搜索结果"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Максимальна кількість результатів пошуку",
+                    "target": "最大搜索结果数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Головна палітра",
+                    "target": "主调色板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Додаткова палітра",
+                    "target": "辅助调色板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Безбарвне наведення",
+                    "target": "无色悬停"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Безбарвне перетягування",
+                    "target": "无色拖动"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Безбарвний вибір",
+                    "target": "无色选择"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Безбарвна кнопка на панелі",
+                    "target": "面板无色按钮"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Запам'ятати значки видалених елементів",
+                    "target": "记住已删除项目的图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Максимальна кількість автоматичних резервних копій",
+                    "target": "自动备份的最大数量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "匹配条件",
+                    "target": "匹配条件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "名称",
+                    "target": "名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "规则书",
+                    "target": "规则书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "更大的图标",
+                    "target": "更大的图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "显示所有文件图标",
+                    "target": "显示所有文件图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "显示所有文件夹图标",
+                    "target": "显示所有文件夹图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "最小文件夹图标",
+                    "target": "最小文件夹图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "显示 Markdown 标签图标",
+                    "target": "显示 Markdown 标签图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "显示标题图标",
+                    "target": "显示标题图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "显示标签胶囊图标",
+                    "target": "显示标签胶囊图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "显示菜单操作",
+                    "target": "显示菜单操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "显示建议图标",
+                    "target": "显示建议图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "显示快速切换器图标",
+                    "target": "显示快速切换器图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "显示\"将文件移动\"图标",
+                    "target": "显示\"将文件移动\"图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "显示项目名称",
+                    "target": "显示项目名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "更大的搜索结果",
+                    "target": "更大的搜索结果"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "最大搜索结果",
+                    "target": "最大搜索结果"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "主颜色选择器",
+                    "target": "主颜色选择器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "第二个颜色选择器",
+                    "target": "第二个颜色选择器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "无色悬停",
+                    "target": "无色悬停"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "无色拖动",
+                    "target": "无色拖动"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "无色选择",
+                    "target": "无色选择"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "无色功能区按钮",
+                    "target": "无色功能区按钮"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "记住已删除项目的图标",
+                    "target": "记住已删除项目的图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "最大自动备份次数",
+                    "target": "最大自动备份次数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Match conditions",
+                    "target": "匹配条件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Bigger icons",
+                    "target": "更大的图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show all file icons",
+                    "target": "显示所有文件图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show all folder icons",
+                    "target": "显示所有文件夹图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Minimal folder icons",
+                    "target": "最简文件夹图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show Markdown tab icons",
+                    "target": "显示 Markdown 选项卡图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show title icons",
+                    "target": "显示标题图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show tag pill icons",
+                    "target": "显示标签胶囊图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show menu actions",
+                    "target": "显示菜单操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show suggestion icons",
+                    "target": "显示建议图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show quick switcher icons",
+                    "target": "显示快速切换器图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show \"Move file\" icons",
+                    "target": "显示“移动文件”图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Bigger search results",
+                    "target": "更大的搜索结果"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Maximum search results",
+                    "target": "最大搜索结果数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Main color picker",
+                    "target": "主颜色选择器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Second color picker",
+                    "target": "第二颜色选择器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Colorless hover",
+                    "target": "无色悬停"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Colorless drag",
+                    "target": "无色拖拽"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Colorless selection",
+                    "target": "无色选择"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Colorless ribbon button",
+                    "target": "无色功能区按钮"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Maximum automatic backups",
+                    "target": "最大自动备份数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "search",
+                    "source": "بحث",
+                    "target": "搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "search",
+                    "source": "استعلام",
+                    "target": "查询"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "search",
+                    "source": "Requête",
+                    "target": "查询"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "search",
+                    "source": "検索",
+                    "target": "搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "search",
+                    "source": "クエリ",
+                    "target": "查询"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "search",
+                    "source": "Поиск",
+                    "target": "搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "search",
+                    "source": "Запрос",
+                    "target": "查询"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "search",
+                    "source": "Пошук",
+                    "target": "搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "search",
+                    "source": "Запит",
+                    "target": "查询"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "search",
+                    "source": "搜索",
+                    "target": "搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "search",
+                    "source": "查询",
+                    "target": "查询"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tab",
+                    "source": "علامات التبويب",
+                    "target": "标签页"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tab",
+                    "source": "Pestaña",
+                    "target": "标签页"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tab",
+                    "source": "タブ",
+                    "target": "标签页"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tab",
+                    "source": "Вкладка",
+                    "target": "标签页"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tab",
+                    "source": "标签",
+                    "target": "标签"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
