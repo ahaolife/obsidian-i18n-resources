@@ -1,0 +1,85 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "bookxnote-sync",
+        "version": "1.0.0",
+        "title": "BookXNote Sync",
+        "description": "BookXNote Sync Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.3.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "BookXNote笔记路径",
+                    "target": "BookXNote笔记路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "笔记保存到Obsidian的路径",
+                    "target": "笔记保存到Obsidian的路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "输入BookXNote笔记路径",
+                    "target": "输入BookXNote笔记路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "输入笔记保存到Obsidian的相对路径",
+                    "target": "输入笔记保存到Obsidian的相对路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Status Bar Text",
+                    "target": "状态栏文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "BookXNote同步此笔记",
+                    "target": "BookXNote同步此笔记"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "开始同步BookXNote...",
+                    "target": "开始同步BookXNote..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请设置BookXNote路径",
+                    "target": "请设置BookXNote路径"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "没有notebooks",
+                    "target": "没有笔记本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "同步所有笔记",
+                    "target": "同步所有笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "同步当前笔记",
+                    "target": "同步当前笔记"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
