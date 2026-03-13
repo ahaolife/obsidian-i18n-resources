@@ -1,0 +1,277 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "friend-tracker",
+        "version": "1.0.0",
+        "title": "Friend Tracker",
+        "description": "Friend Tracker Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.3.3",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "placeholder",
+                    "source": "Enter relationship type",
+                    "target": "输入关系类型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Friend Tracker failed to load:",
+                    "target": "好友追踪器加载失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Add relationship type",
+                    "target": "添加关系类型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Folder where contact files will be stored",
+                    "target": "存放联系人文件的文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose how contacts are sorted by default",
+                    "target": "选择联系人默认排序方式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose which tab opens by default",
+                    "target": "选择默认打开的标签页"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Contacts folder",
+                    "target": "联系人文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default sort",
+                    "target": "默认排序"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default tab",
+                    "target": "默认标签页"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter folder name",
+                    "target": "输入文件夹名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Type name",
+                    "target": "输入名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Delete relationship type",
+                    "target": "删除关系类型"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Friend Tracker folder not found.",
+                    "target": "未找到 Friend Tracker 文件夹。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Updated contact name",
+                    "target": "已更新联系人名称"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Field already exists!",
+                    "target": "字段已存在！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Could not create Friend Tracker view",
+                    "target": "无法创建 Friend Tracker 视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Edit interaction",
+                    "target": "编辑互动"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Delete interaction",
+                    "target": "删除互动"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Days left",
+                    "target": "剩余天数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Last interaction",
+                    "target": "上次互动"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Days until birthday",
+                    "target": "距离生日的天数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Friend, Family, Colleague, etc.",
+                    "target": "朋友、家人、同事等"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Not set",
+                    "target": "未设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Field name",
+                    "target": "字段名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "What happened?",
+                    "target": "发生了什么？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Contact name",
+                    "target": "联系人姓名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Friend tracker",
+                    "target": "好友跟踪器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Add contact",
+                    "target": "添加联系人"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No contacts found. Get started by creating your first contact!",
+                    "target": "未找到联系人。创建你的第一个联系人开始吧！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "🎂",
+                    "target": "🎂"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Add custom field",
+                    "target": "添加自定义字段"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Add field",
+                    "target": "添加字段"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No contact data available",
+                    "target": "暂无联系人数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Birthday today!",
+                    "target": "今天生日！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Log meaningful touchpoints like meetings, calls, or important conversations to help maintain strong relationships",
+                    "target": "记录有意义的触点，如会议、电话或重要对话，帮助维护良好关系"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Add interaction",
+                    "target": "添加互动记录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Add formatted text, links, and other Markdown content",
+                    "target": "添加格式化文本、链接和其他 Markdown 内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Edit markdown",
+                    "target": "编辑 Markdown"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Add new contact",
+                    "target": "添加新联系人"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Name *",
+                    "target": "姓名 *"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Create contact",
+                    "target": "创建联系人"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Delete contact",
+                    "target": "删除联系人"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Relationship types",
+                    "target": "关系类型"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
