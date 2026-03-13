@@ -1,0 +1,55 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "url-display",
+        "version": "1.0.0",
+        "title": "URL Display",
+        "description": "URL Display Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.4.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "clickable-icon nav-action-button",
+                    "target": "clickable-icon nav-action-button"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "clickable-icon nav-action-button url-dispaly-lock",
+                    "target": "clickable-icon nav-action-button url-dispaly-lock"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "nav-folder mod-root",
+                    "target": "nav-folder mod-root"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Couldn't convert value into a JSON string: ",
+                    "target": "无法将值转换为 JSON 字符串："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Cache URL metadata.",
+                    "target": "缓存 URL 元数据。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "link",
+                    "source": "链接",
+                    "target": "链接"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
