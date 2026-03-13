@@ -1,0 +1,205 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "relax",
+        "version": "1.0.0",
+        "title": "R.E.L.A.X.",
+        "description": "R.E.L.A.X. Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.5.7",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "confirm",
+                    "source": "Are you sure you want to reset to default settings?",
+                    "target": "确定要重置为默认设置吗？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Plugin or settings not available",
+                    "target": "插件或设置不可用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Drag handle not found!",
+                    "target": "未找到拖动手柄！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error loading settings:",
+                    "target": "加载设置时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Ignore links",
+                    "target": "忽略链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Ignore URLs",
+                    "target": "忽略 URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Defang URLs",
+                    "target": "移除 URL 有害性"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Ignore code blocks",
+                    "target": "忽略代码块"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Reset defaults",
+                    "target": "重置为默认值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "RELAX: blacklist selected links",
+                    "target": "RELAX：将所选链接加入黑名单"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Do not modify Links, preventing to handle the same data over and over again.",
+                    "target": "请勿修改链接，以避免反复处理相同数据。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Do not modify URLs, so they do keep working.",
+                    "target": "请勿修改 URL，以确保其继续正常工作。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Convert https[:]// -> https://",
+                    "target": "转换 https[:]// -> https://"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Ignore content within code blocks when linking regexes.",
+                    "target": "在链接正则表达式时忽略代码块中的内容。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Group name updated.",
+                    "target": "组名已更新。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Settings have been reset to defaults.",
+                    "target": "设置已重置为默认值。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Config saved!",
+                    "target": "配置已保存！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No file selected. Please select a markdown file from the editor or navigation bar.",
+                    "target": "未选择文件。请从编辑器或导航栏选择一个 Markdown 文件。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please open a markdown file or select a folder",
+                    "target": "请打开一个 Markdown 文件或选择一个文件夹。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Added brackets in selection!",
+                    "target": "已在选区中添加括号！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Added brackets on entire file!",
+                    "target": "已为整个文件添加括号！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Updated entire file!",
+                    "target": "已更新整个文件！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No markdown file or folder is currently selected. Please select one.",
+                    "target": "当前未选择任何 Markdown 文件或文件夹。请选择一个。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Added to blacklist!",
+                    "target": "已添加到黑名单！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No valid selection found. Please select a valid link.",
+                    "target": "未找到有效选择。请选择一个有效链接。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "RELAX: Add to blacklist",
+                    "target": "RELAX：添加到黑名单"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Add Regex",
+                    "target": "添加正则表达式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Delete Group",
+                    "target": "删除分组"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Add Group",
+                    "target": "添加分组"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Add Regexp",
+                    "target": "添加正则表达式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Add to Blacklist",
+                    "target": "加入黑名单"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
