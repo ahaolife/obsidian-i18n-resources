@@ -1,0 +1,373 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "markitdown",
+        "version": "1.0.0",
+        "title": "Markitdown File Converter",
+        "description": "Markitdown File Converter Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.0.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Path to Python executable (e.g., python, python3, or a full path)",
+                    "target": "Python 可执行文件路径（例如 python、python3 或完整路径）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Display a progress bar during batch folder conversions",
+                    "target": "在批量文件夹转换时显示进度条"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show \"Convert to Markdown\" in the file explorer right-click menu (requires restart)",
+                    "target": "在文件资源管理器右键菜单中显示“转换为 Markdown”（需要重启）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable third-party Markitdown plugins (e.g., markitdown-pdf-separators)",
+                    "target": "启用第三方 Markitdown 插件（例如 markitdown-pdf-separators）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Key-value arguments passed to Markitdown plugins",
+                    "target": "传递给 Markitdown 插件的键值参数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Optional: Azure endpoint URL for enhanced PDF conversion",
+                    "target": "可选：用于增强 PDF 转换的 Azure 终结点 URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Python path",
+                    "target": "Python 路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Output folder",
+                    "target": "输出文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Extract images",
+                    "target": "提取图片"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Image subfolder",
+                    "target": "图片子文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show batch progress",
+                    "target": "显示批量进度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Context menu",
+                    "target": "上下文菜单"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable Markitdown plugins",
+                    "target": "启用 Markitdown 插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Plugin arguments",
+                    "target": "插件参数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Azure Document Intelligence endpoint",
+                    "target": "Azure Document Intelligence 终结点"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Try again",
+                    "target": "重试"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Done!",
+                    "target": "完成！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Convert to Markdown",
+                    "target": "转换为 Markdown"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "markitdown: Could not resolve vault base path. Plugin features may not work correctly.",
+                    "target": "markitdown: 无法解析库基路径。插件功能可能无法正常工作。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Markitdown installed successfully!",
+                    "target": "Markitdown 安装成功！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to install Markitdown. Check the console for errors.",
+                    "target": "无法安装 Markitdown。请检查控制台以查看错误。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please select a file first",
+                    "target": "请先选择一个文件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Could not determine vault path. This plugin requires a local vault.",
+                    "target": "无法确定库路径。此插件需要本地库。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please select a folder first",
+                    "target": "请先选择一个文件夹"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please select at least one file type",
+                    "target": "请至少选择一种文件类型"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No matching files found in the selected folder",
+                    "target": "在所选文件夹中未找到匹配的文件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Converting file...",
+                    "target": "正在转换文件..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Output file was not created",
+                    "target": "未创建输出文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "PDF files",
+                    "target": "PDF 文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Word documents",
+                    "target": "Word 文档"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "PowerPoint presentations",
+                    "target": "PowerPoint 演示文稿"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Excel spreadsheets",
+                    "target": "Excel 电子表格"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Web pages",
+                    "target": "网页"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Text files",
+                    "target": "文本文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Data files",
+                    "target": "数据文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Audio files",
+                    "target": "音频文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Archives & eBooks",
+                    "target": "压缩包和电子书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Convert file to Markdown",
+                    "target": "将文件转换为 Markdown"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Convert folder to Markdown",
+                    "target": "将文件夹转换为 Markdown"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Argument name",
+                    "target": "参数名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "+ Add argument",
+                    "target": "+ 添加参数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Install Markitdown",
+                    "target": "安装 Markitdown"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Refresh status",
+                    "target": "刷新状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Convert file to Markdown",
+                    "target": "将文件转换为 Markdown"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Select a file to convert:",
+                    "target": "选择要转换的文件："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Converting files",
+                    "target": "正在转换文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Convert folder contents to Markdown",
+                    "target": "将文件夹内容转换为 Markdown"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Select a folder to process:",
+                    "target": "选择要处理的文件夹："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Select file types to convert:",
+                    "target": "选择要转换的文件类型："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Markitdown setup",
+                    "target": "Markitdown 设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Python is not installed or not found at the configured path.",
+                    "target": "未安装 Python 或在配置的路径中找不到。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "To get started:",
+                    "target": "开始之前："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Install Python 3.8+ from python.org",
+                    "target": "从 python.org 安装 Python 3.8+"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Set the correct Python path in plugin settings",
+                    "target": "在插件设置中设置正确的 Python 路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Restart Obsidian or re-run this setup",
+                    "target": "重启 Obsidian 或重新运行此设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Open settings",
+                    "target": "打开设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Markitdown is not installed. Would you like to install it now?",
+                    "target": "未安装 Markitdown。要现在安装吗？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "This will install the markitdown Python package using pip.",
+                    "target": "这将使用 pip 安装 markitdown Python 包。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Installation failed. Check the log above for details.",
+                    "target": "安装失败。请查看上方日志了解详情。"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
