@@ -1,0 +1,121 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "rollover-weekly-todo",
+        "version": "1.0.0",
+        "title": "Rollover Weekly Todo",
+        "description": "Rollover Weekly Todo Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.9",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom daily note settings found!",
+                    "target": "未找到自定义的每日笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom weekly note settings found!",
+                    "target": "未找到自定义的每周笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom monthly note settings found!",
+                    "target": "未找到自定义的每月笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom quarterly note settings found!",
+                    "target": "未找到自定义的每季度笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom yearly note settings found!",
+                    "target": "未找到自定义的每年笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Plugin loaded",
+                    "target": "插件已加载"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Confirm Undo",
+                    "target": "确认撤销"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Delete todos from previous week",
+                    "target": "删除上周的待办"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Roll over children of todos",
+                    "target": "顺延待办事项的子项"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Unable to create new file.",
+                    "target": "无法创建新文件。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Rollover weekly todos is unable to rollover unfinished todos: Please enable Periodic Notes (with weekly notes enabled).",
+                    "target": "周任务滚动无法滚动未完成的待办：请启用 Periodic Notes（并开启每周笔记）。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No previous week note found.",
+                    "target": "未找到上一周的笔记。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Rollover now",
+                    "target": "立即滚动"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Undo last rollover",
+                    "target": "撤销上次滚动"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Undo last rollover",
+                    "target": "撤销上次滚动"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "A single rollover command can be undone, which will load the state of the two files modified (or 1 if the delete option is toggled off) before the rollover first occurred. Any text you may have added from those file(s) during that time may be deleted.",
+                    "target": "单次滚动命令可被撤销，这将加载首次滚动发生前被修改的两个文件的状态（若删除选项关闭则为 1 个）。在此期间你从这些文件中添加的任何文本都可能被删除。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Changes made with undo:",
+                    "target": "撤销所做的更改："
+                }
+            ],
+            "regex": []
+        }
+    }
+}
