@@ -1,0 +1,1285 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "dmn-plugin",
+        "version": "1.0.0",
+        "title": "DMN",
+        "description": "DMN Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.5.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "  <link/><table></table><a href=\"/a\">a</a><input type=\"checkbox\"/>",
+                    "target": "  <link/><table></table><a href=\"/a\">a</a><input type=\"checkbox\"/>"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "unhandled error in event listener",
+                    "target": "事件监听器中的未处理错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "required args <name, cb>",
+                    "target": "必需参数 <name, cb>"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "required args <nsMap={}>",
+                    "target": "必需参数 <nsMap={}>"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "required args <xml=string>",
+                    "target": "必需参数 <xml=string>"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "%s: T <identifier | nameIdentifier>",
+                    "target": "%s: T <identifier | nameIdentifier>"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "%s: MATCH <%s> <%s>",
+                    "target": "%s: 匹配 <%s> <%s>"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "%s: T <propertyIdentifier>",
+                    "target": "%s: T <propertyIdentifier>"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "%s: MATCH <propertyIdentifier> <%s>",
+                    "target": "%s: 匹配 <propertyIdentifier> <%s>"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[%s] enter",
+                    "target": "[%s] 进入"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[%s] NO exit %o\n%s",
+                    "target": "[%s] 无退出 %o\n%s"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[%s] exit %o\n%s",
+                    "target": "[%s] 退出 %o\n%s"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[%s] token <%s> + <%s>",
+                    "target": "[%s] 令牌 <%s> + <%s>"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[%s] literal %o",
+                    "target": "[%s] 字面量 %o"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[%s] resolve name <%s=%s>",
+                    "target": "[%s] 解析名称 <%s=%s>"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[%s] declareName <%s>",
+                    "target": "[%s] declareName <%s>"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[%s] no define <%s=%s>",
+                    "target": "[%s] 未定义 <%s=%s>"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[%s] define <%s=%s>",
+                    "target": "[%s] 定义 <%s=%s>"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "DMN loading...",
+                    "target": "DMN 加载中..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Try to render a DMN",
+                    "target": "尝试渲染 DMN"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "something went wrong:",
+                    "target": "出现了问题："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Unloading DMN plugin...",
+                    "target": "正在卸载 DMN 插件..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set the default height of the rendered DMN. Adjust this inline with e.g., `\"height\":600`",
+                    "target": "设置渲染 DMN 的默认高度。可在此处内联调整，例如：`\"height\":600`"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set the default for showing the 'Open diagram' link",
+                    "target": "设置默认是否显示“打开图表”链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set the default for showing the zoom buttons (for DRD)",
+                    "target": "设置默认是否显示缩放按钮（用于 DRD）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set the default for forcing a white background",
+                    "target": "设置默认强制使用白色背景"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default height",
+                    "target": "默认高度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default show open diagram",
+                    "target": "默认显示打开图表"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default show zoom buttons",
+                    "target": "默认显示缩放按钮"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default force white background",
+                    "target": "默认强制白色背景"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "missing namespace information for ",
+                    "target": "缺少命名空间信息："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "You are running production build of Inferno in development mode. Use dev:module entry point.",
+                    "target": "你正在开发模式下运行 Inferno 的生产构建。请使用 dev:module 入口点。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p>Returns the logical negation of the given value.</p>\n<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">not(negand: boolean): boolean\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">not(true)\n// false\n\nnot(null)\n// null\n</code></pre>\n",
+                    "target": "<p>返回给定值的逻辑否定。</p>\n<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">not(negand: boolean): boolean\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">not(true)\n// false\n\nnot(null)\n// null\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p>Returns the value of the context entry with the given key.</p>\n<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">get value(context: context, key: string): Any\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">get value({foo: 123}, &quot;foo&quot;)\n// 123\n\nget value({a: 1}, &quot;b&quot;)\n// null\n</code></pre>\n",
+                    "target": "<p>返回具有给定键的上下文条目的值。</p>\n<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">get value(context: context, key: string): Any\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">get value({foo: 123}, &quot;foo&quot;)\n// 123\n\nget value({a: 1}, &quot;b&quot;)\n// null\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p>Returns the entries of the context as a list of key-value-pairs.</p>\n<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">get entries(context: context): list&lt;context&gt;\n</code></pre>\n<p>The return value is a list of contexts. Each context contains two entries for &quot;key&quot; and &quot;value&quot;.</p>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">get entries({foo: 123})\n// [{key: &quot;foo&quot;, value: 123}]\n</code></pre>\n",
+                    "target": "<p>将上下文条目以键值对列表形式返回。</p>\n<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">get entries(context: context): list&lt;context&gt;\n</code></pre>\n<p>返回值是一个上下文列表。每个上下文包含两个条目：&quot;key&quot; 和 &quot;value&quot;。</p>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">get entries({foo: 123})\n// [{key: &quot;foo&quot;, value: 123}]\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p>Adds a new entry with the given key and value to the context. Returns a new context that includes the entry.</p>\n<p>If an entry for the same key already exists in the context, it overrides the value.</p>\n<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">context put(context: context, key: string, value: Any): context\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">context put({x:1}, &quot;y&quot;, 2)\n// {x:1, y:2}\n</code></pre>\n<p>:::info\nThe function <code>context put()</code> replaced the previous function <code>put()</code> (Camunda Extension). The\nprevious function is deprecated and should not be used anymore.\n:::</p>\n",
+                    "target": "<p>将具有给定键和值的新条目添加到上下文中。返回包含该条目的新上下文。</p>\n<p>如果上下文中已存在相同键的条目，则会覆盖其值。</p>\n<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">context put(context: context, key: string, value: Any): context\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">context put({x:1}, &quot;y&quot;, 2)\n// {x:1, y:2}\n</code></pre>\n<p>:::info\n函数 <code>context put()</code> 替换了之前的函数 <code>put()</code>（Camunda 扩展）。该旧函数已弃用，不应再使用。\n:::</p>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p>Union the given contexts. Returns a new context that includes all entries of the given contexts.</p>\n<p>If an entry for the same key already exists in a context, it overrides the value. The entries are overridden in the same order as in the list of contexts.</p>\n<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">context merge(contexts: list&lt;context&gt;): context\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">context merge([{x:1}, {y:2}])\n// {x:1, y:2}\n\ncontext merge([{x:1, y: 0}, {y:2}])\n// {x:1, y:2}\n</code></pre>\n<p>:::info\nThe function <code>context merge()</code> replaced the previous function <code>put all()</code> (Camunda Extension). The\nprevious function is deprecated and should not be used anymore.\n:::</p>\n",
+                    "target": "<p>合并给定的上下文。返回包含所有给定上下文条目的新上下文。</p>\n<p>如果某个上下文中已存在相同键的条目，则会覆盖其值。条目覆盖顺序与上下文列表中的顺序一致。</p>\n<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">context merge(contexts: list&lt;context&gt;): context\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">context merge([{x:1}, {y:2}])\n// {x:1, y:2}\n\ncontext merge([{x:1, y: 0}, {y:2}])\n// {x:1, y:2}\n</code></pre>\n<p>:::info\n函数 <code>context merge()</code> 替换了之前的函数 <code>put all()</code>（Camunda 扩展）。该旧函数已弃用，不应再使用。\n:::</p>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p>Returns the given value as a string representation.</p>\n<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">string(from: Any): string\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">string(1.1)\n// &quot;1.1&quot;\n\nstring(date(&quot;2012-12-25&quot;))\n// &quot;2012-12-25&quot;\n</code></pre>\n",
+                    "target": "<p>将给定值返回为字符串表示。</p>\n<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">string(from: Any): string\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">string(1.1)\n// &quot;1.1&quot;\n\nstring(date(&quot;2012-12-25&quot;))\n// &quot;2012-12-25&quot;\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p>Parses the given string to a number.</p>\n<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">number(from: string): number\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">number(&quot;1500.5&quot;)\n// 1500.5\n</code></pre>\n",
+                    "target": "<p>将给定字符串解析为数字。</p>\n<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">number(from: string): number\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">number(&quot;1500.5&quot;)\n// 1500.5\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p>Constructs a context of the given list of key-value pairs. It is the reverse function to <a href=\"feel-built-in-functions-context.md#get-entriescontext\">get entries()</a>.</p>\n<p>Each key-value pair must be a context with two entries: <code>key</code> and <code>value</code>. The entry with name <code>key</code> must have a value of the type <code>string</code>.</p>\n<p>It might override context entries if the keys are equal. The entries are overridden in the same order as the contexts in the given list.</p>\n<p>Returns <code>null</code> if one of the entries is not a context or if a context doesn&#39;t contain the required entries.</p>\n<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">context(entries: list&lt;context&gt;): context\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">context([{&quot;key&quot;:&quot;a&quot;, &quot;value&quot;:1}, {&quot;key&quot;:&quot;b&quot;, &quot;value&quot;:2}])\n// {a:1, b:2}\n</code></pre>\n",
+                    "target": "<p>根据给定的键值对列表构造一个上下文。它是 <a href=\"feel-built-in-functions-context.md#get-entriescontext\">get entries()</a> 的反向函数。</p>\n<p>每个键值对必须是包含两个条目的上下文：<code>key</code> 和 <code>value</code>。名为 <code>key</code> 的条目必须是 <code>string</code> 类型的值。</p>\n<p>如果键相同，可能会覆盖上下文条目。条目的覆盖顺序与给定列表中的上下文顺序一致。</p>\n<p>如果某个条目不是上下文，或上下文不包含所需条目，则返回 <code>null</code>。</p>\n<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">context(entries: list&lt;context&gt;): context\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">context([{&quot;key&quot;:&quot;a&quot;, &quot;value&quot;:1}, {&quot;key&quot;:&quot;b&quot;, &quot;value&quot;:2}])\n// {a:1, b:2}\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p>Returns a date from the given value.</p>\n<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">date(from: string): date\n</code></pre>\n<p>Parses the given string into a date.</p>\n<pre><code class=\"language-feel\">date(from: date and time): date\n</code></pre>\n<p>Extracts the date component from the given date and time.</p>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">date(&quot;2018-04-29&quot;)\n// date(&quot;2018-04-29&quot;)\n\ndate(date and time(&quot;2012-12-25T11:00:00&quot;))\n// date(&quot;2012-12-25&quot;)\n</code></pre>\n",
+                    "target": "<p>从给定值返回日期。</p>\n<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">date(from: string): date\n</code></pre>\n<p>将给定字符串解析为日期。</p>\n<pre><code class=\"language-feel\">date(from: date and time): date\n</code></pre>\n<p>从给定日期和时间中提取日期部分。</p>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">date(&quot;2018-04-29&quot;)\n// date(&quot;2018-04-29&quot;)\n\ndate(date and time(&quot;2012-12-25T11:00:00&quot;))\n// date(&quot;2012-12-25&quot;)\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p>Returns a date from the given components.</p>\n<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">date(year: number, month: number, day: number): date\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">date(2012, 12, 25)\n// date(&quot;2012-12-25&quot;)\n</code></pre>\n",
+                    "target": "<p>根据给定组件返回日期。</p>\n<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">date(year: number, month: number, day: number): date\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">date(2012, 12, 25)\n// date(&quot;2012-12-25&quot;)\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p>Returns a time from the given value.</p>\n<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">time(from: string): time\n</code></pre>\n<p>Parses the given string into a time.</p>\n<pre><code class=\"language-feel\">time(from: date and time): time\n</code></pre>\n<p>Extracts the time component from the given date and time.</p>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">time(&quot;12:00:00&quot;)\n// time(&quot;12:00:00&quot;)\n\ntime(date and time(&quot;2012-12-25T11:00:00&quot;))\n// time(&quot;11:00:00&quot;)\n</code></pre>\n",
+                    "target": "<p>从给定值返回时间。</p>\n<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">time(from: string): time\n</code></pre>\n<p>将给定字符串解析为时间。</p>\n<pre><code class=\"language-feel\">time(from: date and time): time\n</code></pre>\n<p>从给定日期和时间中提取时间部分。</p>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">time(&quot;12:00:00&quot;)\n// time(&quot;12:00:00&quot;)\n\ntime(date and time(&quot;2012-12-25T11:00:00&quot;))\n// time(&quot;11:00:00&quot;)\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p>Returns a time from the given components.</p>\n<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">time(hour: number, minute: number, second: number): time\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">time(23, 59, 0)\n// time(&quot;23:59:00&quot;)\n</code></pre>\n",
+                    "target": "<p>根据给定组件返回时间。</p>\n<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">time(hour: number, minute: number, second: number): time\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">time(23, 59, 0)\n// time(&quot;23:59:00&quot;)\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p>Returns a time from the given components, including a timezone offset.</p>\n<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">time(hour: number, minute: number, second: number, offset: days and time duration): time\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">time(14, 30, 0, duration(&quot;PT1H&quot;))\n// time(&quot;14:30:00+01:00&quot;)\n</code></pre>\n",
+                    "target": "<p>根据给定组件返回时间，包括时区偏移。</p>\n<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">time(hour: number, minute: number, second: number, offset: days and time duration): time\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">time(14, 30, 0, duration(&quot;PT1H&quot;))\n// time(&quot;14:30:00+01:00&quot;)\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p>Parses the given string into a date and time.</p>\n<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">date and time(from: string): date and time\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">date and time(&quot;2018-04-29T009:30:00&quot;)\n// date and time(&quot;2018-04-29T009:30:00&quot;)\n</code></pre>\n",
+                    "target": "<p>将给定字符串解析为日期和时间。</p>\n<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">date and time(from: string): date and time\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">date and time(&quot;2018-04-29T009:30:00&quot;)\n// date and time(&quot;2018-04-29T009:30:00&quot;)\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p>Returns a date and time from the given components.</p>\n<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">date and time(date: date, time: time): date and time\n</code></pre>\n<pre><code class=\"language-feel\">date and time(date: date and time, time: time): date and time\n</code></pre>\n<p>Returns a date and time value that consists of the date component of <code>date</code> combined with <code>time</code>.</p>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">date and time(date(&quot;2012-12-24&quot;),time(&quot;T23:59:00&quot;))\n// date and time(&quot;2012-12-24T23:59:00&quot;)\n\ndate and time(date and time(&quot;2012-12-25T11:00:00&quot;),time(&quot;T23:59:00&quot;))\n// date and time(&quot;2012-12-25T23:59:00&quot;)\n</code></pre>\n",
+                    "target": "<p>根据给定组件返回日期和时间。</p>\n<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">date and time(date: date, time: time): date and time\n</code></pre>\n<pre><code class=\"language-feel\">date and time(date: date and time, time: time): date and time\n</code></pre>\n<p>返回一个日期和时间值，该值由 <code>date</code> 的日期部分与 <code>time</code> 组合而成。</p>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">date and time(date(&quot;2012-12-24&quot;),time(&quot;T23:59:00&quot;))\n// date and time(&quot;2012-12-24T23:59:00&quot;)\n\ndate and time(date and time(&quot;2012-12-25T11:00:00&quot;),time(&quot;T23:59:00&quot;))\n// date and time(&quot;2012-12-25T23:59:00&quot;)\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p>Parses the given string into a duration. The duration is either a days and time duration or a years and months duration.</p>\n<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">duration(from: string): days and time duration\n</code></pre>\n<pre><code class=\"language-feel\">duration(from: string): years and months duration\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">duration(&quot;P5D&quot;)\n// duration(&quot;P5D&quot;)\n\nduration(&quot;P32Y&quot;)\n// duration(&quot;P32Y&quot;)\n</code></pre>\n",
+                    "target": "<p>将给定字符串解析为持续时间。持续时间可以是日和时间持续时间或年和月持续时间。</p>\n<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">duration(from: string): days and time duration\n</code></pre>\n<pre><code class=\"language-feel\">duration(from: string): years and months duration\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">duration(&quot;P5D&quot;)\n// duration(&quot;P5D&quot;)\n\nduration(&quot;P32Y&quot;)\n// duration(&quot;P32Y&quot;)\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p>Returns the years and months duration between <code>from</code> and <code>to</code>.</p>\n<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">years and months duration(from: date, to: date): years and months duration\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">years and months duration(date(&quot;2011-12-22&quot;), date(&quot;2013-08-24&quot;))\n// duration(&quot;P1Y8M&quot;)\n</code></pre>\n",
+                    "target": "<p>返回 <code>from</code> 与 <code>to</code> 之间的年和月持续时间。</p>\n<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">years and months duration(from: date, to: date): years and months duration\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">years and months duration(date(&quot;2011-12-22&quot;), date(&quot;2013-08-24&quot;))\n// duration(&quot;P1Y8M&quot;)\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p>Returns a partial list of the given value starting at <code>start position</code>.</p>\n<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">sublist(list: list, start position: number): list\n</code></pre>\n<p>The <code>start position</code> starts at the index <code>1</code>. The last position is <code>-1</code>.</p>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">sublist([1,2,3], 2)\n// [2,3]\n</code></pre>\n",
+                    "target": "<p>从 <code>start position</code> 开始返回给定值的部分列表。</p>\n<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">sublist(list: list, start position: number): list\n</code></pre>\n<p><code>start position</code> 从索引 <code>1</code> 开始。最后位置为 <code>-1</code>。</p>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">sublist([1,2,3], 2)\n// [2,3]\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p>Returns a partial list of the given value starting at <code>start position</code>.</p>\n<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">sublist(list: list, start position: number, length: number): list\n</code></pre>\n<p>The <code>start position</code> starts at the index <code>1</code>. The last position is <code>-1</code>.</p>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">sublist([1,2,3], 1, 2)\n// [1,2]\n</code></pre>\n",
+                    "target": "<p>返回从 <code>start position</code> 开始的给定值的部分列表。</p>\n<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">sublist(list: list, start position: number, length: number): list\n</code></pre>\n<p><code>start position</code> 从索引 <code>1</code> 开始。最后一个位置是 <code>-1</code>。</p>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">sublist([1,2,3], 1, 2)\n// [1,2]\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p>Returns the given list in revered order.</p>\n<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">reverse(list: list): list\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">reverse([1,2,3])\n// [3,2,1]\n</code></pre>\n",
+                    "target": "<p>返回按逆序排列的给定列表。</p>\n<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">reverse(list: list): list\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">reverse([1,2,3])\n// [3,2,1]\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p>Returns an ascending list of positions containing <code>match</code>.</p>\n<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">index of(list: list, match: Any): list&lt;number&gt;\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">index of([1,2,3,2],2)\n// [2,4]\n</code></pre>\n",
+                    "target": "<p>返回包含 <code>match</code> 的位置升序列表。</p>\n<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">index of(list: list, match: Any): list&lt;number&gt;\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">index of([1,2,3,2],2)\n// [2,4]\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p>Returns the given list without duplicates.</p>\n<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">distinct values(list: list): list\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">distinct values([1,2,3,2,1])\n// [1,2,3]\n</code></pre>\n",
+                    "target": "<p>返回去重后的给定列表。</p>\n<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">distinct values(list: list): list\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">distinct values([1,2,3,2,1])\n// [1,2,3]\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p>Returns the given list sorted by the <code>precedes</code> function.</p>\n<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">sort(list: list, precedes: function&lt;(Any, Any) -&gt; boolean&gt;): list\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">sort(list: [3,1,4,5,2], precedes: function(x,y) x &lt; y)\n// [1,2,3,4,5]\n</code></pre>\n",
+                    "target": "<p>返回按 <code>precedes</code> 函数排序的给定列表。</p>\n<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">sort(list: list, precedes: function&lt;(Any, Any) -&gt; boolean&gt;): list\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">sort(list: [3,1,4,5,2], precedes: function(x,y) x &lt; y)\n// [1,2,3,4,5]\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p>Rounds the given value at the given scale.</p>\n<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">decimal(n: number, scale: number): number\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">decimal(1/3, 2)\n// .33\n\ndecimal(1.5, 0)\n// 2\n</code></pre>\n",
+                    "target": "<p>按给定的小数位数对给定值进行四舍五入。</p>\n<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">decimal(n: number, scale: number): number\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">decimal(1/3, 2)\n// .33\n\ndecimal(1.5, 0)\n// 2\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p>Rounds the given value with rounding mode flooring.</p>\n<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">floor(n: number): number\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">floor(1.5)\n// 1\n\nfloor(-1.5)\n// -2\n</code></pre>\n",
+                    "target": "<p>使用向下取整模式对给定值进行舍入。</p>\n<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">floor(n: number): number\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">floor(1.5)\n// 1\n\nfloor(-1.5)\n// -2\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p>Rounds the given value with rounding mode flooring at the given scale.</p>\n<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">floor(n: number, scale: number): number\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">floor(-1.56, 1)\n// -1.6\n</code></pre>\n",
+                    "target": "<p>按给定的小数位数使用向下取整模式对给定值进行舍入。</p>\n<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">floor(n: number, scale: number): number\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">floor(-1.56, 1)\n// -1.6\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p>Rounds the given value with rounding mode ceiling.</p>\n<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">ceiling(n: number): number\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">ceiling(1.5)\n// 2\n\nceiling(-1.5)\n// -1\n</code></pre>\n",
+                    "target": "<p>使用向上取整模式对给定值进行舍入。</p>\n<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">ceiling(n: number): number\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">ceiling(1.5)\n// 2\n\nceiling(-1.5)\n// -1\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p>Rounds the given value with rounding mode ceiling at the given scale.</p>\n<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">ceiling(n: number, scale: number): number\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">ceiling(-1.56, 1)\n// -1.5\n</code></pre>\n",
+                    "target": "<p>按给定的小数位数使用向上取整模式对给定值进行舍入。</p>\n<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">ceiling(n: number, scale: number): number\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">ceiling(-1.56, 1)\n// -1.5\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p>Rounds the given value with the rounding mode round-up at the given scale.</p>\n<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">round up(n: number, scale: number): number\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">round up(5.5)\n// 6\n\nround up(-5.5)\n// -6\n\nround up(1.121, 2)\n// 1.13\n\nround up(-1.126, 2)\n// -1.13\n</code></pre>\n",
+                    "target": "<p>在给定的小数位数下使用向上取整模式对给定值进行舍入。</p>\n<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">round up(n: number, scale: number): number\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">round up(5.5)\n// 6\n\nround up(-5.5)\n// -6\n\nround up(1.121, 2)\n// 1.13\n\nround up(-1.126, 2)\n// -1.13\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p>Rounds the given value with the rounding mode round-down at the given scale.</p>\n<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">round down(n: number, scale: number): number\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">round down(5.5, 0)\n// 5\n\nround down (-5.5, 0)\n// -5\n\nround down (1.121, 2)\n// 1.12\n\nround down (-1.126, 2)\n// -1.12\n</code></pre>\n",
+                    "target": "<p>在给定的小数位数下使用向下取整模式对给定值进行舍入。</p>\n<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">round down(n: number, scale: number): number\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">round down(5.5, 0)\n// 5\n\nround down (-5.5, 0)\n// -5\n\nround down (1.121, 2)\n// 1.12\n\nround down (-1.126, 2)\n// -1.12\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p>Rounds the given value with the rounding mode round-half-up at the given scale.</p>\n<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">round half up(n: number, scale: number): number\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">round half up(5.5, 0)\n// 6\n\nround half up(-5.5, 0)\n// -6\n\nround half up(1.121, 2)\n// 1.12\n\nround half up(-1.126, 2)\n// -1.13\n</code></pre>\n",
+                    "target": "<p>在给定的小数位数下使用四舍五入（半入）模式对给定值进行舍入。</p>\n<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">round half up(n: number, scale: number): number\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">round half up(5.5, 0)\n// 6\n\nround half up(-5.5, 0)\n// -6\n\nround half up(1.121, 2)\n// 1.12\n\nround half up(-1.126, 2)\n// -1.13\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p>Rounds the given value with the rounding mode round-half-down at the given scale.</p>\n<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">round half down(n: number, scale: number): number\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">round half down (5.5, 0)\n// 5\n\nround half down (-5.5, 0)\n// -5\n\nround half down (1.121, 2)\n// 1.12\n\nround half down (-1.126, 2)\n// -1.13\n</code></pre>\n",
+                    "target": "<p>在给定的小数位数下使用五舍六入（半舍）模式对给定值进行舍入。</p>\n<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">round half down(n: number, scale: number): number\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">round half down (5.5, 0)\n// 5\n\nround half down (-5.5, 0)\n// -5\n\nround half down (1.121, 2)\n// 1.12\n\nround half down (-1.126, 2)\n// -1.13\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p>Returns the absolute value of the given numeric value.</p>\n<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">abs(number: number): number\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">abs(10)\n// 10\n\nabs(-10)\n// 10\n</code></pre>\n",
+                    "target": "<p>返回给定数值的绝对值。</p>\n<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">abs(number: number): number\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">abs(10)\n// 10\n\nabs(-10)\n// 10\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p>Returns the square root of the given value.</p>\n<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">sqrt(number: number): number\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">sqrt(16)\n// 4\n</code></pre>\n",
+                    "target": "<p>返回给定值的平方根。</p>\n<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">sqrt(number: number): number\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">sqrt(16)\n// 4\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p>Returns the natural logarithm (base e) of the given value.</p>\n<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">log(number: number): number\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">log(10)\n// 2.302585092994046\n</code></pre>\n",
+                    "target": "<p>返回给定值的自然对数（以 e 为底）。</p>\n<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">log(number: number): number\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">log(10)\n// 2.302585092994046\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p>Returns the Euler’s number e raised to the power of the given number .</p>\n<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">exp(number: number): number\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">exp(5)\n// 148.4131591025766\n</code></pre>\n",
+                    "target": "<p>返回以欧拉数 e 为底的给定数的幂。</p>\n<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">exp(number: number): number\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">exp(5)\n// 148.4131591025766\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p>Returns <code>true</code> if the given value is odd. Otherwise, returns <code>false</code>.</p>\n<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">odd(number: number): boolean\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">odd(5)\n// true\n\nodd(2)\n// false\n</code></pre>\n",
+                    "target": "<p>如果给定值为奇数则返回 <code>true</code>，否则返回 <code>false</code>。</p>\n<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">odd(number: number): boolean\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">odd(5)\n// true\n\nodd(2)\n// false\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p>Returns <code>true</code> if the given is even. Otherwise, returns <code>false</code>.</p>\n<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">even(number: number): boolean\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">even(5)\n// false\n\neven(2)\n// true\n</code></pre>\n",
+                    "target": "<p>如果给定值为偶数则返回 <code>true</code>，否则返回 <code>false</code>。</p>\n<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">even(number: number): boolean\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">even(5)\n// false\n\neven(2)\n// true\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">before(point1: Any, point2: Any): boolean\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">before(1, 10)\n// true\n\nbefore(10, 1)\n// false\n</code></pre>\n",
+                    "target": "<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">before(point1: Any, point2: Any): boolean\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">before(1, 10)\n// true\n\nbefore(10, 1)\n// false\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">before(range: range, point: Any): boolean\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">before([1..5], 10)\n// true\n</code></pre>\n",
+                    "target": "<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">before(range: range, point: Any): boolean\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">before([1..5], 10)\n// true\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">before(point: Any, range: range): boolean\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">before(1, [2..5])\n// true\n</code></pre>\n",
+                    "target": "<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">before(point: Any, range: range): boolean\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">before(1, [2..5])\n// true\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">before(range1: range, range2: range): boolean\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">before([1..5], [6..10])\n// true\n\nbefore([1..5),[5..10])\n// true\n</code></pre>\n",
+                    "target": "<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">before(range1: range, range2: range): boolean\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">before([1..5], [6..10])\n// true\n\nbefore([1..5),[5..10])\n// true\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">after(point1: Any, point2: Any): boolean\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">after(10, 1)\n// true\n\nafter(1, 10)\n// false\n</code></pre>\n",
+                    "target": "<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">after(point1: Any, point2: Any): boolean\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">after(10, 1)\n// true\n\nafter(1, 10)\n// false\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">after(range: range, point: Any): boolean\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">after([1..5], 10)\n// false\n</code></pre>\n",
+                    "target": "<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">after(range: range, point: Any): boolean\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">after([1..5], 10)\n// false\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">after(point: Any, range: range): boolean\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">after(12, [2..5])\n// true\n</code></pre>\n",
+                    "target": "<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">after(point: Any, range: range): boolean\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">after(12, [2..5])\n// true\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">after(range1: range, range2: range): boolean\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">after([6..10], [1..5])\n// true\n\nafter([5..10], [1..5))\n// true\n</code></pre>\n",
+                    "target": "<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">after(range1: range, range2: range): boolean\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">after([6..10], [1..5])\n// true\n\nafter([5..10], [1..5))\n// true\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">meets(range1: range, range2: range): boolean\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">meets([1..5], [5..10])\n// true\n\nmeets([1..3], [4..6])\n// false\n\nmeets([1..3], [3..5])\n// true\n\nmeets([1..5], (5..8])\n// false\n</code></pre>\n",
+                    "target": "<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">meets(range1: range, range2: range): boolean\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">meets([1..5], [5..10])\n// true\n\nmeets([1..3], [4..6])\n// false\n\nmeets([1..3], [3..5])\n// true\n\nmeets([1..5], (5..8])\n// false\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">met by(range1: range, range2: range): boolean\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">met by([5..10], [1..5])\n// true\n\nmet by([3..4], [1..2])\n// false\n\nmet by([3..5], [1..3])\n// true\n\nmet by((5..8], [1..5))\n// false\n\nmet by([5..10], [1..5))\n// false\n</code></pre>\n",
+                    "target": "<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">met by(range1: range, range2: range): boolean\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">met by([5..10], [1..5])\n// true\n\nmet by([3..4], [1..2])\n// false\n\nmet by([3..5], [1..3])\n// true\n\nmet by((5..8], [1..5))\n// false\n\nmet by([5..10], [1..5))\n// false\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">overlaps(range1: range, range2: range): boolean\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">overlaps([5..10], [1..6])\n// true\n\noverlaps((3..7], [1..4])\n// true\n\noverlaps([1..3], (3..6])\n// false\n\noverlaps((5..8], [1..5))\n// false\n\noverlaps([4..10], [1..5))\n// true\n</code></pre>\n",
+                    "target": "<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">overlaps(range1: range, range2: range): boolean\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">overlaps([5..10], [1..6])\n// true\n\noverlaps((3..7], [1..4])\n// true\n\noverlaps([1..3], (3..6])\n// false\n\noverlaps((5..8], [1..5))\n// false\n\noverlaps([4..10], [1..5))\n// true\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">overlaps before(range1: range, range2: range): boolean\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">overlaps before([1..5], [4..10])\n// true\n\noverlaps before([3..4], [1..2])\n// false\n\noverlaps before([1..3], (3..5])\n// false\n\noverlaps before([1..5), (3..8])\n// true\n\noverlaps before([1..5), [5..10])\n// false\n</code></pre>\n",
+                    "target": "<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">overlaps before(range1: range, range2: range): boolean\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">overlaps before([1..5], [4..10])\n// true\n\noverlaps before([3..4], [1..2])\n// false\n\noverlaps before([1..3], (3..5])\n// false\n\noverlaps before([1..5), (3..8])\n// true\n\noverlaps before([1..5), [5..10])\n// false\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">overlaps after(range1: range, range2: range): boolean\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">overlaps after([4..10], [1..5])\n// true\n\noverlaps after([3..4], [1..2])\n// false\n\noverlaps after([3..5], [1..3))\n// false\n\noverlaps after((5..8], [1..5))\n// false\n\noverlaps after([4..10], [1..5))\n// true\n</code></pre>\n",
+                    "target": "<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">overlaps after(range1: range, range2: range): boolean\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">overlaps after([4..10], [1..5])\n// true\n\noverlaps after([3..4], [1..2])\n// false\n\noverlaps after([3..5], [1..3))\n// false\n\noverlaps after((5..8], [1..5))\n// false\n\noverlaps after([4..10], [1..5))\n// true\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">finishes(point: Any, range: range): boolean\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">finishes(5, [1..5])\n// true\n\nfinishes(10, [1..7])\n// false\n</code></pre>\n",
+                    "target": "<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">finishes(point: Any, range: range): boolean\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">finishes(5, [1..5])\n// true\n\nfinishes(10, [1..7])\n// false\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">finishes(range1: range, range2: range): boolean\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">finishes([3..5], [1..5])\n// true\n\nfinishes((1..5], [1..5))\n// false\n\nfinishes([5..10], [1..10))\n// false\n</code></pre>\n",
+                    "target": "<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">finishes(range1: range, range2: range): boolean\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">finishes([3..5], [1..5])\n// true\n\nfinishes((1..5], [1..5))\n// false\n\nfinishes([5..10], [1..10))\n// false\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">finished by(range: range, point: Any): boolean\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">finished by([5..10], 10)\n// true\n\nfinished by([3..4], 2)\n// false\n</code></pre>\n",
+                    "target": "<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">finished by(range: range, point: Any): boolean\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">finished by([5..10], 10)\n// true\n\nfinished by([3..4], 2)\n// false\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">finished by(range1: range, range2: range): boolean\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">finished by([1..5], [3..5])\n// true\n\nfinished by((5..8], [1..5))\n// false\n\nfinished by([5..10], (1..10))\n// false\n</code></pre>\n",
+                    "target": "<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">finished by(range1: range, range2: range): boolean\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">finished by([1..5], [3..5])\n// true\n\nfinished by((5..8], [1..5))\n// false\n\nfinished by([5..10], (1..10))\n// false\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">includes(range: range, point: Any): boolean\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">includes([5..10], 6)\n// true\n\nincludes([3..4], 5)\n// false\n</code></pre>\n",
+                    "target": "<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">includes(range: range, point: Any): boolean\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">includes([5..10], 6)\n// true\n\nincludes([3..4], 5)\n// false\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">includes(range1: range, range2: range): boolean\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">includes([1..10], [4..6])\n// true\n\nincludes((5..8], [1..5))\n// false\n\nincludes([1..10], [1..5))\n// true\n</code></pre>\n",
+                    "target": "<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">includes(range1: range, range2: range): boolean\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">includes([1..10], [4..6])\n// true\n\nincludes((5..8], [1..5))\n// false\n\nincludes([1..10], [1..5))\n// true\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">during(point: Any, range: range): boolean\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">during(5, [1..10])\n// true\n\nduring(12, [1..10])\n// false\n\nduring(1, (1..10])\n// false\n</code></pre>\n",
+                    "target": "<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">during(point: Any, range: range): boolean\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">during(5, [1..10])\n// true\n\nduring(12, [1..10])\n// false\n\nduring(1, (1..10])\n// false\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">during(range1: range, range2: range): boolean\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">during([4..6], [1..10))\n// true\n\nduring((1..5], (1..10])\n// true\n</code></pre>\n",
+                    "target": "<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">during(range1: range, range2: range): boolean\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">during([4..6], [1..10))\n// true\n\nduring((1..5], (1..10])\n// true\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">starts(point: Any, range: range): boolean\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">starts(1, [1..5])\n// true\n\nstarts(1, (1..8])\n// false\n</code></pre>\n",
+                    "target": "<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">starts(point: Any, range: range): boolean\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">starts(1, [1..5])\n// true\n\nstarts(1, (1..8])\n// false\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">starts(range1: range, range2: range): boolean\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">starts((1..5], [1..5])\n// false\n\nstarts([1..10], [1..5])\n// false\n\nstarts((1..5), (1..10))\n// true\n</code></pre>\n",
+                    "target": "<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">starts(range1: range, range2: range): boolean\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">starts((1..5], [1..5])\n// false\n\nstarts([1..10], [1..5])\n// false\n\nstarts((1..5), (1..10))\n// true\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">started by(range: range, point: Any): boolean\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">started by([1..10], 1)\n// true\n\nstarted by((1..10], 1)\n// false\n</code></pre>\n",
+                    "target": "<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">started by(range: range, point: Any): boolean\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">started by([1..10], 1)\n// true\n\nstarted by((1..10], 1)\n// false\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">started by(range1: range, range2: range): boolean\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">started by([1..10], [1..5])\n// true\n\nstarted by((1..10], [1..5))\n// false\n\nstarted by([1..10], [1..10))\n// true\n</code></pre>\n",
+                    "target": "<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">started by(range1: range, range2: range): boolean\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">started by([1..10], [1..5])\n// true\n\nstarted by((1..10], [1..5))\n// false\n\nstarted by([1..10], [1..10))\n// true\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">coincides(point1: Any, point2: Any): boolean\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">coincides(5, 5)\n// true\n\ncoincides(3, 4)\n// false\n</code></pre>\n",
+                    "target": "<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">coincides(point1: Any, point2: Any): boolean\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">coincides(5, 5)\n// true\n\ncoincides(3, 4)\n// false\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">coincides(range1: range, range2: range): boolean\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">coincides([1..5], [1..5])\n// true\n\ncoincides((1..5], [1..5))\n// false\n\ncoincides([1..5], [2..6])\n// false\n</code></pre>\n",
+                    "target": "<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">coincides(range1: range, range2: range): boolean\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">coincides([1..5], [1..5])\n// true\n\ncoincides((1..5], [1..5))\n// false\n\ncoincides([1..5], [2..6])\n// false\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p>Returns a substring of the given value starting at <code>start position</code>.</p>\n<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">substring(string: string, start position: number): string\n</code></pre>\n<p>The <code>start position</code> starts at the index <code>1</code>. The last position is <code>-1</code>.</p>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">substring(&quot;foobar&quot;, 3)\n// &quot;obar&quot;\n</code></pre>\n",
+                    "target": "<p>返回从给定值的 <code>start position</code> 开始的子字符串。</p>\n<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">substring(string: string, start position: number): string\n</code></pre>\n<p><code>start position</code> 从索引 <code>1</code> 开始。最后一个位置为 <code>-1</code>。</p>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">substring(&quot;foobar&quot;, 3)\n// &quot;obar&quot;\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p>Returns a substring of the given value starting at <code>start position</code>.</p>\n<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">substring(string: string, start position: number, length: number): string\n</code></pre>\n<p>The <code>start position</code> starts at the index <code>1</code>. The last position is <code>-1</code>.</p>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">substring(&quot;foobar&quot;, 3, 3)\n// &quot;oba&quot;\n</code></pre>\n",
+                    "target": "<p>返回从给定值的 <code>start position</code> 开始的子字符串。</p>\n<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">substring(string: string, start position: number, length: number): string\n</code></pre>\n<p><code>start position</code> 从索引 <code>1</code> 开始。最后一个位置为 <code>-1</code>。</p>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">substring(&quot;foobar&quot;, 3, 3)\n// &quot;oba&quot;\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p>Returns the number of characters in the given value.</p>\n<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">string length(string: string): number\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">string length(&quot;foo&quot;)\n// 3\n</code></pre>\n",
+                    "target": "<p>返回给定值中的字符数。</p>\n<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">string length(string: string): number\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">string length(&quot;foo&quot;)\n// 3\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p>Returns the given value with all characters are uppercase.</p>\n<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">upper case(string: string): string\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">upper case(&quot;aBc4&quot;)\n// &quot;ABC4&quot;\n</code></pre>\n",
+                    "target": "<p>返回给定值，所有字符均为大写。</p>\n<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">upper case(string: string): string\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">upper case(&quot;aBc4&quot;)\n// &quot;ABC4&quot;\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p>Returns the given value with all characters are lowercase.</p>\n<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">lower case(string: string): string\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">lower case(&quot;aBc4&quot;)\n// &quot;abc4&quot;\n</code></pre>\n",
+                    "target": "<p>返回给定值，所有字符均为小写。</p>\n<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">lower case(string: string): string\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">lower case(&quot;aBc4&quot;)\n// &quot;abc4&quot;\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p>Returns a substring of the given value that contains all characters before <code>match</code>.</p>\n<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">substring before(string: string, match: string): string\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">substring before(&quot;foobar&quot;, &quot;bar&quot;)\n// &quot;foo&quot;\n</code></pre>\n",
+                    "target": "<p>返回给定值的子字符串，包含 <code>match</code> 之前的所有字符。</p>\n<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">substring before(string: string, match: string): string\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">substring before(&quot;foobar&quot;, &quot;bar&quot;)\n// &quot;foo&quot;\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p>Returns a substring of the given value that contains all characters after <code>match</code>.</p>\n<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">substring after(string: string, match: string): string\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">substring after(&quot;foobar&quot;, &quot;ob&quot;)\n// &quot;ar&quot;\n</code></pre>\n",
+                    "target": "<p>返回给定值的子字符串，包含 <code>match</code> 之后的所有字符。</p>\n<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">substring after(string: string, match: string): string\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">substring after(&quot;foobar&quot;, &quot;ob&quot;)\n// &quot;ar&quot;\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p>Returns <code>true</code> if the given value contains the substring <code>match</code>. Otherwise, returns <code>false</code>.</p>\n<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">contains(string: string, match: string): boolean\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">contains(&quot;foobar&quot;, &quot;of&quot;)\n// false\n</code></pre>\n",
+                    "target": "<p>如果给定值包含子字符串 <code>match</code>，则返回 <code>true</code>。否则返回 <code>false</code>。</p>\n<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">contains(string: string, match: string): boolean\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">contains(&quot;foobar&quot;, &quot;of&quot;)\n// false\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p>Returns <code>true</code> if the given value starts with the substring <code>match</code>. Otherwise, returns <code>false</code>.</p>\n<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">starts with(string: string, match: string): boolean\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">starts with(&quot;foobar&quot;, &quot;fo&quot;)\n// true\n</code></pre>\n",
+                    "target": "<p>如果给定值以子字符串 <code>match</code> 开头，则返回 <code>true</code>。否则返回 <code>false</code>。</p>\n<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">starts with(string: string, match: string): boolean\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">starts with(&quot;foobar&quot;, &quot;fo&quot;)\n// true\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p>Returns <code>true</code> if the given value ends with the substring <code>match</code>. Otherwise, returns <code>false</code>.</p>\n<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">ends with(string: string, match: string): boolean\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">ends with(&quot;foobar&quot;, &quot;r&quot;)\n// true\n</code></pre>\n",
+                    "target": "<p>如果给定值以子字符串 <code>match</code> 结尾，则返回 <code>true</code>。否则返回 <code>false</code>。</p>\n<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">ends with(string: string, match: string): boolean\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">ends with(&quot;foobar&quot;, &quot;r&quot;)\n// true\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p>Returns <code>true</code> if the given value matches the <code>pattern</code>. Otherwise, returns <code>false</code>.</p>\n<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">matches(input: string, pattern: string): boolean\n</code></pre>\n<p>The <code>pattern</code> is a string that contains a regular expression.</p>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">matches(&quot;foobar&quot;, &quot;^fo*bar&quot;)\n// true\n</code></pre>\n",
+                    "target": "<p>如果给定值匹配 <code>pattern</code>，则返回 <code>true</code>。否则返回 <code>false</code>。</p>\n<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">matches(input: string, pattern: string): boolean\n</code></pre>\n<p><code>pattern</code> 是包含正则表达式的字符串。</p>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">matches(&quot;foobar&quot;, &quot;^fo*bar&quot;)\n// true\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p>Returns <code>true</code> if the given value matches the <code>pattern</code>. Otherwise, returns <code>false</code>.</p>\n<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">matches(input: string, pattern: string, flags: string): boolean\n</code></pre>\n<p>The <code>pattern</code> is a string that contains a regular expression.</p>\n<p>The <code>flags</code> can contain one or more of the following characters:</p>\n<ul>\n<li><code>s</code> (dot-all)</li>\n<li><code>m</code> (multi-line)</li>\n<li><code>i</code> (case insensitive)</li>\n<li><code>x</code> (comments)</li>\n</ul>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">matches(&quot;FooBar&quot;, &quot;foo&quot;, &quot;i&quot;)\n// true\n</code></pre>\n",
+                    "target": "<p>如果给定值匹配 <code>pattern</code>，则返回 <code>true</code>。否则返回 <code>false</code>。</p>\n<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">matches(input: string, pattern: string, flags: string): boolean\n</code></pre>\n<p><code>pattern</code> 是包含正则表达式的字符串。</p>\n<p><code>flags</code> 可以包含以下一个或多个字符：</p>\n<ul>\n<li><code>s</code>（dot-all）</li>\n<li><code>m</code>（multi-line）</li>\n<li><code>i</code>（case insensitive）</li>\n<li><code>x</code>（comments）</li>\n</ul>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">matches(&quot;FooBar&quot;, &quot;foo&quot;, &quot;i&quot;)\n// true\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p>Splits the given value into a list of substrings, breaking at each occurrence of the <code>delimiter</code> pattern.</p>\n<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">split(string: string, delimiter: string): list&lt;string&gt;\n</code></pre>\n<p>The <code>delimiter</code> is a string that contains a regular expression.</p>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">split(&quot;John Doe&quot;, &quot;\\s&quot; )\n// [&quot;John&quot;, &quot;Doe&quot;]\n\nsplit(&quot;a;b;c;;&quot;, &quot;;&quot;)\n// [&quot;a&quot;, &quot;b&quot;, &quot;c&quot;, &quot;&quot;, &quot;&quot;]\n</code></pre>\n",
+                    "target": "<p>将给定值拆分为子字符串列表，在每次出现 <code>delimiter</code> 模式处进行分割。</p>\n<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">split(string: string, delimiter: string): list&lt;string&gt;\n</code></pre>\n<p><code>delimiter</code> 是包含正则表达式的字符串。</p>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">split(&quot;John Doe&quot;, &quot;\\s&quot; )\n// [&quot;John&quot;, &quot;Doe&quot;]\n\nsplit(&quot;a;b;c;;&quot;, &quot;;&quot;)\n// [&quot;a&quot;, &quot;b&quot;, &quot;c&quot;, &quot;&quot;, &quot;&quot;]\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p>Returns the current date and time including the timezone.</p>\n<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">now(): date and time\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">now()\n// date and time(&quot;2020-07-31T14:27:30@Europe/Berlin&quot;)\n</code></pre>\n",
+                    "target": "<p>返回当前日期和时间（包括时区）。</p>\n<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">now(): date and time\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">now()\n// date and time(&quot;2020-07-31T14:27:30@Europe/Berlin&quot;)\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p>Returns the current date.</p>\n<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">today(): date\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">today()\n// date(&quot;2020-07-31&quot;)\n</code></pre>\n",
+                    "target": "<p>返回当前日期。</p>\n<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">today(): date\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">today()\n// date(&quot;2020-07-31&quot;)\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p>Returns the day of the week according to the Gregorian calendar. Note that it always returns the English name of the day.</p>\n<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">day of week(date: date): string\n</code></pre>\n<pre><code class=\"language-feel\">day of week(date: date and time): string\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">day of week(date(&quot;2019-09-17&quot;))\n// &quot;Tuesday&quot;\n\nday of week(date and time(&quot;2019-09-17T12:00:00&quot;))\n// &quot;Tuesday&quot;\n</code></pre>\n",
+                    "target": "<p>根据公历返回一周中的星期。注意，它始终返回英文的星期名称。</p>\n<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">day of week(date: date): string\n</code></pre>\n<pre><code class=\"language-feel\">day of week(date: date and time): string\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">day of week(date(&quot;2019-09-17&quot;))\n// &quot;Tuesday&quot;\n\nday of week(date and time(&quot;2019-09-17T12:00:00&quot;))\n// &quot;Tuesday&quot;\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p>Returns the Gregorian number of the day within the year.</p>\n<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">day of year(date: date): number\n</code></pre>\n<pre><code class=\"language-feel\">day of year(date: date and time): number\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">day of year(date(&quot;2019-09-17&quot;))\n// 260\n\nday of year(date and time(&quot;2019-09-17T12:00:00&quot;))\n// 260\n</code></pre>\n",
+                    "target": "<p>返回一年中的公历日序号。</p>\n<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">day of year(date: date): number\n</code></pre>\n<pre><code class=\"language-feel\">day of year(date: date and time): number\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">day of year(date(&quot;2019-09-17&quot;))\n// 260\n\nday of year(date and time(&quot;2019-09-17T12:00:00&quot;))\n// 260\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p>Returns the Gregorian number of the week within the year, according to ISO 8601.</p>\n<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">week of year(date: date): number\n</code></pre>\n<pre><code class=\"language-feel\">week of year(date: date and time): number\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">week of year(date(&quot;2019-09-17&quot;))\n// 38\n\nweek of year(date and time(&quot;2019-09-17T12:00:00&quot;))\n// 38\n</code></pre>\n",
+                    "target": "<p>根据 ISO 8601 返回一年中的公历周序号。</p>\n<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">week of year(date: date): number\n</code></pre>\n<pre><code class=\"language-feel\">week of year(date: date and time): number\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">week of year(date(&quot;2019-09-17&quot;))\n// 38\n\nweek of year(date and time(&quot;2019-09-17T12:00:00&quot;))\n// 38\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<p>Returns the absolute value of a given duration.</p>\n<p><strong>Function signature</strong></p>\n<pre><code class=\"language-feel\">abs(n: days and time duration): days and time duration\n</code></pre>\n<pre><code class=\"language-feel\">abs(n: years and months duration): years and months duration\n</code></pre>\n<p><strong>Examples</strong></p>\n<pre><code class=\"language-feel\">abs(duration(&quot;-PT5H&quot;))\n// &quot;duration(&quot;PT5H&quot;)&quot;\n\nabs(duration(&quot;PT5H&quot;))\n// &quot;duration(&quot;PT5H&quot;)&quot;\n\nabs(duration(&quot;-P2M&quot;))\n// duration(&quot;P2M&quot;)\n</code></pre>\n",
+                    "target": "<p>返回给定持续时间的绝对值。</p>\n<p><strong>函数签名</strong></p>\n<pre><code class=\"language-feel\">abs(n: days and time duration): days and time duration\n</code></pre>\n<pre><code class=\"language-feel\">abs(n: years and months duration): years and months duration\n</code></pre>\n<p><strong>示例</strong></p>\n<pre><code class=\"language-feel\">abs(duration(&quot;-PT5H&quot;))\n// &quot;duration(&quot;PT5H&quot;)&quot;\n\nabs(duration(&quot;PT5H&quot;))\n// &quot;duration(&quot;PT5H&quot;)&quot;\n\nabs(duration(&quot;-P2M&quot;))\n// duration(&quot;P2M&quot;)\n</code></pre>\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "quantified expression",
+                    "target": "量化表达式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Collect (Sum)",
+                    "target": "收集（求和）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Collect (Min)",
+                    "target": "收集（最小值）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Collect (Max)",
+                    "target": "收集（最大值）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Collect (Count)",
+                    "target": "收集（计数）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Rule order",
+                    "target": "规则顺序"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Output order",
+                    "target": "输出顺序"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Decision table",
+                    "target": "决策表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Literal expression",
+                    "target": "字面量表达式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "RULE ORDER",
+                    "target": "规则顺序"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "OUTPUT ORDER",
+                    "target": "输出顺序"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "is defined(value)",
+                    "target": "is defined(value)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "get or else(value, default)",
+                    "target": "get or else(value, default)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "assert(value, condition)",
+                    "target": "assert(value, condition)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "assert(value, condition, cause)",
+                    "target": "断言(value, condition, cause)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "get value(context, key)",
+                    "target": "获取值(context, key)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "get value(context, keys)",
+                    "target": "获取值(context, keys)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "get entries(context)",
+                    "target": "获取条目(context)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "context put(context, key, value)",
+                    "target": "上下文写入(context, key, value)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "context put(context, keys, value)",
+                    "target": "上下文写入(context, keys, value)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "context merge(contexts)",
+                    "target": "上下文合并(contexts)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "date(year, month, day)",
+                    "target": "日期(year, month, day)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "time(hour, minute, second)",
+                    "target": "时间(hour, minute, second)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "time(hour, minute, second, offset)",
+                    "target": "时间(hour, minute, second, offset)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "date and time(from)",
+                    "target": "日期和时间(from)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "date and time(date, time)",
+                    "target": "日期和时间(date, time)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "date and time(date, timezone)",
+                    "target": "日期和时间(date, timezone)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "years and months duration(from, to)",
+                    "target": "年和月的持续时间(from, to)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "sublist(list, start position)",
+                    "target": "子列表(list, start position)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "sublist(list, start position, length)",
+                    "target": "子列表(list, start position, length)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "index of(list, match)",
+                    "target": "索引(list, match)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "distinct values(list)",
+                    "target": "不同值(list)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "duplicate values(list)",
+                    "target": "重复值(list)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "sort(list, precedes)",
+                    "target": "排序(list, precedes)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "string join(list)",
+                    "target": "字符串连接(list)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "string join(list, delimiter)",
+                    "target": "字符串连接(list, delimiter)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "string join(list, delimiter, prefix, suffix)",
+                    "target": "字符串连接(list, delimiter, prefix, suffix)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "decimal(n, scale)",
+                    "target": "十进制(n, scale)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "floor(n, scale)",
+                    "target": "向下取整(n, scale)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ceiling(n, scale)",
+                    "target": "向上取整(n, scale)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "round up(n, scale)",
+                    "target": "向上舍入(n, scale)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "round down(n, scale)",
+                    "target": "向下舍入(n, scale)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "round half up(n, scale)",
+                    "target": "四舍五入(n, scale)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "round half down(n, scale)",
+                    "target": "五舍六入(n, scale)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "modulo(dividend, divisor)",
+                    "target": "取模(dividend, divisor)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "random number()",
+                    "target": "随机数()"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "before(point1, point2)",
+                    "target": "早于(point1, point2)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "before(range, point)",
+                    "target": "早于(range, point)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "before(point, range)",
+                    "target": "早于(point, range)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "before(range1, range2)",
+                    "target": "早于(range1, range2)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "after(point1, point2)",
+                    "target": "晚于(point1, point2)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "after(range, point)",
+                    "target": "晚于(range, point)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "after(point, range)",
+                    "target": "晚于(point, range)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "after(range1, range2)",
+                    "target": "晚于(range1, range2)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "meets(range1, range2)",
+                    "target": "相接(range1, range2)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "met by(range1, range2)",
+                    "target": "被相接(range1, range2)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "overlaps(range1, range2)",
+                    "target": "重叠(range1, range2)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "overlaps before(range1, range2)",
+                    "target": "前向重叠(range1, range2)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "overlaps after(range1, range2)",
+                    "target": "后向重叠(range1, range2)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "finishes(point, range)",
+                    "target": "结束于(point, range)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "finishes(range1, range2)",
+                    "target": "结束于(range1, range2)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "finished by(range, point)",
+                    "target": "由…结束(range, point)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "finished by(range1, range2)",
+                    "target": "被结束(range1, range2)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "includes(range, point)",
+                    "target": "包含(range, point)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "includes(range1, range2)",
+                    "target": "包含(range1, range2)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "during(point, range)",
+                    "target": "期间(point, range)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "during(range1, range2)",
+                    "target": "期间(range1, range2)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "starts(point, range)",
+                    "target": "开始于(point, range)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "starts(range1, range2)",
+                    "target": "开始于(range1, range2)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "started by(range, point)",
+                    "target": "由其开始(range, point)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "started by(range1, range2)",
+                    "target": "由其开始(range1, range2)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "coincides(point1, point2)",
+                    "target": "重合(point1, point2)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "coincides(range1, range2)",
+                    "target": "重合(range1, range2)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "substring(string, start position)",
+                    "target": "子字符串(string, start position)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "substring(string, start position, length)",
+                    "target": "子字符串(string, 起始位置, 长度)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "string length(string)",
+                    "target": "字符串长度(string)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "upper case(string)",
+                    "target": "大写(string)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "lower case(string)",
+                    "target": "小写(string)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "substring before(string, match)",
+                    "target": "匹配前的子字符串(string, match)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "substring after(string, match)",
+                    "target": "匹配后的子字符串(string, match)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "contains(string, match)",
+                    "target": "包含(string, match)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "starts with(string, match)",
+                    "target": "以…开头(string, match)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ends with(string, match)",
+                    "target": "以…结尾(string, match)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "matches(input, pattern)",
+                    "target": "匹配(input, pattern)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "matches(input, pattern, flags)",
+                    "target": "匹配(input, pattern, flags)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "split(string, delimiter)",
+                    "target": "拆分(string, delimiter)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "extract(string, pattern)",
+                    "target": "提取(string, pattern)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "day of week(date)",
+                    "target": "星期几(date)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "day of year(date)",
+                    "target": "一年中的第几天(date)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "week of year(date)",
+                    "target": "一年中的第几周(date)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "month of year(date)",
+                    "target": "一年中的第几月(date)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "last day of month(date)",
+                    "target": "当月最后一天(date)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Open DMN",
+                    "target": "打开 DMN"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Open decision table",
+                    "target": "打开决策表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Open literal expression",
+                    "target": "打开字面量表达式"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
