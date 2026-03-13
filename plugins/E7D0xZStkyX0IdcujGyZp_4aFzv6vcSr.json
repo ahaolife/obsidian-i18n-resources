@@ -1,0 +1,61 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-image-caption",
+        "version": "1.0.0",
+        "title": "Image Caption",
+        "description": "Image Caption Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.0.15.alpha",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Prepend this text before each caption.",
+                    "target": "在每条说明前添加此文本。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Custom CSS styling for captions.",
+                    "target": "为说明自定义 CSS 样式。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Identify the caption by surrounding it with the delimeter. Start and end delimeters mays be specified by separation with a comma (,).",
+                    "target": "通过用 delimeter 包围来识别说明。起始和结束 delimeter 可用逗号 (,) 分隔指定。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Insert caption text as HTML.",
+                    "target": "将说明文本作为 HTML 插入。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Caption as HTML",
+                    "target": "说明为 HTML"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter your CSS",
+                    "target": "输入你的 CSS"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "If no delimeter is provided the entire alt text is taken to be the caption. If a single delimeter is specified it must indicate the start and end of the caption. If two delimeters are specified, by separation with a comma, the caption is taken to be the text between the start and end delimeters.",
+                    "target": "如果未提供 delimeter，则整个 alt 文本将作为说明。如果指定单个 delimeter，它必须表示说明的开始和结束。如果指定两个 delimeter，并用逗号分隔，则说明为起始和结束 delimeter 之间的文本。"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
