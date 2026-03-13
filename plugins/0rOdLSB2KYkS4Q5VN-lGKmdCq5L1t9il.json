@@ -1,0 +1,337 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "copy-plaintext",
+        "version": "1.0.0",
+        "title": "Copy As PlainText",
+        "description": "Copy As PlainText Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.3",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Always use target (ignore alias)",
+                    "target": "始终使用目标（忽略别名）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Prefer alias, else target",
+                    "target": "优先使用别名，否则使用目标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Use heading/block part only",
+                    "target": "仅使用标题/块部分"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Strip to page name only",
+                    "target": "仅保留页面名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Keep full reference",
+                    "target": "保留完整引用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Anywhere in line (advanced)",
+                    "target": "行内任意位置（高级）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "End of line only (safe)",
+                    "target": "仅限行末（安全）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Convert to link text",
+                    "target": "转换为链接文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Use [file: name] placeholder",
+                    "target": "使用 [file: name] 占位符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Always use filename",
+                    "target": "始终使用文件名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Alias if present, else filename",
+                    "target": "如有别名则使用别名，否则使用文件名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Only strip #, **bold**, *italic*, `code`, [links](url), and ![images](url). Disable to access advanced unified pipeline settings.",
+                    "target": "仅移除 #、**bold**、*italic*、`code`、[links](url) 和 ![images](url)。禁用以访问高级 unified 管道设置。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Use AST-based stripping via unified + strip-markdown",
+                    "target": "通过 unified + strip-markdown 使用基于 AST 的去除"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Strip GitHub Flavored Markdown (tables, task lists, strikethrough)",
+                    "target": "移除 GitHub 风格 Markdown（表格、任务列表、删除线）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Strip YAML frontmatter blocks",
+                    "target": "移除 YAML frontmatter 块"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Strip inline `$…$` and block `$$…$$` math",
+                    "target": "移除行内 `$…$` 和块级 `$$…$$` 数学公式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Strip footnote definitions and refs",
+                    "target": "移除脚注定义和引用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Strip custom `[>]` prefixes from lines",
+                    "target": "移除行首自定义 `[>]` 前缀"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Strip leading `1. `, `2. `, etc.",
+                    "target": "移除开头的 `1. `、`2. ` 等"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Turn `---word---` into `word`, collapse runs of hyphens",
+                    "target": "将 `---word---` 转为 `word`，合并连续连字符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Convert [[Link]] and [[Link|Alias]] to plain text",
+                    "target": "将 [[Link]] 和 [[Link|Alias]] 转换为纯文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "How to extract text from [[Link|Alias]] format",
+                    "target": "如何从 [[Link|Alias]] 格式中提取文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "How to handle [[Page#Heading]] or [[Page^blockid]]",
+                    "target": "如何处理 [[Page#Heading]] 或 [[Page^blockid]]"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Where to strip block IDs (end-of-line is safer)",
+                    "target": "在哪里移除块 ID（行末更安全）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Special handling for [[file.pdf]], [[image.png]], etc.",
+                    "target": "对 [[file.pdf]]、[[image.png]] 等进行特殊处理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "How to display non-markdown file references",
+                    "target": "如何显示非 Markdown 文件引用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Super Simple mode",
+                    "target": "超简单模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use unified pipeline",
+                    "target": "使用统一管道"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Parse GFM",
+                    "target": "解析 GFM"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "De-highlight `==highlight==`",
+                    "target": "取消高亮 `==highlight==`"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Unwrap block math fences",
+                    "target": "去除块级数学围栏"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Normalize dashes",
+                    "target": "规范化破折号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Strip hashtags",
+                    "target": "移除话题标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Strip mentions",
+                    "target": "移除提及"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Sanitize math commands",
+                    "target": "清理数学命令"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Strip internal links",
+                    "target": "移除内部链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Internal link mode",
+                    "target": "内部链接模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Strip paths to basename",
+                    "target": "将路径精简为文件名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Heading/block part handling",
+                    "target": "标题/块部分处理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Strip block IDs",
+                    "target": "移除块 ID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Block ID stripping mode",
+                    "target": "块 ID 去除模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Handle non-markdown targets",
+                    "target": "处理非 Markdown 目标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Non-markdown target mode",
+                    "target": "非 Markdown 目标模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Copy as plain-text",
+                    "target": "复制为纯文本"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Nothing selected.",
+                    "target": "未选择任何内容。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Copied as plain-text ✔️",
+                    "target": "已复制为纯文本 ✔️"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Copy failed – see console.",
+                    "target": "复制失败 – 请查看控制台。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Copied note as plain-text ✔️",
+                    "target": "已将笔记复制为纯文本 ✔️"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Copy selection as plain-text",
+                    "target": "将选中内容复制为纯文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Copy entire note as plain-text",
+                    "target": "将整篇笔记复制为纯文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Advanced Unified Pipeline Settings",
+                    "target": "高级统一流水线设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "These settings require Super Simple mode to be disabled. They use AST-based markdown processing.",
+                    "target": "这些设置需要禁用超级简易模式。它们使用基于 AST 的 Markdown 处理。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Obsidian-Specific Stripping",
+                    "target": "Obsidian 专用剥离"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
