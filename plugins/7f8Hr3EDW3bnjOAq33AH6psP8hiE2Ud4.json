@@ -1,0 +1,91 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "copy-image-text",
+        "version": "1.0.0",
+        "title": "复制图文 (Copy Image Text)",
+        "description": "复制图文 (Copy Image Text) Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.8",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "无法获取当前文件信息，复制可能不完整",
+                    "target": "无法获取当前文件信息，复制可能不完整"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "内容已成功复制",
+                    "target": "内容已成功复制"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "复制失败，请稍后重试",
+                    "target": "复制失败，请稍后重试"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "无法获取当前文件信息，导出可能不完整",
+                    "target": "无法获取当前文件信息，导出可能不完整"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "已取消导出。",
+                    "target": "已取消导出。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "导出HTML失败，请稍后重试",
+                    "target": "导出HTML失败，请稍后重试"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "无法获取当前文件信息复制可能不完整",
+                    "target": "无法获取当前文件信息复制可能不完整"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Markdown格式已复制",
+                    "target": "Markdown格式已复制"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "复制文本和图片(富文本)",
+                    "target": "复制文本和图片(富文本)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "复制为Markdown格式",
+                    "target": "复制为Markdown格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "导出为HTML文件",
+                    "target": "导出为HTML文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "选择HTML导出目录",
+                    "target": "选择HTML导出目录"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
