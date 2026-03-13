@@ -1,0 +1,115 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "xiaohongshu-importer",
+        "version": "1.0.0",
+        "title": "Xiaohongshu Importer",
+        "description": "Xiaohongshu Importer Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.3",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Add category",
+                    "target": "添加分类"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Default setting: if enabled, images and videos will be downloaded locally to 'XHS Notes/media/'. Can be overridden per import.",
+                    "target": "默认设置：启用后，图片和视频将下载到本地的“XHS Notes/media/”。可在每次导入时覆盖。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default folder",
+                    "target": "默认文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Download media",
+                    "target": "下载媒体"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "XHS Notes",
+                    "target": "XHS Notes"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Move up",
+                    "target": "上移"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Move down",
+                    "target": "下移"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No valid Xiaohongshu URL found in the text.",
+                    "target": "文本中未找到有效的小红书 URL。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Video URL not found; using cover image as fallback.",
+                    "target": "未找到视频 URL；将使用封面图作为替代。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Import Xiaohongshu note",
+                    "target": "导入小红书笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "e.g., 64 不叫小黄了发布了一篇小红书笔记...",
+                    "target": "e.g., 64 不叫小黄了发布了一篇小红书笔记..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Import Xiaohongshu note",
+                    "target": "导入小红书笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Paste the share text below:",
+                    "target": "在下方粘贴分享文本："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Select a category:",
+                    "target": "选择分类："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "其他",
+                    "target": "其他"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Download media locally for this import",
+                    "target": "为此次导入下载媒体到本地"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
