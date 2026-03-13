@@ -1,0 +1,103 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-smart-typography",
+        "version": "1.0.0",
+        "title": "Smart Typography",
+        "description": "Smart Typography Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.18",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Double and single quotes will be converted to curly quotes (“” & ‘’)",
+                    "target": "双引号和单引号将被转换为弯引号（“” & ‘’）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Three periods (...) will be converted to an ellipses (…)",
+                    "target": "三个句点（...）将被转换为省略号（…）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "<< | >> will be converted to « | »",
+                    "target": "<< | >> 将被转换为 « | »"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "<- | -> will be converted to ← | →",
+                    "target": "<- | -> 将被转换为 ← | →"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "<= | >= | /= will be converted to ≤ | ≥ | ≠",
+                    "target": "<= | >= | /= 将被转换为 ≤ | ≥ | ≠"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "1/2 will be converted to ½. Supported UTF-8 fractions: ½, ⅓, ⅔, ¼, ¾, ⅕, ⅖, ⅗, ⅘, ⅙, ⅚, ⅐, ⅛, ⅜, ⅝, ⅞, ⅑, ⅒",
+                    "target": "1/2 将被转换为 ½。支持的 UTF-8 分数：½, ⅓, ⅔, ¼, ¾, ⅕, ⅖, ⅗, ⅘, ⅙, ⅚, ⅐, ⅛, ⅜, ⅝, ⅞, ⅑, ⅒"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Curly Quotes",
+                    "target": "弯引号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Open double quote character",
+                    "target": "左双引号字符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Close double quote character",
+                    "target": "右双引号字符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Open single quote character",
+                    "target": "左单引号字符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Close single quote character",
+                    "target": "右单引号字符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Skip en-dash",
+                    "target": "跳过短破折号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Left arrow character",
+                    "target": "左箭头字符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Right arrow character",
+                    "target": "右箭头字符"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
