@@ -1,0 +1,91 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "minimap",
+        "version": "1.0.0",
+        "title": "Note Minimap",
+        "description": "Note Minimap Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.2.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Already opened notes will not be affected by changing this",
+                    "target": "已打开的笔记不会受到此更改的影响"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Use a hidden helper note to render the minimap, improving flickering and consistent loading. Changing this will trigger a plugin restart",
+                    "target": "使用隐藏的辅助笔记来渲染迷你地图，改善闪烁并保持加载一致。更改此项将触发插件重启"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Change the minimap scale (0.05 - 0.3)",
+                    "target": "更改迷你地图比例（0.05 - 0.3）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Change the minimap's background opacity (0.05 - 1)",
+                    "target": "更改迷你地图背景不透明度（0.05 - 1）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Change the slider opacity (0.05 - 1)",
+                    "target": "更改滑块不透明度（0.05 - 1）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Offset the minimap from the top (pixels) - for special plugin toolbars",
+                    "target": "设置迷你地图距顶部的偏移（像素）- 用于特殊插件工具栏"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable by default",
+                    "target": "默认启用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Better Rendering (in development)",
+                    "target": "更佳渲染（开发中）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Slider Opacity",
+                    "target": "滑块不透明度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Top Offset",
+                    "target": "顶部偏移"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Note Minimap: Restarted plugin for Better Rendering change.",
+                    "target": "注释小地图：已重启插件以应用更好的渲染更改。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Note Minimap: This is a helper note used for Better Rendering - avoid touching it!",
+                    "target": "注释小地图：这是用于更好渲染的辅助注释——请勿触碰！"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
