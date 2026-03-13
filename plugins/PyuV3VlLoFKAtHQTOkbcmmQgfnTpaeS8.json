@@ -1,0 +1,145 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "logos-refs",
+        "version": "1.0.0",
+        "title": "logos-refs",
+        "description": "logos-refs Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "LaTeX (BibTeX)",
+                    "target": "LaTeX（BibTeX）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Folder to save BibTeX reference notes",
+                    "target": "用于保存 BibTeX 参考笔记的文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Format for the generated bibliography",
+                    "target": "生成的参考文献格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Customize the callout type for citations (e.g., 'Logos Ref', 'Quote', 'Citation')",
+                    "target": "自定义引用的标注类型（例如：“Logos Ref”、“Quote”、“Citation”）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "BibTeX note folder",
+                    "target": "BibTeX 笔记文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Bibliography format",
+                    "target": "参考文献格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Citation callout type",
+                    "target": "引用标注类型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Example: folder1/folder2",
+                    "target": "示例：folder1/folder2"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Logos Ref",
+                    "target": "Logos Ref"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No active editor",
+                    "target": "没有活动的编辑器"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No active file",
+                    "target": "没有活动文件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No references found in the document.",
+                    "target": "文档中未找到参考文献。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No BibTeX references found in linked notes.",
+                    "target": "链接的笔记中未找到 BibTeX 参考文献。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Bibliography updated.",
+                    "target": "参考文献已更新。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Bibliography added to the document.",
+                    "target": "参考文献已添加到文档。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Could not read active file: not a valid file.",
+                    "target": "无法读取活动文件：不是有效文件。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Reference folder not found. Please check your settings.",
+                    "target": "未找到参考文献文件夹。请检查设置。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No BibTeX references found in the reference folder.",
+                    "target": "参考文献文件夹中未找到 BibTeX 参考文献。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Paste Logos reference with BibTeX",
+                    "target": "使用 BibTeX 粘贴 Logos 参考文献"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "List all BibTeX references",
+                    "target": "列出所有 BibTeX 参考文献"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Export all references to BibTeX file",
+                    "target": "导出所有参考文献到 BibTeX 文件"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
