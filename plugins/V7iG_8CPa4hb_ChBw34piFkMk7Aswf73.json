@@ -1,0 +1,307 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "type-chinese-like-english",
+        "version": "1.0.0",
+        "title": "Type Chinese Like English",
+        "description": "Type Chinese Like English Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "转换过程中发生错误:",
+                    "target": "转换过程中发生错误:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "消耗更多 tokens 以及稍慢响应，但可能有更好的转换效果",
+                    "target": "消耗更多 tokens 以及稍慢响应，但可能有更好的转换效果"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "自然语言描述的数学表达式转换为 LaTex，和包含上下文同时开启可能引起不必要的输出",
+                    "target": "自然语言描述的数学表达式转换为 LaTex，和包含上下文同时开启可能引起不必要的输出"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "建议注册免费的groq，必须携带v1，例如：https://api.groq.com/openai/v1",
+                    "target": "建议注册免费的groq，必须携带v1，例如：https://api.groq.com/openai/v1"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "尽量使用可以结构化输出的模型，例如：llama-3.3-70b-versatile",
+                    "target": "尽量使用可以结构化输出的模型，例如：llama-3.3-70b-versatile"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "用于调用 API 的密钥",
+                    "target": "用于调用 API 的密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "包含笔记上下文",
+                    "target": "包含笔记上下文"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "使用 LaTeX 模式",
+                    "target": "使用 LaTeX 模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "API Base URL",
+                    "target": "API Base URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "模型",
+                    "target": "模型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "API Key",
+                    "target": "API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "请输入模型名称",
+                    "target": "请输入模型名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "请输入 API Key",
+                    "target": "请输入 API Key"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "当前行为空，无法转换",
+                    "target": "当前行为空，无法转换"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "正在转换中...",
+                    "target": "正在转换中..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "转换完成",
+                    "target": "转换完成"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "转换结果为空",
+                    "target": "转换结果为空"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "转换失败，请查看控制台日志",
+                    "target": "转换失败，请查看控制台日志"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "转换失败，请检查设置和控制台日志",
+                    "target": "转换失败，请检查设置和控制台日志"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Failed to process error response",
+                    "target": "处理错误响应失败"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Failed to process successful response",
+                    "target": "无法处理成功响应"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Invalid JSON response",
+                    "target": "JSON 响应无效"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "maxRetries must be an integer",
+                    "target": "maxRetries 必须是整数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "maxRetries must be >= 0",
+                    "target": "maxRetries 必须 >= 0"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Must be a Buffer",
+                    "target": "必须是 Buffer"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Invalid data content. Content string is not a base64-encoded media.",
+                    "target": "数据内容无效。内容字符串不是 base64 编码的媒体。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "maxTokens must be an integer",
+                    "target": "maxTokens 必须是整数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "maxTokens must be >= 1",
+                    "target": "maxTokens 必须 >= 1"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "topP must be a number",
+                    "target": "topP 必须是数字"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "topK must be a number",
+                    "target": "topK 必须是数字"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "presencePenalty must be a number",
+                    "target": "presencePenalty 必须是数字"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "frequencyPenalty must be a number",
+                    "target": "frequencyPenalty 必须是数字"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "seed must be an integer",
+                    "target": "seed 必须是整数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "prompt or messages must be defined",
+                    "target": "必须定义 prompt 或 messages"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "prompt and messages cannot be defined at the same time",
+                    "target": "prompt 和 messages 不能同时定义"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "prompt must be a string",
+                    "target": "prompt 必须是字符串"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Invalid output type.",
+                    "target": "无效的输出类型。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Enum values are not supported for object output.",
+                    "target": "对象输出不支持枚举值。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Enum values are not supported for array output.",
+                    "target": "数组输出不支持枚举值。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Enum values are required for enum output.",
+                    "target": "枚举输出需要枚举值。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Enum values must be strings.",
+                    "target": "枚举值必须为字符串。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "No object generated: the model did not return a response.",
+                    "target": "未生成对象：模型未返回响应。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "No object generated: the tool was not called.",
+                    "target": "未生成对象：未调用该工具。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "No object generated: could not parse the response.",
+                    "target": "未生成对象：无法解析响应。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Expected 'function' type.",
+                    "target": "期望为“function”类型。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Expected 'id' to be a string.",
+                    "target": "期望“id”为字符串。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Expected 'function.name' to be a string.",
+                    "target": "期望“function.name”为字符串。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "转换为汉字和LaTex",
+                    "target": "转换为汉字和LaTex"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
