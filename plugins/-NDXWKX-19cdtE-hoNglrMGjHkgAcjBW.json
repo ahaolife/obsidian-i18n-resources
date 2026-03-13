@@ -1,0 +1,55 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "folder-links",
+        "version": "1.0.0",
+        "title": "Folder Links",
+        "description": "Folder Links Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.2.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Always update",
+                    "target": "始终更新"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Just once",
+                    "target": "仅一次"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Do not update",
+                    "target": "不更新"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Turn off to be prompted to update links after renaming a folder.",
+                    "target": "关闭后，重命名文件夹后将提示更新链接。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show Folder Links in Outgoing Links Tab",
+                    "target": "在传出链接选项卡中显示文件夹链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Automatically update folder links",
+                    "target": "自动更新文件夹链接"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
