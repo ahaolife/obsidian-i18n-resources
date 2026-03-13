@@ -1,0 +1,85 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "better-link-clicker",
+        "version": "1.0.0",
+        "title": "Better Link Clicker",
+        "description": "Better Link Clicker Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.2.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Cursor is outside the link (line mismatch)",
+                    "target": "光标在链接之外（行不匹配）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Cursor is inside the link (same line):",
+                    "target": "光标在链接内（同一行）："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Cursor is inside the link (start line):",
+                    "target": "光标在链接内（起始行）："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Cursor is inside the link (end line):",
+                    "target": "光标在链接内（结束行）："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If enabled, you need to hold ctrl (or cmd on mac) while clicking a link to jump to it. Otherwise, clicking a link will open it in a new pane.",
+                    "target": "启用后，点击链接时需要按住 ctrl（Mac 上为 cmd）才能跳转。否则，点击链接会在新窗格中打开。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If enabled, a dialog will pop up to confirm creating a new note when you ctrl/cmd-click a link to a non-existent note.",
+                    "target": "启用后，当你按住 ctrl/cmd 点击指向不存在笔记的链接时，会弹出对话框确认创建新笔记。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If enabled, the note will open in a new tab instead of the current one when you ctrl/cmd-click a link.",
+                    "target": "启用后，当你按住 ctrl/cmd 点击链接时，笔记将在新标签页而非当前标签页中打开。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Jump only with modifier",
+                    "target": "仅按修饰键时跳转"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Confirm file creation",
+                    "target": "确认创建文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Open link at new tab",
+                    "target": "在新标签页中打开链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Create new note?",
+                    "target": "创建新笔记？"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
