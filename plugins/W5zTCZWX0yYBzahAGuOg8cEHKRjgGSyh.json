@@ -1,0 +1,205 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "janitor",
+        "version": "1.0.0",
+        "title": "Janitor",
+        "description": "Janitor Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "forceFrameRate takes a positive int between 0 and 125, forcing frame rates higher than 125 fps is not supported",
+                    "target": "forceFrameRate 接受 0 到 125 之间的正整数，不支持强制高于 125 fps 的帧率"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Adds an icon to the ribbon to launch scan",
+                    "target": "在功能区添加图标以启动扫描"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Always prompt before deleting big files",
+                    "target": "删除大文件前始终提示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The frontMatter key in which to search for expiration date",
+                    "target": "用于搜索过期日期的 frontMatter 键"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The format in which the expiration date is stored (e.g. YYYY-MM-DD)",
+                    "target": "过期日期的存储格式（例如 YYYY-MM-DD）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Excluded files will not be processed",
+                    "target": "被排除的文件将不会被处理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Add Ribbon Icon",
+                    "target": "添加功能区图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Always Prompt for big files",
+                    "target": "对大文件始终提示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "File Size Limit (KB)",
+                    "target": "文件大小限制（KB）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Metadata Attribute",
+                    "target": "元数据属性"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Date Format",
+                    "target": "日期格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Excluded Files",
+                    "target": "排除的文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Insert attribute name (es: expires)",
+                    "target": "插入属性名称（例如：expires）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Insert the date format",
+                    "target": "插入日期格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Janitor Excluded Files",
+                    "target": "Janitor 排除的文件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Janitor is scanning vault",
+                    "target": "Janitor 正在扫描库"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Janitor scanned and found nothing to cleanup",
+                    "target": "Janitor 扫描完毕，未发现需要清理的内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "attr(data-value) \" \"",
+                    "target": "attr(data-value) \" \""
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Anno Domini",
+                    "target": "公元"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Before Christ",
+                    "target": "公元前"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Scan Files",
+                    "target": "扫描文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Scan Files (without prompt)",
+                    "target": "扫描文件（不提示）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Scan Files (with prompt)",
+                    "target": "扫描文件（提示确认）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sets the expiration date of the current note",
+                    "target": "设置当前笔记的到期日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Insert folder or regex...",
+                    "target": "输入文件夹或正则..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Janitor Settings",
+                    "target": "清理设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Expiration Processing",
+                    "target": "到期处理"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "File Exclusions",
+                    "target": "文件排除"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Put files in the Obsidian .trash",
+                    "target": "将文件放入 Obsidian .trash"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Put files in the OS' trash",
+                    "target": "将文件放入系统回收站"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Permanently delete files",
+                    "target": "永久删除文件"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
