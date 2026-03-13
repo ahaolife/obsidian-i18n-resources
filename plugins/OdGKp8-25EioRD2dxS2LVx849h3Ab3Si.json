@@ -1,0 +1,139 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-canvas-conversation",
+        "version": "1.0.0",
+        "title": "Canvas Conversation",
+        "description": "Canvas Conversation Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The user agent to use when making requests - Get from your browser to match clearence token",
+                    "target": "发起请求时使用的 User Agent - 从你的浏览器获取以匹配 clearence token"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The clearance token from your browser cookies - cf_clearance",
+                    "target": "来自浏览器 Cookie 的 clearance token - cf_clearance"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The session token to use when making requests - __Secure-next-auth.session-token",
+                    "target": "发起请求时使用的 session token - __Secure-next-auth.session-token"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "User Agent",
+                    "target": "User Agent"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Clearance Token",
+                    "target": "Clearance Token"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Session Token",
+                    "target": "Session Token"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "User Agent",
+                    "target": "User Agent"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Clearance Token",
+                    "target": "Clearance Token"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Session Token",
+                    "target": "Session Token"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Prompt ChatGPT",
+                    "target": "提示 ChatGPT"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Clean up ChatGPT metadata",
+                    "target": "清理 ChatGPT 元数据"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "fetchSSE onMessage unexpected error",
+                    "target": "fetchSSE onMessage 意外错误"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please configure the plugin.\nGo to Settings > Canvas Conversation and fill the fields.",
+                    "target": "请配置插件。\n前往 设置 > Canvas Conversation 并填写字段。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Cannot prompt AI results.",
+                    "target": "无法提示 AI 结果。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "ChatGPT timed out waiting for response",
+                    "target": "ChatGPT 等待响应超时"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Settings for Canvas Conversation Plugin",
+                    "target": "Canvas Conversation 插件设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "These settings can be taken from your session of ChatGPT.",
+                    "target": "这些设置可从你的 ChatGPT 会话中获取。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Open your browser in the ChatGPT page, inspect the page, go to Application and then Cookies, and take the appropiete values.",
+                    "target": "在 ChatGPT 页面中打开浏览器，检查页面，进入 Application 然后到 Cookies，并获取相应的值。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "For the user agent you can take it from any request from the Network tab in the inspector. Or run `navigator.userAgent` in the console.",
+                    "target": "User agent 可从检查器的 Network 选项卡中的任意请求获取。或在控制台运行 `navigator.userAgent`。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "The tokens refresh every few hours. If you get an error, try refreshing the tokens.",
+                    "target": "这些令牌每隔几小时刷新一次。如果出现错误，请尝试刷新令牌。"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
