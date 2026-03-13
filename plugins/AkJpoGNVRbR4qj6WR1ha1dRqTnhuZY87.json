@@ -1,0 +1,91 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "tengwar",
+        "version": "1.0.0",
+        "title": "Tengwar",
+        "description": "Tengwar Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.12",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Signs and symbols written above or below letters will be highlighted",
+                    "target": "写在字母上方或下方的符号将被高亮"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Color of highlighted Tehtars",
+                    "target": "高亮 Tehtar 的颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Font family for ASCII tengwar words",
+                    "target": "ASCII 腾瓦文字体"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Font family for CSUR tengwar words",
+                    "target": "CSUR 腾瓦文字体"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Keyword for Tengwar blocks (Reload required)",
+                    "target": "腾瓦代码块关键字（需要重新加载）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Turn on Tehtar highlighting",
+                    "target": "开启 Tehtar 高亮"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Font settings",
+                    "target": "字体设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Tengwar ASCII font",
+                    "target": "腾瓦 ASCII 字体"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Tengwar CSUR font",
+                    "target": "腾瓦 CSUR 字体"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Codeblock settings",
+                    "target": "代码块设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Tengwar keyword",
+                    "target": "腾格瓦关键词"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Reset to default",
+                    "target": "重置为默认值"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
