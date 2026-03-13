@@ -1,0 +1,187 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "copy-section",
+        "version": "1.0.0",
+        "title": "Copy Section",
+        "description": "Copy Section Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.2.4",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Should copied section data include the section heading?",
+                    "target": "复制的章节数据应包含章节标题吗？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Should copied section data exclude subsections?",
+                    "target": "复制的章节数据应排除子章节吗？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Strip out tags from lines which contain only #tags when copying section data?",
+                    "target": "复制章节数据时，是否从仅包含 #tags 的行中移除标签？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Note: a reload is required for these to take effect.",
+                    "target": "注意：需要重新加载才能生效。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Always display the copy button, not just on hover",
+                    "target": "始终显示复制按钮，而不仅在悬停时显示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show copy buttons in Live Preview mode",
+                    "target": "在实时预览模式下显示复制按钮"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show copy buttons in Source Mode",
+                    "target": "在源代码模式下显示复制按钮"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show copy buttons in Reading Mode",
+                    "target": "在阅读模式下显示复制按钮"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Add a copy button to the title",
+                    "target": "在标题中添加复制按钮"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Include section heading",
+                    "target": "包含章节标题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Stop at subsections",
+                    "target": "在子章节处停止"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Strip comments",
+                    "target": "移除注释"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Strip links",
+                    "target": "移除链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Strip metadata",
+                    "target": "移除元数据"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Strip tag lines",
+                    "target": "移除标签行"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Where to display the copy button",
+                    "target": "复制按钮的显示位置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Always show",
+                    "target": "始终显示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Display in Live Preview",
+                    "target": "在实时预览中显示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Display in Source Mode",
+                    "target": "在源模式中显示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Display in Reading Mode",
+                    "target": "在阅读模式中显示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Display on title",
+                    "target": "在标题中显示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Copy file contents (as per settings)",
+                    "target": "复制文件内容（按设置）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Copy file contents (raw)",
+                    "target": "复制文件内容（原始）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Copy current section (exact, with subsections)",
+                    "target": "复制当前部分（精确，含子部分）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Copy current section (exact, without subsections)",
+                    "target": "复制当前部分（精确，不含子部分）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Copy current section (with subsections)",
+                    "target": "复制当前部分（含子部分）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Copy current section (without subsections)",
+                    "target": "复制当前部分（不含子部分）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Copy current section (as per settings)",
+                    "target": "复制当前部分（按设置）"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
