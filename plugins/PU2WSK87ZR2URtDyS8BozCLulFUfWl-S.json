@@ -1,0 +1,307 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "latex-ocr",
+        "version": "1.0.0",
+        "title": "Latex OCR",
+        "description": "Latex OCR Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.8.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Hugging face API key. See the ",
+                    "target": "Hugging Face API 密钥。请参阅 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Formula only",
+                    "target": "仅公式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error loading API key:",
+                    "target": "加载 API 密钥时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "latex_ocr_server: spawned",
+                    "target": "latex_ocr_server: 已启动"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "latex_ocr_server: starting local server",
+                    "target": "latex_ocr_server: 正在启动本地服务器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "latex_ocr: API model loaded.",
+                    "target": "latex_ocr: API 模型已加载。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Convert to Latex",
+                    "target": "转换为 LaTeX"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Check status",
+                    "target": "检查状态"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "(Re)start server",
+                    "target": "（重新）启动服务器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "How the LaTeX should be formatted: formula only, $inline$ or $$block$$.",
+                    "target": "LaTeX 的格式方式：仅公式、$inline$ 或 $$block$$。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "✅ online / ⚙️ loading / 🌐 downloading / 🔧 needs configuration / ❌ unreachable",
+                    "target": "✅ 在线 / ⚙️ 加载中 / 🌐 下载中 / 🔧 需要配置 / ❌ 无法访问"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Use local model with python. \t\t\tSee the project's README for installation instructions.",
+                    "target": "使用本地模型（Python）。 \t\t\t有关安装说明，请参阅项目的 README。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enables debug logging in the console.",
+                    "target": "在控制台启用调试日志。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Path to Python installation. You need to have the `latex_ocr_server` package installed, see the project's README for more information.\t\t\tNote that changing the path requires a server restart in order to take effect.",
+                    "target": "Python 安装路径。你需要安装 `latex_ocr_server` 包，更多信息请参阅项目的 README。\t\t\t注意，修改路径需要重启服务器才能生效。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "LatexOCR runs a python script in the background that can process OCR requests. \t\t\t\tUse these settings to check it's status, or restart it. \t\t\t\tNote that restarting can take a few seconds. If the model isn't cached, it needs to be downloaded first (~1.4 GB).",
+                    "target": "LatexOCR 在后台运行一个 Python 脚本来处理 OCR 请求。 \t\t\t\t使用这些设置可检查其状态或重启它。 \t\t\t\t注意，重启可能需要几秒钟。如果模型未缓存，需要先下载（约 1.4 GB）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Port to run the LatexOCR server on. Note that a server restart is required in order for this to take effect.",
+                    "target": "运行 LatexOCR 服务器的端口。注意，必须重启服务器才能生效。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The directory where the model is saved. By default this is in `Vault/.obsidian/plugins/obsidian-latex-ocr/model_cache`. \t\t\t\t\tNote that changing this will not delete the old cache, and require the model to be redownloaded. \t\t\t\t\tThe server must be restarted for this to take effect.",
+                    "target": "模型保存的目录。默认位置为 `Vault/.obsidian/plugins/obsidian-latex-ocr/model_cache`。 \t\t\t\t\t注意，修改此项不会删除旧缓存，并会要求重新下载模型。 \t\t\t\t\t必须重启服务器才能生效。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Open image",
+                    "target": "打开图片"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show status bar",
+                    "target": "显示状态栏"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use local model",
+                    "target": "使用本地模型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Debug mode",
+                    "target": "调试模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Current API Key",
+                    "target": "当前 API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Set API Key",
+                    "target": "设置 API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Python path",
+                    "target": "Python 路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Server status",
+                    "target": "服务器状态"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Start server on launch",
+                    "target": "启动时启动服务器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Cache dir",
+                    "target": "缓存目录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "LatexOCR ✅",
+                    "target": "LatexOCR ✅"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "LatexOCR 🌐",
+                    "target": "LatexOCR 🌐"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "LatexOCR ⚙️",
+                    "target": "LatexOCR ⚙️"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "LatexOCR 🔧",
+                    "target": "LatexOCR 🔧"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "LatexOCR ❌",
+                    "target": "LatexOCR ❌"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Latex OCR",
+                    "target": "Latex OCR"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Generate Latex",
+                    "target": "生成 LaTeX"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "\\u26A0\\uFE0F Couldn't copy to clipboard because document isn't focused",
+                    "target": "\\u26A0\\uFE0F \\u7531\\u4E8E\\u6587\\u6863\\u672A\\u805A\\u7126\\uFF0C\\u65E0\\u6CD5\\u590D\\u5236\\u5230\\u526A\\u8D34\\u677F"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "\\u{1FA84} Latex copied to clipboard",
+                    "target": "\\u{1FA84} LaTeX \\u5DF2\\u590D\\u5236\\u5230\\u526A\\u8D34\\u677F"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "⚠️ Select an image first",
+                    "target": "⚠️ 请先选择图片"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "\\u274C There was an error loading your API key",
+                    "target": "\\u274C \\u52A0\\u8F7D\\u60A8\\u7684 API \\u5BC6\\u94A5\\u65F6\\u51FA\\u9519"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "✅ The server is reachable!",
+                    "target": "✅ 服务器可访问！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "🔧 Api key saved",
+                    "target": "🔧 API 密钥已保存"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "⚙️ Starting server...",
+                    "target": "⚙️ 正在启动服务器..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "\\u{1FA84} Latex pasted to note",
+                    "target": "\\u{1FA84} 已将 Latex 粘贴到笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Google Inc.",
+                    "target": "Google Inc."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Paste Latex from clipboard image",
+                    "target": "从剪贴板图片粘贴 Latex"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "(Re)start LatexOCR Server",
+                    "target": "（重）启 LatexOCR 服务器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "LatexOCR ❌",
+                    "target": "LatexOCR ❌"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "hugging face docs",
+                    "target": "Hugging Face 文档"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " on how to generate it.",
+                    "target": " 如何生成它。"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
