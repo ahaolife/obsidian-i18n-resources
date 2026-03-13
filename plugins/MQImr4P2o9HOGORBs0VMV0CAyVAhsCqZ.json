@@ -1,0 +1,55 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "gtp-preview",
+        "version": "1.0.0",
+        "title": "GTP Preview",
+        "description": "GTP Preview Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.6",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerText",
+                    "source": "noteheadBlack noteheadHalf noteheadWhole",
+                    "target": "noteheadBlack noteheadHalf noteheadWhole"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "An unexpected error occurred in worker",
+                    "target": "工作线程发生意外错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "An unexpected error occurred",
+                    "target": "发生意外错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Score import failed due to unexpected error: ",
+                    "target": "由于意外错误，曲谱导入失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Player requires webworkers and web audio api, browser unsupported",
+                    "target": "播放器需要 webworkers 和 web audio api，浏览器不支持"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Loading GTP...",
+                    "target": "正在加载 GTP..."
+                }
+            ],
+            "regex": []
+        }
+    }
+}
