@@ -1,0 +1,205 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "alfonso-money-manager",
+        "version": "1.0.0",
+        "title": "Alfonso Money Manager",
+        "description": "Alfonso Money Manager Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "LokiCatalog.setAppKey (set) onerror",
+                    "target": "LokiCatalog.setAppKey（设置）出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "LokiCatalog.setAppKey (get) onerror",
+                    "target": "LokiCatalog.setAppKey（获取）出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "LokiCatalog.deleteAppKey raised onerror",
+                    "target": "LokiCatalog.deleteAppKey 触发错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "LokiCatalog.getAppKeys raised onerror",
+                    "target": "LokiCatalog.getAppKeys 触发错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error fetching currency rates:",
+                    "target": "获取汇率时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "It is a possibility that you may have not included 'data' property in series.",
+                    "target": "可能未在 series 中包含 'data' 属性。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "You have possibly supplied invalid Date format. Please supply a valid JavaScript Date",
+                    "target": "可能提供了无效的日期格式。请提供有效的 JavaScript Date"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "unloading plugin",
+                    "target": "正在卸载插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Starting with v2.0.0-beta.1 date-fns doesn't accept strings as date arguments. Please use `parseISO` to parse strings. See: https://github.com/date-fns/date-fns/blob/master/docs/upgradeGuide.md#string-arguments",
+                    "target": "从 v2.0.0-beta.1 开始，date-fns 不再接受字符串作为日期参数。请使用 `parseISO` 解析字符串。参见：https://github.com/date-fns/date-fns/blob/master/docs/upgradeGuide.md#string-arguments"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Write operation failed: computed value is readonly",
+                    "target": "写入操作失败：计算值为只读"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[HMR] Root or manually mounted instance modified. Full reload required.",
+                    "target": "[HMR] 根组件或手动挂载的实例已被修改。需要完全重新加载。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[HMR] Something went wrong during Vue component hot-reload. Full reload required.",
+                    "target": "[HMR] Vue 组件热重载期间出现错误。需要完全重新加载。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "A multi-series logarithmic chart should have equal number of series and y-axes",
+                    "target": "多序列对数图应具有相同数量的序列和 y 轴"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "undefined color - ApexCharts",
+                    "target": "未定义的颜色 - ApexCharts"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "axis.min cannot be greater than axis.max",
+                    "target": "axis.min 不能大于 axis.max"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "autoScaleYaxis not supported in a multi-yaxis chart.",
+                    "target": "多 y 轴图表不支持 autoScaleYaxis。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "WARNING: DataLabels are enabled but there are too many to display. This may cause performance issue when rendering - ApexCharts",
+                    "target": "警告：已启用 DataLabels，但数量过多无法显示。这可能在渲染时导致性能问题 - ApexCharts"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Horizontal bars are not supported in a mixed/combo chart. Please turn off `plotOptions.bar.horizontal`",
+                    "target": "混合/组合图表不支持水平条形。请关闭 `plotOptions.bar.horizontal`"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "You have specified an unrecognized chart type. Available types for this property are line/area/column/bar/scatter/bubble/candlestick/boxPlot/rangeBar/rangeArea",
+                    "target": "你指定了无法识别的图表类型。此属性可用的类型有 line/area/column/bar/scatter/bubble/candlestick/boxPlot/rangeBar/rangeArea"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please select a database first",
+                    "target": "请先选择一个数据库"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please select a wallet first",
+                    "target": "请先选择一个钱包"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Query copied to clipboard",
+                    "target": "查询已复制到剪贴板"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Invalid path",
+                    "target": "无效路径"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Path already added",
+                    "target": "路径已添加"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "This location does not contain a valid database",
+                    "target": "此位置不包含有效数据库"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Query Builder Window",
+                    "target": "查询构建器窗口"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Example: Rent",
+                    "target": "示例：租金"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Database location path eg. alfonso/default",
+                    "target": "数据库位置路径，例如 alfonso/default"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No Results for Alfonso Query",
+                    "target": "Alfonso 查询没有结果"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Query Builder",
+                    "target": "查询构建器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Size: ",
+                    "target": "尺寸： "
+                }
+            ],
+            "regex": []
+        }
+    }
+}
