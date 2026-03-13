@@ -1,0 +1,217 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "smart-link-formatter",
+        "version": "1.0.0",
+        "title": "Smart Link Formatter",
+        "description": "Smart Link Formatter Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.4.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Show failure message",
+                    "target": "显示失败消息"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Revert to plain URL",
+                    "target": "恢复为纯 URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Available variables:",
+                    "target": "可用变量："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to load Twitter API config from GitHub:",
+                    "target": "从 GitHub 加载 Twitter API 配置失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to format link:",
+                    "target": "格式化链接失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to parse URL for blacklist check:",
+                    "target": "为黑名单检查解析 URL 失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Smart Link Formatter: Failed to replace placeholder.",
+                    "target": "智能链接格式化器：替换占位符失败。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Automatically format links when pasting URLs, except when overriden.",
+                    "target": "粘贴 URL 时自动格式化链接，除非被覆盖。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "What to do when a link fails to fetch. \"Revert\" pastes the original URL. \"Alert\" shows [Failed to fetch title](url).",
+                    "target": "当链接获取失败时的处理方式。“Revert”会粘贴原始 URL。“Alert”会显示 [Failed to fetch title](url)。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Maximum time (in seconds) to wait for page metadata. (3-60s)",
+                    "target": "等待页面元数据的最长时间（秒）。（3-60s）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Comma-separated list of domains that should never be auto-formatted. URLs from these domains will be pasted as-is.",
+                    "target": "以逗号分隔的域名列表，这些域名不应被自动格式化。来自这些域名的 URL 将按原样粘贴。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Allows pasting a URL over selected text, which will allow other plugins or default behavior to handle it instead of auto-formatting.",
+                    "target": "允许将 URL 粘贴到所选文本上，这样可由其他插件或默认行为处理，而不是自动格式化。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Failure mode",
+                    "target": "失败模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Fetch timeout",
+                    "target": "获取超时"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Blacklisted domains",
+                    "target": "黑名单域名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Paste URL into selection",
+                    "target": "将 URL 粘贴到所选文本中"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Regex pattern",
+                    "target": "正则表达式模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "example.com, test.org",
+                    "target": "example.com, test.org"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Move up",
+                    "target": "上移"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Move down",
+                    "target": "下移"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Smart Link Formatter: Electron not available on mobile platform.",
+                    "target": "智能链接格式化：移动平台不支持 Electron。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Smart Link Formatter: Electron module not available.",
+                    "target": "智能链接格式化：Electron 模块不可用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Smart Link Formatter: Placeholder not found in editor content.",
+                    "target": "智能链接格式化：在编辑器内容中未找到占位符。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to format link",
+                    "target": "链接格式化失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error updating link in file.",
+                    "target": "更新文件中的链接时出错。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No URL found at cursor position",
+                    "target": "光标位置未找到 URL"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "URL is in blacklisted domains",
+                    "target": "URL 位于黑名单域名中"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Anno Domini",
+                    "target": "公元"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Before Christ",
+                    "target": "公元前"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Format link at cursor",
+                    "target": "格式化光标处的链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Apply regex find/replace transformations after formatting links. Patterns are applied in order.",
+                    "target": "在格式化链接后应用正则查找/替换转换。按顺序应用模式。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " → ",
+                    "target": " → "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Default: ",
+                    "target": "默认："
+                }
+            ],
+            "regex": []
+        }
+    }
+}
