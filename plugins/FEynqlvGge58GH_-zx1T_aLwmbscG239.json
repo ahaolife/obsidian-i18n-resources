@@ -1,0 +1,2401 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "ace-code-editor",
+        "version": "1.0.0",
+        "title": "Ace Code Editor",
+        "description": "Ace Code Editor Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.0.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "missing / (unclosed regex)",
+                    "target": "缺少 /（正则未闭合）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "mixed indentation",
+                    "target": "缩进混用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "indentation mismatch",
+                    "target": "缩进不匹配"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "missing indentation",
+                    "target": "缺少缩进"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "missing closing > after tag name",
+                    "target": "标签名后缺少闭合 >"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "unexpected ;",
+                    "target": "意外的 ;"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "unicode code point escapes greater than \\u{10ffff} are not allowed",
+                    "target": "不允许大于 \\u{10ffff} 的 Unicode 码点转义"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "yield can only occur inside functions",
+                    "target": "yield 只能在函数内部出现"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "await can only occur inside functions",
+                    "target": "await 只能在函数内部出现"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "tried to assign to unassignable value",
+                    "target": "尝试给不可赋值的值赋值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "literal is not a function",
+                    "target": "字面量不是函数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unsupported reference to 'super'",
+                    "target": "不支持引用 'super'"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unexpected token. Allowed CSX attributes are: id=\"val\", src={source}, {props...} or attribute.",
+                    "target": "意外的标记。允许的 CSX 属性为：id=\"val\", src={source}, {props...} 或 attribute。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "cannot use super outside of an instance method",
+                    "target": "不能在实例方法之外使用 super"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "cannot have an implicit value in an implicit object",
+                    "target": "隐式对象中不能有隐式值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "invalid object key",
+                    "target": "无效的对象键"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Cannot define more than one constructor in a class",
+                    "target": "类中不能定义多个构造函数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Cannot define a constructor as a bound (fat arrow) function",
+                    "target": "不能将构造函数定义为绑定（胖箭头）函数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Class bodies shouldn't reference arguments",
+                    "target": "类体不应引用 arguments"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "constructors must be defined at the top level of a class body",
+                    "target": "构造函数必须定义在类体的顶层"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "the name of the module to be imported from must be an uninterpolated string",
+                    "target": "要导入的模块名必须是未插值的字符串"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "anonymous classes cannot be exported",
+                    "target": "匿名类不能被导出"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Destructuring assignment has no target",
+                    "target": "解构赋值没有目标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "multiple splats/expansions are disallowed in an assignment",
+                    "target": "赋值中不允许多个 splat/展开"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "function can't contain both yield and await",
+                    "target": "函数不能同时包含 yield 和 await"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Class constructor may not be async",
+                    "target": "类构造函数不能是 async"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Class constructor may not be a generator",
+                    "target": "类构造函数不能是生成器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "only one splat or expansion parameter is allowed per function definition",
+                    "target": "每个函数定义只允许一个 splat 或 expansion 参数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "an expansion parameter cannot be the only parameter in a function definition",
+                    "target": "expansion 参数不能是函数定义中的唯一参数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "yield cannot occur inside bound (fat arrow) functions",
+                    "target": "yield 不能出现在绑定（胖箭头）函数中"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "'super' is not allowed in constructor parameter defaults",
+                    "target": "构造函数参数默认值中不允许使用 'super'"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "'super' is only allowed in derived class constructors",
+                    "target": "'super' 只允许在派生类构造函数中使用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Can't use @params in derived class constructors without calling super",
+                    "target": "在派生类构造函数中未调用 super 时不能使用 @params"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Can't call super with @params in derived class constructors",
+                    "target": "在派生类构造函数中不能用 @params 调用 super"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Can't reference 'this' before calling super in derived class constructors",
+                    "target": "在派生类构造函数中调用 super 之前不能引用 'this'"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Expansion must be used inside a destructuring assignment or parameter list",
+                    "target": "Expansion 必须在解构赋值或参数列表中使用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "delete operand may not be argument or var",
+                    "target": "delete 操作数不能是 argument 或 var"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "cannot use index with for-from",
+                    "target": "for-from 中不能使用 index"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "index cannot be a pattern matching expression",
+                    "target": "index 不能是模式匹配表达式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "indexes do not apply to range loops",
+                    "target": "range 循环不适用 index"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "cannot pattern match over range loops",
+                    "target": "不能在 range 循环中进行模式匹配"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "unexpected end of input",
+                    "target": "输入意外结束"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unclosed comment",
+                    "target": "未闭合的注释"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unclosed CDATA",
+                    "target": "未闭合的 CDATA"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "invalid document source",
+                    "target": "无效的文档源"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Could not load worker",
+                    "target": "无法加载 worker"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "无法获取系统字体，已加载基础字体列表",
+                    "target": "无法获取系统字体，已加载基础字体列表"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "[ace-code-editor] 插件已重载",
+                    "target": "[ace-code-editor] 插件已重载"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "buttontext",
+                    "source": "Text on push buttons.",
+                    "target": "按键上的文字。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "caption",
+                    "source": "Smooth And Slim",
+                    "target": "平滑与纤薄"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "caption",
+                    "source": "Mark begin",
+                    "target": "标记起始"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "caption",
+                    "source": "Mark begin and end",
+                    "target": "标记起始和结束"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "caption",
+                    "source": "No mode matching",
+                    "target": "无匹配模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "assertEquals(${1:expected}, ${2:expr})",
+                    "target": "assertEquals(${1:expected}, ${2:expr})"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "${1:${2:newValue} := ${3:Object} }clone do(\n\t$0\n)",
+                    "target": "${1:${2:newValue} := ${3:Object} }clone do(\n\t$0\n)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "docSlot(\"${1:slotName}\", \"${2:documentation}\")",
+                    "target": "docSlot(\"${1:slotName}\", \"${2:documentation}\")"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "(${1:header,}\n\t${2:body}\n)$0",
+                    "target": "(${1:header,}\n\t${2:body}\n)$0"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "\n\t$0\n",
+                    "target": "\n\t$0\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "${1:methodName} := method(${2:args,}\n\t$0\n)",
+                    "target": "${1:methodName} := method(${2:args,}\n\t$0\n)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "newSlot(\"${1:slotName}\", ${2:defaultValue}, \"${3:docString}\")$0",
+                    "target": "newSlot(\"${1:slotName}\", ${2:defaultValue}, \"${3:docString}\")$0"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "\\${1:name} := Object clone do(\n\t$0\n)",
+                    "target": "\\${1:name} := Object clone do(\n\t$0\n)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "test\\${1:SomeFeature} := method(\n\t$0\n)",
+                    "target": "test\\${1:SomeFeature} := method(\n\t$0\n)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "${1:Something}Test := ${2:UnitTest} clone do(\n\t$0\n)",
+                    "target": "${1:Something}Test := ${2:UnitTest} clone do(\n\t$0\n)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "case \\${1:condition}:\n\t$0\n\tbreak;\n",
+                    "target": "case \\${1:condition}:\n\t$0\n\tbreak;\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "/**\n * \\${6}\n */\n\\${1:public} class \\${2:MethodName}\\${3: : GLib.Object} {\n\n\t/**\n\t * \\${7}\n\t */\n\tpublic \\${2}(\\${4}) {\n\t\t\\${5}\n\t}\n\n\t$0\n}",
+                    "target": "/**\n * \\${6}\n */\n\\${1:public} class \\${2:MethodName}\\${3: : GLib.Object} {\n\n\t/**\n\t * \\${7}\n\t */\n\tpublic \\${2}(\\${4}) {\n\t\t\\${5}\n\t}\n\n\t$0\n}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "(\\${1}) => {\n\t\\${0}\n}\n",
+                    "target": "(\\${1}) => {\n\t\\${0}\n}\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "/*\n * $0\n */",
+                    "target": "/*\n * $0\n */"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "Console.WriteLine($1);\n$0",
+                    "target": "Console.WriteLine($1);\n$0"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "[DBus(name = \"$0\")]",
+                    "target": "[DBus(name = \"$0\")]"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "delegate ${1:void} ${2:DelegateName}($0);",
+                    "target": "delegate ${1:void} ${2:DelegateName}($0);"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "do {\n\t$0\n} while ($1);\n",
+                    "target": "do {\n\t$0\n} while ($1);\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "/**\n * $0\n */",
+                    "target": "/**\n * $0\n */"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "else if ($1) {\n\t$0\n}\n",
+                    "target": "else if ($1) {\n\t$0\n}\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "else {\n\t$0\n}",
+                    "target": "else {\n\t$0\n}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "enum {$1:EnumName} {\n\t$0\n}",
+                    "target": "enum {$1:EnumName} {\n\t$0\n}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "public errordomain \\${1:Error} {\n\t$0\n}",
+                    "target": "public errordomain \\${1:Error} {\n\t$0\n}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "for ($1;$2;$3) {\n\t$0\n}",
+                    "target": "for ($1;$2;$3) {\n\t$0\n}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "foreach ($1 in $2) {\n\t$0\n}",
+                    "target": "foreach ($1 in $2) {\n\t$0\n}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "Gee.ArrayList<${1:G}>($0);",
+                    "target": "Gee.ArrayList<${1:G}>($0);"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "Gee.HashMap<${1:K},${2:V}>($0);",
+                    "target": "Gee.HashMap<${1:K},${2:V}>($0);"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "Gee.HashSet<${1:G}>($0);",
+                    "target": "Gee.HashSet<${1:G}>($0);"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "if ($1) {\n\t$0\n}",
+                    "target": "if ($1) {\n\t$0\n}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "interface \\${1:InterfaceName}{$2: : SuperInterface} {\n\t$0\n}",
+                    "target": "interface \\${1:InterfaceName}{$2: : SuperInterface} {\n\t$0\n}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "public static int main(string [] argv) {\n\t\\${0}\n\treturn 0;\n}",
+                    "target": "public static int main(string [] argv) {\n\t\\${0}\n\treturn 0;\n}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "namespace $1 {\n\t$0\n}\n",
+                    "target": "namespace $1 {\n\t$0\n}\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "stdout.printf($0);",
+                    "target": "stdout.printf($0);"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "\\${1:public} \\${2:Type} \\${3:Name} {\n\tset {\n\t\t$0\n\t}\n\tget {\n\n\t}\n}",
+                    "target": "\\${1:public} \\${2:Type} \\${3:Name} {\n\tset {\n\t\t$0\n\t}\n\tget {\n\n\t}\n}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "\\${1:public} \\${2:Type} \\${3:Name} {\n\tget {\n\t\t$0\n\t}\n}",
+                    "target": "\\${1:public} \\${2:Type} \\${3:Name} {\n\tget {\n\t\t$0\n\t}\n}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "struct \\${1:StructName} {\n\t$0\n}",
+                    "target": "struct \\${1:StructName} {\n\t$0\n}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "switch ($1) {\n\t$0\n}",
+                    "target": "switch ($1) {\n\t$0\n}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "try {\n\t$2\n} catch (\\${1:Error} e) {\n\t$0\n}",
+                    "target": "try {\n\t$2\n} catch (\\${1:Error} e) {\n\t$0\n}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "\"\"\"$0\"\"\";",
+                    "target": "\"\"\"$0\"\"\";"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "while ($1) {\n\t$0\n}",
+                    "target": "while ($1) {\n\t$0\n}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "(JavaScript regexp)",
+                    "target": "（JavaScript 正则表达式）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Don't use width or height when using padding or border.",
+                    "target": "使用 padding 或 border 时不要使用 width 或 height。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Use the bulletproof @font-face syntax to avoid 404's in old IE (http://www.fontspring.com/blog/the-new-bulletproof-font-face-syntax).",
+                    "target": "使用可靠的 @font-face 语法，避免旧版 IE 中出现 404（http://www.fontspring.com/blog/the-new-bulletproof-font-face-syntax）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Include all compatible vendor prefixes to reach a wider range of users.",
+                    "target": "包含所有兼容的厂商前缀，以覆盖更广泛的用户。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Certain properties shouldn't be used with certain display property values.",
+                    "target": "某些属性不应与某些 display 属性值一起使用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Every background-image should be unique. Use a common class for e.g. sprites.",
+                    "target": "每个 background-image 都应唯一，例如精灵图请使用通用类。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Duplicate properties must appear one after the other.",
+                    "target": "重复的属性必须连续出现。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "This rule looks for recoverable syntax errors.",
+                    "target": "此规则用于查找可恢复的语法错误。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "This rule tests if the float property is used too many times",
+                    "target": "此规则用于检测 float 属性是否被使用过多次数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Too many different web fonts in the same stylesheet.",
+                    "target": "同一样式表中使用了过多不同的网页字体。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Checks the number of font-size declarations.",
+                    "target": "检查 font-size 声明的数量。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Selectors should not contain IDs.",
+                    "target": "选择器不应包含 ID。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "IE6-9 supports up to 31 @import per stylesheet",
+                    "target": "IE6-9 每个样式表最多支持 31 个 @import"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Don't use @import, use <link> instead.",
+                    "target": "不要使用 @import，请改用 <link>。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Be careful when using !important declaration",
+                    "target": "使用 !important 声明时要小心"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Properties should be known (listed in CSS3 specification) or be a vendor-prefixed property.",
+                    "target": "属性应为已知属性（列于 CSS3 规范中）或带有厂商前缀的属性。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Assure properties are in alphabetical order",
+                    "target": "确保属性按字母顺序排列"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Use of outline: none or outline: 0 should be limited to :focus rules.",
+                    "target": "outline: none 或 outline: 0 的使用应仅限于 :focus 规则。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Selectors that look like regular expressions are slow and should be avoided.",
+                    "target": "看起来像正则表达式的选择器很慢，应避免使用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Track how many rules there are.",
+                    "target": "跟踪规则的数量。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Will warn when selector count is >= 3800 selectors.",
+                    "target": "当选择器数量 >= 3800 时将发出警告。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Will error when selector count is > 4095.",
+                    "target": "当选择器数量 > 4095 时将报错。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "New-line characters in selectors are usually a forgotten comma and not a descendant combinator.",
+                    "target": "选择器中的换行符通常是漏掉了逗号，而不是后代组合符。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Use shorthand properties where possible.",
+                    "target": "尽可能使用简写属性。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Checks for the star property hack (targets IE6/7)",
+                    "target": "检查星号属性 hack（针对 IE6/7）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Checks for text indent less than -99px",
+                    "target": "检查 text-indent 小于 -99px 的情况"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Checks for the underscore property hack (targets IE6)",
+                    "target": "检查下划线属性 hack（针对 IE6）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "The universal selector (*) is known to be slow.",
+                    "target": "通用选择器（*）已知较慢。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Unqualified attribute selectors are known to be slow.",
+                    "target": "不限定的属性选择器已知较慢。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "When using a vendor-prefixed property, make sure to include the standard one.",
+                    "target": "使用带厂商前缀的属性时，务必包含标准属性。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "You don't need to specify units when a value is 0.",
+                    "target": "当值为 0 时无需指定单位。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "View <a href='https://docs.ravenhogwarts.top/en/obsidian-ace-code-editor/' target='_blank'>wiki documentation</a> to learn more features",
+                    "target": "查看 <a href='https://docs.ravenhogwarts.top/en/obsidian-ace-code-editor/' target='_blank'>wiki 文档</a> 以了解更多功能"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "After registration, clicking files will open directly in the code editor. Reload plugin after changes",
+                    "target": "注册后，点击文件将直接在代码编辑器中打开。修改后需重载插件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Keyboard style for code editor",
+                    "target": "代码编辑器的键盘风格"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Show line numbers",
+                    "target": "显示行号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Font size for code editor",
+                    "target": "代码编辑器的字体大小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Font used by code editor",
+                    "target": "代码编辑器使用的字体"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Width of tab key",
+                    "target": "tab键的宽度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Vertical line in code editor",
+                    "target": "显示代码编辑器中的竖线"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Display invisible characters in code editor",
+                    "target": "在代码编辑器中显示不可见字符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Show indent guides in code editor",
+                    "target": "在代码编辑器中显示缩进参考线"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Display fold widgets in code editor",
+                    "target": "在代码编辑器中显示折叠控件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Enable auto wrap in code editor. Code exceeding the editor width will automatically wrap",
+                    "target": "在代码编辑器中启用自动换行。超出编辑器宽度的代码将自动换行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Show minimap on the right side of the editor for quick navigation",
+                    "target": "在编辑器右侧显示迷你地图以便快速导航"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "查看<a href='https://docs.ravenhogwarts.top/obsidian-ace-code-editor/' target='_blank'>wiki文档</a>了解更多功能",
+                    "target": "查看<a href='https://docs.ravenhogwarts.top/obsidian-ace-code-editor/' target='_blank'>wiki文档</a>了解更多功能"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "注册后，点击文件将直接在代码编辑器中打开，修改后需重载插件",
+                    "target": "注册后，点击文件将直接在代码编辑器中打开，修改后需重载插件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "css片段管理按钮是否在底部状态栏显示，修改后需重载插件",
+                    "target": "css片段管理按钮是否在底部状态栏显示，修改后需重载插件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "代码编辑器的亮色主题",
+                    "target": "代码编辑器的亮色主题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "代码编辑器的暗色主题",
+                    "target": "代码编辑器的暗色主题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "代码编辑器的键盘风格",
+                    "target": "代码编辑器的键盘风格"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "显示行号",
+                    "target": "显示行号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "代码编辑器的字体大小",
+                    "target": "代码编辑器的字体大小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "代码编辑器使用的字体",
+                    "target": "代码编辑器使用的字体"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "tab键的宽度",
+                    "target": "tab键的宽度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "显示代码编辑器中的竖线",
+                    "target": "显示代码编辑器中的竖线"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在代码编辑器中显示不可见字符",
+                    "target": "在代码编辑器中显示不可见字符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在代码编辑器中显示缩进参考线",
+                    "target": "在代码编辑器中显示缩进参考线"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在代码编辑器中显示折叠部件",
+                    "target": "在代码编辑器中显示折叠部件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "嵌入代码块的最大高度(单位px)，超过该高度将出现滚动条",
+                    "target": "嵌入代码块的最大高度(单位px)，超过该高度将出现滚动条"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在代码编辑器中启用自动换行，超过编辑器宽度的代码将自动换行显示",
+                    "target": "在代码编辑器中启用自动换行，超过编辑器宽度的代码将自动换行显示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在编辑器右侧显示缩略图，方便快速导航代码",
+                    "target": "在编辑器右侧显示缩略图，方便快速导航代码"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "查看<a href='https://docs.ravenhogwarts.top/obsidian-ace-code-editor/' target='_blank'>wiki文件</a>了解更多功能",
+                    "target": "查看<a href='https://docs.ravenhogwarts.top/obsidian-ace-code-editor/' target='_blank'>wiki文件</a>了解更多功能"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "註冊後，點擊檔案將直接在程式碼編輯器中開啟，修改後需重載外掛",
+                    "target": "注册后，点击文件将直接在代码编辑器中打开，修改后需重载插件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "CSS片段管理按鈕是否在底部狀態列顯示，修改後需重載外掛",
+                    "target": "CSS片段管理按钮是否在底部状态栏显示，修改后需重载插件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "程式碼編輯器的亮色主題",
+                    "target": "代码编辑器的亮色主题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "程式碼編輯器的暗色主題",
+                    "target": "代码编辑器的暗色主题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "程式碼編輯器的鍵盤風格",
+                    "target": "代码编辑器的键盘风格"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "顯示行號",
+                    "target": "显示行号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "程式碼編輯器的字體大小",
+                    "target": "代码编辑器的字体大小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "程式碼編輯器使用的字體",
+                    "target": "代码编辑器使用的字体"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "tab鍵的寬度",
+                    "target": "tab键的宽度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "程式碼編輯器中的直線",
+                    "target": "代码编辑器中的直线"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在程式碼編輯器中顯示不可見字符",
+                    "target": "在代码编辑器中显示不可见字符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在程式碼編輯器中顯示縮排指導線",
+                    "target": "在代码编辑器中显示缩排指导线"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在程式碼編輯器中顯示折疊小工具",
+                    "target": "在代码编辑器中显示折叠小工具"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "嵌入程式碼區塊的最大高度(單位px)，超過該高度將出現滾動條",
+                    "target": "嵌入代码区块的最大高度(单位px)，超过该高度将出现滚动条"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在程式碼編輯器中啟用自動換行，超過編輯器寬度的程式碼將自動換行顯示",
+                    "target": "在代码编辑器中启用自动换行，超过编辑器宽度的代码将自动换行显示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在編輯器右側顯示縮略圖，方便快速導航程式碼",
+                    "target": "在编辑器右侧显示缩略图，方便快速导航代码"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Show settings menu",
+                    "target": "显示设置菜单"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Go to next error",
+                    "target": "转到下一个错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Go to previous error",
+                    "target": "转到上一个错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Select all",
+                    "target": "全选"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Center selection",
+                    "target": "将选区居中"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Go to line...",
+                    "target": "转到行..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Toggle fold widget",
+                    "target": "切换折叠控件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Toggle parent fold widget",
+                    "target": "切换父级折叠控件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Fold all",
+                    "target": "全部折叠"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Fold all comments",
+                    "target": "折叠所有注释"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Fold other",
+                    "target": "折叠其他"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Unfold all",
+                    "target": "全部展开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Find next",
+                    "target": "查找下一个"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Find previous",
+                    "target": "查找上一个"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Select or find next",
+                    "target": "选择或查找下一个"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Select or find previous",
+                    "target": "选择或查找上一个"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Select to start",
+                    "target": "选择到起始"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Go to start",
+                    "target": "转到起始"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Select up",
+                    "target": "向上选择"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Go line up",
+                    "target": "向上移动一行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Select to end",
+                    "target": "选择到末尾"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Go to end",
+                    "target": "转到末尾"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Select down",
+                    "target": "向下选择"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Go line down",
+                    "target": "向下移动一行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Select word left",
+                    "target": "选择左侧单词"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Go to word left",
+                    "target": "转到左侧单词"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Select to line start",
+                    "target": "选择到行首"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Go to line start",
+                    "target": "转到行首"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Select left",
+                    "target": "向左选择"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Go to left",
+                    "target": "向左移动"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Select word right",
+                    "target": "向右选择单词"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Go to word right",
+                    "target": "向右移动到单词"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Select to line end",
+                    "target": "选择到行末"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Go to line end",
+                    "target": "移动到行末"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Select right",
+                    "target": "向右选择"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Go to right",
+                    "target": "向右移动"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Select page down",
+                    "target": "向下翻页选择"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Page down",
+                    "target": "向下翻页"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Go to page down",
+                    "target": "移动到下一页"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Select page up",
+                    "target": "向上翻页选择"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Page up",
+                    "target": "向上翻页"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Go to page up",
+                    "target": "移动到上一页"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Scroll up",
+                    "target": "向上滚动"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Scroll down",
+                    "target": "向下滚动"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Select line start",
+                    "target": "选择行首"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Select line end",
+                    "target": "选择行末"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Toggle recording",
+                    "target": "切换录制"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Replay macro",
+                    "target": "重放宏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Jump to matching",
+                    "target": "跳转到匹配项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Select to matching",
+                    "target": "选择到匹配项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Expand to matching",
+                    "target": "扩展到匹配项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Pass keys to browser",
+                    "target": "将按键传递给浏览器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Duplicate selection",
+                    "target": "复制所选内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Sort lines",
+                    "target": "排序行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Toggle comment",
+                    "target": "切换注释"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Toggle block comment",
+                    "target": "切换块注释"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Modify number up",
+                    "target": "增加数字"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Modify number down",
+                    "target": "减少数字"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Copy lines up",
+                    "target": "向上复制行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Move lines up",
+                    "target": "向上移动行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Copy lines down",
+                    "target": "向下复制行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Move lines down",
+                    "target": "向下移动行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Cut or delete",
+                    "target": "剪切或删除"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Block outdent",
+                    "target": "块减少缩进"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Block indent",
+                    "target": "块增加缩进"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Insert string",
+                    "target": "插入字符串"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Insert text",
+                    "target": "插入文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Split line",
+                    "target": "拆分行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Transpose letters",
+                    "target": "交换字母"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "To uppercase",
+                    "target": "转为大写"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "To lowercase",
+                    "target": "转为小写"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Auto Indent",
+                    "target": "自动缩进"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Expand to line",
+                    "target": "扩展到整行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Join lines",
+                    "target": "连接行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Invert selection",
+                    "target": "反转选择"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Add new line after the current line",
+                    "target": "在当前行后新增一行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Add new line before the current line",
+                    "target": "在当前行前新增一行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Open command palette",
+                    "target": "打开命令面板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Change language mode...",
+                    "target": "更改语言模式..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Set focus to the editor content div to allow tabbing through the page",
+                    "target": "将焦点设置到编辑器内容 div，以便通过 Tab 键在页面中切换"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Add cursor above",
+                    "target": "在上方添加光标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Add cursor below",
+                    "target": "在下方添加光标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Add cursor above (skip current)",
+                    "target": "在上方添加光标（跳过当前）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Add cursor below (skip current)",
+                    "target": "在下方添加光标（跳过当前）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Select more before",
+                    "target": "向前扩展选择"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Select more after",
+                    "target": "向后扩展选择"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Select next before",
+                    "target": "选择前一个"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Select next after",
+                    "target": "选择后一个"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Split selection into lines",
+                    "target": "将选择内容拆分为行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Split into lines",
+                    "target": "拆分为行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Align cursors",
+                    "target": "对齐光标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Find all",
+                    "target": "查找全部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Single selection",
+                    "target": "单一选择"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Format selection (Beautify)",
+                    "target": "格式化所选内容（Beautify）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Detect indentation from content",
+                    "target": "从内容中检测缩进"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Trim trailing whitespace",
+                    "target": "删除行尾空白"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Convert indentation to ...",
+                    "target": "将缩进转换为…"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Set indentation",
+                    "target": "设置缩进"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Unfancy JavaScript",
+                    "target": "简化 JavaScript"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "header",
+                    "source": "Create code file",
+                    "target": "创建代码文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "header",
+                    "source": "Edit code block",
+                    "target": "编辑代码块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "header",
+                    "source": "创建代码文件",
+                    "target": "创建代码文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "header",
+                    "source": "编辑代码块",
+                    "target": "编辑代码块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "header",
+                    "source": "創建程式碼檔案",
+                    "target": "创建代码文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "header",
+                    "source": "編輯程式碼區塊",
+                    "target": "编辑代码块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Custom filename",
+                    "target": "自定义文件名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "JavaScript (.js)",
+                    "target": "JavaScript（.js）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "TypeScript (.ts)",
+                    "target": "TypeScript（.ts）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "React JavaScript (.jsx)",
+                    "target": "React JavaScript（.jsx）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "React TypeScript (.tsx)",
+                    "target": "React TypeScript（.tsx）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Python (.py)",
+                    "target": "Python（.py）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Java (.java)",
+                    "target": "Java（.java）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "C++ (.cpp)",
+                    "target": "C++（.cpp）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "C (.c)",
+                    "target": "C（.c）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "C Header (.h)",
+                    "target": "C 头文件（.h）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "C# (.cs)",
+                    "target": "C#（.cs）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "HTML (.html)",
+                    "target": "HTML（.html）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "CSS (.css)",
+                    "target": "CSS（.css）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "JSON (.json)",
+                    "target": "JSON（.json）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "[SW01] Detected CRLF",
+                    "target": "[SW01] 检测到 CRLF"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "[SW02] Tabs detected",
+                    "target": "[SW02] 检测到制表符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "[SW04] Trailing whitespace",
+                    "target": "[SW04] 行尾空白"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "···",
+                    "target": "···"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Always Show Tooltip",
+                    "target": "始终显示提示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Apache Conf",
+                    "target": "Apache 配置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Batch File",
+                    "target": "批处理文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Beware of broken box size",
+                    "target": "注意损坏的框大小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Use the bulletproof @font-face syntax",
+                    "target": "使用可靠的 @font-face 语法"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Require compatible vendor prefixes",
+                    "target": "要求兼容的厂商前缀"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Require properties appropriate for display",
+                    "target": "要求使用适合显示的属性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Disallow duplicate background images",
+                    "target": "禁止重复的背景图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Disallow duplicate properties",
+                    "target": "禁止重复属性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Parsing Errors",
+                    "target": "解析错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Disallow too many floats",
+                    "target": "禁止使用过多浮动"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Don't use too many web fonts",
+                    "target": "不要使用过多的 Web 字体"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Disallow too many font sizes",
+                    "target": "禁止使用过多的字体大小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Require all gradient definitions",
+                    "target": "要求所有渐变定义"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Disallow IDs in selectors",
+                    "target": "禁止在选择器中使用 ID"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "@import limit on IE6-IE9",
+                    "target": "IE6-IE9 的 @import 限制"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Disallow @import",
+                    "target": "禁止使用 @import"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Disallow !important",
+                    "target": "禁止使用 !important"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Require use of known properties",
+                    "target": "要求使用已知属性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Alphabetical order",
+                    "target": "按字母顺序"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Disallow outline: none",
+                    "target": "禁止使用 outline: none"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Disallow selectors that look like regexs",
+                    "target": "禁止看起来像正则表达式的选择器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Rules Count",
+                    "target": "规则数量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Warn when approaching the 4095 selector limit for IE",
+                    "target": "接近 IE 的 4095 个选择器限制时警告"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Error when past the 4095 selector limit for IE",
+                    "target": "超过 IE 的 4095 个选择器限制时错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Disallow new-line characters in selectors",
+                    "target": "禁止在选择器中使用换行符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Require shorthand properties",
+                    "target": "要求使用简写属性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Disallow properties with a star prefix",
+                    "target": "禁止使用星号前缀的属性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Disallow negative text-indent",
+                    "target": "禁止使用负的 text-indent"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Disallow properties with an underscore prefix",
+                    "target": "禁止使用下划线前缀的属性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Disallow universal selector",
+                    "target": "禁止使用通用选择器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Disallow unqualified attribute selectors",
+                    "target": "禁止不带限定的属性选择器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Require standard property with vendor prefix",
+                    "target": "要求带厂商前缀的标准属性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Disallow units for 0 values",
+                    "target": "禁止为 0 值使用单位"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Checkstyle XML format",
+                    "target": "Checkstyle XML 格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Compact, 'porcelain' format",
+                    "target": "紧凑的“porcelain”格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "CSSLint XML format",
+                    "target": "CSSLint XML 格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "JUNIT XML format",
+                    "target": "JUNIT XML 格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Lint XML format",
+                    "target": "Lint XML 格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Plain Text",
+                    "target": "纯文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "clone do",
+                    "target": "clone do"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Indented Bracketed Line",
+                    "target": "缩进括号行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Object clone do",
+                    "target": "对象 clone do"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Comment (multiline)",
+                    "target": "注释（多行）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Console.WriteLine (writeline)",
+                    "target": "Console.WriteLine（writeline）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "DBus annotation",
+                    "target": "DBus 注解"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "do while",
+                    "target": "do while"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "else if (elseif)",
+                    "target": "else if（elseif）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "error domain",
+                    "target": "错误域"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Main function",
+                    "target": "主函数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "namespace (ns)",
+                    "target": "命名空间（ns）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "property (prop)",
+                    "target": "属性（prop）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "read-only property (roprop)",
+                    "target": "只读属性（roprop）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Verbatim string (\"\"\")",
+                    "target": "逐字字符串（\"\"\"）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Register file extension",
+                    "target": "注册文件扩展名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Line numbers",
+                    "target": "行号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Font size",
+                    "target": "字体大小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Indentation width",
+                    "target": "缩进宽度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show print margin",
+                    "target": "显示打印边距"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show invisibles",
+                    "target": "显示不可见字符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Display indent guides",
+                    "target": "显示缩进参考线"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show fold widgets",
+                    "target": "显示折叠控件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Auto wrap",
+                    "target": "自动换行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Enable minimap",
+                    "target": "启用缩略图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "注册文件类型",
+                    "target": "注册文件类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "css片段管理",
+                    "target": "css片段管理"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "亮色主题",
+                    "target": "亮色主题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "暗色主题",
+                    "target": "暗色主题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "键盘",
+                    "target": "键盘"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "行号",
+                    "target": "行号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "字体大小",
+                    "target": "字体大小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "字体",
+                    "target": "字体"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "缩进宽度",
+                    "target": "缩进宽度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "打印边距",
+                    "target": "打印边距"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "不可见字符",
+                    "target": "不可见字符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "缩进参考线",
+                    "target": "缩进参考线"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "折叠部件",
+                    "target": "折叠部件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "嵌入代码块最大高度",
+                    "target": "嵌入代码块最大高度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "自动换行",
+                    "target": "自动换行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "启用缩略图",
+                    "target": "启用缩略图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "註冊檔案副檔名",
+                    "target": "注册文件扩展名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "亮色主題",
+                    "target": "浅色主题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "暗色主題",
+                    "target": "深色主题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "鍵盤",
+                    "target": "键盘"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "行號",
+                    "target": "行号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "字體大小",
+                    "target": "字体大小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "字體",
+                    "target": "字体"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "縮排寬度",
+                    "target": "缩进宽度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "顯示列印邊界",
+                    "target": "显示打印边界"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "顯示不可見字符",
+                    "target": "显示不可见字符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "顯示縮排指導線",
+                    "target": "显示缩进指导线"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "顯示折疊小工具",
+                    "target": "显示折叠小工具"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "嵌入程式碼區塊最大高度",
+                    "target": "嵌入代码块最大高度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "自動換行",
+                    "target": "自动换行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "啟用縮略圖",
+                    "target": "启用缩略图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Enter file extension, press enter to add",
+                    "target": "输入文件扩展名，按 Enter 键添加"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Select or enter font name",
+                    "target": "选择或输入字体名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "输入文件扩展名，按下Enter键添加",
+                    "target": "输入文件扩展名，按下 Enter 键添加"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "选择或输入字体名称",
+                    "target": "选择或输入字体名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "輸入檔案副檔名，按下Enter鍵新增",
+                    "target": "输入文件扩展名，按下 Enter 键添加"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "選擇或輸入字體名稱",
+                    "target": "选择或输入字体名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": ":;",
+                    "target": ":;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Drag to reorder",
+                    "target": "拖动以重新排序"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
