@@ -1,0 +1,18 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "graph-nested-tags",
+        "version": "1.0.0",
+        "title": "Nested tags graph",
+        "description": "Nested tags graph Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.4",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [],
+            "regex": []
+        }
+    }
+}
