@@ -1,0 +1,3061 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "cloud-sync",
+        "version": "1.0.0",
+        "title": "Cloud sync",
+        "description": "Cloud sync Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "同步中...",
+                    "target": "同步中..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "付费用户 (1500次/30分钟)",
+                    "target": "付费用户 (1500次/30分钟)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "免费用户 (600次/30分钟)",
+                    "target": "免费用户 (600次/30分钟)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "非常慢 (1000ms)",
+                    "target": "非常慢 (1000ms)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "较慢 (500ms)",
+                    "target": "较慢 (500ms)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "普通 (默认，200ms)",
+                    "target": "普通 (默认，200ms)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "合并",
+                    "target": "合并"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "保留云盘",
+                    "target": "保留云盘"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "保留本地",
+                    "target": "保留本地"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "覆盖",
+                    "target": "覆盖"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "全量同步",
+                    "target": "全量同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "增量同步",
+                    "target": "增量同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "仅下载",
+                    "target": "仅下载"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "仅上传",
+                    "target": "仅上传"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "双向同步",
+                    "target": "双向同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "错误",
+                    "target": "错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "警告",
+                    "target": "警告"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "信息",
+                    "target": "信息"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "调试",
+                    "target": "调试"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "同步执行失败:",
+                    "target": "同步执行失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "同步过程中发生错误:",
+                    "target": "同步过程中发生错误:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "解析WebDAV响应失败:",
+                    "target": "解析WebDAV响应失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "解析WebDAV配额信息失败:",
+                    "target": "解析WebDAV配额信息失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "WebDAV配置不完整，缺少用户名或密码",
+                    "target": "WebDAV配置不完整，缺少用户名或密码"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "WebDAV配置不完整，缺少服务器URL",
+                    "target": "WebDAV配置不完整，缺少服务器URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "WebDAV连接失败，已达到最大重试次数",
+                    "target": "WebDAV连接失败，已达到最大重试次数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "测试WebDAV连接失败:",
+                    "target": "测试WebDAV连接失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "生成认证头失败:",
+                    "target": "生成认证头失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "所有认证编码方法均失败:",
+                    "target": "所有认证编码方法均失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "列出WebDAV目录内容失败:",
+                    "target": "列出WebDAV目录内容失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "下载WebDAV文件失败:",
+                    "target": "下载WebDAV文件失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "下载WebDAV文件内容失败:",
+                    "target": "下载WebDAV文件内容失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "上传WebDAV文件失败:",
+                    "target": "上传WebDAV文件失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "删除WebDAV文件失败:",
+                    "target": "删除WebDAV文件失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "移动WebDAV文件失败:",
+                    "target": "移动WebDAV文件失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "创建WebDAV文件夹失败:",
+                    "target": "创建WebDAV文件夹失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "删除WebDAV文件夹失败:",
+                    "target": "删除WebDAV文件夹失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "检查WebDAV文件夹是否存在失败:",
+                    "target": "检查WebDAV文件夹是否存在失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "获取WebDAV文件元数据失败:",
+                    "target": "获取WebDAV文件元数据失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "获取WebDAV配额信息失败:",
+                    "target": "获取WebDAV配额信息失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "坚果云WebDAV配置不完整，缺少用户名或密码",
+                    "target": "坚果云WebDAV配置不完整，缺少用户名或密码"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "坚果云WebDAV配置不完整，缺少服务器URL",
+                    "target": "坚果云WebDAV配置不完整，缺少服务器URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "坚果云WebDAV连接失败，已达到最大重试次数",
+                    "target": "坚果云WebDAV连接失败，已达到最大重试次数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "验证请求延迟设置时出错:",
+                    "target": "验证请求延迟设置时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "坚果云认证失败，通常需要使用应用密码而非登录密码",
+                    "target": "坚果云认证失败，通常需要使用应用密码而非登录密码"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "连接坚果云服务器失败，请检查网络连接或代理设置",
+                    "target": "连接坚果云服务器失败，请检查网络连接或代理设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "WebDAV连接失败",
+                    "target": "WebDAV连接失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "断开WebDAV连接失败",
+                    "target": "断开WebDAV连接失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "WebDAV连接测试失败",
+                    "target": "WebDAV连接测试失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "获取WebDAV配额信息失败",
+                    "target": "获取WebDAV配额信息失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "初始化WebDAV提供商时出错:",
+                    "target": "初始化WebDAV提供商时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "界面刷新失败:",
+                    "target": "界面刷新失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "WebDAV连接失败:",
+                    "target": "WebDAV连接失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "连接成功但功能测试失败:",
+                    "target": "连接成功但功能测试失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "【测试】这是一条错误级别的日志消息",
+                    "target": "【测试】这是一条错误级别的日志消息"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "获取日志内容失败",
+                    "target": "获取日志内容失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "清除缓存失败",
+                    "target": "清除缓存失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "保存修复后的设置失败:",
+                    "target": "保存修复后的设置失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "处理Markdown内容失败：内容不是字符串",
+                    "target": "处理Markdown内容失败：内容不是字符串"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "处理Markdown内容时发生错误",
+                    "target": "处理Markdown内容时发生错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "确保远程根目录存在失败:",
+                    "target": "确保远程根目录存在失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "\\u83B7\\u53D6\\u8FDC\\u7A0B\\u6587\\u4EF6\\u5217\\u8868\\u5931\\u8D25:",
+                    "target": "\\u83B7\\u53D6\\u8FDC\\u7A0B\\u6587\\u4EF6\\u5217\\u8868\\u5931\\u8D25:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "创建远程目录失败:",
+                    "target": "创建远程目录失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "\\u540C\\u6B65\\u64CD\\u4F5C\\u5931\\u8D25:",
+                    "target": "\\u540C\\u6B65\\u64CD\\u4F5C\\u5931\\u8D25:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "创建远程根目录失败:",
+                    "target": "创建远程根目录失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "调用网络状态监听器时出错",
+                    "target": "调用网络状态监听器时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "自动同步执行出错:",
+                    "target": "自动同步执行出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "清空提供商映射时出错:",
+                    "target": "清空提供商映射时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "手动创建WebDAV提供商失败:",
+                    "target": "手动创建WebDAV提供商失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "WebDAV提供商恢复失败，映射中未找到",
+                    "target": "WebDAV提供商恢复失败，映射中未找到"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "WebDAV提供商额外恢复操作失败",
+                    "target": "WebDAV提供商额外恢复操作失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "WebDAV提供商额外恢复操作出错:",
+                    "target": "WebDAV提供商额外恢复操作出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "提供商映射对象无效，创建新映射",
+                    "target": "提供商映射对象无效，创建新映射"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "验证提供商映射对象时出错:",
+                    "target": "验证提供商映射对象时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "设置对象不存在",
+                    "target": "设置对象不存在"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "WebDAV设置不完整，无法执行紧急初始化",
+                    "target": "WebDAV设置不完整，无法执行紧急初始化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "WebDAV紧急初始化失败:",
+                    "target": "WebDAV紧急初始化失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "初始化提供商时出错:",
+                    "target": "初始化提供商时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "保存恢复的同步状态时发生错误:",
+                    "target": "保存恢复的同步状态时发生错误:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "获取提供商映射大小时出错:",
+                    "target": "获取提供商映射大小时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "WebDAV提供商添加到映射失败，可能是映射对象问题",
+                    "target": "WebDAV提供商添加到映射失败，可能是映射对象问题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "无法获取WebDAV提供商类",
+                    "target": "无法获取WebDAV提供商类"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "创建WebDAV提供商实例失败:",
+                    "target": "创建WebDAV提供商实例失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "多次尝试后，提供商映射仍为空",
+                    "target": "多次尝试后，提供商映射仍为空"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "无法获取WebDAV提供商类或设置",
+                    "target": "无法获取WebDAV提供商类或设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "紧急添加WebDAV提供商失败:",
+                    "target": "紧急添加WebDAV提供商失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "无可用的存储提供商，无法同步",
+                    "target": "无可用的存储提供商，无法同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "同步执行中出错:",
+                    "target": "同步执行中出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "同步失败:",
+                    "target": "同步失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "获取本地文件列表时出错:",
+                    "target": "获取本地文件列表时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "获取本地文件夹列表时出错:",
+                    "target": "获取本地文件夹列表时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "无法初始化提供商，测试连接失败",
+                    "target": "无法初始化提供商，测试连接失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "初始化报告成功，但提供商映射仍为空",
+                    "target": "初始化报告成功，但提供商映射仍为空"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "多次尝试后，WebDAV提供商仍未成功初始化",
+                    "target": "多次尝试后，WebDAV提供商仍未成功初始化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "WebDAV配置不完整，无法执行最终初始化尝试",
+                    "target": "WebDAV配置不完整，无法执行最终初始化尝试"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "最终初始化尝试失败:",
+                    "target": "最终初始化尝试失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "尝试重新初始化后，仍未能添加WebDAV提供商",
+                    "target": "尝试重新初始化后，仍未能添加WebDAV提供商"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "初始化提供商后映射仍为空，测试连接失败",
+                    "target": "初始化提供商后映射仍为空，测试连接失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "保存设置失败:",
+                    "target": "保存设置失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "加密失败: 无效的密钥",
+                    "target": "加密失败: 无效的密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "加密过程中发生错误",
+                    "target": "加密过程中发生错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "解密失败: 无效的密钥",
+                    "target": "解密失败: 无效的密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "解密过程中发生错误",
+                    "target": "解密过程中发生错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "获取WebDAV提供商类失败",
+                    "target": "获取WebDAV提供商类失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "写入日志文件失败:",
+                    "target": "写入日志文件失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "日志文件轮转失败:",
+                    "target": "日志文件轮转失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "清理旧日志文件失败:",
+                    "target": "清理旧日志文件失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "保存所有日志到文件失败:",
+                    "target": "保存所有日志到文件失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "保存修复后的设置失败",
+                    "target": "保存修复后的设置失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "通过功能区图标触发同步失败",
+                    "target": "通过功能区图标触发同步失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "从命令触发同步失败",
+                    "target": "从命令触发同步失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "UI初始化：同步未启用但间隔大于0，修正为0",
+                    "target": "UI初始化：同步未启用但间隔大于0，修正为0"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "UI初始化：同步已启用但间隔为0，修正为默认值5",
+                    "target": "UI初始化：同步已启用但间隔为0，修正为默认值5"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "WebDAV开关打开，开始配置...",
+                    "target": "WebDAV开关打开，开始配置..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "将WebDAV添加到已启用提供商列表",
+                    "target": "将WebDAV添加到已启用提供商列表"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "初始化WebDAV设置对象",
+                    "target": "初始化WebDAV设置对象"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "将WebDAV标记为已启用",
+                    "target": "将WebDAV标记为已启用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "WebDAV已启用，但不自动开启全局同步",
+                    "target": "WebDAV已启用，但不自动开启全局同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "WebDAV开关关闭，开始清理...",
+                    "target": "WebDAV开关关闭，开始清理..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "从已启用提供商列表中移除WebDAV",
+                    "target": "从已启用提供商列表中移除WebDAV"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "将WebDAV标记为未启用",
+                    "target": "将WebDAV标记为未启用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "保存WebDAV设置更改并初始化提供商...",
+                    "target": "保存WebDAV设置更改并初始化提供商..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "开始连接到WebDAV服务器...",
+                    "target": "开始连接到WebDAV服务器..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "WebDAV连接成功",
+                    "target": "WebDAV连接成功"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "已断开与WebDAV服务器的连接",
+                    "target": "已断开与WebDAV服务器的连接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "测试WebDAV连接...",
+                    "target": "测试WebDAV连接..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "WebDAV已经连接，跳过测试",
+                    "target": "WebDAV已经连接，跳过测试"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "检测到坚果云WebDAV服务，使用特殊配置",
+                    "target": "检测到坚果云WebDAV服务，使用特殊配置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "WebDAV未连接，尝试连接...",
+                    "target": "WebDAV未连接，尝试连接..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "源路径和目标路径相同，无需移动",
+                    "target": "源路径和目标路径相同，无需移动"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "获取WebDAV配额信息",
+                    "target": "获取WebDAV配额信息"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "开始连接到坚果云WebDAV服务器...",
+                    "target": "开始连接到坚果云WebDAV服务器..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "坚果云WebDAV连接成功",
+                    "target": "坚果云WebDAV连接成功"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "注意: 付费用户模式下，延迟级别设置将被忽略，固定使用低延迟",
+                    "target": "注意: 付费用户模式下，延迟级别设置将被忽略，固定使用低延迟"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "初始化WebDAV提供商",
+                    "target": "初始化WebDAV提供商"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "WebDAV提供商创建完成",
+                    "target": "WebDAV提供商创建完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "连接到WebDAV服务器",
+                    "target": "连接到WebDAV服务器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "断开WebDAV服务器连接",
+                    "target": "断开WebDAV服务器连接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "WebDAV连接已断开",
+                    "target": "WebDAV连接已断开"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "测试WebDAV连接",
+                    "target": "测试WebDAV连接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "WebDAV配置进行中：缺少服务器URL",
+                    "target": "WebDAV配置进行中：缺少服务器URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "WebDAV配置进行中：缺少用户名",
+                    "target": "WebDAV配置进行中：缺少用户名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "WebDAV配置进行中：缺少密码",
+                    "target": "WebDAV配置进行中：缺少密码"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "WebDAV配置已完整，准备初始化提供商...",
+                    "target": "WebDAV配置已完整，准备初始化提供商..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "将WebDAV添加到启用列表",
+                    "target": "将WebDAV添加到启用列表"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "确保WebDAV标记为已启用",
+                    "target": "确保WebDAV标记为已启用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "启用全局同步开关",
+                    "target": "启用全局同步开关"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "强制初始化提供商...",
+                    "target": "强制初始化提供商..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "WebDAV提供商初始化成功，无需重启",
+                    "target": "WebDAV提供商初始化成功，无需重启"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "WebDAV配置已保存，但需要时间初始化，将在同步时自动连接",
+                    "target": "WebDAV配置已保存，但需要时间初始化，将在同步时自动连接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "URL自动添加https://",
+                    "target": "URL自动添加https://"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "URL自动添加末尾斜杠",
+                    "target": "URL自动添加末尾斜杠"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "检测到不安全的HTTP连接",
+                    "target": "检测到不安全的HTTP连接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "URL检查:",
+                    "target": "URL检查:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "坚果云状态变化，将刷新界面",
+                    "target": "坚果云状态变化，将刷新界面"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "使用传入的回调函数刷新界面",
+                    "target": "使用传入的回调函数刷新界面"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "使用settingTab.display刷新界面",
+                    "target": "使用settingTab.display刷新界面"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "非坚果云URL，更新提示",
+                    "target": "非坚果云URL，更新提示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "URL为空，清除提示",
+                    "target": "URL为空，清除提示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "尝试更新现有WebDAV提供商的账户类型设置",
+                    "target": "尝试更新现有WebDAV提供商的账户类型设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "成功更新WebDAV提供商的账户类型设置",
+                    "target": "成功更新WebDAV提供商的账户类型设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "尝试更新现有WebDAV提供商的请求延迟设置",
+                    "target": "尝试更新现有WebDAV提供商的请求延迟设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "成功更新WebDAV提供商的请求延迟设置",
+                    "target": "成功更新WebDAV提供商的请求延迟设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "尝试连接到WebDAV服务器...",
+                    "target": "尝试连接到WebDAV服务器..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "文件列表获取成功",
+                    "target": "文件列表获取成功"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "配额信息:",
+                    "target": "配额信息:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "同步方向值无效，设置为默认值: bidirectional",
+                    "target": "同步方向值无效，设置为默认值: bidirectional"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "已启用控制台拦截（调试模式）",
+                    "target": "已启用控制台拦截（调试模式）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "已禁用控制台拦截（调试模式关闭）",
+                    "target": "已禁用控制台拦截（调试模式关闭）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "【测试】这是一条信息级别的日志消息",
+                    "target": "【测试】这是一条信息级别的日志消息"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "同步方向无效，设置为默认值: bidirectional",
+                    "target": "同步方向无效，设置为默认值: bidirectional"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "修复：WebDAV在enabledProviders列表中但设置中未启用",
+                    "target": "修复：WebDAV在enabledProviders列表中但设置中未启用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "修复：WebDAV设置启用但不在enabledProviders列表中",
+                    "target": "修复：WebDAV设置启用但不在enabledProviders列表中"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "检测到同步间隔为0但同步已启用，同步间隔与状态不一致",
+                    "target": "检测到同步间隔为0但同步已启用，同步间隔与状态不一致"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "通知管理器初始化",
+                    "target": "通知管理器初始化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "开始处理通知队列",
+                    "target": "开始处理通知队列"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "通知队列为空，停止处理",
+                    "target": "通知队列为空，停止处理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "所有通知已清除",
+                    "target": "所有通知已清除"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "============= 开始执行增量同步（本地到远程）=============",
+                    "target": "============= 开始执行增量同步（本地到远程）============="
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "============= 增量同步（本地到远程）完成 =============",
+                    "target": "============= 增量同步（本地到远程）完成 ============="
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "============= 开始执行全量同步（本地到远程）=============",
+                    "target": "============= 开始执行全量同步（本地到远程）============="
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "============= 全量同步（本地到远程）完成 =============",
+                    "target": "============= 全量同步（本地到远程）完成 ============="
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "删除远程多余文件功能未启用，跳过",
+                    "target": "删除远程多余文件功能未启用，跳过"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "开始删除远程多余文件和文件夹...",
+                    "target": "开始删除远程多余文件和文件夹..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "============= 开始执行增量同步（远程到本地）=============",
+                    "target": "============= 开始执行增量同步（远程到本地）============="
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "============= 开始执行全量同步（远程到本地）=============",
+                    "target": "============= 开始执行全量同步（远程到本地）============="
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "执行远程到本地同步",
+                    "target": "执行远程到本地同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "处理远程文件夹...",
+                    "target": "处理远程文件夹..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "处理远程文件...",
+                    "target": "处理远程文件..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "\\u540C\\u6B65\\u5B8C\\u6210\\uFF0C\\u7EDF\\u8BA1\\u4FE1\\u606F:",
+                    "target": "\\u540C\\u6B65\\u5B8C\\u6210\\uFF0C\\u7EDF\\u8BA1\\u4FE1\\u606F:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "开始删除本地多余文件和文件夹...",
+                    "target": "开始删除本地多余文件和文件夹..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "【BidirectionalSync】执行双向同步...",
+                    "target": "【BidirectionalSync】执行双向同步..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "============= 开始执行增量同步（双向）=============",
+                    "target": "============= 开始执行增量同步（双向）============="
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "收集所有本地文件夹路径...",
+                    "target": "收集所有本地文件夹路径..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "所有本地文件夹:",
+                    "target": "所有本地文件夹:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "预处理: 确保远程文件夹结构在本地存在...",
+                    "target": "预处理: 确保远程文件夹结构在本地存在..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "===== 同步阶段1：确保所有本地文件夹在远程存在 =====",
+                    "target": "===== 同步阶段1：确保所有本地文件夹在远程存在 ====="
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "预处理：标记需要删除的本地多余文件夹...",
+                    "target": "预处理：标记需要删除的本地多余文件夹..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "需要删除的本地多余文件夹列表:",
+                    "target": "需要删除的本地多余文件夹列表:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "没有找到本地文件夹，跳过文件夹同步",
+                    "target": "没有找到本地文件夹，跳过文件夹同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "===== 同步阶段2：处理文件的双向同步 =====",
+                    "target": "===== 同步阶段2：处理文件的双向同步 ====="
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "============= 双向增量同步完成 =============",
+                    "target": "============= 双向增量同步完成 ============="
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "执行全量同步（双向）",
+                    "target": "执行全量同步（双向）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "执行双向同步",
+                    "target": "执行双向同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "创建新的本地路径集合...",
+                    "target": "创建新的本地路径集合..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "预处理：标记需要删除的本地多余文件和文件夹...",
+                    "target": "预处理：标记需要删除的本地多余文件和文件夹..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "需要删除的本地多余文件列表:",
+                    "target": "需要删除的本地多余文件列表:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "检查并删除远程多余文件和文件夹...",
+                    "target": "检查并删除远程多余文件和文件夹..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "检查并删除本地多余文件和文件夹...",
+                    "target": "检查并删除本地多余文件和文件夹..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "本地多余文件和文件夹清理完成",
+                    "target": "本地多余文件和文件夹清理完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "没有检测到本地文件夹，跳过文件夹同步",
+                    "target": "没有检测到本地文件夹，跳过文件夹同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "过滤后没有需要同步的本地文件夹，跳过文件夹同步",
+                    "target": "过滤后没有需要同步的本地文件夹，跳过文件夹同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "待同步的本地文件夹列表（按深度排序）:",
+                    "target": "待同步的本地文件夹列表（按深度排序）:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "\\u672C\\u5730\\u6587\\u4EF6\\u5939\\u540C\\u6B65\\u5230\\u8FDC\\u7A0B\\u5B8C\\u6210\\uFF0C\\u7ED3\\u679C\\u7EDF\\u8BA1:",
+                    "target": "\\u672C\\u5730\\u6587\\u4EF6\\u5939\\u540C\\u6B65\\u5230\\u8FDC\\u7A0B\\u5B8C\\u6210\\uFF0C\\u7ED3\\u679C\\u7EDF\\u8BA1:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "获取本地文件列表...",
+                    "target": "获取本地文件列表..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "确保远程根目录存在...",
+                    "target": "确保远程根目录存在..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "远程根目录处理失败，但尝试继续同步（坚果云可能不需要显式创建目录）",
+                    "target": "远程根目录处理失败，但尝试继续同步（坚果云可能不需要显式创建目录）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "远程目录不存在，尝试创建...",
+                    "target": "远程目录不存在，尝试创建..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "远程目录创建成功，重新获取文件列表...",
+                    "target": "远程目录创建成功，重新获取文件列表..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "尝试在没有明确创建目录的情况下继续同步",
+                    "target": "尝试在没有明确创建目录的情况下继续同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "\\u4F7F\\u7528\\u672C\\u5730\\u5230\\u8FDC\\u7A0B\\u540C\\u6B65\\u7B56\\u7565 (\\u4EC5\\u4E0A\\u4F20\\u6A21\\u5F0F)",
+                    "target": "\\u4F7F\\u7528\\u672C\\u5730\\u5230\\u8FDC\\u7A0B\\u540C\\u6B65\\u7B56\\u7565 (\\u4EC5\\u4E0A\\u4F20\\u6A21\\u5F0F)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "\\u4F7F\\u7528\\u8FDC\\u7A0B\\u5230\\u672C\\u5730\\u540C\\u6B65\\u7B56\\u7565 (\\u4EC5\\u4E0B\\u8F7D\\u6A21\\u5F0F)",
+                    "target": "\\u4F7F\\u7528\\u8FDC\\u7A0B\\u5230\\u672C\\u5730\\u540C\\u6B65\\u7B56\\u7565 (\\u4EC5\\u4E0B\\u8F7D\\u6A21\\u5F0F)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "\\u4F7F\\u7528\\u53CC\\u5411\\u540C\\u6B65\\u7B56\\u7565 (\\u53CC\\u5411\\u6A21\\u5F0F)",
+                    "target": "\\u4F7F\\u7528\\u53CC\\u5411\\u540C\\u6B65\\u7B56\\u7565 (\\u53CC\\u5411\\u6A21\\u5F0F)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "检查远程根目录是否存在...",
+                    "target": "检查远程根目录是否存在..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "远程根目录不存在，尝试创建...",
+                    "target": "远程根目录不存在，尝试创建..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "远程根目录创建成功",
+                    "target": "远程根目录创建成功"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "坚果云可能不需要显式创建根目录，继续执行...",
+                    "target": "坚果云可能不需要显式创建根目录，继续执行..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "远程根目录已存在",
+                    "target": "远程根目录已存在"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "文件事件监听器已注册，跳过重复注册",
+                    "target": "文件事件监听器已注册，跳过重复注册"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "文件事件监听器已注册",
+                    "target": "文件事件监听器已注册"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "文件事件监听器标记为已取消注册",
+                    "target": "文件事件监听器标记为已取消注册"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "网络服务日志已初始化",
+                    "target": "网络服务日志已初始化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "网络事件监听器已注册",
+                    "target": "网络事件监听器已注册"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "网络事件监听器已卸载",
+                    "target": "网络事件监听器已卸载"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "网络状态: 离线",
+                    "target": "网络状态: 离线"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "检测到WiFi网络连接",
+                    "target": "检测到WiFi网络连接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "检测到以太网连接",
+                    "target": "检测到以太网连接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "无法精确识别网络类型，但环境判断可能是以太网连接",
+                    "target": "无法精确识别网络类型，但环境判断可能是以太网连接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "不支持Network Information API，使用兼容模式",
+                    "target": "不支持Network Information API，使用兼容模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "在PC平台上无法识别具体网络类型，默认返回UNKNOWN",
+                    "target": "在PC平台上无法识别具体网络类型，默认返回UNKNOWN"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "无法识别网络类型，返回UNKNOWN",
+                    "target": "无法识别网络类型，返回UNKNOWN"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "检测到未知PC平台",
+                    "target": "检测到未知PC平台"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "检测到非PC平台",
+                    "target": "检测到非PC平台"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "网络检测已禁用，允许同步",
+                    "target": "网络检测已禁用，允许同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "PC平台: 确认为移动数据连接，不允许同步",
+                    "target": "PC平台: 确认为移动数据连接，不允许同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "PC平台: 可能误判为移动数据，允许同步",
+                    "target": "PC平台: 可能误判为移动数据，允许同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "移动平台: WiFi连接，允许同步",
+                    "target": "移动平台: WiFi连接，允许同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "添加了网络状态变化监听器",
+                    "target": "添加了网络状态变化监听器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "移除了网络状态变化监听器",
+                    "target": "移除了网络状态变化监听器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "自动同步未启用或间隔无效",
+                    "target": "自动同步未启用或间隔无效"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "自动同步已在运行中，跳过重复启动",
+                    "target": "自动同步已在运行中，跳过重复启动"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "自动同步已停止",
+                    "target": "自动同步已停止"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "自动同步已内部停止（无通知）",
+                    "target": "自动同步已内部停止（无通知）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "同步功能已被禁用，停止自动同步",
+                    "target": "同步功能已被禁用，停止自动同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "有同步操作正在进行，跳过自动同步",
+                    "target": "有同步操作正在进行，跳过自动同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "网络检测已启用，当前为允许同步的网络类型，继续自动同步",
+                    "target": "网络检测已启用，当前为允许同步的网络类型，继续自动同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "开始执行自动同步",
+                    "target": "开始执行自动同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "自动同步完成",
+                    "target": "自动同步完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "初始化存储提供商...",
+                    "target": "初始化存储提供商..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "强制初始化模式：检测到WebDAV配置完整，允许初始化",
+                    "target": "强制初始化模式：检测到WebDAV配置完整，允许初始化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "同步功能未启用，跳过初始化存储提供商",
+                    "target": "同步功能未启用，跳过初始化存储提供商"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "没有启用的存储提供商，请在设置中至少启用一个提供商",
+                    "target": "没有启用的存储提供商，请在设置中至少启用一个提供商"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "当前同步开关状态:",
+                    "target": "当前同步开关状态:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "当前WebDAV状态:",
+                    "target": "当前WebDAV状态:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "当前WebDAV配置状态:",
+                    "target": "当前WebDAV配置状态:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "强制初始化模式：WebDAV配置完整但不在启用列表中，临时添加",
+                    "target": "强制初始化模式：WebDAV配置完整但不在启用列表中，临时添加"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "当前已有的提供商:",
+                    "target": "当前已有的提供商:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "保存现有WebDAV提供商实例，以备初始化失败时恢复",
+                    "target": "保存现有WebDAV提供商实例，以备初始化失败时恢复"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "获取现有WebDAV提供商时出错，将创建新实例",
+                    "target": "获取现有WebDAV提供商时出错，将创建新实例"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "清空现有提供商映射",
+                    "target": "清空现有提供商映射"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "提供商映射已清空，当前大小: 0",
+                    "target": "提供商映射已清空，当前大小: 0"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "尝试手动创建WebDAV提供商实例",
+                    "target": "尝试手动创建WebDAV提供商实例"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "手动创建WebDAV提供商成功",
+                    "target": "手动创建WebDAV提供商成功"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "WebDAV初始化失败，尝试恢复之前的有效实例",
+                    "target": "WebDAV初始化失败，尝试恢复之前的有效实例"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "WebDAV提供商恢复成功",
+                    "target": "WebDAV提供商恢复成功"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "WebDAV在启用列表中但未初始化成功，尝试额外的恢复操作",
+                    "target": "WebDAV在启用列表中但未初始化成功，尝试额外的恢复操作"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "WebDAV提供商额外恢复操作成功",
+                    "target": "WebDAV提供商额外恢复操作成功"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "未能成功初始化任何提供商，请检查提供商配置和启用状态",
+                    "target": "未能成功初始化任何提供商，请检查提供商配置和启用状态"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "初始化providerSettings为空对象",
+                    "target": "初始化providerSettings为空对象"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "初始化enabledProviders为空数组",
+                    "target": "初始化enabledProviders为空数组"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "同步间隔大于0但同步未启用，修复为0",
+                    "target": "同步间隔大于0但同步未启用，修复为0"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "同步已启用但间隔为0，修复为默认值5",
+                    "target": "同步已启用但间隔为0，修复为默认值5"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "检测到WebDAV已配置完整",
+                    "target": "检测到WebDAV已配置完整"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "修复: 将WebDAV标记为已启用",
+                    "target": "修复: 将WebDAV标记为已启用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "修复: 将WebDAV添加到启用列表",
+                    "target": "修复: 将WebDAV添加到启用列表"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "修复：WebDAV已启用，但全局同步功能未开启，现自动启用全局同步",
+                    "target": "修复：WebDAV已启用，但全局同步功能未开启，现自动启用全局同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "修复：WebDAV已启用，但同步间隔为0，设置为默认值5",
+                    "target": "修复：WebDAV已启用，但同步间隔为0，设置为默认值5"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "WebDAV配置不完整",
+                    "target": "WebDAV配置不完整"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "修复: WebDAV配置不完整但在启用列表中，移除之",
+                    "target": "修复: WebDAV配置不完整但在启用列表中，移除之"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "修复: 没有启用的提供商但全局同步已启用，禁用全局同步",
+                    "target": "修复: 没有启用的提供商但全局同步已启用，禁用全局同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "修复: WebDAV在启用列表中但未标记为启用，设置其为启用",
+                    "target": "修复: WebDAV在启用列表中但未标记为启用，设置其为启用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "修复后设置状态 - 同步启用:",
+                    "target": "修复后设置状态 - 同步启用:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "修复后设置状态 - 启用的提供商:",
+                    "target": "修复后设置状态 - 启用的提供商:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "修复后设置状态 - WebDAV启用:",
+                    "target": "修复后设置状态 - WebDAV启用:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "设置一致性验证完成，无需修复",
+                    "target": "设置一致性验证完成，无需修复"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "WebDAV配置不完整：整个设置对象不存在",
+                    "target": "WebDAV配置不完整：整个设置对象不存在"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "WebDAV配置不完整：serverUrl无效 -",
+                    "target": "WebDAV配置不完整：serverUrl无效 -"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "WebDAV配置不完整：username无效 -",
+                    "target": "WebDAV配置不完整：username无效 -"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "WebDAV配置不完整：password无效 -",
+                    "target": "WebDAV配置不完整：password无效 -"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "WebDAV配置完整性检查通过",
+                    "target": "WebDAV配置完整性检查通过"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "WebDAV配置不完整，缺少必要信息",
+                    "target": "WebDAV配置不完整，缺少必要信息"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "强制初始化标志设置为 true，临时启用同步",
+                    "target": "强制初始化标志设置为 true，临时启用同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "已保存临时启用的同步设置",
+                    "target": "已保存临时启用的同步设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "尝试第二种紧急初始化方法",
+                    "target": "尝试第二种紧急初始化方法"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "原始同步状态已恢复并保存",
+                    "target": "原始同步状态已恢复并保存"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "清除云同步缓存",
+                    "target": "清除云同步缓存"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "开始手动同步...",
+                    "target": "开始手动同步..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "已保存修复后的设置",
+                    "target": "已保存修复后的设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "手动同步时临时启用全局同步以确保提供商正确初始化",
+                    "target": "手动同步时临时启用全局同步以确保提供商正确初始化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "手动同步时检测到WebDAV配置完整但不在启用列表中，添加WebDAV到启用列表",
+                    "target": "手动同步时检测到WebDAV配置完整但不在启用列表中，添加WebDAV到启用列表"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "手动同步时检测到WebDAV配置完整但未标记为启用，设置为启用",
+                    "target": "手动同步时检测到WebDAV配置完整但未标记为启用，设置为启用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "已保存临时更新的WebDAV设置",
+                    "target": "已保存临时更新的WebDAV设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "WebDAV配置不完整，可能影响同步功能",
+                    "target": "WebDAV配置不完整，可能影响同步功能"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "WebDAV配置不完整但被启用，从启用列表中移除",
+                    "target": "WebDAV配置不完整但被启用，从启用列表中移除"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "手动同步：强制初始化提供商",
+                    "target": "手动同步：强制初始化提供商"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "存储提供商初始化失败，尝试直接恢复",
+                    "target": "存储提供商初始化失败，尝试直接恢复"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "检测到WebDAV配置完整，尝试应急创建WebDAV提供商",
+                    "target": "检测到WebDAV配置完整，尝试应急创建WebDAV提供商"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "应急创建WebDAV提供商成功，被添加到映射",
+                    "target": "应急创建WebDAV提供商成功，被添加到映射"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "第二次尝试添加WebDAV提供商成功",
+                    "target": "第二次尝试添加WebDAV提供商成功"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "WebDAV配置不完整，无法创建提供商",
+                    "target": "WebDAV配置不完整，无法创建提供商"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "提供商映射为空，尝试再次强制初始化",
+                    "target": "提供商映射为空，尝试再次强制初始化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "再次初始化提供商失败，无法进行同步",
+                    "target": "再次初始化提供商失败，无法进行同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "WebDAV配置完整但未在提供商映射中找到，尝试紧急添加",
+                    "target": "WebDAV配置完整但未在提供商映射中找到，尝试紧急添加"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "紧急添加WebDAV提供商成功",
+                    "target": "紧急添加WebDAV提供商成功"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "没有启用的提供商，无需测试连接",
+                    "target": "没有启用的提供商，无需测试连接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "提供商映射为空，先尝试初始化提供商",
+                    "target": "提供商映射为空，先尝试初始化提供商"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "最后尝试：强制重新初始化所有提供商",
+                    "target": "最后尝试：强制重新初始化所有提供商"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "最终尝试成功：WebDAV提供商已初始化",
+                    "target": "最终尝试成功：WebDAV提供商已初始化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "WebDAV在启用列表中但未在映射中找到，尝试重新初始化",
+                    "target": "WebDAV在启用列表中但未在映射中找到，尝试重新初始化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "初始化后提供商映射状态:",
+                    "target": "初始化后提供商映射状态:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "验证设置一致性...",
+                    "target": "验证设置一致性..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "修复：WebDAV已启用但不在enabledProviders列表中",
+                    "target": "修复：WebDAV已启用但不在enabledProviders列表中"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "修复：WebDAV在enabledProviders列表中但未启用",
+                    "target": "修复：WebDAV在enabledProviders列表中但未启用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "检查是否需要同步...",
+                    "target": "检查是否需要同步..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "自动同步已禁用",
+                    "target": "自动同步已禁用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "同步已在进行中，跳过",
+                    "target": "同步已在进行中，跳过"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "同步前验证设置一致性",
+                    "target": "同步前验证设置一致性"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "检测到WebDAV配置完整",
+                    "target": "检测到WebDAV配置完整"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "检测到WebDAV配置完整但全局同步开关关闭，临时开启",
+                    "target": "检测到WebDAV配置完整但全局同步开关关闭，临时开启"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "保存了修复后的设置",
+                    "target": "保存了修复后的设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "提供商初始化失败，跳过同步",
+                    "target": "提供商初始化失败，跳过同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "没有启用的存储提供商，跳过同步",
+                    "target": "没有启用的存储提供商，跳过同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "执行同步操作...",
+                    "target": "执行同步操作..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "同步成功完成",
+                    "target": "同步成功完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "加载设置时检测到同步间隔为0但同步已启用，自动关闭同步功能",
+                    "target": "加载设置时检测到同步间隔为0但同步已启用，自动关闭同步功能"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "设置同步间隔为0，自动关闭同步功能",
+                    "target": "设置同步间隔为0，自动关闭同步功能"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "重新初始化存储提供商...",
+                    "target": "重新初始化存储提供商..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "同步相关设置已变更，更新自动同步状态",
+                    "target": "同步相关设置已变更，更新自动同步状态"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "修复：WebDAV在enabledProviders列表中但未启用，从列表中移除",
+                    "target": "修复：WebDAV在enabledProviders列表中但未启用，从列表中移除"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "同步间隔为0，自动关闭自动同步",
+                    "target": "同步间隔为0，自动关闭自动同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "同步间隔大于0但同步未启用，可能存在不一致",
+                    "target": "同步间隔大于0但同步未启用，可能存在不一致"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "生成了新的加密密钥",
+                    "target": "生成了新的加密密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "日志服务已初始化",
+                    "target": "日志服务已初始化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "控制台输出已拦截",
+                    "target": "控制台输出已拦截"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "控制台输出拦截已还原",
+                    "target": "控制台输出拦截已还原"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "日志级别已更改",
+                    "target": "日志级别已更改"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "日志已清除",
+                    "target": "日志已清除"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "开始初始化 Cloud sync 插件",
+                    "target": "开始初始化 Cloud sync 插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Cloud sync 插件初始化完成",
+                    "target": "Cloud sync 插件初始化完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "卸载 Cloud sync 插件",
+                    "target": "卸载 Cloud sync 插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "网络服务事件监听器已卸载",
+                    "target": "网络服务事件监听器已卸载"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "最终日志已导出",
+                    "target": "最终日志已导出"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "通知管理器已初始化",
+                    "target": "通知管理器已初始化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "设置管理器已初始化",
+                    "target": "设置管理器已初始化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "设置已加载",
+                    "target": "设置已加载"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "日志级别已更新",
+                    "target": "日志级别已更新"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "已在插件加载时修复设置问题",
+                    "target": "已在插件加载时修复设置问题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "提供商管理器已初始化",
+                    "target": "提供商管理器已初始化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "提供商已初始化",
+                    "target": "提供商已初始化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "加密服务已初始化",
+                    "target": "加密服务已初始化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Vault文件管理器已初始化",
+                    "target": "Vault文件管理器已初始化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "同步引擎已初始化",
+                    "target": "同步引擎已初始化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "同步管理器已初始化",
+                    "target": "同步管理器已初始化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "自动同步管理器已初始化",
+                    "target": "自动同步管理器已初始化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "文件事件处理器已初始化",
+                    "target": "文件事件处理器已初始化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "缓存管理器已初始化",
+                    "target": "缓存管理器已初始化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "插件服务已初始化",
+                    "target": "插件服务已初始化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "UI组件日志记录器已配置",
+                    "target": "UI组件日志记录器已配置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "工具类日志记录器已配置",
+                    "target": "工具类日志记录器已配置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "设置选项卡已添加",
+                    "target": "设置选项卡已添加"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "状态栏项已添加",
+                    "target": "状态栏项已添加"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "通过功能区图标触发同步",
+                    "target": "通过功能区图标触发同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "功能区图标已添加",
+                    "target": "功能区图标已添加"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "同步命令已注册",
+                    "target": "同步命令已注册"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "自动同步状态已更新",
+                    "target": "自动同步状态已更新"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "开始手动同步",
+                    "target": "开始手动同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "手动同步完成",
+                    "target": "手动同步完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "开始清除缓存",
+                    "target": "开始清除缓存"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "缓存清除完成",
+                    "target": "缓存清除完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "【测试】这是一条控制台日志消息，用于测试控制台拦截",
+                    "target": "【测试】这是一条控制台日志消息，用于测试控制台拦截"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "立即同步",
+                    "target": "立即同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "测试连接",
+                    "target": "测试连接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "测试中...",
+                    "target": "测试中..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "导出",
+                    "target": "导出"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "清除",
+                    "target": "清除"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "授权",
+                    "target": "授权"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "在Obsidian启动时自动同步，并按照设定的时间间隔自动同步",
+                    "target": "在Obsidian启动时自动同步，并按照设定的时间间隔自动同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "设置同步间隔时间（分钟，0表示禁用自动同步）",
+                    "target": "设置同步间隔时间（分钟，0表示禁用自动同步）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "手动同步本地文件和云盘文件",
+                    "target": "手动同步本地文件和云盘文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "忽略指定文件夹 (用逗号分隔，支持通配符*/?和正则表达式)",
+                    "target": "忽略指定文件夹 (用逗号分隔，支持通配符*/?和正则表达式)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "忽略指定文件 (用逗号分隔，支持通配符*/?和正则表达式)",
+                    "target": "忽略指定文件 (用逗号分隔，支持通配符*/?和正则表达式)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "忽略指定扩展名 (用逗号分隔，不需要加点，支持通配符*/?和正则表达式)",
+                    "target": "忽略指定扩展名 (用逗号分隔，不需要加点，支持通配符*/?和正则表达式)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "使用WebDAV同步数据",
+                    "target": "使用WebDAV同步数据"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "【开发中】使用Google Drive同步数据",
+                    "target": "【开发中】使用Google Drive同步数据"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "【开发中】使用OneDrive同步数据",
+                    "target": "【开发中】使用OneDrive同步数据"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "【开发中】使用iCloud同步数据",
+                    "target": "【开发中】使用iCloud同步数据"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "【开发中】使用GitHub同步数据",
+                    "target": "【开发中】使用GitHub同步数据"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "WebDAV用户名",
+                    "target": "WebDAV用户名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "WebDAV密码",
+                    "target": "WebDAV密码"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "WebDAV服务器URL地址",
+                    "target": "WebDAV服务器URL地址"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "选择您的坚果云账户类型，影响请求频率限制",
+                    "target": "选择您的坚果云账户类型，影响请求频率限制"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "较高的延迟可以减少被限流的可能性，但同步速度会变慢",
+                    "target": "较高的延迟可以减少被限流的可能性，但同步速度会变慢"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "设置WebDAV同步数据的存储路径（留空表示同步到根目录）",
+                    "target": "设置WebDAV同步数据的存储路径（留空表示同步到根目录）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "测试WebDAV服务器连接是否正常",
+                    "target": "测试WebDAV服务器连接是否正常"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "加密同步的内容",
+                    "target": "加密同步的内容"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "用于加密的密钥，请妥善保管",
+                    "target": "用于加密的密钥，请妥善保管"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "设置冲突处理策略",
+                    "target": "设置冲突处理策略"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "设置同步模式",
+                    "target": "设置同步模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "设置同步方向",
+                    "target": "设置同步方向"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "警告: 启用此选项将删除远程存在但本地不存在的文件和文件夹！",
+                    "target": "警告: 启用此选项将删除远程存在但本地不存在的文件和文件夹！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "警告: 启用此选项将删除本地存在但远程不存在的文件和文件夹！",
+                    "target": "警告: 启用此选项将删除本地存在但远程不存在的文件和文件夹！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "启用详细日志记录",
+                    "target": "启用详细日志记录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "设置日志记录的详细程度",
+                    "target": "设置日志记录的详细程度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "导出插件日志以便排查问题",
+                    "target": "导出插件日志以便排查问题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "仅在WiFi网络同步",
+                    "target": "仅在WiFi网络同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "清除同步缓存数据",
+                    "target": "清除同步缓存数据"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "iCloud账号",
+                    "target": "iCloud账号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "iCloud密码",
+                    "target": "iCloud密码"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "设置iCloud同步数据的存储路径（留空表示同步到根目录）",
+                    "target": "设置iCloud同步数据的存储路径（留空表示同步到根目录）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "授权访问iCloud",
+                    "target": "授权访问iCloud"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "GitHub仓库所有者用户名",
+                    "target": "GitHub仓库所有者用户名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "GitHub个人访问令牌（Personal Access Token）",
+                    "target": "GitHub个人访问令牌（Personal Access Token）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "GitHub仓库名称",
+                    "target": "GitHub仓库名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "GitHub仓库分支",
+                    "target": "GitHub仓库分支"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "设置GitHub同步数据的存储路径（留空表示同步到根目录）",
+                    "target": "设置GitHub同步数据的存储路径（留空表示同步到根目录）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "测试GitHub连接是否正常",
+                    "target": "测试GitHub连接是否正常"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "通用",
+                    "target": "通用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "自动同步",
+                    "target": "自动同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "同步间隔",
+                    "target": "同步间隔"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "手动同步",
+                    "target": "手动同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "忽略文件夹",
+                    "target": "忽略文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "忽略文件",
+                    "target": "忽略文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "忽略扩展名",
+                    "target": "忽略扩展名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "云盘",
+                    "target": "云盘"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Google Drive",
+                    "target": "Google Drive"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "用户名",
+                    "target": "用户名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "密码",
+                    "target": "密码"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "服务器URL",
+                    "target": "服务器URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "账户类型",
+                    "target": "账户类型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "请求延迟",
+                    "target": "请求延迟"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "同步路径",
+                    "target": "同步路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "测试连接",
+                    "target": "测试连接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "高级",
+                    "target": "高级"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "安全",
+                    "target": "安全"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "启用加密",
+                    "target": "启用加密"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "加密密钥",
+                    "target": "加密密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "同步选项",
+                    "target": "同步选项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "冲突策略",
+                    "target": "冲突策略"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "同步模式",
+                    "target": "同步模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "同步方向",
+                    "target": "同步方向"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "删除远程多余文件夹及文件",
+                    "target": "删除远程多余文件夹及文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "删除本地多余文件夹及文件",
+                    "target": "删除本地多余文件夹及文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "基础选项",
+                    "target": "基础选项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "调试模式",
+                    "target": "调试模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "日志级别",
+                    "target": "日志级别"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "导出日志",
+                    "target": "导出日志"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "网络检测",
+                    "target": "网络检测"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "清除缓存",
+                    "target": "清除缓存"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "App ID",
+                    "target": "App ID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "授权",
+                    "target": "授权"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "个人访问令牌",
+                    "target": "个人访问令牌"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "仓库名称",
+                    "target": "仓库名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "分支",
+                    "target": "分支"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "分钟",
+                    "target": "分钟"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "例如: .git, 配置目录, node_*, 系统文件夹/.*",
+                    "target": "例如: .git, 配置目录, node_*, 系统文件夹/.*"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "例如: .DS_Store, desktop.ini, *.tmp, thumb.*\\.db",
+                    "target": "例如: .DS_Store, desktop.ini, *.tmp, thumb.*\\.db"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "例如: tmp, bak, t?p, sw.$",
+                    "target": "例如: tmp, bak, t?p, sw.$"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "请输入WebDAV用户名",
+                    "target": "请输入WebDAV用户名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "请输入WebDAV密码",
+                    "target": "请输入WebDAV密码"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "例如: https://dav.jianguoyun.com/dav/",
+                    "target": "例如: https://dav.jianguoyun.com/dav/"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "例如: obsidian-notes",
+                    "target": "例如: obsidian-notes"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "16位加密密钥",
+                    "target": "16位加密密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "请输入iCloud账号",
+                    "target": "请输入iCloud账号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "请输入iCloud密码",
+                    "target": "请输入iCloud密码"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "请输入GitHub用户名",
+                    "target": "请输入GitHub用户名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "请输入GitHub个人访问令牌",
+                    "target": "请输入GitHub个人访问令牌"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "例如: main",
+                    "target": "例如: main"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "例如: notes",
+                    "target": "例如: notes"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "iCloud同步功能正在开发中，当前设置仅供参考，尚未实际可用。敬请期待！",
+                    "target": "iCloud同步功能正在开发中，当前设置仅供参考，尚未实际可用。敬请期待！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "GitHub同步功能正在开发中，当前设置仅供参考，尚未实际可用。敬请期待！",
+                    "target": "GitHub同步功能正在开发中，当前设置仅供参考，尚未实际可用。敬请期待！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "☁️",
+                    "target": "☁️"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "生成随机密钥",
+                    "target": "生成随机密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "复制密钥",
+                    "target": "复制密钥"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "body",
+                    "source": "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<D:propfind xmlns:D=\"DAV:\">\n  <D:prop>\n    <D:resourcetype/>\n  </D:prop>\n</D:propfind>",
+                    "target": "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<D:propfind xmlns:D=\"DAV:\">\n  <D:prop>\n    <D:resourcetype/>\n  </D:prop>\n</D:propfind>"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "body",
+                    "source": "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<D:propfind xmlns:D=\"DAV:\">\n  <D:prop>\n    <D:getlastmodified/>\n    <D:getcontentlength/>\n    <D:resourcetype/>\n    <D:getcontenttype/>\n    <D:getetag/>\n  </D:prop>\n</D:propfind>",
+                    "target": "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<D:propfind xmlns:D=\"DAV:\">\n  <D:prop>\n    <D:getlastmodified/>\n    <D:getcontentlength/>\n    <D:resourcetype/>\n    <D:getcontenttype/>\n    <D:getetag/>\n  </D:prop>\n</D:propfind>"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "body",
+                    "source": "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<D:propfind xmlns:D=\"DAV:\">\n  <D:prop>\n    <D:quota-available-bytes/>\n    <D:quota-used-bytes/>\n  </D:prop>\n</D:propfind>",
+                    "target": "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n<D:propfind xmlns:D=\"DAV:\">\n  <D:prop>\n    <D:quota-available-bytes/>\n    <D:quota-used-bytes/>\n  </D:prop>\n</D:propfind>"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "立即同步",
+                    "target": "立即同步"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "💡",
+                    "target": "💡"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "提示：若使用坚果云，输入包含",
+                    "target": "提示：若使用坚果云，输入包含"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "的URL可启用优化选项",
+                    "target": "的URL可启用优化选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "坚果云特定设置",
+                    "target": "坚果云特定设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "坚果云",
+                    "target": "坚果云"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "免费用户每30分钟最多600次请求，付费用户最多1500次请求",
+                    "target": "免费用户每30分钟最多600次请求，付费用户最多1500次请求"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "。适当调整延迟可以避免同步问题。",
+                    "target": "。适当调整延迟可以避免同步问题。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "关闭加密后，远端加密的内容会被解密展示！",
+                    "target": "关闭加密后，远端加密的内容会被解密展示！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "必须输入16位密钥。请务必备份密钥，密钥丢失将导致无法恢复加密的数据！",
+                    "target": "必须输入16位密钥。请务必备份密钥，密钥丢失将导致无法恢复加密的数据！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "🚧",
+                    "target": "🚧"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
