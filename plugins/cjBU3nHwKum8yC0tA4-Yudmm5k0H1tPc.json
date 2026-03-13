@@ -1,0 +1,67 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "canvas2document",
+        "version": "1.0.0",
+        "title": "Canvas2Document",
+        "description": "Canvas2Document Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.3.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Makes connections descriptions usable in target document",
+                    "target": "使连接描述在目标文档中可用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "User confirmation is not needed to overwrite existing target documents",
+                    "target": "覆盖现有目标文档无需用户确认"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Include labels of canvas edges (connections)",
+                    "target": "包含画布边缘（连接）的标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Overwrite existing target documents without confirmation",
+                    "target": "无需确认即可覆盖现有目标文档"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "this is not a canvas file",
+                    "target": "这不是画布文件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "this is not a canvas2document target file",
+                    "target": "这不是 canvas2document 目标文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Step 1 - Convert canvas to a longform document",
+                    "target": "步骤 1 - 将画布转换为长文档"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Step 2 - Clear canvas2document target document",
+                    "target": "步骤 2 - 清空 canvas2document 目标文档"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
