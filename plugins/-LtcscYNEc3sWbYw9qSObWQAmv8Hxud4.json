@@ -1,0 +1,169 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "note-locker",
+        "version": "1.0.0",
+        "title": "Note Locker",
+        "description": "Note Locker Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.3.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"svg-icon lucide-lock\"><rect x=\"3\" y=\"11\" width=\"18\" height=\"11\" rx=\"2\" ry=\"2\"></rect><path d=\"M7 11V7a5 5 0 0 1 10 0v4\"></path></svg>",
+                    "target": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"svg-icon lucide-lock\"><rect x=\"3\" y=\"11\" width=\"18\" height=\"11\" rx=\"2\" ry=\"2\"></rect><path d=\"M7 11V7a5 5 0 0 1 10 0v4\"></path></svg>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "\n\t\t\t.note-locker-status .locker-icon {\n\t\t\t\tmargin-right: 6px;\n\t\t\t}\n\t\t",
+                    "target": "\n\t\t\t.note-locker-status .locker-icon {\n\t\t\t\tmargin-right: 6px;\n\t\t\t}\n\t\t"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Display a lock icon next to locked notes in the file explorer",
+                    "target": "在文件浏览器中为已锁定的笔记显示锁定图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Display a lock/unlock button in the status bar for the current note",
+                    "target": "在状态栏中为当前笔记显示锁定/解锁按钮"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show notifications when locking or unlocking notes",
+                    "target": "在锁定或解锁笔记时显示通知"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If enabled, normally locked notes will be read-only. If disabled, you can switch to edit mode.",
+                    "target": "启用后，通常被锁定的笔记将为只读。禁用后，你可以切换到编辑模式。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Maximum length of file names in notifications on mobile devices",
+                    "target": "移动设备通知中的文件名最大长度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Maximum length of file names in notifications on desktop",
+                    "target": "桌面端通知中的文件名最大长度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show locked notes in file explorer",
+                    "target": "在文件浏览器中显示已锁定的笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show status bar button",
+                    "target": "显示状态栏按钮"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show notifications",
+                    "target": "显示通知"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Prevent editing in locked notes",
+                    "target": "防止编辑已锁定的笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Mobile notification max length",
+                    "target": "移动端通知最大长度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Desktop notification max length",
+                    "target": "桌面端通知最大长度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "🔓",
+                    "target": "🔓"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Strict Unlock",
+                    "target": "严格解锁"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Strict Lock",
+                    "target": "严格锁定"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error: Note not found",
+                    "target": "错误：未找到笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle Lock for current note",
+                    "target": "切换当前笔记的锁定状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Switch to Edit Mode (Strict Lock Check)",
+                    "target": "切换到编辑模式（严格锁定检查）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Are you sure you want to unlock?",
+                    "target": "确定要解锁吗？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " Strictly Locked",
+                    "target": " 严格锁定"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "You can set a hotkey for locking/unlocking notes in Settings → Hotkeys → Toggle Lock for current note.",
+                    "target": "你可以在“设置 → 快捷键 → 切换当前笔记的锁定”中设置用于锁定/解锁笔记的快捷键。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Locked Notes & Folders Statistics",
+                    "target": "已锁定的笔记与文件夹统计"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "You currently have:",
+                    "target": "你当前拥有："
+                }
+            ],
+            "regex": []
+        }
+    }
+}
