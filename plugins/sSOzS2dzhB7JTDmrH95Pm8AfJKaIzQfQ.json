@@ -1,0 +1,529 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "another-dynamic-highlights",
+        "version": "1.0.0",
+        "title": "aDHL",
+        "description": "aDHL Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.2.4",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "ariaLabel",
+                    "source": "Tag name",
+                    "target": "标签名称"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "ariaLabel",
+                    "source": "Decoration color picker",
+                    "target": "装饰颜色选择器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Create new tag",
+                    "target": "创建新标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "--- bold",
+                    "target": "--- 加粗"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Colored text normal",
+                    "target": "彩色文本 常规"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "border dashed",
+                    "target": "边框 虚线"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "--- dashed",
+                    "target": "--- 虚线"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "border solid",
+                    "target": "边框 实线"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Border solid",
+                    "target": "边框 实线"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "underline wavy",
+                    "target": "波浪下划线"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "--- wavy",
+                    "target": "--- 波浪线"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "underline dashed",
+                    "target": "下划线 虚线"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "underline dotted",
+                    "target": "下划线 点线"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "--- dotted",
+                    "target": "--- 点线"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "underline floating thin",
+                    "target": "下划线 浮动 细"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "--- floating thin",
+                    "target": "--- 浮动 细"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "underline floating thick",
+                    "target": "下划线 浮动 粗"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "--- floating thick",
+                    "target": "--- 浮动 粗"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "underline lowlight",
+                    "target": "下划线 低光"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "--- lowlight",
+                    "target": "--- 低光"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Underline solid",
+                    "target": "下划线 实线"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "background realistic",
+                    "target": "背景 真实感"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "--- realistic",
+                    "target": "--- 真实感"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "background rounded",
+                    "target": "背景 圆角"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "--- rounded",
+                    "target": "--- 圆角"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Background square",
+                    "target": "背景 方形"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error loading settings:",
+                    "target": "加载设置出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Found matches in text:",
+                    "target": "在文本中找到匹配项："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If enabled, highlights will also be shown in reading mode (preview)",
+                    "target": "启用后，高亮也会在阅读模式（预览）中显示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "All your tags are automatically added to the command palette/hotkeys for toggling. If you want to toggle individual highlighters via palette/hotkey, input a comma separated list of their names (case sensitive). Highlighters with the tag '#unsorted' are added automatically.",
+                    "target": "所有标签都会自动添加到命令面板/快捷键中以便切换。如果你想通过面板/快捷键切换单个高亮，请输入其名称的逗号分隔列表（区分大小写）。带有“#unsorted”标签的高亮器会自动添加。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The delay, in milliseconds, before selection highlights will appear. Must be greater than 200ms.",
+                    "target": "选择高亮显示前的延迟（毫秒）。必须大于 200ms。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "A comma separated list of words that will be ignored by selection highlights.",
+                    "target": "选择高亮将忽略的词语列表（用逗号分隔）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Persistent highlights",
+                    "target": "持久高亮"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Define persistent highlighters",
+                    "target": "定义持久高亮器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Your highlighters and tags",
+                    "target": "你的高亮器和标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show highlights in reading mode",
+                    "target": "在阅读模式中显示高亮"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Hotkeys and command palette",
+                    "target": "快捷键和命令面板"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Selection highlights",
+                    "target": "选区高亮"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Choose a decoration.",
+                    "target": "选择一种装饰。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Highlight all occurrences of the word under the cursor",
+                    "target": "高亮显示光标下单词的所有出现位置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Highlight all occurrences of the actively selected text",
+                    "target": "高亮显示当前选中文本的所有出现位置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Highlight delay",
+                    "target": "高亮延迟"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Ignored words",
+                    "target": "忽略的词"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Tag name",
+                    "target": "标签名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Highlighter name",
+                    "target": "高亮器名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Search term",
+                    "target": "搜索词"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Search expression",
+                    "target": "搜索表达式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Choose a color.",
+                    "target": "选择颜色。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Save new tag.",
+                    "target": "保存新标签。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Save new tag name.",
+                    "target": "保存新标签名称。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Activate RegEx",
+                    "target": "启用正则表达式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Deactivate RegEx",
+                    "target": "停用正则表达式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Deactivate highlighting matches",
+                    "target": "停用匹配高亮"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Activate higlighting of parent line",
+                    "target": "启用父行高亮"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Highlight regex capture groups",
+                    "target": "高亮正则捕获组"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Discard Changes",
+                    "target": "放弃更改"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Sort a to z",
+                    "target": "按字母顺序排序"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Rename this tag",
+                    "target": "重命名此标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Save highlighter",
+                    "target": "保存高亮器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Save deco",
+                    "target": "保存装饰"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Reset to default",
+                    "target": "恢复默认"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Lucide] Some icons were found with the now deprecated icon-name attribute. These will still be replaced for backwards compatibility, but will no longer be supported in v1.0 and you should switch to data-lucide",
+                    "target": "[Lucide] 发现一些图标使用了现已弃用的 icon-name 属性。为向后兼容它们仍会被替换，但在 v1.0 中将不再支持，你应切换到 data-lucide"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please enter a tag name (case sensitive).",
+                    "target": "请输入标签名称（区分大小写）。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please enter a tag name.",
+                    "target": "请输入标签名称。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Your regex does not contain any capture groups",
+                    "target": "你的正则表达式不包含任何捕获组"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Highlighter name already exists",
+                    "target": "高亮器名称已存在"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Highlighter name missing",
+                    "target": "缺少高亮器名称"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Highlighter values missing",
+                    "target": "缺少高亮器值"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Changes discarded",
+                    "target": "更改已丢弃"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Form cleared",
+                    "target": "表单已清空"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Selection highlighter style saved.",
+                    "target": "选区高亮样式已保存。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Defaults reset",
+                    "target": "已重置为默认值"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Static highlighting is now OFF.",
+                    "target": "静态高亮已关闭。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Static highlighting is now ON.",
+                    "target": "静态高亮已开启。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Highlighting the word around the cursor is now OFF.",
+                    "target": "光标周围单词高亮已关闭。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Highlighting the word around the cursor is now ON.",
+                    "target": "光标周围单词高亮已开启。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Highlighting selected text is now OFF.",
+                    "target": "选中文本高亮已关闭。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Highlighting selected text is now ON.",
+                    "target": "选中文本高亮已开启。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "The switch - start/stop all static highlighting",
+                    "target": "开关 - 启动/停止所有静态高亮"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Start/stop highlighting the word around the cursor",
+                    "target": "启动/停止光标周围单词高亮"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Start/stop highlighting actively selected text.",
+                    "target": "开始/停止高亮当前选中的文本。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Create new tag",
+                    "target": "创建新标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Enter a name for your new tag",
+                    "target": "输入新标签的名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Enter a new tag name (case sensitive).",
+                    "target": "输入新的标签名称（区分大小写）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "WARNING:",
+                    "target": "警告："
+                }
+            ],
+            "regex": []
+        }
+    }
+}
