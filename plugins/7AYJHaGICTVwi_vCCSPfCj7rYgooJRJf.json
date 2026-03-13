@@ -1,0 +1,37 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "on-this-day",
+        "version": "1.0.0",
+        "title": "On This Day",
+        "description": "On This Day Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.0.4",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "On this day",
+                    "target": "历史上的今天"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "forceFrameRate takes a positive int between 0 and 125, forcing frame rates higher than 125 fps is not supported",
+                    "target": "forceFrameRate 需要 0 到 125 之间的正整数，不支持将帧率强制设置为高于 125 fps"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show image preview",
+                    "target": "显示图片预览"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
