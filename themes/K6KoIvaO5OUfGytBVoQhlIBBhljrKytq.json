@@ -1,0 +1,143 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "theme": "Shade Sanctuary",
+        "language": "zh-cn",
+        "version": "1.0.0",
+        "title": "Shade Sanctuary",
+        "description": "Shade Sanctuary Localization & Tweaks",
+        "author": ""
+    },
+    "dict": [
+        {
+            "type": "name",
+            "source": "Shade Sanctuary Settings",
+            "target": "Shade Sanctuary 设置"
+        },
+        {
+            "type": "title",
+            "source": "Theme Color",
+            "target": "主题颜色"
+        },
+        {
+            "type": "description",
+            "source": "The domiannt color of your theme. (Dark Theme only)",
+            "target": "主题的主色调。（仅限深色主题）"
+        },
+        {
+            "type": "label",
+            "source": "Red",
+            "target": "红色"
+        },
+        {
+            "type": "label",
+            "source": "Orange",
+            "target": "橙色"
+        },
+        {
+            "type": "label",
+            "source": "Yellow",
+            "target": "黄色"
+        },
+        {
+            "type": "label",
+            "source": "Green",
+            "target": "绿色"
+        },
+        {
+            "type": "label",
+            "source": "Indigo",
+            "target": "靛蓝"
+        },
+        {
+            "type": "label",
+            "source": "Blue",
+            "target": "蓝色"
+        },
+        {
+            "type": "label",
+            "source": "Purple",
+            "target": "紫色"
+        },
+        {
+            "type": "label",
+            "source": "White (Grayish)",
+            "target": "白色（灰白）"
+        },
+        {
+            "type": "label",
+            "source": "Black",
+            "target": "黑色"
+        },
+        {
+            "type": "title",
+            "source": "Intensity",
+            "target": "强度"
+        },
+        {
+            "type": "description",
+            "source": "The intensity of the main color across your interface. (Dark Theme only)",
+            "target": "界面主色的强度。（仅深色主题）"
+        },
+        {
+            "type": "label",
+            "source": "Abyss",
+            "target": "深渊"
+        },
+        {
+            "type": "label",
+            "source": "Twilight",
+            "target": "黄昏"
+        },
+        {
+            "type": "label",
+            "source": "Dawn",
+            "target": "黎明"
+        },
+        {
+            "type": "title",
+            "source": "Fonts",
+            "target": "字体"
+        },
+        {
+            "type": "title",
+            "source": "Text Font",
+            "target": "文本字体"
+        },
+        {
+            "type": "description",
+            "source": "Font used for text in the editor",
+            "target": "编辑器中用于文本的字体"
+        },
+        {
+            "type": "title",
+            "source": "Interface Font",
+            "target": "界面字体"
+        },
+        {
+            "type": "description",
+            "source": "Font used for UI elements",
+            "target": "用于 UI 元素的字体"
+        },
+        {
+            "type": "title",
+            "source": "Monospace Font",
+            "target": "等宽字体"
+        },
+        {
+            "type": "description",
+            "source": "Font used code blocks and inline code",
+            "target": "用于代码块和行内代码的字体"
+        },
+        {
+            "type": "title",
+            "source": "Callout Font",
+            "target": "提示框字体"
+        },
+        {
+            "type": "description",
+            "source": "Font used within callouts",
+            "target": "用于提示框内的字体"
+        }
+    ]
+}

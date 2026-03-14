@@ -1,0 +1,168 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "theme": "Rift",
+        "language": "zh-cn",
+        "version": "1.0.0",
+        "title": "Rift",
+        "description": "Rift Localization & Tweaks",
+        "author": ""
+    },
+    "dict": [
+        {
+            "type": "name",
+            "source": "Theme - Rift",
+            "target": "主题 - Rift"
+        },
+        {
+            "type": "title",
+            "source": "Core settings",
+            "target": "核心设置"
+        },
+        {
+            "type": "title",
+            "source": "Hidden ribbon",
+            "target": "隐藏侧边栏"
+        },
+        {
+            "type": "description",
+            "source": "If set to true, the ribbon at the left will be hidden, else if set to false, the ribbon at the left will be displayed.",
+            "target": "设置为 true 则隐藏左侧侧边栏，否则显示。"
+        },
+        {
+            "type": "title",
+            "source": "Accent colour",
+            "target": "强调色"
+        },
+        {
+            "type": "title",
+            "source": "Hue",
+            "target": "色相"
+        },
+        {
+            "type": "title",
+            "source": "Saturation",
+            "target": "饱和度"
+        },
+        {
+            "type": "title",
+            "source": "Lightness",
+            "target": "亮度"
+        },
+        {
+            "type": "title",
+            "source": "Typography",
+            "target": "排版"
+        },
+        {
+            "type": "title",
+            "source": "Heading",
+            "target": "标题"
+        },
+        {
+            "type": "title",
+            "source": "H1",
+            "target": "H1"
+        },
+        {
+            "type": "description",
+            "source": "Define the colour used for H1.",
+            "target": "定义 H1 使用的颜色。"
+        },
+        {
+            "type": "title",
+            "source": "H2",
+            "target": "H2"
+        },
+        {
+            "type": "description",
+            "source": "Define the colour used for H2.",
+            "target": "定义 H2 使用的颜色。"
+        },
+        {
+            "type": "title",
+            "source": "H3",
+            "target": "H3"
+        },
+        {
+            "type": "description",
+            "source": "Define the colour used for H3.",
+            "target": "定义 H3 使用的颜色。"
+        },
+        {
+            "type": "title",
+            "source": "H4",
+            "target": "H4"
+        },
+        {
+            "type": "description",
+            "source": "Define the colour used for H4.",
+            "target": "定义 H4 使用的颜色。"
+        },
+        {
+            "type": "title",
+            "source": "H5",
+            "target": "H5"
+        },
+        {
+            "type": "description",
+            "source": "Define the colour used for H5.",
+            "target": "定义 H5 使用的颜色。"
+        },
+        {
+            "type": "title",
+            "source": "H6",
+            "target": "H6"
+        },
+        {
+            "type": "description",
+            "source": "Define the colour used for H6.",
+            "target": "定义 H6 的颜色。"
+        },
+        {
+            "type": "title",
+            "source": "Regular text",
+            "target": "普通文本"
+        },
+        {
+            "type": "title",
+            "source": "Text accent",
+            "target": "文本强调色"
+        },
+        {
+            "type": "description",
+            "source": "Define the colour used for accented text.",
+            "target": "定义强调文本的颜色。"
+        },
+        {
+            "type": "title",
+            "source": "Text accent - Hover",
+            "target": "文本强调色 - 悬停"
+        },
+        {
+            "type": "description",
+            "source": "Define the colour used for accented text when they are hovered.",
+            "target": "定义悬停时强调文本的颜色。"
+        },
+        {
+            "type": "title",
+            "source": "Bold colour",
+            "target": "粗体颜色"
+        },
+        {
+            "type": "description",
+            "source": "Define the colour used for bold text.",
+            "target": "定义粗体文本的颜色。"
+        },
+        {
+            "type": "title",
+            "source": "Italic colour",
+            "target": "斜体颜色"
+        },
+        {
+            "type": "description",
+            "source": "Define the colour used for italic text.",
+            "target": "定义斜体文本颜色."
+        }
+    ]
+}

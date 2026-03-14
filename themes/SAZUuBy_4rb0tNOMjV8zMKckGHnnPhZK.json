@@ -1,0 +1,108 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "theme": "Solitude",
+        "language": "zh-cn",
+        "version": "1.0.0",
+        "title": "Solitude",
+        "description": "Solitude Localization & Tweaks",
+        "author": ""
+    },
+    "dict": [
+        {
+            "type": "name",
+            "source": "Solitude",
+            "target": "独处"
+        },
+        {
+            "type": "title",
+            "source": "Colors",
+            "target": "颜色"
+        },
+        {
+            "type": "title",
+            "source": "Adjust base color",
+            "target": "调整基础颜色"
+        },
+        {
+            "type": "description",
+            "source": "Adjusts the color of all backgrounds",
+            "target": "调整所有背景色"
+        },
+        {
+            "type": "title",
+            "source": "Adjust normal text color",
+            "target": "调整普通文本颜色"
+        },
+        {
+            "type": "title",
+            "source": "Adjust muted text color",
+            "target": "调整弱化文本颜色"
+        },
+        {
+            "type": "title",
+            "source": "Adjust faint text color",
+            "target": "调整淡化文本颜色"
+        },
+        {
+            "type": "title",
+            "source": "Features",
+            "target": "功能"
+        },
+        {
+            "type": "title",
+            "source": "Deactivate Custom Font",
+            "target": "停用自定义字体"
+        },
+        {
+            "type": "description",
+            "source": "Deactivate the default font provided by the theme",
+            "target": "停用主题提供的默认字体"
+        },
+        {
+            "type": "title",
+            "source": "Deactivate window border",
+            "target": "取消窗口边框"
+        },
+        {
+            "type": "description",
+            "source": "Deactivate the border around non-maximized windows",
+            "target": "取消非最大化窗口周围的边框"
+        },
+        {
+            "type": "title",
+            "source": "Show first letter in side panel tab icon of a file",
+            "target": "在侧边栏标签图标中显示文件首字母"
+        },
+        {
+            "type": "title",
+            "source": "Activate custom background",
+            "target": "启用自定义背景"
+        },
+        {
+            "type": "description",
+            "source": "If you want to replace the default image with your own image, then go to the github repository of this theme and get the \"Custom Background\" snippet, which can be found in the snippets directory.",
+            "target": "如果您想用自定义图片替换默认图片，请前往此主题的 GitHub 仓库，获取 \"Custom Background\" 代码片段，它位于 snippets 目录中。"
+        },
+        {
+            "type": "title",
+            "source": "Adjust panel spacing",
+            "target": "调整面板间距"
+        },
+        {
+            "type": "description",
+            "source": "Adjusts the spacing in between the panels, when a custom background is used",
+            "target": "使用自定义背景时调整面板之间的间距"
+        },
+        {
+            "type": "title",
+            "source": "Enable Alternative Checkboxes",
+            "target": "启用替代复选框"
+        },
+        {
+            "type": "description",
+            "source": "Disable this if you are using your own implementation via a CSS Snippet.",
+            "target": "如果您通过 CSS 代码片段使用自己的实现，请禁用此项。"
+        }
+    ]
+}

@@ -1,0 +1,298 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "theme": "Simple",
+        "language": "zh-cn",
+        "version": "1.0.0",
+        "title": "Simple",
+        "description": "Simple Localization & Tweaks",
+        "author": ""
+    },
+    "dict": [
+        {
+            "type": "name",
+            "source": "Simple visual control settings",
+            "target": "简单视觉控制设置"
+        },
+        {
+            "type": "title",
+            "source": "Dark sidebar",
+            "target": "深色侧边栏"
+        },
+        {
+            "type": "description",
+            "source": "If enable, the sidebar will be dark, even in light mode.",
+            "target": "启用后，侧边栏将保持深色，即使在浅色模式下也是如此。"
+        },
+        {
+            "type": "title",
+            "source": "Enable Alternative Checkboxes",
+            "target": "启用替代复选框"
+        },
+        {
+            "type": "description",
+            "source": "Disable this if you are using your own implementation via a CSS Snippet.",
+            "target": "如果你使用 CSS 代码片段自行实现了复选框，请禁用此项。"
+        },
+        {
+            "type": "title",
+            "source": "Hide h1 after properties?",
+            "target": "隐藏属性后的 H1？"
+        },
+        {
+            "type": "description",
+            "source": "If checked, the first H1 just before the properties will be hidden. Use with wise. Better use when inline title option in Obsidian is enabled.",
+            "target": "勾选后，属性前的第一个 H1 将被隐藏。请谨慎使用。建议在 Obsidian 启用内联标题选项时使用。"
+        },
+        {
+            "type": "title",
+            "source": "Define the order of elements in content space.",
+            "target": "定义内容空间中的元素顺序"
+        },
+        {
+            "type": "description",
+            "source": "Here you can define the vertical order position of elements in the editor panel. The default order is Properties, Inline Title (usually the filename), Content, embedded backlinks",
+            "target": "在此处可以定义编辑器面板中元素的垂直顺序。默认顺序为：属性、内联标题（通常是文件名）、内容、嵌入的回链"
+        },
+        {
+            "type": "title",
+            "source": "Inline Title - Filename",
+            "target": "内联标题 - 文件名"
+        },
+        {
+            "type": "description",
+            "source": "Inline Title position",
+            "target": "内联标题位置"
+        },
+        {
+            "type": "title",
+            "source": "Properties metadata (YAML) position",
+            "target": "属性元数据 (YAML) 位置"
+        },
+        {
+            "type": "description",
+            "source": "Properties metadata panel position",
+            "target": "属性元数据面板位置"
+        },
+        {
+            "type": "title",
+            "source": "Content position",
+            "target": "内容位置"
+        },
+        {
+            "type": "description",
+            "source": "The order where content will be positioned",
+            "target": "内容排列顺序"
+        },
+        {
+            "type": "title",
+            "source": "Backlinks list position",
+            "target": "后向链接列表位置"
+        },
+        {
+            "type": "description",
+            "source": "The order of backlinks list (normally at the end of editor)",
+            "target": "后向链接列表顺序（通常位于编辑器末尾）"
+        },
+        {
+            "type": "title",
+            "source": "Font size of headings and paragraphs",
+            "target": "标题和段落的字体大小"
+        },
+        {
+            "type": "title",
+            "source": "Custom Body family",
+            "target": "自定义正文字体"
+        },
+        {
+            "type": "description",
+            "source": "Font family of body text",
+            "target": "正文字体"
+        },
+        {
+            "type": "title",
+            "source": "Choose what type of font you want to use",
+            "target": "选择您想使用的字体类型"
+        },
+        {
+            "type": "description",
+            "source": "These are beautyful fonts to write and read.",
+            "target": "这些是用于书写和阅读的优美字体。"
+        },
+        {
+            "type": "title",
+            "source": "H1",
+            "target": "H1"
+        },
+        {
+            "type": "description",
+            "source": "Font size of H1",
+            "target": "H1 字体大小"
+        },
+        {
+            "type": "title",
+            "source": "H2",
+            "target": "H2"
+        },
+        {
+            "type": "description",
+            "source": "Font size of H2",
+            "target": "H2 字体大小"
+        },
+        {
+            "type": "title",
+            "source": "H3",
+            "target": "H3"
+        },
+        {
+            "type": "description",
+            "source": "Font size of H3",
+            "target": "H3 字体大小"
+        },
+        {
+            "type": "title",
+            "source": "H4",
+            "target": "H4"
+        },
+        {
+            "type": "description",
+            "source": "Font size of H4",
+            "target": "H4 字体大小"
+        },
+        {
+            "type": "title",
+            "source": "H5",
+            "target": "H5"
+        },
+        {
+            "type": "description",
+            "source": "Font size of H5",
+            "target": "H5 字体大小"
+        },
+        {
+            "type": "title",
+            "source": "H6",
+            "target": "H6"
+        },
+        {
+            "type": "description",
+            "source": "Font size of H6",
+            "target": "H6 字体大小"
+        },
+        {
+            "type": "title",
+            "source": "Body paragraph",
+            "target": "正文段落"
+        },
+        {
+            "type": "description",
+            "source": "Font size of body size",
+            "target": "正文字体大小"
+        },
+        {
+            "type": "title",
+            "source": "Margin spaces of Heading Titles",
+            "target": "标题外边距"
+        },
+        {
+            "type": "title",
+            "source": "H2 TOP margin",
+            "target": "H2 上边距"
+        },
+        {
+            "type": "description",
+            "source": "TOP margin of H2",
+            "target": "H2 上边距"
+        },
+        {
+            "type": "title",
+            "source": "H3 TOP margin",
+            "target": "H3 上边距"
+        },
+        {
+            "type": "description",
+            "source": "TOP margin of H3",
+            "target": "H3 上边距"
+        },
+        {
+            "type": "title",
+            "source": "H4 TOP margin",
+            "target": "H4 上边距"
+        },
+        {
+            "type": "description",
+            "source": "TOP margin of H4",
+            "target": "H4 上边距"
+        },
+        {
+            "type": "title",
+            "source": "H5 TOP margin",
+            "target": "H5 上边距"
+        },
+        {
+            "type": "description",
+            "source": "TOP margin of H5",
+            "target": "H5 上边距"
+        },
+        {
+            "type": "title",
+            "source": "H6 TOP margin",
+            "target": "H6 上边距"
+        },
+        {
+            "type": "description",
+            "source": "TOP margin of H6",
+            "target": "H6 上边距"
+        },
+        {
+            "type": "title",
+            "source": "H2 BOTTOM margin",
+            "target": "H2 下边距"
+        },
+        {
+            "type": "description",
+            "source": "BOTTOM margin of H2",
+            "target": "H2 下边距"
+        },
+        {
+            "type": "title",
+            "source": "H3 BOTTOM margin",
+            "target": "H3 下边距"
+        },
+        {
+            "type": "description",
+            "source": "BOTTOM margin of H3",
+            "target": "H3 底部边距"
+        },
+        {
+            "type": "title",
+            "source": "H4 BOTTOM margin",
+            "target": "H4 底部边距"
+        },
+        {
+            "type": "description",
+            "source": "BOTTOM margin of H4",
+            "target": "H4 底部边距"
+        },
+        {
+            "type": "title",
+            "source": "H5 BOTTOM margin",
+            "target": "H5 底部边距"
+        },
+        {
+            "type": "description",
+            "source": "BOTTOM margin of H5",
+            "target": "H5 底部边距"
+        },
+        {
+            "type": "title",
+            "source": "H6 BOTTOM margin",
+            "target": "H6 底部边距"
+        },
+        {
+            "type": "description",
+            "source": "BOTTOM margin of H6",
+            "target": "H6 底部边距"
+        }
+    ]
+}
