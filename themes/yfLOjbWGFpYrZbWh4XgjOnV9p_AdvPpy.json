@@ -1,0 +1,273 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "theme": "Ukiyo",
+        "language": "zh-cn",
+        "version": "1.0.0",
+        "title": "Ukiyo",
+        "description": "Ukiyo Localization & Tweaks",
+        "author": ""
+    },
+    "dict": [
+        {
+            "type": "name",
+            "source": "Ukiyo Style Settings",
+            "target": "浮世绘风格设置"
+        },
+        {
+            "type": "title",
+            "source": "Modes",
+            "target": "模式"
+        },
+        {
+            "type": "title",
+            "source": "Smooth mode",
+            "target": "平滑模式"
+        },
+        {
+            "type": "title",
+            "source": "Toggle mode",
+            "target": "切换模式"
+        },
+        {
+            "type": "title",
+            "source": "Minimal Mode",
+            "target": "极简模式"
+        },
+        {
+            "type": "title",
+            "source": "Sidebar",
+            "target": "侧边栏"
+        },
+        {
+            "type": "label",
+            "source": "Show",
+            "target": "显示"
+        },
+        {
+            "type": "label",
+            "source": "Hover",
+            "target": "悬停"
+        },
+        {
+            "type": "label",
+            "source": "Hide",
+            "target": "隐藏"
+        },
+        {
+            "type": "title",
+            "source": "Lateral Workspaces",
+            "target": "侧边工作区"
+        },
+        {
+            "type": "title",
+            "source": "Tabs",
+            "target": "标签页"
+        },
+        {
+            "type": "title",
+            "source": "Nav header",
+            "target": "导航栏头部"
+        },
+        {
+            "type": "title",
+            "source": "Workspace Root",
+            "target": "工作区根目录"
+        },
+        {
+            "type": "title",
+            "source": "Color Scheme",
+            "target": "配色方案"
+        },
+        {
+            "type": "title",
+            "source": "Select a color scheme",
+            "target": "选择配色方案"
+        },
+        {
+            "type": "label",
+            "source": "Cozy typewritter",
+            "target": "舒适打字机"
+        },
+        {
+            "type": "label",
+            "source": "Ukiyo",
+            "target": "浮世绘"
+        },
+        {
+            "type": "label",
+            "source": "Golden Coffee",
+            "target": "金色咖啡"
+        },
+        {
+            "type": "label",
+            "source": "Golden Book",
+            "target": "金色书籍"
+        },
+        {
+            "type": "label",
+            "source": "Alchemy",
+            "target": "炼金术"
+        },
+        {
+            "type": "label",
+            "source": "Rose Shadow",
+            "target": "玫瑰阴影"
+        },
+        {
+            "type": "label",
+            "source": "Custom",
+            "target": "自定义"
+        },
+        {
+            "type": "title",
+            "source": "Customize each mode",
+            "target": "自定义每种模式"
+        },
+        {
+            "type": "description",
+            "source": "Select a color scheme for each mode",
+            "target": "为每种模式选择配色方案"
+        },
+        {
+            "type": "title",
+            "source": "Dark mode",
+            "target": "深色模式"
+        },
+        {
+            "type": "title",
+            "source": "Light mode",
+            "target": "浅色模式"
+        },
+        {
+            "type": "title",
+            "source": "Custom Color Scheme",
+            "target": "自定义配色方案"
+        },
+        {
+            "type": "title",
+            "source": "Background primary",
+            "target": "主背景"
+        },
+        {
+            "type": "title",
+            "source": "Background secondary",
+            "target": "次级背景"
+        },
+        {
+            "type": "title",
+            "source": "Background primary alt",
+            "target": "主背景变体"
+        },
+        {
+            "type": "title",
+            "source": "Background modifier form field",
+            "target": "背景修饰：表单字段"
+        },
+        {
+            "type": "title",
+            "source": "Background modifier border",
+            "target": "背景修饰：边框"
+        },
+        {
+            "type": "title",
+            "source": "Background modifier border hover",
+            "target": "背景修饰：边框悬停"
+        },
+        {
+            "type": "title",
+            "source": "Background modifier border focus",
+            "target": "背景修饰：边框聚焦"
+        },
+        {
+            "type": "title",
+            "source": "Text faint",
+            "target": "文字：淡色"
+        },
+        {
+            "type": "title",
+            "source": "Text muted",
+            "target": "文字：弱化"
+        },
+        {
+            "type": "title",
+            "source": "Text normal",
+            "target": "文字：正常"
+        },
+        {
+            "type": "title",
+            "source": "Tooltip + Notice Background color",
+            "target": "提示框 + 通知背景颜色"
+        },
+        {
+            "type": "title",
+            "source": "Color accent",
+            "target": "强调色"
+        },
+        {
+            "type": "title",
+            "source": "Color accent - Hover",
+            "target": "强调色 - 悬停"
+        },
+        {
+            "type": "title",
+            "source": "Active line",
+            "target": "当前行"
+        },
+        {
+            "type": "title",
+            "source": "Text selection",
+            "target": "文本选中"
+        },
+        {
+            "type": "title",
+            "source": "Bold",
+            "target": "粗体"
+        },
+        {
+            "type": "title",
+            "source": "Italic",
+            "target": "斜体"
+        },
+        {
+            "type": "title",
+            "source": "Highlight background",
+            "target": "高亮背景"
+        },
+        {
+            "type": "title",
+            "source": "Heading formatting color",
+            "target": "标题格式颜色"
+        },
+        {
+            "type": "title",
+            "source": "In between background (Smooth mode)",
+            "target": "中间背景 (平滑模式)"
+        },
+        {
+            "type": "title",
+            "source": "Pop Callout",
+            "target": "弹出提示框"
+        },
+        {
+            "type": "title",
+            "source": "Slide out duration",
+            "target": "滑出持续时间"
+        },
+        {
+            "type": "description",
+            "source": "Set to 0 to remove slide-out animation",
+            "target": "设置为 0 以移除滑出动画"
+        },
+        {
+            "type": "title",
+            "source": "Floating Sides",
+            "target": "浮动两侧"
+        },
+        {
+            "type": "title",
+            "source": "Toggle floating sides",
+            "target": "切换浮动两侧"
+        }
+    ]
+}

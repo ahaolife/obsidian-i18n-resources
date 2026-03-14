@@ -1,0 +1,193 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "theme": "Transparent",
+        "language": "zh-cn",
+        "version": "1.0.0",
+        "title": "Transparent",
+        "description": "Transparent Localization & Tweaks",
+        "author": ""
+    },
+    "dict": [
+        {
+            "type": "name",
+            "source": "Obsidian-Transparent Theme Configuration",
+            "target": "Obsidian-Transparent 主题设置"
+        },
+        {
+            "type": "title",
+            "source": "✨ Obsidian-Transparent",
+            "target": "✨ Obsidian-透明"
+        },
+        {
+            "type": "description",
+            "source": "|",
+            "target": "|"
+        },
+        {
+            "type": "markdown",
+            "source": "true",
+            "target": "true"
+        },
+        {
+            "type": "title",
+            "source": "Adjust Obsidian Theme",
+            "target": "调整 Obsidian 主题"
+        },
+        {
+            "type": "title",
+            "source": "🫧 Blur Intensity",
+            "target": "🫧 模糊强度"
+        },
+        {
+            "type": "description",
+            "source": "Adjust the background blur effect. Note: Higher values offer a smoother aesthetic but may impact performance on lower-end systems.",
+            "target": "调整背景模糊效果。注意：数值越高，视觉效果越平滑，但可能会影响低端设备的性能。"
+        },
+        {
+            "type": "title",
+            "source": "Show Scrollbars",
+            "target": "显示滚动条"
+        },
+        {
+            "type": "description",
+            "source": ":)",
+            "target": ":)"
+        },
+        {
+            "type": "title",
+            "source": "Image Background",
+            "target": "图片背景"
+        },
+        {
+            "type": "title",
+            "source": "Background Type",
+            "target": "背景类型"
+        },
+        {
+            "type": "description",
+            "source": "Choose between default green background and custom URL.",
+            "target": "在默认绿色背景和自定义 URL 之间选择。"
+        },
+        {
+            "type": "label",
+            "source": "Default Green",
+            "target": "默认绿色"
+        },
+        {
+            "type": "label",
+            "source": "Custom Background",
+            "target": "自定义背景"
+        },
+        {
+            "type": "title",
+            "source": "Custom Background URL",
+            "target": "自定义背景 URL"
+        },
+        {
+            "type": "description",
+            "source": "Paste your image URL inside the quotes. E.g. url('https://...')",
+            "target": "将图片 URL 粘贴在引号内。例如 url('https://...')"
+        },
+        {
+            "type": "title",
+            "source": "Background Color Tint",
+            "target": "背景颜色色调"
+        },
+        {
+            "type": "title",
+            "source": "Tint Color",
+            "target": "色调颜色"
+        },
+        {
+            "type": "description",
+            "source": "Pick the color you want to overlay on the background.",
+            "target": "选择您想要叠加在背景上的颜色。"
+        },
+        {
+            "type": "title",
+            "source": "Tint Intensity",
+            "target": "色调强度"
+        },
+        {
+            "type": "description",
+            "source": "How strongly the tint is applied. 0 = off (no performance cost), 0.3 = maximum.",
+            "target": "色调强度。0 = 关闭（无性能损耗），0.3 = 最大。"
+        },
+        {
+            "type": "title",
+            "source": "⚛️ Animation settings",
+            "target": "⚛️ 动画设置"
+        },
+        {
+            "type": "description",
+            "source": "work in progress, through you can use some of the animations",
+            "target": "正在开发中，但你可以使用部分动画。"
+        },
+        {
+            "type": "title",
+            "source": "(beta) Animate Note Opening",
+            "target": "（测试版）笔记打开动画"
+        },
+        {
+            "type": "description",
+            "source": "Adds a smooth fade-in + slide-up animation when opening or switching notes.",
+            "target": "打开或切换笔记时添加平滑的淡入 + 上滑动画。"
+        },
+        {
+            "type": "title",
+            "source": "Animate Settings / Modal Opening",
+            "target": "设置/模态框打开动画"
+        },
+        {
+            "type": "description",
+            "source": "Smooth scale + fade animation when opening Settings or any modal window.",
+            "target": "打开设置或任何模态窗口时，添加平滑的缩放 + 淡入动画。"
+        },
+        {
+            "type": "title",
+            "source": "🧩 Snippets / Addons",
+            "target": "🧩 代码片段 / 插件"
+        },
+        {
+            "type": "title",
+            "source": "Hide Canvas Dots",
+            "target": "隐藏画布圆点"
+        },
+        {
+            "type": "description",
+            "source": "Removes the dot pattern from the canvas background.",
+            "target": "移除画布背景中的圆点图案。"
+        },
+        {
+            "type": "title",
+            "source": "Note Max Width",
+            "target": "笔记最大宽度"
+        },
+        {
+            "type": "description",
+            "source": "Changes the maximum width of currently displayed note.",
+            "target": "更改当前显示笔记的最大宽度。"
+        },
+        {
+            "type": "title",
+            "source": "Border Opacity",
+            "target": "边框透明度"
+        },
+        {
+            "type": "description",
+            "source": "Controls the visibility of subtle borders on tables, bases, and horizontal rules. 0 = invisible, 0.25 = clearly visible.",
+            "target": "控制表格、基座和水平线的细微边框的可见性。0 = 不可见，0.25 = 非常清晰可见。"
+        },
+        {
+            "type": "title",
+            "source": "(Experimental) Accent Everywhere",
+            "target": "（实验性）到处都是强调色"
+        },
+        {
+            "type": "description",
+            "source": "Applies accent color to more UI elements (headings, sliders, icons).",
+            "target": "将强调色应用到更多 UI 元素（标题、滑块、图标）。"
+        }
+    ]
+}
