@@ -1,0 +1,178 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "theme": "Ribbons",
+        "language": "zh-cn",
+        "version": "1.0.0",
+        "title": "Ribbons",
+        "description": "Ribbons Localization & Tweaks",
+        "author": ""
+    },
+    "dict": [
+        {
+            "type": "name",
+            "source": "Alternate Checkboxes",
+            "target": "备选复选框"
+        },
+        {
+            "type": "title",
+            "source": "Alternate Checkboxes by SlRvb",
+            "target": "SlRvb 的备选复选框"
+        },
+        {
+            "type": "description",
+            "source": "[Alternate Checkbox Snippet Reference](https://publish.obsidian.md/slrvb-docs/ITS+Theme/Alternate+Checkboxes)",
+            "target": "[备选复选框代码片段参考](https://publish.obsidian.md/slrvb-docs/ITS+Theme/Alternate+Checkboxes)"
+        },
+        {
+            "type": "markdown",
+            "source": "true",
+            "target": "是"
+        },
+        {
+            "type": "title",
+            "source": "Colorful Task Text",
+            "target": "彩色任务文字"
+        },
+        {
+            "type": "description",
+            "source": "Add color to the text of the task.",
+            "target": "为任务文字添加颜色。"
+        },
+        {
+            "type": "title",
+            "source": "Colorful Task Background",
+            "target": "彩色任务背景"
+        },
+        {
+            "type": "description",
+            "source": "Add color to the background of the task.",
+            "target": "为任务背景添加颜色。"
+        },
+        {
+            "type": "title",
+            "source": "Normal Task Text",
+            "target": "普通任务文字"
+        },
+        {
+            "type": "description",
+            "source": "Reapply regular text color to the text of the task.",
+            "target": "恢复任务文字的常规颜色。"
+        },
+        {
+            "type": "title",
+            "source": "Checkbox Strikethrough",
+            "target": "Checkbox 删除线"
+        },
+        {
+            "type": "description",
+            "source": "Restore default strike through",
+            "target": "恢复默认删除线"
+        },
+        {
+            "type": "title",
+            "source": "Checkbox Strike Specific",
+            "target": "Checkbox 删除线特定"
+        },
+        {
+            "type": "title",
+            "source": "[x] Regular",
+            "target": "[x] 普通"
+        },
+        {
+            "type": "title",
+            "source": "[X] Checked",
+            "target": "[X] 已勾选"
+        },
+        {
+            "type": "title",
+            "source": "[-] Dropped",
+            "target": "[-] 已放弃"
+        },
+        {
+            "type": "title",
+            "source": "[>] Forward",
+            "target": "[>] 前进"
+        },
+        {
+            "type": "title",
+            "source": "[<] Migrated / Backward",
+            "target": "[<] 已迁移 / 后退"
+        },
+        {
+            "type": "title",
+            "source": "[D] Defer / Date",
+            "target": "[D] 延期 / 日期"
+        },
+        {
+            "type": "title",
+            "source": "[?] Question",
+            "target": "[?] 问题"
+        },
+        {
+            "type": "title",
+            "source": "[/] Half",
+            "target": "[/] 半"
+        },
+        {
+            "type": "title",
+            "source": "[+] Add",
+            "target": "[+] 添加"
+        },
+        {
+            "type": "title",
+            "source": "[R] Research",
+            "target": "[R] 研究"
+        },
+        {
+            "type": "title",
+            "source": "[!] Important",
+            "target": "[!] 重要"
+        },
+        {
+            "type": "title",
+            "source": "[i] Idea",
+            "target": "[i] 想法"
+        },
+        {
+            "type": "title",
+            "source": "[B] Brainstorm",
+            "target": "[B] 头脑风暴"
+        },
+        {
+            "type": "title",
+            "source": "[P] Pro",
+            "target": "[P] 优点"
+        },
+        {
+            "type": "title",
+            "source": "[C] Con",
+            "target": "[C] 缺点"
+        },
+        {
+            "type": "title",
+            "source": "[Q] Quote",
+            "target": "[Q] 引用"
+        },
+        {
+            "type": "title",
+            "source": "[N] Note",
+            "target": "[N] 笔记"
+        },
+        {
+            "type": "title",
+            "source": "[b] Bookmark",
+            "target": "[b] 书签"
+        },
+        {
+            "type": "title",
+            "source": "[I] Info",
+            "target": "[I] 信息"
+        },
+        {
+            "type": "title",
+            "source": "[p] Paraphrase",
+            "target": "[p] 改写"
+        }
+    ]
+}

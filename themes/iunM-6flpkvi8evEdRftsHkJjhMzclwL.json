@@ -1,0 +1,78 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "theme": "Red Graphite",
+        "language": "zh-cn",
+        "version": "1.0.0",
+        "title": "Red Graphite",
+        "description": "Red Graphite Localization & Tweaks",
+        "author": ""
+    },
+    "dict": [
+        {
+            "type": "name",
+            "source": "Red Graphite",
+            "target": "红色石墨"
+        },
+        {
+            "type": "title",
+            "source": "Colors",
+            "target": "颜色"
+        },
+        {
+            "type": "title",
+            "source": "Base Color",
+            "target": "基础颜色"
+        },
+        {
+            "type": "description",
+            "source": "|",
+            "target": "|"
+        },
+        {
+            "type": "title",
+            "source": "Accent Color",
+            "target": "强调色"
+        },
+        {
+            "type": "description",
+            "source": "In the light theme, this is the red highlight. In the dark theme, this is the yellow highlight. This can also be adjusted in the Appearance settings section, but changing it there will override this setting. You will have to reset that color for this one to work.",
+            "target": "浅色主题下为红色高亮，深色主题下为黄色高亮。此设置可在外观设置中调整，但更改外观设置会覆盖此设置。若要使用此设置，需重置外观设置中的颜色。"
+        },
+        {
+            "type": "title",
+            "source": "Fonts",
+            "target": "字体"
+        },
+        {
+            "type": "title",
+            "source": "Interface font",
+            "target": "界面字体"
+        },
+        {
+            "type": "description",
+            "source": "Font used for the user interface",
+            "target": "用于用户界面的字体"
+        },
+        {
+            "type": "title",
+            "source": "Text font",
+            "target": "文本字体"
+        },
+        {
+            "type": "description",
+            "source": "Font used for text",
+            "target": "用于文本的字体"
+        },
+        {
+            "type": "title",
+            "source": "Monospace font",
+            "target": "等宽字体"
+        },
+        {
+            "type": "description",
+            "source": "Font used for monospace text",
+            "target": "用于等宽文本的字体"
+        }
+    ]
+}
