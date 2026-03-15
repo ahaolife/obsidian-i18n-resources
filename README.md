@@ -22,6 +22,8 @@
 
 在面对多个下载选项时，请遵循**“先看译文版本，再看插件版本”**的原则。
 
+![latex suite image](https://github.com/yunrr/obsidian-i18n-resources/blob/ec75f631ac7f35705e57a3c04a0e5f9111885a1a/images/2026_03_15.jpg)
+
 以 **Latex Suite** 插件为例（如配图所示），您看到了以下三个选项：
 
 1. 译文 `v1.0.0` [对应插件 `1.11.0`]
