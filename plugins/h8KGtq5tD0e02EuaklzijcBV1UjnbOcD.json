@@ -1,0 +1,184 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "periodic-notes",
+        "version": "1.0.0",
+        "title": "Periodic Notes",
+        "description": "Periodic Notes Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.0.17",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Daily Notes plugin is enabled",
+                    "target": "Daily Notes plugin is enabled"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Getting Started",
+                    "target": "Getting Started"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Syntax Reference",
+                    "target": "Syntax Reference"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Note Folder",
+                    "target": "Note Folder"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom daily note settings found!",
+                    "target": "No custom daily note settings found!"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom weekly note settings found!",
+                    "target": "No custom weekly note settings found!"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom monthly note settings found!",
+                    "target": "No custom monthly note settings found!"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom quarterly note settings found!",
+                    "target": "No custom quarterly note settings found!"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom yearly note settings found!",
+                    "target": "No custom yearly note settings found!"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Unable to create new file.",
+                    "target": "Unable to create new file."
+                }
+            ],
+            "regex": [
+                {
+                    "source": "error(`failed to find your ${periodicity} notes folder`, err);\n        new obsidian.Notice(`Failed to find your ${periodicity} notes folder`)",
+                    "target": "error(`failed to find your ${periodicity} notes folder`, err);\n        new obsidian.Notice(`Failed to find your ${periodicity} notes folder`)"
+                },
+                {
+                    "source": "setTitle(`Open ${config.relativeUnit}`)",
+                    "target": "setTitle(`Open ${config.relativeUnit}`)"
+                },
+                {
+                    "source": "error(\"PopperJS: an invalid property has been provided to the \\\"\" + modifier.name + \"\\\" modifier, valid properties are \" + VALID_PROPERTIES.map(function (s) {\n            return \"\\\"\" + s + \"\\\"\";\n          }).join(', ') + \"; but \\\"\" + key + \"\\\" was provided.\")",
+                    "target": "error(\"PopperJS: an invalid property has been provided to the \\\"\" + modifier.name + \"\\\" modifier, valid properties are \" + VALID_PROPERTIES.map(function (s) {\n            return \"\\\"\" + s + \"\\\"\";\n          }).join(', ') + \"; but \\\"\" + key + \"\\\" was provided.\")"
+                },
+                {
+                    "source": "name: `Open ${periodicity} note`",
+                    "target": "name: `Open ${periodicity} note`"
+                },
+                {
+                    "source": "name: `Open next ${periodicity} note`",
+                    "target": "name: `Open next ${periodicity} note`"
+                },
+                {
+                    "source": "name: `Open previous ${periodicity} note`",
+                    "target": "name: `Open previous ${periodicity} note`"
+                },
+                {
+                    "source": "name = `__svelte_${hash$2(rule)}_${uid}`",
+                    "target": "name = `__svelte_${hash$2(rule)}_${uid}`"
+                },
+                {
+                    "source": "textContent = \".check.svelte-1q3q9tf{margin-left:6px;width:12px;height:12px}\"",
+                    "target": "textContent = \".check.svelte-1q3q9tf{margin-left:6px;width:12px;height:12px}\""
+                },
+                {
+                    "source": "textContent = \"Daily Notes plugin is enabled\"",
+                    "target": "textContent = \"Daily Notes plugin is enabled\""
+                },
+                {
+                    "source": "textContent = \"Migrate\"",
+                    "target": "textContent = \"Migrate\""
+                },
+                {
+                    "source": "textContent = \"Getting Started\"",
+                    "target": "textContent = \"Getting Started\""
+                },
+                {
+                    "source": "textContent = \"Dismiss\"",
+                    "target": "textContent = \"Dismiss\""
+                },
+                {
+                    "source": "textContent = \"Format\"",
+                    "target": "textContent = \"Format\""
+                },
+                {
+                    "source": "textContent = \"Syntax Reference\"",
+                    "target": "textContent = \"Syntax Reference\""
+                },
+                {
+                    "source": "name: 'applyStyles'",
+                    "target": "name: 'applyStyles'"
+                },
+                {
+                    "source": "name: 'arrow'",
+                    "target": "name: 'arrow'"
+                },
+                {
+                    "source": "name: 'computeStyles'",
+                    "target": "name: 'computeStyles'"
+                },
+                {
+                    "source": "name: 'eventListeners'",
+                    "target": "name: 'eventListeners'"
+                },
+                {
+                    "source": "name: 'flip'",
+                    "target": "name: 'flip'"
+                },
+                {
+                    "source": "text: 'reference'",
+                    "target": "text: 'reference'"
+                },
+                {
+                    "source": "name: 'hide'",
+                    "target": "name: 'hide'"
+                },
+                {
+                    "source": "name: 'offset'",
+                    "target": "name: 'offset'"
+                },
+                {
+                    "source": "name: 'popperOffsets'",
+                    "target": "name: 'popperOffsets'"
+                },
+                {
+                    "source": "name: 'preventOverflow'",
+                    "target": "name: 'preventOverflow'"
+                },
+                {
+                    "source": "name: \"sameWidth\"",
+                    "target": "name: \"sameWidth\""
+                },
+                {
+                    "source": "textContent = \"Note Folder\"",
+                    "target": "textContent = \"Note Folder\""
+                }
+            ]
+        }
+    }
+}

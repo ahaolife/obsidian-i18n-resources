@@ -1,0 +1,3014 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "translate",
+        "version": "1.0.0",
+        "title": "Translate",
+        "description": "Translate Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.4.9",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<h3 style=\"text-align: center\">Enter your password <div style=\"font-weight: 100; font-size: 15px; letter-spacing: 0.7px\">(Obsidian Translate)</div></h3>\n  Recover encrypted API keys from your settings by entering your password.\n  <br/><br/>\n  You can reopen this modal via the plugin settings at any time.",
+                    "target": "<h3 style=\"text-align: center\">Enter your password <div style=\"font-weight: 100; font-size: 15px; letter-spacing: 0.7px\">(Obsidian Translate)</div></h3>\n  Recover encrypted API keys from your settings by entering your password.\n  <br/><br/>\n  You can reopen this modal via the plugin settings at any time."
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerText",
+                    "source": "Set new password",
+                    "target": "Set new password"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerText",
+                    "source": "Alter translation view appearance",
+                    "target": "Alter translation view appearance"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerText",
+                    "source": "Alter translation view functionality",
+                    "target": "Alter translation view functionality"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Password:",
+                    "target": "Password:"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Confirm password:",
+                    "target": "Confirm password:"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Press keys...",
+                    "target": "Press keys..."
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "WARNING:",
+                    "target": "WARNING:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error: translator locale not found",
+                    "target": "Error: translator locale not found"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error in translation engine ",
+                    "target": "Error in translation engine "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Updating Bergamot failed: ",
+                    "target": "Updating Bergamot failed: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Error decrypting: password is incorrect",
+                    "target": "Error decrypting: password is incorrect"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Error loading wasm module.",
+                    "target": "Error loading wasm module."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Error loading wasm module:",
+                    "target": "Error loading wasm module:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Installing language model failed: ",
+                    "target": "Installing language model failed: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "prompt",
+                    "source": "Input: ",
+                    "target": "Input: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Select a translation service",
+                    "target": "Select a translation service"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Translate to...",
+                    "target": "Translate to..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Set as default",
+                    "target": "Set as default"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Hide service",
+                    "target": "Hide service"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Add to glossary",
+                    "target": "Add to glossary"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Translate note to new file",
+                    "target": "Translate note to new file"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Detect Language",
+                    "target": "Detect Language"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "dndzone will ignore unknown options",
+                    "target": "dndzone will ignore unknown options"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Passwords do not match.",
+                    "target": "Passwords do not match."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Password is invalid, keys are still encrypted",
+                    "target": "Password is invalid, keys are still encrypted"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "Say I",
+                    "target": "Say I"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Obfuscate sensitive data such as API keys and tokens",
+                    "target": "Obfuscate sensitive data such as API keys and tokens"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Do not show the keys required to trigger the button's shortcut",
+                    "target": "Do not show the keys required to trigger the button's shortcut"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "FastText will be used as the default language detection service",
+                    "target": "FastText will be used as the default language detection service"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Install FastText language models for local language detection (size: 1.72MiB)",
+                    "target": "Install FastText language models for local language detection (size: 1.72MiB)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Determine whether glossary operation should be applied locally or by the online service",
+                    "target": "Determine whether glossary operation should be applied locally or by the online service"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Set the default target language",
+                    "target": "Set the default target language"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Translate sentences using provided glossary terms",
+                    "target": "Translate sentences using provided glossary terms"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "<b>Translation view</b>: determine which action will be executed when pressing the language switch button",
+                    "target": "<b>Translation view</b>: determine which action will be executed when pressing the language switch button"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Determines how the text selection will be translated using translate <i>commands</i>",
+                    "target": "Determines how the text selection will be translated using translate <i>commands</i>"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "This will be the default source language used when opening a <i>translation view</i>",
+                    "target": "This will be the default source language used when opening a <i>translation view</i>"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "This will determine which language will be translated to by default",
+                    "target": "This will determine which language will be translated to by default"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Update locally stored password",
+                    "target": "Update locally stored password"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Service used for the plugin's <i>commands</i>",
+                    "target": "Service used for the plugin's <i>commands</i>"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Selection of languages available for <i>global commands</i>",
+                    "target": "Selection of languages available for <i>global commands</i>"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Determine how API keys will be stored on the device",
+                    "target": "Determine how API keys will be stored on the device"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Only the selected services will be visible in settings, modals and commands",
+                    "target": "Only the selected services will be visible in settings, modals and commands"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "When a glossary entry is added or updated,<br>an entry will be added or updated for the reverse language pair as well",
+                    "target": "When a glossary entry is added or updated,<br>an entry will be added or updated for the reverse language pair as well"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "When you're finished with editing your glossary, sync it to selected translation service",
+                    "target": "When you're finished with editing your glossary, sync it to selected translation service"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Install Bergamot translation engine (size: 5.00MiB)",
+                    "target": "Install Bergamot translation engine (size: 5.00MiB)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "API key for translation service",
+                    "target": "API key for translation service"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "ID used for translation service",
+                    "target": "ID used for translation service"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "If applicable, set the issue region of the API key",
+                    "target": "If applicable, set the issue region of the API key"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Enter the URL of the translation service",
+                    "target": "Enter the URL of the translation service"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Enter an alternative service domain",
+                    "target": "Enter an alternative service domain"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Select which model to use for translation",
+                    "target": "Select which model to use for translation"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Ensure that the translation service is set-up properly",
+                    "target": "Ensure that the translation service is set-up properly"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "How long after the user stops typing should the translation be performed (in milliseconds)",
+                    "target": "How long after the user stops typing should the translation be performed (in milliseconds)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Update the list of languages that can be used for the server-side glossary",
+                    "target": "Update the list of languages that can be used for the server-side glossary"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Determine if sentences should be split into separate lines",
+                    "target": "Determine if sentences should be split into separate lines"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Do not change the formatting of the source text",
+                    "target": "Do not change the formatting of the source text"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "How formal should the translation be",
+                    "target": "How formal should the translation be"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "If profanity should be filtered out of the translation",
+                    "target": "If profanity should be filtered out of the translation"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The type of marker to use when masking profanity",
+                    "target": "The type of marker to use when masking profanity"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Translate text as it is being typed",
+                    "target": "Translate text as it is being typed"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Languages available when using the 'Selection Mode' filter",
+                    "target": "Languages available when using the 'Selection Mode' filter"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Update the list of available languages",
+                    "target": "Update the list of available languages"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Set the service used for <i>this</i> view",
+                    "target": "Set the service used for <i>this</i> view"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Replace words with their glossary translation",
+                    "target": "Replace words with their glossary translation"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Set which languages are visible for this view",
+                    "target": "Set which languages are visible for this view"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "info",
+                    "source": "API keys will not be saved to data.json, keys are only stored locally",
+                    "target": "API keys will not be saved to data.json, keys are only stored locally"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "info",
+                    "source": "API keys will be cleared when Obsidian is closed",
+                    "target": "API keys will be cleared when Obsidian is closed"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "This should not ever be called",
+                    "target": "This should not ever be called"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "FastText is not installed",
+                    "target": "FastText is not installed"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Translation service is not validated",
+                    "target": "Translation service is not validated"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "No text was provided",
+                    "target": "No text was provided"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Language detection failed:\n\t(Could not detect language)",
+                    "target": "Language detection failed:\n\t(Could not detect language)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Bergamot is not installed",
+                    "target": "Bergamot is not installed"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "No target language was provided",
+                    "target": "No target language was provided"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "API key was not specified",
+                    "target": "API key was not specified"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Bergamot service setup failed",
+                    "target": "Bergamot service setup failed"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Automatic language detection is not supported",
+                    "target": "Automatic language detection is not supported"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Could not detect language",
+                    "target": "Could not detect language"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Invalid API key",
+                    "target": "Invalid API key"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Request timed out, please try again later",
+                    "target": "Request timed out, please try again later"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Unauthorized user, check credentials",
+                    "target": "Unauthorized user, check credentials"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Required parameter is missing [OPEN ISSUE ON GITHUB]",
+                    "target": "Required parameter is missing [OPEN ISSUE ON GITHUB]"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Invalid signature [OPEN ISSUE ON GITHUB]",
+                    "target": "Invalid signature [OPEN ISSUE ON GITHUB]"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Too many requests, please try again later",
+                    "target": "Too many requests, please try again later"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Insufficient balance, please check your account",
+                    "target": "Insufficient balance, please check your account"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Frequent long queries, please try again later",
+                    "target": "Frequent long queries, please try again later"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Client IP is not whitelisted",
+                    "target": "Client IP is not whitelisted"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Target language is not supported",
+                    "target": "Target language is not supported"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Service unavailable, please try again later",
+                    "target": "Service unavailable, please try again later"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Certification failed/invalid, please check certification",
+                    "target": "Certification failed/invalid, please check certification"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "App ID was not specified",
+                    "target": "App ID was not specified"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Missing required parameter",
+                    "target": "Missing required parameter"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Unsupported language type",
+                    "target": "Unsupported language type"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Translated text is too long",
+                    "target": "Translated text is too long"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Unsupported API type",
+                    "target": "Unsupported API type"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Unsupported signature type",
+                    "target": "Unsupported signature type"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Unsupported response type",
+                    "target": "Unsupported response type"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Unsupported transport encryption type",
+                    "target": "Unsupported transport encryption type"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Invalid app ID",
+                    "target": "Invalid app ID"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "No application of related service",
+                    "target": "No application of related service"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Invalid developer account",
+                    "target": "Invalid developer account"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Invalid request service",
+                    "target": "Invalid request service"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Decryption failed (DES/BASE64/URLDecode error)",
+                    "target": "Decryption failed (DES/BASE64/URLDecode error)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Signature verification failed, possibly query encoding error",
+                    "target": "Signature verification failed, possibly query encoding error"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Access IP is not in list of accessible IPs",
+                    "target": "Access IP is not in list of accessible IPs"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Requested interface inconsistent with platform type of application",
+                    "target": "Requested interface inconsistent with platform type of application"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Signature verification failed due to invalid timestamp",
+                    "target": "Signature verification failed due to invalid timestamp"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Dictionary lookup failed",
+                    "target": "Dictionary lookup failed"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Translation query failed",
+                    "target": "Translation query failed"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Unknown error server-side",
+                    "target": "Unknown error server-side"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Session idle for too long, timed out",
+                    "target": "Session idle for too long, timed out"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Domain parameter error",
+                    "target": "Domain parameter error"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Insufficient account balance",
+                    "target": "Insufficient account balance"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Offlinesdk is not available",
+                    "target": "Offlinesdk is not available"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Access frequency is too high, please try again later",
+                    "target": "Access frequency is too high, please try again later"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Too many big requests, please try again later",
+                    "target": "Too many big requests, please try again later"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Access frequency limited",
+                    "target": "Access frequency limited"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "FastText service setup failed.",
+                    "target": "FastText service setup failed."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Host was not specified",
+                    "target": "Host was not specified"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Invalid API key or host",
+                    "target": "Invalid API key or host"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "No file was selected",
+                    "target": "No file was selected"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "No translation service available",
+                    "target": "No translation service available"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Invalid translation type",
+                    "target": "Invalid translation type"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Translation service is not available",
+                    "target": "Translation service is not available"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Detection service is not available",
+                    "target": "Detection service is not available"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Old Church Slavonic",
+                    "target": "Old Church Slavonic"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Western Frisian",
+                    "target": "Western Frisian"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Scottish Gaelic",
+                    "target": "Scottish Gaelic"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Guaraní",
+                    "target": "Guaraní"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Hiri Motu",
+                    "target": "Hiri Motu"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Māori",
+                    "target": "Māori"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Norwegian Bokmål",
+                    "target": "Norwegian Bokmål"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Northern Ndebele",
+                    "target": "Northern Ndebele"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Norwegian Nynorsk",
+                    "target": "Norwegian Nynorsk"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Southern Ndebele",
+                    "target": "Southern Ndebele"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Pāli",
+                    "target": "Pāli"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Northern Sami",
+                    "target": "Northern Sami"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Southern Sotho",
+                    "target": "Southern Sotho"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Volapük",
+                    "target": "Volapük"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "General appearance settings",
+                    "target": "General appearance settings"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Enable plugin animations",
+                    "target": "Enable plugin animations"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Garble sensitive data",
+                    "target": "Garble sensitive data"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Hide shortcut tooltips",
+                    "target": "Hide shortcut tooltips"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Translation View Defaults",
+                    "target": "Translation View Defaults"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Change default quicksettings",
+                    "target": "Change default quicksettings"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Change default layout",
+                    "target": "Change default layout"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Change default <b>left</b> quickactions",
+                    "target": "Change default <b>left</b> quickactions"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Change default <b>right</b> quickactions",
+                    "target": "Change default <b>right</b> quickactions"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Hide attribution info",
+                    "target": "Hide attribution info"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Always use FastText",
+                    "target": "Always use FastText"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Setup local language detection",
+                    "target": "Setup local language detection"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Glossary preference",
+                    "target": "Glossary preference"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Case insensitive glossary",
+                    "target": "Case insensitive glossary"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Select target language",
+                    "target": "Select target language"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Apply glossary",
+                    "target": "Apply glossary"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Switch button action",
+                    "target": "Switch button action"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Translate action",
+                    "target": "Translate action"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Default source language",
+                    "target": "Default source language"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Default target language",
+                    "target": "Default target language"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Translation Service",
+                    "target": "Translation Service"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Filter language selection",
+                    "target": "Filter language selection"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Language display name",
+                    "target": "Language display name"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Storage settings for plugin authentication data",
+                    "target": "Storage settings for plugin authentication data"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Filter services",
+                    "target": "Filter services"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add & Update terms in both directions",
+                    "target": "Add & Update terms in both directions"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sync glossary configuration",
+                    "target": "Sync glossary configuration"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Setup local translation",
+                    "target": "Setup local translation"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Manage Bergamot models",
+                    "target": "Manage Bergamot models"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "API Key",
+                    "target": "API Key"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "App ID",
+                    "target": "App ID"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Custom domain",
+                    "target": "Custom domain"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Translation delay",
+                    "target": "Translation delay"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Update Glossary Languages",
+                    "target": "Update Glossary Languages"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Service-specific options",
+                    "target": "Service-specific options"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Split sentences",
+                    "target": "Split sentences"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Preserve formatting",
+                    "target": "Preserve formatting"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Profanity filter",
+                    "target": "Profanity filter"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Profanity marker",
+                    "target": "Profanity marker"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Service set-up",
+                    "target": "Service set-up"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Translator settings",
+                    "target": "Translator settings"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Automatic translate",
+                    "target": "Automatic translate"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Language selection",
+                    "target": "Language selection"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Update Languages",
+                    "target": "Update Languages"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Filter mode",
+                    "target": "Filter mode"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open translation view",
+                    "target": "Open translation view"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Change Translator Service",
+                    "target": "Change Translator Service"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Translate note to new file",
+                    "target": "Translate note to new file"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Translate note and replace current file",
+                    "target": "Translate note and replace current file"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Translate selection (choose language)",
+                    "target": "Translate selection (choose language)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Translate selection (default language)",
+                    "target": "Translate selection (default language)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Detect language of selection",
+                    "target": "Detect language of selection"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Focus on translation view",
+                    "target": "Focus on translation view"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Type here...",
+                    "target": "Type here..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Asia Pacific",
+                    "target": "Asia Pacific"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Australia Central",
+                    "target": "Australia Central"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Australia Central 2",
+                    "target": "Australia Central 2"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Australia East",
+                    "target": "Australia East"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Australia Southeast",
+                    "target": "Australia Southeast"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Brazil South",
+                    "target": "Brazil South"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Brazil Southeast",
+                    "target": "Brazil Southeast"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Canada Central",
+                    "target": "Canada Central"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Canada East",
+                    "target": "Canada East"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Central India",
+                    "target": "Central India"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Central US",
+                    "target": "Central US"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Central US EUAP",
+                    "target": "Central US EUAP"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "East Asia",
+                    "target": "East Asia"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "East US",
+                    "target": "East US"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "East US 2",
+                    "target": "East US 2"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "East US 2 EUAP",
+                    "target": "East US 2 EUAP"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "France Central",
+                    "target": "France Central"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "France South",
+                    "target": "France South"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Germany North",
+                    "target": "Germany North"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Germany West Central",
+                    "target": "Germany West Central"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Japan East",
+                    "target": "Japan East"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Japan West",
+                    "target": "Japan West"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Korea Central",
+                    "target": "Korea Central"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Korea South",
+                    "target": "Korea South"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "North Central US",
+                    "target": "North Central US"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "North Europe",
+                    "target": "North Europe"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Norway East",
+                    "target": "Norway East"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Norway West",
+                    "target": "Norway West"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "South Africa",
+                    "target": "South Africa"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "South Africa North",
+                    "target": "South Africa North"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "South Africa West",
+                    "target": "South Africa West"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "South Central US",
+                    "target": "South Central US"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "South India",
+                    "target": "South India"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Southeast Asia",
+                    "target": "Southeast Asia"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Sweden Central",
+                    "target": "Sweden Central"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Switzerland North",
+                    "target": "Switzerland North"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Switzerland West",
+                    "target": "Switzerland West"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "UAE Central",
+                    "target": "UAE Central"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "UAE North",
+                    "target": "UAE North"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "UK South",
+                    "target": "UK South"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "UK West",
+                    "target": "UK West"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "United States",
+                    "target": "United States"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "West Central US",
+                    "target": "West Central US"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "West Europe",
+                    "target": "West Europe"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "West India",
+                    "target": "West India"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "West US",
+                    "target": "West US"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "West US 2",
+                    "target": "West US 2"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "West US 3",
+                    "target": "West US 3"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Hong Kong",
+                    "target": "Hong Kong"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Shanghai (Financial zone)",
+                    "target": "Shanghai (Financial zone)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Shenzhen (Financial zone)",
+                    "target": "Shenzhen (Financial zone)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Silicon Valley",
+                    "target": "Silicon Valley"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "custom domain",
+                    "target": "custom domain"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "GPT 3.5",
+                    "target": "GPT 3.5"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "GPT 3.5 (16K context)",
+                    "target": "GPT 3.5 (16K context)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "GPT 4",
+                    "target": "GPT 4"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "GPT 4 (32K context)",
+                    "target": "GPT 4 (32K context)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Plaintext (no security)",
+                    "target": "Plaintext (no security)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Encrypt with password",
+                    "target": "Encrypt with password"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Stored in local storage",
+                    "target": "Stored in local storage"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Stored for single session",
+                    "target": "Stored for single session"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Change Service",
+                    "target": "Change Service"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Toggle Auto-Translate",
+                    "target": "Toggle Auto-Translate"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Toggle Glossary",
+                    "target": "Toggle Glossary"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Change Layout",
+                    "target": "Change Layout"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Change Filter",
+                    "target": "Change Filter"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Open Settings",
+                    "target": "Open Settings"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Clear Text Fields",
+                    "target": "Clear Text Fields"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Add Quicksettings",
+                    "target": "Add Quicksettings"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Alter layout",
+                    "target": "Alter layout"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Add Quickactions",
+                    "target": "Add Quickactions"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Show attribution info",
+                    "target": "Show attribution info"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Detect Language (English)",
+                    "target": "Detect Language (English)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Disabling this setting might introduce some visual bugs",
+                    "target": "Disabling this setting might introduce some visual bugs"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Useful for sharing a screenshot of your settings without showing the secret data",
+                    "target": "Useful for sharing a screenshot of your settings without showing the secret data"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Both online and local",
+                    "target": "Both online and local"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Only online",
+                    "target": "Only online"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Only local",
+                    "target": "Only local"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Switch language and text",
+                    "target": "Switch language and text"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Switch text",
+                    "target": "Switch text"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Switch languages",
+                    "target": "Switch languages"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Replace input with translation",
+                    "target": "Replace input with translation"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Translation added below input",
+                    "target": "Translation added below input"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Copy to clipboard",
+                    "target": "Copy to clipboard"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Detect automatically",
+                    "target": "Detect automatically"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Most recently used",
+                    "target": "Most recently used"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Display language",
+                    "target": "Display language"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Manually select language",
+                    "target": "Manually select language"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Setting applies to global commands (e.g. translating selections) and to newly opened translation views",
+                    "target": "Setting applies to global commands (e.g. translating selections) and to newly opened translation views"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "This option requires <b>FastText</b> to resolve the language of the input text",
+                    "target": "This option requires <b>FastText</b> to resolve the language of the input text"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "All languages",
+                    "target": "All languages"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Spellchecker languages",
+                    "target": "Spellchecker languages"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Manually selected languages",
+                    "target": "Manually selected languages"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Native language",
+                    "target": "Native language"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Decrypt API keys",
+                    "target": "Decrypt API keys"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Used for the editor context menu and translating files",
+                    "target": "Used for the editor context menu and translating files"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "REPORT BUG",
+                    "target": "REPORT BUG"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Sync glossary",
+                    "target": "Sync glossary"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "If the online glossary does not support a specific language pair, or if the service does not support online glossaries at all, glossary entries <i>can</i> be applied locally if <b>`Local Glossary`</b> setting is enabled",
+                    "target": "If the online glossary does not support a specific language pair, or if the service does not support online glossaries at all, glossary entries <i>can</i> be applied locally if <b>`Local Glossary`</b> setting is enabled"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Automatic language detection is <b>disabled</b>, install FastText to enable this feature",
+                    "target": "Automatic language detection is <b>disabled</b>, install FastText to enable this feature"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "<b>Disclaimer:</b> The engine was recompiled by me to a newer version, as no up-to-date official binary is available",
+                    "target": "<b>Disclaimer:</b> The engine was recompiled by me to a newer version, as no up-to-date official binary is available"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "ⓘ Sign up for an API key here",
+                    "target": "ⓘ Sign up for an API key here"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "API key is still encrypted",
+                    "target": "API key is still encrypted"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "ⓘ You can host this service locally",
+                    "target": "ⓘ You can host this service locally"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "ⓘ GPT-4 can be more expensive but result in more accurate translations",
+                    "target": "ⓘ GPT-4 can be more expensive but result in more accurate translations"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Do not split sentences",
+                    "target": "Do not split sentences"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Split sentences on punctuation",
+                    "target": "Split sentences on punctuation"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Split sentences on newlines",
+                    "target": "Split sentences on newlines"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Split sentences on both",
+                    "target": "Split sentences on both"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Not all languages support formality",
+                    "target": "Not all languages support formality"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "More formal",
+                    "target": "More formal"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Less formal",
+                    "target": "Less formal"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Do not filter profanity",
+                    "target": "Do not filter profanity"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Mask profanity with marker",
+                    "target": "Mask profanity with marker"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "HTML tag",
+                    "target": "HTML tag"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "May result in the character quota of the service being spent more quickly",
+                    "target": "May result in the character quota of the service being spent more quickly"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Detect Language",
+                    "target": "Detect Language"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "The delay for the automatic translation can be set in the global translation service settings",
+                    "target": "The delay for the automatic translation can be set in the global translation service settings"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Global 'glossary' option has not been activated yet, you can enable it in the 'Functionality' settings tab",
+                    "target": "Global 'glossary' option has not been activated yet, you can enable it in the 'Functionality' settings tab"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Manual language selection can be set in the service's settings",
+                    "target": "Manual language selection can be set in the service's settings"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Show all available languages",
+                    "target": "Show all available languages"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Show only spellchecker languages",
+                    "target": "Show only spellchecker languages"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Show manually selected languages",
+                    "target": "Show manually selected languages"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Automatic layout",
+                    "target": "Automatic layout"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Vertical layout",
+                    "target": "Vertical layout"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Mixed layout",
+                    "target": "Mixed layout"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Horizontal layout",
+                    "target": "Horizontal layout"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Delete action",
+                    "target": "Delete action"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Open service's settings",
+                    "target": "Open service's settings"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "API keys are still encrypted",
+                    "target": "API keys are still encrypted"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Update languages",
+                    "target": "Update languages"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "error(\"Error: translator locale not found\",Pu.moment.locale()),Mu&&Mu[a]||Cu[a]||a}var $d=require(\"obsidian\")",
+                    "target": "error(\"Error: translator locale not found\",Pu.moment.locale()),Mu&&Mu[a]||Cu[a]||a}var $d=require(\"obsidian\")"
+                },
+                {
+                    "source": "log(\"Error decrypting: password is incorrect\")",
+                    "target": "log(\"Error decrypting: password is incorrect\")"
+                },
+                {
+                    "source": "log(\"Error loading wasm module.\")",
+                    "target": "log(\"Error loading wasm module.\")"
+                },
+                {
+                    "source": "log(`Destructing model '${e}'`)",
+                    "target": "log(`Destructing model '${e}'`)"
+                },
+                {
+                    "source": "Notice(\"Passwords do not match.\")",
+                    "target": "Notice(\"Passwords do not match.\")"
+                },
+                {
+                    "source": "Notice(\"Password is invalid, keys are still encrypted\")",
+                    "target": "Notice(\"Password is invalid, keys are still encrypted\")"
+                },
+                {
+                    "source": "setPlaceholder(\"Select a translation service\")",
+                    "target": "setPlaceholder(\"Select a translation service\")"
+                },
+                {
+                    "source": "Notice(`Detected languages:\n\t${s.join(`\n\t`)",
+                    "target": "Notice(`Detected languages:\n\t${s.join(`\n\t`)"
+                },
+                {
+                    "source": "setPlaceholder(\"Translate to...\")",
+                    "target": "setPlaceholder(\"Translate to...\")"
+                },
+                {
+                    "source": "setTitle(\"Set as default\")",
+                    "target": "setTitle(\"Set as default\")"
+                },
+                {
+                    "source": "setTitle(\"Hide service\")",
+                    "target": "setTitle(\"Hide service\")"
+                },
+                {
+                    "source": "setTitle(\"Add to glossary\")",
+                    "target": "setTitle(\"Add to glossary\")"
+                },
+                {
+                    "source": "setTitle(\"Translate note to new file\")",
+                    "target": "setTitle(\"Translate note to new file\")"
+                },
+                {
+                    "source": "setTitle(\"Detect Language\")",
+                    "target": "setTitle(\"Detect Language\")"
+                },
+                {
+                    "source": "error(`Service ${t} not found`)",
+                    "target": "error(`Service ${t} not found`)"
+                },
+                {
+                    "source": "name:\"Old Church Slavonic\"",
+                    "target": "name:\"Old Church Slavonic\""
+                },
+                {
+                    "source": "name:\"Western Frisian\"",
+                    "target": "name:\"Western Frisian\""
+                },
+                {
+                    "source": "name:\"Scottish Gaelic\"",
+                    "target": "name:\"Scottish Gaelic\""
+                },
+                {
+                    "source": "name:\"Hiri Motu\"",
+                    "target": "name:\"Hiri Motu\""
+                },
+                {
+                    "source": "name:\"Norwegian Bokm\\xE5l\"",
+                    "target": "name:\"Norwegian Bokm\\xE5l\""
+                },
+                {
+                    "source": "name:\"Northern Ndebele\"",
+                    "target": "name:\"Northern Ndebele\""
+                },
+                {
+                    "source": "name:\"Norwegian Nynorsk\"",
+                    "target": "name:\"Norwegian Nynorsk\""
+                },
+                {
+                    "source": "name:\"Southern Ndebele\"",
+                    "target": "name:\"Southern Ndebele\""
+                },
+                {
+                    "source": "name:\"Northern Sami\"",
+                    "target": "name:\"Northern Sami\""
+                },
+                {
+                    "source": "name:\"Southern Sotho\"",
+                    "target": "name:\"Southern Sotho\""
+                },
+                {
+                    "source": "name=\"Layer 1\"",
+                    "target": "name=\"Layer 1\""
+                },
+                {
+                    "source": "name:\"DEBUG (Error)\"",
+                    "target": "name:\"DEBUG (Error)\""
+                },
+                {
+                    "source": "name:\"Google Translate\"",
+                    "target": "name:\"Google Translate\""
+                },
+                {
+                    "source": "name:\"Azure Translator\"",
+                    "target": "name:\"Azure Translator\""
+                },
+                {
+                    "source": "text:\"Asia Pacific\"",
+                    "target": "text:\"Asia Pacific\""
+                },
+                {
+                    "source": "text:\"Australia Central\"",
+                    "target": "text:\"Australia Central\""
+                },
+                {
+                    "source": "text:\"Australia Central 2\"",
+                    "target": "text:\"Australia Central 2\""
+                },
+                {
+                    "source": "text:\"Australia East\"",
+                    "target": "text:\"Australia East\""
+                },
+                {
+                    "source": "text:\"Australia Southeast\"",
+                    "target": "text:\"Australia Southeast\""
+                },
+                {
+                    "source": "text:\"Brazil South\"",
+                    "target": "text:\"Brazil South\""
+                },
+                {
+                    "source": "text:\"Brazil Southeast\"",
+                    "target": "text:\"Brazil Southeast\""
+                },
+                {
+                    "source": "text:\"Canada Central\"",
+                    "target": "text:\"Canada Central\""
+                },
+                {
+                    "source": "text:\"Canada East\"",
+                    "target": "text:\"Canada East\""
+                },
+                {
+                    "source": "text:\"Central India\"",
+                    "target": "text:\"Central India\""
+                },
+                {
+                    "source": "text:\"Central US\"",
+                    "target": "text:\"Central US\""
+                },
+                {
+                    "source": "text:\"Central US EUAP\"",
+                    "target": "text:\"Central US EUAP\""
+                },
+                {
+                    "source": "text:\"East Asia\"",
+                    "target": "text:\"East Asia\""
+                },
+                {
+                    "source": "text:\"East US\"",
+                    "target": "text:\"East US\""
+                },
+                {
+                    "source": "text:\"East US 2\"",
+                    "target": "text:\"East US 2\""
+                },
+                {
+                    "source": "text:\"East US 2 EUAP\"",
+                    "target": "text:\"East US 2 EUAP\""
+                },
+                {
+                    "source": "text:\"France Central\"",
+                    "target": "text:\"France Central\""
+                },
+                {
+                    "source": "text:\"France South\"",
+                    "target": "text:\"France South\""
+                },
+                {
+                    "source": "text:\"Germany North\"",
+                    "target": "text:\"Germany North\""
+                },
+                {
+                    "source": "text:\"Germany West Central\"",
+                    "target": "text:\"Germany West Central\""
+                },
+                {
+                    "source": "text:\"Japan East\"",
+                    "target": "text:\"Japan East\""
+                },
+                {
+                    "source": "text:\"Japan West\"",
+                    "target": "text:\"Japan West\""
+                },
+                {
+                    "source": "text:\"Korea Central\"",
+                    "target": "text:\"Korea Central\""
+                },
+                {
+                    "source": "text:\"Korea South\"",
+                    "target": "text:\"Korea South\""
+                },
+                {
+                    "source": "text:\"North Central US\"",
+                    "target": "text:\"North Central US\""
+                },
+                {
+                    "source": "text:\"North Europe\"",
+                    "target": "text:\"North Europe\""
+                },
+                {
+                    "source": "text:\"Norway East\"",
+                    "target": "text:\"Norway East\""
+                },
+                {
+                    "source": "text:\"Norway West\"",
+                    "target": "text:\"Norway West\""
+                },
+                {
+                    "source": "text:\"South Africa\"",
+                    "target": "text:\"South Africa\""
+                },
+                {
+                    "source": "text:\"South Africa North\"",
+                    "target": "text:\"South Africa North\""
+                },
+                {
+                    "source": "text:\"South Africa West\"",
+                    "target": "text:\"South Africa West\""
+                },
+                {
+                    "source": "text:\"South Central US\"",
+                    "target": "text:\"South Central US\""
+                },
+                {
+                    "source": "text:\"South India\"",
+                    "target": "text:\"South India\""
+                },
+                {
+                    "source": "text:\"Southeast Asia\"",
+                    "target": "text:\"Southeast Asia\""
+                },
+                {
+                    "source": "text:\"Sweden Central\"",
+                    "target": "text:\"Sweden Central\""
+                },
+                {
+                    "source": "text:\"Switzerland North\"",
+                    "target": "text:\"Switzerland North\""
+                },
+                {
+                    "source": "text:\"Switzerland West\"",
+                    "target": "text:\"Switzerland West\""
+                },
+                {
+                    "source": "text:\"UAE Central\"",
+                    "target": "text:\"UAE Central\""
+                },
+                {
+                    "source": "text:\"UAE North\"",
+                    "target": "text:\"UAE North\""
+                },
+                {
+                    "source": "text:\"UK South\"",
+                    "target": "text:\"UK South\""
+                },
+                {
+                    "source": "text:\"UK West\"",
+                    "target": "text:\"UK West\""
+                },
+                {
+                    "source": "text:\"United States\"",
+                    "target": "text:\"United States\""
+                },
+                {
+                    "source": "text:\"West Central US\"",
+                    "target": "text:\"West Central US\""
+                },
+                {
+                    "source": "text:\"West Europe\"",
+                    "target": "text:\"West Europe\""
+                },
+                {
+                    "source": "text:\"West India\"",
+                    "target": "text:\"West India\""
+                },
+                {
+                    "source": "text:\"West US\"",
+                    "target": "text:\"West US\""
+                },
+                {
+                    "source": "text:\"West US 2\"",
+                    "target": "text:\"West US 2\""
+                },
+                {
+                    "source": "text:\"West US 3\"",
+                    "target": "text:\"West US 3\""
+                },
+                {
+                    "source": "name:\"Yandex Translate\"",
+                    "target": "name:\"Yandex Translate\""
+                },
+                {
+                    "source": "name:\"Libre Translate\"",
+                    "target": "name:\"Libre Translate\""
+                },
+                {
+                    "source": "name:\"Fanyi QQ\"",
+                    "target": "name:\"Fanyi QQ\""
+                },
+                {
+                    "source": "text:\"Hong Kong\"",
+                    "target": "text:\"Hong Kong\""
+                },
+                {
+                    "source": "text:\"Shanghai (Financial zone)\"",
+                    "target": "text:\"Shanghai (Financial zone)\""
+                },
+                {
+                    "source": "text:\"Shenzhen (Financial zone)\"",
+                    "target": "text:\"Shenzhen (Financial zone)\""
+                },
+                {
+                    "source": "text:\"Silicon Valley\"",
+                    "target": "text:\"Silicon Valley\""
+                },
+                {
+                    "source": "name:\"Fanyi Youdao\"",
+                    "target": "name:\"Fanyi Youdao\""
+                },
+                {
+                    "source": "name:\"Fanyi Baidu\"",
+                    "target": "name:\"Fanyi Baidu\""
+                },
+                {
+                    "source": "name:\"Lingva Translate\"",
+                    "target": "name:\"Lingva Translate\""
+                },
+                {
+                    "source": "text:\"custom domain\"",
+                    "target": "text:\"custom domain\""
+                },
+                {
+                    "source": "name:\"OpenAI Translator\"",
+                    "target": "name:\"OpenAI Translator\""
+                },
+                {
+                    "source": "text:\"GPT 3.5\"",
+                    "target": "text:\"GPT 3.5\""
+                },
+                {
+                    "source": "text:\"GPT 3.5 (16K context)\"",
+                    "target": "text:\"GPT 3.5 (16K context)\""
+                },
+                {
+                    "source": "text:\"GPT 4\"",
+                    "target": "text:\"GPT 4\""
+                },
+                {
+                    "source": "text:\"GPT 4 (32K context)\"",
+                    "target": "text:\"GPT 4 (32K context)\""
+                },
+                {
+                    "source": "text:\"Plaintext (no security)\"",
+                    "target": "text:\"Plaintext (no security)\""
+                },
+                {
+                    "source": "text:\"Encrypt with password\"",
+                    "target": "text:\"Encrypt with password\""
+                },
+                {
+                    "source": "text:\"Stored in local storage\"",
+                    "target": "text:\"Stored in local storage\""
+                },
+                {
+                    "source": "text:\"Stored for single session\"",
+                    "target": "text:\"Stored for single session\""
+                },
+                {
+                    "source": "text:\"Change Service\"",
+                    "target": "text:\"Change Service\""
+                },
+                {
+                    "source": "text:\"Toggle Auto-Translate\"",
+                    "target": "text:\"Toggle Auto-Translate\""
+                },
+                {
+                    "source": "text:\"Toggle Glossary\"",
+                    "target": "text:\"Toggle Glossary\""
+                },
+                {
+                    "source": "text:\"Change Layout\"",
+                    "target": "text:\"Change Layout\""
+                },
+                {
+                    "source": "text:\"Change Filter\"",
+                    "target": "text:\"Change Filter\""
+                },
+                {
+                    "source": "text:\"Open Settings\"",
+                    "target": "text:\"Open Settings\""
+                },
+                {
+                    "source": "text:\"Clear Text Fields\"",
+                    "target": "text:\"Clear Text Fields\""
+                },
+                {
+                    "source": "textContent=\"Confirm password:\"",
+                    "target": "textContent=\"Confirm password:\""
+                },
+                {
+                    "source": "innerText=\"Set new password\"",
+                    "target": "innerText=\"Set new password\""
+                },
+                {
+                    "source": "text:\"Add Quicksettings\"",
+                    "target": "text:\"Add Quicksettings\""
+                },
+                {
+                    "source": "text:\"Alter layout\"",
+                    "target": "text:\"Alter layout\""
+                },
+                {
+                    "source": "text:\"Add Quickactions\"",
+                    "target": "text:\"Add Quickactions\""
+                },
+                {
+                    "source": "text:\"Show attribution info\"",
+                    "target": "text:\"Show attribution info\""
+                },
+                {
+                    "source": "text:\"Detect Language (English)\"",
+                    "target": "text:\"Detect Language (English)\""
+                },
+                {
+                    "source": "innerText=\"Alter translation view appearance\"",
+                    "target": "innerText=\"Alter translation view appearance\""
+                },
+                {
+                    "source": "name:\"General appearance settings\"",
+                    "target": "name:\"General appearance settings\""
+                },
+                {
+                    "source": "name:\"Enable plugin animations\"",
+                    "target": "name:\"Enable plugin animations\""
+                },
+                {
+                    "source": "text:\"Disabling this setting might introduce some visual bugs\"",
+                    "target": "text:\"Disabling this setting might introduce some visual bugs\""
+                },
+                {
+                    "source": "name:\"Garble sensitive data\"",
+                    "target": "name:\"Garble sensitive data\""
+                },
+                {
+                    "source": "description:\"Obfuscate sensitive data such as API keys and tokens\"",
+                    "target": "description:\"Obfuscate sensitive data such as API keys and tokens\""
+                },
+                {
+                    "source": "text:\"Useful for sharing a screenshot of your settings without showing the secret data\"",
+                    "target": "text:\"Useful for sharing a screenshot of your settings without showing the secret data\""
+                },
+                {
+                    "source": "name:\"Hide shortcut tooltips\"",
+                    "target": "name:\"Hide shortcut tooltips\""
+                },
+                {
+                    "source": "description:\"Do not show the keys required to trigger the button's shortcut\"",
+                    "target": "description:\"Do not show the keys required to trigger the button's shortcut\""
+                },
+                {
+                    "source": "name:\"Translation View Defaults\"",
+                    "target": "name:\"Translation View Defaults\""
+                },
+                {
+                    "source": "name:\"Change default quicksettings\"",
+                    "target": "name:\"Change default quicksettings\""
+                },
+                {
+                    "source": "name:\"Change default layout\"",
+                    "target": "name:\"Change default layout\""
+                },
+                {
+                    "source": "name:\"Change default <b>left</b> quickactions\"",
+                    "target": "name:\"Change default <b>left</b> quickactions\""
+                },
+                {
+                    "source": "name:\"Change default <b>right</b> quickactions\"",
+                    "target": "name:\"Change default <b>right</b> quickactions\""
+                },
+                {
+                    "source": "name:\"Hide attribution info\"",
+                    "target": "name:\"Hide attribution info\""
+                },
+                {
+                    "source": "name:\"Always use FastText\"",
+                    "target": "name:\"Always use FastText\""
+                },
+                {
+                    "source": "description:\"FastText will be used as the default language detection service\"",
+                    "target": "description:\"FastText will be used as the default language detection service\""
+                },
+                {
+                    "source": "name:\"Setup local language detection\"",
+                    "target": "name:\"Setup local language detection\""
+                },
+                {
+                    "source": "description:\"Install FastText language models for local language detection (size: 1.72MiB)\"",
+                    "target": "description:\"Install FastText language models for local language detection (size: 1.72MiB)\""
+                },
+                {
+                    "source": "name:\"Glossary preference\"",
+                    "target": "name:\"Glossary preference\""
+                },
+                {
+                    "source": "description:\"Determine whether glossary operation should be applied locally or by the online service\"",
+                    "target": "description:\"Determine whether glossary operation should be applied locally or by the online service\""
+                },
+                {
+                    "source": "name:\"Case insensitive glossary\"",
+                    "target": "name:\"Case insensitive glossary\""
+                },
+                {
+                    "source": "text:\"Both online and local\"",
+                    "target": "text:\"Both online and local\""
+                },
+                {
+                    "source": "text:\"Only online\"",
+                    "target": "text:\"Only online\""
+                },
+                {
+                    "source": "text:\"Only local\"",
+                    "target": "text:\"Only local\""
+                },
+                {
+                    "source": "text:\"Switch language and text\"",
+                    "target": "text:\"Switch language and text\""
+                },
+                {
+                    "source": "text:\"Switch text\"",
+                    "target": "text:\"Switch text\""
+                },
+                {
+                    "source": "text:\"Switch languages\"",
+                    "target": "text:\"Switch languages\""
+                },
+                {
+                    "source": "text:\"Replace input with translation\"",
+                    "target": "text:\"Replace input with translation\""
+                },
+                {
+                    "source": "text:\"Translation added below input\"",
+                    "target": "text:\"Translation added below input\""
+                },
+                {
+                    "source": "text:\"Copy to clipboard\"",
+                    "target": "text:\"Copy to clipboard\""
+                },
+                {
+                    "source": "text:\"Detect automatically\"",
+                    "target": "text:\"Detect automatically\""
+                },
+                {
+                    "source": "text:\"Most recently used\"",
+                    "target": "text:\"Most recently used\""
+                },
+                {
+                    "source": "text:\"Display language\"",
+                    "target": "text:\"Display language\""
+                },
+                {
+                    "source": "text:\"Manually select language\"",
+                    "target": "text:\"Manually select language\""
+                },
+                {
+                    "source": "name:\"Select target language\"",
+                    "target": "name:\"Select target language\""
+                },
+                {
+                    "source": "description:\"Set the default target language\"",
+                    "target": "description:\"Set the default target language\""
+                },
+                {
+                    "source": "name:\"Apply glossary\"",
+                    "target": "name:\"Apply glossary\""
+                },
+                {
+                    "source": "description:\"Translate sentences using provided glossary terms\"",
+                    "target": "description:\"Translate sentences using provided glossary terms\""
+                },
+                {
+                    "source": "text:\"Setting applies to global commands (e.g. translating selections) and to newly opened translation views\"",
+                    "target": "text:\"Setting applies to global commands (e.g. translating selections) and to newly opened translation views\""
+                },
+                {
+                    "source": "text:\"This option requires <b>FastText</b> to resolve the language of the input text\"",
+                    "target": "text:\"This option requires <b>FastText</b> to resolve the language of the input text\""
+                },
+                {
+                    "source": "name:\"Switch button action\"",
+                    "target": "name:\"Switch button action\""
+                },
+                {
+                    "source": "description:\"<b>Translation view</b>: determine which action will be executed when pressing the language switch button\"",
+                    "target": "description:\"<b>Translation view</b>: determine which action will be executed when pressing the language switch button\""
+                },
+                {
+                    "source": "name:\"Translate action\"",
+                    "target": "name:\"Translate action\""
+                },
+                {
+                    "source": "description:\"Determines how the text selection will be translated using translate <i>commands</i>\"",
+                    "target": "description:\"Determines how the text selection will be translated using translate <i>commands</i>\""
+                },
+                {
+                    "source": "name:\"Default source language\"",
+                    "target": "name:\"Default source language\""
+                },
+                {
+                    "source": "description:\"This will be the default source language used when opening a <i>translation view</i>\"",
+                    "target": "description:\"This will be the default source language used when opening a <i>translation view</i>\""
+                },
+                {
+                    "source": "name:\"Default target language\"",
+                    "target": "name:\"Default target language\""
+                },
+                {
+                    "source": "description:\"This will determine which language will be translated to by default\"",
+                    "target": "description:\"This will determine which language will be translated to by default\""
+                },
+                {
+                    "source": "text:\"All languages\"",
+                    "target": "text:\"All languages\""
+                },
+                {
+                    "source": "text:\"Spellchecker languages\"",
+                    "target": "text:\"Spellchecker languages\""
+                },
+                {
+                    "source": "text:\"Manually selected languages\"",
+                    "target": "text:\"Manually selected languages\""
+                },
+                {
+                    "source": "text:\"Native language\"",
+                    "target": "text:\"Native language\""
+                },
+                {
+                    "source": "description:\"Update locally stored password\"",
+                    "target": "description:\"Update locally stored password\""
+                },
+                {
+                    "source": "text:\"Decrypt API keys\"",
+                    "target": "text:\"Decrypt API keys\""
+                },
+                {
+                    "source": "name:\"Translation Service\"",
+                    "target": "name:\"Translation Service\""
+                },
+                {
+                    "source": "description:\"Service used for the plugin's <i>commands</i>\"",
+                    "target": "description:\"Service used for the plugin's <i>commands</i>\""
+                },
+                {
+                    "source": "text:\"Used for the editor context menu and translating files\"",
+                    "target": "text:\"Used for the editor context menu and translating files\""
+                },
+                {
+                    "source": "name:\"Filter language selection\"",
+                    "target": "name:\"Filter language selection\""
+                },
+                {
+                    "source": "description:\"Selection of languages available for <i>global commands</i>\"",
+                    "target": "description:\"Selection of languages available for <i>global commands</i>\""
+                },
+                {
+                    "source": "name:\"Language display name\"",
+                    "target": "name:\"Language display name\""
+                },
+                {
+                    "source": "description:`Example: <i>${a[2]}</i>`",
+                    "target": "description:`Example: <i>${a[2]}</i>`"
+                },
+                {
+                    "source": "name:\"Storage settings for plugin authentication data\"",
+                    "target": "name:\"Storage settings for plugin authentication data\""
+                },
+                {
+                    "source": "description:\"Determine how API keys will be stored on the device\"",
+                    "target": "description:\"Determine how API keys will be stored on the device\""
+                },
+                {
+                    "source": "name:\"Filter services\"",
+                    "target": "name:\"Filter services\""
+                },
+                {
+                    "source": "description:\"Only the selected services will be visible in settings, modals and commands\"",
+                    "target": "description:\"Only the selected services will be visible in settings, modals and commands\""
+                },
+                {
+                    "source": "text:\"REPORT BUG\"",
+                    "target": "text:\"REPORT BUG\""
+                },
+                {
+                    "source": "description=`Example: <i>${F[2]}</i>`",
+                    "target": "description=`Example: <i>${F[2]}</i>`"
+                },
+                {
+                    "source": "text:\"Sync glossary\"",
+                    "target": "text:\"Sync glossary\""
+                },
+                {
+                    "source": "name:\"Add & Update terms in both directions\"",
+                    "target": "name:\"Add & Update terms in both directions\""
+                },
+                {
+                    "source": "description:\"When a glossary entry is added or updated,<br>an entry will be added or updated for the reverse language pair as well\"",
+                    "target": "description:\"When a glossary entry is added or updated,<br>an entry will be added or updated for the reverse language pair as well\""
+                },
+                {
+                    "source": "name:\"Sync glossary configuration\"",
+                    "target": "name:\"Sync glossary configuration\""
+                },
+                {
+                    "source": "description:\"When you're finished with editing your glossary, sync it to selected translation service\"",
+                    "target": "description:\"When you're finished with editing your glossary, sync it to selected translation service\""
+                },
+                {
+                    "source": "text:\"If the online glossary does not support a specific language pair, or if the service does not support online glossaries at all, glossary entries <i>can</i> be applied locally if <b>`Local Glossary`</b> setting is enabled\"",
+                    "target": "text:\"If the online glossary does not support a specific language pair, or if the service does not support online glossaries at all, glossary entries <i>can</i> be applied locally if <b>`Local Glossary`</b> setting is enabled\""
+                },
+                {
+                    "source": "textContent=\"Press keys...\"",
+                    "target": "textContent=\"Press keys...\""
+                },
+                {
+                    "source": "name:\"Setup local translation\"",
+                    "target": "name:\"Setup local translation\""
+                },
+                {
+                    "source": "description:\"Install Bergamot translation engine (size: 5.00MiB)\"",
+                    "target": "description:\"Install Bergamot translation engine (size: 5.00MiB)\""
+                },
+                {
+                    "source": "text:\"Automatic language detection is <b>disabled</b>, install FastText to enable this feature\"",
+                    "target": "text:\"Automatic language detection is <b>disabled</b>, install FastText to enable this feature\""
+                },
+                {
+                    "source": "text:\"<b>Disclaimer:</b> The engine was recompiled by me to a newer version, as no up-to-date official binary is available\"",
+                    "target": "text:\"<b>Disclaimer:</b> The engine was recompiled by me to a newer version, as no up-to-date official binary is available\""
+                },
+                {
+                    "source": "name:\"Manage Bergamot models\"",
+                    "target": "name:\"Manage Bergamot models\""
+                },
+                {
+                    "source": "name:\"API Key\"",
+                    "target": "name:\"API Key\""
+                },
+                {
+                    "source": "description:\"API key for translation service\"",
+                    "target": "description:\"API key for translation service\""
+                },
+                {
+                    "source": "text:\"\\u24D8 Sign up for an API key here\"",
+                    "target": "text:\"\\u24D8 Sign up for an API key here\""
+                },
+                {
+                    "source": "text:\"API key is still encrypted\"",
+                    "target": "text:\"API key is still encrypted\""
+                },
+                {
+                    "source": "name:\"App ID\"",
+                    "target": "name:\"App ID\""
+                },
+                {
+                    "source": "description:\"ID used for translation service\"",
+                    "target": "description:\"ID used for translation service\""
+                },
+                {
+                    "source": "description:\"If applicable, set the issue region of the API key\"",
+                    "target": "description:\"If applicable, set the issue region of the API key\""
+                },
+                {
+                    "source": "description:\"Enter the URL of the translation service\"",
+                    "target": "description:\"Enter the URL of the translation service\""
+                },
+                {
+                    "source": "text:\"\\u24D8 You can host this service locally\"",
+                    "target": "text:\"\\u24D8 You can host this service locally\""
+                },
+                {
+                    "source": "name:\"Custom domain\"",
+                    "target": "name:\"Custom domain\""
+                },
+                {
+                    "source": "description:\"Enter an alternative service domain\"",
+                    "target": "description:\"Enter an alternative service domain\""
+                },
+                {
+                    "source": "description:\"Select which model to use for translation\"",
+                    "target": "description:\"Select which model to use for translation\""
+                },
+                {
+                    "source": "text:\"\\u24D8 GPT-4 can be more expensive but result in more accurate translations\"",
+                    "target": "text:\"\\u24D8 GPT-4 can be more expensive but result in more accurate translations\""
+                },
+                {
+                    "source": "description:\"Ensure that the translation service is set-up properly\"",
+                    "target": "description:\"Ensure that the translation service is set-up properly\""
+                },
+                {
+                    "source": "name:\"Translation delay\"",
+                    "target": "name:\"Translation delay\""
+                },
+                {
+                    "source": "description:\"How long after the user stops typing should the translation be performed (in milliseconds)\"",
+                    "target": "description:\"How long after the user stops typing should the translation be performed (in milliseconds)\""
+                },
+                {
+                    "source": "name:\"Update Glossary Languages\"",
+                    "target": "name:\"Update Glossary Languages\""
+                },
+                {
+                    "source": "description:\"Update the list of languages that can be used for the server-side glossary\"",
+                    "target": "description:\"Update the list of languages that can be used for the server-side glossary\""
+                },
+                {
+                    "source": "name:\"Service-specific options\"",
+                    "target": "name:\"Service-specific options\""
+                },
+                {
+                    "source": "name:\"Split sentences\"",
+                    "target": "name:\"Split sentences\""
+                },
+                {
+                    "source": "description:\"Determine if sentences should be split into separate lines\"",
+                    "target": "description:\"Determine if sentences should be split into separate lines\""
+                },
+                {
+                    "source": "text:\"Do not split sentences\"",
+                    "target": "text:\"Do not split sentences\""
+                },
+                {
+                    "source": "text:\"Split sentences on punctuation\"",
+                    "target": "text:\"Split sentences on punctuation\""
+                },
+                {
+                    "source": "text:\"Split sentences on newlines\"",
+                    "target": "text:\"Split sentences on newlines\""
+                },
+                {
+                    "source": "text:\"Split sentences on both\"",
+                    "target": "text:\"Split sentences on both\""
+                },
+                {
+                    "source": "name:\"Preserve formatting\"",
+                    "target": "name:\"Preserve formatting\""
+                },
+                {
+                    "source": "description:\"Do not change the formatting of the source text\"",
+                    "target": "description:\"Do not change the formatting of the source text\""
+                },
+                {
+                    "source": "description:\"How formal should the translation be\"",
+                    "target": "description:\"How formal should the translation be\""
+                },
+                {
+                    "source": "text:\"Not all languages support formality\"",
+                    "target": "text:\"Not all languages support formality\""
+                },
+                {
+                    "source": "text:\"More formal\"",
+                    "target": "text:\"More formal\""
+                },
+                {
+                    "source": "text:\"Less formal\"",
+                    "target": "text:\"Less formal\""
+                },
+                {
+                    "source": "name:\"Profanity filter\"",
+                    "target": "name:\"Profanity filter\""
+                },
+                {
+                    "source": "description:\"If profanity should be filtered out of the translation\"",
+                    "target": "description:\"If profanity should be filtered out of the translation\""
+                },
+                {
+                    "source": "text:\"Do not filter profanity\"",
+                    "target": "text:\"Do not filter profanity\""
+                },
+                {
+                    "source": "text:\"Mask profanity with marker\"",
+                    "target": "text:\"Mask profanity with marker\""
+                },
+                {
+                    "source": "name:\"Profanity marker\"",
+                    "target": "name:\"Profanity marker\""
+                },
+                {
+                    "source": "description:\"The type of marker to use when masking profanity\"",
+                    "target": "description:\"The type of marker to use when masking profanity\""
+                },
+                {
+                    "source": "text:\"HTML tag\"",
+                    "target": "text:\"HTML tag\""
+                },
+                {
+                    "source": "name:\"Service set-up\"",
+                    "target": "name:\"Service set-up\""
+                },
+                {
+                    "source": "name:\"Translator settings\"",
+                    "target": "name:\"Translator settings\""
+                },
+                {
+                    "source": "name:\"Automatic translate\"",
+                    "target": "name:\"Automatic translate\""
+                },
+                {
+                    "source": "description:\"Translate text as it is being typed\"",
+                    "target": "description:\"Translate text as it is being typed\""
+                },
+                {
+                    "source": "text:\"May result in the character quota of the service being spent more quickly\"",
+                    "target": "text:\"May result in the character quota of the service being spent more quickly\""
+                },
+                {
+                    "source": "name:\"Language selection\"",
+                    "target": "name:\"Language selection\""
+                },
+                {
+                    "source": "description:\"Languages available when using the 'Selection Mode' filter\"",
+                    "target": "description:\"Languages available when using the 'Selection Mode' filter\""
+                },
+                {
+                    "source": "name:\"Update Languages\"",
+                    "target": "name:\"Update Languages\""
+                },
+                {
+                    "source": "description:\"Update the list of available languages\"",
+                    "target": "description:\"Update the list of available languages\""
+                },
+                {
+                    "source": "text:`${n.get(te.locale)} (${Ro(te.size,!1)})${te.dev_from||te.dev_to?\" [DEV]\":\"\"}`",
+                    "target": "text:`${n.get(te.locale)} (${Ro(te.size,!1)})${te.dev_from||te.dev_to?\" [DEV]\":\"\"}`"
+                },
+                {
+                    "source": "text:`${n.get(ae.locale)} (${Ro(ae.size,!1)})${ae.dev_from||ae.dev_to?\" [DEV]\":\"\"}`",
+                    "target": "text:`${n.get(ae.locale)} (${Ro(ae.size,!1)})${ae.dev_from||ae.dev_to?\" [DEV]\":\"\"}`"
+                },
+                {
+                    "source": "text:`Detect Language (${Kt(a[18])})`",
+                    "target": "text:`Detect Language (${Kt(a[18])})`"
+                },
+                {
+                    "source": "text:\"Detect Language\"",
+                    "target": "text:\"Detect Language\""
+                },
+                {
+                    "source": "text:`Detect Language (${Kt(me[18])})`",
+                    "target": "text:`Detect Language (${Kt(me[18])})`"
+                },
+                {
+                    "source": "description:\"Set the service used for <i>this</i> view\"",
+                    "target": "description:\"Set the service used for <i>this</i> view\""
+                },
+                {
+                    "source": "text:`The 'automatic translation' setting for ${ft[a[0]].display_name} is not activated, enable it via the service's settings tab`",
+                    "target": "text:`The 'automatic translation' setting for ${ft[a[0]].display_name} is not activated, enable it via the service's settings tab`"
+                },
+                {
+                    "source": "text:\"The delay for the automatic translation can be set in the global translation service settings\"",
+                    "target": "text:\"The delay for the automatic translation can be set in the global translation service settings\""
+                },
+                {
+                    "source": "description:\"Replace words with their glossary translation\"",
+                    "target": "description:\"Replace words with their glossary translation\""
+                },
+                {
+                    "source": "text:\"Global 'glossary' option has not been activated yet, you can enable it in the 'Functionality' settings tab\"",
+                    "target": "text:\"Global 'glossary' option has not been activated yet, you can enable it in the 'Functionality' settings tab\""
+                },
+                {
+                    "source": "name:\"Filter mode\"",
+                    "target": "name:\"Filter mode\""
+                },
+                {
+                    "source": "description:\"Set which languages are visible for this view\"",
+                    "target": "description:\"Set which languages are visible for this view\""
+                },
+                {
+                    "source": "text:\"Manual language selection can be set in the service's settings\"",
+                    "target": "text:\"Manual language selection can be set in the service's settings\""
+                },
+                {
+                    "source": "text:`The 'automatic translation' setting for ${ft[O[0]].display_name} is not activated, enable it via the service's settings tab`",
+                    "target": "text:`The 'automatic translation' setting for ${ft[O[0]].display_name} is not activated, enable it via the service's settings tab`"
+                },
+                {
+                    "source": "innerText=\"Alter translation view functionality\"",
+                    "target": "innerText=\"Alter translation view functionality\""
+                },
+                {
+                    "source": "name:\"Open translation view\"",
+                    "target": "name:\"Open translation view\""
+                },
+                {
+                    "source": "name:\"Change Translator Service\"",
+                    "target": "name:\"Change Translator Service\""
+                },
+                {
+                    "source": "name:\"Translate note to new file\"",
+                    "target": "name:\"Translate note to new file\""
+                },
+                {
+                    "source": "name:\"Translate note and replace current file\"",
+                    "target": "name:\"Translate note and replace current file\""
+                },
+                {
+                    "source": "name:\"Translate selection (choose language)\"",
+                    "target": "name:\"Translate selection (choose language)\""
+                },
+                {
+                    "source": "name:\"Translate selection (default language)\"",
+                    "target": "name:\"Translate selection (default language)\""
+                },
+                {
+                    "source": "name:\"Detect language of selection\"",
+                    "target": "name:\"Detect language of selection\""
+                },
+                {
+                    "source": "name:\"Focus on translation view\"",
+                    "target": "name:\"Focus on translation view\""
+                }
+            ]
+        }
+    }
+}

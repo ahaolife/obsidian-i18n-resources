@@ -1,0 +1,1574 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "templater-obsidian",
+        "version": "1.0.0",
+        "title": "Templater",
+        "description": "Templater Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.18.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Render method description",
+                    "target": "Render method description"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Render method description and return",
+                    "target": "Render method description and return"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Render method description and parameters list",
+                    "target": "Render method description and parameters list"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Render method description, parameters list, and return",
+                    "target": "Render method description, parameters list, and return"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Turn off intellisense",
+                    "target": "Turn off intellisense"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to parse summary section",
+                    "target": "Failed to parse summary section"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Add new file regex",
+                    "target": "Add new file regex"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Add new user function",
+                    "target": "Add new user function"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Determine how you'd like to have user script intellisense render. Note values will not render if not in the script.",
+                    "target": "Determine how you'd like to have user script intellisense render. Note values will not render if not in the script."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If you like this Plugin, consider donating to support continued development.",
+                    "target": "If you like this Plugin, consider donating to support continued development."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Internal variables and functions",
+                    "target": "Internal variables and functions"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Syntax highlighting on desktop",
+                    "target": "Syntax highlighting on desktop"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Syntax highlighting on mobile",
+                    "target": "Syntax highlighting on mobile"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Automatic jump to cursor",
+                    "target": "Automatic jump to cursor"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "User script functions",
+                    "target": "User script functions"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Script files folder location",
+                    "target": "Script files folder location"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "User script intellisense",
+                    "target": "User script intellisense"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Shell binary location",
+                    "target": "Shell binary location"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Example: folder1/folder2",
+                    "target": "Example: folder1/folder2"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "File regex",
+                    "target": "File regex"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Example: /bin/bash, ...",
+                    "target": "Example: /bin/bash, ..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Function name",
+                    "target": "Function name"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Type text here",
+                    "target": "Type text here"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Configure Hotkey",
+                    "target": "Configure Hotkey"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Move up",
+                    "target": "Move up"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Move down",
+                    "target": "Move down"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Add additional file regex",
+                    "target": "Add additional file regex"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "This module exposes the app instance. Prefer to use this over the global app instance.",
+                    "target": "This module exposes the app instance. Prefer to use this over the global app instance."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "This module exposes custom made scripts, written by yourself within the script file folder location",
+                    "target": "This module exposes custom made scripts, written by yourself within the script file folder location"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "This module contains every internal function related to dates.",
+                    "target": "This module contains every internal function related to dates."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Retrieves the date.",
+                    "target": "Retrieves the date."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The format for the date. Defaults to `\"YYYY-MM-DD\"`. Refer to [format reference](https://momentjs.com/docs/#/displaying/format/).",
+                    "target": "The format for the date. Defaults to `\"YYYY-MM-DD\"`. Refer to [format reference](https://momentjs.com/docs/#/displaying/format/)."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Duration to offset the date from. If a number is provided, duration will be added to the date in days. You can also specify the offset as a string using the ISO 8601 format.",
+                    "target": "Duration to offset the date from. If a number is provided, duration will be added to the date in days. You can also specify the offset as a string using the ISO 8601 format."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The date referential, e.g. set this to the note's title.",
+                    "target": "The date referential, e.g. set this to the note's title."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The format for the reference date. Refer to [format reference](https://momentjs.com/docs/#/displaying/format/).",
+                    "target": "The format for the reference date. Refer to [format reference](https://momentjs.com/docs/#/displaying/format/)."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Retrieves tomorrow's date.",
+                    "target": "Retrieves tomorrow's date."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Retrieves yesterday's date.",
+                    "target": "Retrieves yesterday's date."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Week day number. If the locale assigns Monday as the first day of the week, `0` will be Monday, `-7` will be last week's day.",
+                    "target": "Week day number. If the locale assigns Monday as the first day of the week, `0` will be Monday, `-7` will be last week's day."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "This module contains every internal function related to files.",
+                    "target": "This module contains every internal function related to files."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The filename of the new file, defaults to \"Untitled\".",
+                    "target": "The filename of the new file, defaults to \"Untitled\"."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Whether to open or not the newly created file. Warning: if you use this option, since commands are executed asynchronously, the file can be opened first and then other commands are appended to that new file and not the previous file.",
+                    "target": "Whether to open or not the newly created file. Warning: if you use this option, since commands are executed asynchronously, the file can be opened first and then other commands are appended to that new file and not the previous file."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The folder to put the new file in, defaults to Obsidian's default location. If you want the file to appear in a different folder, specify it with `\"PATH/TO/FOLDERNAME\"` or `tp.app.vault.getAbstractFileByPath(\"PATH/TO/FOLDERNAME\")`.",
+                    "target": "The folder to put the new file in, defaults to Obsidian's default location. If you want the file to appear in a different folder, specify it with `\"PATH/TO/FOLDERNAME\"` or `tp.app.vault.getAbstractFileByPath(\"PATH/TO/FOLDERNAME\")`."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Retrieves the file's creation date.",
+                    "target": "Retrieves the file's creation date."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The format for the date. Defaults to `\"YYYY-MM-DD HH:mm\"`. Refer to [format reference](https://momentjs.com/docs/#/displaying/format/).",
+                    "target": "The format for the date. Defaults to `\"YYYY-MM-DD HH:mm\"`. Refer to [format reference](https://momentjs.com/docs/#/displaying/format/)."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The order of the different cursors jump, e.g. it will jump from 1 to 2 to 3, and so on.\nIf you specify multiple tp.file.cursor with the same order, the editor will switch to multi-cursor.\n",
+                    "target": "The order of the different cursors jump, e.g. it will jump from 1 to 2 to 3, and so on.\nIf you specify multiple tp.file.cursor with the same order, the editor will switch to multi-cursor.\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Appends some content after the active cursor in the file.",
+                    "target": "Appends some content after the active cursor in the file."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The content to append after the active cursor.",
+                    "target": "The content to append after the active cursor."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Check to see if a file exists by it's file path. The full path to the file, relative to the Vault and containing the extension, must be provided.",
+                    "target": "Check to see if a file exists by it's file path. The full path to the file, relative to the Vault and containing the extension, must be provided."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The full file path of the file we want to check existence for.",
+                    "target": "The full file path of the file we want to check existence for."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Search for a file and returns its `TFile` instance.",
+                    "target": "Search for a file and returns its `TFile` instance."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The filename we want to search and resolve as a `TFile`.",
+                    "target": "The filename we want to search and resolve as a `TFile`."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Retrieves the file's folder name.",
+                    "target": "Retrieves the file's folder name."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "If set to `true`, returns the vault-absolute path of the folder. If `false`, only returns the basename of the folder (the last part). Defaults to `false`.",
+                    "target": "If set to `true`, returns the vault-absolute path of the folder. If `false`, only returns the basename of the folder (the last part). Defaults to `false`."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The link to the file to include, e.g. `\"[[MyFile]]\"`, or a TFile object. Also supports sections or blocks inclusions.",
+                    "target": "The link to the file to include, e.g. `\"[[MyFile]]\"`, or a TFile object. Also supports sections or blocks inclusions."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Retrieves the file's last modification date.",
+                    "target": "Retrieves the file's last modification date."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Moves the file to the desired vault location.",
+                    "target": "Moves the file to the desired vault location."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The new vault relative path of the file, without the file extension. Note: the new path needs to include the folder and the filename, e.g. `\"/Notes/MyNote\"`.",
+                    "target": "The new vault relative path of the file, without the file extension. Note: the new path needs to include the folder and the filename, e.g. `\"/Notes/MyNote\"`."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The file to move, defaults to the current file.",
+                    "target": "The file to move, defaults to the current file."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "If set to `true`, only retrieves the vault's relative path.",
+                    "target": "If set to `true`, only retrieves the vault's relative path."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Renames the file (keeps the same file extension).",
+                    "target": "Renames the file (keeps the same file extension)."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The new file title.",
+                    "target": "The new file title."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Retrieves the active file's text selection.",
+                    "target": "Retrieves the active file's text selection."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Retrieves the file's tags (array of string).",
+                    "target": "Retrieves the file's tags (array of string)."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Retrieves the file's title.",
+                    "target": "Retrieves the file's title."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "This modules exposes all the frontmatter variables of a file as variables.",
+                    "target": "This modules exposes all the frontmatter variables of a file as variables."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "This module exposes all the functions and classes from the Obsidian API.",
+                    "target": "This module exposes all the functions and classes from the Obsidian API."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Retrieves the clipboard's content.",
+                    "target": "Retrieves the clipboard's content."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Spawns a prompt modal and returns the user's input.",
+                    "target": "Spawns a prompt modal and returns the user's input."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Text placed above the input field.",
+                    "target": "Text placed above the input field."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "A default value for the input field.",
+                    "target": "A default value for the input field."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Throws an error if the prompt is canceled, instead of returning a `null` value.",
+                    "target": "Throws an error if the prompt is canceled, instead of returning a `null` value."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "If set to `true`, the input field will be a multiline textarea. Defaults to `false`.",
+                    "target": "If set to `true`, the input field will be a multiline textarea. Defaults to `false`."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Placeholder string of the prompt.",
+                    "target": "Placeholder string of the prompt."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Text placed at the top of the modal.",
+                    "target": "Text placed at the top of the modal."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "This modules contains every internal function related to the web (making web requests).",
+                    "target": "This modules contains every internal function related to the web (making web requests)."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Retrieves and parses the daily quote from `https://github.com/Zachatoo/quotes-database` as a callout.",
+                    "target": "Retrieves and parses the daily quote from `https://github.com/Zachatoo/quotes-database` as a callout."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Gets a random image from `https://unsplash.com/`.",
+                    "target": "Gets a random image from `https://unsplash.com/`."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Image size in the format `<width>x<height>`.",
+                    "target": "Image size in the format `<width>x<height>`."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Limits selection to photos matching a search term. Multiple search terms can be passed separated by a comma.",
+                    "target": "Limits selection to photos matching a search term. Multiple search terms can be passed separated by a comma."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Optional argument to include the specified size in the image link markdown. Defaults to false.",
+                    "target": "Optional argument to include the specified size in the image link markdown. Defaults to false."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Makes a HTTP request to the specified URL. Optionally, you can specify a path to extract specific data from the response.",
+                    "target": "Makes a HTTP request to the specified URL. Optionally, you can specify a path to extract specific data from the response."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The URL to which the HTTP request will be made.",
+                    "target": "The URL to which the HTTP request will be made."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "A path within the response JSON to extract specific data.",
+                    "target": "A path within the response JSON to extract specific data."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Jump to next cursor location",
+                    "target": "Jump to next cursor location"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Date now",
+                    "target": "Date now"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Date now with format",
+                    "target": "Date now with format"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Last week",
+                    "target": "Last week"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Next week",
+                    "target": "Next week"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Last month",
+                    "target": "Last month"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Next year",
+                    "target": "Next year"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File's title date + 1 day (tomorrow)",
+                    "target": "File's title date + 1 day (tomorrow)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File's title date - 1 day (yesterday)",
+                    "target": "File's title date - 1 day (yesterday)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Date tomorrow",
+                    "target": "Date tomorrow"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Date tomorrow with format",
+                    "target": "Date tomorrow with format"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Date yesterday",
+                    "target": "Date yesterday"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Date yesterday with format",
+                    "target": "Date yesterday with format"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "This week's Monday",
+                    "target": "This week's Monday"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Next Monday",
+                    "target": "Next Monday"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File's title Monday",
+                    "target": "File's title Monday"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File's title previous Monday",
+                    "target": "File's title previous Monday"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Get start of month from note title",
+                    "target": "Get start of month from note title"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Get end of month from note title",
+                    "target": "Get end of month from note title"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Retrieve file content",
+                    "target": "Retrieve file content"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File creation",
+                    "target": "File creation"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File creation and open created note",
+                    "target": "File creation and open created note"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File creation in current folder",
+                    "target": "File creation in current folder"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File creation in specified folder with string path",
+                    "target": "File creation in specified folder with string path"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File creation in specified folder with TFolder",
+                    "target": "File creation in specified folder with TFolder"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File creation and append link to current note",
+                    "target": "File creation and append link to current note"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File creation date",
+                    "target": "File creation date"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File creation date with format",
+                    "target": "File creation date with format"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File cursor",
+                    "target": "File cursor"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File multi-cursor",
+                    "target": "File multi-cursor"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File cursor append",
+                    "target": "File cursor append"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File existence",
+                    "target": "File existence"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File existence of current file",
+                    "target": "File existence of current file"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File find TFile",
+                    "target": "File find TFile"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File folder (Folder)",
+                    "target": "File folder (Folder)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File folder with vault-absolute path (Path/To/Folder)",
+                    "target": "File folder with vault-absolute path (Path/To/Folder)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File include",
+                    "target": "File include"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File include TFile",
+                    "target": "File include TFile"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File include section",
+                    "target": "File include section"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File include block",
+                    "target": "File include block"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File last modified date",
+                    "target": "File last modified date"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File last modified date with format",
+                    "target": "File last modified date with format"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File move",
+                    "target": "File move"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File move and rename",
+                    "target": "File move and rename"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File path",
+                    "target": "File path"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File relative path (relative to vault root)",
+                    "target": "File relative path (relative to vault root)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File rename",
+                    "target": "File rename"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File append a 2 to the file name",
+                    "target": "File append a 2 to the file name"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File selection",
+                    "target": "File selection"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File tags",
+                    "target": "File tags"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File title",
+                    "target": "File title"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Strip the Zettelkasten ID of title (if space separated)",
+                    "target": "Strip the Zettelkasten ID of title (if space separated)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Prompt with default value",
+                    "target": "Prompt with default value"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Multiline prompt",
+                    "target": "Multiline prompt"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Reuse output from prompt",
+                    "target": "Reuse output from prompt"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Suggester with mapping function (same as above example)",
+                    "target": "Suggester with mapping function (same as above example)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Suggester for files",
+                    "target": "Suggester for files"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Suggester for tags",
+                    "target": "Suggester for tags"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Reuse value from suggester",
+                    "target": "Reuse value from suggester"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Multi-suggester with mapping function (same as above example)",
+                    "target": "Multi-suggester with mapping function (same as above example)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Multi-suggester for files",
+                    "target": "Multi-suggester for files"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Multi-suggester for tags",
+                    "target": "Multi-suggester for tags"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Reuse value from multi-suggester",
+                    "target": "Reuse value from multi-suggester"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Daily quote",
+                    "target": "Daily quote"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Random picture",
+                    "target": "Random picture"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Random picture with size",
+                    "target": "Random picture with size"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Random picture with size and query",
+                    "target": "Random picture with size and query"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Simple request",
+                    "target": "Simple request"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Request with path",
+                    "target": "Request with path"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Check console for more information",
+                    "target": "Check console for more information"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Warning: ",
+                    "target": "Warning: "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Parameter list:",
+                    "target": "Parameter list:"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "error(\"Failed to parse summary section\")",
+                    "target": "error(\"Failed to parse summary section\")"
+                },
+                {
+                    "source": "setPlaceholder(\"Example: folder1/folder2\")",
+                    "target": "setPlaceholder(\"Example: folder1/folder2\")"
+                },
+                {
+                    "source": "setName(\"Internal variables and functions\")",
+                    "target": "setName(\"Internal variables and functions\")"
+                },
+                {
+                    "source": "setName(\"Syntax highlighting on desktop\")",
+                    "target": "setName(\"Syntax highlighting on desktop\")"
+                },
+                {
+                    "source": "setName(\"Syntax highlighting on mobile\")",
+                    "target": "setName(\"Syntax highlighting on mobile\")"
+                },
+                {
+                    "source": "setName(\"Automatic jump to cursor\")",
+                    "target": "setName(\"Automatic jump to cursor\")"
+                },
+                {
+                    "source": "setTooltip(\"Configure Hotkey\")",
+                    "target": "setTooltip(\"Configure Hotkey\")"
+                },
+                {
+                    "source": "setTooltip(\"Move up\")",
+                    "target": "setTooltip(\"Move up\")"
+                },
+                {
+                    "source": "setTooltip(\"Move down\")",
+                    "target": "setTooltip(\"Move down\")"
+                },
+                {
+                    "source": "setPlaceholder(\"File regex\")",
+                    "target": "setPlaceholder(\"File regex\")"
+                },
+                {
+                    "source": "setButtonText(\"Add new file regex\")",
+                    "target": "setButtonText(\"Add new file regex\")"
+                },
+                {
+                    "source": "setTooltip(\"Add additional file regex\")",
+                    "target": "setTooltip(\"Add additional file regex\")"
+                },
+                {
+                    "source": "setName(\"User script functions\")",
+                    "target": "setName(\"User script functions\")"
+                },
+                {
+                    "source": "setName(\"Script files folder location\")",
+                    "target": "setName(\"Script files folder location\")"
+                },
+                {
+                    "source": "setName(\"User script intellisense\")",
+                    "target": "setName(\"User script intellisense\")"
+                },
+                {
+                    "source": "setDesc(\"Determine how you'd like to have user script intellisense render. Note values will not render if not in the script.\")",
+                    "target": "setDesc(\"Determine how you'd like to have user script intellisense render. Note values will not render if not in the script.\")"
+                },
+                {
+                    "source": "setName(\"Shell binary location\")",
+                    "target": "setName(\"Shell binary location\")"
+                },
+                {
+                    "source": "setPlaceholder(\"Example: /bin/bash, ...\")",
+                    "target": "setPlaceholder(\"Example: /bin/bash, ...\")"
+                },
+                {
+                    "source": "setPlaceholder(\"Function name\")",
+                    "target": "setPlaceholder(\"Function name\")"
+                },
+                {
+                    "source": "setButtonText(\"Add new user function\")",
+                    "target": "setButtonText(\"Add new user function\")"
+                },
+                {
+                    "source": "setDesc(\"If you like this Plugin, consider donating to support continued development.\")",
+                    "target": "setDesc(\"If you like this Plugin, consider donating to support continued development.\")"
+                },
+                {
+                    "source": "setPlaceholder(\"Type text here\")",
+                    "target": "setPlaceholder(\"Type text here\")"
+                },
+                {
+                    "source": "text:\"Check console for more information\"",
+                    "target": "text:\"Check console for more information\""
+                },
+                {
+                    "source": "name: \"+r);for(var i=0,o=t;i<o.length;i++){var a=o[i];if(!n._nodeKindRegExp.test(a.docNodeKind))throw new Error(\"",
+                    "target": "name: \"+r);for(var i=0,o=t;i<o.length;i++){var a=o[i];if(!n._nodeKindRegExp.test(a.docNodeKind))throw new Error(\""
+                },
+                {
+                    "source": "name: \"+m:\"",
+                    "target": "name: \"+m:\""
+                },
+                {
+                    "source": "name: \",a);var l=this._tryReadSpacingAndNewlines(e);if(e.peekTokenKind()!==u.GreaterThan){var c=this._createFailureForToken(e,v.HtmlTagMissingGreaterThan,'Expecting a closing \"",
+                    "target": "name: \",a);var l=this._tryReadSpacingAndNewlines(e);if(e.peekTokenKind()!==u.GreaterThan){var c=this._createFailureForToken(e,v.HtmlTagMissingGreaterThan,'Expecting a closing \""
+                },
+                {
+                    "source": "text:\"Warning: \"",
+                    "target": "text:\"Warning: \""
+                },
+                {
+                    "source": "text:\"User function n\\xB0\"",
+                    "target": "text:\"User function n\\xB0\""
+                },
+                {
+                    "source": "name:\"Jump to next cursor location\"",
+                    "target": "name:\"Jump to next cursor location\""
+                },
+                {
+                    "source": "name:`Insert ${i}`",
+                    "target": "name:`Insert ${i}`"
+                },
+                {
+                    "source": "name:`Create ${i}`",
+                    "target": "name:`Create ${i}`"
+                },
+                {
+                    "source": "description:\"This module exposes the app instance. Prefer to use this over the global app instance.\"",
+                    "target": "description:\"This module exposes the app instance. Prefer to use this over the global app instance.\""
+                },
+                {
+                    "source": "description:\"This module exposes custom made scripts, written by yourself within the script file folder location\"",
+                    "target": "description:\"This module exposes custom made scripts, written by yourself within the script file folder location\""
+                },
+                {
+                    "source": "description:\"This module contains every internal function related to dates.\"",
+                    "target": "description:\"This module contains every internal function related to dates.\""
+                },
+                {
+                    "source": "description:\"Retrieves the date.\"",
+                    "target": "description:\"Retrieves the date.\""
+                },
+                {
+                    "source": "description:'The format for the date. Defaults to `\"YYYY-MM-DD\"`. Refer to [format reference](https://momentjs.com/docs/#/displaying/format/).'",
+                    "target": "description:'The format for the date. Defaults to `\"YYYY-MM-DD\"`. Refer to [format reference](https://momentjs.com/docs/#/displaying/format/).'"
+                },
+                {
+                    "source": "description:\"Duration to offset the date from. If a number is provided, duration will be added to the date in days. You can also specify the offset as a string using the ISO 8601 format.\"",
+                    "target": "description:\"Duration to offset the date from. If a number is provided, duration will be added to the date in days. You can also specify the offset as a string using the ISO 8601 format.\""
+                },
+                {
+                    "source": "description:\"The date referential, e.g. set this to the note's title.\"",
+                    "target": "description:\"The date referential, e.g. set this to the note's title.\""
+                },
+                {
+                    "source": "description:\"The format for the reference date. Refer to [format reference](https://momentjs.com/docs/#/displaying/format/).\"",
+                    "target": "description:\"The format for the reference date. Refer to [format reference](https://momentjs.com/docs/#/displaying/format/).\""
+                },
+                {
+                    "source": "name:\"Date now\"",
+                    "target": "name:\"Date now\""
+                },
+                {
+                    "source": "name:\"Date now with format\"",
+                    "target": "name:\"Date now with format\""
+                },
+                {
+                    "source": "name:\"Last week\"",
+                    "target": "name:\"Last week\""
+                },
+                {
+                    "source": "name:\"Next week\"",
+                    "target": "name:\"Next week\""
+                },
+                {
+                    "source": "name:\"Last month\"",
+                    "target": "name:\"Last month\""
+                },
+                {
+                    "source": "name:\"Next year\"",
+                    "target": "name:\"Next year\""
+                },
+                {
+                    "source": "name:\"File's title date + 1 day (tomorrow)\"",
+                    "target": "name:\"File's title date + 1 day (tomorrow)\""
+                },
+                {
+                    "source": "name:\"File's title date - 1 day (yesterday)\"",
+                    "target": "name:\"File's title date - 1 day (yesterday)\""
+                },
+                {
+                    "source": "description:\"Retrieves tomorrow's date.\"",
+                    "target": "description:\"Retrieves tomorrow's date.\""
+                },
+                {
+                    "source": "name:\"Date tomorrow\"",
+                    "target": "name:\"Date tomorrow\""
+                },
+                {
+                    "source": "name:\"Date tomorrow with format\"",
+                    "target": "name:\"Date tomorrow with format\""
+                },
+                {
+                    "source": "description:\"Retrieves yesterday's date.\"",
+                    "target": "description:\"Retrieves yesterday's date.\""
+                },
+                {
+                    "source": "name:\"Date yesterday\"",
+                    "target": "name:\"Date yesterday\""
+                },
+                {
+                    "source": "name:\"Date yesterday with format\"",
+                    "target": "name:\"Date yesterday with format\""
+                },
+                {
+                    "source": "description:\"Week day number. If the locale assigns Monday as the first day of the week, `0` will be Monday, `-7` will be last week's day.\"",
+                    "target": "description:\"Week day number. If the locale assigns Monday as the first day of the week, `0` will be Monday, `-7` will be last week's day.\""
+                },
+                {
+                    "source": "name:\"This week's Monday\"",
+                    "target": "name:\"This week's Monday\""
+                },
+                {
+                    "source": "name:\"Next Monday\"",
+                    "target": "name:\"Next Monday\""
+                },
+                {
+                    "source": "name:\"File's title Monday\"",
+                    "target": "name:\"File's title Monday\""
+                },
+                {
+                    "source": "name:\"File's title previous Monday\"",
+                    "target": "name:\"File's title previous Monday\""
+                },
+                {
+                    "source": "name:\"Get start of month from note title\"",
+                    "target": "name:\"Get start of month from note title\""
+                },
+                {
+                    "source": "name:\"Get end of month from note title\"",
+                    "target": "name:\"Get end of month from note title\""
+                },
+                {
+                    "source": "description:\"This module contains every internal function related to files.\"",
+                    "target": "description:\"This module contains every internal function related to files.\""
+                },
+                {
+                    "source": "name:\"Retrieve file content\"",
+                    "target": "name:\"Retrieve file content\""
+                },
+                {
+                    "source": "description:'The filename of the new file, defaults to \"Untitled\".'",
+                    "target": "description:'The filename of the new file, defaults to \"Untitled\".'"
+                },
+                {
+                    "source": "description:\"Whether to open or not the newly created file. Warning: if you use this option, since commands are executed asynchronously, the file can be opened first and then other commands are appended to that new file and not the previous file.\"",
+                    "target": "description:\"Whether to open or not the newly created file. Warning: if you use this option, since commands are executed asynchronously, the file can be opened first and then other commands are appended to that new file and not the previous file.\""
+                },
+                {
+                    "source": "description:'The folder to put the new file in, defaults to Obsidian\\'",
+                    "target": "description:'The folder to put the new file in, defaults to Obsidian\\'"
+                },
+                {
+                    "source": "name:\"File creation\"",
+                    "target": "name:\"File creation\""
+                },
+                {
+                    "source": "name:\"File creation and open created note\"",
+                    "target": "name:\"File creation and open created note\""
+                },
+                {
+                    "source": "name:\"File creation in current folder\"",
+                    "target": "name:\"File creation in current folder\""
+                },
+                {
+                    "source": "name:\"File creation in specified folder with string path\"",
+                    "target": "name:\"File creation in specified folder with string path\""
+                },
+                {
+                    "source": "name:\"File creation in specified folder with TFolder\"",
+                    "target": "name:\"File creation in specified folder with TFolder\""
+                },
+                {
+                    "source": "name:\"File creation and append link to current note\"",
+                    "target": "name:\"File creation and append link to current note\""
+                },
+                {
+                    "source": "description:\"Retrieves the file's creation date.\"",
+                    "target": "description:\"Retrieves the file's creation date.\""
+                },
+                {
+                    "source": "description:'The format for the date. Defaults to `\"YYYY-MM-DD HH:mm\"`. Refer to [format reference](https://momentjs.com/docs/#/displaying/format/).'",
+                    "target": "description:'The format for the date. Defaults to `\"YYYY-MM-DD HH:mm\"`. Refer to [format reference](https://momentjs.com/docs/#/displaying/format/).'"
+                },
+                {
+                    "source": "name:\"File creation date\"",
+                    "target": "name:\"File creation date\""
+                },
+                {
+                    "source": "name:\"File creation date with format\"",
+                    "target": "name:\"File creation date with format\""
+                },
+                {
+                    "source": "description:`The order of the different cursors jump, e.g. it will jump from 1 to 2 to 3, and so on.\nIf you specify multiple tp.file.cursor with the same order, the editor will switch to multi-cursor.\n`",
+                    "target": "description:`The order of the different cursors jump, e.g. it will jump from 1 to 2 to 3, and so on.\nIf you specify multiple tp.file.cursor with the same order, the editor will switch to multi-cursor.\n`"
+                },
+                {
+                    "source": "name:\"File cursor\"",
+                    "target": "name:\"File cursor\""
+                },
+                {
+                    "source": "name:\"File multi-cursor\"",
+                    "target": "name:\"File multi-cursor\""
+                },
+                {
+                    "source": "description:\"Appends some content after the active cursor in the file.\"",
+                    "target": "description:\"Appends some content after the active cursor in the file.\""
+                },
+                {
+                    "source": "description:\"The content to append after the active cursor.\"",
+                    "target": "description:\"The content to append after the active cursor.\""
+                },
+                {
+                    "source": "name:\"File cursor append\"",
+                    "target": "name:\"File cursor append\""
+                },
+                {
+                    "source": "description:\"Check to see if a file exists by it's file path. The full path to the file, relative to the Vault and containing the extension, must be provided.\"",
+                    "target": "description:\"Check to see if a file exists by it's file path. The full path to the file, relative to the Vault and containing the extension, must be provided.\""
+                },
+                {
+                    "source": "description:\"The full file path of the file we want to check existence for.\"",
+                    "target": "description:\"The full file path of the file we want to check existence for.\""
+                },
+                {
+                    "source": "name:\"File existence\"",
+                    "target": "name:\"File existence\""
+                },
+                {
+                    "source": "name:\"File existence of current file\"",
+                    "target": "name:\"File existence of current file\""
+                },
+                {
+                    "source": "description:\"Search for a file and returns its `TFile` instance.\"",
+                    "target": "description:\"Search for a file and returns its `TFile` instance.\""
+                },
+                {
+                    "source": "description:\"The filename we want to search and resolve as a `TFile`.\"",
+                    "target": "description:\"The filename we want to search and resolve as a `TFile`.\""
+                },
+                {
+                    "source": "name:\"File find TFile\"",
+                    "target": "name:\"File find TFile\""
+                },
+                {
+                    "source": "description:\"Retrieves the file's folder name.\"",
+                    "target": "description:\"Retrieves the file's folder name.\""
+                },
+                {
+                    "source": "description:\"If set to `true`, returns the vault-absolute path of the folder. If `false`, only returns the basename of the folder (the last part). Defaults to `false`.\"",
+                    "target": "description:\"If set to `true`, returns the vault-absolute path of the folder. If `false`, only returns the basename of the folder (the last part). Defaults to `false`.\""
+                },
+                {
+                    "source": "name:\"File folder (Folder)\"",
+                    "target": "name:\"File folder (Folder)\""
+                },
+                {
+                    "source": "name:\"File folder with vault-absolute path (Path/To/Folder)\"",
+                    "target": "name:\"File folder with vault-absolute path (Path/To/Folder)\""
+                },
+                {
+                    "source": "description:'The link to the file to include, e.g. `\"[[MyFile]]\"`, or a TFile object. Also supports sections or blocks inclusions.'",
+                    "target": "description:'The link to the file to include, e.g. `\"[[MyFile]]\"`, or a TFile object. Also supports sections or blocks inclusions.'"
+                },
+                {
+                    "source": "name:\"File include\"",
+                    "target": "name:\"File include\""
+                },
+                {
+                    "source": "name:\"File include TFile\"",
+                    "target": "name:\"File include TFile\""
+                },
+                {
+                    "source": "name:\"File include section\"",
+                    "target": "name:\"File include section\""
+                },
+                {
+                    "source": "name:\"File include block\"",
+                    "target": "name:\"File include block\""
+                },
+                {
+                    "source": "description:\"Retrieves the file's last modification date.\"",
+                    "target": "description:\"Retrieves the file's last modification date.\""
+                },
+                {
+                    "source": "name:\"File last modified date\"",
+                    "target": "name:\"File last modified date\""
+                },
+                {
+                    "source": "name:\"File last modified date with format\"",
+                    "target": "name:\"File last modified date with format\""
+                },
+                {
+                    "source": "description:\"Moves the file to the desired vault location.\"",
+                    "target": "description:\"Moves the file to the desired vault location.\""
+                },
+                {
+                    "source": "description:'The new vault relative path of the file, without the file extension. Note: the new path needs to include the folder and the filename, e.g. `\"/Notes/MyNote\"`.'",
+                    "target": "description:'The new vault relative path of the file, without the file extension. Note: the new path needs to include the folder and the filename, e.g. `\"/Notes/MyNote\"`.'"
+                },
+                {
+                    "source": "description:\"The file to move, defaults to the current file.\"",
+                    "target": "description:\"The file to move, defaults to the current file.\""
+                },
+                {
+                    "source": "name:\"File move\"",
+                    "target": "name:\"File move\""
+                },
+                {
+                    "source": "name:\"File move and rename\"",
+                    "target": "name:\"File move and rename\""
+                },
+                {
+                    "source": "description:\"If set to `true`, only retrieves the vault's relative path.\"",
+                    "target": "description:\"If set to `true`, only retrieves the vault's relative path.\""
+                },
+                {
+                    "source": "name:\"File path\"",
+                    "target": "name:\"File path\""
+                },
+                {
+                    "source": "name:\"File relative path (relative to vault root)\"",
+                    "target": "name:\"File relative path (relative to vault root)\""
+                },
+                {
+                    "source": "description:\"Renames the file (keeps the same file extension).\"",
+                    "target": "description:\"Renames the file (keeps the same file extension).\""
+                },
+                {
+                    "source": "description:\"The new file title.\"",
+                    "target": "description:\"The new file title.\""
+                },
+                {
+                    "source": "name:\"File rename\"",
+                    "target": "name:\"File rename\""
+                },
+                {
+                    "source": "name:\"File append a 2 to the file name\"",
+                    "target": "name:\"File append a 2 to the file name\""
+                },
+                {
+                    "source": "description:\"Retrieves the active file's text selection.\"",
+                    "target": "description:\"Retrieves the active file's text selection.\""
+                },
+                {
+                    "source": "name:\"File selection\"",
+                    "target": "name:\"File selection\""
+                },
+                {
+                    "source": "description:\"Retrieves the file's tags (array of string).\"",
+                    "target": "description:\"Retrieves the file's tags (array of string).\""
+                },
+                {
+                    "source": "name:\"File tags\"",
+                    "target": "name:\"File tags\""
+                },
+                {
+                    "source": "description:\"Retrieves the file's title.\"",
+                    "target": "description:\"Retrieves the file's title.\""
+                },
+                {
+                    "source": "name:\"File title\"",
+                    "target": "name:\"File title\""
+                },
+                {
+                    "source": "name:\"Strip the Zettelkasten ID of title (if space separated)\"",
+                    "target": "name:\"Strip the Zettelkasten ID of title (if space separated)\""
+                },
+                {
+                    "source": "description:\"This modules exposes all the frontmatter variables of a file as variables.\"",
+                    "target": "description:\"This modules exposes all the frontmatter variables of a file as variables.\""
+                },
+                {
+                    "source": "description:\"This module exposes all the functions and classes from the Obsidian API.\"",
+                    "target": "description:\"This module exposes all the functions and classes from the Obsidian API.\""
+                },
+                {
+                    "source": "description:\"Retrieves the clipboard's content.\"",
+                    "target": "description:\"Retrieves the clipboard's content.\""
+                },
+                {
+                    "source": "description:\"Spawns a prompt modal and returns the user's input.\"",
+                    "target": "description:\"Spawns a prompt modal and returns the user's input.\""
+                },
+                {
+                    "source": "description:\"Text placed above the input field.\"",
+                    "target": "description:\"Text placed above the input field.\""
+                },
+                {
+                    "source": "description:\"A default value for the input field.\"",
+                    "target": "description:\"A default value for the input field.\""
+                },
+                {
+                    "source": "description:\"Throws an error if the prompt is canceled, instead of returning a `null` value.\"",
+                    "target": "description:\"Throws an error if the prompt is canceled, instead of returning a `null` value.\""
+                },
+                {
+                    "source": "description:\"If set to `true`, the input field will be a multiline textarea. Defaults to `false`.\"",
+                    "target": "description:\"If set to `true`, the input field will be a multiline textarea. Defaults to `false`.\""
+                },
+                {
+                    "source": "name:\"Prompt with default value\"",
+                    "target": "name:\"Prompt with default value\""
+                },
+                {
+                    "source": "name:\"Multiline prompt\"",
+                    "target": "name:\"Multiline prompt\""
+                },
+                {
+                    "source": "name:\"Reuse output from prompt\"",
+                    "target": "name:\"Reuse output from prompt\""
+                },
+                {
+                    "source": "description:\"Placeholder string of the prompt.\"",
+                    "target": "description:\"Placeholder string of the prompt.\""
+                },
+                {
+                    "source": "name:\"Suggester with mapping function (same as above example)\"",
+                    "target": "name:\"Suggester with mapping function (same as above example)\""
+                },
+                {
+                    "source": "name:\"Suggester for files\"",
+                    "target": "name:\"Suggester for files\""
+                },
+                {
+                    "source": "name:\"Suggester for tags\"",
+                    "target": "name:\"Suggester for tags\""
+                },
+                {
+                    "source": "name:\"Reuse value from suggester\"",
+                    "target": "name:\"Reuse value from suggester\""
+                },
+                {
+                    "source": "description:\"Text placed at the top of the modal.\"",
+                    "target": "description:\"Text placed at the top of the modal.\""
+                },
+                {
+                    "source": "name:\"Multi-suggester with mapping function (same as above example)\"",
+                    "target": "name:\"Multi-suggester with mapping function (same as above example)\""
+                },
+                {
+                    "source": "name:\"Multi-suggester for files\"",
+                    "target": "name:\"Multi-suggester for files\""
+                },
+                {
+                    "source": "name:\"Multi-suggester for tags\"",
+                    "target": "name:\"Multi-suggester for tags\""
+                },
+                {
+                    "source": "name:\"Reuse value from multi-suggester\"",
+                    "target": "name:\"Reuse value from multi-suggester\""
+                },
+                {
+                    "source": "description:\"This modules contains every internal function related to the web (making web requests).\"",
+                    "target": "description:\"This modules contains every internal function related to the web (making web requests).\""
+                },
+                {
+                    "source": "description:\"Retrieves and parses the daily quote from `https://github.com/Zachatoo/quotes-database` as a callout.\"",
+                    "target": "description:\"Retrieves and parses the daily quote from `https://github.com/Zachatoo/quotes-database` as a callout.\""
+                },
+                {
+                    "source": "name:\"Daily quote\"",
+                    "target": "name:\"Daily quote\""
+                },
+                {
+                    "source": "description:\"Gets a random image from `https://unsplash.com/`.\"",
+                    "target": "description:\"Gets a random image from `https://unsplash.com/`.\""
+                },
+                {
+                    "source": "description:\"Image size in the format `<width>x<height>`.\"",
+                    "target": "description:\"Image size in the format `<width>x<height>`.\""
+                },
+                {
+                    "source": "description:\"Limits selection to photos matching a search term. Multiple search terms can be passed separated by a comma.\"",
+                    "target": "description:\"Limits selection to photos matching a search term. Multiple search terms can be passed separated by a comma.\""
+                },
+                {
+                    "source": "description:\"Optional argument to include the specified size in the image link markdown. Defaults to false.\"",
+                    "target": "description:\"Optional argument to include the specified size in the image link markdown. Defaults to false.\""
+                },
+                {
+                    "source": "name:\"Random picture\"",
+                    "target": "name:\"Random picture\""
+                },
+                {
+                    "source": "name:\"Random picture with size\"",
+                    "target": "name:\"Random picture with size\""
+                },
+                {
+                    "source": "name:\"Random picture with size and query\"",
+                    "target": "name:\"Random picture with size and query\""
+                },
+                {
+                    "source": "description:\"Makes a HTTP request to the specified URL. Optionally, you can specify a path to extract specific data from the response.\"",
+                    "target": "description:\"Makes a HTTP request to the specified URL. Optionally, you can specify a path to extract specific data from the response.\""
+                },
+                {
+                    "source": "description:\"The URL to which the HTTP request will be made.\"",
+                    "target": "description:\"The URL to which the HTTP request will be made.\""
+                },
+                {
+                    "source": "description:\"A path within the response JSON to extract specific data.\"",
+                    "target": "description:\"A path within the response JSON to extract specific data.\""
+                },
+                {
+                    "source": "name:\"Simple request\"",
+                    "target": "name:\"Simple request\""
+                },
+                {
+                    "source": "name:\"Request with path\"",
+                    "target": "name:\"Request with path\""
+                },
+                {
+                    "source": "text:\"Parameter list:\"",
+                    "target": "text:\"Parameter list:\""
+                }
+            ]
+        }
+    }
+}
