@@ -1,0 +1,46 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "translate",
+        "version": "1.0.0",
+        "title": "[zh-cn] Translate (Fevol)",
+        "description": "Translate (Fevol) 插件汉化",
+        "language": "zh-cn",
+        "supportedVersions": "*",
+        "author": "Antigravity"
+    },
+    "dict": {
+        "main.js": {
+            "regex": [
+                {
+                    "source": "setPlaceholder(\"Select a translation service\")",
+                    "target": "setPlaceholder(\"选择翻译服务\")"
+                },
+                {
+                    "source": "setPlaceholder(\"Translate to...\")",
+                    "target": "setPlaceholder(\"翻译为...\")"
+                },
+                {
+                    "source": "textContent=\"Password:\"",
+                    "target": "textContent=\"密码:\""
+                },
+                {
+                    "source": "textContent=\"Submit\"",
+                    "target": "textContent=\"提交\""
+                },
+                {
+                    "source": "Notice(\"No file was selected\")",
+                    "target": "Notice(\"未选择文件\")"
+                },
+                {
+                    "source": "Notice(\"Selected file is empty\")",
+                    "target": "Notice(\"选定的文件为空\")"
+                },
+                {
+                    "source": "Notice(\"No translation service available\")",
+                    "target": "Notice(\"没有可用的翻译服务\")"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "copilot",
+        "version": "1.0.0",
+        "title": "[zh-cn] Copilot",
+        "description": "Copilot 插件汉化",
+        "language": "zh-cn",
+        "supportedVersions": "*",
+        "author": "Antigravity"
+    },
+    "dict": {
+        "main.js": {
+            "regex": [
+                {
+                    "source": "setName(\"Copilot\")",
+                    "target": "setName(\"Copilot 侧边栏\")"
+                },
+                {
+                    "source": "setDesc(\"Open Copilot side pane\")",
+                    "target": "setDesc(\"打开 Copilot 侧边栏\")"
+                },
+                {
+                    "source": "Notice(\"No active leaf found.\")",
+                    "target": "Notice(\"未找到活动页面。\")"
+                },
+                {
+                    "source": "Notice(\"Failed to open a markdown view.\")",
+                    "target": "Notice(\"无法打开 Markdown 视图。\")"
+                },
+                {
+                    "source": "Notice(\"Amazon Bedrock API key is missing. Please add a key in 设置 > API Keys or update the model configuration.\")",
+                    "target": "Notice(\"缺少 Amazon Bedrock API 密钥。请在 设置 > API 密钥 中添加，或更新模型配置。\")"
+                },
+                {
+                    "source": "Notice(\"GitHub Copilot is not authenticated. Please connect it in 设置 > Copilot > Basic Tab > Set Keys.\")",
+                    "target": "Notice(\"GitHub Copilot 未认证。请在 设置 > Copilot > 基础选项卡 > 设置密钥 中连接。\")"
+                },
+                {
+                    "source": "Notice(`Please configure API 密钥 for ${t.name} in settings first.\")",
+                    "target": "Notice(`请先在设置中为 ${t.name} 配置 API 密钥。`)"
+                }
+            ]
+        }
+    }
+}

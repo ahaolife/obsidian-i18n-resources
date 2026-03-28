@@ -1,0 +1,50 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "smart-connections",
+        "version": "1.0.0",
+        "title": "[zh-cn] Smart Connections",
+        "description": "Smart Connections 插件汉化",
+        "language": "zh-cn",
+        "supportedVersions": "*",
+        "author": "Antigravity"
+    },
+    "dict": {
+        "main.js": {
+            "regex": [
+                {
+                    "source": "setName(\"Connect account\")",
+                    "target": "setName(\"连接账户\")"
+                },
+                {
+                    "source": "setDesc(\"Log in with the key provided in your Pro welcome email.\")",
+                    "target": "setDesc(\"使用 Pro 欢迎邮件中提供的密钥登录。\")"
+                },
+                {
+                    "source": "setName(\"Referral link\")",
+                    "target": "setName(\"推荐链接\")"
+                },
+                {
+                    "source": "setDesc(\"Share your link to give $30 off Pro and earn 30 days of Pro credit.\")",
+                    "target": "setDesc(\"分享您的链接以提供 $30 的 Pro 优惠，并赚取 30 天的 Pro 额度。\")"
+                },
+                {
+                    "source": "setName(\"Subscription Expired\")",
+                    "target": "setName(\"订阅已过期\")"
+                },
+                {
+                    "source": "setDesc(\"Your Smart Connections Pro subscription has expired. Please update your subscription to retain access to Pro plugins.\")",
+                    "target": "setDesc(\"您的 Smart Connections Pro 订阅已过期。请更新您的订阅以保留对 Pro 插件的访问权限。\")"
+                },
+                {
+                    "source": "Notice(\"No active note found\")",
+                    "target": "Notice(\"未找到活动笔记\")"
+                },
+                {
+                    "source": "Notice(\"Copied connections as list of links\")",
+                    "target": "Notice(\"已将连接复制为链接列表\")"
+                }
+            ]
+        }
+    }
+}

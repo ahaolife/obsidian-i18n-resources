@@ -1,0 +1,54 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-style-settings",
+        "version": "1.0.0",
+        "title": "[zh-cn] Style Settings",
+        "description": "Style Settings 插件汉化",
+        "language": "zh-cn",
+        "supportedVersions": "*",
+        "author": "Antigravity"
+    },
+    "dict": {
+        "main.js": {
+            "regex": [
+                {
+                    "source": "setName(`Export settings for: ${this.section}`)",
+                    "target": "setName(`导出设置: ${this.section}`)"
+                },
+                {
+                    "source": "text:\"Copy to clipboard\"",
+                    "target": "text:\"复制到剪贴板\""
+                },
+                {
+                    "source": "text:\"Download\"",
+                    "target": "text:\"下载\""
+                },
+                {
+                    "source": "setName(\"Import style setting\")",
+                    "target": "setName(\"导入样式设置\")"
+                },
+                {
+                    "source": "setDesc(\"Import an entire or partial configuration. Warning: this may override existing settings\")",
+                    "target": "setDesc(\"导入全部或部分配置。警告：这可能会覆盖现有设置\")"
+                },
+                {
+                    "source": "text:\"Import from file\"",
+                    "target": "text:\"从文件导入\""
+                },
+                {
+                    "source": "setPlaceholder(\"Paste config here...\")",
+                    "target": "setPlaceholder(\"在此处粘贴配置...\")"
+                },
+                {
+                    "source": "setButtonText(\"Save\")",
+                    "target": "setButtonText(\"保存\")"
+                },
+                {
+                    "source": "setPlaceholder(\"Search Style Settings...\")",
+                    "target": "setPlaceholder(\"搜索样式设置...\")"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,496 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-banners",
+        "version": "1.0.0",
+        "title": "Banners",
+        "description": "Banners Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.3.3",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " in a file"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "core plugin"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Set a customizable frontmatter field to use for banner data."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "For example, the default value "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " will use the fields "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": ", "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": ", and so on..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Set a modifier key that must be used to drag a banner."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "For example, setting it to "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " means that you must hold down Shift as you drag the banner to move it. This can help to avoid accidental banner shifts."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Align the icon horizontally."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "If set to "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": ", you can set an offset, relative to the left side of the note. This can be any valid "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": ", such as "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Align the icon vertically, relative to a banner (if any)."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": ", you can set an offset, relative to the center of a banner's lower edge. This follows the same format as the setting above."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "This is only applied in the Icon modal and the banner icon in the preview view"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Show up to this many suggestions when searching through local images."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Using a high number while "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "is on can lead to some slowdowns"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Select a folder to exclusively search for banner files in."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Allow dragging the banner on mobile devices."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "App reload might be necessary"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "ERROR! Make sure that you set the "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " to a valid folder in the settings."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Loading Banners..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Unloading Banners..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set how big the banner should be in pixels"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set a style for all of your banners"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enabling this will display a preview of the images suggested"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Banner height"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Banner style"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Frontmatter field name"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Banner drag modifier key"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Horizontal alignment"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Vertical alignment"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show preview images"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Suggestions limit"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Banners folder"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Allow mobile drag"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Pick an image to use as a banner"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Pasted a new banner!"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Your clipboard didn't had a valid URL! Please try again (and check the console if you wanna debug)."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add/Change banner with local image"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Paste banner from clipboard"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Lock/Unlock banner position"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Page Preview "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "⇧ Shift"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "CSS length value"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "NOTE: "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Show preview images "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Banners folder"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "setName(\"Banner height\")",
+                    "target": "setName(\"Banner height\")"
+                },
+                {
+                    "source": "setDesc(\"Set how big the banner should be in pixels\")",
+                    "target": "setDesc(\"Set how big the banner should be in pixels\")"
+                },
+                {
+                    "source": "setName(\"Banner style\")",
+                    "target": "setName(\"Banner style\")"
+                },
+                {
+                    "source": "setDesc(\"Set a style for all of your banners\")",
+                    "target": "setDesc(\"Set a style for all of your banners\")"
+                },
+                {
+                    "source": "appendText(\" in a file\")",
+                    "target": "appendText(\" in a file\")"
+                },
+                {
+                    "source": "appendText(\"core plugin\")",
+                    "target": "appendText(\"core plugin\")"
+                },
+                {
+                    "source": "setName(\"Frontmatter field name\")",
+                    "target": "setName(\"Frontmatter field name\")"
+                },
+                {
+                    "source": "appendText(\"Set a customizable frontmatter field to use for banner data.\")",
+                    "target": "appendText(\"Set a customizable frontmatter field to use for banner data.\")"
+                },
+                {
+                    "source": "appendText(\"For example, the default value \")",
+                    "target": "appendText(\"For example, the default value \")"
+                },
+                {
+                    "source": "appendText(\" will use the fields \")",
+                    "target": "appendText(\" will use the fields \")"
+                },
+                {
+                    "source": "appendText(\", \")",
+                    "target": "appendText(\", \")"
+                },
+                {
+                    "source": "appendText(\", and so on...\")",
+                    "target": "appendText(\", and so on...\")"
+                },
+                {
+                    "source": "setName(\"Banner drag modifier key\")",
+                    "target": "setName(\"Banner drag modifier key\")"
+                },
+                {
+                    "source": "appendText(\"Set a modifier key that must be used to drag a banner.\")",
+                    "target": "appendText(\"Set a modifier key that must be used to drag a banner.\")"
+                },
+                {
+                    "source": "appendText(\"For example, setting it to \")",
+                    "target": "appendText(\"For example, setting it to \")"
+                },
+                {
+                    "source": "appendText(\" means that you must hold down Shift as you drag the banner to move it. This can help to avoid accidental banner shifts.\")",
+                    "target": "appendText(\" means that you must hold down Shift as you drag the banner to move it. This can help to avoid accidental banner shifts.\")"
+                },
+                {
+                    "source": "setName(\"Horizontal alignment\")",
+                    "target": "setName(\"Horizontal alignment\")"
+                },
+                {
+                    "source": "appendText(\"Align the icon horizontally.\")",
+                    "target": "appendText(\"Align the icon horizontally.\")"
+                },
+                {
+                    "source": "appendText(\"If set to \")",
+                    "target": "appendText(\"If set to \")"
+                },
+                {
+                    "source": "appendText(\", you can set an offset, relative to the left side of the note. This can be any valid \")",
+                    "target": "appendText(\", you can set an offset, relative to the left side of the note. This can be any valid \")"
+                },
+                {
+                    "source": "appendText(\", such as \")",
+                    "target": "appendText(\", such as \")"
+                },
+                {
+                    "source": "setName(\"Vertical alignment\")",
+                    "target": "setName(\"Vertical alignment\")"
+                },
+                {
+                    "source": "appendText(\"Align the icon vertically, relative to a banner (if any).\")",
+                    "target": "appendText(\"Align the icon vertically, relative to a banner (if any).\")"
+                },
+                {
+                    "source": "appendText(\", you can set an offset, relative to the center of a banner's lower edge. This follows the same format as the setting above.\")",
+                    "target": "appendText(\", you can set an offset, relative to the center of a banner's lower edge. This follows the same format as the setting above.\")"
+                },
+                {
+                    "source": "appendText(\"This is only applied in the Icon modal and the banner icon in the preview view\")",
+                    "target": "appendText(\"This is only applied in the Icon modal and the banner icon in the preview view\")"
+                },
+                {
+                    "source": "setName(\"Show preview images\")",
+                    "target": "setName(\"Show preview images\")"
+                },
+                {
+                    "source": "setDesc(\"Enabling this will display a preview of the images suggested\")",
+                    "target": "setDesc(\"Enabling this will display a preview of the images suggested\")"
+                },
+                {
+                    "source": "setName(\"Suggestions limit\")",
+                    "target": "setName(\"Suggestions limit\")"
+                },
+                {
+                    "source": "appendText(\"Show up to this many suggestions when searching through local images.\")",
+                    "target": "appendText(\"Show up to this many suggestions when searching through local images.\")"
+                },
+                {
+                    "source": "appendText(\"Using a high number while \")",
+                    "target": "appendText(\"Using a high number while \")"
+                },
+                {
+                    "source": "appendText(\"is on can lead to some slowdowns\")",
+                    "target": "appendText(\"is on can lead to some slowdowns\")"
+                },
+                {
+                    "source": "setName(\"Banners folder\")",
+                    "target": "setName(\"Banners folder\")"
+                },
+                {
+                    "source": "appendText(\"Select a folder to exclusively search for banner files in.\")",
+                    "target": "appendText(\"Select a folder to exclusively search for banner files in.\")"
+                },
+                {
+                    "source": "setName(\"Allow mobile drag\")",
+                    "target": "setName(\"Allow mobile drag\")"
+                },
+                {
+                    "source": "appendText(\"Allow dragging the banner on mobile devices.\")",
+                    "target": "appendText(\"Allow dragging the banner on mobile devices.\")"
+                },
+                {
+                    "source": "appendText(\"App reload might be necessary\")",
+                    "target": "appendText(\"App reload might be necessary\")"
+                },
+                {
+                    "source": "setPlaceholder(\"Pick an image to use as a banner\")",
+                    "target": "setPlaceholder(\"Pick an image to use as a banner\")"
+                },
+                {
+                    "source": "appendText(\"ERROR! Make sure that you set the \")",
+                    "target": "appendText(\"ERROR! Make sure that you set the \")"
+                },
+                {
+                    "source": "appendText(\" to a valid folder in the settings.\")",
+                    "target": "appendText(\" to a valid folder in the settings.\")"
+                },
+                {
+                    "source": "log(\"Loading Banners...\")",
+                    "target": "log(\"Loading Banners...\")"
+                },
+                {
+                    "source": "log(\"Unloading Banners...\")",
+                    "target": "log(\"Unloading Banners...\")"
+                },
+                {
+                    "source": "Notice(\"Pasted a new banner!\")",
+                    "target": "Notice(\"Pasted a new banner!\")"
+                },
+                {
+                    "source": "Notice(\"Your clipboard didn't had a valid URL! Please try again (and check the console if you wanna debug).\")",
+                    "target": "Notice(\"Your clipboard didn't had a valid URL! Please try again (and check the console if you wanna debug).\")"
+                },
+                {
+                    "source": "Notice(`Unlocked banner position for ${u.name}!`)",
+                    "target": "Notice(`Unlocked banner position for ${u.name}!`)"
+                },
+                {
+                    "source": "Notice(`Locked banner position for ${u.name}!`)",
+                    "target": "Notice(`Locked banner position for ${u.name}!`)"
+                },
+                {
+                    "source": "text:\"Page Preview \"",
+                    "target": "text:\"Page Preview \""
+                },
+                {
+                    "source": "text:\"\\u21E7 Shift\"",
+                    "target": "text:\"\\u21E7 Shift\""
+                },
+                {
+                    "source": "text:\"CSS length value\"",
+                    "target": "text:\"CSS length value\""
+                },
+                {
+                    "source": "text:\"NOTE: \"",
+                    "target": "text:\"NOTE: \""
+                },
+                {
+                    "source": "text:\"Show preview images \"",
+                    "target": "text:\"Show preview images \""
+                },
+                {
+                    "source": "text:\"Banners folder\"",
+                    "target": "text:\"Banners folder\""
+                },
+                {
+                    "source": "name:\"Add/Change banner with local image\"",
+                    "target": "name:\"Add/Change banner with local image\""
+                },
+                {
+                    "source": "name:\"Paste banner from clipboard\"",
+                    "target": "name:\"Paste banner from clipboard\""
+                },
+                {
+                    "source": "name:\"Lock/Unlock banner position\"",
+                    "target": "name:\"Lock/Unlock banner position\""
+                }
+            ]
+        }
+    }
+}
